@@ -243,7 +243,7 @@ jobs:
             --label "promoted"
 
       - name: Comment on Source Issue
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             const targetOrg = '${{ steps.parse.outputs.target_org }}';
