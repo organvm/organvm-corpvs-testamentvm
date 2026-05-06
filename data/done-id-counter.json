@@ -1,11 +1,11 @@
 {
-  "next_id": 524,
-  "last_claimed_by": "S-2026-04-30-sovereign-systems-closeout",
-  "last_claimed_at": "2026-04-30",
+  "next_id": 526,
+  "last_claimed_by": "S-2026-05-05-skills-shipping",
+  "last_claimed_at": "2026-05-05",
   "claimed_range": [
-    522,
-    523
+    524,
+    525
   ],
-  "note": "Sovereign Systems closeout claims DONE-522..523 for IRF-III-033 and IRF-III-034 after GitHub issues #57 and #56 were closed on 2026-04-30 with main-branch commits and proof artifacts.",
+  "note": "Skills-shipping closeout claims DONE-524..525 for IRF-SKL-003 (premortem skill) and IRF-SKL-004 (expansive-inquiry skill) after a-i--skills PR #18 opened on 2026-05-05 with all 4 CI checks green.",
   "protocol": "CLAIM-BEFORE-USE: git pull, read next_id, increment by count needed, commit+push THIS FILE, then assign IDs. If push fails (non-fast-forward), pull, re-read, retry. Never assign DONE-NNN without claiming here first."
 }
