@@ -3065,3 +3065,43 @@
 ### c1d5d871-aabf-46a6-a829-1228b9c2c270
 **Captured:** 2026-05-05T14:48:13 | **Prompts:** 176
 **Archive:** `data/prompt-registry/sessions/c1d5d871-aabf-46a6-a829-1228b9c2c270-prompts.md`
+
+### 350b29ba-1035-4344-b851-0856e076e685
+**Captured:** 2026-05-10T17:41:09 | **Prompts:** 4
+**Archive:** `data/prompt-registry/sessions/350b29ba-1035-4344-b851-0856e076e685-prompts.md`
+
+
+### 30f91733-d651-4a90-afc1-52968a6ad8e2
+**Captured:** 2026-05-10T17:41:09 | **Prompts:** 5
+**Archive:** `data/prompt-registry/sessions/30f91733-d651-4a90-afc1-52968a6ad8e2-prompts.md`
+
+
+### 036c789e-b3e2-4a43-b9cf-20aab25daabb
+**Captured:** 2026-05-10T17:41:09 | **Prompts:** 6
+**Archive:** `data/prompt-registry/sessions/036c789e-b3e2-4a43-b9cf-20aab25daabb-prompts.md`
+
+
+### 6619216b-6f36-4ddd-8489-5e8f1eeb0430
+**Captured:** 2026-05-10T17:41:10 | **Prompts:** 14
+**Archive:** `data/prompt-registry/sessions/6619216b-6f36-4ddd-8489-5e8f1eeb0430-prompts.md`
+
+
+### 4443cea1-28ac-42bd-892e-06cdea9a0a97
+**Captured:** 2026-05-10T17:59:34 | **Prompts:** 3
+**Archive:** `data/prompt-registry/sessions/4443cea1-28ac-42bd-892e-06cdea9a0a97-prompts.md`
+
+
+### 7355f359-7786-4c2e-a97a-193898ada2e9
+**Captured:** 2026-05-10T19:55:25 | **Prompts:** 9
+**Archive:** `data/prompt-registry/sessions/7355f359-7786-4c2e-a97a-193898ada2e9-prompts.md`
+
+
+### 9a2ac57b-a565-4a33-a914-72d0ce510a5f
+**Captured:** 2026-05-10T21:05:45 | **Prompts:** 3
+**Archive:** `data/prompt-registry/sessions/9a2ac57b-a565-4a33-a914-72d0ce510a5f-prompts.md`
+
+
+### cb21839d-8d0a-4243-bee8-830aab87610b
+**Captured:** 2026-05-10T21:06:41 | **Prompts:** 4
+**Archive:** `data/prompt-registry/sessions/cb21839d-8d0a-4243-bee8-830aab87610b-prompts.md`
+
