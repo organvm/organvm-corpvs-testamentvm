@@ -80,6 +80,22 @@ Concise map of the corpus. For detailed per-file annotations, see [`docs/ANNOTAT
 |------|---------|
 | `10-repository-standards.md` | Naming, licensing, community health standards for all 44 repos |
 | `11-specification-driven-development.md` | SDD methodology adapted for documentation deliverables |
+| `12-habitat-governance-lifecycle.md` | Habitat governance lifecycle (LOCAL → CANDIDATE → PUBLIC_PROCESS → GRADUATED) |
+| `13-organ-identity-and-placement.md` | Organ identity, placement, and inter-organ boundary rules |
+| `14-logos-documentation-layer.md` | Inner-tier ontology: required `docs/logos/` files (`telos`, `pragma`, `praxis`, `receptio`, `alchemical-io`) per repo |
+| `15-three-pure-systems.md` | Outer-tier ontology: every non-substrate file belongs to exactly one of CORPUS / ENGINE / SURFACE; vocabulary discipline between systems |
+
+### `docs/logos/` — Layer 6: Inner-Tier Logos Narratives (this corpus)
+
+Required by `14-logos-documentation-layer.md`. Closes the previous Symmetry: 0.0 (VACUUM) status reported in CLAUDE.md auto-gen.
+
+| File | Purpose |
+|------|---------|
+| `telos.md` | The idealized form — what the corpus aspires to be |
+| `pragma.md` | The concrete realization — what the corpus currently is |
+| `praxis.md` | The remediation plan — attack vectors closing telos↔pragma gap |
+| `receptio.md` | Bidirectional reception — what is read out, what is absorbed in from the contextual universe |
+| `alchemical-io.md` | Metabolic narrative — sources, transmutation stages, returns, future self |
 
 ### `docs/agents/` — AI Agent Onboarding
 
@@ -117,3 +133,18 @@ Superseded by v2 documents at `docs/implementation/`. Do not modify.
 | Directory | Contents |
 |-----------|----------|
 | `bronze-sprint/` | Bronze sprint spec (`spec.md`) and validation checklist |
+
+### `docs/operations/` — Standard Operating Procedures (excerpt)
+
+The full operations directory contains rolling-todo, cadence, concordance, key-workflows, and several `sop--*.md` SOPs. SOPs are flat-named under the `sop--<slug>.md` convention; canonical copies live at `praxis-perpetua/standards/SOP--<NAME>.md`.
+
+| File | Purpose |
+|------|---------|
+| `sop--corpus-ontology-instantiation.md` | **NEW** — Procedure for bringing any repo into compliance with `14-logos-documentation-layer.md` and `15-three-pure-systems.md`; closes Symmetry: 0.0 (VACUUM) status |
+| `sop--cicd-resilience.md` | CI/CD pipeline resilience and recovery |
+| `sop--document-audit-feature-extraction.md` | Document audit and feature-extraction protocol |
+| `sop--ira-grade-norming.md` | Inter-rater agreement grade norming |
+| `sop--pitch-deck-rollout.md` | Pitch deck generation and rollout |
+| `operational-cadence.md` | Anti-patterns (AP-1..AP-7), review rhythm, when-to-start-sprints discipline |
+| `rolling-todo.md` | Active P0/P1/P2/P3 work queue |
+| `concordance.md` | Universal symbol table for invocation IDs across 7 namespaces |
