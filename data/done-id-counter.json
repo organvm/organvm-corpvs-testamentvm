@@ -1,11 +1,11 @@
 {
-  "next_id": 532,
-  "last_claimed_by": "S-2026-05-11-bound-decomposition-to-meta-organvm",
-  "last_claimed_at": "2026-05-11",
+  "next_id": 533,
+  "last_claimed_by": "S-2026-05-12-sisyphus-hall-monitor-local-preservation",
+  "last_claimed_at": "2026-05-12",
   "claimed_range": [
-    526,
-    531
+    532,
+    532
   ],
-  "note": "bound/ decomposition closeout claims DONE-526..531: persona-fleet remote + first push (526), substrate import to persona-fleet docs/ (527), digital-income-organism-inquiry repo creation (528), sherlock-scanner WIP preserved on wip/sherlock-cli (529), bound/CLAUDE.md rewritten post-move (530), plan-of-record + 3 memory files chezmoi-synced (531). Plan: ~/.claude/plans/the-personal-profile-is-composed-octopus.md.",
+  "note": "Sisyphus hall-monitor close-out claims DONE-532: local-preservation pass across 6 repos via wip/local-preservation-2026-05-12 idiom (corpvs bd3b500, application-pipeline f9353156, 4444J99 parent da4b3cf, classroom-rpg 7eb554c, life-my-midst-in 80d6a004, hokage fb395a3) + hokage governance whitelist extension as cascade-L4 ideal-form derivation + Sisyphus verification sweep confirming local:remote=1:1 across 14 audited repos. Plan: ~/.claude/plans/enumerated-rolling-pie.md (≡ staged-chasing-stardust.md per IRF-OPS-027 dual-name pattern).",
   "protocol": "CLAIM-BEFORE-USE: git pull, read next_id, increment by count needed, commit+push THIS FILE, then assign IDs. If push fails (non-fast-forward), pull, re-read, retry. Never assign DONE-NNN without claiming here first."
 }
