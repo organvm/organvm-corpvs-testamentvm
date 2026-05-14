@@ -173,7 +173,7 @@ This is the **exhaustive master list** — every opportunity discovered across 5
 
 - **Amount:** $40,000 (up to 10 selected)
 - **Deadline:** Likely April 2026 (2025 deadline was April 23)
-- **Why it fits:** Writers completing book-length deeply researched nonfiction. The organ system documentation corpus (~404K+ words) IS a book-in-progress about building creative infrastructure with AI. MFA + 42 essays + the extraordinary building-in-public record is a strong Whiting pitch.
+- **Why it fits:** Writers completing book-length deeply researched nonfiction. The organ system documentation corpus (~882K+ words) IS a book-in-progress about building creative infrastructure with AI. MFA + 42 essays + the extraordinary building-in-public record is a strong Whiting pitch.
 - **URL:** https://www.whiting.org/writers/creative-nonfiction-grant
 
 ### Andy Warhol Foundation Arts Writers Grant
@@ -296,7 +296,7 @@ Publications that pay professional rates for the exact kind of essays already be
 
 **Noema** (highest ROI): "I built a 100-repository creative system orchestrated by AI — here's what it reveals about the future of solo creative production." 3,000 words. $3,000.
 
-**MIT Tech Review**: "The AI-Conductor Model: How one person used Claude to coordinate 97 GitHub repos, 33 development sprints, and 404,000+ words of documentation." Feature pitch. $2,500-$12,000.
+**MIT Tech Review**: "The AI-Conductor Model: How one person used Claude to coordinate 97 GitHub repos, 33 development sprints, and 881,514+ words of documentation." Feature pitch. $2,500-$12,000.
 
 **Logic Magazine**: "Governance as Artistic Medium: When the rules that coordinate 100 repositories become the artwork." 2,000-4,000 words. $1,200-$2,000.
 

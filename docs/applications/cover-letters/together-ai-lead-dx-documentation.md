@@ -6,13 +6,7 @@
 
 ---
 
-<<<<<<< HEAD
-404,000+ words of documentation define how a system coordinating 148 repositories across 8 organizations works — every README written for external evaluators, a cross-document dependency map for navigation, and 29 essays explaining architectural decisions. The documentation didn't describe an existing system; it was documentation-first development where the writing determined what the system became. That's what drew me to the Lead DX Engineer, Documentation role at Together AI.
-||||||| 905f85c
-404,000+ words of documentation define how a system coordinating 148 repositories across 8 organizations works — every README written for external evaluators, a cross-document dependency map for navigation, and 29 essays explaining architectural decisions. The documentation didn't describe an existing system; it was documentation-first development where the writing determined what the system became. That's what drew me to the Lead DX Engineer, Documentation role at Together AI.
-=======
-404,000+ words of documentation define how a system coordinating 148 repositories across 8 organizations works — every README written for external evaluators, a cross-document dependency map for navigation, and 29 essays explaining architectural decisions. The documentation didn't describe an existing system; it was documentation-first development where the writing determined what the system became. That's what drew me to the Lead DX Engineer, Documentation role at Together AI.
->>>>>>> 058f269af2f5047a7873ae1949e64979f558ca81
+881,514+ words of documentation define how a system coordinating 148 repositories across 8 organizations works — every README written for external evaluators, a cross-document dependency map for navigation, and 0 essays explaining architectural decisions. The documentation didn't describe an existing system; it was documentation-first development where the writing determined what the system became. That's what drew me to the Lead DX Engineer, Documentation role at Together AI.
 
 ## Why Together AI
 
@@ -42,7 +36,7 @@ I write code that teaches. Every script is documented with the "why," not just t
 
 ## Evidence
 
-- **organvm-corpvs-testamentvm:** The documentation corpus itself — ~404K+ words of structured technical writing (meta-organvm/organvm-corpvs-testamentvm)
+- **organvm-corpvs-testamentvm:** The documentation corpus itself — ~882K+ words of structured technical writing (meta-organvm/organvm-corpvs-testamentvm)
 - **metasystem-master:** Meta-level architecture documentation showing system composition (organvm-ii-poiesis/metasystem-master)
 - **my-knowledge-base:** Knowledge management system design (organvm-i-theoria/my-knowledge-base)
 - **narratological-algorithmic-lenses:** Analytical writing applied to computational systems (organvm-i-theoria/narratological-algorithmic-lenses)

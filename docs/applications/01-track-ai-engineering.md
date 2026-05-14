@@ -1,13 +1,7 @@
 # Track: AI Engineering Roles
 
 **Targets:** Anthropic, OpenAI, Runway, Together AI, Hugging Face, + 2 TBD
-<<<<<<< HEAD
-**Evidence:** 148-repo system with automated governance, 2,349 tests across flagship projects, 5 CI/CD governance workflows, ~404K+ words of documentation
-||||||| 905f85c
-**Evidence:** 148-repo system with automated governance, 2,349 tests across flagship projects, 5 CI/CD governance workflows, ~404K+ words of documentation
-=======
-**Evidence:** 148-repo system with automated governance, 2,349 tests across flagship projects, 5 CI/CD governance workflows, ~404K+ words of documentation
->>>>>>> 058f269af2f5047a7873ae1949e64979f558ca81
+**Evidence:** 148-repo system with automated governance, 2,349 tests across flagship projects, 5 CI/CD governance workflows, ~882K+ words of documentation
 **Core evidence:** ORGAN-IV orchestration + agentic-titan + recursive-engine
 
 ---
@@ -21,7 +15,7 @@ This positions you as someone who:
 2. **Ships production-quality infrastructure** — 82+ CI/CD workflows, 5 governance automations, automated health checks
 3. **Designs governance from first principles** — promotion state machine, dependency rules, constitutional constraints
 4. **Tests rigorously** — agentic-titan: 1,095 tests; recursive-engine: 1,254 tests
-5. **Documents thoroughly** — ~404K+ words of documentation is evidence of communication capacity
+5. **Documents thoroughly** — ~882K+ words of documentation is evidence of communication capacity
 
 ---
 
@@ -54,7 +48,7 @@ This positions you as someone who:
 - "I don't just build AI agents; I build the governance and infrastructure that makes them reliable"
 
 ### Runway / Together AI / Hugging Face — ML Infra or Developer Advocate
-**Why you fit:** These companies need people who can bridge technical depth with clear communication. Your ~404K+ words of documentation + working systems = evidence of both.
+**Why you fit:** These companies need people who can bridge technical depth with clear communication. Your ~882K+ words of documentation + working systems = evidence of both.
 
 **Lead with:**
 - The meta-system itself: 100 repos documented, organized, and automated
@@ -79,7 +73,7 @@ This positions you as someone who:
 > - Automated dependency validation enforcing no circular dependencies and no back-edges
 > - A formal promotion state machine with 5 GitHub Actions workflows for autonomous governance
 > - 107+ CI/CD pipelines and automated monthly health audits
-> - ~404K+ words of documentation across the entire system
+> - ~882K+ words of documentation across the entire system
 >
 > Two projects demonstrate particular depth:
 >

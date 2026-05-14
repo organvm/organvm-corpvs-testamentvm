@@ -17,7 +17,7 @@ Residency evaluators assess:
 2. **Systemic thinking** — Does the artist think beyond individual pieces? (Governance model, dependency graph, state machine, editorial vision across 148 repos)
 3. **Community contribution** — Will this benefit the residency community? (ORGAN-VI, public documentation, reusable governance patterns)
 4. **Innovation** — Is this genuinely pushing boundaries? (Solo production at institutional scale through AI-augmented methodology)
-5. **Communication** — Can the artist articulate their practice? (~404K+ words, 42 essays, process documented in real-time)
+5. **Communication** — Can the artist articulate their practice? (~882K+ words, 42 essays, process documented in real-time)
 
 ---
 
@@ -47,7 +47,7 @@ Residency evaluators assess:
 
 **Proposed residency work:**
 1. Develop a site-specific generative installation responding to the Fire Island environment
-2. Write 3-29 essays documenting the residency within the eight-organ model
+2. Write 3-0 essays documenting the residency within the eight-organ model
 3. Community workshops on creative technology and governance-as-art
 4. Present the eight-organ system as a case study in solo creative production
 
@@ -177,7 +177,7 @@ Residency evaluators assess:
 
 **What they value:** Uninterrupted creative time. Interdisciplinary practice. Deep work.
 
-**Why you fit:** MacDowell values sustained creative work across all disciplines. The organ system is exactly the kind of practice that benefits from uninterrupted deep work time. The documentation corpus (~404K+ words) demonstrates capacity for the intensive production MacDowell enables.
+**Why you fit:** MacDowell values sustained creative work across all disciplines. The organ system is exactly the kind of practice that benefits from uninterrupted deep work time. The documentation corpus (~882K+ words) demonstrates capacity for the intensive production MacDowell enables.
 
 **Amount:** Fully funded + need-based stipends available. 10 days to 6 weeks, Peterborough NH.
 **Deadline:** August 15 – September 10, 2026 window (for 2027 residencies).
@@ -264,13 +264,7 @@ See [11-funding-research-exhaustive.md](./11-funding-research-exhaustive.md) Par
 >
 > **Medium:** Software infrastructure, governance protocols, public documentation, generative systems, AI-augmented production
 >
-<<<<<<< HEAD
-> **Practice summary:** I build creative systems — environments where creative work grows through documented governance, automated coordination, and visible process. My current body of work is the eight-organ system: 148 repositories across 8 GitHub organizations, coordinating theory, art, commerce, and community as a single integrated practice. The system is documented at ~404K+ words across 42 essays and governance specifications, all produced through an AI-augmented methodology where I design the architecture and editorial vision while using AI tools as compositional instruments. The governance model — registry design, dependency rules, promotion pipelines — is artistic output equal to any individual work the system produces. The process of creation, made visible and governable, IS the product.
-||||||| 905f85c
-> **Practice summary:** I build creative systems — environments where creative work grows through documented governance, automated coordination, and visible process. My current body of work is the eight-organ system: 148 repositories across 8 GitHub organizations, coordinating theory, art, commerce, and community as a single integrated practice. The system is documented at ~404K+ words across 42 essays and governance specifications, all produced through an AI-augmented methodology where I design the architecture and editorial vision while using AI tools as compositional instruments. The governance model — registry design, dependency rules, promotion pipelines — is artistic output equal to any individual work the system produces. The process of creation, made visible and governable, IS the product.
-=======
-> **Practice summary:** I build creative systems — environments where creative work grows through documented governance, automated coordination, and visible process. My current body of work is the eight-organ system: 148 repositories across 8 GitHub organizations, coordinating theory, art, commerce, and community as a single integrated practice. The system is documented at ~404K+ words across 42 essays and governance specifications, all produced through an AI-augmented methodology where I design the architecture and editorial vision while using AI tools as compositional instruments. The governance model — registry design, dependency rules, promotion pipelines — is artistic output equal to any individual work the system produces. The process of creation, made visible and governable, IS the product.
->>>>>>> 058f269af2f5047a7873ae1949e64979f558ca81
+> **Practice summary:** I build creative systems — environments where creative work grows through documented governance, automated coordination, and visible process. My current body of work is the eight-organ system: 148 repositories across 8 GitHub organizations, coordinating theory, art, commerce, and community as a single integrated practice. The system is documented at ~882K+ words across 42 essays and governance specifications, all produced through an AI-augmented methodology where I design the architecture and editorial vision while using AI tools as compositional instruments. The governance model — registry design, dependency rules, promotion pipelines — is artistic output equal to any individual work the system produces. The process of creation, made visible and governable, IS the product.
 >
 > **Duration:** 5+ years of sustained practice, 33 named development sprints
 >
@@ -307,15 +301,9 @@ See [11-funding-research-exhaustive.md](./11-funding-research-exhaustive.md) Par
 
 1. **The process IS the product.** The 42 essays, the governance specifications, the public documentation — these aren't supplements to the work. They ARE the work. The creative process, made visible and governable, is the primary output.
 
-<<<<<<< HEAD
-2. **Solo production at institutional scale.** One person coordinating 148 repositories through documented governance, using AI tools as compositional instruments. 33 named sprints, ~404K+ words, 107+ CI/CD workflows — the system is evidence this mode of production works.
-||||||| 905f85c
-2. **Solo production at institutional scale.** One person coordinating 148 repositories through documented governance, using AI tools as compositional instruments. 33 named sprints, ~404K+ words, 107+ CI/CD workflows — the system is evidence this mode of production works.
-=======
-2. **Solo production at institutional scale.** One person coordinating 148 repositories through documented governance, using AI tools as compositional instruments. 33 named sprints, ~404K+ words, 107+ CI/CD workflows — the system is evidence this mode of production works.
->>>>>>> 058f269af2f5047a7873ae1949e64979f558ca81
+2. **Solo production at institutional scale.** One person coordinating 148 repositories through documented governance, using AI tools as compositional instruments. 33 named sprints, ~882K+ words, 107+ CI/CD workflows — the system is evidence this mode of production works.
 
-3. **5+ years of sustained practice.** This isn't a proposal — it's an ongoing body of work requesting a context (the residency) to deepen and share. 33 development sprints, ~404K+ words, fully operational.
+3. **5+ years of sustained practice.** This isn't a proposal — it's an ongoing body of work requesting a context (the residency) to deepen and share. 33 development sprints, ~882K+ words, fully operational.
 
 4. **Community-oriented by design.** ORGAN-VI exists specifically for community infrastructure. ORGAN-V makes everything public. The system is designed to contribute, not just produce.
 
