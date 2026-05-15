@@ -12,11 +12,11 @@
 [![Status: LAUNCHED](https://img.shields.io/badge/Status-LAUNCHED-2e7d32?style=flat-square)](#current-status)
 [![Organs: 8](https://img.shields.io/badge/Organs-8-1a237e?style=flat-square)](#the-eight-organ-model)
 [![Repos: 97](https://img.shields.io/badge/Repos-148-2e7d32?style=flat-square)](#the-eight-organ-model)
-[![Docs: ~882K+ words](https://img.shields.io/badge/Docs-~882K%2B%20words-6a1b9a?style=flat-square)](#current-status)
+[![Docs: ~404K+ words](https://img.shields.io/badge/Docs-~404K%2B%20words-6a1b9a?style=flat-square)](#current-status)
 
 > Complete planning, audit, and implementation corpus for an eight-organ creative-institutional system coordinating 97 GitHub repositories across 8 organizations (7 organs + 1 meta). The system is **live** — all organs are operational.
 
-This is **not a source code repository**. It is the authoritative planning and governance corpus for the organvm system — a framework that protects distinct modes of work (theory, art, commerce, community) from collapsing into each other, while presenting the meta-system itself as a portfolio asset. The system launched on 2026-02-11 with all 8 organs operational, 97 repositories, ~882K+ words of documentation, 0 meta-system essays, and automated governance via GitHub Actions.
+This is **not a source code repository**. It is the authoritative planning and governance corpus for the organvm system — a framework that protects distinct modes of work (theory, art, commerce, community) from collapsing into each other, while presenting the meta-system itself as a portfolio asset. The system launched on 2026-02-11 with all 8 organs operational, 97 repositories, ~404K+ words of documentation, 29 meta-system essays, and automated governance via GitHub Actions.
 
 ---
 
@@ -230,7 +230,7 @@ This is not "AI wrote my portfolio." It is a designed production methodology wit
 - **Human provides:** Strategic direction, structural decisions, quality criteria, voice and tone, factual accuracy review, and final approval for every document.
 - **AI provides:** Draft generation at speed, consistent formatting, template compliance, volume production, and initial cross-reference checking.
 
-The methodology is measured in LLM API tokens, not human-hours. A typical 3,000-word README consumes ~50-90K tokens across 2-3 revision iterations (system prompt + template + project context + generation + revision). An essay (4,000-5,000 words) costs ~120K tokens. A validation pass costs ~15K tokens per repository. The total system budget across all phases was ~6.5 million tokens, producing ~882K+ words of reviewed, deployed documentation. The bottleneck is never generation speed — it's review quality. Every document passes through human accuracy review before deployment.
+The methodology is measured in LLM API tokens, not human-hours. A typical 3,000-word README consumes ~50-90K tokens across 2-3 revision iterations (system prompt + template + project context + generation + revision). An essay (4,000-5,000 words) costs ~120K tokens. A validation pass costs ~15K tokens per repository. The total system budget across all phases was ~6.5 million tokens, producing ~404K+ words of reviewed, deployed documentation. The bottleneck is never generation speed — it's review quality. Every document passes through human accuracy review before deployment.
 
 The most important aspect of the AI-conductor model is its quality infrastructure. Every AI-generated document passes through the same promotion state machine as everything else in the system — specifications, quality gates, validation checklists. This prevents the most common AI failure mode: plausible text that doesn't say anything useful. The risks we actively monitor include hallucinated code examples (all samples tested or sourced from actual repos), generic boilerplate (project-specific briefs and human review for voice), and incorrect cross-references (automated link checking across 1,267+ links).
 
@@ -301,7 +301,7 @@ The eight-organ system began with a question: what happens when you apply the sa
 
 This system takes a different approach. The relationships between projects are explicit (declared dependencies in the registry), the governance is visible (promotion state machines, validation scripts, constitutional articles), and the organizational logic is itself a designed artifact (eight organs with distinct responsibilities and no back-edges). The meta-system isn't overhead on top of the creative work — it *is* the creative work, or at least the most interesting part of it.
 
-The practical consequence is that this portfolio can answer questions that flat portfolios cannot: How do theory projects relate to commercial products? (Through declared dependency edges.) How do you maintain quality across 148 repos? (Through automated validation and documented standards.) How do you prevent different types of work from corrupting each other? (Through organ-level separation with GitHub organizations as the enforcement boundary.) How was ~882K+ words of documentation produced in nine days? (Through the AI-conductor model, documented transparently.)
+The practical consequence is that this portfolio can answer questions that flat portfolios cannot: How do theory projects relate to commercial products? (Through declared dependency edges.) How do you maintain quality across 148 repos? (Through automated validation and documented standards.) How do you prevent different types of work from corrupting each other? (Through organ-level separation with GitHub organizations as the enforcement boundary.) How was ~404K+ words of documentation produced in nine days? (Through the AI-conductor model, documented transparently.)
 
 For grant reviewers, the system demonstrates sustained creative practice with institutional ambition — not just individual projects but the infrastructure that connects them. For hiring managers, it demonstrates systems architecture, governance design, and the ability to ship at scale with quality. For fellow practitioners, it offers a reusable model for organizing creative work that goes beyond "put it all in one repo and hope for the best."
 

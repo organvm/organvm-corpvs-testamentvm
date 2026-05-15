@@ -38,7 +38,7 @@ The Processing Foundation supports projects that expand access to creative codin
 | Repos with test directories | 56 |
 | Total code files | 3,586 |
 | Total test files | 736 |
-| Published essays | 0 |
+| Published essays | 29 |
 | GitHub organizations | 8 |
 | Dependency relationships | 31 (zero circular) |
 | CI workflows | 76 |

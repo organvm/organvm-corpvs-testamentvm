@@ -51,7 +51,7 @@ Systems artist and auteur-producer. Creator of the ORGANVM eight-organ system: 1
 
 ### Abstract (300 words)
 
-No budget. No team. No runway. These are the constraints I started with when I built an eight-organ creative system that now spans 113 repositories, 8 GitHub organizations, and ~882K+ words of documentation -- all on free-tier hosting, with zero employees, in three weeks of calendar time.
+No budget. No team. No runway. These are the constraints I started with when I built an eight-organ creative system that now spans 113 repositories, 8 GitHub organizations, and ~404K+ words of documentation -- all on free-tier hosting, with zero employees, in three weeks of calendar time.
 
 Constraint alchemy is not motivational thinking. It is a structured methodology with five techniques I developed and documented across 33 sprints: inverse design (build from the constraint, not despite it -- "no database budget" becomes "registry-as-JSON"), temporal compression (deadlines as creative accelerants -- 33+ sprints in three weeks through AI-conductor methodology), minimum viable governance (the four-document quadrilateral that prevents chaos without creating bureaucracy), autonomous amplification (systems that generate their own content and distribution pipeline), and portfolio-as-proof (process documentation IS the primary deliverable -- 49 essays about building the system ARE the system's output).
 

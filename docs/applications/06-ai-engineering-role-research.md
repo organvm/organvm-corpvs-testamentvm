@@ -19,7 +19,7 @@ Profile strengths mapped against role requirements:
 | Agent orchestration | agentic-titan (1,095 tests, 18 phases), multi-agent coordination |
 | Production infrastructure | 82+ CI/CD pipelines, 5 governance automations, automated health audits |
 | Testing rigor | 1,095 tests (agentic-titan) + 1,254 tests (recursive-engine) |
-| Documentation at scale | ~882K+ words, every README portfolio-quality |
+| Documentation at scale | ~404K+ words, every README portfolio-quality |
 | Governance-as-safety | Constitutional constraints, no-back-edge rules, transitive depth limits |
 | Developer tools | Orchestration tooling, registry design, audit scripts |
 
@@ -45,7 +45,7 @@ Profile strengths mapped against role requirements:
 **Why this fits:**
 - Building MCP servers, sub-agents, and agent skills IS what the eight-organ system does — orchestration artifacts deployed to production
 - The "identify and codify repeatable deployment patterns" responsibility maps directly to registry-v2.json and governance-rules.json
-- Forward-deployed model values someone who can represent the company at the highest technical level while communicating clearly — ~882K+ words of documentation proves this
+- Forward-deployed model values someone who can represent the company at the highest technical level while communicating clearly — ~404K+ words of documentation proves this
 - Agent development experience from agentic-titan directly applicable
 
 **Spotlight repos:** agentic-titan, a-i-council--coliseum, organvm-corpvs-testamentvm, narratological-algorithmic-lenses
@@ -120,7 +120,7 @@ Profile strengths mapped against role requirements:
 
 **Why this fits:**
 - Explicitly "deeply technical, not a marketing position" — author docs, blog posts, tutorials; build demos with code repos; contribute to libraries
-- ~882K+ words of portfolio-quality documentation IS the portfolio for this role
+- ~404K+ words of portfolio-quality documentation IS the portfolio for this role
 - HF hires 30-40% from their open-source community and values "people who tell us where to go" — self-directed operators
 - "Ownership for content quality" aligns with the AI-conductor quality methodology
 - Remote-first, async, minimal meetings matches the AI-conductor workflow model
@@ -153,7 +153,7 @@ Profile strengths mapped against role requirements:
 **Requirements:** 5+ years technical writing/engineering/developer education, experience building AI applications with LLMs, proven track record creating docs/guides/cookbooks for developer tools, Python and TypeScript proficiency, knowledge of LLM APIs (structured outputs, function calling).
 
 **Why this fits:**
-- **This is the single strongest documentation match.** Founding team member for documentation. ~882K+ words of documentation is the portfolio.
+- **This is the single strongest documentation match.** Founding team member for documentation. ~404K+ words of documentation is the portfolio.
 - LLM API experience from agentic-titan (tool-use, orchestration patterns)
 - "Create documentation, guides, and cookbooks" — every organ system README IS a guide/cookbook
 - Founding role means shaping the documentation culture, not following existing patterns
@@ -181,7 +181,7 @@ Profile strengths mapped against role requirements:
 - "Orchestration systems as agentic workflow design" — the entire eight-organ system IS an orchestration framework
 - Multi-step reasoning agents = what agentic-titan implements across 18 phases
 - Evaluation framework building maps directly to organ-audit.py and validation scripts
-- Customer-facing dimension requires documentation/communication skills — ~882K+ words
+- Customer-facing dimension requires documentation/communication skills — ~404K+ words
 
 **Spotlight repos:** agentic-titan, a-i-council--coliseum, recursive-engine--generative-entity, organvm-corpvs-testamentvm
 
