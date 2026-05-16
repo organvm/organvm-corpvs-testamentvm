@@ -2,7 +2,7 @@
   "active_repos": "92",
   "archived_repos": "54",
   "ci_workflows": "107",
-  "code_files": "93412",
+  "code_files": "182588",
   "dependency_edges": "62",
   "operational_organs": "10",
   "organ_name.META-ORGANVM": "Meta",
@@ -26,12 +26,12 @@
   "organ_repos.ORGAN-VII": "6",
   "organ_repos.PERSONAL": "4",
   "published_essays": "0",
-  "repos_with_tests": "50",
+  "repos_with_tests": "10",
   "sprints_completed": "0",
-  "test_files": "10236",
+  "test_files": "14744",
   "total_organs": "10",
   "total_repos": "148",
-  "total_words_formatted": "881,514",
-  "total_words_numeric": "881514",
-  "total_words_short": "882K+"
+  "total_words_formatted": "6,200",
+  "total_words_numeric": "6200",
+  "total_words_short": "6K+"
 }

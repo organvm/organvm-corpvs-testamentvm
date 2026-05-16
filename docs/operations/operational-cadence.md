@@ -328,7 +328,7 @@ These items from the original Part IV are now done:
 
 **Non-negotiable rule:** No new named internal sprints until these are done.
 
-The E2G-II review (Sprint 28) found that the system is hermetically sealed: 33 sprints, ~404K+ words, 97 repos, and zero external contact. These actions break the seal. They are human actions, not sprint tasks.
+The E2G-II review (Sprint 28) found that the system is hermetically sealed: 33 sprints, ~6K+ words, 97 repos, and zero external contact. These actions break the seal. They are human actions, not sprint tasks.
 
 #### Action 1: Submit Google Creative Lab Five (HIGHEST ROI)
 
@@ -535,7 +535,7 @@ The registry should only be updated when empirical state changes — a repo is p
 
 ### AP-3: Don't Write More Documentation About Writing Documentation
 
-This corpus has ~404K+ words. It has a CLAUDE.md, a constitution, an annotated manifest, governance rules, an implementation package, a public process map, an orchestration system spec, a repository standards doc, an SDD methodology, 5 planning documents, and this operational cadence document. If you find yourself creating a new document to describe how existing documents relate to each other, the documentation has reached self-referential saturation.
+This corpus has ~6K+ words. It has a CLAUDE.md, a constitution, an annotated manifest, governance rules, an implementation package, a public process map, an orchestration system spec, a repository standards doc, an SDD methodology, 5 planning documents, and this operational cadence document. If you find yourself creating a new document to describe how existing documents relate to each other, the documentation has reached self-referential saturation.
 
 **Test:** "Is this document for an external audience, or am I explaining the system to myself?" If the latter, you don't need a document — you need to go do the thing.
 

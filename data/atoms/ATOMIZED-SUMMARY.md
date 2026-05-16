@@ -1,6 +1,6 @@
 # Plan Atomization Summary
-**Generated**: 2026-05-12
-**Plans parsed**: 677 | **Tasks extracted**: 7166
+**Generated**: 2026-05-16
+**Plans parsed**: 947 | **Tasks extracted**: 11058
 
 ## By Project
 
@@ -24,7 +24,7 @@
 | 4444J99/portfolio/.gemini/plans | 4 | 30 | 0 | 30 | 0 |
 | 4444J99/system-system--system/.claude/plans | 21 | 191 | 0 | 191 | 0 |
 | 4444J99/system-system--system/.gemini/plans | 2 | 23 | 14 | 9 | 0 |
-| _root | 494 | 4818 | 263 | 4555 | 0 |
+| _root | 764 | 8710 | 363 | 8347 | 0 |
 | a-organvm/.claude/plans | 13 | 260 | 0 | 260 | 0 |
 | a-organvm/.codex/plans | 1 | 1 | 1 | 0 | 0 |
 | composition-1-2/.claude/plans | 2 | 18 | 9 | 9 | 0 |
@@ -33,29 +33,29 @@
 
 | Type | Count | % |
 |------|-------|---|
-| generic | 2546 | 35% |
-| document | 1458 | 20% |
-| create_file | 558 | 7% |
-| configure | 465 | 6% |
-| modify_file | 432 | 6% |
-| write_test | 356 | 4% |
-| verify | 273 | 3% |
-| deploy | 231 | 3% |
-| git_operation | 204 | 2% |
-| delete_file | 196 | 2% |
-| research | 188 | 2% |
-| migrate | 141 | 1% |
-| review | 59 | 0% |
-| exploration | 29 | 0% |
-| refactor | 22 | 0% |
-| post_hoc | 8 | 0% |
+| generic | 4082 | 36% |
+| document | 1905 | 17% |
+| create_file | 938 | 8% |
+| configure | 796 | 7% |
+| modify_file | 720 | 6% |
+| write_test | 525 | 4% |
+| verify | 427 | 3% |
+| deploy | 344 | 3% |
+| git_operation | 322 | 2% |
+| delete_file | 282 | 2% |
+| research | 277 | 2% |
+| migrate | 260 | 2% |
+| review | 88 | 0% |
+| exploration | 45 | 0% |
+| refactor | 38 | 0% |
+| post_hoc | 9 | 0% |
 
 ## By Status
 
 | Status | Count | % |
 |--------|-------|---|
-| pending | 6838 | 95% |
-| completed | 328 | 4% |
+| pending | 10630 | 96% |
+| completed | 428 | 3% |
 
 ## Largest Plans (by task count)
 
@@ -63,48 +63,112 @@
 |------|---------|-------|-------------|
 | The Ark — Past-Week Prompt Corpus | _root | 557 | 2% |
 | Plans Index | _root | 486 | 0% |
+| Directory Dissection: meta-organvm Post-Mortem → T | _root | 203 | 0% |
 | Session Export: rob-gemini-warm-clock + artifact i | _root | 181 | 0% |
 | Workspace Relocation Manifest | _root | 160 | 0% |
 | Spiral Artifact Evolution Timeline | _root | 103 | 0% |
 | Unspoken Sentences — Full Implementation Plan | _root | 89 | 0% |
 | Ideal Form Classification — What Each Repo Reaches | a-organvm/.claude/plans | 89 | 0% |
+| Plan: S-Zettelkasten Close-Out (supersedes zettelk | _root | 81 | 0% |
 | Refactor: Raw Dump → Cascading Workstreams | _root | 80 | 0% |
+| Session S40 Implementation Plan — conversation-cor | _root | 75 | 0% |
+| Implementation Plan: sign-signal--voice-synth Laye | _root | 71 | 0% |
+| Universal Modular Fractal Alchemical Synthesizer — | _root | 69 | 0% |
 | Universal Modular Fractal Alchemical Synthesizer — | a-organvm/.claude/plans | 69 | 0% |
 | Untitled Plan | _root | 65 | 0% |
 | Session Handoff — 2026-04-23 (Prompt Atomization)  | _root | 64 | 0% |
+| Full Implementation Plan — Sovereign Systems Spira | _root | 60 | 0% |
 | Evaluation-to-Growth: Codebase Study v2 | 4444J99/application-pipeline/.claude/plans | 56 | 0% |
 | Keyword Extraction (Hokage + Spiral) and Drive Con | _root | 55 | 0% |
 | Portfolio Project: Complete Failure Modes & Invari | 4444J99/portfolio/.claude/plans | 52 | 0% |
-| Plan: Digest 100% of `/Users/4jp/Workspace/composi | _root | 49 | 0% |
-| Session Close-Out — 2026-05-11 v2 (skills-recovery | _root | 46 | 0% |
-| Agent Handoff: RES Bundle Commissioning + Unificat | _root | 44 | 38% |
-| Plan — Modular-Synthesis Portfolio Unification + 7 | _root | 44 | 0% |
-| Doctoral Research Notes v2: Mathematical & Algorit | 4444J99/application-pipeline/.claude/plans | 44 | 0% |
-| 7-Day Rule: Posting-Age Freshness Integration | 4444J99/application-pipeline/.claude/plans | 44 | 0% |
 
 ## By Agent
 
 | Agent | Count | % |
 |-------|-------|---|
-| claude | 6963 | 97% |
+| claude | 10855 | 98% |
 | gemini | 127 | 1% |
-| codex | 76 | 1% |
+| codex | 76 | 0% |
 
 ## By Organ
 
 | Organ | Count | % |
 |-------|-------|---|
-| LIMINAL | 2781 | 38% |
-| _root | 2529 | 35% |
-| META | 1010 | 14% |
-| I | 535 | 7% |
-| III | 203 | 2% |
-| IV | 108 | 1% |
+| _root | 4221 | 38% |
+| LIMINAL | 3187 | 28% |
+| META | 2038 | 18% |
+| I | 879 | 7% |
+| IV | 353 | 3% |
+| III | 352 | 3% |
+| II | 16 | 0% |
+| VII | 12 | 0% |
 
 ## Non-Actionable Documents
 
 | Plan | Project | Classification |
 |------|---------|----------------|
+| Agent Handoff: AUTOGEN banner + carry-forward clos | _root | git_operation |
+| Session Close-Out — 2026-05-16 (AUTOGEN banner + c | _root | modify_file |
+| Plan: SEED.md Constitutional Completeness | _root | verify |
+| Plan: Fix context sync error line accumulation | _root | generic |
+| Session Plan: 4-Front Attack — 2026-04-23 Afternoo | _root | write_test |
+| Plan: Remove Unused GKE MCP Extension from VS Code | _root | modify_file |
+| Plan: Triage 1,138 Prompt Atoms | _root | configure |
+| Plan: Triage Batch 1 Prompt Atoms (1,138 atoms) | _root | generic |
+| Plan: Triage Batch 4 — 1,137 Prompt Atoms | _root | generic |
+| Plan: Prompt-Atom Decomposer — Smallest Atomic Uni | _root | generic |
+| Glyph-Cascade · 21-Iteration Reactor | _root | modify_file |
+| Plan: Cluster-route the 20 speech-score-engine roo | _root | generic |
+| Energy-Expelling State Changes + Claude Plans Hand | _root | configure |
+| Dotfiles Sprawl Exploration Plan | _root | configure |
+| Plan: Inject Cross-Audit Backlog into Prompt Atoms | _root | generic |
+| Plan: Prompt Atomizer Improvements | _root | modify_file |
+| Plan: Email Triage System (mail-triage) | _root | create_file |
+| The Cascading Whole — Unified Atomization + Backlo | _root | configure |
+| ExecTimeout Verification Report — LaunchAgent Plis | _root | generic |
+| Plan: Atom Grading → Assembly → First Deliverable | _root | exploration |
+| Universal Prompt Archaeology — System-Wide Extract | _root | exploration |
+| Structural Analysis & Consolidation Planning — Con | _root | migrate |
+| Session S40 Implementation Plan — conversation-cor | _root | generic |
+| S40 Plan: Full-Breath Session — Ops Recovery, Code | _root | generic |
+| Plan: Write Maddie System Report | _root | research |
+| Plan: Prima Materia — Unified Contextual Substrate | _root | create_file |
+| Skill Discovery Investigation & Fix Plan | _root | generic |
+| Empirical Structure Test Suite | _root | write_test |
+| Agentic-Titan: Unified Elevated State | _root | write_test |
+| Plan: S-Zettelkasten Close-Out (supersedes zettelk | _root | document |
+| Prompt Archaeology — Full Corpus Assembly | _root | configure |
+| Root Hygiene + README — Repository Standards Pass | _root | delete_file |
+| Zeitgeist Carrier Wave — Research Dispatch Plan | _root | generic |
+| Plan — Modular-Synthesis Portfolio Unification + 7 | _root | deploy |
+| Post-Flood Reconstruction: Rebirth from Within | _root | document |
+| Plan: Fortify a-organvm with Distilled ORGAN-IV Ta | _root | modify_file |
+| Universal Modular Fractal Alchemical Synthesizer — | _root | generic |
+| Session Closure Audit — S33 CCE Sweep | _root | post_hoc |
+| Declarative Configuration Landscape Research | _root | configure |
+| Institutional Substrate Phase 0 — Implementation P | _root | create_file |
+| Rob × Gemini Warm Clock | _root | delete_file |
+| Exit Interview Protocol — Presidential Handoff Bet | _root | migrate |
+| Full Implementation Plan — Sovereign Systems Spira | _root | document |
+| S-Constitutional-Wiring: Restore Corpus Access + W | _root | research |
+| Plan: Prompt Trajectory Amalgamation Engine | _root | generic |
+| Plan: Layer 2 Sub-Atomic Decomposition Script | _root | generic |
+| Plan: Merge Parallel Atom Stores into Unified Inde | _root | generic |
+| Archive Original Catalogue — Complete File-by-File | _root | document |
+| Docker Decision Framework — for a Non-Programmer B | _root | modify_file |
+| Session Close-Out Plan: S-contrib-execution-2 (202 | _root | generic |
+| Audit: Documentation Handoff Architecture | _root | modify_file |
+| Plan: "the work that began this repo" → SOP-plugin | _root | create_file |
+| Session Closure Health Audit — Two Prior Sessions | _root | modify_file |
+| Exhaustive Recursive Descent of organvm-engine | _root | write_test |
+| Directory Dissection: meta-organvm Post-Mortem → T | _root | generic |
+| Governance and Orchestration Infrastructure Search | _root | generic |
+| CI Simplification — From 8 Jobs to 1 | _root | migrate |
+| Birth Search — Discovery Interface Over the Invent | _root | document |
+| Cross-Agent Handoff: Post Codex-Triage + /init Imp | _root | generic |
+| Plan — pentaphase-structural-architect plugin | _root | generic |
+| Unified Agent Context Directory Design — 2026-05-1 | _root | verify |
+| Session Close-Out — 2026-05-13 (post-compaction co | _root | document |
 | Cross-Agent Handoff: Multi-Session State Snapshot  | _root | generic |
 | Plans Index | _root | document |
 | Session Close-Out — 2026-05-12 (git-parity-audit s | _root | post_hoc |
@@ -163,6 +227,7 @@
 | Zeitgeist Carrier Wave — Research Dispatch Plan | _root | generic |
 | Plugin Errors + Activity Monitor Review | _root | post_hoc |
 | Ideal Form Classification — What Each Repo Reaches | a-organvm/.claude/plans | generic |
+| Fortify-ORGANVM Postmortem: Governance Threshold M | _root | verify |
 | Universal Modular Fractal Alchemical Synthesizer — | a-organvm/.claude/plans | generic |
 | Temporal Maturity Vacuum Audit | a-organvm/.codex/plans | post_hoc |
 | Full Quadrant Distribution — Work Item Specificati | 4444J99/application-pipeline/.claude/plans | exploration |

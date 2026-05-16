@@ -7,7 +7,7 @@
 
 When I built an eight-organ creative system spanning 97 repositories in eight days, the natural question was: did you actually build it, or did the AI build it?
 
-The answer is more interesting than either extreme. I didn't write 404,000+ words by hand. The AI didn't architect an eight-organ governance model on its own. What happened was something I've come to call the AI-conductor methodology — a pattern of human-AI collaboration where the human directs, the AI generates volume, and the human reviews and refines. It's neither "AI-generated content" nor traditional software engineering. It's a third thing, and I think it's the most honest framing available for how a growing number of creative and technical projects actually get built.
+The answer is more interesting than either extreme. I didn't write 6,200+ words by hand. The AI didn't architect an eight-organ governance model on its own. What happened was something I've come to call the AI-conductor methodology — a pattern of human-AI collaboration where the human directs, the AI generates volume, and the human reviews and refines. It's neither "AI-generated content" nor traditional software engineering. It's a third thing, and I think it's the most honest framing available for how a growing number of creative and technical projects actually get built.
 
 This essay describes what the AI-conductor methodology is, how it differs from common alternatives, when it works and when it fails, and how to apply it. I'll use the ORGANVM system as a case study throughout, but the methodology generalizes to any project where a single person or small team needs to produce work at a scale that would traditionally require a larger organization.
 
@@ -59,7 +59,7 @@ The AI produces volume. A 3,000-word README. A 400-line validation script. A JSO
 
 The key principle of the generation phase is: **let the AI be prolific, then curate.** Don't interrupt generation to correct small errors. Don't micro-manage sentence structure. Let the draft exist, then evaluate it as a whole.
 
-In the ORGANVM system, generation sprints produced extraordinary volume: the Silver Sprint generated ~404,000+ words of README documentation across 148 repositories in a single session. No individual document was perfect, but the structural consistency was high because every generation was governed by the same directive template.
+In the ORGANVM system, generation sprints produced extraordinary volume: the Silver Sprint generated ~6,200+ words of README documentation across 148 repositories in a single session. No individual document was perfect, but the structural consistency was high because every generation was governed by the same directive template.
 
 ### Phase 3: Refinement
 
@@ -103,7 +103,7 @@ The methodology has failure modes that I've encountered directly. Honesty about 
 
 **3. Strategic positioning.** The AI can write a cover letter for a specific job posting. It cannot decide which jobs to apply for, which framing will resonate with which reviewer, or whether a particular application is strategically worth the effort. In the ORGANVM system, the decision to target Google Creative Lab, Anthropic, and the Knight Foundation — and the specific framing for each — was entirely human-directed.
 
-**4. Sustained context.** AI context windows are finite. A project with 97 repositories, 404,000+ words of documentation, and 62 dependency edges exceeds any single context window. The human serves as the persistent memory layer — carrying context across sessions, noticing when the AI contradicts earlier decisions, and maintaining the system's invariants over time. The MEMORY.md file in this project is literally a human-maintained memory prosthesis for the AI.
+**4. Sustained context.** AI context windows are finite. A project with 97 repositories, 6,200+ words of documentation, and 62 dependency edges exceeds any single context window. The human serves as the persistent memory layer — carrying context across sessions, noticing when the AI contradicts earlier decisions, and maintaining the system's invariants over time. The MEMORY.md file in this project is literally a human-maintained memory prosthesis for the AI.
 
 **5. Social and ethical judgment.** Should you claim that 82 repositories have "active" code when many are primarily documentation? Is it honest to list "revenue_model: subscription" for a product with zero customers? These questions require human judgment about what constitutes honest representation. The VERITAS sprint — where we renamed "PRODUCTION" to "ACTIVE," split the revenue field into model and status, and wrote an honesty essay — was entirely human-initiated in response to credibility concerns that the AI would never have flagged on its own.
 
@@ -169,7 +169,7 @@ Second, sprints create natural review checkpoints. At the end of each sprint, th
 
 Third, sprint names serve as an organizational memory aid. When I need to find when a particular decision was made or why a particular artifact exists, I can search by sprint name. "The revenue field was split during VERITAS" is more navigable than "the revenue field was changed on February 13th."
 
-The sprint model also provides a natural vocabulary for communicating about AI-conductor work to external audiences. Instead of saying "I spent a week generating documentation," I can say "the PROPULSION sprint produced 404,000+ words of README documentation across 148 repositories, followed by the ASCENSION sprint which validated 1,267 links and 62 dependency edges." The sprint structure makes the work legible as a planned, executed, and validated process rather than a chaotic burst of AI generation.
+The sprint model also provides a natural vocabulary for communicating about AI-conductor work to external audiences. Instead of saying "I spent a week generating documentation," I can say "the PROPULSION sprint produced 6,200+ words of README documentation across 148 repositories, followed by the ASCENSION sprint which validated 1,267 links and 62 dependency edges." The sprint structure makes the work legible as a planned, executed, and validated process rather than a chaotic burst of AI generation.
 
 **Naming matters more than you'd think.** I chose Latin-derived sprint names (IGNITION, PROPULSION, VERITAS, OPERATIO) partly for aesthetic reasons and partly because distinctive names are easier to reference than numbered iterations. "Sprint 7" is forgettable; "ALCHEMIA" is memorable and searchable. This is a small thing, but in a system with fourteen sprints across a week, the naming convention paid for itself in cognitive overhead savings.
 

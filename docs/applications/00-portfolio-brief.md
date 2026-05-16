@@ -10,7 +10,7 @@
 
 ## One-Paragraph Summary
 
-I designed and implemented an eight-organ orchestration system that coordinates 148 repositories across 8 GitHub organizations — spanning theory, generative art, commercial products, governance, public process, community, and marketing. The system includes a machine-readable registry, automated dependency validation, a formal promotion state machine (LOCAL -> CANDIDATE -> PUBLIC_PROCESS -> GRADUATED -> ARCHIVED), and 11 GitHub Actions workflows for autonomous governance. It is fully documented at ~404K+ words and validated by automated scripts that check every repository for CI/CD, documentation, dependency integrity, and constitutional compliance.
+I designed and implemented an eight-organ orchestration system that coordinates 148 repositories across 8 GitHub organizations — spanning theory, generative art, commercial products, governance, public process, community, and marketing. The system includes a machine-readable registry, automated dependency validation, a formal promotion state machine (LOCAL -> CANDIDATE -> PUBLIC_PROCESS -> GRADUATED -> ARCHIVED), and 11 GitHub Actions workflows for autonomous governance. It is fully documented at ~6K+ words and validated by automated scripts that check every repository for CI/CD, documentation, dependency integrity, and constitutional compliance.
 
 ---
 
@@ -20,7 +20,7 @@ I designed and implemented an eight-organ orchestration system that coordinates 
 |-----------|-------|
 | Total repositories | 148 |
 | GitHub organizations | 8 |
-| Documentation | ~404K+ words |
+| Documentation | ~6K+ words |
 | CI/CD coverage | 82+ repos with workflows |
 | Validation scripts | 5 automated, all passing |
 | Meta-system essays | 41 published (~150K words) |
@@ -69,13 +69,13 @@ I designed and implemented an eight-organ orchestration system that coordinates 
 ## Positioning by Track
 
 ### Art-Tech Grants (PRIMARY TRACK — highest fit)
-**Evidence:** ORGAN-V essays (41 published, ~404K+ words) + machine-readable registry documenting 5 years of sustained organizational capacity + 33 named development sprints. **Demonstrates:** The ORGANVM system AS a creative work — governance-as-art, process-as-product, sustained practice at institutional scale. **Targets:** Creative Capital (9/10), Artadia NYC (8/10), Spencer Foundation (6/10).
+**Evidence:** ORGAN-V essays (41 published, ~6K+ words) + machine-readable registry documenting 5 years of sustained organizational capacity + 33 named development sprints. **Demonstrates:** The ORGANVM system AS a creative work — governance-as-art, process-as-product, sustained practice at institutional scale. **Targets:** Creative Capital (9/10), Artadia NYC (8/10), Spencer Foundation (6/10).
 
 ### Residencies & Fellowships
 **Evidence:** 100 repos assembled into a coherent system through editorial vision, documented in real-time across 42 essays — the creative process itself rendered as the product. **Demonstrates:** Systemic creative practice, solo production at institutional scale, AI-augmented methodology, documentation as primary artistic output. **Targets:** Google Creative Lab (8/10), Fire Island (7/10), Eyebeam (7/10), Processing Foundation (6/10).
 
 ### Consulting & Freelance
-**Evidence:** The 148-repo system IS the credential. AI orchestration, documentation, workshop facilitation. **Demonstrates:** $100-125/hr market rate for AI orchestration consulting. 100+ courses taught, 2,000+ students, ~404K+ words of documentation. **Rate floor:** $100/hr (corrected from $60/hr per market research).
+**Evidence:** The 148-repo system IS the credential. AI orchestration, documentation, workshop facilitation. **Demonstrates:** $100-125/hr market rate for AI orchestration consulting. 100+ courses taught, 2,000+ students, ~6K+ words of documentation. **Rate floor:** $100/hr (corrected from $60/hr per market research).
 
 ### Selective Employment (deprioritized)
 **Evidence:** ORGAN-IV orchestration architecture, registry-as-truth design, governance trade-offs encoded in governance-rules.json, agentic-titan (1,095 tests across 18 phases). **Demonstrates:** Production-ready systems thinking, architectural reasoning, autonomous system design, test-driven development at scale. **Targets:** Together AI (6/10), HuggingFace (5/10). Engineering roles are competitive reaches from a non-traditional background — apply selectively.
@@ -104,7 +104,7 @@ This is the thesis: **the process of creation IS the product.** Grant reviewers 
 
 The system was built using AI tools as compositional instruments — the architectural vision, governance design, and editorial judgment are the creative work; AI provides execution capacity. The system design that turns 100 repos into a coordinated organism instead of a pile of code is what distinguishes this from either pure engineering or pure art.
 
-Solo production at full intensity: not isolation as limitation, but as the only way to maintain a singular vision across theory, art, commerce, governance, public process, community, and marketing. Five years of construction, 33 named sprints, 404,000+ words — built alone because the work required it.
+Solo production at full intensity: not isolation as limitation, but as the only way to maintain a singular vision across theory, art, commerce, governance, public process, community, and marketing. Five years of construction, 33 named sprints, 6,200+ words — built alone because the work required it.
 
 ## Who This Is For
 
@@ -112,6 +112,6 @@ Solo production at full intensity: not isolation as limitation, but as the only 
 |----------|--------------|
 | Art-tech grant programs | A living creative work: governance-as-art, 5+ years sustained practice, the system IS the artwork |
 | Residencies & fellowships | A documented creative methodology: the process of creation as artistic practice |
-| Consulting clients | Demonstrated AI orchestration at scale: 100 repos, autonomous governance, ~404K+ words of documentation |
+| Consulting clients | Demonstrated AI orchestration at scale: 100 repos, autonomous governance, ~6K+ words of documentation |
 | Selective employment | Production-grade systems thinking: governance, orchestration, autonomous infrastructure |
 | Collaborators | A system designed to scale: community infrastructure, public documentation, reusable patterns |

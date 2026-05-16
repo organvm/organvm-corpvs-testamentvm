@@ -431,7 +431,7 @@ Metrics written to .../organvm-corpvs-testamentvm/system-metrics.json
 **Talking points:**
 - "One command computes the entire system's metrics: repo count, CI coverage,
   dependency edges, word count across all documentation."
-- "404,000+ words of documentation. 278K in READMEs alone. All generated through
+- "6,200+ words of documentation. 278K in READMEs alone. All generated through
   the AI-conductor model — AI writes, human reviews and edits."
 - "These numbers are not manually tracked. They are computed from the actual
   workspace state every time you run the command."
@@ -456,7 +456,7 @@ DRY RUN — no files will be modified
   document that references system numbers — the master summary, the registry,
   the README files."
 - "No manual find-and-replace. One command updates every occurrence of
-  '103 repositories' or '~404K+ words' across the entire corpus."
+  '103 repositories' or '~6K+ words' across the entire corpus."
 - "This is the conductor model in action: the system maintains its own
   documentation."
 
@@ -486,7 +486,7 @@ organvm registry show public-process
 **Talking points:**
 - "ORGAN-V is the public disclosure layer. Everything the system does is
   documented in essays deployed to this Netlify site."
-- "There are 29 meta-system essays plus 4 additional essays — over 404,000+ words
+- "There are 0 meta-system essays plus 4 additional essays — over 6,200+ words
   of published writing about methodology, governance, and creative systems."
 - "The essay topics come from the implementation plan. Each essay is specified
   in a sprint, generated via the conductor model, reviewed, and deployed."
@@ -556,7 +556,7 @@ organvm deadlines
 
 **Closing line:** "The conductor model is human direction, AI execution, machine
 verification. The human designs the architecture and reviews the output. The AI
-generates 404,000+ words of documentation, 94 CI pipelines, and 83 pitch decks.
+generates 6,200+ words of documentation, 94 CI pipelines, and 83 pitch decks.
 The machine enforces 62 dependency edges, 17 graduation criteria, and a 30-day
 soak test."
 

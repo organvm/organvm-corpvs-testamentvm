@@ -22,7 +22,7 @@ Cohere is building the enterprise layer for agentic AI. Enterprise means governa
 
 **Evaluation infrastructure as a first-class concern.** I built organ-audit.py (monthly health monitoring across 148 repos), platinum-validation.py (full system sweep against 1,267 audited links and 62 dependency edges), and 5 GitHub Actions workflows that enforce governance continuously. Evaluation framework building isn't a secondary skill — it's central to how I design systems.
 
-**Documentation that scales enterprise adoption.** 404,000+ words of portfolio-quality documentation. When enterprise customers need to understand what an agentic system does and why they should trust it, clear technical communication is the difference between a proof-of-concept and a deployment.
+**Documentation that scales enterprise adoption.** 6,200+ words of portfolio-quality documentation. When enterprise customers need to understand what an agentic system does and why they should trust it, clear technical communication is the difference between a proof-of-concept and a deployment.
 
 ## Evidence
 

@@ -188,7 +188,7 @@ The $60/hr floor from early planning is **significantly below market** (FILE-058
 | Monthly AI Advisory | $3,000–$7,500 | Retainer model |
 | Custom AI System Build | $10,000–$50,000+ | The 148-repo system IS the credential |
 | Workshop Facilitation | $500–$2,000/session | Teaching experience as differentiator |
-| Documentation Consulting | $2,500–$15,000/project | ~404K+ words proves capacity |
+| Documentation Consulting | $2,500–$15,000/project | ~6K+ words proves capacity |
 
 **Benefits cliff note:** Consulting income is earned income (not lump-sum) — counts toward SNAP/Medicaid thresholds. Keep monthly consulting under $1,500 to stay below SNAP earned-income threshold ($23,484/yr). Or accept the Medicaid→Essential Plan transition and earn freely up to $39,125.
 

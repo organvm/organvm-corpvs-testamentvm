@@ -47,7 +47,7 @@ These targets align most strongly with the actual profile — a systems artist b
 - **Deadline:** **April 2, 2026, 3pm ET**
 - **Amount:** Up to $50,000 + professional development + new State of the Art Prize
 - **Framing:** Systems Artist — "adventurous and imaginative" artists, interdisciplinary work
-- **Lead evidence:** Full 8-organ system as sustained creative practice, 5+ years, 49 essays, ~404K+ words
+- **Lead evidence:** Full 8-organ system as sustained creative practice, 5+ years, 49 essays, ~6K+ words
 - **Application URL:** https://creative-capital.org/creative-capital-award/award-application/
 - **Application format:** 6 short questions, 500-word project description, work samples, bio, resume
 - **Eligibility:** 5+ years professional artistic practice, US-based
@@ -69,7 +69,7 @@ These targets align most strongly with the actual profile — a systems artist b
 
 ### 1.4 — Google Creative Lab Five
 - **Track:** Residency
-- **Status:** **PASTE-READY** — metrics refreshed 2026-03-19 (113 repos, 49 essays, ~404K+ words, 4K+ tests, omega 4/17)
+- **Status:** **PASTE-READY** — metrics refreshed 2026-03-19 (113 repos, 49 essays, ~6K+ words, 4K+ tests, omega 4/17)
 - **Deadline:** Open (no stated close date). 17th class runs July 2026–July 2027.
 - **Amount:** Salaried position (1 year)
 - **Framing:** Creative technologist with systematic practice
@@ -285,7 +285,7 @@ No deadlines — activate immediately for ongoing support.
 - **Notes:** Quick application. **Benefits cliff: SNAP-safe.**
 
 ### 2.5 — PEN America Writers Aid
-- **Status:** **PASTE-READY** — metrics refreshed 2026-03-19 (49 essays, ~404K+ words, MFA)
+- **Status:** **PASTE-READY** — metrics refreshed 2026-03-19 (49 essays, ~6K+ words, MFA)
 - **Deadline:** Rolling
 - **Amount:** Up to $3,500
 - **Eligibility:** Professional writers, housing-precarious. PEN membership NOT required.
@@ -399,7 +399,7 @@ No applications needed — build this pipeline through direct outreach and platf
 
 ### 4.3 — Documentation Consulting
 - **Rate:** $2,500–$15,000/project
-- **Credential:** ~404K+ words of portfolio-quality documentation
+- **Credential:** ~6K+ words of portfolio-quality documentation
 - **Action:** Target startups needing technical documentation, open-source projects
 
 ---
@@ -446,7 +446,7 @@ Premium publications that pay professional rates for exactly the kind of essays 
 ### 6.4 — MIT Technology Review / Wired / Aeon
 - **Rate:** MIT TR $1-3/word ($2.5K-12K), Wired $2,500+ starting, Aeon $500-1,500
 - **Topic fit:** AI, creative technology, LLMs. High prestige + high pay.
-- **Pitch angle:** "The AI-Conductor Model: How one person used Claude to coordinate 113 repos, 33 sprints, and ~404K+ words."
+- **Pitch angle:** "The AI-Conductor Model: How one person used Claude to coordinate 113 repos, 33 sprints, and ~6K+ words."
 - **Notes:** Highest-value outlets. Competitive but the story is genuinely unusual.
 
 ---
@@ -566,7 +566,7 @@ For each application:
 
 **9 job applications submitted** on 2026-03-19 (Track 3b added)
 
-**Metrics updated:** 113 repos, 49 essays (was 42), ~404K+ words (was 404K+), 4K+ tests, omega 4/17
+**Metrics updated:** 113 repos, 49 essays (was 42), ~6K+ words (was 404K+), 4K+ tests, omega 4/17
 
 ### Strategy Rewrite (2026-02-17)
 
