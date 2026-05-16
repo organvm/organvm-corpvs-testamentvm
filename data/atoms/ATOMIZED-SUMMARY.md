@@ -1,6 +1,6 @@
 # Plan Atomization Summary
 **Generated**: 2026-05-16
-**Plans parsed**: 947 | **Tasks extracted**: 11058
+**Plans parsed**: 963 | **Tasks extracted**: 11168
 
 ## By Project
 
@@ -24,7 +24,7 @@
 | 4444J99/portfolio/.gemini/plans | 4 | 30 | 0 | 30 | 0 |
 | 4444J99/system-system--system/.claude/plans | 21 | 191 | 0 | 191 | 0 |
 | 4444J99/system-system--system/.gemini/plans | 2 | 23 | 14 | 9 | 0 |
-| _root | 764 | 8710 | 363 | 8347 | 0 |
+| _root | 780 | 8820 | 391 | 8429 | 0 |
 | a-organvm/.claude/plans | 13 | 260 | 0 | 260 | 0 |
 | a-organvm/.codex/plans | 1 | 1 | 1 | 0 | 0 |
 | composition-1-2/.claude/plans | 2 | 18 | 9 | 9 | 0 |
@@ -33,29 +33,29 @@
 
 | Type | Count | % |
 |------|-------|---|
-| generic | 4082 | 36% |
-| document | 1905 | 17% |
-| create_file | 938 | 8% |
-| configure | 796 | 7% |
-| modify_file | 720 | 6% |
-| write_test | 525 | 4% |
-| verify | 427 | 3% |
-| deploy | 344 | 3% |
-| git_operation | 322 | 2% |
+| generic | 4112 | 36% |
+| document | 1923 | 17% |
+| create_file | 946 | 8% |
+| configure | 809 | 7% |
+| modify_file | 732 | 6% |
+| write_test | 527 | 4% |
+| verify | 434 | 3% |
+| deploy | 349 | 3% |
+| git_operation | 326 | 2% |
 | delete_file | 282 | 2% |
-| research | 277 | 2% |
-| migrate | 260 | 2% |
-| review | 88 | 0% |
-| exploration | 45 | 0% |
+| research | 280 | 2% |
+| migrate | 261 | 2% |
+| review | 89 | 0% |
+| exploration | 47 | 0% |
 | refactor | 38 | 0% |
-| post_hoc | 9 | 0% |
+| post_hoc | 13 | 0% |
 
 ## By Status
 
 | Status | Count | % |
 |--------|-------|---|
-| pending | 10630 | 96% |
-| completed | 428 | 3% |
+| pending | 10712 | 95% |
+| completed | 456 | 4% |
 
 ## Largest Plans (by task count)
 
@@ -86,7 +86,7 @@
 
 | Agent | Count | % |
 |-------|-------|---|
-| claude | 10855 | 98% |
+| claude | 10965 | 98% |
 | gemini | 127 | 1% |
 | codex | 76 | 0% |
 
@@ -94,12 +94,12 @@
 
 | Organ | Count | % |
 |-------|-------|---|
-| _root | 4221 | 38% |
-| LIMINAL | 3187 | 28% |
-| META | 2038 | 18% |
+| _root | 4265 | 38% |
+| LIMINAL | 3209 | 28% |
+| META | 2067 | 18% |
 | I | 879 | 7% |
+| III | 367 | 3% |
 | IV | 353 | 3% |
-| III | 352 | 3% |
 | II | 16 | 0% |
 | VII | 12 | 0% |
 
@@ -108,7 +108,17 @@
 | Plan | Project | Classification |
 |------|---------|----------------|
 | Agent Handoff: AUTOGEN banner + carry-forward clos | _root | git_operation |
+| Agent Handoff: post-content-leak-scrub aftermath ( | _root | post_hoc |
+| Agent Handoff: post-content-leak-scrub aftermath | _root | document |
+| Agent Handoff: Sovereign-Tier Schema Fix Aftermath | _root | migrate |
+| Audit: 2026-05-14 Prompting-Best-Practices Synthes | _root | post_hoc |
 | Session Close-Out — 2026-05-16 (AUTOGEN banner + c | _root | modify_file |
+| Session Close-Out — 2026-05-16 (prompting-audit +  | _root | post_hoc |
+| Multi-session audit: WAS / IS / NEEDS TO BE — and: | _root | post_hoc |
+| Synthesis: three-transcript walk-through (build →  | _root | configure |
+| Plan: "the work that began this repo" → SOP-plugin | _root | create_file |
+| Plan: Prompting-Best-Practices Synthesis Audit (th | _root | document |
+| 2026-05-14 — Prompting Best Practices: Continuous- | _root | generic |
 | Plan: SEED.md Constitutional Completeness | _root | verify |
 | Plan: Fix context sync error line accumulation | _root | generic |
 | Session Plan: 4-Front Attack — 2026-04-23 Afternoo | _root | write_test |
@@ -158,7 +168,6 @@
 | Docker Decision Framework — for a Non-Programmer B | _root | modify_file |
 | Session Close-Out Plan: S-contrib-execution-2 (202 | _root | generic |
 | Audit: Documentation Handoff Architecture | _root | modify_file |
-| Plan: "the work that began this repo" → SOP-plugin | _root | create_file |
 | Session Closure Health Audit — Two Prior Sessions | _root | modify_file |
 | Exhaustive Recursive Descent of organvm-engine | _root | write_test |
 | Directory Dissection: meta-organvm Post-Mortem → T | _root | generic |
