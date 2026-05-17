@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-16T19:39:46Z",
+  "generated": "2026-05-17T03:18:30Z",
   "total_plans": 183,
   "total_tasks": 2348,
   "entries": [
@@ -5630,7 +5630,7 @@
         "III",
         "META"
       ],
-      "stale_count": 96
+      "stale_count": 101
     },
     "META": {
       "organ_key": "META",
@@ -5917,6 +5917,11 @@
     }
   ],
   "stale_candidates": [
+    "claude:LIMINAL:?:three-world-recapitulation-full-sweep",
+    "claude:LIMINAL:?:hook-enforcement",
+    "claude:LIMINAL:domus-semper-palingenesis:domain-architecture-concentric-circles",
+    "claude:LIMINAL:domus-semper-palingenesis:hook-enforcement",
+    "claude:LIMINAL:system-system--system:phenomenology-neighborhood-vacuums",
     "claude:LIMINAL:domus-semper-palingenesis:gcloud-python-pin",
     "claude:LIMINAL:domus-semper-palingenesis:session-archival-architecture",
     "claude:LIMINAL:system-system--system:vacuum-resolution-pulse-frequency",

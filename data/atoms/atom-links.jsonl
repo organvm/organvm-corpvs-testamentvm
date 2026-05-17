@@ -53,6 +53,18 @@
 {"task_id": "50ffd0669eea", "prompt_id": "c2f7f6cb998b", "jaccard": 0.7143, "shared_tags": ["bash", "chezmoi", "go", "mcp", "python"], "shared_refs": []}
 {"task_id": "bc28ef714571", "prompt_id": "c2f7f6cb998b", "jaccard": 0.7143, "shared_tags": ["bash", "chezmoi", "go", "mcp", "python"], "shared_refs": []}
 {"task_id": "de3001f2a859", "prompt_id": "c2f7f6cb998b", "jaccard": 0.7143, "shared_tags": ["bash", "chezmoi", "go", "mcp", "python"], "shared_refs": []}
+{"task_id": "ce5765e65d5e", "prompt_id": "27e8c0504a59", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "b0b2f01dfd95", "prompt_id": "27e8c0504a59", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "a3928bd70628", "prompt_id": "27e8c0504a59", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "c92b842ed34a", "prompt_id": "27e8c0504a59", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "9e0503800625", "prompt_id": "27e8c0504a59", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "f513fbc97c0b", "prompt_id": "27e8c0504a59", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "ce5765e65d5e", "prompt_id": "24ae720625ad", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "b0b2f01dfd95", "prompt_id": "24ae720625ad", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "a3928bd70628", "prompt_id": "24ae720625ad", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "c92b842ed34a", "prompt_id": "24ae720625ad", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "9e0503800625", "prompt_id": "24ae720625ad", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "f513fbc97c0b", "prompt_id": "24ae720625ad", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "ce5765e65d5e", "prompt_id": "379b5d086590", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "b0b2f01dfd95", "prompt_id": "379b5d086590", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "a3928bd70628", "prompt_id": "379b5d086590", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
@@ -98,6 +110,12 @@
 {"task_id": "c92b842ed34a", "prompt_id": "d40f2300f4fb", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "9e0503800625", "prompt_id": "d40f2300f4fb", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "f513fbc97c0b", "prompt_id": "d40f2300f4fb", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "ce5765e65d5e", "prompt_id": "b323e4dfbe60", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "b0b2f01dfd95", "prompt_id": "b323e4dfbe60", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "a3928bd70628", "prompt_id": "b323e4dfbe60", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "c92b842ed34a", "prompt_id": "b323e4dfbe60", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "9e0503800625", "prompt_id": "b323e4dfbe60", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "f513fbc97c0b", "prompt_id": "b323e4dfbe60", "jaccard": 0.6667, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "c1dcda95d203", "prompt_id": "146fd8d23db3", "jaccard": 0.6667, "shared_tags": ["bash", "homebrew"], "shared_refs": []}
 {"task_id": "604791827d59", "prompt_id": "146fd8d23db3", "jaccard": 0.6667, "shared_tags": ["bash", "homebrew"], "shared_refs": []}
 {"task_id": "e0f0d5837b56", "prompt_id": "146fd8d23db3", "jaccard": 0.6667, "shared_tags": ["bash", "homebrew"], "shared_refs": []}
@@ -1000,6 +1018,27 @@
 {"task_id": "7e75da160a73", "prompt_id": "c2f7f6cb998b", "jaccard": 0.5714, "shared_tags": ["bash", "chezmoi", "mcp", "python"], "shared_refs": []}
 {"task_id": "d7a692e99360", "prompt_id": "c2f7f6cb998b", "jaccard": 0.5714, "shared_tags": ["bash", "chezmoi", "mcp", "python"], "shared_refs": []}
 {"task_id": "582b4879b3c6", "prompt_id": "c2f7f6cb998b", "jaccard": 0.5714, "shared_tags": ["bash", "chezmoi", "mcp", "python"], "shared_refs": []}
+{"task_id": "cf2b48098470", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "1df80a33495d", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "40dfec9d197c", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "f58c09341ff1", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "1b8cf35cea8e", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "afe57f32bc68", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "85e9c1d9fe4c", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "2b1e5d87d857", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "58bfcddc7551", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "aeee35ca8fbd", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "4bdf9c5c7875", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "da74e0828c83", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "9230a39446e2", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "df55577f0118", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "6bb6665d7d9b", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "2a9887b1fa91", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "8c2ca528d302", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "9193e91e5484", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "44a5b5078899", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "89941ebb48ef", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "7224e5b3dad8", "prompt_id": "8c501cd22a25", "jaccard": 0.5556, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "zsh"], "shared_refs": []}
 {"task_id": "1e9882ac74e9", "prompt_id": "420163df88c9", "jaccard": 0.5556, "shared_tags": ["astro", "cloudflare"], "shared_refs": [".conductor/active-handoff.md", "docs/client-pdfs/2026-05-16-maddie-imessage-responses.pdf", "docs/maddie/2026-04-25-message-spiral-feedback.pdf"]}
 {"task_id": "0db65f3efb1d", "prompt_id": "b47210786074", "jaccard": 0.5556, "shared_tags": ["bash", "cloudflare", "go", "mcp", "node"], "shared_refs": []}
 {"task_id": "cbd6a7904e77", "prompt_id": "b47210786074", "jaccard": 0.5556, "shared_tags": ["bash", "cloudflare", "go", "mcp", "node"], "shared_refs": []}
@@ -1016,8 +1055,199 @@
 {"task_id": "9fc2014a39c8", "prompt_id": "412bdf19380e", "jaccard": 0.5455, "shared_tags": ["bash", "chezmoi", "homebrew", "mcp", "python", "zsh"], "shared_refs": []}
 {"task_id": "9e0e6b5ecbed", "prompt_id": "412bdf19380e", "jaccard": 0.5455, "shared_tags": ["bash", "chezmoi", "homebrew", "mcp", "python", "zsh"], "shared_refs": []}
 {"task_id": "8eae1d0adfd7", "prompt_id": "412bdf19380e", "jaccard": 0.5455, "shared_tags": ["bash", "chezmoi", "homebrew", "mcp", "python", "zsh"], "shared_refs": []}
+{"task_id": "c51349e0dc8c", "prompt_id": "27e8c0504a59", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "1ce5242db6be", "prompt_id": "27e8c0504a59", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "a4b5186d04b0", "prompt_id": "27e8c0504a59", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "c51349e0dc8c", "prompt_id": "24ae720625ad", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "1ce5242db6be", "prompt_id": "24ae720625ad", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "a4b5186d04b0", "prompt_id": "24ae720625ad", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "5c87389317d4", "prompt_id": "a67d042c6606", "jaccard": 0.5, "shared_tags": ["aws", "chezmoi", "go"], "shared_refs": []}
 {"task_id": "dde830798cf2", "prompt_id": "a67d042c6606", "jaccard": 0.5, "shared_tags": ["aws", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "7cae8a7b05e4", "prompt_id": "e0635635982b", "jaccard": 0.5, "shared_tags": ["aws", "go", "mcp", "playwright"], "shared_refs": []}
+{"task_id": "7f13857e43b2", "prompt_id": "e0635635982b", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "go", "mcp"], "shared_refs": []}
+{"task_id": "efb873114092", "prompt_id": "e0635635982b", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "go", "mcp"], "shared_refs": []}
+{"task_id": "8256b2dca013", "prompt_id": "e0635635982b", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "go", "mcp"], "shared_refs": []}
+{"task_id": "5def74d2b78f", "prompt_id": "e0635635982b", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "go", "mcp"], "shared_refs": []}
+{"task_id": "66028b523b91", "prompt_id": "e0635635982b", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "go", "mcp"], "shared_refs": []}
+{"task_id": "314c5a239943", "prompt_id": "e0635635982b", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "go", "mcp"], "shared_refs": []}
+{"task_id": "8cd9f31e0a73", "prompt_id": "e0635635982b", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "go", "mcp"], "shared_refs": []}
+{"task_id": "30bd2f357e8f", "prompt_id": "e0635635982b", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "go", "mcp"], "shared_refs": []}
+{"task_id": "50ffd0669eea", "prompt_id": "e0635635982b", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "go", "mcp"], "shared_refs": []}
+{"task_id": "bc28ef714571", "prompt_id": "e0635635982b", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "go", "mcp"], "shared_refs": []}
+{"task_id": "de3001f2a859", "prompt_id": "e0635635982b", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "go", "mcp"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d8542d81a491", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "035551841570", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "9394d0eba88c", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "a06781d311e7", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "cbf59e8daf0f", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "c499b638ac30", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "c905a5e2f006", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "59005bdab719", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "1373436ea403", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "6ec56a12c41d", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "c4d133e800b4", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "7f8cd5550051", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "20203a13ac3c", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "a627ffd0229b", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e57989f8ddaa", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "91f5b175191e", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "124ebe58f30d", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "023c8d9e4428", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "3dd88bbdbe42", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "6fd813be59d7", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "1d76c1ec4585", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "b08ac62673cf", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d9d83f7fb778", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "2aedf9dbe2ef", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "ecd09c5b696d", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "8de1fb7e34c4", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "3b2d839a721e", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "5ec734452fbb", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "7197f0fe261d", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "21a7553afa19", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "77600a379ba8", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "0099b5955f66", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "dac6e2c482c5", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "b2d71b314e2d", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "a4e51ed366b6", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "c9e259cadeef", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "7618bddfb920", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "89d2d12c6e2c", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d665e2be7752", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "0cba52415d2a", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "144f08b5b6fa", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "f4e02040ac91", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "8276f607ee10", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "7bc7e2217a0b", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "6903ae7cbe09", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "9f2513e70d78", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "1dbaf0ddbbd3", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "8565497c9c61", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "8fcb274e6dc6", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "07734b4bfe14", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "386564fc4174", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "5a06ab12c11a", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "db7ac833439f", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d72cf04e722c", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "6b1e7cc31573", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e4e26ff69dac", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "4c8b1b27a6dc", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "c459b0077927", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "7b0fb84f726e", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "b1f89d0d552e", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "bb91458117b2", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "7fa547b63974", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "b1f595809d78", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "ab556b749ed3", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "af715129cf45", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "28ee082000f0", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "c91431dfcc4b", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "dce17be6a3df", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "17042fa33065", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d0543fe4be4e", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "591b5d3353a2", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "06515f13523b", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "acaa7eb14b6b", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "86f4731a3594", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "2dec80ab7db1", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "225be908d5eb", "prompt_id": "4e025024bd5c", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d8542d81a491", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "035551841570", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "9394d0eba88c", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "a06781d311e7", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "cbf59e8daf0f", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "c499b638ac30", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "c905a5e2f006", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "59005bdab719", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "1373436ea403", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "6ec56a12c41d", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "c4d133e800b4", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "7f8cd5550051", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "20203a13ac3c", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "a627ffd0229b", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e57989f8ddaa", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "91f5b175191e", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "124ebe58f30d", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "023c8d9e4428", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "3dd88bbdbe42", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "6fd813be59d7", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "1d76c1ec4585", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "b08ac62673cf", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d9d83f7fb778", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "2aedf9dbe2ef", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "ecd09c5b696d", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "8de1fb7e34c4", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "3b2d839a721e", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "5ec734452fbb", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "7197f0fe261d", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "21a7553afa19", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "77600a379ba8", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "0099b5955f66", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "dac6e2c482c5", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "b2d71b314e2d", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "a4e51ed366b6", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "c9e259cadeef", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "7618bddfb920", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "89d2d12c6e2c", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d665e2be7752", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "0cba52415d2a", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "144f08b5b6fa", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "f4e02040ac91", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "8276f607ee10", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "7bc7e2217a0b", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "6903ae7cbe09", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "9f2513e70d78", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "1dbaf0ddbbd3", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "8565497c9c61", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "8fcb274e6dc6", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "07734b4bfe14", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "386564fc4174", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "5a06ab12c11a", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "db7ac833439f", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d72cf04e722c", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "6b1e7cc31573", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e4e26ff69dac", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "4c8b1b27a6dc", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "c459b0077927", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "7b0fb84f726e", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "b1f89d0d552e", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "bb91458117b2", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "7fa547b63974", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "b1f595809d78", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "ab556b749ed3", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "af715129cf45", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "28ee082000f0", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "c91431dfcc4b", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "dce17be6a3df", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "17042fa33065", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d0543fe4be4e", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "591b5d3353a2", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "06515f13523b", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "acaa7eb14b6b", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "86f4731a3594", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "2dec80ab7db1", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "225be908d5eb", "prompt_id": "b8cb05c97e96", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "8eae9a0f8606", "prompt_id": "8c501cd22a25", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "a53edd0665b4", "prompt_id": "8c501cd22a25", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "7800b93a5366", "prompt_id": "8c501cd22a25", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "57cec5a8f4d6", "prompt_id": "8c501cd22a25", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "2f86299d09c3", "prompt_id": "8c501cd22a25", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "407536357466", "prompt_id": "8c501cd22a25", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "c4028409db29", "prompt_id": "8c501cd22a25", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "docker", "go", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "e0725e7c7a37", "prompt_id": "2fd5bd1a842f", "jaccard": 0.5, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "69103df05788", "prompt_id": "2fd5bd1a842f", "jaccard": 0.5, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "f2916f5a754a", "prompt_id": "2fd5bd1a842f", "jaccard": 0.5, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "58baa408d1ae", "prompt_id": "2fd5bd1a842f", "jaccard": 0.5, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "feb23e9144b4", "prompt_id": "2fd5bd1a842f", "jaccard": 0.5, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "99d55cdf3c3b", "prompt_id": "2fd5bd1a842f", "jaccard": 0.5, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "21af682d7618", "prompt_id": "2fd5bd1a842f", "jaccard": 0.5, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "2261118d2130", "prompt_id": "2fd5bd1a842f", "jaccard": 0.5, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "05ac3465e421", "prompt_id": "2fd5bd1a842f", "jaccard": 0.5, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "1a38a950690d", "prompt_id": "2faf53047e78", "jaccard": 0.5, "shared_tags": ["chezmoi", "cloudflare"], "shared_refs": []}
+{"task_id": "9fc6ec4d4c99", "prompt_id": "2faf53047e78", "jaccard": 0.5, "shared_tags": ["chezmoi", "cloudflare"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "891148de34d7", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "891148de34d7", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "891148de34d7", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "891148de34d7", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -1094,6 +1324,7 @@
 {"task_id": "86f4731a3594", "prompt_id": "891148de34d7", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "2dec80ab7db1", "prompt_id": "891148de34d7", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "225be908d5eb", "prompt_id": "891148de34d7", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "e9823343289a", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "e9823343289a", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "e9823343289a", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "e9823343289a", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -1192,6 +1423,7 @@
 {"task_id": "c51349e0dc8c", "prompt_id": "eab142633b3e", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "1ce5242db6be", "prompt_id": "eab142633b3e", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "a4b5186d04b0", "prompt_id": "eab142633b3e", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "f657e28ac5d3", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "f657e28ac5d3", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "f657e28ac5d3", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "f657e28ac5d3", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -1286,6 +1518,9 @@
 {"task_id": "c51349e0dc8c", "prompt_id": "d40f2300f4fb", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "1ce5242db6be", "prompt_id": "d40f2300f4fb", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "a4b5186d04b0", "prompt_id": "d40f2300f4fb", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "c51349e0dc8c", "prompt_id": "b323e4dfbe60", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "1ce5242db6be", "prompt_id": "b323e4dfbe60", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "a4b5186d04b0", "prompt_id": "b323e4dfbe60", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "e64979ee497a", "prompt_id": "46dfc355d5af", "jaccard": 0.5, "shared_tags": ["bash", "python", "zsh"], "shared_refs": []}
 {"task_id": "be1e872e4bb0", "prompt_id": "46dfc355d5af", "jaccard": 0.5, "shared_tags": ["bash", "homebrew", "python", "zsh"], "shared_refs": []}
 {"task_id": "13a687941ad4", "prompt_id": "46dfc355d5af", "jaccard": 0.5, "shared_tags": ["bash", "homebrew", "python", "zsh"], "shared_refs": []}
@@ -1300,6 +1535,7 @@
 {"task_id": "c51349e0dc8c", "prompt_id": "cd414a5c3af8", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "1ce5242db6be", "prompt_id": "cd414a5c3af8", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "a4b5186d04b0", "prompt_id": "cd414a5c3af8", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "b6525940e4a2", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "b6525940e4a2", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "b6525940e4a2", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "b6525940e4a2", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -1397,6 +1633,7 @@
 {"task_id": "97e3907859de", "prompt_id": "f18cf6d87f87", "jaccard": 0.5, "shared_tags": ["chezmoi", "go"], "shared_refs": []}
 {"task_id": "817d7f03af25", "prompt_id": "f18cf6d87f87", "jaccard": 0.5, "shared_tags": ["chezmoi", "go"], "shared_refs": []}
 {"task_id": "c036a6caf297", "prompt_id": "f18cf6d87f87", "jaccard": 0.5, "shared_tags": ["chezmoi", "go"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "8e4fd89120df", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "8e4fd89120df", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "8e4fd89120df", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "8e4fd89120df", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -1578,6 +1815,7 @@
 {"task_id": "44a5b5078899", "prompt_id": "412bdf19380e", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "homebrew", "mcp", "python", "zsh"], "shared_refs": []}
 {"task_id": "89941ebb48ef", "prompt_id": "412bdf19380e", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "homebrew", "mcp", "python", "zsh"], "shared_refs": []}
 {"task_id": "7224e5b3dad8", "prompt_id": "412bdf19380e", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "homebrew", "mcp", "python", "zsh"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "d0c110a0a549", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "d0c110a0a549", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "d0c110a0a549", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "d0c110a0a549", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -1727,6 +1965,7 @@
 {"task_id": "c51349e0dc8c", "prompt_id": "47444971bd72", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "1ce5242db6be", "prompt_id": "47444971bd72", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "a4b5186d04b0", "prompt_id": "47444971bd72", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "36642ca632f8", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "36642ca632f8", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "36642ca632f8", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "36642ca632f8", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -1815,6 +2054,7 @@
 {"task_id": "c51349e0dc8c", "prompt_id": "c95e4a212ca9", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "1ce5242db6be", "prompt_id": "c95e4a212ca9", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "a4b5186d04b0", "prompt_id": "c95e4a212ca9", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "54143faad4ab", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "54143faad4ab", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "54143faad4ab", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "54143faad4ab", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -1954,6 +2194,7 @@
 {"task_id": "97e3907859de", "prompt_id": "0d478d5329f8", "jaccard": 0.5, "shared_tags": ["chezmoi", "go"], "shared_refs": []}
 {"task_id": "817d7f03af25", "prompt_id": "0d478d5329f8", "jaccard": 0.5, "shared_tags": ["chezmoi", "go"], "shared_refs": []}
 {"task_id": "c036a6caf297", "prompt_id": "0d478d5329f8", "jaccard": 0.5, "shared_tags": ["chezmoi", "go"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "433278c190f8", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "433278c190f8", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "433278c190f8", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "433278c190f8", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -2223,6 +2464,7 @@
 {"task_id": "46a29c58eca3", "prompt_id": "9fcf9a3c3a07", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi"], "shared_refs": []}
 {"task_id": "97ccd8d6ebe2", "prompt_id": "9fcf9a3c3a07", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi"], "shared_refs": []}
 {"task_id": "1734ebf7a430", "prompt_id": "9fcf9a3c3a07", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "5aa372293b73", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "5aa372293b73", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "5aa372293b73", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "5aa372293b73", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -2484,6 +2726,7 @@
 {"task_id": "c51349e0dc8c", "prompt_id": "9ec57d3463ff", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "1ce5242db6be", "prompt_id": "9ec57d3463ff", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "a4b5186d04b0", "prompt_id": "9ec57d3463ff", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "c1110f7110ce", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "c1110f7110ce", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "c1110f7110ce", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "c1110f7110ce", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -2595,6 +2838,7 @@
 {"task_id": "c51349e0dc8c", "prompt_id": "8395ff96c0d6", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "1ce5242db6be", "prompt_id": "8395ff96c0d6", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "a4b5186d04b0", "prompt_id": "8395ff96c0d6", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "6dbfe3d27a65", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "6dbfe3d27a65", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "6dbfe3d27a65", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "6dbfe3d27a65", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -2745,6 +2989,7 @@
 {"task_id": "c51349e0dc8c", "prompt_id": "ff8393b4b49b", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "1ce5242db6be", "prompt_id": "ff8393b4b49b", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "a4b5186d04b0", "prompt_id": "ff8393b4b49b", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "f314a65aee9d", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "f314a65aee9d", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "f314a65aee9d", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "f314a65aee9d", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -2948,6 +3193,7 @@
 {"task_id": "17214e8abfba", "prompt_id": "9295f8d13ce1", "jaccard": 0.5, "shared_tags": ["mcp"], "shared_refs": []}
 {"task_id": "4c8957ead9fa", "prompt_id": "9295f8d13ce1", "jaccard": 0.5, "shared_tags": ["mcp"], "shared_refs": []}
 {"task_id": "84df96a4b323", "prompt_id": "b52c8fa3da7c", "jaccard": 0.5, "shared_tags": ["node"], "shared_refs": ["src/data/hub.config.ts"]}
+{"task_id": "58224f5aefcf", "prompt_id": "e2d907d48500", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "e2d907d48500", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "e2d907d48500", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "e2d907d48500", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -3024,6 +3270,7 @@
 {"task_id": "86f4731a3594", "prompt_id": "e2d907d48500", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "2dec80ab7db1", "prompt_id": "e2d907d48500", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "225be908d5eb", "prompt_id": "e2d907d48500", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "851a3ea60d32", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "851a3ea60d32", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "851a3ea60d32", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "851a3ea60d32", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -3102,6 +3349,7 @@
 {"task_id": "225be908d5eb", "prompt_id": "851a3ea60d32", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "8b686fb7ab5a", "prompt_id": "0159d7fd60b4", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
 {"task_id": "0b97ee2713e9", "prompt_id": "0159d7fd60b4", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "bda4171f10b5", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "bda4171f10b5", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "bda4171f10b5", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "bda4171f10b5", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -3237,6 +3485,7 @@
 {"task_id": "23c43c575972", "prompt_id": "c2f7f6cb998b", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "mcp", "python"], "shared_refs": []}
 {"task_id": "dbda932a6c73", "prompt_id": "c2f7f6cb998b", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "mcp", "python"], "shared_refs": []}
 {"task_id": "216461d49393", "prompt_id": "c2f7f6cb998b", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi", "mcp", "python"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "55c2c2bbcc32", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "55c2c2bbcc32", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "55c2c2bbcc32", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "55c2c2bbcc32", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -3442,6 +3691,7 @@
 {"task_id": "38ebed928335", "prompt_id": "6efbaf74528c", "jaccard": 0.5, "shared_tags": ["zsh"], "shared_refs": []}
 {"task_id": "8098420cec75", "prompt_id": "6efbaf74528c", "jaccard": 0.5, "shared_tags": ["zsh"], "shared_refs": []}
 {"task_id": "16a700279781", "prompt_id": "6efbaf74528c", "jaccard": 0.5, "shared_tags": ["zsh"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "48211e4e3c39", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "48211e4e3c39", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "48211e4e3c39", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "48211e4e3c39", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -3526,6 +3776,7 @@
 {"task_id": "32cc9db54663", "prompt_id": "62c13cc0772e", "jaccard": 0.5, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "d97766df1afe", "prompt_id": "62c13cc0772e", "jaccard": 0.5, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "d813c56fca06", "prompt_id": "62c13cc0772e", "jaccard": 0.5, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "2344bc98f9fa", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "2344bc98f9fa", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "2344bc98f9fa", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "2344bc98f9fa", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -3630,6 +3881,7 @@
 {"task_id": "38ebed928335", "prompt_id": "f738e50c9d9e", "jaccard": 0.5, "shared_tags": ["zsh"], "shared_refs": []}
 {"task_id": "8098420cec75", "prompt_id": "f738e50c9d9e", "jaccard": 0.5, "shared_tags": ["zsh"], "shared_refs": []}
 {"task_id": "16a700279781", "prompt_id": "f738e50c9d9e", "jaccard": 0.5, "shared_tags": ["zsh"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "25700de56227", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "25700de56227", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "25700de56227", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "25700de56227", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -3793,6 +4045,7 @@
 {"task_id": "46a29c58eca3", "prompt_id": "39ea8686cee6", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi"], "shared_refs": []}
 {"task_id": "97ccd8d6ebe2", "prompt_id": "39ea8686cee6", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi"], "shared_refs": []}
 {"task_id": "1734ebf7a430", "prompt_id": "39ea8686cee6", "jaccard": 0.5, "shared_tags": ["bash", "chezmoi"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "30db3fe7a707", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "30db3fe7a707", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "30db3fe7a707", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "30db3fe7a707", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -3878,6 +4131,7 @@
 {"task_id": "f3c480ac95e6", "prompt_id": "45e825b7c500", "jaccard": 0.5, "shared_tags": ["chezmoi", "zsh"], "shared_refs": []}
 {"task_id": "9f8a81731bad", "prompt_id": "45e825b7c500", "jaccard": 0.5, "shared_tags": ["chezmoi", "zsh"], "shared_refs": []}
 {"task_id": "a3c434cd3f23", "prompt_id": "45e825b7c500", "jaccard": 0.5, "shared_tags": ["chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "78e322e6b807", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "78e322e6b807", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "78e322e6b807", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "78e322e6b807", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -4056,6 +4310,7 @@
 {"task_id": "461fdcdfec3e", "prompt_id": "2d3f448c04e8", "jaccard": 0.5, "shared_tags": ["astro", "cloudflare", "go"], "shared_refs": []}
 {"task_id": "d12afe421e16", "prompt_id": "2d3f448c04e8", "jaccard": 0.5, "shared_tags": ["astro", "cloudflare", "go"], "shared_refs": []}
 {"task_id": "37a2c79d2f8f", "prompt_id": "2d3f448c04e8", "jaccard": 0.5, "shared_tags": ["astro", "cloudflare", "go"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "323102e217bc", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "323102e217bc", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "323102e217bc", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "323102e217bc", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -4200,6 +4455,7 @@
 {"task_id": "76c7baf563a3", "prompt_id": "e24261495bff", "jaccard": 0.5, "shared_tags": ["astro", "node"], "shared_refs": []}
 {"task_id": "853f070d0dbd", "prompt_id": "e24261495bff", "jaccard": 0.5, "shared_tags": ["astro", "node"], "shared_refs": []}
 {"task_id": "f007d33fe46e", "prompt_id": "e24261495bff", "jaccard": 0.5, "shared_tags": ["astro", "node"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "01b5746b10bf", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "01b5746b10bf", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "01b5746b10bf", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "01b5746b10bf", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -4284,6 +4540,7 @@
 {"task_id": "d60ed6190845", "prompt_id": "65f039407ce3", "jaccard": 0.5, "shared_tags": ["cloudflare", "go"], "shared_refs": []}
 {"task_id": "97e3907859de", "prompt_id": "65f039407ce3", "jaccard": 0.5, "shared_tags": ["cloudflare", "go"], "shared_refs": []}
 {"task_id": "817d7f03af25", "prompt_id": "65f039407ce3", "jaccard": 0.5, "shared_tags": ["cloudflare", "go"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "1c96472098b7", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "1c96472098b7", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "1c96472098b7", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "1c96472098b7", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -4471,6 +4728,7 @@
 {"task_id": "32cc9db54663", "prompt_id": "de4b36939053", "jaccard": 0.5, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "d97766df1afe", "prompt_id": "de4b36939053", "jaccard": 0.5, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "d813c56fca06", "prompt_id": "de4b36939053", "jaccard": 0.5, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "2ea3b7a70eb1", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "2ea3b7a70eb1", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "2ea3b7a70eb1", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "2ea3b7a70eb1", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -4753,6 +5011,7 @@
 {"task_id": "32cc9db54663", "prompt_id": "75e44e36f693", "jaccard": 0.5, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "d97766df1afe", "prompt_id": "75e44e36f693", "jaccard": 0.5, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "d813c56fca06", "prompt_id": "75e44e36f693", "jaccard": 0.5, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "d96695041086", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "d96695041086", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "d96695041086", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "d96695041086", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -5023,6 +5282,7 @@
 {"task_id": "c51349e0dc8c", "prompt_id": "e6256ec689bb", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "1ce5242db6be", "prompt_id": "e6256ec689bb", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "a4b5186d04b0", "prompt_id": "e6256ec689bb", "jaccard": 0.5, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "25411fbb1dc2", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "25411fbb1dc2", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "25411fbb1dc2", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "25411fbb1dc2", "jaccard": 0.5, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -5237,6 +5497,12 @@
 {"task_id": "44a5b5078899", "prompt_id": "e889690f130f", "jaccard": 0.4545, "shared_tags": ["bash", "docker", "mcp", "python", "zsh"], "shared_refs": []}
 {"task_id": "89941ebb48ef", "prompt_id": "e889690f130f", "jaccard": 0.4545, "shared_tags": ["bash", "docker", "mcp", "python", "zsh"], "shared_refs": []}
 {"task_id": "7224e5b3dad8", "prompt_id": "e889690f130f", "jaccard": 0.4545, "shared_tags": ["bash", "docker", "mcp", "python", "zsh"], "shared_refs": []}
+{"task_id": "be1e872e4bb0", "prompt_id": "8c501cd22a25", "jaccard": 0.4444, "shared_tags": ["bash", "chezmoi", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "13a687941ad4", "prompt_id": "8c501cd22a25", "jaccard": 0.4444, "shared_tags": ["bash", "chezmoi", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "a8e7df6050ed", "prompt_id": "8c501cd22a25", "jaccard": 0.4444, "shared_tags": ["bash", "chezmoi", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "9fc2014a39c8", "prompt_id": "8c501cd22a25", "jaccard": 0.4444, "shared_tags": ["bash", "chezmoi", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "9e0e6b5ecbed", "prompt_id": "8c501cd22a25", "jaccard": 0.4444, "shared_tags": ["bash", "chezmoi", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "8eae1d0adfd7", "prompt_id": "8c501cd22a25", "jaccard": 0.4444, "shared_tags": ["bash", "chezmoi", "homebrew", "zsh"], "shared_refs": []}
 {"task_id": "cf2b48098470", "prompt_id": "46dfc355d5af", "jaccard": 0.4444, "shared_tags": ["bash", "homebrew", "python", "zsh"], "shared_refs": []}
 {"task_id": "1df80a33495d", "prompt_id": "46dfc355d5af", "jaccard": 0.4444, "shared_tags": ["bash", "homebrew", "python", "zsh"], "shared_refs": []}
 {"task_id": "40dfec9d197c", "prompt_id": "46dfc355d5af", "jaccard": 0.4444, "shared_tags": ["bash", "homebrew", "python", "zsh"], "shared_refs": []}
@@ -5475,6 +5741,21 @@
 {"task_id": "ea3ac7d7ea34", "prompt_id": "7967b0094ea9", "jaccard": 0.4444, "shared_tags": ["cloudflare", "go", "node", "three.js"], "shared_refs": []}
 {"task_id": "576fcca0004d", "prompt_id": "7967b0094ea9", "jaccard": 0.4444, "shared_tags": ["cloudflare", "go", "node", "three.js"], "shared_refs": []}
 {"task_id": "155dc617e196", "prompt_id": "f8b290505f32", "jaccard": 0.4444, "shared_tags": ["bash", "chezmoi", "python"], "shared_refs": ["private_dot_claude/settings.json.tmpl"]}
+{"task_id": "5c87389317d4", "prompt_id": "e0635635982b", "jaccard": 0.4286, "shared_tags": ["aws", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "dde830798cf2", "prompt_id": "e0635635982b", "jaccard": 0.4286, "shared_tags": ["aws", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "8b686fb7ab5a", "prompt_id": "e0635635982b", "jaccard": 0.4286, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "0b97ee2713e9", "prompt_id": "e0635635982b", "jaccard": 0.4286, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "6bf9c8ed7183", "prompt_id": "8c501cd22a25", "jaccard": 0.4286, "shared_tags": ["bash", "docker", "go"], "shared_refs": []}
+{"task_id": "110361f43493", "prompt_id": "8c501cd22a25", "jaccard": 0.4286, "shared_tags": ["bash", "chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "ae5a26f1c6e9", "prompt_id": "8c501cd22a25", "jaccard": 0.4286, "shared_tags": ["bash", "chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "ffd30776b4c2", "prompt_id": "8c501cd22a25", "jaccard": 0.4286, "shared_tags": ["bash", "chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "184943382dea", "prompt_id": "8c501cd22a25", "jaccard": 0.4286, "shared_tags": ["bash", "chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "f3c480ac95e6", "prompt_id": "8c501cd22a25", "jaccard": 0.4286, "shared_tags": ["bash", "chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "9f8a81731bad", "prompt_id": "8c501cd22a25", "jaccard": 0.4286, "shared_tags": ["bash", "chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "a3c434cd3f23", "prompt_id": "8c501cd22a25", "jaccard": 0.4286, "shared_tags": ["bash", "chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "1f385b3b33de", "prompt_id": "8c501cd22a25", "jaccard": 0.4286, "shared_tags": ["chezmoi", "go", "homebrew"], "shared_refs": []}
+{"task_id": "8b686fb7ab5a", "prompt_id": "8c501cd22a25", "jaccard": 0.4286, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "0b97ee2713e9", "prompt_id": "8c501cd22a25", "jaccard": 0.4286, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
 {"task_id": "09ff570466e9", "prompt_id": "46dfc355d5af", "jaccard": 0.4286, "shared_tags": ["bash", "python", "zsh"], "shared_refs": []}
 {"task_id": "ed0f36bd18cc", "prompt_id": "46dfc355d5af", "jaccard": 0.4286, "shared_tags": ["bash", "python", "zsh"], "shared_refs": []}
 {"task_id": "5a62d344d681", "prompt_id": "46dfc355d5af", "jaccard": 0.4286, "shared_tags": ["bash", "python", "zsh"], "shared_refs": []}
@@ -6086,6 +6367,61 @@
 {"task_id": "2cef0ed2c592", "prompt_id": "e889690f130f", "jaccard": 0.4167, "shared_tags": ["docker", "go", "mcp", "node", "python"], "shared_refs": []}
 {"task_id": "c4028409db29", "prompt_id": "0cb8576ba1b4", "jaccard": 0.4167, "shared_tags": ["docker", "go", "homebrew", "pytest", "zsh"], "shared_refs": []}
 {"task_id": "149cb9b33598", "prompt_id": "51458e775514", "jaccard": 0.4068, "shared_tags": ["astro", "aws", "bash", "chezmoi", "cloudflare", "docker", "express", "fastapi", "go", "homebrew", "javascript", "mcp", "neon", "node", "p5.js", "postgres", "postgresql", "python", "redis", "tailwind", "terraform", "typescript", "vercel", "zsh"], "shared_refs": []}
+{"task_id": "c9256baafb21", "prompt_id": "27e8c0504a59", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "cd94aa2c35b1", "prompt_id": "27e8c0504a59", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "52fe336e68fe", "prompt_id": "27e8c0504a59", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "5b5e81fe038a", "prompt_id": "27e8c0504a59", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "72e0df5af710", "prompt_id": "27e8c0504a59", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "67f64f1a7f7a", "prompt_id": "27e8c0504a59", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "99af4210407b", "prompt_id": "27e8c0504a59", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "19caf3e5f954", "prompt_id": "27e8c0504a59", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "229c2b28a114", "prompt_id": "27e8c0504a59", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "10e03b967fb8", "prompt_id": "27e8c0504a59", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "6750079edbb1", "prompt_id": "27e8c0504a59", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "176613a58e90", "prompt_id": "27e8c0504a59", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "84f3c816a0c0", "prompt_id": "27e8c0504a59", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "cf2a79fb1e7a", "prompt_id": "27e8c0504a59", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "ad6702ec1f44", "prompt_id": "27e8c0504a59", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "00e7953bf832", "prompt_id": "27e8c0504a59", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "c9256baafb21", "prompt_id": "24ae720625ad", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "cd94aa2c35b1", "prompt_id": "24ae720625ad", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "52fe336e68fe", "prompt_id": "24ae720625ad", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "5b5e81fe038a", "prompt_id": "24ae720625ad", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "72e0df5af710", "prompt_id": "24ae720625ad", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "67f64f1a7f7a", "prompt_id": "24ae720625ad", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "99af4210407b", "prompt_id": "24ae720625ad", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "19caf3e5f954", "prompt_id": "24ae720625ad", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "229c2b28a114", "prompt_id": "24ae720625ad", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "10e03b967fb8", "prompt_id": "24ae720625ad", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "6750079edbb1", "prompt_id": "24ae720625ad", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "176613a58e90", "prompt_id": "24ae720625ad", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "84f3c816a0c0", "prompt_id": "24ae720625ad", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "cf2a79fb1e7a", "prompt_id": "24ae720625ad", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "ad6702ec1f44", "prompt_id": "24ae720625ad", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "00e7953bf832", "prompt_id": "24ae720625ad", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "67e5eb6df8e5", "prompt_id": "e0635635982b", "jaccard": 0.4, "shared_tags": ["aws", "bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "29334fd078f9", "prompt_id": "e0635635982b", "jaccard": 0.4, "shared_tags": ["aws", "bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "913fa1071b92", "prompt_id": "e0635635982b", "jaccard": 0.4, "shared_tags": ["aws", "bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "cd8b721b0363", "prompt_id": "8c501cd22a25", "jaccard": 0.4, "shared_tags": ["bash", "chezmoi", "docker", "zsh"], "shared_refs": []}
+{"task_id": "68797afae4b1", "prompt_id": "8c501cd22a25", "jaccard": 0.4, "shared_tags": ["bash", "chezmoi", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "fb77d66abe8e", "prompt_id": "8c501cd22a25", "jaccard": 0.4, "shared_tags": ["bash", "chezmoi", "docker", "zsh"], "shared_refs": []}
+{"task_id": "67e5eb6df8e5", "prompt_id": "8c501cd22a25", "jaccard": 0.4, "shared_tags": ["bash", "chezmoi", "docker", "zsh"], "shared_refs": []}
+{"task_id": "29334fd078f9", "prompt_id": "8c501cd22a25", "jaccard": 0.4, "shared_tags": ["bash", "chezmoi", "docker", "zsh"], "shared_refs": []}
+{"task_id": "913fa1071b92", "prompt_id": "8c501cd22a25", "jaccard": 0.4, "shared_tags": ["bash", "chezmoi", "docker", "zsh"], "shared_refs": []}
+{"task_id": "110361f43493", "prompt_id": "2faf53047e78", "jaccard": 0.4, "shared_tags": ["chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "ae5a26f1c6e9", "prompt_id": "2faf53047e78", "jaccard": 0.4, "shared_tags": ["chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "ffd30776b4c2", "prompt_id": "2faf53047e78", "jaccard": 0.4, "shared_tags": ["chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "184943382dea", "prompt_id": "2faf53047e78", "jaccard": 0.4, "shared_tags": ["chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "f3c480ac95e6", "prompt_id": "2faf53047e78", "jaccard": 0.4, "shared_tags": ["chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "9f8a81731bad", "prompt_id": "2faf53047e78", "jaccard": 0.4, "shared_tags": ["chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "a3c434cd3f23", "prompt_id": "2faf53047e78", "jaccard": 0.4, "shared_tags": ["chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "08b2238cbb36", "prompt_id": "2faf53047e78", "jaccard": 0.4, "shared_tags": ["chezmoi", "cloudflare"], "shared_refs": []}
+{"task_id": "5157ba331536", "prompt_id": "2faf53047e78", "jaccard": 0.4, "shared_tags": ["chezmoi", "cloudflare"], "shared_refs": []}
+{"task_id": "fb1c89d15760", "prompt_id": "2faf53047e78", "jaccard": 0.4, "shared_tags": ["chezmoi", "cloudflare"], "shared_refs": []}
+{"task_id": "b0063059823b", "prompt_id": "2faf53047e78", "jaccard": 0.4, "shared_tags": ["chezmoi", "cloudflare"], "shared_refs": []}
+{"task_id": "d60ed6190845", "prompt_id": "2faf53047e78", "jaccard": 0.4, "shared_tags": ["chezmoi", "cloudflare"], "shared_refs": []}
+{"task_id": "97e3907859de", "prompt_id": "2faf53047e78", "jaccard": 0.4, "shared_tags": ["chezmoi", "cloudflare"], "shared_refs": []}
+{"task_id": "817d7f03af25", "prompt_id": "2faf53047e78", "jaccard": 0.4, "shared_tags": ["chezmoi", "cloudflare"], "shared_refs": []}
 {"task_id": "c9256baafb21", "prompt_id": "379b5d086590", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "cd94aa2c35b1", "prompt_id": "379b5d086590", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "52fe336e68fe", "prompt_id": "379b5d086590", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
@@ -6199,6 +6535,22 @@
 {"task_id": "cf2a79fb1e7a", "prompt_id": "d40f2300f4fb", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "ad6702ec1f44", "prompt_id": "d40f2300f4fb", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "00e7953bf832", "prompt_id": "d40f2300f4fb", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "c9256baafb21", "prompt_id": "b323e4dfbe60", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "cd94aa2c35b1", "prompt_id": "b323e4dfbe60", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "52fe336e68fe", "prompt_id": "b323e4dfbe60", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "5b5e81fe038a", "prompt_id": "b323e4dfbe60", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "72e0df5af710", "prompt_id": "b323e4dfbe60", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "67f64f1a7f7a", "prompt_id": "b323e4dfbe60", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "99af4210407b", "prompt_id": "b323e4dfbe60", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "19caf3e5f954", "prompt_id": "b323e4dfbe60", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "229c2b28a114", "prompt_id": "b323e4dfbe60", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "10e03b967fb8", "prompt_id": "b323e4dfbe60", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "6750079edbb1", "prompt_id": "b323e4dfbe60", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "176613a58e90", "prompt_id": "b323e4dfbe60", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "84f3c816a0c0", "prompt_id": "b323e4dfbe60", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "cf2a79fb1e7a", "prompt_id": "b323e4dfbe60", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "ad6702ec1f44", "prompt_id": "b323e4dfbe60", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "00e7953bf832", "prompt_id": "b323e4dfbe60", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "c9256baafb21", "prompt_id": "aabd51f39548", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "cd94aa2c35b1", "prompt_id": "aabd51f39548", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "52fe336e68fe", "prompt_id": "aabd51f39548", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
@@ -8385,6 +8737,12 @@
 {"task_id": "cf2a79fb1e7a", "prompt_id": "e6256ec689bb", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "ad6702ec1f44", "prompt_id": "e6256ec689bb", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "00e7953bf832", "prompt_id": "e6256ec689bb", "jaccard": 0.4, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "1f0ec6acc0e8", "prompt_id": "421c3cf652b5", "jaccard": 0.4, "shared_tags": ["astro", "bash"], "shared_refs": []}
+{"task_id": "b0c2fedf01b3", "prompt_id": "421c3cf652b5", "jaccard": 0.4, "shared_tags": ["astro", "bash"], "shared_refs": []}
+{"task_id": "f8bb1874ee2f", "prompt_id": "421c3cf652b5", "jaccard": 0.4, "shared_tags": ["astro", "bash"], "shared_refs": []}
+{"task_id": "eb73238b8ecb", "prompt_id": "421c3cf652b5", "jaccard": 0.4, "shared_tags": ["astro", "bash"], "shared_refs": []}
+{"task_id": "de91d481ae56", "prompt_id": "421c3cf652b5", "jaccard": 0.4, "shared_tags": ["astro", "bash"], "shared_refs": []}
+{"task_id": "d8436de72ec2", "prompt_id": "421c3cf652b5", "jaccard": 0.4, "shared_tags": ["astro", "bash"], "shared_refs": []}
 {"task_id": "1374b418ab71", "prompt_id": "421c3cf652b5", "jaccard": 0.4, "shared_tags": ["astro"], "shared_refs": ["src/styles/global.css"]}
 {"task_id": "9d7ea4c4433b", "prompt_id": "421c3cf652b5", "jaccard": 0.4, "shared_tags": ["astro"], "shared_refs": ["src/styles/global.css"]}
 {"task_id": "931573e05c34", "prompt_id": "4a74195d3e89", "jaccard": 0.3953, "shared_tags": ["aws", "bash", "chezmoi", "cloudflare", "docker", "gcp", "go", "homebrew", "javascript", "mcp", "neon", "node", "python", "react", "terraform", "typescript", "zsh"], "shared_refs": []}
@@ -8442,6 +8800,7 @@
 {"task_id": "1da3d23cc840", "prompt_id": "713a09029738", "jaccard": 0.3846, "shared_tags": ["bash", "homebrew", "mcp", "python", "vercel"], "shared_refs": []}
 {"task_id": "7af071ffb467", "prompt_id": "e889690f130f", "jaccard": 0.3846, "shared_tags": ["bash", "docker", "go", "mcp", "node"], "shared_refs": []}
 {"task_id": "e42772f3cc01", "prompt_id": "0cb8576ba1b4", "jaccard": 0.3846, "shared_tags": ["docker", "go", "homebrew", "pytest", "zsh"], "shared_refs": []}
+{"task_id": "789dec598076", "prompt_id": "e6adb0b64fce", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi"], "shared_refs": [".conductor/active-handoff.md"]}
 {"task_id": "7f13857e43b2", "prompt_id": "a67d042c6606", "jaccard": 0.375, "shared_tags": ["chezmoi", "go", "mcp"], "shared_refs": []}
 {"task_id": "efb873114092", "prompt_id": "a67d042c6606", "jaccard": 0.375, "shared_tags": ["chezmoi", "go", "mcp"], "shared_refs": []}
 {"task_id": "8256b2dca013", "prompt_id": "a67d042c6606", "jaccard": 0.375, "shared_tags": ["chezmoi", "go", "mcp"], "shared_refs": []}
@@ -8453,6 +8812,39 @@
 {"task_id": "50ffd0669eea", "prompt_id": "a67d042c6606", "jaccard": 0.375, "shared_tags": ["chezmoi", "go", "mcp"], "shared_refs": []}
 {"task_id": "bc28ef714571", "prompt_id": "a67d042c6606", "jaccard": 0.375, "shared_tags": ["chezmoi", "go", "mcp"], "shared_refs": []}
 {"task_id": "de3001f2a859", "prompt_id": "a67d042c6606", "jaccard": 0.375, "shared_tags": ["chezmoi", "go", "mcp"], "shared_refs": []}
+{"task_id": "c9256baafb21", "prompt_id": "e0635635982b", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "cd94aa2c35b1", "prompt_id": "e0635635982b", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "52fe336e68fe", "prompt_id": "e0635635982b", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "67f64f1a7f7a", "prompt_id": "e0635635982b", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "99af4210407b", "prompt_id": "e0635635982b", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "19caf3e5f954", "prompt_id": "e0635635982b", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "229c2b28a114", "prompt_id": "e0635635982b", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "10e03b967fb8", "prompt_id": "e0635635982b", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "6750079edbb1", "prompt_id": "e0635635982b", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "903bcd110177", "prompt_id": "e0635635982b", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "7e75da160a73", "prompt_id": "e0635635982b", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "d7a692e99360", "prompt_id": "e0635635982b", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "582b4879b3c6", "prompt_id": "e0635635982b", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "202b5f016c22", "prompt_id": "8c501cd22a25", "jaccard": 0.375, "shared_tags": ["bash", "docker", "go"], "shared_refs": []}
+{"task_id": "8db595818e67", "prompt_id": "8c501cd22a25", "jaccard": 0.375, "shared_tags": ["chezmoi", "docker", "zsh"], "shared_refs": []}
+{"task_id": "c9256baafb21", "prompt_id": "8c501cd22a25", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "cd94aa2c35b1", "prompt_id": "8c501cd22a25", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "52fe336e68fe", "prompt_id": "8c501cd22a25", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "32974a391c33", "prompt_id": "8c501cd22a25", "jaccard": 0.375, "shared_tags": ["chezmoi", "go", "homebrew"], "shared_refs": []}
+{"task_id": "d97d3c3350d0", "prompt_id": "8c501cd22a25", "jaccard": 0.375, "shared_tags": ["chezmoi", "docker", "zsh"], "shared_refs": []}
+{"task_id": "67f64f1a7f7a", "prompt_id": "8c501cd22a25", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "99af4210407b", "prompt_id": "8c501cd22a25", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "19caf3e5f954", "prompt_id": "8c501cd22a25", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "229c2b28a114", "prompt_id": "8c501cd22a25", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "10e03b967fb8", "prompt_id": "8c501cd22a25", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "6750079edbb1", "prompt_id": "8c501cd22a25", "jaccard": 0.375, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "c3006d7138e0", "prompt_id": "2faf53047e78", "jaccard": 0.375, "shared_tags": ["chezmoi", "cloudflare", "zsh"], "shared_refs": []}
+{"task_id": "a3cfbcb109f0", "prompt_id": "2faf53047e78", "jaccard": 0.375, "shared_tags": ["chezmoi", "cloudflare", "zsh"], "shared_refs": []}
+{"task_id": "682d7314b72a", "prompt_id": "2faf53047e78", "jaccard": 0.375, "shared_tags": ["chezmoi", "cloudflare", "zsh"], "shared_refs": []}
+{"task_id": "03c6f991f4ce", "prompt_id": "2faf53047e78", "jaccard": 0.375, "shared_tags": ["chezmoi", "cloudflare", "zsh"], "shared_refs": []}
+{"task_id": "ce3427fe4081", "prompt_id": "2faf53047e78", "jaccard": 0.375, "shared_tags": ["chezmoi", "cloudflare", "zsh"], "shared_refs": []}
+{"task_id": "f17ee579ac76", "prompt_id": "2faf53047e78", "jaccard": 0.375, "shared_tags": ["chezmoi", "cloudflare", "zsh"], "shared_refs": []}
+{"task_id": "100ff3a60812", "prompt_id": "2faf53047e78", "jaccard": 0.375, "shared_tags": ["chezmoi", "cloudflare", "zsh"], "shared_refs": []}
 {"task_id": "04e34dcda2db", "prompt_id": "97fe8d443dd0", "jaccard": 0.375, "shared_tags": ["astro", "cloudflare", "go"], "shared_refs": []}
 {"task_id": "81dee5684731", "prompt_id": "97fe8d443dd0", "jaccard": 0.375, "shared_tags": ["astro", "cloudflare", "go"], "shared_refs": []}
 {"task_id": "2a8033235b2c", "prompt_id": "97fe8d443dd0", "jaccard": 0.375, "shared_tags": ["astro", "cloudflare", "go"], "shared_refs": []}
@@ -9299,6 +9691,16 @@
 {"task_id": "89941ebb48ef", "prompt_id": "4a74195d3e89", "jaccard": 0.3684, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "mcp", "python", "zsh"], "shared_refs": []}
 {"task_id": "7224e5b3dad8", "prompt_id": "4a74195d3e89", "jaccard": 0.3684, "shared_tags": ["bash", "chezmoi", "docker", "homebrew", "mcp", "python", "zsh"], "shared_refs": []}
 {"task_id": "100ff3a60812", "prompt_id": "4a74195d3e89", "jaccard": 0.3684, "shared_tags": ["bash", "chezmoi", "cloudflare", "mcp", "neon", "python", "zsh"], "shared_refs": []}
+{"task_id": "7dc9d502b849", "prompt_id": "4a0261a7d31f", "jaccard": 0.3636, "shared_tags": ["astro", "bash", "cloudflare", "three.js"], "shared_refs": []}
+{"task_id": "c8143e163bd7", "prompt_id": "4a0261a7d31f", "jaccard": 0.3636, "shared_tags": ["astro", "bash", "cloudflare", "three.js"], "shared_refs": []}
+{"task_id": "0b9492308246", "prompt_id": "4a0261a7d31f", "jaccard": 0.3636, "shared_tags": ["astro", "bash", "cloudflare", "three.js"], "shared_refs": []}
+{"task_id": "32ec5f8e456a", "prompt_id": "4a0261a7d31f", "jaccard": 0.3636, "shared_tags": ["astro", "bash", "cloudflare", "three.js"], "shared_refs": []}
+{"task_id": "b70873ce5608", "prompt_id": "4a0261a7d31f", "jaccard": 0.3636, "shared_tags": ["astro", "bash", "cloudflare", "three.js"], "shared_refs": []}
+{"task_id": "8d3c30f5f4b9", "prompt_id": "4a0261a7d31f", "jaccard": 0.3636, "shared_tags": ["astro", "bash", "cloudflare", "three.js"], "shared_refs": []}
+{"task_id": "5a05560292ea", "prompt_id": "4a0261a7d31f", "jaccard": 0.3636, "shared_tags": ["astro", "bash", "cloudflare", "three.js"], "shared_refs": []}
+{"task_id": "8d0071a58538", "prompt_id": "4a0261a7d31f", "jaccard": 0.3636, "shared_tags": ["astro", "bash", "cloudflare", "three.js"], "shared_refs": []}
+{"task_id": "4622efecd015", "prompt_id": "4a0261a7d31f", "jaccard": 0.3636, "shared_tags": ["astro", "bash", "cloudflare", "three.js"], "shared_refs": []}
+{"task_id": "f6be93d3cd99", "prompt_id": "4a0261a7d31f", "jaccard": 0.3636, "shared_tags": ["astro", "bash", "cloudflare", "three.js"], "shared_refs": []}
 {"task_id": "7af071ffb467", "prompt_id": "347cdd852acb", "jaccard": 0.3636, "shared_tags": ["docker", "go", "node", "postgres"], "shared_refs": []}
 {"task_id": "caf4e970703d", "prompt_id": "3f3a04f952da", "jaccard": 0.3636, "shared_tags": ["bash", "chezmoi", "mcp", "node"], "shared_refs": []}
 {"task_id": "95c6671c6110", "prompt_id": "3f3a04f952da", "jaccard": 0.3636, "shared_tags": ["bash", "chezmoi", "mcp", "node"], "shared_refs": []}
@@ -9472,6 +9874,32 @@
 {"task_id": "7b0b6639183e", "prompt_id": "7967b0094ea9", "jaccard": 0.3636, "shared_tags": ["cloudflare", "go", "node", "three.js"], "shared_refs": []}
 {"task_id": "eccfc2b2da25", "prompt_id": "7967b0094ea9", "jaccard": 0.3636, "shared_tags": ["cloudflare", "go", "node", "three.js"], "shared_refs": []}
 {"task_id": "6a4afc656407", "prompt_id": "7967b0094ea9", "jaccard": 0.3636, "shared_tags": ["cloudflare", "go", "node", "three.js"], "shared_refs": []}
+{"task_id": "e42772f3cc01", "prompt_id": "8c501cd22a25", "jaccard": 0.3571, "shared_tags": ["bash", "docker", "go", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "7eaf2be1f36f", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "fdb3f48706d7", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "035482292eea", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "44617e8c264a", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "075915d730eb", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "798fadee0518", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "ee6fa6054819", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "965ab421ca6c", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "2907af56cce0", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "0cbffee80a83", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "392a3d61a8e7", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "a73505b8a79c", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "703d4a283202", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "2bd57838baf8", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "201cfaedb707", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "4b10aff109d9", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "8b36fece4349", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "13949f68a76e", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "e37210e311a5", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "6586efdfd228", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "db61ca355869", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "18b1bec2c1c9", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "1682531b7b82", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "5f582cb591af", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "6081f64f5467", "prompt_id": "4a0261a7d31f", "jaccard": 0.3571, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
 {"task_id": "7a8c09328add", "prompt_id": "b47210786074", "jaccard": 0.3571, "shared_tags": ["bash", "cloudflare", "go", "node", "three.js"], "shared_refs": []}
 {"task_id": "7a8c09328add", "prompt_id": "f26eaa5f74d8", "jaccard": 0.3571, "shared_tags": ["astro", "cloudflare", "go", "node", "three.js"], "shared_refs": []}
 {"task_id": "cf2b48098470", "prompt_id": "6bad582ae684", "jaccard": 0.3571, "shared_tags": ["bash", "chezmoi", "homebrew", "mcp", "python"], "shared_refs": []}
@@ -9549,6 +9977,62 @@
 {"task_id": "39df73107ff3", "prompt_id": "e3716fe44976", "jaccard": 0.3529, "shared_tags": ["chezmoi", "mcp", "node", "python", "typescript", "zsh"], "shared_refs": []}
 {"task_id": "045e4d521c4d", "prompt_id": "e3716fe44976", "jaccard": 0.3529, "shared_tags": ["chezmoi", "mcp", "node", "python", "typescript", "zsh"], "shared_refs": []}
 {"task_id": "7bd98d95c867", "prompt_id": "4a74195d3e89", "jaccard": 0.3469, "shared_tags": ["aws", "bash", "chezmoi", "cloudflare", "docker", "gcp", "go", "homebrew", "javascript", "mcp", "neon", "node", "python", "react", "terraform", "typescript", "zsh"], "shared_refs": []}
+{"task_id": "7cae8a7b05e4", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "7c8877e56bbc", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "d348af35d922", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "d2e9bf9ddec5", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "5d45eb392771", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "ef3c3c0c8abd", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "35132711b7cd", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "9ba05be25716", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "1e8b855b17e3", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "8062f7003e1e", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "32cc9db54663", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "d97766df1afe", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "31c0c7d04215", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "3597a51bc9cf", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "ddb47998e43b", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "d813c56fca06", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "04aa4d684ebc", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "7f13857e43b2", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "efb873114092", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "8256b2dca013", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "5def74d2b78f", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "66028b523b91", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "314c5a239943", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "8cd9f31e0a73", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "30bd2f357e8f", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "50ffd0669eea", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "bc28ef714571", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "de3001f2a859", "prompt_id": "27e8c0504a59", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "7cae8a7b05e4", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "7c8877e56bbc", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "d348af35d922", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "d2e9bf9ddec5", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "5d45eb392771", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "ef3c3c0c8abd", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "35132711b7cd", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "9ba05be25716", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "1e8b855b17e3", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "8062f7003e1e", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "32cc9db54663", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "d97766df1afe", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "31c0c7d04215", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "3597a51bc9cf", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "ddb47998e43b", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "d813c56fca06", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "04aa4d684ebc", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "7f13857e43b2", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "efb873114092", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "8256b2dca013", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "5def74d2b78f", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "66028b523b91", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "314c5a239943", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "8cd9f31e0a73", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "30bd2f357e8f", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "50ffd0669eea", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "bc28ef714571", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "de3001f2a859", "prompt_id": "24ae720625ad", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "6ba5cb1557fd", "prompt_id": "a67d042c6606", "jaccard": 0.3333, "shared_tags": ["chezmoi", "go"], "shared_refs": []}
 {"task_id": "fc0814f6fbb1", "prompt_id": "a67d042c6606", "jaccard": 0.3333, "shared_tags": ["chezmoi", "go"], "shared_refs": []}
 {"task_id": "614e5e12d5d5", "prompt_id": "a67d042c6606", "jaccard": 0.3333, "shared_tags": ["chezmoi", "go"], "shared_refs": []}
@@ -9597,6 +10081,311 @@
 {"task_id": "147a83c377fe", "prompt_id": "a67d042c6606", "jaccard": 0.3333, "shared_tags": ["chezmoi", "mcp"], "shared_refs": []}
 {"task_id": "d1c38462b994", "prompt_id": "a67d042c6606", "jaccard": 0.3333, "shared_tags": ["chezmoi", "mcp"], "shared_refs": []}
 {"task_id": "2bd3d3d8ada0", "prompt_id": "a67d042c6606", "jaccard": 0.3333, "shared_tags": ["chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "ac507f0dace2", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "aea2a754a2d0", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "6fa5c848e9df", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "c4519a6d7a8b", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "89588882a3ca", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "8d41f704cdfc", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "1cc9d1d3dcc5", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "820532dd389d", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "c5f2b4df4da3", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "24fbe56af673", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "0cb603a50300", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "db1b0c0cbfb5", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "dfb26ab9b09e", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "e67f8fc9982d", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "4c3a5baef255", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "f00a77cfa348", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "ef3c3c0c8abd", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "go", "mcp"], "shared_refs": []}
+{"task_id": "35132711b7cd", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "go", "mcp"], "shared_refs": []}
+{"task_id": "9ba05be25716", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "go", "mcp"], "shared_refs": []}
+{"task_id": "1e8b855b17e3", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "go", "mcp"], "shared_refs": []}
+{"task_id": "8062f7003e1e", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "go", "mcp"], "shared_refs": []}
+{"task_id": "c18c77f05d1e", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "60e1b1301aa4", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "267f2821337f", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "31c0c7d04215", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "3597a51bc9cf", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "ddb47998e43b", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "5f7e3560dde0", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "23c43c575972", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "dbda932a6c73", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "216461d49393", "prompt_id": "e0635635982b", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "fb26826788a0", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "00ed0e658430", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "01995d49c0b8", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "3bc781e86ea5", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "61d3b76de8a9", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "45bec5b6f30b", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "f3a19ad9622e", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "53eaba4bd35c", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "c19984263271", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "6ba5cb1557fd", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "fc0814f6fbb1", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "614e5e12d5d5", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "f3258845dc35", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "0e0ee6252bee", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "ea315fdc0422", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "2986ddaddf8a", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "9ee449cf8f1d", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "dc4659828cca", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "8028f4dcc415", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "b3fd78a39ddd", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "3c2fd4357009", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "3ba1094e98c9", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "f083514c5095", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d167cff1c9e1", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e9dd61186a38", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "edc3fa8988bd", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "26c0fa53cea4", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "852b09a248be", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "7abcf18bccf0", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "9158d1fc747e", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "5d45125ff0d4", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "7fb0101ce2ee", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "1a47ed724afc", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "b6d492086b17", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "0b5fe5983ff8", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "ccf1977790d1", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "fa91e9e74dca", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "c910505f680a", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d4bfec3b1109", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e6e0eeb7f249", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e70b0678f8b0", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e7c97e8786b2", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "aa6d7b96aadf", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "97c76733e1c9", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "70421fdc6283", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "1420acfb61b0", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "db437df9f03e", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "df1d4a07ed8e", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "242400dee5d4", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "a260e3d64cb2", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "81f0623258f8", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "729f18294cb0", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "a5ba9d13c16a", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e98c6df43f3a", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "44fec06a56e7", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e39ce6aafa6f", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "ef8d71ddc1bb", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "eb724cfd172f", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "09e5014910b3", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "10c504b12007", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "6d1b4a52127e", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "22e32270bfd5", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "7efca717c224", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "63597b8709c7", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "0fe92d114d95", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "9baec5103ed5", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "4937f698dbee", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "a96abf0f74f2", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "da0a5483c0ec", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "477918714168", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "58aaa4ff52f2", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "bab996b624a7", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e1b2f9f08136", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "48d3c1974ca3", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "534fe4c9848b", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "30f7d21a6424", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "c110b9f2b385", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d7aa9f239841", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "f319d72bea8f", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "483b4660c1aa", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "26daba7bb1ef", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "9fd122c3acf3", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "5ed6d24bb1b5", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d1bfb6c35a41", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "f66a73adb47d", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "abf0a19b7afc", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "2bb11181e661", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "9f47b8fc66a6", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "6d9a8d4e1379", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "0e36973bc012", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "3696c97e4933", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "3412e469442d", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "147a83c377fe", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d1c38462b994", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "2bd3d3d8ada0", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d7190c79b83a", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "1a38a950690d", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "9fc6ec4d4c99", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "ca2e9e44ee46", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e0a4297adb81", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "6c7a46efe559", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "51bf065bb8a5", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "f321b8ace7ee", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "b00bc369ee97", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "4026c0ca6571", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "98273575e93d", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "6835320395bc", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "5ab95dd96985", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "46a29c58eca3", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "97ccd8d6ebe2", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "1734ebf7a430", "prompt_id": "4e025024bd5c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "fb26826788a0", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "00ed0e658430", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "01995d49c0b8", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "3bc781e86ea5", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "61d3b76de8a9", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "45bec5b6f30b", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "f3a19ad9622e", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "53eaba4bd35c", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "c19984263271", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "6ba5cb1557fd", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "fc0814f6fbb1", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "614e5e12d5d5", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "f3258845dc35", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "0e0ee6252bee", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "ea315fdc0422", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "2986ddaddf8a", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "9ee449cf8f1d", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "dc4659828cca", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "8028f4dcc415", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "b3fd78a39ddd", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "3c2fd4357009", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "3ba1094e98c9", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "f083514c5095", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d167cff1c9e1", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e9dd61186a38", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "edc3fa8988bd", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "26c0fa53cea4", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "852b09a248be", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "7abcf18bccf0", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "9158d1fc747e", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "5d45125ff0d4", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "7fb0101ce2ee", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "1a47ed724afc", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "b6d492086b17", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "0b5fe5983ff8", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "ccf1977790d1", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "fa91e9e74dca", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "c910505f680a", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d4bfec3b1109", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e6e0eeb7f249", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e70b0678f8b0", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e7c97e8786b2", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "aa6d7b96aadf", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "97c76733e1c9", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "70421fdc6283", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "1420acfb61b0", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "db437df9f03e", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "df1d4a07ed8e", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "242400dee5d4", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "a260e3d64cb2", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "81f0623258f8", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "729f18294cb0", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "a5ba9d13c16a", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e98c6df43f3a", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "44fec06a56e7", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e39ce6aafa6f", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "ef8d71ddc1bb", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "eb724cfd172f", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "09e5014910b3", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "10c504b12007", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "6d1b4a52127e", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "22e32270bfd5", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "7efca717c224", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "63597b8709c7", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "0fe92d114d95", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "9baec5103ed5", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "4937f698dbee", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "a96abf0f74f2", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "da0a5483c0ec", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "477918714168", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "58aaa4ff52f2", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "bab996b624a7", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e1b2f9f08136", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "48d3c1974ca3", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "534fe4c9848b", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "30f7d21a6424", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "c110b9f2b385", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d7aa9f239841", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "f319d72bea8f", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "483b4660c1aa", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "26daba7bb1ef", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "9fd122c3acf3", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "5ed6d24bb1b5", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d1bfb6c35a41", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "f66a73adb47d", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "abf0a19b7afc", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "2bb11181e661", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "9f47b8fc66a6", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "6d9a8d4e1379", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "0e36973bc012", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "3696c97e4933", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "3412e469442d", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "147a83c377fe", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d1c38462b994", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "2bd3d3d8ada0", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "d7190c79b83a", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "1a38a950690d", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "9fc6ec4d4c99", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "ca2e9e44ee46", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "e0a4297adb81", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "6c7a46efe559", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "51bf065bb8a5", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "f321b8ace7ee", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "b00bc369ee97", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "4026c0ca6571", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "98273575e93d", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "6835320395bc", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "5ab95dd96985", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "46a29c58eca3", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "97ccd8d6ebe2", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "1734ebf7a430", "prompt_id": "b8cb05c97e96", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "ac507f0dace2", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "homebrew"], "shared_refs": []}
+{"task_id": "aea2a754a2d0", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "homebrew"], "shared_refs": []}
+{"task_id": "6fa5c848e9df", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "homebrew"], "shared_refs": []}
+{"task_id": "c4519a6d7a8b", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "homebrew"], "shared_refs": []}
+{"task_id": "89588882a3ca", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "homebrew"], "shared_refs": []}
+{"task_id": "8d41f704cdfc", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "homebrew"], "shared_refs": []}
+{"task_id": "1cc9d1d3dcc5", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "homebrew"], "shared_refs": []}
+{"task_id": "820532dd389d", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "homebrew"], "shared_refs": []}
+{"task_id": "c5f2b4df4da3", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "homebrew"], "shared_refs": []}
+{"task_id": "24fbe56af673", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "homebrew"], "shared_refs": []}
+{"task_id": "0cb603a50300", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "homebrew"], "shared_refs": []}
+{"task_id": "60e1b1301aa4", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "267f2821337f", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "01e8d0f86b83", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "0859b3f6f5e3", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "31c0c7d04215", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "3597a51bc9cf", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "ddb47998e43b", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "7f13857e43b2", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "efb873114092", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "8256b2dca013", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "5def74d2b78f", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "66028b523b91", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "314c5a239943", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "8cd9f31e0a73", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "30bd2f357e8f", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "50ffd0669eea", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "bc28ef714571", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "de3001f2a859", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "go"], "shared_refs": []}
+{"task_id": "5f7e3560dde0", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "23c43c575972", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "dbda932a6c73", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "216461d49393", "prompt_id": "8c501cd22a25", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "46ae32157fdd", "prompt_id": "2fd5bd1a842f", "jaccard": 0.3333, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "4ef225ef97bc", "prompt_id": "2fd5bd1a842f", "jaccard": 0.3333, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "e07496f7b0ef", "prompt_id": "2fd5bd1a842f", "jaccard": 0.3333, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "c66ddca13db4", "prompt_id": "2fd5bd1a842f", "jaccard": 0.3333, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "a510127f64b4", "prompt_id": "2fd5bd1a842f", "jaccard": 0.3333, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "752843b3a0ba", "prompt_id": "2fd5bd1a842f", "jaccard": 0.3333, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "1a38a950690d", "prompt_id": "2fd5bd1a842f", "jaccard": 0.3333, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "9fc6ec4d4c99", "prompt_id": "2fd5bd1a842f", "jaccard": 0.3333, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "e4b09dd0d9d5", "prompt_id": "2fd5bd1a842f", "jaccard": 0.3333, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "0219273c74d4", "prompt_id": "2fd5bd1a842f", "jaccard": 0.3333, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "8db595818e67", "prompt_id": "2faf53047e78", "jaccard": 0.3333, "shared_tags": ["chezmoi", "zsh"], "shared_refs": []}
+{"task_id": "468b2f9b4987", "prompt_id": "2faf53047e78", "jaccard": 0.3333, "shared_tags": ["chezmoi", "cloudflare", "zsh"], "shared_refs": []}
+{"task_id": "b4c3a983bf59", "prompt_id": "2faf53047e78", "jaccard": 0.3333, "shared_tags": ["chezmoi", "cloudflare"], "shared_refs": []}
+{"task_id": "efc0a95283a0", "prompt_id": "2faf53047e78", "jaccard": 0.3333, "shared_tags": ["chezmoi", "cloudflare"], "shared_refs": []}
+{"task_id": "d67762262d0f", "prompt_id": "2faf53047e78", "jaccard": 0.3333, "shared_tags": ["chezmoi", "cloudflare"], "shared_refs": []}
+{"task_id": "276ba6d610da", "prompt_id": "2faf53047e78", "jaccard": 0.3333, "shared_tags": ["chezmoi", "cloudflare"], "shared_refs": []}
+{"task_id": "4dd83b615f5e", "prompt_id": "2faf53047e78", "jaccard": 0.3333, "shared_tags": ["chezmoi", "cloudflare"], "shared_refs": []}
+{"task_id": "34a3c0e764fa", "prompt_id": "2faf53047e78", "jaccard": 0.3333, "shared_tags": ["chezmoi", "cloudflare"], "shared_refs": []}
+{"task_id": "d97d3c3350d0", "prompt_id": "2faf53047e78", "jaccard": 0.3333, "shared_tags": ["chezmoi", "zsh"], "shared_refs": []}
 {"task_id": "fb26826788a0", "prompt_id": "891148de34d7", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "00ed0e658430", "prompt_id": "891148de34d7", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "01995d49c0b8", "prompt_id": "891148de34d7", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -10267,6 +11056,38 @@
 {"task_id": "50ffd0669eea", "prompt_id": "d40f2300f4fb", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "bc28ef714571", "prompt_id": "d40f2300f4fb", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "de3001f2a859", "prompt_id": "d40f2300f4fb", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "7cae8a7b05e4", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "7c8877e56bbc", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "d348af35d922", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "d2e9bf9ddec5", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "5d45eb392771", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "ef3c3c0c8abd", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "35132711b7cd", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "9ba05be25716", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "1e8b855b17e3", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "8062f7003e1e", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "32cc9db54663", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "d97766df1afe", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "31c0c7d04215", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "3597a51bc9cf", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "ddb47998e43b", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "d813c56fca06", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "04aa4d684ebc", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "7f13857e43b2", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "efb873114092", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "8256b2dca013", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "5def74d2b78f", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "66028b523b91", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "314c5a239943", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "8cd9f31e0a73", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "30bd2f357e8f", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "50ffd0669eea", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "bc28ef714571", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "de3001f2a859", "prompt_id": "b323e4dfbe60", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "eb73238b8ecb", "prompt_id": "4a0261a7d31f", "jaccard": 0.3333, "shared_tags": ["astro", "bash"], "shared_refs": ["src/data/decisions.ts"]}
+{"task_id": "7b0b6639183e", "prompt_id": "4a0261a7d31f", "jaccard": 0.3333, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "eccfc2b2da25", "prompt_id": "4a0261a7d31f", "jaccard": 0.3333, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
+{"task_id": "6a4afc656407", "prompt_id": "4a0261a7d31f", "jaccard": 0.3333, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
 {"task_id": "c1dcda95d203", "prompt_id": "46dfc355d5af", "jaccard": 0.3333, "shared_tags": ["bash", "homebrew"], "shared_refs": []}
 {"task_id": "187a95667a43", "prompt_id": "46dfc355d5af", "jaccard": 0.3333, "shared_tags": ["bash", "homebrew", "python"], "shared_refs": []}
 {"task_id": "c04608dda734", "prompt_id": "46dfc355d5af", "jaccard": 0.3333, "shared_tags": ["bash", "homebrew", "python"], "shared_refs": []}
@@ -10499,6 +11320,7 @@
 {"task_id": "46a29c58eca3", "prompt_id": "b6525940e4a2", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "97ccd8d6ebe2", "prompt_id": "b6525940e4a2", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "1734ebf7a430", "prompt_id": "b6525940e4a2", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "f18cf6d87f87", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "f18cf6d87f87", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "7c8877e56bbc", "prompt_id": "f18cf6d87f87", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "d348af35d922", "prompt_id": "f18cf6d87f87", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
@@ -10710,6 +11532,7 @@
 {"task_id": "46a29c58eca3", "prompt_id": "8e4fd89120df", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "97ccd8d6ebe2", "prompt_id": "8e4fd89120df", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "1734ebf7a430", "prompt_id": "8e4fd89120df", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "510b95ddaf40", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "510b95ddaf40", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "7c8877e56bbc", "prompt_id": "510b95ddaf40", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "d348af35d922", "prompt_id": "510b95ddaf40", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
@@ -10929,6 +11752,7 @@
 {"task_id": "50ffd0669eea", "prompt_id": "b0775d39410c", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "bc28ef714571", "prompt_id": "b0775d39410c", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "de3001f2a859", "prompt_id": "b0775d39410c", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "fa94842e785c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "fa94842e785c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "7c8877e56bbc", "prompt_id": "fa94842e785c", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "d348af35d922", "prompt_id": "fa94842e785c", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
@@ -11059,6 +11883,7 @@
 {"task_id": "50ffd0669eea", "prompt_id": "fde16ab43c26", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "bc28ef714571", "prompt_id": "fde16ab43c26", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "de3001f2a859", "prompt_id": "fde16ab43c26", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "e258e2cd5b3f", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "e258e2cd5b3f", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "02e7c7c2d2a1", "prompt_id": "e258e2cd5b3f", "jaccard": 0.3333, "shared_tags": ["mcp"], "shared_refs": []}
 {"task_id": "bc478e792613", "prompt_id": "e258e2cd5b3f", "jaccard": 0.3333, "shared_tags": ["mcp"], "shared_refs": []}
@@ -11546,6 +12371,7 @@
 {"task_id": "46a29c58eca3", "prompt_id": "d0c110a0a549", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "97ccd8d6ebe2", "prompt_id": "d0c110a0a549", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "1734ebf7a430", "prompt_id": "d0c110a0a549", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "0f087a76928f", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "0f087a76928f", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "5734b2c32381", "prompt_id": "0f087a76928f", "jaccard": 0.3333, "shared_tags": ["zsh"], "shared_refs": []}
 {"task_id": "b797c172c9f1", "prompt_id": "0f087a76928f", "jaccard": 0.3333, "shared_tags": ["zsh"], "shared_refs": []}
@@ -11709,6 +12535,7 @@
 {"task_id": "bc28ef714571", "prompt_id": "aa99219d97b4", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "de3001f2a859", "prompt_id": "aa99219d97b4", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "e93b4f76cde9", "prompt_id": "c742201a7ce8", "jaccard": 0.3333, "shared_tags": ["bash"], "shared_refs": ["data/prompt-registry/prompt-atoms.json"]}
+{"task_id": "58224f5aefcf", "prompt_id": "f6b3d1044389", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "f6b3d1044389", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "f6b3d1044389", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "f6b3d1044389", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -11786,6 +12613,7 @@
 {"task_id": "2dec80ab7db1", "prompt_id": "f6b3d1044389", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "225be908d5eb", "prompt_id": "f6b3d1044389", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "e93b4f76cde9", "prompt_id": "8b5fe3a2f381", "jaccard": 0.3333, "shared_tags": ["bash"], "shared_refs": ["data/prompt-registry/prompt-atoms.json"]}
+{"task_id": "58224f5aefcf", "prompt_id": "643f842c3d6a", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "643f842c3d6a", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "643f842c3d6a", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "643f842c3d6a", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -11863,6 +12691,7 @@
 {"task_id": "2dec80ab7db1", "prompt_id": "643f842c3d6a", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "225be908d5eb", "prompt_id": "643f842c3d6a", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "e93b4f76cde9", "prompt_id": "cd28af4b1153", "jaccard": 0.3333, "shared_tags": ["bash"], "shared_refs": ["data/prompt-registry/prompt-atoms.json"]}
+{"task_id": "58224f5aefcf", "prompt_id": "ae8706fa7b0c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "ae8706fa7b0c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "ae8706fa7b0c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "ae8706fa7b0c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -11997,6 +12826,7 @@
 {"task_id": "9b3223b6df95", "prompt_id": "ebd5faff5e1c", "jaccard": 0.3333, "shared_tags": ["mcp"], "shared_refs": []}
 {"task_id": "607243b3ea5b", "prompt_id": "ebd5faff5e1c", "jaccard": 0.3333, "shared_tags": ["mcp"], "shared_refs": []}
 {"task_id": "c18c77f05d1e", "prompt_id": "01ac3bd403f9", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp", "node"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "a53fc8aafd32", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "a53fc8aafd32", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "02e7c7c2d2a1", "prompt_id": "a53fc8aafd32", "jaccard": 0.3333, "shared_tags": ["mcp"], "shared_refs": []}
 {"task_id": "bc478e792613", "prompt_id": "a53fc8aafd32", "jaccard": 0.3333, "shared_tags": ["mcp"], "shared_refs": []}
@@ -12188,6 +13018,7 @@
 {"task_id": "50ffd0669eea", "prompt_id": "47444971bd72", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "bc28ef714571", "prompt_id": "47444971bd72", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "de3001f2a859", "prompt_id": "47444971bd72", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "44bad8850193", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "44bad8850193", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "44bad8850193", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "44bad8850193", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -12805,6 +13636,7 @@
 {"task_id": "bc28ef714571", "prompt_id": "eef9d082d0f1", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "de3001f2a859", "prompt_id": "eef9d082d0f1", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "e93b4f76cde9", "prompt_id": "6d64347ce888", "jaccard": 0.3333, "shared_tags": ["bash"], "shared_refs": ["data/prompt-registry/prompt-atoms.json"]}
+{"task_id": "58224f5aefcf", "prompt_id": "2b9fc2312029", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "2b9fc2312029", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "7c8877e56bbc", "prompt_id": "2b9fc2312029", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "d348af35d922", "prompt_id": "2b9fc2312029", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
@@ -12905,6 +13737,7 @@
 {"task_id": "86f4731a3594", "prompt_id": "2b9fc2312029", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "2dec80ab7db1", "prompt_id": "2b9fc2312029", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "225be908d5eb", "prompt_id": "2b9fc2312029", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "0d478d5329f8", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "0d478d5329f8", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "7c8877e56bbc", "prompt_id": "0d478d5329f8", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "d348af35d922", "prompt_id": "0d478d5329f8", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
@@ -13116,6 +13949,7 @@
 {"task_id": "46a29c58eca3", "prompt_id": "433278c190f8", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "97ccd8d6ebe2", "prompt_id": "433278c190f8", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "1734ebf7a430", "prompt_id": "433278c190f8", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "bde27ab9f108", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "bde27ab9f108", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "bde27ab9f108", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "bde27ab9f108", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -13239,6 +14073,7 @@
 {"task_id": "86f4731a3594", "prompt_id": "bde27ab9f108", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "2dec80ab7db1", "prompt_id": "bde27ab9f108", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "225be908d5eb", "prompt_id": "bde27ab9f108", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "4a1d221faff7", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "4a1d221faff7", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "4a1d221faff7", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "4a1d221faff7", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -13739,6 +14574,7 @@
 {"task_id": "bc28ef714571", "prompt_id": "164c69bfde4a", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "de3001f2a859", "prompt_id": "164c69bfde4a", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "e93b4f76cde9", "prompt_id": "5a5fd29d280c", "jaccard": 0.3333, "shared_tags": ["bash"], "shared_refs": ["data/prompt-registry/prompt-atoms.json"]}
+{"task_id": "58224f5aefcf", "prompt_id": "4cc7aff6bdaa", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "4cc7aff6bdaa", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "4cc7aff6bdaa", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "4cc7aff6bdaa", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -15272,6 +16108,12 @@
 {"task_id": "50ffd0669eea", "prompt_id": "3bcc9707db67", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "bc28ef714571", "prompt_id": "3bcc9707db67", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
 {"task_id": "de3001f2a859", "prompt_id": "3bcc9707db67", "jaccard": 0.3333, "shared_tags": ["go", "python"], "shared_refs": []}
+{"task_id": "1f0ec6acc0e8", "prompt_id": "de06a47ac3ad", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
+{"task_id": "b0c2fedf01b3", "prompt_id": "de06a47ac3ad", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
+{"task_id": "f8bb1874ee2f", "prompt_id": "de06a47ac3ad", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
+{"task_id": "eb73238b8ecb", "prompt_id": "de06a47ac3ad", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
+{"task_id": "de91d481ae56", "prompt_id": "de06a47ac3ad", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
+{"task_id": "d8436de72ec2", "prompt_id": "de06a47ac3ad", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
 {"task_id": "6fc211faac52", "prompt_id": "de06a47ac3ad", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
 {"task_id": "4209a7da18cd", "prompt_id": "de06a47ac3ad", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
 {"task_id": "8b67924273c5", "prompt_id": "de06a47ac3ad", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
@@ -16618,6 +17460,7 @@
 {"task_id": "9fc2014a39c8", "prompt_id": "62c709d11e4e", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "homebrew", "zsh"], "shared_refs": []}
 {"task_id": "9e0e6b5ecbed", "prompt_id": "62c709d11e4e", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "homebrew", "zsh"], "shared_refs": []}
 {"task_id": "8eae1d0adfd7", "prompt_id": "62c709d11e4e", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "homebrew", "zsh"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "40db1b47bdb3", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "40db1b47bdb3", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "02e7c7c2d2a1", "prompt_id": "40db1b47bdb3", "jaccard": 0.3333, "shared_tags": ["mcp"], "shared_refs": []}
 {"task_id": "bc478e792613", "prompt_id": "40db1b47bdb3", "jaccard": 0.3333, "shared_tags": ["mcp"], "shared_refs": []}
@@ -16780,6 +17623,7 @@
 {"task_id": "c92b842ed34a", "prompt_id": "1c76e892dc2f", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "9e0503800625", "prompt_id": "1c76e892dc2f", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "f513fbc97c0b", "prompt_id": "1c76e892dc2f", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "2a1ef0e19bc7", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "2a1ef0e19bc7", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "5734b2c32381", "prompt_id": "2a1ef0e19bc7", "jaccard": 0.3333, "shared_tags": ["zsh"], "shared_refs": []}
 {"task_id": "b797c172c9f1", "prompt_id": "2a1ef0e19bc7", "jaccard": 0.3333, "shared_tags": ["zsh"], "shared_refs": []}
@@ -16908,6 +17752,7 @@
 {"task_id": "c92b842ed34a", "prompt_id": "4a9969d4072b", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "9e0503800625", "prompt_id": "4a9969d4072b", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "f513fbc97c0b", "prompt_id": "4a9969d4072b", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "96b0c85f319e", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "96b0c85f319e", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "96b0c85f319e", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "96b0c85f319e", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -17020,6 +17865,7 @@
 {"task_id": "86f4731a3594", "prompt_id": "96b0c85f319e", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "2dec80ab7db1", "prompt_id": "96b0c85f319e", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "225be908d5eb", "prompt_id": "96b0c85f319e", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "5fbd7d6aadf2", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "5fbd7d6aadf2", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "02e7c7c2d2a1", "prompt_id": "5fbd7d6aadf2", "jaccard": 0.3333, "shared_tags": ["mcp"], "shared_refs": []}
 {"task_id": "bc478e792613", "prompt_id": "5fbd7d6aadf2", "jaccard": 0.3333, "shared_tags": ["mcp"], "shared_refs": []}
@@ -17837,6 +18683,7 @@
 {"task_id": "67e5eb6df8e5", "prompt_id": "32b17ecbf4ef", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
 {"task_id": "29334fd078f9", "prompt_id": "32b17ecbf4ef", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
 {"task_id": "913fa1071b92", "prompt_id": "32b17ecbf4ef", "jaccard": 0.3333, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "66270ddc9ab4", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "66270ddc9ab4", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "7c8877e56bbc", "prompt_id": "66270ddc9ab4", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "d348af35d922", "prompt_id": "66270ddc9ab4", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
@@ -18173,6 +19020,7 @@
 {"task_id": "dbda932a6c73", "prompt_id": "ce3ae03bfd9b", "jaccard": 0.3333, "shared_tags": ["chezmoi", "mcp", "zsh"], "shared_refs": []}
 {"task_id": "216461d49393", "prompt_id": "ce3ae03bfd9b", "jaccard": 0.3333, "shared_tags": ["chezmoi", "mcp", "zsh"], "shared_refs": []}
 {"task_id": "045e4d521c4d", "prompt_id": "ce3ae03bfd9b", "jaccard": 0.3333, "shared_tags": ["chezmoi", "mcp", "node", "zsh"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "45e825b7c500", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "45e825b7c500", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "5734b2c32381", "prompt_id": "45e825b7c500", "jaccard": 0.3333, "shared_tags": ["zsh"], "shared_refs": []}
 {"task_id": "b797c172c9f1", "prompt_id": "45e825b7c500", "jaccard": 0.3333, "shared_tags": ["zsh"], "shared_refs": []}
@@ -18460,6 +19308,7 @@
 {"task_id": "0419ed426de1", "prompt_id": "a0f1d4e4442c", "jaccard": 0.3333, "shared_tags": ["chezmoi", "neon"], "shared_refs": []}
 {"task_id": "4d94eee8245b", "prompt_id": "a0f1d4e4442c", "jaccard": 0.3333, "shared_tags": ["chezmoi", "neon"], "shared_refs": []}
 {"task_id": "1f385b3b33de", "prompt_id": "a0f1d4e4442c", "jaccard": 0.3333, "shared_tags": ["chezmoi", "homebrew"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "7483eb20aa23", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "7483eb20aa23", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "7483eb20aa23", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "7483eb20aa23", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -18593,6 +19442,7 @@
 {"task_id": "e1167c3302fe", "prompt_id": "80825815b66f", "jaccard": 0.3333, "shared_tags": ["go", "mcp"], "shared_refs": []}
 {"task_id": "2c63da78cdab", "prompt_id": "80825815b66f", "jaccard": 0.3333, "shared_tags": ["go", "mcp"], "shared_refs": []}
 {"task_id": "5bb8c032e075", "prompt_id": "80825815b66f", "jaccard": 0.3333, "shared_tags": ["go", "mcp"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "f142fb9ead12", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "f142fb9ead12", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "5734b2c32381", "prompt_id": "f142fb9ead12", "jaccard": 0.3333, "shared_tags": ["zsh"], "shared_refs": []}
 {"task_id": "b797c172c9f1", "prompt_id": "f142fb9ead12", "jaccard": 0.3333, "shared_tags": ["zsh"], "shared_refs": []}
@@ -18693,6 +19543,7 @@
 {"task_id": "38ebed928335", "prompt_id": "f142fb9ead12", "jaccard": 0.3333, "shared_tags": ["zsh"], "shared_refs": []}
 {"task_id": "8098420cec75", "prompt_id": "f142fb9ead12", "jaccard": 0.3333, "shared_tags": ["zsh"], "shared_refs": []}
 {"task_id": "16a700279781", "prompt_id": "f142fb9ead12", "jaccard": 0.3333, "shared_tags": ["zsh"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "9cd67ddab620", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "9cd67ddab620", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "7c8877e56bbc", "prompt_id": "9cd67ddab620", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "d348af35d922", "prompt_id": "9cd67ddab620", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
@@ -18922,6 +19773,7 @@
 {"task_id": "c92b842ed34a", "prompt_id": "21f8f65ff93f", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "9e0503800625", "prompt_id": "21f8f65ff93f", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "f513fbc97c0b", "prompt_id": "21f8f65ff93f", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "058138826e0c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "058138826e0c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "058138826e0c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "058138826e0c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -18998,6 +19850,12 @@
 {"task_id": "86f4731a3594", "prompt_id": "058138826e0c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "2dec80ab7db1", "prompt_id": "058138826e0c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "225be908d5eb", "prompt_id": "058138826e0c", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "1f0ec6acc0e8", "prompt_id": "1d04a5957628", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
+{"task_id": "b0c2fedf01b3", "prompt_id": "1d04a5957628", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
+{"task_id": "f8bb1874ee2f", "prompt_id": "1d04a5957628", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
+{"task_id": "eb73238b8ecb", "prompt_id": "1d04a5957628", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
+{"task_id": "de91d481ae56", "prompt_id": "1d04a5957628", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
+{"task_id": "d8436de72ec2", "prompt_id": "1d04a5957628", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
 {"task_id": "6fc211faac52", "prompt_id": "1d04a5957628", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
 {"task_id": "4209a7da18cd", "prompt_id": "1d04a5957628", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
 {"task_id": "8b67924273c5", "prompt_id": "1d04a5957628", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
@@ -19040,6 +19898,7 @@
 {"task_id": "853f070d0dbd", "prompt_id": "1d04a5957628", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
 {"task_id": "f007d33fe46e", "prompt_id": "1d04a5957628", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
 {"task_id": "9d7ea4c4433b", "prompt_id": "1d04a5957628", "jaccard": 0.3333, "shared_tags": ["astro"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "733a5eb4eb24", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "733a5eb4eb24", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "733a5eb4eb24", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "733a5eb4eb24", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -19719,6 +20578,7 @@
 {"task_id": "9fc6ec4d4c99", "prompt_id": "2c51eeb5ae9d", "jaccard": 0.3333, "shared_tags": ["cloudflare"], "shared_refs": []}
 {"task_id": "e4b09dd0d9d5", "prompt_id": "2c51eeb5ae9d", "jaccard": 0.3333, "shared_tags": ["cloudflare"], "shared_refs": []}
 {"task_id": "0219273c74d4", "prompt_id": "2c51eeb5ae9d", "jaccard": 0.3333, "shared_tags": ["cloudflare"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "a2f8d1f8ddc2", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "a2f8d1f8ddc2", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "a2f8d1f8ddc2", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "a2f8d1f8ddc2", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -20033,6 +20893,7 @@
 {"task_id": "6ca2b651838b", "prompt_id": "657db1e6431d", "jaccard": 0.3333, "shared_tags": ["vercel"], "shared_refs": []}
 {"task_id": "26daba7bb1ef", "prompt_id": "657db1e6431d", "jaccard": 0.3333, "shared_tags": ["vercel"], "shared_refs": []}
 {"task_id": "d7190c79b83a", "prompt_id": "657db1e6431d", "jaccard": 0.3333, "shared_tags": ["vercel"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "220fe491d065", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "220fe491d065", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "220fe491d065", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "220fe491d065", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -20113,6 +20974,7 @@
 {"task_id": "86f4731a3594", "prompt_id": "220fe491d065", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "2dec80ab7db1", "prompt_id": "220fe491d065", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "225be908d5eb", "prompt_id": "220fe491d065", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "1555243f2cac", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "1555243f2cac", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "1555243f2cac", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "1555243f2cac", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -20189,6 +21051,7 @@
 {"task_id": "86f4731a3594", "prompt_id": "1555243f2cac", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "2dec80ab7db1", "prompt_id": "1555243f2cac", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "225be908d5eb", "prompt_id": "1555243f2cac", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "4b298fb09ff5", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "4b298fb09ff5", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "035551841570", "prompt_id": "4b298fb09ff5", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "9394d0eba88c", "prompt_id": "4b298fb09ff5", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
@@ -20562,6 +21425,7 @@
 {"task_id": "fab4ea2550e9", "prompt_id": "5738ad86e1fc", "jaccard": 0.3333, "shared_tags": ["bash", "mcp"], "shared_refs": []}
 {"task_id": "78b1729e45c2", "prompt_id": "5738ad86e1fc", "jaccard": 0.3333, "shared_tags": ["bash", "mcp"], "shared_refs": []}
 {"task_id": "d16ee5698bf0", "prompt_id": "5738ad86e1fc", "jaccard": 0.3333, "shared_tags": ["bash", "mcp"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "83e8b3b2a2d4", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "83e8b3b2a2d4", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "02e7c7c2d2a1", "prompt_id": "83e8b3b2a2d4", "jaccard": 0.3333, "shared_tags": ["mcp"], "shared_refs": []}
 {"task_id": "bc478e792613", "prompt_id": "83e8b3b2a2d4", "jaccard": 0.3333, "shared_tags": ["mcp"], "shared_refs": []}
@@ -20894,6 +21758,7 @@
 {"task_id": "c92b842ed34a", "prompt_id": "7ec7d7be26b9", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "9e0503800625", "prompt_id": "7ec7d7be26b9", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "f513fbc97c0b", "prompt_id": "7ec7d7be26b9", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "91f4e035ea2b", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "91f4e035ea2b", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "7c8877e56bbc", "prompt_id": "91f4e035ea2b", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "d348af35d922", "prompt_id": "91f4e035ea2b", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
@@ -21139,6 +22004,7 @@
 {"task_id": "c92b842ed34a", "prompt_id": "19538d68655b", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "9e0503800625", "prompt_id": "19538d68655b", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "f513fbc97c0b", "prompt_id": "19538d68655b", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
+{"task_id": "58224f5aefcf", "prompt_id": "93ce9bf49948", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "d8542d81a491", "prompt_id": "93ce9bf49948", "jaccard": 0.3333, "shared_tags": ["chezmoi"], "shared_refs": []}
 {"task_id": "7c8877e56bbc", "prompt_id": "93ce9bf49948", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
 {"task_id": "d348af35d922", "prompt_id": "93ce9bf49948", "jaccard": 0.3333, "shared_tags": ["go"], "shared_refs": []}
@@ -22567,6 +23433,7 @@
 {"task_id": "6081f64f5467", "prompt_id": "15be75437ef0", "jaccard": 0.3158, "shared_tags": ["astro", "cloudflare", "node", "three.js", "vite"], "shared_refs": ["src/components/spiral/spiral.ts"]}
 {"task_id": "73cf26184c19", "prompt_id": "e303e23eca82", "jaccard": 0.3158, "shared_tags": ["astro", "p5.js", "playwright", "python", "typescript", "vitest"], "shared_refs": []}
 {"task_id": "73cf26184c19", "prompt_id": "86128b8dc269", "jaccard": 0.3158, "shared_tags": ["astro", "p5.js", "playwright", "python", "typescript", "vitest"], "shared_refs": []}
+{"task_id": "7a8c09328add", "prompt_id": "4a0261a7d31f", "jaccard": 0.3125, "shared_tags": ["astro", "bash", "cloudflare", "javascript", "three.js"], "shared_refs": []}
 {"task_id": "ac507f0dace2", "prompt_id": "dfa9218f515b", "jaccard": 0.3125, "shared_tags": ["bash", "chezmoi", "homebrew", "mcp", "python"], "shared_refs": []}
 {"task_id": "aea2a754a2d0", "prompt_id": "dfa9218f515b", "jaccard": 0.3125, "shared_tags": ["bash", "chezmoi", "homebrew", "mcp", "python"], "shared_refs": []}
 {"task_id": "6fa5c848e9df", "prompt_id": "dfa9218f515b", "jaccard": 0.3125, "shared_tags": ["bash", "chezmoi", "homebrew", "mcp", "python"], "shared_refs": []}
@@ -22773,6 +23640,32 @@
 {"task_id": "67e5eb6df8e5", "prompt_id": "a67d042c6606", "jaccard": 0.3, "shared_tags": ["aws", "chezmoi", "mcp"], "shared_refs": []}
 {"task_id": "29334fd078f9", "prompt_id": "a67d042c6606", "jaccard": 0.3, "shared_tags": ["aws", "chezmoi", "mcp"], "shared_refs": []}
 {"task_id": "913fa1071b92", "prompt_id": "a67d042c6606", "jaccard": 0.3, "shared_tags": ["aws", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "187a95667a43", "prompt_id": "e0635635982b", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "c04608dda734", "prompt_id": "e0635635982b", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "c0fc2867be72", "prompt_id": "e0635635982b", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "0074b7c15d04", "prompt_id": "e0635635982b", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "604e68d0dcda", "prompt_id": "e0635635982b", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "0db65f3efb1d", "prompt_id": "e0635635982b", "jaccard": 0.3, "shared_tags": ["bash", "go", "mcp"], "shared_refs": []}
+{"task_id": "cbd6a7904e77", "prompt_id": "e0635635982b", "jaccard": 0.3, "shared_tags": ["bash", "go", "mcp"], "shared_refs": []}
+{"task_id": "d586ae210e98", "prompt_id": "e0635635982b", "jaccard": 0.3, "shared_tags": ["bash", "go", "mcp"], "shared_refs": []}
+{"task_id": "aa9ce04b2f9d", "prompt_id": "e0635635982b", "jaccard": 0.3, "shared_tags": ["bash", "go", "mcp"], "shared_refs": []}
+{"task_id": "e174275c9169", "prompt_id": "e0635635982b", "jaccard": 0.3, "shared_tags": ["bash", "go", "mcp"], "shared_refs": []}
+{"task_id": "f1055025fcf4", "prompt_id": "e0635635982b", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "9764f6c22e92", "prompt_id": "e0635635982b", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "1da3d23cc840", "prompt_id": "e0635635982b", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "be1e872e4bb0", "prompt_id": "e0635635982b", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "13a687941ad4", "prompt_id": "e0635635982b", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "a8e7df6050ed", "prompt_id": "e0635635982b", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "9fc2014a39c8", "prompt_id": "e0635635982b", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "9e0e6b5ecbed", "prompt_id": "e0635635982b", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "8eae1d0adfd7", "prompt_id": "e0635635982b", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "mcp"], "shared_refs": []}
+{"task_id": "187a95667a43", "prompt_id": "8c501cd22a25", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "homebrew"], "shared_refs": []}
+{"task_id": "c04608dda734", "prompt_id": "8c501cd22a25", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "homebrew"], "shared_refs": []}
+{"task_id": "c0fc2867be72", "prompt_id": "8c501cd22a25", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "homebrew"], "shared_refs": []}
+{"task_id": "9e79525eb138", "prompt_id": "8c501cd22a25", "jaccard": 0.3, "shared_tags": ["bash", "docker", "homebrew"], "shared_refs": []}
+{"task_id": "f1055025fcf4", "prompt_id": "8c501cd22a25", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "homebrew"], "shared_refs": []}
+{"task_id": "9764f6c22e92", "prompt_id": "8c501cd22a25", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "homebrew"], "shared_refs": []}
+{"task_id": "1da3d23cc840", "prompt_id": "8c501cd22a25", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "homebrew"], "shared_refs": []}
 {"task_id": "1915650ec068", "prompt_id": "cdebe43aeede", "jaccard": 0.3, "shared_tags": ["cloudflare", "node"], "shared_refs": ["docs/runbooks/cf-token-rotation.md"]}
 {"task_id": "c3006d7138e0", "prompt_id": "97fe8d443dd0", "jaccard": 0.3, "shared_tags": ["astro", "cloudflare", "go"], "shared_refs": []}
 {"task_id": "a3cfbcb109f0", "prompt_id": "97fe8d443dd0", "jaccard": 0.3, "shared_tags": ["astro", "cloudflare", "go"], "shared_refs": []}
@@ -22793,6 +23686,7 @@
 {"task_id": "461fdcdfec3e", "prompt_id": "420163df88c9", "jaccard": 0.3, "shared_tags": ["astro", "cloudflare", "go"], "shared_refs": []}
 {"task_id": "d12afe421e16", "prompt_id": "420163df88c9", "jaccard": 0.3, "shared_tags": ["astro", "cloudflare", "go"], "shared_refs": []}
 {"task_id": "37a2c79d2f8f", "prompt_id": "420163df88c9", "jaccard": 0.3, "shared_tags": ["astro", "cloudflare", "go"], "shared_refs": []}
+{"task_id": "08b2238cbb36", "prompt_id": "4a0261a7d31f", "jaccard": 0.3, "shared_tags": ["bash", "chezmoi", "cloudflare"], "shared_refs": []}
 {"task_id": "cd8b721b0363", "prompt_id": "46dfc355d5af", "jaccard": 0.3, "shared_tags": ["bash", "python", "zsh"], "shared_refs": []}
 {"task_id": "fb77d66abe8e", "prompt_id": "46dfc355d5af", "jaccard": 0.3, "shared_tags": ["bash", "python", "zsh"], "shared_refs": []}
 {"task_id": "100ff3a60812", "prompt_id": "46dfc355d5af", "jaccard": 0.3, "shared_tags": ["bash", "python", "zsh"], "shared_refs": []}

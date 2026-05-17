@@ -1,13 +1,13 @@
 # Atom Link Summary
 **Generated**: 2026-05-16
-**Links**: 23613 | **Threshold**: 0.3
+**Links**: 24507 | **Threshold**: 0.3
 
 ## Jaccard Distribution
 
 | Range | Count | % |
 |-------|-------|---|
-| 0.50+ | 5138 | 21% |
-| 0.30–0.49 | 18475 | 78% |
+| 0.50+ | 5398 | 22% |
+| 0.30–0.49 | 19109 | 77% |
 | 0.20–0.29 | 0 | 0% |
 | 0.15–0.19 | 0 | 0% |
 | <0.15 | 0 | 0% |
@@ -16,25 +16,25 @@
 
 | Tag | Occurrences |
 |-----|-------------|
-| chezmoi | 13502 |
-| go | 7462 |
-| mcp | 5361 |
-| bash | 5245 |
-| python | 5016 |
-| zsh | 1424 |
-| cloudflare | 1246 |
-| homebrew | 1071 |
+| chezmoi | 14143 |
+| go | 7694 |
+| bash | 5473 |
+| mcp | 5425 |
+| python | 5154 |
+| zsh | 1497 |
+| cloudflare | 1328 |
+| homebrew | 1129 |
 | node | 996 |
-| astro | 810 |
-| docker | 404 |
+| astro | 868 |
+| docker | 437 |
 | pytest | 371 |
 | vercel | 337 |
-| three.js | 283 |
+| three.js | 322 |
 | typescript | 254 |
 | neon | 242 |
-| aws | 168 |
+| aws | 174 |
+| javascript | 153 |
 | react | 127 |
-| javascript | 124 |
 | fastapi | 121 |
 
 ## Top Shared File References
@@ -48,8 +48,8 @@
 | `scripts/run.py` | 10 |
 | `docs/runbooks/cf-token-rotation.md` | 9 |
 | `src/pages/water/index.astro` | 9 |
+| `.conductor/active-handoff.md` | 7 |
 | `docs/business/2026-04-27-rob-evidence-of-existence-system-audit.md` | 6 |
-| `.conductor/active-handoff.md` | 6 |
 | `docs/client-pdfs/2026-05-16-maddie-imessage-responses.pdf` | 6 |
 | `docs/maddie/2026-04-25-message-spiral-feedback.pdf` | 6 |
 | `private_dot_claude/CLAUDE.md.tmpl` | 5 |
@@ -66,18 +66,18 @@
 
 | Task ID | Links |
 |---------|-------|
-| 50ffd0669eea | 117 |
-| 7f13857e43b2 | 115 |
-| efb873114092 | 115 |
-| 8256b2dca013 | 115 |
-| 5def74d2b78f | 115 |
-| 66028b523b91 | 115 |
-| 314c5a239943 | 115 |
-| 8cd9f31e0a73 | 115 |
-| 30bd2f357e8f | 115 |
-| bc28ef714571 | 115 |
-| de3001f2a859 | 115 |
-| 7c8877e56bbc | 115 |
-| d348af35d922 | 115 |
-| d2e9bf9ddec5 | 115 |
-| 5d45eb392771 | 115 |
+| 50ffd0669eea | 122 |
+| 7f13857e43b2 | 120 |
+| efb873114092 | 120 |
+| 8256b2dca013 | 120 |
+| 5def74d2b78f | 120 |
+| 66028b523b91 | 120 |
+| 314c5a239943 | 120 |
+| 8cd9f31e0a73 | 120 |
+| 30bd2f357e8f | 120 |
+| bc28ef714571 | 120 |
+| de3001f2a859 | 120 |
+| 7c8877e56bbc | 118 |
+| d348af35d922 | 118 |
+| d2e9bf9ddec5 | 118 |
+| 5d45eb392771 | 118 |
