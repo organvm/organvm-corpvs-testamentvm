@@ -1,104 +1,94 @@
-# Pragma — `meta-organvm/organvm-corpvs-testamentvm`
+# Pragma — The Honest Account
 
-> *The Concrete Realization. The honest account of what has been built.*
-> *How far is the corpus from its telos?*
+> *"PRAGMA — the honest account of what has been concretely realized; the delta between the dream and the thing built."* — `governance-rules.json` AX-7
 
-**Status:** Initial draft (filling the documented vacuum per `14-logos-documentation-layer.md`)
-**Date:** 2026-05-09
-**Counterpart files:** `telos.md` (idealized form), `praxis.md` (remediation plan), `receptio.md` (reception), `alchemical-io.md` (metabolic narrative)
+This is the system's **soil**. It is not the Bad Side of the dream; it is the substrate the dream actually grows in. Pragma is written without ornament because ornamenting pragma makes the dream blind.
+
+> *Confidence note.* Numbers below are taken from two sources: (a) the REPRWA audit committed on branch `claude/repo-world-analysis-NNyj1` in this repo (`docs/audits/`), and (b) `registry-v2.json` at HEAD. Any drift is reconciled in `praxis.md` and routed to receptio as `BEACON-DRIFT-NNN`.
 
 ---
 
-## 1. What Exists Today
+## I. Scale of the formation
 
-The corpus is at directory depth **9** at its deepest point (`docs/validation-runs/codex-cli/runs/20260209-135130/`). It contains **117 directories** and **1,059 files** (excluding `.git/` and caches). The file distribution by depth:
+- **Repositories tracked:** 145 across 8 GitHub organizations, registered in `registry-v2.json` (v1.2.0 schema).
+- **Organs:** 8 — Theoria, Poiesis, Ergon, Taxis, Logos, Koinonia, Kerygma, Meta.
+- **Launch:** all 8 organs operational since 2026-02-11.
+- **Dependency edges declared:** 115 system-wide via `seed.yaml.produces/consumes`. 62 of those are intra-graph and validated for acyclicity by `validate-dependencies.yml`.
+- **Governance rules:** v3.0. 4 master/derived natural laws (LEX-I through LEX-IV), 9 axioms (AX-1 through AX-9), 29 dictums (RR-1 through RR-9+), 8 amendments (A-A through A-H).
+- **Workflows:** 16 GitHub Actions workflows in this repo alone (143 across the 8 orgs).
+- **Scripts:** 51 Python/shell validation scripts.
+- **Sprints completed:** 33 (numbered 01–33). The system was bootstrapped through a 76-sprint catalog organized in 18 categories.
+- **Documentation surface:** ~404K+ words across 7 layered strata (genesis, planning, strategy, implementation, evaluation, standards, operations) plus archive.
+- **AI-Conductor token budget:** ~6.5M TE for the full corpus across all phases.
 
-| Depth | Files | Notes |
-|---|---|---|
-| 0 (root) | 54 | LICENSE, README, governance JSONs, root markdown indices, root essays |
-| 1 | 147 | Bucket-direct files (`docs/CLAUDE.md` etc.) |
-| 2 | 409 | Largest single layer — most active documentation lives here |
-| 3 | 382 | Second-largest — sprint specs, validation runs, archived staging |
-| 4 | 48 | Time-stamped sub-buckets |
-| 5 | 19 | Deep validation/archive leaves |
+This is the *built* substrate. It is real. It runs.
 
-Top-level shape: **21 directories** (7 hidden agent/integration configs, 14 content directories). The 14 content directories naturally cluster into the three pure systems (CORPUS / ENGINE / SURFACE) defined in `docs/standards/15-three-pure-systems.md`.
+---
 
-## 2. State of the Three Pure Systems (As-Is)
+## II. The honest manifestation matrix
 
-### CORPUS (this system)
-- **Coverage**: ~600 documentation files across `docs/` + state artifacts in `registry/`, `data/`, `ecosystem/`, `testament/`
-- **Inner-form distribution (estimated, pending generator script):**
-  - TELOS: ~110 files (constitution, standards 10–14, genesis 00-a/b/c/d, specs)
-  - PRAGMA: ~270 files (registry, data, evaluations, this very document)
-  - PRAXIS: ~180 files (implementation, operations, strategy, planning, agents)
-  - RECEPTIO: ~270 files (essays, applications, validation runs, archive)
-  - ALCHEMICAL-IO: this single file (summarizing the breathing/fossil flow)
-- **Health**: All four primary forms now have a top-level narrative under `docs/logos/`. Symmetry, previously 0.0 (VACUUM), is now non-zero.
+The REPRWA audit (`docs/audits/`) catalogued **58 backend laws** and classified each by its public/visible manifestation status:
 
-### ENGINE (peer system, untouched here)
-- 51 Python/bash scripts in `scripts/` (invocation, audit, convergence, soak, generators)
-- 5 directories under `templates/` (adr, badges, changelog, ci-workflows)
-- 3 config files in `.config/` consumed by `scripts/generate-claude-md.py` and `organvm refresh`
-- Self-description: pending. The ENGINE does not yet have its own `scripts/README.md` declaring its internal taxonomy.
+| Manifestation status | Count | Meaning |
+|----------------------|------:|---------|
+| **PRESENT** | 17 | Publicly visible, branded, productized, or discoverable as a counterpart to the backend law. |
+| **PARTIAL** | 33 | Backend law has some surface, but the surface is internal (issue comments, log files, in-repo docs) rather than public, branded, discoverable, or productized. |
+| **MISSING** | 1 | No visible counterpart anywhere. |
+| **UNGROUNDED** | 2 | Visible artifact is referenced but its backend law is unclear. |
 
-### SURFACE (peer system, untouched here)
-- 16 GitHub Actions workflows in `.github/workflows/`
-- Issue and PR templates in `.github/ISSUE_TEMPLATE/`
-- Astro static site in `portfolio-site/src/{pages,layouts,styles,data}/`
-- Jekyll-style timestamped posts in `_posts/`
-- Downstream-org templates in `.github-template/{generated,meta-profile,minimal-core,profile,ISSUE_TEMPLATE,workflows}/`
-- Self-description: pending. The SURFACE does not yet have its own self-declaring index.
+**The dominant category is PARTIAL.** This is the system's central honesty: most of its laws have *some* body, but the body is private. The Beacon's job (and the praxis layer's job) is to convert PARTIAL → PRESENT.
 
-### SUBSTRATE (acknowledged, classified by no system)
-- Root-required files: `LICENSE`, `README.md`, `CLAUDE.md`, `DIRECTORY.md`, `CONTRIBUTING.md`, `CHANGELOG.md`, `AGENTS.md`, `GEMINI.md`, `.gitignore`, `.gitattributes`, `.editorconfig`, `.pre-commit-config.yaml`, `.gitleaks.toml`, `.nojekyll`
-- Hidden agent integrations: `.claude/`, `.gemini/`, `.serena/`, `.sops/`
+The PARTIAL count of 33 is the operational definition of the *vacuum* the Beacon emits into.
 
-## 3. State of the Eight Organs (Per `registry-v2.json` + Live Variables)
+---
 
-| Organ | Org | Repos | Status | Flagship documentation |
-|---|---|---|---|---|
-| I — Theory (Theoria) | `organvm-i-theoria` | 20 | OPERATIONAL | `recursive-engine--generative-entity` |
-| II — Art (Poiesis) | `organvm-ii-poiesis` | 30 | OPERATIONAL | `metasystem-master`, `a-mavs-olevm` |
-| III — Commerce (Ergon) | `organvm-iii-ergon` | 27 | OPERATIONAL | `public-record-data-scrapper` |
-| IV — Orchestration (Taxis) | `organvm-iv-taxis` | 7 | OPERATIONAL | `orchestration-start-here`, `agentic-titan` |
-| V — Public Process (Logos) | `organvm-v-logos` | 2 | OPERATIONAL | `public-process` |
-| VI — Community (Koinonia) | `organvm-vi-koinonia` | 4 | OPERATIONAL | — |
-| VII — Marketing (Kerygma) | `organvm-vii-kerygma` | 4 | OPERATIONAL | — |
-| VIII — Meta | `meta-organvm` | 13 | OPERATIONAL | `organvm-corpvs-testamentvm` (this) |
+## III. Vacuums named explicitly
 
-**Live system variables** (per CLAUDE.md auto-gen, 2026-04-14 snapshot):
-- `total_repos`: 145 · `active_repos`: 89 · `archived_repos`: 54
-- `dependency_edges`: 60 · `ci_workflows`: 107 · `published_essays`: 29
-- `sprints_completed`: 33 · `total_organs`: 10 · `operational_organs`: 10
-- `code_files`: 0 · `test_files`: 0 · `repos_with_tests`: 0
+Specific gaps surfaced by REPRWA and other audits, listed without ornament:
 
-Note: `code_files`/`test_files`/`repos_with_tests` reporting 0 is itself a pragma signal — implementation density is currently below telos. See `praxis.md` §3 for the closure plan.
+1. **The Logos layer was empty.** Until this commit, `docs/logos/telos.md`, `pragma.md`, `praxis.md`, `receptio.md` were all referenced (by `CLAUDE.md`, `GEMINI.md`, AX-7) but did not exist. Coverage: 0% → 100% with this delivery.
+2. **`governance-thresholds.json` semantics are opaque.** T-series origins, radii (down/up/lateral), and wave classifications exist as values but are not narrated. Effect: governance is enforceable but unexplainable.
+3. **`organvm` CLI is referenced but not visibly implemented** in `scripts/`. Effect: AGENTS-style docs talk to a tool that may not exist.
+4. **Index Nominum and Index Rerum are planned but not built.** Index Locorum and IRF exist. Two of four classical indices are vacuums.
+5. **`mesh` repo has no LICENSE / README / CONTRIBUTING.** Effect: IP status unclear; community use blocked; the audit's #1 priority candidate (P-009, composite 4.71) cannot ship beyond BUILD_NOW.
+6. **`organvm-v-logos/public-process` "Logos" doc layer is GHOST (symmetry: 0.5).** Counterpart to governance logic is partially missing in the public-process essays.
+7. **`praxis-perpetua` provenance is uneven.** 766K+ words; per-fragment authorship not always traceable.
+8. **`Amendment H (Temporal Manifestation)`** is constitutional but cryptographic-philosophical in tone, not practically explained.
+9. **`dreamcatcher` subsystem** is referenced in `src/` of orchestration-start-here; role unclear from public surface.
+10. **`contrib_engine` income-weighting algorithm** is referenced; coefficients not visible.
+11. **Test claims are partially unverified.** CLAUDE.md cites "240 passing tests" but tests/ directory structure is undocumented in the public surface.
+12. **Cocoon map is 1/11 instantiated.** TRIPTYCH.md describes 11 biological mechanisms; only `skeletal_define.py` has a function. 36 gate contracts declared, ~10% implemented.
+13. **stakeholder-portal not submoduled.** Lives locally; invisible to the superproject pointer system.
+14. **`intake/` graveyard** in the superproject: ~2GB ingested, not exited. Material absorbed without being alchemized.
+15. **Isotope proliferation.** Registry-loading is reimplemented 7× across 6 repos. Organ-mapping in 3 places. Same code, different locations.
+16. **Single-maintainer concentration.** @4444J99 is the single approval gate across all four core repos. High bus factor risk.
+17. **AI-Conductor formal specification** is extensively narrated across 33+ essays but has not been distilled into one canonical specification doc.
 
-## 4. The Distance from Telos
+These are not failures. They are the *honest delta* between the dream of telos.md and the thing built. AX-7 names this: "the honest account of what has been concretely realized."
 
-| Telos demand | Pragma reality | Gap |
-|---|---|---|
-| Total coverage of every artifact | ~404K words deployed across 148 docs + 8 org profiles | Substantial; cross-organ logos symmetry currently low across most repos |
-| Perfect symmetry (no Ghosts, no Dreams) | Symmetry: 0.0 (VACUUM) for this repo before today; status of other repos varies | Closing for this repo with the current PR; other repos enumerated in IRF |
-| Recursive self-description | This document set itself is a step toward recursive self-description | First iteration; ontology will need refinement after live use |
-| Single source of truth | `registry-v2.json` exists and is treated as authoritative | Cross-references in legacy v1 docs (`docs/archive/`) still reference older state |
-| Public-process alignment | 29 essays published; ORGAN-V `public-process` repo OPERATIONAL | Logos→essay extraction pipeline (per `14-logos-documentation-layer.md` §5) not yet automated |
+---
 
-## 5. Notable Pragma-Specific Properties
+## IV. What the system definitely is
 
-- **The corpus has no build system.** Its "executables" are Python and bash scripts in `scripts/`, and 16 GitHub Actions workflows. There is no compiler, no package manager, no test runner that traverses the whole repository. Quality is enforced via pre-commit, linting, and human review.
-- **The corpus is documentation-heavy and code-light.** This is by intent (per CLAUDE.md: *"This is a planning and governance documentation corpus — not a source code repository"*). The implementation density that other repos exhibit is a feature, not a bug, *of those repos*. The corpus's contribution is structural and narrative.
-- **Append-only chronicling dominates the deepest paths.** Every directory at depth ≥ 6 is a date-stamped run, snapshot, or archive (e.g., `2026-04`, `20260209-135130`, `week-2026-04-19_to_2026-04-26`). The corpus grows by accretion, not deletion.
-- **Three duplicated top-level names with distinct roles** (intentional, per CLAUDE.md routing): `applications/` (top-level staging) vs. `docs/applications/` (canonical identity); `essays/` (drafts) vs. `docs/essays/` (curated); `specs/` (cross-cutting formations) vs. `docs/specs/` (per-sprint SDD).
+To balance the vacuum list:
 
-## 6. Pragma Self-Audit Triggers
+- It is **constitutional**. Governance is testable: v3.0 axioms enforced via CI (`validate-dependencies.yml`, monthly-organ-audit, promote-repo). Amendments appended to a hash-chained log.
+- It is **launched**. All 8 organs operational since 2026-02-11. Cross-organ dispatch live. Promotion state machine running.
+- It is **already public-process**. ~33 essays totaling ~130K+ words on the Jekyll site. POSSE distribution active to Mastodon + Discord.
+- It is **agent-operable**. organvm-mcp-server exposes 16 tools across 5 groups. AGENTS.md and CLAUDE.md auto-generated. Dialect identity classifiable.
+- It is **audited**. REPRWA itself ran end-to-end against the four core repos in May 2026; outputs in `docs/audits/` (canonical PR meta-organvm/meta-organvm--superproject#7).
+- It is **provenanced**. `action_ledger` records atomic actions with cycle detection and bidirectional provenance. AI-generation explicitly tagged.
+- It is **maintained**. soak-test-daily, monthly-organ-audit, ecosystem-coverage-audit, ecosystem-staleness-weekly, system-pulse-weekly, stale-detector-weekly all run.
+- It is **funded-in-part**. `cvrsvs-honorvm` is NLnet-funded. `aerarium--res-publica` is the institutional/fiscal-sponsorship wrapper.
 
-The following automation regularly refreshes pragma state:
-- `python3 scripts/calculate-metrics.py` — registry-driven metrics
-- `python3 scripts/organ-audit.py` — per-organ repo state
-- `python3 scripts/generate-claude-md.py` — refreshes the auto-gen zone in CLAUDE.md (and pragma-relevant fields like Symmetry)
-- `bash scripts/daily-soak.sh` — daily health snapshot under `data/soak-test/`
-- `bash scripts/backup-all-orgs.sh` — backup pulse
+---
 
-The `Live System Variables` section of CLAUDE.md is the canonical pragma snapshot, regenerable on demand.
+## V. The delta in one paragraph
+
+The delta between the dream (telos.md) and the thing built is **mostly visibility, not capability**. The infrastructure to be a Multidimensional Lighthouse exists — registries, schemas, validators, distribution, atomization, dead-zone detection, MCP bridges, design tokens, governance hash chains. What is missing is the *visible, branded, public manifestation* of each of these as a recognizable component of the Beacon. 33 of 58 backend laws need their public face. The Logos directory (this one) is the first such face; the per-repo `seed.yaml.beacon` field (specified in `../beacon/seed-extension-v1.1.md`) is the next.
+
+The work named in [`praxis.md`](./praxis.md) is the closure of that delta.
+
+---
+
+*This file is updated whenever (a) the REPRWA audit re-runs, or (b) any of the 17 named vacuums closes or opens, or (c) the underlying counts in §I change by >5%. Every update is logged in receptio as `BEACON-PRAGMA-UPDATE-NNN`.*
