@@ -1,11 +1,8 @@
 {
-  "next_id": 533,
-  "last_claimed_by": "S-2026-05-12-sisyphus-hall-monitor-local-preservation",
-  "last_claimed_at": "2026-05-12",
-  "claimed_range": [
-    532,
-    532
-  ],
-  "note": "Sisyphus hall-monitor close-out claims DONE-532: local-preservation pass across 6 repos via wip/local-preservation-2026-05-12 idiom (corpvs bd3b500, application-pipeline f9353156, 4444J99 parent da4b3cf, classroom-rpg 7eb554c, life-my-midst-in 80d6a004, hokage fb395a3) + hokage governance whitelist extension as cascade-L4 ideal-form derivation + Sisyphus verification sweep confirming local:remote=1:1 across 14 audited repos. Plan: ~/.claude/plans/enumerated-rolling-pie.md (≡ staged-chasing-stardust.md per IRF-OPS-027 dual-name pattern).",
+  "next_id": 535,
+  "last_claimed_by": "S-2026-05-17-knowledge-base-epistemic-export",
+  "last_claimed_at": "2026-05-17",
+  "claimed_range": [533, 534],
+  "note": "Sisyphus hall-monitor close-out claims DONE-533: knowledge-base-export (1,463 .md files across 7 repos, 37MB compressed archive with manifest + conversation context). DONE-534: session-archive-export (811 plans, 906 project memories, curated reports, 786MB compressed archive with manifest). Both exports satisfy local:remote=1:1 axiom via git-tracked repos + compressed archives. Cloned 3 missing repos shallow: a-organvm/my-knowledge-base, organvm-i-theoria/linguistic-atomization-framework, organvm-i-theoria/nexus--babel-alexandria.",
   "protocol": "CLAIM-BEFORE-USE: git pull, read next_id, increment by count needed, commit+push THIS FILE, then assign IDs. If push fails (non-fast-forward), pull, re-read, retry. Never assign DONE-NNN without claiming here first."
 }
