@@ -511,7 +511,7 @@ These metrics appear across all three talks and should be kept consistent. Sourc
 | Total repositories | 148 | registry-v2.json |
 | GitHub organizations | 8 | registry-v2.json |
 | Documentation volume | ~6K+ words | system metrics |
-| Published essays | 0 | ORGAN-V public-process |
+| Published essays | 29 | ORGAN-V public-process |
 | Automated tests | 4,015+ | CI aggregation |
 | CI/CD workflows | 107+ | registry-v2.json |
 | JSON schemas | 6 (all v1.0.0) | schema-definitions |

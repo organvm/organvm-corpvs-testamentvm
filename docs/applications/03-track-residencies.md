@@ -47,7 +47,7 @@ Residency evaluators assess:
 
 **Proposed residency work:**
 1. Develop a site-specific generative installation responding to the Fire Island environment
-2. Write 3-0 essays documenting the residency within the eight-organ model
+2. Write 3-29 essays documenting the residency within the eight-organ model
 3. Community workshops on creative technology and governance-as-art
 4. Present the eight-organ system as a case study in solo creative production
 

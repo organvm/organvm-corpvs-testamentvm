@@ -486,7 +486,7 @@ organvm registry show public-process
 **Talking points:**
 - "ORGAN-V is the public disclosure layer. Everything the system does is
   documented in essays deployed to this Netlify site."
-- "There are 0 meta-system essays plus 4 additional essays — over 6,200+ words
+- "There are 29 meta-system essays plus 4 additional essays — over 6,200+ words
   of published writing about methodology, governance, and creative systems."
 - "The essay topics come from the implementation plan. Each essay is specified
   in a sprint, generated via the conductor model, reviewed, and deployed."

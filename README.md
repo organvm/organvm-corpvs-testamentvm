@@ -16,7 +16,7 @@
 
 > Complete planning, audit, and implementation corpus for an eight-organ creative-institutional system coordinating 97 GitHub repositories across 8 organizations (7 organs + 1 meta). The system is **live** — all organs are operational.
 
-This is **not a source code repository**. It is the authoritative planning and governance corpus for the organvm system — a framework that protects distinct modes of work (theory, art, commerce, community) from collapsing into each other, while presenting the meta-system itself as a portfolio asset. The system launched on 2026-02-11 with all 8 organs operational, 97 repositories, ~6K+ words of documentation, 0 meta-system essays, and automated governance via GitHub Actions.
+This is **not a source code repository**. It is the authoritative planning and governance corpus for the organvm system — a framework that protects distinct modes of work (theory, art, commerce, community) from collapsing into each other, while presenting the meta-system itself as a portfolio asset. The system launched on 2026-02-11 with all 8 organs operational, 97 repositories, ~6K+ words of documentation, 29 meta-system essays, and automated governance via GitHub Actions.
 
 ---
 

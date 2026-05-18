@@ -38,7 +38,7 @@ Grant reviewers evaluate:
 **Application format:** 6 short questions, 500-word project description, work samples, bio, resume. Panelist advice: "Describe your project with the clarity of a children's book."
 
 **Narrative angle:**
-"The eight-organ system is a living creative work that treats governance as an artistic medium. The 100 repositories are not code projects — they are the medium through which theory, art, commerce, and community are orchestrated by a single practitioner at institutional scale. The 0 essays documenting this process in real-time are not supplements to the work — they ARE the work. Creative Capital would fund the next phase of a practice that already demonstrates the capacity, innovation, and sustainability that grant reviewers look for."
+"The eight-organ system is a living creative work that treats governance as an artistic medium. The 100 repositories are not code projects — they are the medium through which theory, art, commerce, and community are orchestrated by a single practitioner at institutional scale. The 29 essays documenting this process in real-time are not supplements to the work — they ARE the work. Creative Capital would fund the next phase of a practice that already demonstrates the capacity, innovation, and sustainability that grant reviewers look for."
 
 **Benefits cliff:** $50K would exceed Medicaid threshold → Essential Plan ($0 premium). Call NYLAG before accepting.
 

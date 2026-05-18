@@ -6,7 +6,7 @@
 
 ---
 
-6,200+ words of documentation define how a system coordinating 148 repositories across 8 organizations works — every README written for external evaluators, a cross-document dependency map for navigation, and 0 essays explaining architectural decisions. The documentation didn't describe an existing system; it was documentation-first development where the writing determined what the system became. That's what drew me to the Lead DX Engineer, Documentation role at Together AI.
+6,200+ words of documentation define how a system coordinating 148 repositories across 8 organizations works — every README written for external evaluators, a cross-document dependency map for navigation, and 29 essays explaining architectural decisions. The documentation didn't describe an existing system; it was documentation-first development where the writing determined what the system became. That's what drew me to the Lead DX Engineer, Documentation role at Together AI.
 
 ## Why Together AI
 
