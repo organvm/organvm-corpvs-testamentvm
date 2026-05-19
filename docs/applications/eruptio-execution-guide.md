@@ -104,18 +104,18 @@ GET <api-url>/demo/profile  → Full demo profile
 >
 > For five years I worked across theory, generative art, commercial products, and community projects without seeing how they related. The relationships were there — code reused between projects, ideas flowing from research to art to products — but they were invisible. When I formalized those relationships into the eight-organ model with explicit dependency rules and a machine-readable registry, patterns I'd never noticed became obvious. Theory was feeding art feeding commerce, but only some of the time, and the failures were as revealing as the successes.
 >
-> Building in public (ORGAN-V) compounds this. Writing ~404K+ words of documentation forced me to articulate decisions I'd made intuitively. The Aetheria post-mortem — honestly documenting a project that traveled the full Theory->Art->Commerce pipeline and partially failed — taught me more about my practice than any success.
+> Building in public (ORGAN-V) compounds this. Writing ~882K+ words of documentation forced me to articulate decisions I'd made intuitively. The Aetheria post-mortem — honestly documenting a project that traveled the full Theory->Art->Commerce pipeline and partially failed — taught me more about my practice than any success.
 >
 > The best way to gain perspective: make the invisible structure explicit, then be honest about what you see.
 
 **Q3: "In 1-3 sentences, tell us about the project you are most proud of and why."** (80 words)
 
 <<<<<<< HEAD
-> I built an eight-organ system that coordinates 148 repositories across 8 GitHub organizations — governing how theory, generative art, commercial products, and community work flow into each other through automated dependency validation, a promotion state machine, and ~404K+ words of public documentation. I'm most proud of it because it demonstrates that governance and art aren't separate categories: the rules that coordinate the system are as carefully designed as any artwork it produces. It's infrastructure that makes its own logic visible.
+> I built an eight-organ system that coordinates 148 repositories across 8 GitHub organizations — governing how theory, generative art, commercial products, and community work flow into each other through automated dependency validation, a promotion state machine, and ~882K+ words of public documentation. I'm most proud of it because it demonstrates that governance and art aren't separate categories: the rules that coordinate the system are as carefully designed as any artwork it produces. It's infrastructure that makes its own logic visible.
 ||||||| 905f85c
-> I built an eight-organ system that coordinates 148 repositories across 8 GitHub organizations — governing how theory, generative art, commercial products, and community work flow into each other through automated dependency validation, a promotion state machine, and ~404K+ words of public documentation. I'm most proud of it because it demonstrates that governance and art aren't separate categories: the rules that coordinate the system are as carefully designed as any artwork it produces. It's infrastructure that makes its own logic visible.
+> I built an eight-organ system that coordinates 148 repositories across 8 GitHub organizations — governing how theory, generative art, commercial products, and community work flow into each other through automated dependency validation, a promotion state machine, and ~882K+ words of public documentation. I'm most proud of it because it demonstrates that governance and art aren't separate categories: the rules that coordinate the system are as carefully designed as any artwork it produces. It's infrastructure that makes its own logic visible.
 =======
-> I built an eight-organ system that coordinates 148 repositories across 8 GitHub organizations — governing how theory, generative art, commercial products, and community work flow into each other through automated dependency validation, a promotion state machine, and ~404K+ words of public documentation. I'm most proud of it because it demonstrates that governance and art aren't separate categories: the rules that coordinate the system are as carefully designed as any artwork it produces. It's infrastructure that makes its own logic visible.
+> I built an eight-organ system that coordinates 148 repositories across 8 GitHub organizations — governing how theory, generative art, commercial products, and community work flow into each other through automated dependency validation, a promotion state machine, and ~882K+ words of public documentation. I'm most proud of it because it demonstrates that governance and art aren't separate categories: the rules that coordinate the system are as carefully designed as any artwork it produces. It's infrastructure that makes its own logic visible.
 >>>>>>> 058f269af2f5047a7873ae1949e64979f558ca81
 
 ### Links:
@@ -181,7 +181,7 @@ This is a **performing arts** grant. Lead with governance-as-choreography, commu
 **Platform:** pen.org | **Award:** up to $3,500 | **Fit: 9/10**
 
 ### Key fields:
-- **Professional Writing Credentials:** MFA, 42 essays, ~404K+ words, 11 years teaching
+- **Professional Writing Credentials:** MFA, 42 essays, ~882K+ words, 11 years teaching
 - **Financial Hardship Statement** (~200 words): in `submission-scripts/pen-america.md`
 - **Use of Funds** (~100 words): same file
 - **Writing Sample:** Link to public-process essays
