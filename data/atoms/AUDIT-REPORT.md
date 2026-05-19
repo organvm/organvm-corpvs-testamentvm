@@ -1,14 +1,14 @@
 # Prompt & Pipeline Data Audit
-**Generated**: 2026-03-07
+**Generated**: 2026-04-30
 
 ## Executive Summary
 
-- **Prompts analyzed**: 4039
-- **Signal prompts**: 4039 (100%)
+- **Prompts analyzed**: 4247
+- **Signal prompts**: 4247 (100%)
 - **Noise prompts**: 0 (0.0%)
-- **Tasks**: 3257 (completion: 8.0%)
-- **Links**: 1601 (empty-FP contamination: 0.0%)
-- **Sessions**: 921
+- **Tasks**: 10647 (completion: 4.0%)
+- **Links**: 16239 (empty-FP contamination: 0.0%)
+- **Sessions**: 517
 - **Recommendations**: 1 (1 P0)
 
 **Overall Health Grade: B**
@@ -23,26 +23,28 @@
 | Stage | Count |
 |-------|-------|
 | Plans parsed | 1 |
-| Tasks extracted | 3257 |
-| Tasks with links | 302 |
-| Tasks with HQ links (J>=0.30) | 302 |
-| Completed tasks | 261 |
+| Tasks extracted | 10647 |
+| Tasks with links | 1123 |
+| Tasks with HQ links (J>=0.30) | 1123 |
+| Completed tasks | 423 |
 
-**Completion rate**: 8.0%
-**Linkage rate (J>=0.30)**: 9.3%
+**Completion rate**: 4.0%
+**Linkage rate (J>=0.30)**: 10.5%
 
 ### By Organ
 
 | Organ | Tasks | Completed | HQ Linked | Plans |
 |-------|-------|-----------|-----------|-------|
-| I | 3 | 0 | 0 | 1 |
-| II | 145 | 21 | 15 | 1 |
-| III | 554 | 89 | 31 | 1 |
-| IV | 644 | 24 | 61 | 1 |
-| LIMINAL | 708 | 88 | 80 | 1 |
-| META | 1062 | 39 | 96 | 1 |
-| V | 134 | 0 | 19 | 1 |
-| VII | 7 | 0 | 0 | 1 |
+| I | 1071 | 2 | 26 | 1 |
+| II | 98 | 0 | 0 | 1 |
+| III | 237 | 1 | 38 | 1 |
+| IV | 765 | 47 | 88 | 1 |
+| LIMINAL | 2310 | 275 | 219 | 1 |
+| META | 2221 | 41 | 504 | 1 |
+| V | 107 | 0 | 0 | 1 |
+| VI | 9 | 0 | 0 | 1 |
+| VII | 38 | 0 | 6 | 1 |
+| _root | 3791 | 57 | 242 | 1 |
 
 ## Prompt Effectiveness
 
@@ -50,32 +52,31 @@
 
 | Type | Prompts | Linked Tasks | Completed |
 |------|---------|-------------|-----------|
-| command | 1357 | 539 | 47 |
-| git_ops | 766 | 109 | 12 |
-| plan_invocation | 717 | 555 | 105 |
-| question | 467 | 62 | 2 |
-| context_setting | 323 | 314 | 31 |
-| continuation | 252 | 0 | 0 |
-| exploration | 140 | 22 | 7 |
-| correction | 17 | 0 | 0 |
+| command | 2426 | 2472 | 149 |
+| question | 670 | 2050 | 116 |
+| context_setting | 574 | 10028 | 773 |
+| continuation | 248 | 139 | 39 |
+| git_ops | 177 | 873 | 83 |
+| exploration | 103 | 230 | 20 |
+| correction | 49 | 447 | 31 |
 
 ### By Size Class
 
 | Size | Prompts | Linked Tasks | Completed |
 |------|---------|-------------|-----------|
-| long | 1262 | 836 | 140 |
-| medium | 424 | 273 | 36 |
-| short | 985 | 289 | 15 |
-| terse | 1368 | 203 | 13 |
+| long | 910 | 11753 | 917 |
+| medium | 1113 | 3599 | 248 |
+| short | 1683 | 439 | 29 |
+| terse | 541 | 448 | 17 |
 
 ### Specificity Analysis
 
 | Specificity | Linked Tasks | Completed |
 |-------------|-------------|-----------|
-| high | 281 | 77 |
-| low | 1320 | 127 |
+| high | 4568 | 393 |
+| low | 11671 | 818 |
 
-**Correction rate**: 0.0% of threads (0/108)
+**Correction rate**: 0.0% of threads (0/122)
 
 ## Session Patterns
 
@@ -83,78 +84,78 @@
 
 | Prompts per Session | Count |
 |---------------------|-------|
-| 1 | 160 |
-| 2-5 | 546 |
-| 6-10 | 140 |
-| 11-20 | 65 |
-| 21-50 | 10 |
-| 51+ | 0 |
+| 1 | 113 |
+| 2-5 | 168 |
+| 6-10 | 121 |
+| 11-20 | 74 |
+| 21-50 | 30 |
+| 51+ | 11 |
 
 ### Session Duration
 
 | Duration | Count |
 |----------|-------|
-| <5m | 73 |
-| 5-15m | 143 |
-| 15-30m | 173 |
-| 30-60m | 167 |
-| 1-2h | 90 |
-| 2h+ | 115 |
+| <5m | 76 |
+| 5-15m | 44 |
+| 15-30m | 40 |
+| 30-60m | 42 |
+| 1-2h | 44 |
+| 2h+ | 158 |
 
-**Productive sessions** (ending with git_ops): 156 (16.9%)
+**Productive sessions** (ending with git_ops): 26 (5.0%)
 
-**Avg projects/day**: 3.9 | **Max**: 14
+**Avg projects/day**: 4.6 | **Max**: 19
 
-**Session churn**: 17.4% single-prompt (160/921)
+**Session churn**: 21.9% single-prompt (113/517)
 
 ### Hourly Distribution
 
 | Hour | Prompts |
 |------|---------|
-| 00:00 | 262 |
-| 01:00 | 233 |
-| 02:00 | 88 |
-| 03:00 | 53 |
-| 04:00 | 35 |
-| 05:00 | 68 |
-| 06:00 | 25 |
-| 07:00 | 32 |
-| 08:00 | 29 |
-| 09:00 | 84 |
-| 10:00 | 170 |
-| 11:00 | 245 |
-| 12:00 | 253 |
-| 13:00 | 245 |
-| 14:00 | 192 |
-| 15:00 | 222 |
-| 16:00 | 269 |
-| 17:00 | 184 |
-| 18:00 | 168 |
-| 19:00 | 165 |
-| 20:00 | 296 |
-| 21:00 | 263 |
-| 22:00 | 234 |
-| 23:00 | 224 |
+| 00:00 | 240 |
+| 01:00 | 143 |
+| 02:00 | 73 |
+| 03:00 | 104 |
+| 04:00 | 72 |
+| 05:00 | 69 |
+| 06:00 | 51 |
+| 07:00 | 71 |
+| 08:00 | 50 |
+| 09:00 | 20 |
+| 10:00 | 36 |
+| 11:00 | 137 |
+| 12:00 | 193 |
+| 13:00 | 239 |
+| 14:00 | 305 |
+| 15:00 | 338 |
+| 16:00 | 232 |
+| 17:00 | 217 |
+| 18:00 | 220 |
+| 19:00 | 198 |
+| 20:00 | 217 |
+| 21:00 | 323 |
+| 22:00 | 352 |
+| 23:00 | 347 |
 
 ## Linking Quality
 
-**Total links**: 1601
+**Total links**: 16239
 **Empty-fingerprint contamination**: 0 (0.0%)
-**Generic-tag-only links**: 52 (3.2%)
+**Generic-tag-only links**: 37 (0.2%)
 **High fan-out tasks (>100 links)**: 0
 
 ### Threshold Analysis
 
 | Jaccard >= | Links | Tasks w/ Links | % of Total |
 |-----------|-------|----------------|------------|
-| 0.15 | 1601 | 302 | 100.0% |
-| 0.20 | 1601 | 302 | 100.0% |
-| 0.30 | 1601 | 302 | 100.0% |
-| 0.40 | 617 | 158 | 38.5% |
-| 0.50 | 536 | 117 | 33.5% |
+| 0.15 | 16239 | 1123 | 100.0% |
+| 0.20 | 16239 | 1123 | 100.0% |
+| 0.30 | 16239 | 1123 | 100.0% |
+| 0.40 | 5235 | 909 | 32.2% |
+| 0.50 | 3517 | 643 | 21.7% |
 
 ## Recommendations
 
 | Priority | Category | Finding | Recommendation |
 |----------|----------|---------|----------------|
-| P0 | completion | Only 8.0% task completion rate | Run `organvm atoms reconcile --write` to update completion from git history |
+| P0 | completion | Only 4.0% task completion rate | Run `organvm atoms reconcile --write` to update completion from git history |

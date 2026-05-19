@@ -2655,3 +2655,436 @@
 ### 86440b3e-4b25-4495-a677-1f88f165d41e
 **Captured:** 2026-04-29T23:31:22 | **Prompts:** uncounted (no prompts.md available)
 
+
+### 219decd2-4381-45c5-a601-9a225b19b1d4
+**Captured:** 2026-04-30T00:03:44 | **Prompts:** 9
+**Archive:** `data/prompt-registry/sessions/219decd2-4381-45c5-a601-9a225b19b1d4-prompts.md`
+
+
+### ceb979cc-8d49-4953-b437-8cc1ff48307b
+**Captured:** 2026-04-30T00:05:03 | **Prompts:** uncounted (no prompts.md available)
+
+
+### 439c38cd-b722-444b-b0a0-df6f8154c9a3
+**Captured:** 2026-04-30T00:34:18 | **Prompts:** uncounted (no prompts.md available)
+
+
+### 4ba96b05-99c3-4355-ab8c-72c976bd8147
+**Captured:** 2026-04-30T00:36:33 | **Prompts:** 5
+**Archive:** `data/prompt-registry/sessions/4ba96b05-99c3-4355-ab8c-72c976bd8147-prompts.md`
+
+
+### f39a9e00-4a26-496c-bd85-e3eb82b04264
+**Captured:** 2026-04-30T00:36:35 | **Prompts:** 2
+**Archive:** `data/prompt-registry/sessions/f39a9e00-4a26-496c-bd85-e3eb82b04264-prompts.md`
+
+
+### b2423409-1007-4c60-ae30-4bd2375386d0
+**Captured:** 2026-04-30T01:14:55 | **Prompts:** uncounted (no prompts.md available)
+
+
+### de1a3d6a-8c17-4e45-9f21-6ee1635b8f51
+**Captured:** 2026-04-30T02:08:50 | **Prompts:** 8
+**Archive:** `data/prompt-registry/sessions/de1a3d6a-8c17-4e45-9f21-6ee1635b8f51-prompts.md`
+
+
+### 15775e46-05e4-4e5f-9cad-5837b9836cac
+**Captured:** 2026-04-30T02:09:03 | **Prompts:** 4
+**Archive:** `data/prompt-registry/sessions/15775e46-05e4-4e5f-9cad-5837b9836cac-prompts.md`
+
+
+### 0563e05c-1737-4a47-8e32-9a336fad6528
+**Captured:** 2026-04-30T03:17:51 | **Prompts:** 2
+**Archive:** `data/prompt-registry/sessions/0563e05c-1737-4a47-8e32-9a336fad6528-prompts.md`
+
+
+### 8a425eed-2142-4dee-9c69-0334c5aa797b
+**Captured:** 2026-04-30T03:17:55 | **Prompts:** 4
+**Archive:** `data/prompt-registry/sessions/8a425eed-2142-4dee-9c69-0334c5aa797b-prompts.md`
+
+
+### 18e04938-c6a1-442f-a5df-cd720c387ac9
+**Captured:** 2026-04-30T03:17:56 | **Prompts:** 3
+**Archive:** `data/prompt-registry/sessions/18e04938-c6a1-442f-a5df-cd720c387ac9-prompts.md`
+
+
+### 6eca6554-551a-4f1f-83b3-baa6e833f004
+**Captured:** 2026-04-30T03:17:57 | **Prompts:** uncounted (no prompts.md available)
+
+
+### 28759ef0-15e5-492b-9b27-94b8856d16b1
+**Captured:** 2026-04-30T03:26:31 | **Prompts:** uncounted (no prompts.md available)
+
+
+### af4c3ab6-daff-4515-9683-1b298673524c
+**Captured:** 2026-04-30T03:48:29 | **Prompts:** uncounted (no prompts.md available)
+
+
+### 22c6c6ca-d0c2-446f-950c-5f6eb3c0be7e
+**Captured:** 2026-04-30T04:25:40 | **Prompts:** 12
+**Archive:** `data/prompt-registry/sessions/22c6c6ca-d0c2-446f-950c-5f6eb3c0be7e-prompts.md`
+
+
+### 14c32944-3478-476d-8048-90bfb1869d63
+**Captured:** 2026-04-30T04:26:30 | **Prompts:** 16
+**Archive:** `data/prompt-registry/sessions/14c32944-3478-476d-8048-90bfb1869d63-prompts.md`
+
+
+### 61b3cb32-38d7-4cb5-be49-9852ee2b350c
+**Captured:** 2026-04-30T04:27:45 | **Prompts:** 2
+**Archive:** `data/prompt-registry/sessions/61b3cb32-38d7-4cb5-be49-9852ee2b350c-prompts.md`
+
+
+### 15bc81f8-7885-4493-a52d-b0c72c0a411d
+**Captured:** 2026-04-30T04:27:54 | **Prompts:** 2
+**Archive:** `data/prompt-registry/sessions/15bc81f8-7885-4493-a52d-b0c72c0a411d-prompts.md`
+
+
+### 5d56ef6f-708e-4ecb-836b-37280e1993d0
+**Captured:** 2026-04-30T04:38:10 | **Prompts:** 5
+**Archive:** `data/prompt-registry/sessions/5d56ef6f-708e-4ecb-836b-37280e1993d0-prompts.md`
+
+
+### a8cf3f91-1c10-4398-838e-22695de10e82
+**Captured:** 2026-04-30T04:38:24 | **Prompts:** 11
+**Archive:** `data/prompt-registry/sessions/a8cf3f91-1c10-4398-838e-22695de10e82-prompts.md`
+
+
+### 9028459a-1f72-476d-ae29-9835d17215cb
+**Captured:** 2026-04-30T05:10:25 | **Prompts:** 1
+**Archive:** `data/prompt-registry/sessions/9028459a-1f72-476d-ae29-9835d17215cb-prompts.md`
+
+
+### abe317c7-aae2-46d1-bc6f-deb81eba55f8
+**Captured:** 2026-04-30T05:18:30 | **Prompts:** uncounted (no prompts.md available)
+
+
+### 09661f41-5874-4094-abaf-d1838a3b791b
+**Captured:** 2026-04-30T06:08:08 | **Prompts:** 5
+**Archive:** `data/prompt-registry/sessions/09661f41-5874-4094-abaf-d1838a3b791b-prompts.md`
+
+
+### d017bd74-347e-4d7f-997e-3f21b58551c8
+**Captured:** 2026-04-30T12:08:58 | **Prompts:** 10
+**Archive:** `data/prompt-registry/sessions/d017bd74-347e-4d7f-997e-3f21b58551c8-prompts.md`
+
+
+### 3fc3123b-9466-4f33-90d7-686cdc9a6fd9
+**Captured:** 2026-04-30T12:50:25 | **Prompts:** 20
+**Archive:** `data/prompt-registry/sessions/3fc3123b-9466-4f33-90d7-686cdc9a6fd9-prompts.md`
+
+
+### 055bd09a-d1b7-4dcd-bd40-1fe1dc429a32
+**Captured:** 2026-04-30T12:50:33 | **Prompts:** 20
+**Archive:** `data/prompt-registry/sessions/055bd09a-d1b7-4dcd-bd40-1fe1dc429a32-prompts.md`
+
+
+### 1129ae32-55a1-4b13-9e42-7440313abb43
+**Captured:** 2026-04-30T13:28:58 | **Prompts:** 4
+**Archive:** `data/prompt-registry/sessions/1129ae32-55a1-4b13-9e42-7440313abb43-prompts.md`
+
+
+### 40ddcd3e-4ebd-4a80-b68a-a3e35ecd203e
+**Captured:** 2026-04-30T14:00:04 | **Prompts:** 20
+**Archive:** `data/prompt-registry/sessions/40ddcd3e-4ebd-4a80-b68a-a3e35ecd203e-prompts.md`
+
+
+### e636a9bc-41f5-45ec-9aa0-2c4870eac75b
+**Captured:** 2026-04-30T14:09:31 | **Prompts:** uncounted (no prompts.md available)
+
+
+### a76fccbb-fbe7-44a6-b47a-ff7566bcff77
+**Captured:** 2026-04-30T14:09:32 | **Prompts:** uncounted (no prompts.md available)
+
+
+### c1f43ace-7bbe-459e-8d5d-a4c70efb0c4f
+**Captured:** 2026-04-30T14:20:52 | **Prompts:** 3
+**Archive:** `data/prompt-registry/sessions/c1f43ace-7bbe-459e-8d5d-a4c70efb0c4f-prompts.md`
+
+
+### 2d629e11-ceb5-4534-8d1a-f3bf54694fd6
+**Captured:** 2026-04-30T14:22:15 | **Prompts:** 7
+**Archive:** `data/prompt-registry/sessions/2d629e11-ceb5-4534-8d1a-f3bf54694fd6-prompts.md`
+
+
+### 8d50db98-495f-43ae-babc-bb367b130416
+**Captured:** 2026-04-30T14:27:46 | **Prompts:** 11
+**Archive:** `data/prompt-registry/sessions/8d50db98-495f-43ae-babc-bb367b130416-prompts.md`
+
+
+### efa2df6a-6cd4-4fd8-aeff-f549443e3db7
+**Captured:** 2026-04-30T17:56:53 | **Prompts:** uncounted (no prompts.md available)
+
+
+### 7b92794f-48d9-4739-a60e-c64ad0d1713d
+**Captured:** 2026-04-30T17:58:43 | **Prompts:** 6
+**Archive:** `data/prompt-registry/sessions/7b92794f-48d9-4739-a60e-c64ad0d1713d-prompts.md`
+
+
+### 3b0a155d-3d4b-4ecf-99b7-7b1f67aa0304
+**Captured:** 2026-04-30T17:58:59 | **Prompts:** uncounted (no prompts.md available)
+
+
+### 52ba5f54-9373-4c97-9f39-59cafa3d00e9
+**Captured:** 2026-04-30T18:19:35 | **Prompts:** uncounted (no prompts.md available)
+
+
+### e955cc6f-c7d0-4fa1-833a-875057b39e4d
+**Captured:** 2026-04-30T18:19:39 | **Prompts:** 7
+**Archive:** `data/prompt-registry/sessions/e955cc6f-c7d0-4fa1-833a-875057b39e4d-prompts.md`
+
+
+### c15124aa-dae1-4801-b7d2-7ce1f1472e08
+**Captured:** 2026-04-30T18:19:41 | **Prompts:** 2
+**Archive:** `data/prompt-registry/sessions/c15124aa-dae1-4801-b7d2-7ce1f1472e08-prompts.md`
+
+
+### 315606d8-5872-4bc5-9844-92004752c4e4
+**Captured:** 2026-04-30T18:20:58 | **Prompts:** uncounted (no prompts.md available)
+
+
+### 40dbc580-8403-477a-8347-24ec034be45e
+**Captured:** 2026-04-30T18:32:45 | **Prompts:** uncounted (no prompts.md available)
+
+
+### 11b04abd-0092-4ca3-bd3b-3c9afae3b7df
+**Captured:** 2026-04-30T18:34:34 | **Prompts:** 6
+**Archive:** `data/prompt-registry/sessions/11b04abd-0092-4ca3-bd3b-3c9afae3b7df-prompts.md`
+
+
+### 886c29bf-08e7-49b8-b435-6a761edab229
+**Captured:** 2026-04-30T18:49:19 | **Prompts:** uncounted (no prompts.md available)
+
+
+### 6a38b356-e7ed-4ffc-91da-b570924a76f5
+**Captured:** 2026-04-30T19:21:43 | **Prompts:** 14
+**Archive:** `data/prompt-registry/sessions/6a38b356-e7ed-4ffc-91da-b570924a76f5-prompts.md`
+
+
+### 006aac19-31f0-4a52-8fc1-c064c23dc5d2
+**Captured:** 2026-04-30T19:26:07 | **Prompts:** uncounted (no prompts.md available)
+
+
+### e833f947-0ad5-45aa-bc88-6e4d7dd65085
+**Captured:** 2026-05-01T11:13:12 | **Prompts:** 3
+**Archive:** `data/prompt-registry/sessions/e833f947-0ad5-45aa-bc88-6e4d7dd65085-prompts.md`
+
+
+### 9cbc5cce-806d-4f2d-ba1c-1958f5769030
+**Captured:** 2026-05-01T11:24:02 | **Prompts:** 6
+**Archive:** `data/prompt-registry/sessions/9cbc5cce-806d-4f2d-ba1c-1958f5769030-prompts.md`
+
+
+### 0b354df2-cc97-4762-93a2-585d1851039c
+**Captured:** 2026-05-01T12:14:38 | **Prompts:** 8
+**Archive:** `data/prompt-registry/sessions/0b354df2-cc97-4762-93a2-585d1851039c-prompts.md`
+
+
+### 129a2dc1-c600-4abd-b4ae-ae19d6600e00
+**Captured:** 2026-05-01T12:14:38 | **Prompts:** 7
+**Archive:** `data/prompt-registry/sessions/129a2dc1-c600-4abd-b4ae-ae19d6600e00-prompts.md`
+
+
+### a28aa9db-8832-4f24-ae96-6479358117dd
+**Captured:** 2026-05-01T12:14:38 | **Prompts:** 4
+**Archive:** `data/prompt-registry/sessions/a28aa9db-8832-4f24-ae96-6479358117dd-prompts.md`
+
+
+### ae1a9646-4ea8-47b6-a152-8828e50ce9a9
+**Captured:** 2026-05-01T12:14:38 | **Prompts:** 5
+**Archive:** `data/prompt-registry/sessions/ae1a9646-4ea8-47b6-a152-8828e50ce9a9-prompts.md`
+
+
+### fe5d85fe-c41e-445a-9537-253ef6693f76
+**Captured:** 2026-05-01T12:14:38 | **Prompts:** 5
+**Archive:** `data/prompt-registry/sessions/fe5d85fe-c41e-445a-9537-253ef6693f76-prompts.md`
+
+
+### 8edde3ee-af49-47f6-86bd-51317404f6cd
+**Captured:** 2026-05-01T14:48:09 | **Prompts:** 13
+**Archive:** `data/prompt-registry/sessions/8edde3ee-af49-47f6-86bd-51317404f6cd-prompts.md`
+
+
+### 3d31dc8a-fd22-4f56-a3f5-138df532f96a
+**Captured:** 2026-05-01T14:48:09 | **Prompts:** 14
+**Archive:** `data/prompt-registry/sessions/3d31dc8a-fd22-4f56-a3f5-138df532f96a-prompts.md`
+
+
+### 7fa1b626-4026-4a89-bf2a-599e1eb9c1b7
+**Captured:** 2026-05-01T14:48:09 | **Prompts:** 16
+**Archive:** `data/prompt-registry/sessions/7fa1b626-4026-4a89-bf2a-599e1eb9c1b7-prompts.md`
+
+
+### cb5691a7-d519-4454-be30-5e1578bae36d
+**Captured:** 2026-05-01T14:51:42 | **Prompts:** uncounted (no prompts.md available)
+
+
+### a9c1f84d-299a-4d78-93c1-7c2a701b675e
+**Captured:** 2026-05-01T15:02:43 | **Prompts:** 2
+**Archive:** `data/prompt-registry/sessions/a9c1f84d-299a-4d78-93c1-7c2a701b675e-prompts.md`
+
+
+### bb368ecc-8a5e-4102-acee-e253f1741bf6
+**Captured:** 2026-05-01T21:47:25 | **Prompts:** uncounted (no prompts.md available)
+
+
+### ed115dd1-e834-4ebc-80bc-94a52820fe72
+**Captured:** 2026-05-01T23:18:53 | **Prompts:** 10
+**Archive:** `data/prompt-registry/sessions/ed115dd1-e834-4ebc-80bc-94a52820fe72-prompts.md`
+
+
+### a13014b7-73f8-45b3-a375-b51bf444b56d
+**Captured:** 2026-05-01T23:25:08 | **Prompts:** 1
+**Archive:** `data/prompt-registry/sessions/a13014b7-73f8-45b3-a375-b51bf444b56d-prompts.md`
+
+
+### ceeb86a5-ef42-490f-a90f-7414ec4a4f47
+**Captured:** 2026-05-01T23:47:50 | **Prompts:** 5
+**Archive:** `data/prompt-registry/sessions/ceeb86a5-ef42-490f-a90f-7414ec4a4f47-prompts.md`
+
+
+### 757c720f-4525-422a-9930-b7d1d84f31d7
+**Captured:** 2026-05-02T00:02:00 | **Prompts:** uncounted (no prompts.md available)
+
+
+### 7229685e-8661-4c85-8718-33beff7fce00
+**Captured:** 2026-05-02T00:36:39 | **Prompts:** uncounted (no prompts.md available)
+
+
+### 856e0d48-c246-46f0-9123-96f0d6bd2943
+**Captured:** 2026-05-02T00:40:26 | **Prompts:** 3
+**Archive:** `data/prompt-registry/sessions/856e0d48-c246-46f0-9123-96f0d6bd2943-prompts.md`
+
+
+### 47b17232-af07-4bf3-aa2c-b3b48cb0b301
+**Captured:** 2026-05-02T00:41:09 | **Prompts:** uncounted (no prompts.md available)
+
+
+### 6be302f1-a17e-4e37-8dcf-1ce368a4b8ad
+**Captured:** 2026-05-02T00:41:41 | **Prompts:** uncounted (no prompts.md available)
+
+
+### 3bf0831b-e6ba-4c37-8e74-51881b15843b
+**Captured:** 2026-05-02T01:26:40 | **Prompts:** 11
+**Archive:** `data/prompt-registry/sessions/3bf0831b-e6ba-4c37-8e74-51881b15843b-prompts.md`
+
+
+### d8edfe41-b5b2-4c52-9f15-7c97b427231b
+**Captured:** 2026-05-02T02:11:41 | **Prompts:** 25
+**Archive:** `data/prompt-registry/sessions/d8edfe41-b5b2-4c52-9f15-7c97b427231b-prompts.md`
+
+
+### 2a69fa47-233e-44b2-840b-d056dd4028e6
+**Captured:** 2026-05-02T03:01:39 | **Prompts:** 17
+**Archive:** `data/prompt-registry/sessions/2a69fa47-233e-44b2-840b-d056dd4028e6-prompts.md`
+
+
+### 0511eeb8-ef00-4d34-aebe-db225f89211d
+**Captured:** 2026-05-03T17:32:57 | **Prompts:** 14
+**Archive:** `data/prompt-registry/sessions/0511eeb8-ef00-4d34-aebe-db225f89211d-prompts.md`
+
+
+### f044048c-9370-4233-aa09-89ebae2f99b5
+**Captured:** 2026-05-03T17:39:43 | **Prompts:** 5
+**Archive:** `data/prompt-registry/sessions/f044048c-9370-4233-aa09-89ebae2f99b5-prompts.md`
+
+
+### 100cc8cc-cab2-4716-8e41-f130837fc69b
+**Captured:** 2026-05-03T17:46:45 | **Prompts:** 5
+**Archive:** `data/prompt-registry/sessions/100cc8cc-cab2-4716-8e41-f130837fc69b-prompts.md`
+
+
+### d4ff3b52-df8b-487f-9f05-93af81a7a8eb
+**Captured:** 2026-05-03T17:46:45 | **Prompts:** 8
+**Archive:** `data/prompt-registry/sessions/d4ff3b52-df8b-487f-9f05-93af81a7a8eb-prompts.md`
+
+
+### 4a201f61-d660-472e-98c2-a2fea40cc6c5
+**Captured:** 2026-05-03T17:48:08 | **Prompts:** uncounted (no prompts.md available)
+
+
+### 2f191e2f-867a-4a14-85a7-1f1a81f14083
+**Captured:** 2026-05-03T17:49:49 | **Prompts:** 12
+**Archive:** `data/prompt-registry/sessions/2f191e2f-867a-4a14-85a7-1f1a81f14083-prompts.md`
+
+
+### dc188511-c900-460e-bb10-4d116d842242
+**Captured:** 2026-05-03T17:56:02 | **Prompts:** 1
+**Archive:** `data/prompt-registry/sessions/dc188511-c900-460e-bb10-4d116d842242-prompts.md`
+
+
+### 6aaf9a73-e5b5-4b06-9e40-0c8bb970d62f
+**Captured:** 2026-05-03T22:24:00 | **Prompts:** 4
+**Archive:** `data/prompt-registry/sessions/6aaf9a73-e5b5-4b06-9e40-0c8bb970d62f-prompts.md`
+
+
+### 476e6373-c785-4f98-bda5-995e5125159d
+**Captured:** 2026-05-03T22:31:39 | **Prompts:** uncounted (no prompts.md available)
+
+
+### b1f6c125-d8ee-45db-807a-4ef639796ad4
+**Captured:** 2026-05-03T22:38:38 | **Prompts:** uncounted (no prompts.md available)
+
+
+### ac713860-c2bf-4e26-844f-c02ccd129b38
+**Captured:** 2026-05-04T11:48:24 | **Prompts:** 10
+**Archive:** `data/prompt-registry/sessions/ac713860-c2bf-4e26-844f-c02ccd129b38-prompts.md`
+
+
+### 10634ae6-b41b-48b0-99c4-8448527007fe
+**Captured:** 2026-05-04T13:14:57 | **Prompts:** 9
+**Archive:** `data/prompt-registry/sessions/10634ae6-b41b-48b0-99c4-8448527007fe-prompts.md`
+
+
+### 41bab679-fa30-4889-83aa-ee0e48f039e8
+**Captured:** 2026-05-04T15:20:50 | **Prompts:** 8
+**Archive:** `data/prompt-registry/sessions/41bab679-fa30-4889-83aa-ee0e48f039e8-prompts.md`
+
+
+### fc26bc37-013d-44dd-bad7-133329f27da9
+**Captured:** 2026-05-04T16:21:17 | **Prompts:** 31
+**Archive:** `data/prompt-registry/sessions/fc26bc37-013d-44dd-bad7-133329f27da9-prompts.md`
+
+
+### 5fd10174-a864-4d3d-9547-8d6d6871c091
+**Captured:** 2026-05-04T17:12:17 | **Prompts:** 6
+**Archive:** `data/prompt-registry/sessions/5fd10174-a864-4d3d-9547-8d6d6871c091-prompts.md`
+
+
+### ad4af9b0-b162-4924-8be0-f7cf5db6ad77
+**Captured:** 2026-05-04T17:38:18 | **Prompts:** 6
+**Archive:** `data/prompt-registry/sessions/ad4af9b0-b162-4924-8be0-f7cf5db6ad77-prompts.md`
+
+
+### e7596b4a-ddc9-4dcb-86d7-6a04840ac5bb
+**Captured:** 2026-05-04T21:25:03 | **Prompts:** 8
+**Archive:** `data/prompt-registry/sessions/e7596b4a-ddc9-4dcb-86d7-6a04840ac5bb-prompts.md`
+
+
+### f44f8437-0ee2-45e5-ba67-ad90a870438e
+**Captured:** 2026-05-04T21:25:03 | **Prompts:** 14
+**Archive:** `data/prompt-registry/sessions/f44f8437-0ee2-45e5-ba67-ad90a870438e-prompts.md`
+
+
+### fe6f1d05-7355-43fd-a124-5b2db553dd92
+**Captured:** 2026-05-05T09:53:31 | **Prompts:** uncounted (no prompts.md available)
+
+
+### 650eb624-b8de-4801-8369-626a26e8d976
+**Captured:** 2026-05-05T09:54:21 | **Prompts:** uncounted (no prompts.md available)
+
+
+### 2e5144bc-eda8-499a-b0a9-1412e274080f
+**Captured:** 2026-05-05T10:48:12 | **Prompts:** 6
+**Archive:** `data/prompt-registry/sessions/2e5144bc-eda8-499a-b0a9-1412e274080f-prompts.md`
+
+
+### 6cac909e-858e-48d5-b528-c41e812dbb36
+**Captured:** 2026-05-05T10:48:31 | **Prompts:** 9
+**Archive:** `data/prompt-registry/sessions/6cac909e-858e-48d5-b528-c41e812dbb36-prompts.md`
+
+
+### c1d5d871-aabf-46a6-a829-1228b9c2c270
+**Captured:** 2026-05-05T22:21:56 | **Prompts:** 8
+**Archive:** `data/prompt-registry/sessions/c1d5d871-aabf-46a6-a829-1228b9c2c270-prompts.md`
+
