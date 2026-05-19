@@ -93,8 +93,9 @@ def _scan(entries: list[IRFEntry]) -> VacuumReport:
     if COUNTER_FILE.exists():
         try:
             next_done_id = json.loads(COUNTER_FILE.read_text()).get("next_id", -1)
-        except json.JSONDecodeError:
-            pass
+        except json.JSONDecodeError as exc:
+            print(f"vacuum-radar: warning — could not parse {COUNTER_FILE}: {exc}",
+                  file=sys.stderr)
 
     return VacuumReport(
         total_entries=len(entries),
