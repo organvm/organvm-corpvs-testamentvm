@@ -1,6 +1,6 @@
 # Plan Atomization Summary
-**Generated**: 2026-05-17
-**Plans parsed**: 1001 | **Tasks extracted**: 11610
+**Generated**: 2026-05-21
+**Plans parsed**: 1110 | **Tasks extracted**: 12002
 
 ## By Project
 
@@ -8,13 +8,15 @@
 |---------|-------|-------|-----------|---------|-------------|
 | .claude/plans | 11 | 162 | 0 | 162 | 0 |
 | .codex/plans | 1 | 4 | 0 | 4 | 0 |
-| .gemini/plans | 1 | 7 | 0 | 7 | 0 |
+| .gemini/plans | 2 | 13 | 0 | 13 | 0 |
 | 4444J99/.claude/plans | 3 | 6 | 0 | 6 | 0 |
 | 4444J99/application-pipeline/.claude/plans | 46 | 770 | 4 | 766 | 0 |
 | 4444J99/application-pipeline/.codex/plans | 3 | 47 | 0 | 47 | 0 |
 | 4444J99/application-pipeline/strategy/.claude/plans | 4 | 62 | 20 | 42 | 0 |
 | 4444J99/application-pipeline/strategy/.gemini/plans | 1 | 9 | 0 | 9 | 0 |
 | 4444J99/domus-semper-palingenesis/.claude/plans | 40 | 443 | 16 | 427 | 0 |
+| 4444J99/domus-semper-palingenesis/.claude/worktrees/housekeeping-enforcement/.claude/plans | 40 | 443 | 16 | 427 | 0 |
+| 4444J99/domus-semper-palingenesis/.claude/worktrees/housekeeping-enforcement/.gemini/plans | 3 | 15 | 0 | 15 | 0 |
 | 4444J99/domus-semper-palingenesis/.gemini/plans | 3 | 15 | 0 | 15 | 0 |
 | 4444J99/hokage-chess/.claude/plans | 6 | 37 | 0 | 37 | 0 |
 | 4444J99/hokage-chess/.codex/plans | 5 | 23 | 1 | 22 | 0 |
@@ -24,7 +26,7 @@
 | 4444J99/portfolio/.gemini/plans | 4 | 30 | 0 | 30 | 0 |
 | 4444J99/system-system--system/.claude/plans | 21 | 191 | 0 | 191 | 0 |
 | 4444J99/system-system--system/.gemini/plans | 2 | 23 | 14 | 9 | 0 |
-| _root | 813 | 9132 | 448 | 8684 | 0 |
+| _root | 878 | 9060 | 520 | 8540 | 0 |
 | a-organvm/.claude/plans | 13 | 260 | 0 | 260 | 0 |
 | a-organvm/.codex/plans | 1 | 1 | 1 | 0 | 0 |
 | a-organvm/my-knowledge-base/.gemini/plans | 5 | 130 | 7 | 123 | 0 |
@@ -34,35 +36,34 @@
 
 | Type | Count | % |
 |------|-------|---|
-| generic | 4235 | 36% |
-| document | 2053 | 17% |
-| create_file | 1000 | 8% |
-| configure | 835 | 7% |
-| modify_file | 761 | 6% |
-| write_test | 517 | 4% |
-| verify | 457 | 3% |
-| deploy | 361 | 3% |
-| git_operation | 326 | 2% |
-| delete_file | 299 | 2% |
-| research | 298 | 2% |
-| migrate | 271 | 2% |
-| review | 93 | 0% |
-| exploration | 49 | 0% |
-| refactor | 40 | 0% |
-| post_hoc | 15 | 0% |
+| generic | 4110 | 34% |
+| document | 2123 | 17% |
+| create_file | 1051 | 8% |
+| configure | 931 | 7% |
+| modify_file | 860 | 7% |
+| write_test | 525 | 4% |
+| verify | 474 | 3% |
+| deploy | 375 | 3% |
+| git_operation | 362 | 3% |
+| delete_file | 338 | 2% |
+| research | 334 | 2% |
+| migrate | 291 | 2% |
+| review | 98 | 0% |
+| refactor | 57 | 0% |
+| exploration | 54 | 0% |
+| post_hoc | 19 | 0% |
 
 ## By Status
 
 | Status | Count | % |
 |--------|-------|---|
-| pending | 11090 | 95% |
-| completed | 520 | 4% |
+| pending | 11394 | 94% |
+| completed | 608 | 5% |
 
 ## Largest Plans (by task count)
 
 | Plan | Project | Tasks | Completed % |
 |------|---------|-------|-------------|
-| The Ark — Past-Week Prompt Corpus | _root | 557 | 2% |
 | Plans Index | _root | 486 | 0% |
 | Directory Dissection: meta-organvm Post-Mortem → T | _root | 203 | 0% |
 | Session Export: rob-gemini-warm-clock + artifact i | _root | 181 | 0% |
@@ -82,32 +83,57 @@
 | Evaluation-to-Growth: Codebase Study v2 | 4444J99/application-pipeline/.claude/plans | 56 | 0% |
 | Keyword Extraction (Hokage + Spiral) and Drive Con | _root | 55 | 0% |
 | Portfolio Project: Complete Failure Modes & Invari | 4444J99/portfolio/.claude/plans | 52 | 0% |
+| BACKLOG-007: Stripe Integration Scaffold for publi | _root | 49 | 0% |
 
 ## By Agent
 
 | Agent | Count | % |
 |-------|-------|---|
-| claude | 11277 | 97% |
-| gemini | 257 | 2% |
+| claude | 11648 | 97% |
+| gemini | 278 | 2% |
 | codex | 76 | 0% |
 
 ## By Organ
 
 | Organ | Count | % |
 |-------|-------|---|
-| _root | 4523 | 38% |
-| LIMINAL | 3396 | 29% |
-| META | 2099 | 18% |
-| I | 790 | 6% |
-| III | 417 | 3% |
-| IV | 357 | 3% |
+| _root | 4181 | 34% |
+| LIMINAL | 4086 | 34% |
+| META | 2157 | 17% |
+| I | 738 | 6% |
+| III | 436 | 3% |
+| IV | 372 | 3% |
 | II | 16 | 0% |
 | VII | 12 | 0% |
+| V | 4 | 0% |
 
 ## Non-Actionable Documents
 
 | Plan | Project | Classification |
 |------|---------|----------------|
+| Agent Integration Protocols — Past / Present / Pot | _root | migrate |
+| Research: `cleanupPeriodDays` — what it actually d | _root | deploy |
+| Agent Handoff: brewup-claude-drift + Ghostty TCC + | _root | generic |
+| Feature: Home-Dir Cleanup Recommendation Report | _root | modify_file |
+| Feature: Review-Surfaced Fix Bundle for Directory- | _root | research |
+| Session Close-Out — 2026-05-21 (npm-audit-sweep ex | _root | post_hoc |
+| Session Close-Out — 2026-05-21 | _root | modify_file |
+| Session Close-Out — 2026-05-21 (opencode commands  | _root | post_hoc |
+| Session Close-Out — 2026-05-21 (Preview iCloud sco | _root | post_hoc |
+| Close-Out — Preview/iCloud Session Listing | _root | post_hoc |
+| Agent Handoff: SessionEnd hook perma-fix | _root | research |
+| Artifact Intake Routing — All Plans, Sessions, Ins | _root | generic |
+| Agent Handoff: Push 14 signed commits across 2 rep | _root | document |
+| Agent Handoff: statusLine Tier 1 Extension | _root | generic |
+| Untitled Plan | _root | generic |
+| Agent Handoff: Kitty Config Reconciliation | _root | document |
+| Master configuration files for Ghostty and Warp —  | _root | generic |
+| Plan: fan-out triage of surfaced session gaps (202 | _root | verify |
+| Loss-Risk Triage + Memory Drift Audit — 2026-05-18 | _root | delete_file |
+| Agent-Fleet Config Divergence Dossier — 2026-05-18 | _root | migrate |
+| Plan: fan-out triage of surfaced session gaps (202 | _root | verify |
+| Plan — Narrative Workbook System for Derek | _root | document |
+| Improvements surfaced by the cross-agent session-d | _root | generic |
 | Cross-Agent Handoff — post-transcription-audit-gap | _root | post_hoc |
 | Session Close-Out — 2026-05-17 (Phase-4 findings + | _root | post_hoc |
 | Session Close-Out — 2026-05-17 (transcription-audi | _root | post_hoc |
@@ -223,7 +249,6 @@
 | QA & Completeness Pass — Disparate Lens-Protocol / | _root | document |
 | Files Opened or Touched in This Session | _root | document |
 | Rob Evidence of Existence System Audit | 4444J99/hokage-chess/.codex/plans | post_hoc |
-| The Ark — Past-Week Prompt Corpus | _root | generic |
 | Keyword Extraction (Hokage + Spiral) and Drive Con | _root | generic |
 | Untitled Plan | _root | generic |
 | Self-Audit of the 2026-04-27 Substrate | _root | post_hoc |
@@ -232,12 +257,15 @@
 | Renamed from: you-re-auditing-reviewing-federated- | _root | post_hoc |
 | 2026-04-25 — Sourced CI Failure Ledger | 4444J99/domus-semper-palingenesis/.claude/plans | research |
 | 2026-04-25 — SYS-156 User Decision Packet | 4444J99/domus-semper-palingenesis/.claude/plans | research |
+| 2026-04-25 — Sourced CI Failure Ledger | 4444J99/domus-semper-palingenesis/.claude/worktrees/housekeeping-enforcement/.claude/plans | research |
+| 2026-04-25 — SYS-156 User Decision Packet | 4444J99/domus-semper-palingenesis/.claude/worktrees/housekeeping-enforcement/.claude/plans | research |
 | Plan — Modular-Synthesis Portfolio Unification + 7 | _root | deploy |
 | Relay — SYS-156 / Cascading CI Failure Surface | _root | create_file |
 | Rob/Hokage Prompt Corpus — Past 72 Hours (2026-04- | _root | exploration |
 | SYS-156 — GitHub Notification Triage (P0) | _root | configure |
 | Email Triage — Repeatable Process Plan | _root | create_file |
 | Sticky Note Atom Routing — 2026-04-22 | 4444J99/domus-semper-palingenesis/.claude/plans | exploration |
+| Sticky Note Atom Routing — 2026-04-22 | 4444J99/domus-semper-palingenesis/.claude/worktrees/housekeeping-enforcement/.claude/plans | exploration |
 | Conductor Session Handoff — 2026-04-22 v2 | _root | document |
 | Conductor Session Handoff — 2026-04-22 | _root | verify |
 | Sticky Note Atom Routing — 2026-04-22 | _root | exploration |
@@ -259,5 +287,6 @@
 | Claude Archives Inventory — Portfolio Project | 4444J99/portfolio/.claude/plans | document |
 | Application Pipeline: Five-Phase Infrastructure En | 4444J99/application-pipeline/.claude/plans | create_file |
 | Extension Reduction & Summoning Strategy | 4444J99/domus-semper-palingenesis/.gemini/plans | deploy |
+| Extension Reduction & Summoning Strategy | 4444J99/domus-semper-palingenesis/.claude/worktrees/housekeeping-enforcement/.gemini/plans | deploy |
 | Application Pipeline: Algorithmic Patterns Discove | 4444J99/application-pipeline/.claude/plans | generic |
 | Plan: Project-Wide Review & Critique (Evaluation-t | 4444J99/portfolio/.gemini/plans | verify |
