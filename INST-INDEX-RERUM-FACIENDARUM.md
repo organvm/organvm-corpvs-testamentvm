@@ -306,6 +306,16 @@ The counter file is the single source of truth for the DONE-ID ceiling. The stat
 | IRF-SEC-008 | **P2** | **VACUUM: 30+ repos have Dependabot disabled.** No organization-wide scanning policy. Secret scanning disabled on domus-semper-palingenesis (most sensitive repo). **Action:** Enable Dependabot on all repos with actual dependencies; enable secret scanning org-wide. | Agent | S-full-landscape-audit-2026-04-21 | None |
 | IRF-SEC-009 | **P2** | **VACUUM: No security triage cadence.** Alerts accumulate without resolution — 8 weekly secrets alerts ran for 6 weeks, 6 Dependabot alerts sat open for 3+ weeks. No SLO for security alert response. **Action:** Establish weekly security triage ritual; implement SLOs (<24h critical, <7d medium). | Agent | S-full-landscape-audit-2026-04-21 | None |
 
+### S-2026-05-23-opencode-plan-parity Discovered Items (2026-05-23)
+
+Session context: closeout of `fsck_hfs` investigation + OpenCode parity audit for `/Users/4jp` (home scope). Discovered 8 plan files across 2 storage directories (`~/.opencode/plans/` and `~/.local/share/opencode/plans/`). Zero git tracking, zero IRF registration, one date collision (two different sessions share `closeout-2026-05-17.md`). Remediation plan written to `~/.opencode/plans/2026-05-23-opencode-plan-parity-audit.md` and `~/.opencode/` git-initialized with initial commit (`f4621af`). The 4 XDG-level plans (`~/.local/share/opencode/plans/`) remain unversioned — separate path, not part of the same git repo. agentmemory (`iii`) dead since 2026-05-21, unreachable at localhost:3111.
+
+| ID | Priority | Action | Owner | Source | Blocker |
+|----|----------|--------|-------|--------|---------|
+| IRF-SYS-207 | **P2** | **OpenCode home-level plans git-initialized but no remote.** `~/.opencode/` now has 1 commit (`f4621af`) tracking 5 plan files. No GitHub remote set. Needs: (a) create or assign a GitHub remote, (b) push. 4 additional XDG-level plans at `~/.local/share/opencode/plans/` remain outside this repo entirely — decide whether to merge, symlink, or leave as separate store. | Agent | S-2026-05-23 closeout | GitHub remote creation |
+| IRF-SYS-208 | **P2** | **May-17 date collision: two different sessions share `closeout-2026-05-17.md`.** Home-level store has Styx revenue gap analysis; XDG-level store has Jupyter MCP + Serena fix + cmdk integration. No cross-reference between them. Either merge into one dual-section closeout or add forward-pointers in both files. | Agent | S-2026-05-23 closeout | None |
+| IRF-SYS-209 | **P3** | **agentmemory (`iii`) dead since 2026-05-21.** `iiid` process was killed with "RwLock poisoned" error. All sessions since have operated without memory persistence. Restart or formally declare agentmemory deprecated. | Agent | S-2026-05-21 system diagnostics | Agentmemory runtime fix |
+
 ---
 
 ## META — Corpus (organvm-corpvs-testamentvm)
