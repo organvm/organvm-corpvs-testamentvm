@@ -1,0 +1,41 @@
+name: actionlint
+
+# Static analysis for .github/workflows/*.yml. Catches shell-injection,
+# expression syntax errors, deprecated runners, and misuse of ${{ }} in
+# shell bodies. Filed in response to the 2026-05-26 promote-repo.yml
+# remediation (commit 39c5d1e, PR #367) to prevent regression.
+#
+# zizmor would be an upgrade (CodeQL-class queries for security-specific
+# patterns), but actionlint ships as a single Go binary, is the de-facto
+# default, and catches the shell-injection class via shellcheck integration.
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/**'
+      - '.github/actions/**'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/**'
+      - '.github/actions/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  actionlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run actionlint
+        # Pinned-major; the action wraps the upstream actionlint binary and
+        # surfaces results as PR annotations. -shellcheck= flag enables the
+        # shell-injection scanner (default on; explicit for documentation).
+        uses: reviewdog/action-actionlint@v1
+        with:
+          fail_level: error
+          reporter: github-pr-review
+          actionlint_flags: '-shellcheck='
