@@ -1,8 +1,8 @@
 {
-  "next_id": 537,
-  "last_claimed_by": "S-2026-05-23-process-pillar-sp-pp1-hall-monitor",
-  "last_claimed_at": "2026-05-23",
-  "claimed_range": [535, 536],
-  "note": "Hall-monitor sweep on Process Pillar work claims DONE-535: Process Pillar charter + 11 plans (prior session 9d6e637f / commit 6ecc334) establishing Process as first-class pillar alongside research/housekeeping/data-governance/market-analysis with 17 members + 7 high-leverage per-member plans + SP-E3 TDD horizon. DONE-536: SP-PP1 seed (this session 9d6e637f / commit b8a29a7) materializing 11th `_dot-config` namespace `process/` with registry.yaml (17 members) + schema.yaml (10-section per-member contract) + INDEX.md + README.md + audit/ + members/. 8 files, 602 insertions, 1:1 push parity verified. Both rows land in new IRF section `## META — Process Pillar (SP-PP)`.",
+  "next_id": 545,
+  "last_claimed_by": "S-2026-05-26-opencode-plan-parity-g5-backfill",
+  "last_claimed_at": "2026-05-26",
+  "claimed_range": [537, 544],
+  "note": "Cross-agent infrastructure build: DONE-537 G5 backfill (OpenCode 164/165 sessions agent+model), DONE-538 G5-CODEX backfill (31/31 threads agent_nickname+role), DONE-539 cross-agent session ID injection script (inject-session-id), DONE-540 auto-sync to session-meta (sync-plans-to-session-meta), DONE-541 unified plan index (build-unified-plan-index, 1,188 entries), DONE-542 content-level plan↔diff matching (build-plan-diff-map, 91 refs), DONE-543 hook deployment (Claude+Codex PostToolUse), DONE-544 OpenCode/Gemini plugin hooks research (definitive findings). All verified local:remote=1:1.",
   "protocol": "CLAIM-BEFORE-USE: git pull, read next_id, increment by count needed, commit+push THIS FILE, then assign IDs. If push fails (non-fast-forward), pull, re-read, retry. Never assign DONE-NNN without claiming here first."
 }
