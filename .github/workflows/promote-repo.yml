@@ -256,7 +256,7 @@ jobs:
             --label "promoted"
 
       - name: Comment on Source Issue
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           TARGET_ORG: ${{ steps.parse.outputs.target_org }}
           NEW_REPO: ${{ steps.naming.outputs.new_repo }}
