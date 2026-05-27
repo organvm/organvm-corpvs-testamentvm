@@ -255,3 +255,151 @@ After doc 24 + the 2 witnesses + the 8 SKILL.md prompt updates (to add `## Versi
 - The system catches its own routine-defects
 
 This is the self-correcting layer. The standards aren't *enforced by hooks at write-time* (too brittle); they're *audited by routines at fire-time* (catch-up rather than block). The witness pattern matches the alchemical evolution principle: nothing prevented at write; everything surfaced for amendment.
+
+---
+
+# AMENDMENT — extension sections §10-§13 (codified 2026-05-27)
+
+The four sections below extend the canonical form with **sorting**, **extended metadata**, **frontmatter specification**, and **general governance**. Per doc 23 alchemical-evolution, these are ADDITIVE — §9 closure above remains intact as testament to v1.0.0; this amendment bumps doc 24 to v1.1.0.
+
+## 10. Sorting — canonical enumeration order
+
+When routines are listed (in MCP sidebar, in docs, in IRF rows, in audit-log summaries), the canonical order is:
+
+```
+1. daily-*    — alphabetized within cadence-class
+2. weekly-*   — alphabetized within cadence-class
+3. monthly-*  — alphabetized within cadence-class
+4. ad-hoc     — no fixed cadence; alphabetized
+5. retired/evolved testaments (per doc 23) — listed LAST as historical record
+```
+
+**Why cadence-then-essence:** cadence is the most-frequently-used filter ("what's firing this week?"); essence-name is the secondary search axis. Putting cadence first matches how the conductor mentally indexes the routines.
+
+**Audit-log ordering:** chronological by timestamp (no opinion needed; TSV append-only).
+
+**Per-doc ordering:** standards docs that enumerate routines (this doc §7, docs 18-22 cross-references) follow the canonical order above. Witness routines verify this in their reports.
+
+## 11. Extended metadata (beyond frontmatter + description)
+
+Every routine SKILL.md MUST contain a `## Metadata` block within the prompt with the following fields:
+
+```markdown
+## Metadata
+- **Owner:** <conductor | organ-team-name>     (default: conductor `4444J99` / `4444jPPP`)
+- **Class:** <I | II | III | IV>                (per the four-class taxonomy from doc 18 §X analog)
+- **Cadence:** <daily | weekly | monthly | ad-hoc>
+- **IRF row:** <IRF-XXX-NNN | -none-but-planned->  (justifies existence; analogous to Rule #55a (e))
+- **Depends on:** <list of routines/tools this depends on | none>
+- **Audit log path:** `~/.claude/scheduled-tasks/audit/YYYY-MM-DD.log`
+- **Conformance:** docs/standards/24 v<semver>  (which version of the canonical-form spec the routine claims)
+- **Last semver bump:** <YYYY-MM-DD> — <reason>
+```
+
+**Why these fields:**
+- **Owner** — clarifies who can update/disable (default conductor; future shared routines might be team-owned).
+- **Class** — places the routine in the four-class scheduling discipline; informs witness severity (Class-(I) absent-fire = P0; Class-(III) absent-fire = info-only since server-side).
+- **Cadence** — redundant-with-taskId-prefix but explicit; supports future routines whose cadence isn't reflected in their taskId (e.g., event-triggered).
+- **IRF row** — every routine must trace back to an IRF row that justifies its existence. Per Rule #55a (e) (LaunchAgent contract), extended here to all Class-(I).
+- **Depends on** — surfaces inter-routine dependencies (e.g., `weekly-audit-log-coverage-witness` depends on all others). Witness uses this to detect "cascade defect" (a missing fire of A may explain missing fire of B that depends on A).
+- **Audit log path** — explicit for verification (always the same canonical path; declaring it makes the dependency visible).
+- **Conformance** — which version of doc 24 the routine claims to follow. When doc 24 bumps to v2.0.0 (breaking change), routines at v1.X conformance are flagged for migration.
+- **Last semver bump** — date + reason for the most recent version change. Provides lineage per doc 23.
+
+The conformance witness checks for presence of each field; missing field = P1 violation.
+
+## 12. Frontmatter specification (exact YAML shape)
+
+The SKILL.md YAML frontmatter is MCP-controlled (managed by `create_scheduled_task` / `update_scheduled_task`). The conductor doesn't edit it directly. But the CANONICAL form is:
+
+```yaml
+---
+name: <taskId>
+description: <essence>--<function>[-<cadence>] (<class>, v<semver>) — Class-(I) per docs/standards/24
+---
+```
+
+**Required fields:**
+- `name` — must match the directory name and the `<taskId>` used in audit-log bookends
+- `description` — must follow the format:
+  ```
+  <essence>--<function>[-<cadence>] (<cadence-class>, v<semver>) — Class-(I) per docs/standards/24
+  ```
+  Where:
+  - `<essence>--<function>[-<cadence>]` is the canonical essence-function name per doc 22 + doc 24 §2
+  - `(<cadence-class>, v<semver>)` is the metadata marker: cadence-class ∈ {daily, weekly, monthly, ad-hoc}; semver per §4
+  - `— Class-(I) per docs/standards/24` is the standards anchor
+
+**Example:**
+```yaml
+---
+name: daily-hook-drift
+description: hook-drift-probe--settings-template-diff (daily, v1.0.0) — Class-(I) per docs/standards/24
+---
+```
+
+**Optional fields:**
+
+MCP doesn't currently support arbitrary frontmatter fields beyond `name` + `description`. Any extended metadata (per §11) lives in the prompt body, not frontmatter. If/when MCP gains custom-frontmatter support (e.g., `version:`, `class:`, `irf:`), doc 24 will be amended (v1.2.0+) to move §11 fields into frontmatter for cleaner machine-parsing.
+
+## 13. General governance
+
+### 13.1 Ownership
+
+- **Default owner:** conductor (the human, identified by `4444J99` / `4444jPPP`).
+- **Shared ownership** (future): a routine could be owned by an organ team (e.g., ORGAN-IV taxis team owns the orchestration routines). Requires explicit declaration in §11 `Owner` field + a `seed.yaml` entry in the routine-hosting repo.
+- **Witness ownership:** the two witnesses (`weekly-routine-conformance-witness`, `weekly-audit-log-coverage-witness`) are conductor-owned and self-mutually-witnessed.
+
+### 13.2 Change policy
+
+- **Mutation surface:** `mcp__scheduled-tasks__update_scheduled_task` is the canonical mutation API. Direct edits to `~/.claude/scheduled-tasks/<task>/SKILL.md` are not authoritative (MCP may re-canonicalize).
+- **Mutation authorization:** only the conductor can mutate. Scheduled tasks themselves cannot mutate other routines (per doc 17 §10 hard-NEVERs analog).
+- **Mutation classes:**
+  - PATCH bump → no IRF row required; bump version + declare in §11 `Last semver bump`
+  - MINOR bump → IRF row update recommended (note the additive change in the row's body)
+  - MAJOR bump → IRF row update REQUIRED + add `[SUPERSEDED ROUTINE: <old-form>]` testament per doc 23
+
+### 13.3 Approval gates
+
+- **New routine creation:** requires IRF row at creation time (mirrors Rule #55a (e) extended to all Class-(I)). The IRF row justifies the routine's existence and lists closure conditions.
+- **Routine evolution to successor:** the predecessor routine is `enabled: false` with `[EVOLVED <date> INTO <successor>]` description (per doc 23). The successor routine's IRF row references the predecessor.
+- **Routine deletion:** **forbidden** per doc 23 §1 (no-deletion principle). Only evolution to successor or transmutation-to-testament.
+
+### 13.4 Lifecycle states
+
+| State | Trigger | Marker |
+|---|---|---|
+| **NEW** | `create_scheduled_task` called | `v0.X.Y` in description; conformance witness reports info-only |
+| **ACTIVE** | First successful fire + conductor bumps to `v1.0.0` | `v1.0.0+` in description; full conformance enforcement |
+| **EVOLVED** | Routine's work merges into a successor | `[EVOLVED INTO <successor>]` description; `enabled: false` |
+| **TESTAMENT** | Long-disabled routine retained as historical record | Stays in scheduled-tasks-MCP with `enabled: false`; never deleted |
+
+### 13.5 IRF policy (extended Rule #55a (e) to all Class-(I))
+
+Every active routine MUST have an IRF row that:
+- Names the routine
+- States its purpose (one-line)
+- Lists closure conditions (under what circumstances would this routine retire — i.e., what successor would it evolve into?)
+- References any related routines (dependents)
+
+The 8 existing routines as of doc 24 v1.1.0 trace back to:
+- `daily-hook-drift` → IRF-SYS-210
+- `daily-repo-hygiene` → IRF-SYS-212 (rolled-up; merger of 3 prior routines)
+- `daily-pr-management` → IRF-SYS-211 (rolled-up; merger of 2 prior routines)
+- `daily-worktree-triage-and-cleanup` → IRF-SYS-212
+- `daily-code-review` → no explicit IRF row (predates the canonical-form discipline) — file IRF-SYS-213 to remediate
+- `weekly-irf-aging` → IRF-SYS-212
+- `weekly-sibling-scope-drift` → IRF-SYS-173 (pre-existing; the routine instantiates the closure mechanism)
+- `monthly-launchagent-audit` → IRF-SYS-211
+
+The 2 new witnesses (`weekly-routine-conformance-witness`, `weekly-audit-log-coverage-witness`) trace to doc 24 §5 itself; IRF-SYS-213 (to be filed) will rollup their existence justification.
+
+### 13.6 Doc 24 self-governance
+
+This doc itself follows the lifecycle:
+- v1.0.0 (codified earlier in this session) — initial form with §1-§9
+- v1.1.0 (this amendment) — additive §10-§13; no breaking change to v1.0.0 consumers
+- Future v1.2.0+ — frontmatter spec extension if MCP gains custom-frontmatter support
+- Future v2.0.0 — would require breaking change (e.g., re-architecting witness pattern)
+
+Per doc 23 §3.3 (Doc lifecycle): never overwritten; only superseded with cross-reference annotation.
