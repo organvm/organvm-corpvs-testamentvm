@@ -32,17 +32,23 @@ jobs:
           LABELS: ${{ join(github.event.issue.labels.*.name, ',') }}
         run: |
           if [[ "$LABELS" == *"promote-to-art"* ]]; then
-            echo "promotion_type=promote-to-art" >> "$GITHUB_OUTPUT"
-            echo "target_org=organvm-ii-poiesis" >> "$GITHUB_OUTPUT"
-            echo "target_organ=ORGAN-II" >> "$GITHUB_OUTPUT"
+            {
+              echo "promotion_type=promote-to-art"
+              echo "target_org=organvm-ii-poiesis"
+              echo "target_organ=ORGAN-II"
+            } >> "$GITHUB_OUTPUT"
           elif [[ "$LABELS" == *"promote-to-commerce"* ]]; then
-            echo "promotion_type=promote-to-commerce" >> "$GITHUB_OUTPUT"
-            echo "target_org=organvm-iii-ergon" >> "$GITHUB_OUTPUT"
-            echo "target_organ=ORGAN-III" >> "$GITHUB_OUTPUT"
+            {
+              echo "promotion_type=promote-to-commerce"
+              echo "target_org=organvm-iii-ergon"
+              echo "target_organ=ORGAN-III"
+            } >> "$GITHUB_OUTPUT"
           elif [[ "$LABELS" == *"promote-to-public-process"* ]]; then
-            echo "promotion_type=promote-to-public-process" >> "$GITHUB_OUTPUT"
-            echo "target_org=organvm-v-logos" >> "$GITHUB_OUTPUT"
-            echo "target_organ=ORGAN-V" >> "$GITHUB_OUTPUT"
+            {
+              echo "promotion_type=promote-to-public-process"
+              echo "target_org=organvm-v-logos"
+              echo "target_organ=ORGAN-V"
+            } >> "$GITHUB_OUTPUT"
           else
             echo "::error::No recognized promotion label found"
             exit 1
@@ -256,7 +262,7 @@ jobs:
             --label "promoted"
 
       - name: Comment on Source Issue
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           TARGET_ORG: ${{ steps.parse.outputs.target_org }}
           NEW_REPO: ${{ steps.naming.outputs.new_repo }}
