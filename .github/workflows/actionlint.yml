@@ -1,0 +1,43 @@
+name: actionlint
+
+# Static analysis for .github/workflows/*.yml. Catches shell-injection,
+# expression syntax errors, deprecated runners, and misuse of ${{ }} in
+# shell bodies. Filed in response to the 2026-05-26 promote-repo.yml
+# remediation (commit 39c5d1e, PR #367) to prevent regression.
+#
+# zizmor would be an upgrade (CodeQL-class queries for security-specific
+# patterns), but actionlint ships as a single Go binary, is the de-facto
+# default, and catches the shell-injection class via shellcheck integration.
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/**'
+      - '.github/actions/**'
+  workflow_dispatch:
+
+# PR-time analysis is sufficient — main-branch builds already passed through
+# this workflow at PR time. Removing the push trigger also resolves the
+# reporter-mismatch (github-pr-review only emits on PRs; push runs had nothing
+# to post to). Per codex review on PR #370 (2026-05-26 P2 findings).
+
+permissions:
+  contents: read
+  pull-requests: write   # required by reviewdog/action-actionlint@v1 reporter:github-pr-review
+
+jobs:
+  actionlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run actionlint
+        # Pinned-major; the action wraps the upstream actionlint binary and
+        # surfaces results as PR annotations. Shellcheck integration is on
+        # by default; the earlier '-shellcheck=' flag override actually
+        # disabled it (passing empty value zeroes the default). Per codex
+        # review on PR #370 (2026-05-26 P1 finding) — flag now omitted.
+        uses: reviewdog/action-actionlint@v1
+        with:
+          fail_level: error
+          reporter: github-pr-review
