@@ -283,3 +283,39 @@ The PostToolUse `domus-memory-sync` hook fires on Write but NOT Edit. Sibling se
 - GH#361 14 checkboxes — close as individual IRF rows complete
 
 **Next session pickup:** the synthesis is the lens; execution is downstream. Start at the first-wave executables list or surface the P2 batch for user decision.
+
+---
+
+## 2026-05-27 — Code Review → Generator Fixes → PR Backlog Triage (Claude session)
+
+**Closed via:** `data/closeout-S-2026-05-27-code-review-pr-triage.md`
+
+**What shipped to `main`:**
+- **#364** (`97fc6fa`) — 8 fixes to pulse/dashboard generators (`system-pulse-generator.py`, `generate-dashboard.py`, `soak-test-monitor.py`) + regenerated artifacts. Fixes: hardcoded `/8` organ denominator → `total_organs`; CI breakdown now shows billing-locked (sums to total_checked); prototype-repo reconciliation; `n/a` instead of `?` for absent word/file metrics; clamped soak-day caption; palette cycling so all 10 organs render; metrics-driven Organs stat; META-ORGANVM added to registry validation.
+- **#367** (`39c5d1e`) — shell-injection remediation in `promote-repo.yml` (all `${{ }}` moved out of run/script bodies into `env:`). Re-applied cleanly because **#278 had no merge base** with main.
+- **#351** (`06a57b1`) — astro 5→6 (build verified green).
+
+**In flight:**
+- **#372** — GitHub Actions version bumps (github-script v8→v9, pages actions v4→v5, fetch-metadata v2→v3) re-applied cleanly because **#324 was corrupted** (stale May-1 base, committed `<<<<<<< HEAD` marker). Includes shellcheck cleanups (SC2129/SC2034) to satisfy the #370 actionlint guard. Awaiting actionlint re-run; merge when green.
+
+**Closed without merge (superseded):** #278 → #367, #324 → #372.
+
+**Key decisions:**
+| Decision | Rationale |
+|----------|-----------|
+| Re-apply divergent branches rather than force-merge | #278/#324 had no merge base / committed conflict markers; clean re-apply on current main is the only safe path |
+| Merge astro major on build-green | portfolio-site build is the real safety gate for a framework major |
+| Clear shellcheck findings, don't weaken the actionlint guard | #370's guard is a deliberate shell-injection control |
+
+**What's locked / not attempted:**
+- 8 draft PRs (#356, #357, #358, #359, #360, #362, #363, #365) — other sessions' WIP; not merged/closed.
+- #338, #335 — other workstreams.
+- ~100+ open IRF/governance issues incl. DECISION items (#300, #301) — need the owner.
+
+**Follow-up (discovered, NOT done):**
+1. **Security (same class as #367):** `distribute-content.yml` still has inline `${{ steps.metadata.outputs.excerpt/issue_url }}` in a `run:` block (the `TITLE` vector was removed in #372). Move EXCERPT/ISSUE_URL to `env:` and audit remaining workflows.
+2. `system-pulse-weekly.yml:39` SC2086 (info) — latent; surfaces on any PR touching that file.
+
+**Next session pickup:** merge #372 when green; then the distribute-content.yml env-hardening follow-up; then the draft/issue backlog per owner direction.
+
+*— end 2026-05-27 section —*

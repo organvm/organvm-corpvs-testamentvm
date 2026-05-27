@@ -30,9 +30,11 @@ jobs:
           SOURCE_NAME: ${{ github.event.repository.name }}
           ISSUE_TITLE: ${{ github.event.issue.title }}
         run: |
-          echo "source_repo=${SOURCE_REPO}" >> "$GITHUB_OUTPUT"
-          echo "source_name=${SOURCE_NAME}" >> "$GITHUB_OUTPUT"
-          echo "issue_title=${ISSUE_TITLE}" >> "$GITHUB_OUTPUT"
+          {
+            echo "source_repo=${SOURCE_REPO}"
+            echo "source_name=${SOURCE_NAME}"
+            echo "issue_title=${ISSUE_TITLE}"
+          } >> "$GITHUB_OUTPUT"
 
           mkdir -p /tmp/source-content
 
@@ -204,7 +206,7 @@ jobs:
             --label "auto-draft"
 
       - name: Comment on Source Issue
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             await github.rest.issues.createComment({
