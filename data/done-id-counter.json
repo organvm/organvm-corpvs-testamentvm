@@ -1,7 +1,8 @@
 {
-  "next_id": 548,
-  "last_claimed_by": "S-2026-05-26-p1-triple-fix-apply",
-  "last_claimed_at": "2026-05-26",
-  "claimed_range": [545, 547],
-  "note": "P1 triple fix: DONE-545 SYS-170/171 if-matcher redundancy removed + auto-sync noop closed, DONE-546 OPS-053 domus-memory-sync UX (--help, --dry-run, stderr), DONE-547 PROC-004 process-audit-daily.sh SessionEnd hook + process schema + housekeeping buckets. Verified chezmoi apply + git push."
+  "next_id": 558,
+  "last_claimed_by": "S-2026-05-19-pick-abc-conductor-handoff",
+  "last_claimed_at": "2026-05-19",
+  "claimed_range": [555, 557],
+  "note": "S-2026-05-19 picks A/B/C from .conductor/active-handoff.md. DONE-555: IRF-SYS-185 closed via option (c) — canonical-only documented; protocol already declared a-organvm/ canonical at CLAUDE.md line 11. DONE-556: IRF-THE-033 closed via theoretical Epistemic Engine spec at docs/specs/epistemic-engine/ (paradigm-agnostic L1 spec, decoupled from prior 5-node decomposition per user directive). DONE-557: IRF-SYS-184 closed via 4 meta-plugins (.claude/skills/<name>/SKILL.md + scripts/plugins/<name>.py + organ-cli plugin subcommand): session-orchestrator, vacuum-radar, triple-reference-tracker, atom-logger. NOTE: original commits used DONE-535/536/537 but those IDs were already consumed on main by intervening sessions (S-2026-05-23 process-pillar at DONE-535/536, S-2026-05-26 G5-backfill at DONE-537). Rebased onto main; DONE-IDs reclaimed at 555/556/557. Counter prior tip showed next_id=548, but main commits DONE-538..554 had not bumped counter — pre-existing hygiene gap noted in closeout follow-ups.",
+  "protocol": "CLAIM-BEFORE-USE: git pull, read next_id, increment by count needed, commit+push THIS FILE, then assign IDs. If push fails (non-fast-forward), pull, re-read, retry. Never assign DONE-NNN without claiming here first."
 }

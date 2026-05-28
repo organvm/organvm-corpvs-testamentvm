@@ -13,6 +13,8 @@ Usage:
     python3 scripts/organ-cli.py soak status
     python3 scripts/organ-cli.py deploy essay [--dry-run]
     python3 scripts/organ-cli.py pulse
+    python3 scripts/organ-cli.py plugin list
+    python3 scripts/organ-cli.py plugin run <name> [<plugin-args>...]
 """
 
 import argparse
@@ -340,6 +342,41 @@ def cmd_pulse(args):
     return subprocess.run(cmd, cwd=str(ROOT)).returncode
 
 
+# ── Plugin registry ───────────────────────────────────────────────────
+# Maps the kebab-case plugin name (as users type it) to the module under
+# scripts/plugins/. Each module exposes a `run(argv)` callable returning
+# an int exit code. New meta-plugins land here. See IRF-SYS-184.
+
+PLUGINS = {
+    "session-orchestrator": "session_orchestrator",
+    "vacuum-radar": "vacuum_radar",
+    "triple-reference-tracker": "triple_reference_tracker",
+    "atom-logger": "atom_logger",
+}
+
+
+def cmd_plugin_list(args):
+    """List registered meta-plugins."""
+    print("\nRegistered meta-plugins:\n")
+    for name, module in PLUGINS.items():
+        print(f"  {name:<28} scripts/plugins/{module}.py")
+    print()
+    return 0
+
+
+def cmd_plugin_run(args):
+    """Dispatch to a registered plugin's run(argv) entry point."""
+    module_name = PLUGINS.get(args.plugin_name)
+    if not module_name:
+        print(f"ERROR: unknown plugin '{args.plugin_name}'. Known: {', '.join(sorted(PLUGINS))}",
+              file=sys.stderr)
+        return 2
+    import importlib
+    sys.path.insert(0, str(SCRIPTS))
+    mod = importlib.import_module(f"plugins.{module_name}")
+    return mod.run(args.plugin_args)
+
+
 # ── CLI argument parsing ──────────────────────────────────────────────
 
 
@@ -389,6 +426,15 @@ def build_parser():
     # pulse
     sub.add_parser("pulse", help="Generate system pulse report")
 
+    # plugin
+    plg = sub.add_parser("plugin", help="Meta-plugin operations (IRF-SYS-184)")
+    plg_sub = plg.add_subparsers(dest="plugin_command")
+    plg_sub.add_parser("list", help="List registered meta-plugins")
+    run_p = plg_sub.add_parser("run", help="Run a meta-plugin by name")
+    run_p.add_argument("plugin_name", help="plugin name (kebab-case)")
+    run_p.add_argument("plugin_args", nargs=argparse.REMAINDER,
+                       help="arguments forwarded to the plugin")
+
     return parser
 
 
@@ -435,6 +481,15 @@ def main():
 
     elif args.command == "pulse":
         return cmd_pulse(args)
+
+    elif args.command == "plugin":
+        if args.plugin_command == "list":
+            return cmd_plugin_list(args)
+        elif args.plugin_command == "run":
+            return cmd_plugin_run(args)
+        else:
+            parser.parse_args(["plugin", "--help"])
+            return 0
 
     return 0
 
