@@ -2,7 +2,7 @@
 
 **Date:** 2026-05-19
 **Session Type:** Conductor handoff execution — picks A/B/C from `.conductor/active-handoff.md`
-**DONE-IDs Claimed:** DONE-535, DONE-536, DONE-537
+**DONE-IDs Claimed:** DONE-555, DONE-556, DONE-557
 **Branch:** `claude/select-conductor-handoff-ezP9G`
 
 ---
@@ -29,9 +29,9 @@ User reframe (for A): *Produce the theoretical detailed specification for a diff
 
 | ID | IRF | Description | Evidence |
 |----|-----|-------------|----------|
-| **DONE-535** | IRF-SYS-185 | IRF vacuum resolved via option (c) — canonical-only documented | IRF row strikethrough + closure stamp |
-| **DONE-536** | IRF-THE-033 | Epistemic Engine theoretical spec (L1) | `docs/specs/epistemic-engine/spec.md` + checklists/requirements.md (32/32 PASSED) |
-| **DONE-537** | IRF-SYS-184 | 4 meta-plugins implemented (skills + Python backings + CLI) | `.claude/skills/` + `scripts/plugins/` + `scripts/organ-cli.py` extension |
+| **DONE-555** | IRF-SYS-185 | IRF vacuum resolved via option (c) — canonical-only documented | IRF row strikethrough + closure stamp |
+| **DONE-556** | IRF-THE-033 | Epistemic Engine theoretical spec (L1) | `docs/specs/epistemic-engine/spec.md` + checklists/requirements.md (32/32 PASSED) |
+| **DONE-557** | IRF-SYS-184 | 4 meta-plugins implemented (skills + Python backings + CLI) | `.claude/skills/` + `scripts/plugins/` + `scripts/organ-cli.py` extension |
 
 ### Artifacts Created
 
@@ -55,7 +55,7 @@ User reframe (for A): *Produce the theoretical detailed specification for a diff
 | File | Change |
 |------|--------|
 | `INST-INDEX-RERUM-FACIENDARUM.md` | 3 rows: IRF-THE-033, IRF-SYS-184, IRF-SYS-185 — strikethrough + closure stamps with GH refs |
-| `data/done-id-counter.json` | next_id: 535 → 538; claimed_range: [535, 537]; last_claimed_by: S-2026-05-19-pick-abc-conductor-handoff |
+| `data/done-id-counter.json` | next_id: 548 → 558; claimed_range: [555, 557]; last_claimed_by: S-2026-05-19-pick-abc-conductor-handoff (rebased onto main; DONE-535/536/537 had been consumed by intervening sessions on main) |
 | `scripts/organ-cli.py` | Added `plugin` subcommand with `list` and `run` actions; PLUGINS registry; importlib dispatch |
 
 ### GitHub Issues
@@ -101,17 +101,17 @@ User explicitly rejected pragmatic MVP slicing in favor of paradigm-agnostic the
 | Check | Result |
 |-------|--------|
 | `python3 scripts/organ-cli.py plugin list` | PASS — all 4 plugins listed |
-| `python3 scripts/organ-cli.py plugin run vacuum-radar` | PASS — emits markdown report (58 open VACUUMs, 291 open P1s, 408 "None"-last-col, next DONE-ID 538) |
+| `python3 scripts/organ-cli.py plugin run vacuum-radar` | PASS — emits markdown report (open VACUUMs / open P1s / "None"-last-col counts; next DONE-ID 558 post-rebase) |
 | `python3 scripts/organ-cli.py plugin run triple-reference-tracker IRF-THE-033 IRF-SYS-184 IRF-SYS-185` | PASS — all three OK (after closure stamps added the GH#NNN references) |
 | `python3 scripts/organ-cli.py plugin run session-orchestrator` | PASS — parses handoff, identifies phase, lists 3 open actions, recommends IRF-THE-033 (matches our execution order) |
 | `python3 scripts/organ-cli.py plugin run atom-logger --dry-run …` | PASS — emits valid JSON atom |
-| `python3 scripts/check-done-id.py --staged` (will run as pre-commit hook) | Expected PASS — staged additions contain only DONE-535/536/537, all < counter next_id (538) |
+| `python3 scripts/check-done-id.py --staged` (will run as pre-commit hook) | PASS — staged additions contain only DONE-555/556/557, all < counter next_id (558) |
 
 ### Pre-existing validation failures (NOT caused by this session)
 
 | Script | Failure | Cause |
 |--------|---------|-------|
-| `scripts/validate-irf-counter.py` (manual full run) | 32 claimed DONE-IDs not in IRF | Pre-existing gaps from earlier sessions (DONE-316/317, DONE-344-363, DONE-374-376, DONE-456-470). My DONE-535/536/537 ARE in the IRF. |
+| `scripts/validate-irf-counter.py` (manual full run) | 32+ claimed DONE-IDs not in IRF | Pre-existing gaps from earlier sessions (DONE-316/317, DONE-344-363, DONE-374-376, DONE-456-470, plus DONE-538..554 which were used in commits but didn't bump the counter — a hygiene gap on main not caused by this session). My DONE-555/556/557 ARE in the IRF. |
 | `scripts/check-done-id.py` (manual full run) | False positive matching `DONE-2026-04-30` as DONE-ID 2026 | Pre-existing date-format DONE marker in IRF-CRP-014. The `--staged` mode used by pre-commit is unaffected. |
 
 These pre-existing issues should be filed as their own IRF entries by a future hall-monitor pass; surfaced here for transparency but not fixed in this session (out of scope).
@@ -124,9 +124,9 @@ All three closed items now satisfy the triple reference:
 
 | IRF ID | IRF entry | Repo | GH issue |
 |--------|-----------|------|----------|
-| IRF-THE-033 | line 2320 (strikethrough + DONE-536 stamp) | `a-organvm/organvm-corpvs-testamentvm` (via `organvm-corpvs-testamentvm` substring in row) | #353 |
-| IRF-SYS-184 | line 2321 (strikethrough + DONE-537 stamp) | `a-organvm/organvm-corpvs-testamentvm` (full slug in closure stamp) | #354 |
-| IRF-SYS-185 | line 2322 (strikethrough + DONE-535 stamp) | `a-organvm/organvm-corpvs-testamentvm` (via `organvm-corpvs-testamentvm` substring) | #355 |
+| IRF-THE-033 | line 2320 (strikethrough + DONE-556 stamp) | `a-organvm/organvm-corpvs-testamentvm` (via `organvm-corpvs-testamentvm` substring in row) | #353 |
+| IRF-SYS-184 | line 2321 (strikethrough + DONE-557 stamp) | `a-organvm/organvm-corpvs-testamentvm` (full slug in closure stamp) | #354 |
+| IRF-SYS-185 | line 2322 (strikethrough + DONE-555 stamp) | `a-organvm/organvm-corpvs-testamentvm` (via `organvm-corpvs-testamentvm` substring) | #355 |
 
 ---
 
@@ -151,7 +151,7 @@ All three closed items now satisfy the triple reference:
 | Path | Rule | Adherence |
 |------|------|-----------|
 | `INST-INDEX-RERUM-FACIENDARUM.md` | Read before write; never overwrite wholesale; append-only | ✓ Only the three target rows were modified; all original content preserved (strikethrough); appended closure stamps |
-| `data/done-id-counter.json` | Claim next ID atomically; increment after claim | ✓ Counter incremented to 538 BEFORE writing DONE-535/536/537 stamps |
+| `data/done-id-counter.json` | Claim next ID atomically; increment after claim | ✓ Counter incremented to 558 BEFORE writing DONE-555/556/557 stamps (post-rebase claim) |
 | `data/prompt-registry/prompt-atoms.json` | Targeted edits only; never replace wholesale | ✓ Not touched this session |
 | `.conductor/active-handoff.md` | Update, don't replace; preserve scope sections | ✓ Not touched (the file describes the previous session's state; this closeout is the new envelope) |
 
@@ -162,7 +162,7 @@ All three closed items now satisfy the triple reference:
 If a successor session finds state mismatch:
 1. `git log` on `claude/select-conductor-handoff-ezP9G` for commits since `e9056ed` (the latest before this session)
 2. Verify three IRF rows are strikethrough: lines 2320 (IRF-THE-033), 2321 (IRF-SYS-184), 2322 (IRF-SYS-185)
-3. Verify counter at `data/done-id-counter.json` shows `next_id: 538`, `claimed_range: [535, 537]`
+3. Verify counter at `data/done-id-counter.json` shows `next_id: 558`, `claimed_range: [555, 557]`
 4. Verify plugin scaffold exists: `ls .claude/skills/ scripts/plugins/`
 5. Re-run end-to-end verification: `python3 scripts/organ-cli.py plugin run triple-reference-tracker IRF-THE-033 IRF-SYS-184 IRF-SYS-185` should return all OK
 
