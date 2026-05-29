@@ -3149,3 +3149,45 @@
 **Captured:** 2026-05-11T00:46:07 | **Prompts:** 5
 **Archive:** `data/prompt-registry/sessions/d9535e8a-f889-42e5-9dc3-772f21656b38-prompts.md`
 
+
+### 0127a753-8885-4cd5-acd7-25c29153298b
+**Captured:** 2026-05-29T13:22:16 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
+
+### 3a25d6c1-f5e5-446e-82b1-1739117aff74
+**Captured:** 2026-05-29T13:22:49 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
+
+### 4efc9a98-23af-42f6-9220-41488926b63c
+**Captured:** 2026-05-29T13:27:05 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
+
+### 3392926b-2c6a-4945-8861-debccbd4d202
+**Captured:** 2026-05-29T13:35:19 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
+
+### ba0dda23-961c-466f-90bc-8270ba2281ae
+**Captured:** 2026-05-29T13:37:26 | **Prompts:** 34 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/ba0dda23-961c-466f-90bc-8270ba2281ae-prompts.md`
+
+
+### 91b79afd-bd8e-4aa2-8125-4edef563d713
+**Captured:** 2026-05-29T13:41:08 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
+
+### 4077e5ff-ed49-4fe5-9cd8-70ed8850000f
+**Captured:** 2026-05-29T13:42:36 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
+
+### 9ed975d5-e7ee-4f77-8235-fe3d04f477b4
+**Captured:** 2026-05-29T13:44:55 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
+
+### e1f6bb64-472c-463c-bc5d-bfc2511972f1
+**Captured:** 2026-05-29T13:46:37 | **Prompts:** 23 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/e1f6bb64-472c-463c-bc5d-bfc2511972f1-prompts.md`
+
+
+### d3e4a9bf-deb6-4365-987c-911637b59e1e
+**Captured:** 2026-05-29T13:50:03 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
