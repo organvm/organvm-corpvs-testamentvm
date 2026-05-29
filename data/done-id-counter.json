@@ -1,8 +1,8 @@
 {
-  "next_id": 565,
-  "last_claimed_by": "S-2026-05-29-cron-arm-exec-bit",
+  "next_id": 569,
+  "last_claimed_by": "S-2026-05-29-heartbeat-live-flip",
   "last_claimed_at": "2026-05-29",
-  "claimed_range": [564, 564],
-  "note": "S-2026-05-29-cron-arm-exec-bit claims DONE-564 (heartbeat cron armed + exec-bit/false-arm defect fixed; sibling to DONE-562). Counter fast-forwarded 558 -> 565 to reconcile with on-disk reality: IRF rows DONE-558/559/560 (S-2026-05-2x) and DONE-561/562/563 (S-2026-05-29 drift-root, sync-false-green, post-commit-hook-finding-3) were all consumed by intervening/parallel sessions WITHOUT bumping this counter — the same pre-existing CLAIM-BEFORE-USE hygiene gap previously noted for DONE-538..554. No IDs erased; counter advanced to the true tip+1. Next session: next_id=565 is authoritative.",
+  "claimed_range": [566, 568],
+  "note": "S-2026-05-29-heartbeat-live-flip claims DONE-566 (heartbeat flipped to live side-effects under explicit conductor authorization 'flip the heartbeat to live'; live-fire validation surfaced + fixed 2 registry routine defects [memory-sync bare-invocation, prompts-distill broken clipboard handoff] + a leak-vector [personal clipboard export rerouted from public corpus to private ~/.cache]) and DONE-567 (organvm-engine clipboard extractor crash on NULL Paste.app timestamp). Counter fast-forwarded 565 -> 568: DONE-565 was consumed by the parallel S-2026-05-29-irf-sys-238-closure-verified session WITHOUT bumping this counter (same pre-existing CLAIM-BEFORE-USE hygiene gap previously reconciled for DONE-558..563). No IDs erased; counter advanced to true tip+1. Next session: next_id=568 authoritative.",
   "protocol": "CLAIM-BEFORE-USE: git pull, read next_id, increment by count needed, commit+push THIS FILE, then assign IDs. If push fails (non-fast-forward), pull, re-read, retry. Never assign DONE-NNN without claiming here first."
 }

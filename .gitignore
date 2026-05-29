@@ -22,6 +22,11 @@ __pycache__/
 # Bulk atom pipeline outputs (committed summaries + manifest only)
 data/atoms/*.jsonl
 
+# Personal clipboard exports must NEVER land in this public repo. The heartbeat routes
+# them to ~/.cache (untracked); this is a defense-in-depth net against the engine's
+# default --output-dir landing one here. (leak-vector hygiene)
+data/atoms/ai-prompts-clipboard-export.*
+
 # Corpus pipeline outputs (events.jsonl can run very large; regenerable from sources)
 # IRF-SEC-010 resolution: ignore rather than LFS-track
 data/corpus/*/events.jsonl

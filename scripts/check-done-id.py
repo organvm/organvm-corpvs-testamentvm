@@ -20,7 +20,11 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).parent.parent
 COUNTER_FILE = REPO_ROOT / "data" / "done-id-counter.json"
 IRF_FILE = REPO_ROOT / "INST-INDEX-RERUM-FACIENDARUM.md"
-DONE_PATTERN = re.compile(r"DONE-(\d+)")
+# Match counter-sequenced numeric IDs (DONE-566) but NOT date-form IDs
+# (DONE-2026-04-30, a separate scheme used e.g. by IRF-OPS-019). The trailing
+# negative lookahead (?![\d-]) rejects any DONE-number followed by another digit
+# or a hyphen, so "DONE-2026-04-30" yields no match instead of a spurious 2026.
+DONE_PATTERN = re.compile(r"DONE-(\d{1,4})(?![\d-])")
 
 
 def load_counter() -> dict:
