@@ -1,8 +1,8 @@
 {
-  "next_id": 558,
-  "last_claimed_by": "S-2026-05-19-pick-abc-conductor-handoff",
-  "last_claimed_at": "2026-05-19",
-  "claimed_range": [555, 557],
-  "note": "S-2026-05-19 picks A/B/C from .conductor/active-handoff.md. DONE-555: IRF-SYS-185 closed via option (c) — canonical-only documented; protocol already declared a-organvm/ canonical at CLAUDE.md line 11. DONE-556: IRF-THE-033 closed via theoretical Epistemic Engine spec at docs/specs/epistemic-engine/ (paradigm-agnostic L1 spec, decoupled from prior 5-node decomposition per user directive). DONE-557: IRF-SYS-184 closed via 4 meta-plugins (.claude/skills/<name>/SKILL.md + scripts/plugins/<name>.py + organ-cli plugin subcommand): session-orchestrator, vacuum-radar, triple-reference-tracker, atom-logger. NOTE: original commits used DONE-535/536/537 but those IDs were already consumed on main by intervening sessions (S-2026-05-23 process-pillar at DONE-535/536, S-2026-05-26 G5-backfill at DONE-537). Rebased onto main; DONE-IDs reclaimed at 555/556/557. Counter prior tip showed next_id=548, but main commits DONE-538..554 had not bumped counter — pre-existing hygiene gap noted in closeout follow-ups.",
+  "next_id": 565,
+  "last_claimed_by": "S-2026-05-29-cron-arm-exec-bit",
+  "last_claimed_at": "2026-05-29",
+  "claimed_range": [564, 564],
+  "note": "S-2026-05-29-cron-arm-exec-bit claims DONE-564 (heartbeat cron armed + exec-bit/false-arm defect fixed; sibling to DONE-562). Counter fast-forwarded 558 -> 565 to reconcile with on-disk reality: IRF rows DONE-558/559/560 (S-2026-05-2x) and DONE-561/562/563 (S-2026-05-29 drift-root, sync-false-green, post-commit-hook-finding-3) were all consumed by intervening/parallel sessions WITHOUT bumping this counter — the same pre-existing CLAIM-BEFORE-USE hygiene gap previously noted for DONE-538..554. No IDs erased; counter advanced to the true tip+1. Next session: next_id=565 is authoritative.",
   "protocol": "CLAIM-BEFORE-USE: git pull, read next_id, increment by count needed, commit+push THIS FILE, then assign IDs. If push fails (non-fast-forward), pull, re-read, retry. Never assign DONE-NNN without claiming here first."
 }
