@@ -1,0 +1,223 @@
+# Standard #26 conformance — 107 repos scanned
+
+Clean (no violations): 43/107
+
+!! [ 20] Code/organvm/stakeholder-portal  (src, 22 root files)
+      ✗ missing root LICENSE
+      ✗ root file count 22 >20 (consolidate; §8)
+      ✗ src/ nesting depth 4 >3 (§4)
+      · type-folder(s) ['components'] under src — prefer feature folders (§4)
+!! [ 25] Code/organvm/growth-auditor  (src, 8 root files)
+      ✗ missing root LICENSE
+      ✗ src/components/ has 37 entries >20 — switch to feature folders (§4/§8)
+      ✗ src/ nesting depth 5 >3 (§4)
+!! [ 40] Code/organvm/tool-interaction-design  (flat, 17 root files)
+      ✗ missing root README.md
+      ✗ missing root LICENSE
+      · flat layout on a code repo — justify or move to src/ (§2)
+      · type-folder(s) ['hooks'] under tool-interaction-design — prefer feature folders (§4)
+!! [ 45] Workspace/a-organvm  (flat, 83 root files)
+      ✗ missing root LICENSE
+      ✗ root file count 83 >20 (consolidate; §8)
+      · flat layout on a code repo — justify or move to src/ (§2)
+!! [ 45] Code/organvm/kerygma-pipeline  (flat, 9 root files)
+      ✗ missing root README.md
+      ✗ missing root LICENSE
+      · flat layout on a code repo — justify or move to src/ (§2)
+!! [ 45] Code/organvm/kerygma-profiles  (flat, 6 root files)
+      ✗ missing root README.md
+      ✗ missing root LICENSE
+      · flat layout on a code repo — justify or move to src/ (§2)
+!! [ 45] Code/organvm/organvm-scrutator  (src, 3 root files)
+      ✗ missing root README.md
+      ✗ missing root LICENSE
+      · type-folder(s) ['hooks'] under organvm-scrutator — prefer feature folders (§4)
+!! [ 50] Workspace/meta-organvm/glyph-cascade  (src, 6 root files)
+      ✗ missing root README.md
+      ✗ missing root LICENSE
+!! [ 50] Workspace/organvm/.archive-coinbase-iter1-20260502  (flat, 1 root files)
+      ✗ missing root README.md
+      ✗ missing root LICENSE
+!! [ 50] Code/organvm/carrier-wave--zeitgeist-thesis  (flat, 3 root files)
+      ✗ missing root README.md
+      ✗ missing root LICENSE
+!! [ 50] Code/organvm/classroom-rpg-aetheria  (src, 36 root files)
+      ✗ root file count 36 >20 (consolidate; §8)
+      ✗ src/components/ has 52 entries >20 — switch to feature folders (§4/§8)
+!! [ 50] Code/organvm/digital-income-organism-inquiry  (flat, 9 root files)
+      ✗ missing root README.md
+      ✗ missing root LICENSE
+!! [ 50] Code/organvm/mesh  (src, 10 root files)
+      ✗ missing root README.md
+      ✗ missing root LICENSE
+!! [ 50] Code/organvm/my-knowledge-base  (src, 25 root files)
+      ✗ missing root LICENSE
+      ✗ root file count 25 >20 (consolidate; §8)
+!! [ 50] Code/organvm/organvm-ontologia  (src, 7 root files)
+      ✗ missing root README.md
+      ✗ missing root LICENSE
+!! [ 50] Code/organvm/sign-signal--voice-synth  (monorepo, 15 root files)
+      ✗ missing root README.md
+      ✗ missing root LICENSE
+!! [ 50] Code/organvm/sovereign--ground  (flat, 10 root files)
+      ✗ missing root README.md
+      ✗ missing root LICENSE
+!! [ 50] Code/organvm/sovereign-systems--layer-above-hokage  (flat, 2 root files)
+      ✗ missing root README.md
+      ✗ missing root LICENSE
+!! [ 50] Code/organvm/studium-generale  (flat, 4 root files)
+      ✗ missing root README.md
+      ✗ missing root LICENSE
+!! [ 70] Workspace/session-meta  (flat, 4 root files)
+      ✗ missing root LICENSE
+      · type-folder(s) ['hooks'] under session-meta — prefer feature folders (§4)
+!! [ 70] Code/organvm/a-mavs-olevm  (flat, 48 root files)
+      ✗ root file count 48 >20 (consolidate; §8)
+      · flat layout on a code repo — justify or move to src/ (§2)
+!! [ 70] Code/organvm/cognitive-archaelogy-tribunal  (flat, 21 root files)
+      ✗ root file count 21 >20 (consolidate; §8)
+      · flat layout on a code repo — justify or move to src/ (§2)
+!! [ 70] Code/organvm/content-engine--asset-amplifier  (monorepo, 17 root files)
+      ✗ missing root LICENSE
+      · type-folder(s) ['services'] under content-engine--asset-amplifier — prefer feature folders (§4)
+!! [ 70] Code/organvm/ivi374ivi027-05  (src, 18 root files)
+      ✗ missing root LICENSE
+      · type-folder(s) ['components', 'hooks'] under src — prefer feature folders (§4)
+!! [ 70] Code/organvm/schema-definitions  (flat, 10 root files)
+      ✗ missing root LICENSE
+      · flat layout on a code repo — justify or move to src/ (§2)
+!! [ 70] Code/organvm/sovereign-systems--elevate-align  (src, 15 root files)
+      ✗ missing root LICENSE
+      · type-folder(s) ['components'] under src — prefer feature folders (§4)
+!! [ 75] Workspace/4444J99  (flat, 6 root files)
+      ✗ missing root README.md
+!! [ 75] Workspace/composition-1-2  (flat, 4 root files)
+      ✗ missing root LICENSE
+!! [ 75] Workspace/organvm/.github  (src, 18 root files)
+      ✗ src/ nesting depth 4 >3 (§4)
+!! [ 75] Workspace/speculum-opencode  (flat, 2 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/agent-runtime  (monorepo, 8 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/speech-score-engine  (monorepo, 10 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/aerarium--res-publica  (flat, 3 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/agentkit  (flat, 10 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/alchemia-ingestvm  (src, 9 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/atomic-substrata  (src, 10 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/brainstorm-20260423  (flat, 3 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/chthon-oneiros  (flat, 6 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/community-hub  (src, 11 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/custodia-securitatis  (flat, 5 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/cvrsvs-honorvm  (flat, 5 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/fastmcp  (src, 12 root files)
+      ✗ src/ nesting depth 5 >3 (§4)
+!! [ 75] Code/organvm/k6-contrib  (go, 18 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/koinonia-db  (src, 10 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/life-my--midst--in  (monorepo, 22 root files)
+      ✗ root file count 22 >20 (consolidate; §8)
+!! [ 75] Code/organvm/materia-collider  (src, 8 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/openai-agents-contrib  (src, 10 root files)
+      ✗ src/ nesting depth 4 >3 (§4)
+!! [ 75] Code/organvm/organvm-engine  (src, 12 root files)
+      ✗ src/ nesting depth 4 >3 (§4)
+!! [ 75] Code/organvm/organvm-mcp-server  (src, 8 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/peer-audited--behavioral-blockchain  (src, 13 root files)
+      ✗ src/ nesting depth 8 >3 (§4)
+!! [ 75] Code/organvm/petasum-super-petasum  (src, 21 root files)
+      ✗ root file count 21 >20 (consolidate; §8)
+!! [ 75] Code/organvm/praxis-perpetua  (flat, 7 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/public-record-data-scrapper  (monorepo, 29 root files)
+      ✗ root file count 29 >20 (consolidate; §8)
+!! [ 75] Code/organvm/python-sdk  (src, 11 root files)
+      ✗ src/ nesting depth 4 >3 (§4)
+!! [ 75] Code/organvm/rules-system-bound  (src, 6 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/scale-threshold-emergence  (src, 9 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/styx-behavioral-art  (flat, 6 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/styx-behavioral-economics-theory  (flat, 6 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/system-dashboard  (src, 9 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/system-governance-framework  (src, 24 root files)
+      ✗ root file count 24 >20 (consolidate; §8)
+!! [ 75] Code/organvm/system-system--system  (flat, 16 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/system-system--system--monad  (flat, 33 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/organvm/tmp_organvm-i-theoria.github.io  (flat, 2 root files)
+      ✗ missing root LICENSE
+!! [ 75] Code/persona-fleet  (src, 5 root files)
+      ✗ missing root LICENSE
+OK [ 90] Code/organvm/the-actual-news  (flat, 14 root files)
+      · flat layout on a code repo — justify or move to src/ (§2)
+      · type-folder(s) ['services'] under the-actual-news — prefer feature folders (§4)
+OK [ 95] Code/organvm/agent--claude-smith  (src, 13 root files)
+      · type-folder(s) ['hooks', 'utils'] under src — prefer feature folders (§4)
+OK [ 95] Code/organvm/agentic-titan  (flat, 16 root files)
+      · flat layout on a code repo — justify or move to src/ (§2)
+OK [ 95] Code/organvm/announcement-templates  (flat, 9 root files)
+      · flat layout on a code repo — justify or move to src/ (§2)
+OK [ 95] Code/organvm/call-function--ontological  (flat, 15 root files)
+      · flat layout on a code repo — justify or move to src/ (§2)
+OK [ 95] Code/organvm/distribution-strategy  (flat, 9 root files)
+      · flat layout on a code repo — justify or move to src/ (§2)
+OK [ 95] Code/organvm/krypto-velamen  (flat, 7 root files)
+      · type-folder(s) ['services'] under krypto-velamen — prefer feature folders (§4)
+OK [ 95] Code/organvm/metasystem-master  (flat, 16 root files)
+      · flat layout on a code repo — justify or move to src/ (§2)
+OK [ 95] Code/organvm/narratological-algorithmic-lenses  (flat, 12 root files)
+      · flat layout on a code repo — justify or move to src/ (§2)
+OK [ 95] Code/organvm/recursive-engine--generative-entity  (flat, 15 root files)
+      · flat layout on a code repo — justify or move to src/ (§2)
+OK [ 95] Code/organvm/reverse-engine-recursive-run  (flat, 13 root files)
+      · flat layout on a code repo — justify or move to src/ (§2)
+OK [ 95] Code/organvm/social-automation  (flat, 10 root files)
+      · flat layout on a code repo — justify or move to src/ (§2)
+OK [100] Workspace/_diagnostics  (flat, 2 root files)
+OK [100] Workspace/organvm/.github-org  (flat, 11 root files)
+OK [100] Code/organvm/a-i--skills  (flat, 10 root files)
+OK [100] Code/organvm/a-i--skills.broken-xattr-2026-05-16  (flat, 10 root files)
+OK [100] Code/organvm/a-i--skills.fresh  (flat, 10 root files)
+OK [100] Code/organvm/adaptive-personal-syllabus  (src, 10 root files)
+OK [100] Code/organvm/alchemical-synthesizer  (flat, 9 root files)
+OK [100] Code/organvm/analytics-engine  (src, 9 root files)
+OK [100] Code/organvm/auto-revision-epistemic-engine  (src, 18 root files)
+OK [100] Code/organvm/blender-mcp  (src, 7 root files)
+OK [100] Code/organvm/collective-persona-operations  (src, 9 root files)
+OK [100] Code/organvm/commerce--meta  (flat, 7 root files)
+OK [100] Code/organvm/conversation-corpus-engine  (src, 11 root files)
+OK [100] Code/organvm/editorial-standards  (flat, 8 root files)
+OK [100] Code/organvm/essay-pipeline  (src, 11 root files)
+OK [100] Code/organvm/gemini-cli-blender-extension  (flat, 3 root files)
+OK [100] Code/organvm/linguistic-atomization-framework  (flat, 13 root files)
+OK [100] Code/organvm/nexus--babel-alexandria  (src, 14 root files)
+OK [100] Code/organvm/orchestration-start-here  (src, 19 root files)
+OK [100] Code/organvm/org-dotgithub  (flat, 11 root files)
+OK [100] Code/organvm/organvm-corpvs-testamentvm  (flat, 57 root files)
+OK [100] Code/organvm/public-process  (flat, 22 root files)
+OK [100] Code/organvm/reading-group-curriculum  (src, 10 root files)
+OK [100] Code/organvm/reading-observatory  (src, 9 root files)
+OK [100] Code/organvm/salon-archive  (src, 10 root files)
+OK [100] Code/organvm/sema-metra--alchemica-mundi  (src, 18 root files)
+OK [100] Code/organvm/universal-node-network  (src, 11 root files)
+OK [100] Code/organvm/vigiles-aeternae--agon-cosmogonicum  (src, 9 root files)
+OK [100] Code/organvm/vigiles-aeternae--corpus-mythicum  (flat, 8 root files)
+OK [100] Code/organvm/vox--architectura-gubernatio  (src, 9 root files)
+OK [100] Code/organvm/vox--publica  (src, 13 root files)
