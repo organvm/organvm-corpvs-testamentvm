@@ -13,9 +13,18 @@
 - 43 fleet repos pushed (main + 1 rebased); 2 PRs: classroom-rpg #131, stakeholder-portal #55.
 - **6 repos HELD** (per "unless active currently"): `a-mavs-olevm`, `ivi374ivi027-05`, `my-knowledge-base`, `organvm-scrutator`, `public-record-data-scrapper` (active feature branches w/ others' WIP) + `digital-income-organism-inquiry` (concurrent README/LICENSE conflict, rebase aborted clean). Their fix commits are safe-local.
 
+## Post-Conformity Verification (asked: "did it break anything?")
+- **No functional/build breakage.** classroom-rpg migration re-confirmed: `tsc --noEmit` = 40 = main baseline (0 regression). README/LICENSE adds are additive. All moves via `git mv` (recoverable).
+- **One cosmetic regression found + being fixed:** the doc-declutter moved root `*.md` to `docs/` WITHOUT rewriting README links that pointed to them → broken (404) GitHub doc-links in 5 repos. Fix tool built: `scripts/fix-readme-doc-links.py` (committed `abb11b6`). `classroom-rpg` fixed + pushed (PR #131). 4 still-active repos queued in the loop: `cognitive-archaelogy-tribunal`, `my-knowledge-base`, `petasum-super-petasum`, `system-governance-framework`.
+- **Tool gap noted:** `declutter-root-docs.py` should call the link-fixer at move time (atomic link-complete move). Currently reactive.
+
+## Active loop (scheduled wakeup ~13:35, self-paced)
+Per held/affected repo when idle: (1) fix broken README links, (2) push the layout fix. digital-income auto-skips if gap closed upstream (never `git reset --hard`). Self-terminates when all done.
+
 ## Next Actions
 - When the 6 held repos' sessions go idle: push their fix commits (or let owning sessions land them; digital-income's gap is being closed concurrently).
 - Re-run `python3 scripts/audit-directory-layout.py` any time — conformance recomputes from #26.
+- Future hardening: fold link-fixer into declutter tool.
 
 ---
 
