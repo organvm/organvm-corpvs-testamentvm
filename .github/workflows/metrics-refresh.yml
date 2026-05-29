@@ -82,4 +82,4 @@ jobs:
           GH_TOKEN: ${{ secrets.CROSS_ORG_TOKEN }}
         run: |
           gh api repos/4444J99/portfolio/dispatches \
-            -f event_type=metrics-refresh
+            -f event_type=metrics-refresh || echo "::warning::Failed to trigger portfolio data refresh. Check CROSS_ORG_TOKEN secret."

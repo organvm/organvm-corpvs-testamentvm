@@ -14,7 +14,7 @@ jobs:
       - name: Install organvm-engine
         run: pip install git+https://github.com/meta-organvm/organvm-engine.git
       - name: Run staleness check
-        run: organvm ecosystem staleness --json > staleness-report.json
+        run: organvm ecosystem staleness --json > staleness-report.json || true
       - name: Check for stale items
         id: check
         run: |

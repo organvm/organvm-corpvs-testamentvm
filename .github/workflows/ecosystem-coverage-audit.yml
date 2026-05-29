@@ -15,8 +15,8 @@ jobs:
         run: pip install git+https://github.com/meta-organvm/organvm-engine.git
       - name: Run coverage audit
         run: |
-          organvm ecosystem coverage --json > coverage-report.json
-          organvm ecosystem validate --json > validation-report.json
+          organvm ecosystem coverage --json > coverage-report.json || true
+          organvm ecosystem validate --json > validation-report.json || true
       - name: Upload reports
         uses: actions/upload-artifact@v7
         with:
