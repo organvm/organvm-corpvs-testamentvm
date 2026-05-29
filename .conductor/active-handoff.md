@@ -1,3 +1,36 @@
+# Agent Handoff: Heartbeat Live-Flip + Cascade Fixes (DONE-566/567/568)
+
+**From:** Session 2026-05-29 heartbeat-live-flip (S-2026-05-29-heartbeat-live-flip) | **Date:** 2026-05-29 | **Phase:** Complete (closeout + handoff executed)
+**Supersedes (state-wise, not content):** the cron-arm handoff below — its Next-Actions #1 (flip live) and #2 (validator regex) are now BOTH done. Section retained verbatim for provenance.
+
+## Current State (verified against remotes)
+engine main 0/0 (clipboard fix on **PR #92 OPEN**) · session-meta 0/0 · corpvs 0/0 · domus 0/0. The heartbeat is **LIVE** (`.side-effects-enabled` created) and validated green.
+
+## Completed Work (This Session)
+Conductor: "flip the heartbeat to live." The flip is one `touch`; the work was what the **live fire** surfaced. Three boundary-marked validation fires drove it to `rc=0` / 0 `[FAIL]`:
+- **DONE-566** (corpvs `7c80621`): heartbeat side-effects enabled + 2 broken routines fixed (memory-sync bare→`--all`; prompts-distill broken handoff→chained `clipboard` precursor with aligned paths) + leak-vector reroute.
+- **DONE-567** (engine `bcf6fa9`, **PR #92**): clipboard extractor crash on NULL Paste.app timestamp → added `AND i.ZTIMESTAMP IS NOT NULL`. 35 tests pass.
+- **DONE-568** (corpvs `7c80621`): `check-done-id.py` regex fix — closes the prior handoff's Next-Action #2 (the permanent `DONE-2026` false-positive). Validator now green.
+
+## Key Decisions
+| Decision | Rationale |
+|----------|-----------|
+| Personal clipboard export → PRIVATE `~/.cache/organvm-heartbeat/`, not corpus | Holds 1112 personal prompts; `clipboard`'s default output is CWD. Reroute + `.gitignore` nets in engine + corpus = defense-in-depth against leaking into a public repo. |
+| Engine fix via **PR #92**, not direct push to main | Classifier denied direct-push-to-main (bypasses review); a PR *honors* that intent. Corpus push (IRF ledger) was allowed — different repo class. |
+| Filed IRF-SYS-241/242 instead of deep engine surgery | clipboard/distill default-path mismatch + run-routines.sh failure-swallowing are root-cause engine/runner fixes; the heartbeat carries a correct workaround now, root fix is conductor-gated. |
+
+## Next Actions (all optional — heartbeat is live + healthy)
+1. **Merge engine PR #92** to make `organvm prompts clipboard` crash-safe on engine main.
+2. **IRF-SYS-241** (P2): align engine `clipboard`/`distill` default I/O paths + safe default output dir (removes the registry workaround).
+3. **IRF-SYS-242** (P2): make `run-routines.sh` propagate per-routine failures so the kill-switch can trip — sequence AFTER 241 (else 3 days of any failure auto-disables the heartbeat).
+
+## Risks & Warnings
+- **Revert to dry-run:** `rm ~/.claude/scheduled-tasks/daily-operational-heartbeat/.side-effects-enabled`.
+- **Until IRF-SYS-242 lands**, a routine failing daily would NOT trip the kill-switch (silent failure). The 3 routines are validated green now, but watch `run.log` for new `[FAIL]` markers.
+- **Observation (conductor awareness):** background plans-auto-sync `4a2e4c44` removed 5 mirror plans from session-meta `claude/plans/`. NOT destroyed — in git history + `session-meta-scheduler` worktree. Flag in case the dedup was unintended.
+
+---
+
 # Agent Handoff: Guardrail-Gated Landing — heartbeat cron + cross-session artifacts (DONE-564)
 
 **From:** Session 2026-05-29 cron-arm-exec-bit (S-2026-05-29-cron-arm-exec-bit) | **Date:** 2026-05-29 | **Phase:** Complete (closeout + handoff executed)
