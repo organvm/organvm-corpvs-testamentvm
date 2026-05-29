@@ -1,3 +1,34 @@
+# Agent Handoff: Guardrail-Gated Landing — heartbeat cron + cross-session artifacts (DONE-564)
+
+**From:** Session 2026-05-29 cron-arm-exec-bit (S-2026-05-29-cron-arm-exec-bit) | **Date:** 2026-05-29 | **Phase:** Complete (closeout + handoff executed)
+**Supersedes (state-wise, not content):** the layout-sweep handoff below — its FINAL RESOLUTION is now landed (see `bound` pointer + corpus plan `09962c6`). That section retained verbatim for provenance.
+
+## Current State (verified against remotes this session)
+All four governance trees **0/0 clean**: domus, session-meta, corpvs, bound. Nothing pending in any repo.
+
+## Completed Work (This Session)
+The prior session left three guardrail-gated items it was structurally barred from doing (Rule #55 cron-arm; public-ORGANVM push-auth ×2). Conductor granted explicit per-session authorization ("full permission; no destruction only evolution"). All three landed:
+- **Heartbeat cron ARMED:** `31 8 * * * ~/.claude/scheduled-tasks/daily-operational-heartbeat/run.sh` (idempotent append; ramp-safe — `--live` dry-run until `.side-effects-enabled` sentinel exists). Smoke-tested: exit 0, no failcount, not disabled.
+- **corpus pushed** `e847fdc→ee45fe4` (8 atomic commits incl. DONE-562 landing + **DONE-564** + done-id-counter 558→565 reconciliation + cross-session prompt-registry/Gemini artifacts).
+- **bound pushed** `bcfef1e→8624d6d` (Claude→Codex routing pointer + layout-sweep FINAL RESOLUTION pointer).
+
+## Key Decisions
+| Decision | Rationale |
+|----------|-----------|
+| Split corpus changes into atomic commits, NOT `git add -A` | Untracked set held foreign-session prompt archives + a Gemini closeout; blanket-add would bury DONE rows among unrelated provenance. |
+| `chmod +x run.sh` before arming cron | It was mode `-rw-r--r--`; direct cron invocation would fail daily and trip the script's own 3-strike `.disabled` kill-switch — silent permanent disable. |
+| Fast-forward done-id-counter 558→565 (not erase) | DONE-558..563 consumed by intervening sessions without bumping (pre-existing hygiene gap); reconcile to true tip, no IDs erased. |
+| Did NOT edit `DONE-2026` validator flag | It's `check-done-id.py` regex over-matching the year in date-stamped `DONE-2026-04-30` (IRF-OPS-019); editing real data to green a tool bug = destruction. |
+
+## Next Actions (all optional — nothing blocks)
+1. **Conductor-only:** to take the heartbeat live, create `~/.claude/scheduled-tasks/daily-operational-heartbeat/.side-effects-enabled` (then validate one live fire manually).
+2. **IRF candidate (unfiled):** bound `check-done-id.py` regex to exclude date-scheme IDs (`DONE-\d{1,4}\b`), so date-stamped DONE IDs stop producing the permanent `DONE-2026` false-positive.
+
+## Risks & Warnings
+- The prompt-registry auto-capture hook re-dirties corpus on every prompt (self-healing; landed repeatedly this session). Next session: a `git status` showing only `data/prompt-registry/INST-INDEX-PROMPTORUM.md` is benign hook residue, not lost work.
+
+---
+
 # Agent Handoff: Universal Directory-Layout Standard (#26) + Fleet Conformance Sweep
 
 **From:** Session 2026-05-29 layout-standard-and-sweep | **Date:** 2026-05-29 | **Phase:** Complete (closeout executed)
