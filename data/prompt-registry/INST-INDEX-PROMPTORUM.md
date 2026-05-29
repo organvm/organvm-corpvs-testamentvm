@@ -3216,3 +3216,16 @@
 ### 486347cd-b82d-4b9d-81d3-d8fa07fbc9ab
 **Captured:** 2026-05-29T14:18:31 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
 
+
+### b49fa1dd-63f8-4caf-a5e2-7bc15418ad40
+**Captured:** 2026-05-29T14:27:27 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
+
+### 2c5378f2-62ec-43bb-8364-d49123976992
+**Captured:** 2026-05-29T14:28:49 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
+
+### 8f4dfa67-9bf5-404a-b486-a8e077290a44
+**Captured:** 2026-05-29T14:29:49 | **Prompts:** 62 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/8f4dfa67-9bf5-404a-b486-a8e077290a44-prompts.md`
+
