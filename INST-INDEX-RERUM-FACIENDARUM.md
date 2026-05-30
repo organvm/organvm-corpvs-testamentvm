@@ -2611,6 +2611,17 @@ Bookkeeping reconciliation (no status change, no file moved, no plan closed): th
 
 **Root-cause note (IRF candidate, unfiled):** G3 globs by calendar date, not by session — so any one session's archive is blocked by every *other* same-day session's unreferenced plans. Consider scoping G3 to the archiving session's own plan set (via session-id → plan provenance) rather than `${DATE}-*.md`. Until then, this ledger is the reconciliation surface. | S-2026-05-29-plan-provenance-reconciliation |
 
+### S-2026-05-30-portal-router-plan-provenance — orphan-plan reconciliation (2026-05-30)
+
+Bookkeeping reconciliation (no status change, no file moved, no plan closed): the date-scoped G3 archive gate flagged the portal-router promotion session's plans (an *earlier* 2026-05-30 home-scope session, 09:00–09:01) as same-day orphans blocking a *different* session's `/s-09-archive` — the IRF-SYS-240 sibling-plan pathology. The two plans below are back-referenced here to the work they advanced so the G3 slug-grep resolves truthfully. Both document EXECUTED work: a-i--skills PR #20 (*promote portal-router — cross-agent capability resolution*) squash-merged at `1a36d81` + SKILL.md `status: promoted` (domus `71edfea`); loop closed. The residual is **IRF-OPS-080 (corpvs issue #375, OPEN)** — pre-existing `validate`-job CI debt (3 skills with invalid frontmatter) the merge surfaced but correctly did not fix inline. (Note: the closeout was renamed `2026-05-30-closeout-…` → `closeout-2026-05-30-…` by a concurrent session to match the closeout convention; its content was preserved through the rename by the additive session-meta plans-mirror — the DONE-569 `--delete`-drop fix doing its job. Classification per `/closeout`: EXECUTED = has DONE/merged ref; IN-PROGRESS = open-IRF residual only.)
+
+| Plan slug | Advances | Class |
+|---|---|---|
+| `2026-05-30-handoff-portal-router-promotion-merge` | PR #20 merged `1a36d81`; residual IRF-OPS-080 (#375) | EXECUTED |
+| `closeout-2026-05-30-portal-router-promotion-merge` | PR #20 merged `1a36d81`; residual IRF-OPS-080 (#375) | EXECUTED |
+
+Remaining open work lives under IRF-OPS-080 (#375), not in these plans. | S-2026-05-30-post-restart-hanging-tasks |
+
 ### S-2026-05-28-universal-substrate — DONE-553 (2026-05-28)
 
 | **DONE-553** | SYS | **Universal substrate elevation — drift detector + regenerator made cross-agent.** Two structural moves: (1) drift detector script lifted from `~/.claude/hooks/` (Claude-only) to `~/.local/bin/` (universal), and wired into BOTH Claude PostToolUse AND Codex PostToolUse hooks (`~/.local/share/codex/hooks.json`); (2) regenerator now writes to chezmoi source paths (not runtime) and runs `chezmoi apply` to propagate, closing the source-runtime apply-revert drift class. Session-phases.yaml updated with `hooks:` field on each agent adapter, documenting per-agent hook wiring. Gemini and OpenCode stay advisory (no native hook surface). Live smoke-test passed — `~/.claude/chezmoi-source-drift.log` recorded a real DETECTED event for the very edit that triggered this work. domus@73d7f1f (drift detector universalization) + domus@(latest) (regenerator source-write). | S-2026-05-28-universal-substrate |
