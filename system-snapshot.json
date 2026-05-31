@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T08:40:28.634447+00:00",
+  "generated_at": "2026-05-31T17:29:01.914060+00:00",
   "system": {
     "total_repos": 148,
     "active_repos": 92,
@@ -539,7 +539,7 @@
         },
         {
           "name": "universal-mail--automation",
-          "status": "ARCHIVED",
+          "status": "PUBLIC_PROCESS",
           "tier": "standard",
           "ci": true
         },
@@ -1049,10 +1049,10 @@
     "total": 20
   },
   "promotion_pipeline": {
-    "ARCHIVED": 54,
+    "ARCHIVED": 53,
     "CANDIDATE": 1,
     "GRADUATED": 59,
     "LOCAL": 27,
-    "PUBLIC_PROCESS": 7
+    "PUBLIC_PROCESS": 8
   }
 }
