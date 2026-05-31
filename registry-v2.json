@@ -1518,14 +1518,14 @@
         {
           "name": "universal-mail--automation",
           "org": "organvm-iii-ergon",
-          "status": "ARCHIVED",
+          "status": "ACTIVE",
           "public": true,
           "type": "B2B",
           "description": "Email workflow automation and scheduling",
           "documentation_status": "DEPLOYED",
           "portfolio_relevance": "MEDIUM - Workflow automation",
           "dependencies": [],
-          "promotion_status": "ARCHIVED",
+          "promotion_status": "PUBLIC_PROCESS",
           "tier": "standard",
           "last_validated": "2026-02-24",
           "note": "Dissolved to materia-collider 2026-03-11",
@@ -1534,7 +1534,15 @@
           "platinum_status": true,
           "revenue_model": "subscription",
           "revenue_status": "pre-launch",
-          "functional_class": "APPLICATION"
+          "functional_class": "APPLICATION",
+          "promotion_history": [
+            {
+              "from_state": "ARCHIVED",
+              "to_state": "PUBLIC_PROCESS",
+              "timestamp": "2026-05-31T17:26:51.169457+00:00",
+              "reason": "Revival 2026-05-31; public product build (see IRF-OPS-084)"
+            }
+          ]
         },
         {
           "name": "mirror-mirror",
