@@ -1,0 +1,86 @@
+{
+  "date": "2026-06-01",
+  "collected_at": "2026-06-01T13:28:35.344691+00:00",
+  "validation": {
+    "registry_pass": true,
+    "registry_issues": [],
+    "dependency_pass": true,
+    "dependency_violations": 0,
+    "stale_repos": []
+  },
+  "ci": {
+    "total_checked": 60,
+    "passing": 0,
+    "failing": 0,
+    "unknown": 49,
+    "billing_locked": 11,
+    "billing_locked_repos": [
+      "organvm-i-theoria/recursive-engine--generative-entity",
+      "organvm-i-theoria/auto-revision-epistemic-engine",
+      "organvm-i-theoria/narratological-algorithmic-lenses",
+      "organvm-i-theoria/call-function--ontological",
+      "organvm-i-theoria/sema-metra--alchemica-mundi",
+      "organvm-i-theoria/cognitive-archaelogy-tribunal",
+      "organvm-i-theoria/.github",
+      "organvm-i-theoria/linguistic-atomization-framework",
+      "organvm-i-theoria/my-knowledge-base",
+      "organvm-i-theoria/styx-behavioral-economics-theory",
+      "organvm-i-theoria/conversation-corpus-engine"
+    ],
+    "failures": []
+  },
+  "engagement": {
+    "total_stars": 0,
+    "total_forks": 0,
+    "top_repos": {
+      "organvm-i-theoria/recursive-engine--generative-entity": {
+        "stars": 0,
+        "forks": 0,
+        "views_14d": 0,
+        "clones_14d": 0
+      },
+      "organvm-ii-poiesis/metasystem-master": {
+        "stars": 0,
+        "forks": 0,
+        "views_14d": 0,
+        "clones_14d": 0
+      },
+      "organvm-ii-poiesis/a-mavs-olevm": {
+        "stars": 0,
+        "forks": 0,
+        "views_14d": 0,
+        "clones_14d": 0
+      },
+      "organvm-iii-ergon/public-record-data-scrapper": {
+        "stars": 0,
+        "forks": 0,
+        "views_14d": 0,
+        "clones_14d": 0
+      },
+      "organvm-iv-taxis/orchestration-start-here": {
+        "stars": 0,
+        "forks": 0,
+        "views_14d": 0,
+        "clones_14d": 0
+      },
+      "organvm-iv-taxis/agentic-titan": {
+        "stars": 0,
+        "forks": 0,
+        "views_14d": 0,
+        "clones_14d": 0
+      },
+      "organvm-v-logos/public-process": {
+        "stars": 0,
+        "forks": 0,
+        "views_14d": 0,
+        "clones_14d": 0
+      },
+      "meta-organvm/organvm-corpvs-testamentvm": {
+        "stars": 0,
+        "forks": 0,
+        "views_14d": 0,
+        "clones_14d": 0
+      }
+    }
+  }
+}
