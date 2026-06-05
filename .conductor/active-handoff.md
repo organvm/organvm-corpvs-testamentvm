@@ -271,3 +271,45 @@ If next session finds state mismatch:
 6. Verify spec exists: `wc -l docs/specs/epistemic-engine/spec.md` → ~250 lines
 
 *— end envelope —*
+## 2026-05-27 — SessionStart Orientation Hook wired in workspace--superproject (Claude session)
+
+
+**From:** S-2026-05-27-session-start-hook | **Phase:** Complete (closeout executed)
+**Repo:** `4444J99/workspace--superproject` | **Branch:** `claude/issue-discovery-reporting-C5ZPZ` | **PR:** #4 (draft → main)
+**Closed via:** `.irf/outbox/closeout-S-2026-05-27-session-start-hook.md`
+
+### Current State
+
+- Hook + registration + gitignore whitelist committed and pushed to the branch; draft PR #4 open.
+- `.irf-cache/` is a read-only IRF clone the hook creates at SessionStart (gitignored).
+- `.irf/outbox/` now holds this handoff, the closeout, an IRF delta, and a README — **awaiting propagation** to the corpus by a write-scoped session.
+
+### What shipped
+
+| Artifact | Purpose |
+|----------|---------|
+| `.claude/hooks/session-start.sh` | web-gated, fail-soft: install pyyaml + orient to IRF (surface P0/P1) + flag outbox |
+| `.claude/settings.json` | registers the hook under `hooks.SessionStart` |
+| `.gitignore` | whitelist `.claude/hooks`, `.claude/settings.json`, `.irf/outbox/**` (were silently ignored) |
+| `CLAUDE.md` | new "Session Hooks" section documenting the hook + outbox propagation contract |
+
+### Next Actions (for a write-scoped session)
+
+1. Propagate `.irf/outbox/*` into the corpus per `.irf/outbox/README.md`:
+   - `irf-delta-*.md` → append to `INST-INDEX-RERUM-FACIENDARUM.md` `## Completed` (assign real next ID, verify against live index, append-only).
+   - `closeout-*.md` → `data/closeout-<session>.md`.
+   - `handoff-*.md` → append a dated section here in `.conductor/active-handoff.md`.
+   - Then delete the propagated files from the outbox and commit the clear.
+2. Review/merge PR #4. On merge to `main`, all future superproject web sessions use the hook.
+
+### Conflict Zones honored
+
+- `INST-INDEX-RERUM-FACIENDARUM.md` — not edited here (read-only clone); proposed row queued as a delta, append-only on propagation.
+- `.conductor/active-handoff.md` — this is an append-block, not a replacement.
+
+### Risks / Notes
+
+- Proposed IRF ID `IRF-OPS-082` is a *proposal* — the propagating session must assign the real next ID from the live IRF (max observed at orientation: IRF-OPS-081).
+- The IRF clone in the hook reached `github.com` in this environment; under a stricter network policy it degrades to a printed note (by design).
+
+*— end 2026-05-27 section —*
