@@ -3735,3 +3735,18 @@
 **Captured:** 2026-06-04T20:59:17 | **Prompts:** 32 | **Effort:** default
 **Archive:** `data/prompt-registry/sessions/8933e44a-302d-46dd-be48-2edf3d7a90d3-prompts.md`
 
+
+### 77474f86-dde5-4e6d-a996-1f200a6d99c7
+**Captured:** 2026-06-05T06:42:02 | **Prompts:** 7 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/77474f86-dde5-4e6d-a996-1f200a6d99c7-prompts.md`
+
+
+### 86eb7050-3bbb-4086-9da9-169281c530e2
+**Captured:** 2026-06-05T06:46:18 | **Prompts:** 2 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/86eb7050-3bbb-4086-9da9-169281c530e2-prompts.md`
+
+
+### 5e0fddb2-302e-4634-9450-675971c46625
+**Captured:** 2026-06-05T06:46:18 | **Prompts:** 3 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/5e0fddb2-302e-4634-9450-675971c46625-prompts.md`
+
