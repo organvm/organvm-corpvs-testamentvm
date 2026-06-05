@@ -3065,10 +3065,12 @@
       "repository_count": 5,
       "repositories": [
         {
-          "name": "domus-semper-palingenesis",
+          "name": "domus-genoma",
+          "renamed_from": "domus-semper-palingenesis",
+          "renamed_date": "2026-06-05",
           "org": "4444j99",
           "status": "ACTIVE",
-          "updated": "2026-04-13",
+          "updated": "2026-06-05",
           "public": true,
           "description": "Personal dotfiles and environment configuration managed by chezmoi. Shell environment, tool setup, secrets management, agent infrastructure.",
           "documentation_status": "DEPLOYED",
