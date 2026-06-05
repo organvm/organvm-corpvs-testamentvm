@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T09:39:22.854734+00:00",
+  "generated_at": "2026-06-05T20:01:31.195367+00:00",
   "system": {
     "total_repos": 149,
     "active_repos": 93,
@@ -981,7 +981,7 @@
       "infrastructure_count": 2,
       "repositories": [
         {
-          "name": "domus-semper-palingenesis",
+          "name": "domus-genoma",
           "status": "GRADUATED",
           "tier": "infrastructure",
           "ci": false
