@@ -18,7 +18,7 @@
 ### Governance
 - *Standard ORGANVM governance applies*
 
-*Last synced: 2026-05-23T00:26:31Z*
+*Last synced: 2026-06-04T11:30:37Z*
 
 ## Active Handoff Protocol
 
@@ -61,6 +61,8 @@ Library: `/Users/4jp/Code/organvm/praxis-perpetua/library`
 | system | any | session-handoff-avalanche | Session Handoff Avalanche |
 | system | any | system-loops | System Loops |
 | system | any | prompting-standards | Prompting Standards |
+| system | any | prompting-standards | Prompting Standards |
+| system | any | prompting-standards | Prompting Standards |
 | system | any | background-task-resilience | background-task-resilience |
 | system | any | context-window-conservation | context-window-conservation |
 | system | any | session-self-critique | session-self-critique |
@@ -84,28 +86,28 @@ Linked skills: SOP-TRIADIC-REVIEW-PROTOCOL, cicd-resilience-and-recovery, contin
 
 ## Task Queue (from pipeline)
 
-**293** pending tasks | Last pipeline: unknown
+**220** pending tasks | Last pipeline: unknown
 
+- `fc2ec4545206` 1 (prior session) — Identified ci.yml `disabled_manually` + matrix-check-name mismatch [graphql, node, terraform]
+- `09b6a97a46cc` 2 (loop turn 1) — Discovered parallel session's #611 supersedes my `--ci` partial fix [graphql, node, terraform]
+- `99fffd720e2d` 3 (sleep) — ScheduleWakeup 1500s; conductor signed off [graphql, node, terraform]
+- `b345836f26f5` 4 (this turn) — Corrected framing: merged-to-origin is completion. PUT ruleset to disabled, REST-merged #611+#609+#610 i [graphql, node, terraform]
 - `e374137b1279` Session Close-Out — 2026-05-17 (IRF-DOM-048 engine fix execution) [pytest]
 - `cf0e6a3618d5` Vacuum Field Burn — 2026-04-22 Continuation (COMPLETED) [astro, chezmoi, python]
 - `32bbf53c387b` Contains a specific, concrete, verifiable build/create/implement action [python]
 - `0cf55989523a` Not a conversational fragment [python]
-- `2132a5f8a357` Plausibly unfulfilled (not from a session that completed the work) [python]
-- `df6c41742d78` Not a governance rule or behavioral constraint [python]
-- `752ce7f34b39` Loads triage-batch-1.json [python]
-- `62a994d3e34f` Applies classification rules in priority order [python]
-- ... and 285 more
+- ... and 212 more
 
-Cross-organ links: 168 | Top tags: `mcp`, `python`, `rollup`, `chezmoi`, `bash`
+Cross-organ links: 324 | Top tags: `python`, `mcp`, `chezmoi`, `bash`, `pytest`
 
 Run: `organvm atoms pipeline --write && organvm atoms fanout --write`
 
 
 ## System Density (auto-generated)
 
-AMMOI: 25% | Edges: 0 | Tensions: 0 | Clusters: 0 | Adv: 27 | Events(24h): 37975
-Structure: 8 organs / 148 repos / 1654 components (depth 17) | Inference: 0% | Organs: META-ORGANVM:63%, ORGAN-I:53%, ORGAN-II:48%, ORGAN-III:54% +5 more
-Last pulse: 2026-05-23T00:26:28 | Δ24h: n/a | Δ7d: n/a
+AMMOI: 25% | Edges: 0 | Tensions: 0 | Clusters: 0 | Adv: 27 | Events(24h): 38770
+Structure: 8 organs / 149 repos / 1654 components (depth 17) | Inference: 0% | Organs: META-ORGANVM:63%, ORGAN-I:53%, ORGAN-II:48%, ORGAN-III:55% +5 more
+Last pulse: 2026-06-04T11:30:28 | Δ24h: n/a | Δ7d: n/a
 
 
 ## Dialect Identity (Trivium)
@@ -137,6 +139,8 @@ Nature demands a documentation counterpart. This formation maintains its narrati
 *Compliance: Formation is currently void.*
 
 <!-- ORGANVM:AUTO:END -->
+
+
 
 
 
