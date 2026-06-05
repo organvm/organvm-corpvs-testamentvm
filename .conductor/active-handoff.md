@@ -1,3 +1,36 @@
+# Agent Handoff: G1-Violation Reconciliation — 48-file stash triage landed (IRF-SYS-245 filed)
+
+**From:** Session 2026-06-05 g1-reconcile (worktree `wip/g1-reconcile`) | **Date:** 2026-06-05 | **Phase:** Complete (closeout + handoff executed)
+**Supersedes (state-wise, not content):** the heartbeat-live-flip envelope below remains accurate for its own scope; this envelope only resolves the standing G1-parity violation flagged 2026-06-04 by `session-auto-archive --check` during the bound mcp-toggles closeout.
+
+## Current State (verified against remotes)
+corpvs main **0/0 parity** at `d04754b` (`main == origin/main` verified post-push). **G1 gate PASSES for corpvs** (`✓ G1: organvm-corpvs-testamentvm clean (branch=main)`). Branch `wip/g1-reconcile` pushed; worktree `.worktrees/g1-reconcile` removed at close.
+
+## Completed Work (This Session)
+The 48 dirty files (6 modified + 42 untracked) stash-popped into worktree `.worktrees/g1-reconcile` were triaged and ALL kept — zero restores needed:
+- **Prompt-registry data** (`b23c40b` + refresh `51ff303`→rebased): 42 `data/prompt-registry/sessions/*-prompts.md` archives + 470-line INST-INDEX-PROMPTORUM.md append. Decision basis: 144 session files already tracked (precedent), emitter `~/.claude/hooks/session-prompt-capture.sh` intentionally targets this repo (canonical prompt-registry surface — *Produces → ALL: prompt-registry*). Two captures (8933e44a, 2fe996ee) superseded mid-flight by fresher hook re-emissions — adopted the fresher copies.
+- **registry-v2.json** (`e63b165`): targeted `_portal` entry append (PERSONAL infra, count 4→5) from portal-consolidation 2026-06-01 plan D1.
+- **Auto-gen sync** (`8cf88be`): AGENTS/CLAUDE/GEMINI.md — one `organvm refresh` run (2026-06-04T11:30:37Z), identical hunks.
+- **Plan addendum** (`942f2ac`): MEMORY.md-trim fold-in to universal-layout plan.
+- **IRF-SYS-245 filed** (`e3b6faf`): G2 gate scans only `$HOME/.claude/plans` (maxdepth 1) → repo-scoped closeouts structurally invisible. Verified against script source.
+- **Merged --no-ff to main twice** (`30aeb47`, then IRF merge → `d04754b` after absorbing bot commit), per-session push authorization granted. Also cleared the stranded `2279c2c` (IRF-SYS-244).
+
+## Key Decisions
+| Decision | Rationale |
+|----------|-----------|
+| Commit session archives as registry data, NOT gitignore | Index↔archive pairing is one unit; 144-file tracked precedent; emitter destination is correct by design (fix-bases test passed — no base to fix) |
+| Adopt fresher hook re-emissions over stash copies | The hook re-fired into the primary checkout mid-reconciliation; stash copies were stale snapshots of still-running sessions |
+| Absorb bot commits by rebase (branch) / merge (main) | Metrics workflow committed back on both pushes (`4eced16`, `d823c24`) — the IRF-SYS-240 living-repo race, handled without force |
+
+## Next Actions
+1. **IRF-SYS-245** (P3, conductor-gated): widen G2 + `emit_session_receipt` to multi-root closeout search (candidate resolver: `build-unified-plan-index`).
+2. **Generator dedup blemish** (unfiled, cosmetic): `prompting-standards` appears 3× in CLAUDE.md Active Directives — upstream directives-data dedup gap in `generate-claude-md.py`'s source data.
+
+## Risks & Warnings
+- The prompt-capture hook WILL re-dirty `data/prompt-registry/` in the primary checkout on future session starts — benign residue (see 2026-05-29 envelope warning below), now also the *expected* G1 churn mode per IRF-SYS-240.
+
+---
+
 # Agent Handoff: Heartbeat Live-Flip + Cascade Fixes (DONE-566/567/568)
 
 **From:** Session 2026-05-29 heartbeat-live-flip (S-2026-05-29-heartbeat-live-flip) | **Date:** 2026-05-29 | **Phase:** Complete (closeout + handoff executed)
