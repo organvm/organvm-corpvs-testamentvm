@@ -17,8 +17,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Total repositories | 148 |
-| Implementation status | 92 ACTIVE, 54 ARCHIVED |
+| Total repositories | 149 |
+| Implementation status | 93 ACTIVE, 54 ARCHIVED |
 | GitHub organizations | 8 (7 organ orgs + 1 meta-org) |
 | Published essays | 29 (~6K+ words) |
 | Total documentation | ~410K+ words |
@@ -73,7 +73,7 @@
 
 I design environments where creative organisms grow — and then I document the process of growing them.
 
-My practice centers on the eight-organ system: a documented infrastructure coordinating theory, generative art, commercial products, governance, public process, community, and marketing across 148 repositories. I don't produce individual artworks. I produce the *systems* that generate, coordinate, and sustain creative work — and the visible record of how those systems are built is itself the primary creative output.
+My practice centers on the eight-organ system: a documented infrastructure coordinating theory, generative art, commercial products, governance, public process, community, and marketing across 149 repositories. I don't produce individual artworks. I produce the *systems* that generate, coordinate, and sustain creative work — and the visible record of how those systems are built is itself the primary creative output.
 
 The process of creation is the product. The 42 essays I've published aren't reflections on the work; they ARE the work — the creative process rendered into prose in real time. The governance rules — registry design, dependency graphs, promotion pipelines — aren't bureaucratic overhead; they're generative constraints, the way a composer's harmonic rules shape what melodies can emerge. Every architectural decision is an artistic decision.
 
@@ -178,7 +178,7 @@ Frame the same body of work differently for different audiences:
 
 ### 1. Systems Artist (art grants, residencies)
 - **Narrative:** "I build creative systems — the governance IS the artwork"
-- **Evidence:** 148-repo eight-organ system as living creative work, 42 essays, MFA
+- **Evidence:** 149-repo eight-organ system as living creative work, 42 essays, MFA
 - **Targets:** Creative Capital, Artadia, FCA, NYSCA/NYFA, Eyebeam, Fire Island, MacDowell
 
 ### 2. Educator (education grants, fellowships)
@@ -212,7 +212,7 @@ What you can claim, with proof:
 | Claim | Evidence | Verification |
 |-------|----------|-------------|
 | 100 repos across 8 orgs | registry-v2.json | `jq '.summary.total_repos' registry-v2.json` → 100 |
-| 92 ACTIVE, 54 ARCHIVED | registry-v2.json | implementation_status_distribution field |
+| 93 ACTIVE, 54 ARCHIVED | registry-v2.json | implementation_status_distribution field |
 | 42 published essays | public-process/_posts/ | `ls _posts/ \| wc -l` → 42 |
 | ~6K+ words in essays | Word count of _posts/ | Measured at deploy |
 | ~410K+ total words | Aggregate across all repos | system-metrics.json |

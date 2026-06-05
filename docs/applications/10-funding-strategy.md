@@ -41,7 +41,7 @@ Different funders respond to different framings. Same body of work, four lenses:
 - **Narrative:** "Teaching complex systems to diverse audiences IS my creative practice"
 
 ### 2. Multimedia Artist / Systems Artist
-- 148-repo eight-organ system as living creative work, 42 essays, MFA
+- 149-repo eight-organ system as living creative work, 42 essays, MFA
 - **Targets:** Creative Capital, Artadia, FCA, NYSCA/NYFA, residencies
 - **Narrative:** "I build creative systems — the governance IS the artwork"
 
@@ -186,7 +186,7 @@ The $60/hr floor from early planning is **significantly below market** (FILE-058
 | AI Readiness Audit | $2,500–$5,000 | Entry point, 40-60% convert to paid work |
 | AI Integration Sprint | $5,000–$15,000 | Core offering |
 | Monthly AI Advisory | $3,000–$7,500 | Retainer model |
-| Custom AI System Build | $10,000–$50,000+ | The 148-repo system IS the credential |
+| Custom AI System Build | $10,000–$50,000+ | The 149-repo system IS the credential |
 | Workshop Facilitation | $500–$2,000/session | Teaching experience as differentiator |
 | Documentation Consulting | $2,500–$15,000/project | ~6K+ words proves capacity |
 

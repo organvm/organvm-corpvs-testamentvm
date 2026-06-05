@@ -10,7 +10,7 @@
 
 | Dimension | Evidence |
 |-----------|----------|
-| Scale | 148 repositories across 8 GitHub organizations |
+| Scale | 149 repositories across 8 GitHub organizations |
 | Architecture | Eight-organ model: Theory → Art → Commerce + Orchestration, Discourse, Community, Distribution, Meta |
 | Governance | Formal promotion state machine (LOCAL→CANDIDATE→PUBLIC_PROCESS→GRADUATED→ARCHIVED) |
 | Dependencies | 43 validated cross-organ edges, 0 circular dependencies, 0 back-edge violations |

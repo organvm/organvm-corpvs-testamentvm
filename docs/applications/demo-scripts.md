@@ -16,7 +16,7 @@ otherwise noted.
 
 **Audience:** Grant panels, portfolio reviewers, anyone evaluating system scope.
 **Goal:** Establish that this is a real, operational system — not a spec document
-or a folder of side projects. Show that 148 repositories across 8 organs are
+or a folder of side projects. Show that 149 repositories across 8 organs are
 running, monitored, and governed by a unified CLI.
 
 ### Script
@@ -66,7 +66,7 @@ organvm status
   managed by a single person using AI as a force multiplier."
 - "The soak test is a 30-day stability trial — the system has to run
   autonomously with zero critical incidents. We are 17 days in."
-- "92 active repos, each with CI, a `seed.yaml` automation contract, and a
+- "93 active repos, each with CI, a `seed.yaml` automation contract, and a
   registry entry."
 
 **Transition cue:** "That summary shows the heartbeat. Let me show you what the
@@ -421,7 +421,7 @@ organvm metrics calculate
 
 ```
 Metrics written to .../organvm-corpvs-testamentvm/system-metrics.json
-  Repos: 103 (92 ACTIVE)
+  Repos: 103 (93 ACTIVE)
   Organs: 8/8 operational
   CI: 94
   Dependencies: 43 edges

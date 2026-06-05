@@ -68,7 +68,7 @@ Profile strengths mapped against role requirements:
 **Requirements:** 5+ years experience, expert React (hooks, context, suspense), full-stack with UX specialization, LLM and prompt engineering experience, safety/compliance project experience. Nice-to-have: CLI tools, container orchestration, TypeScript at scale.
 
 **Why this fits:**
-- Passion for developer tools demonstrated by building orchestration-start-here as entry point to 148-repo system
+- Passion for developer tools demonstrated by building orchestration-start-here as entry point to 149-repo system
 - LLM orchestration patterns (chaining, tool-use) central to agentic-titan's architecture
 - Container orchestration and CLI experience from CI/CD workflows and validation scripts
 - "Contribute across the stack from front-end UI to back-end infrastructure" matches full-stack organ system
@@ -96,7 +96,7 @@ Profile strengths mapped against role requirements:
 - "Designing agent harnesses" is exactly what agentic-titan's 18-phase test framework does
 - Multi-turn and tool-using system evaluation maps to orchestration validation (dependency checks, health audits, cross-reference verification)
 - "Prototyping with users to building reliable pipelines" mirrors the progression from genesis docs to automated workflows
-- Evaluation framework building = what platinum-validation.py does across 148 repos
+- Evaluation framework building = what platinum-validation.py does across 149 repos
 
 **Spotlight repos:** agentic-titan, recursive-engine--generative-entity, a-i-council--coliseum, organvm-corpvs-testamentvm
 

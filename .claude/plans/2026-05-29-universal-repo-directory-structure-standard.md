@@ -71,3 +71,11 @@ All planned work complete + propagated.
 - **Evidence:** ledger `docs/research/2026-05-29-layout-tech-debt-ledger.md`; closeout `.claude/plans/2026-05-29-closeout-universal-layout-sweep.md`.
 
 No DONE-NNN allocated (cross-org fleet work, not a single corpvs IRF item); closure evidenced by the zero-violation report + push parity above.
+
+
+
+## Index-line detail folded in from MEMORY.md (2026-06-01 trim)
+
+- corpvs main was empirically UNPROTECTED (HTTP 404) — the push-auth ceremony guards nothing there, yet the harness classifier still gated it once on ambiguous consent.
+- The earlier `growth-auditor` violation count was a colocated-test counting artifact (not real layout debt); the auditor was recalibrated to #26's actual text: discretionary-only root-clutter, distinct-component count, framework/native/cache pruning, vendored/declaration/static-site carve-outs.
+- 6 repos HELD per "unless active currently": 5 active feature branches carrying others' WIP + digital-income rebase-conflict — commits left safe-local, not pushed.

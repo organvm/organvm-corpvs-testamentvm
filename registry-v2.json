@@ -3062,7 +3062,7 @@
       "completion": "100%",
       "public_visibility": "MIXED",
       "portfolio_angle": "Infrastructure discipline \u2014 reproducible environments, agent-aware configuration, XDG compliance. Includes the FORMAL stratum (\u03c3_E): axiomatic ground truth for the entire system.",
-      "repository_count": 4,
+      "repository_count": 5,
       "repositories": [
         {
           "name": "domus-semper-palingenesis",
@@ -3137,6 +3137,24 @@
           "ci_workflow": null,
           "platinum_status": false,
           "note": "Client engagement for Rob Bonavoglia (@HokageChess); landing page + business model + course catalog. Recreated 2026-04-25 from earlier dissolved work. Distinct from archived organvm-iii-ergon/hokage-chess (dissolved to materia-collider 2026-03-11)."
+        },
+        {
+          "name": "_portal",
+          "org": "local",
+          "status": "ACTIVE",
+          "updated": "2026-06-01",
+          "public": false,
+          "description": "Dev-system membrane \u2014 consolidated _-namespace. Physical home of all IN-set dev substrates (skills, memory, config, ontology, health, governance, runtime).",
+          "documentation_status": "SKELETON",
+          "portfolio_relevance": "STANDARD",
+          "dependencies": [],
+          "promotion_status": "LOCAL",
+          "tier": "infrastructure",
+          "last_validated": "2026-06-01",
+          "implementation_status": "ACTIVE",
+          "ci_workflow": null,
+          "platinum_status": false,
+          "note": "Portal consolidation 2026-06-01. Local-only (no remote). Registered under 11 canonical surfaces per portal-consolidation plan D1."
         }
       ]
     },
