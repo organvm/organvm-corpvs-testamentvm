@@ -6,16 +6,16 @@
 
 ---
 
-organ-audit.py runs monthly health checks across 148 repositories. platinum-validation.py sweeps the full system against 1,267 audited links and 62 dependency edges. Five GitHub Actions workflows enforce constitutional constraints on every merge — no circular dependencies, no back-edges, transitive depth capped at 4. These are evaluation systems built because manual review doesn't scale. That's the same problem the Software Engineer, Applied Evals role at OpenAI solves.
+organ-audit.py runs monthly health checks across 149 repositories. platinum-validation.py sweeps the full system against 1,267 audited links and 62 dependency edges. Five GitHub Actions workflows enforce constitutional constraints on every merge — no circular dependencies, no back-edges, transitive depth capped at 4. These are evaluation systems built because manual review doesn't scale. That's the same problem the Software Engineer, Applied Evals role at OpenAI solves.
 
 ## Why Applied Evals
 
-Evaluation is governance. When you're evaluating multi-turn and tool-using systems, you're deciding what "good" means for an agent operating autonomously. The eight-organ system required making exactly these decisions for 148 repositories across 8 organizations: What does a healthy repo look like? What dependency patterns indicate architectural risk? When should a promotion be blocked? The answers became the automated validation described above — running continuously without human intervention.
+Evaluation is governance. When you're evaluating multi-turn and tool-using systems, you're deciding what "good" means for an agent operating autonomously. The eight-organ system required making exactly these decisions for 149 repositories across 8 organizations: What does a healthy repo look like? What dependency patterns indicate architectural risk? When should a promotion be blocked? The answers became the automated validation described above — running continuously without human intervention.
 
 ## What I'd Bring
 
 **Evaluation frameworks, battle-tested.** I built a multi-layered validation system for the eight-organ system:
-- **organ-audit.py:** Monthly health monitoring across all 148 repos — checks documentation status, link integrity, cross-reference accuracy
+- **organ-audit.py:** Monthly health monitoring across all 149 repos — checks documentation status, link integrity, cross-reference accuracy
 - **platinum-validation.py:** Full system sweep verifying every repo against 1,267 audited links and 62 dependency edges
 - **validate-dependencies workflow:** Blocks merges that would violate constitutional constraints (no circular dependencies, no back-edges, transitive depth <= 4)
 
@@ -32,7 +32,7 @@ These aren't toy scripts. They enforce quality at a scale where eyeballing it do
 - **agentic-titan:** 1,095 tests, 18 phases, agent evaluation harness (organvm-iv-taxis/agentic-titan)
 - **recursive-engine:** 1,254 tests, 85% coverage (organvm-i-theoria/recursive-engine--generative-entity)
 - **a-i-council--coliseum:** Multi-agent deliberation requiring synthesis evaluation (organvm-ii-poiesis/a-i-council--coliseum)
-- **organvm-corpvs-testamentvm:** Validation infrastructure for 148-repo system (meta-organvm/organvm-corpvs-testamentvm)
+- **organvm-corpvs-testamentvm:** Validation infrastructure for 149-repo system (meta-organvm/organvm-corpvs-testamentvm)
 - **Portfolio:** https://4444j99.github.io/portfolio/
 
 I don't just build AI agents; I build the evaluation infrastructure that makes them reliable.

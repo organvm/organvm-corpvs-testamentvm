@@ -39,7 +39,7 @@ This is the **exhaustive master list** — every opportunity discovered across 5
 
 - **Amount:** EUR 10,000 per category + Golden Nica trophy. Categories include Digital Music & Sound Art, Computer Animation, and new AI-related categories.
 - **Deadline:** March 4, 2026. Free to submit.
-- **Why it fits:** The 148-repo governance-as-art system is exactly what Ars Electronica celebrates — art that is formally innovative through technology. The organ system as a living creative work built with AI-conductor methodology is a strong Ars Electronica narrative.
+- **Why it fits:** The 149-repo governance-as-art system is exactly what Ars Electronica celebrates — art that is formally innovative through technology. The organ system as a living creative work built with AI-conductor methodology is a strong Ars Electronica narrative.
 - **URL:** https://ars.electronica.art/prix/en/opencall/
 - **Benefits cliff:** International prize, lump-sum. SNAP-safe.
 
@@ -62,7 +62,7 @@ This is the **exhaustive master list** — every opportunity discovered across 5
 ### Awesome Foundation NYC Chapter
 
 - **Amount:** $1,000, no strings attached, monthly
-- **Why it fits:** Zero restrictions. The 148-repo organ system is exactly the kind of "awesome" project they fund. No reporting requirements.
+- **Why it fits:** Zero restrictions. The 149-repo organ system is exactly the kind of "awesome" project they fund. No reporting requirements.
 - **URL:** https://www.awesomefoundation.org/en/chapters/nyc
 - **Benefits cliff:** SNAP-safe.
 
@@ -70,7 +70,7 @@ This is the **exhaustive master list** — every opportunity discovered across 5
 
 - **Amount:** Up to $150,000 per project (up to 20 grants awarded)
 - **Deadline:** March 2, 2026 at 12:00 ET (application portal opened February 2)
-- **Why it fits:** "Bold ideas in the performing arts that engage digital tools, innovative data practices and emerging production methods." The organ system's AI-conductor methodology IS an emerging production method. Community salons (ORGAN-VI) have performative dimensions. The governance-as-choreography metaphor is genuine — coordinating 148 repos through documented governance rules IS choreography of creative production. **HIGHEST SINGLE AMOUNT IN THE PIPELINE.** Even at 7/10 fit, the expected value justifies the application investment.
+- **Why it fits:** "Bold ideas in the performing arts that engage digital tools, innovative data practices and emerging production methods." The organ system's AI-conductor methodology IS an emerging production method. Community salons (ORGAN-VI) have performative dimensions. The governance-as-choreography metaphor is genuine — coordinating 149 repos through documented governance rules IS choreography of creative production. **HIGHEST SINGLE AMOUNT IN THE PIPELINE.** Even at 7/10 fit, the expected value justifies the application investment.
 - **Performing arts framing challenge:** The primary criteria specify "performing arts" — the organ system is systems art, not performance per se. However, "innovative data practices and emerging production methods" is a strong secondary match. Frame ORGAN-VI community salons as performative, governance as choreography, and the public-process essays as performed documentation.
 - **URL:** https://www.dorisduke.org/grants/projects/artists-make-technology-lab
 - **Benefits cliff:** $150K → well above all thresholds. Essential Plan bridge. Call NYLAG.
@@ -95,7 +95,7 @@ This is the **exhaustive master list** — every opportunity discovered across 5
 
 - **Amount:** $3,000 (5 grants per year; pipeline reopened January 2026)
 - **Eligibility:** Neurodivergent and disabled creators. Formal diagnosis NOT required.
-- **Why it fits:** Broad creative fields. The 148-repo system + 42 essays is exactly what they support. Apply immediately — only 5 grants/year.
+- **Why it fits:** Broad creative fields. The 149-repo system + 42 essays is exactly what they support. Apply immediately — only 5 grants/year.
 - **URL:** https://stimpunks.org/creators/grant/
 - **Benefits cliff:** SNAP-safe.
 

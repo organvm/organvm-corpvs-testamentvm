@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated": "2026-06-04T09:50:50.033207+00:00",
+  "generated": "2026-06-05T01:02:59.978998+00:00",
   "computed": {
-    "total_repos": 148,
-    "active_repos": 92,
+    "total_repos": 149,
+    "active_repos": 93,
     "archived_repos": 54,
     "total_organs": 10,
     "operational_organs": 10,
@@ -44,7 +44,7 @@
       },
       "PERSONAL": {
         "name": "Personal / Liminal",
-        "repos": 4
+        "repos": 5
       },
       "META-ORGANVM": {
         "name": "Meta",
@@ -52,7 +52,7 @@
       }
     },
     "implementation_status": {
-      "ACTIVE": 92,
+      "ACTIVE": 93,
       "ARCHIVED": 54,
       "PROTOTYPE": 2
     },

@@ -35,7 +35,7 @@ These targets align most strongly with the actual profile — a systems artist b
 - **Deadline:** ~~**March 1, 2026**~~ (via Submittable)
 - **Amount:** $15,000 unrestricted (3 awardees per cycle)
 - **Framing:** Multimedia Artist — the eight-organ system as living creative work, governance-as-art
-- **Lead evidence:** 148-repo system, MFA, portfolio site, 49 essays
+- **Lead evidence:** 149-repo system, MFA, portfolio site, 49 essays
 - **Application URL:** https://artadia.org/award_schedule/new-york/
 - **Eligibility:** Contemporary visual artist, NYC-based, work presented in contemporary art context
 - **Fit score:** 8/10 (see [assessment](./09-qualification-assessment.md))
@@ -388,7 +388,7 @@ No applications needed — build this pipeline through direct outreach and platf
 
 ### 4.1 — AI Systems Consulting
 - **Rate:** $100–125/hr minimum, project-based preferred ($2,500–$15,000)
-- **Credential:** The 148-repo system IS the credential
+- **Credential:** The 149-repo system IS the credential
 - **Market:** AI orchestration market $47–52B by 2030 (Gartner)
 - **Action:** Register on Toptal, Contra, Working Not Working. LinkedIn outreach (15-30 personalized messages/day when ready).
 
