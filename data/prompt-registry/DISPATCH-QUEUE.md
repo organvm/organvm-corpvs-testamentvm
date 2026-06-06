@@ -42,7 +42,7 @@
 - **[P1 0.59]** `ATM-020512` (2026-04-05, organ-ii, housing) — ────────────────────────────────────── fortify-organvm-postmortem ── ❯ It's also my estimation of the multiverse existing and phasing     multiple paths towards ideal and it's an estimation of life...
 - **[P1 0.59]** `ATM-023972` (2026-04-21, organ-vi, housing) — Like just my base my roots is essentially what it was and then it'll develop you know if we get four properties for the nonprofit and it just blows up and I wanna live in the castle then yeah I'll ...
 - **[P1 0.59]** `ATM-024147` (2026-04-21, health, security) — Why does Google keep revoking the password? Why do I have to keep qualifying with Google? Why is this not set forever? Why is this not fixed? all of this needs completion:  "   Still open    - BACK...
-- **[P1 0.59]** `ATM-024202` (2026-04-21, security, UNIVERSAL) — **Docker is uninstalled** (2026-04-18), so the Docker MCP Gmail server that used this password is gone.  ### What Remains Unresolved (Requires Human Action)  **The app password `dxmz yydz pbmo shjk...
+- **[P1 0.59]** `ATM-024202` (2026-04-21, security, UNIVERSAL) — **Docker is uninstalled** (2026-04-18), so the Docker MCP Gmail server that used this password is gone.  ### What Remains Unresolved (Requires Human Action)  **The app password `<redacted-gmail-app-pw-2026-06-06>...
 - **[P1 0.59]** `ATM-012069` (2026-03-31, meta, health) — Check system health and resources ✦ Following the Superproject Topology Audit SOP, I have   conducted a complete analysis of the meta-organvm   repository.    Superproject Topology Audit: META-ORGA...
 - **[P1 0.59]** `ATM-012084` (2026-03-31, meta, health) — Check system health and resources ✦ Following the Superproject Topology Audit SOP, I have   conducted a complete analysis of the meta-organvm   repository.    Superproject Topology Audit: META-ORGA...
 - **[P1 0.59]** `ATM-012112` (2026-03-31, meta, health) — Check system health and resources   ✦ Following the Superproject Topology Audit SOP, I have     conducted a complete analysis of the meta-organvm     repository.      Superproject Topology Audit: M...
@@ -409,7 +409,8 @@
 - **[P2 0.42]** `ATM-000566` (2025-12-19, housing, UNIVERSAL) — heres the thing most if not all repos/ tools live on github as the master
 - **[P2 0.42]** `ATM-009384` (2026-03-30, personal) — **Run** `gh auth login` with OAuth to establish   `gh`-managed credentials with full scopes
 - **[P2 0.42]** `ATM-003027` (2026-03-09, financial) — Lane 7 report: "• Outcome    Lane 6 is implemented in the working tree. The canonical internal money unit is now integer   cents
-- **[P2 0.42]** `ATM-021923` (2026-04-14, UNIVERSAL) — anything else outside of the system removed (billing and         external factors not directly relevant) ammend as such
+- **[P2 0.42]** `ATM-021923` (2026-04-14, UNIVERSAL) — anything else outside of the system removed (billing and    
+     external factors not directly relevant) ammend as such
 - **[P2 0.42]** `ATM-002964` (2026-03-09, housing) — Now we have to devise how this thing begins to live in reality.
 - **[P2 0.42]** `ATM-009182` (2026-03-28, health, personal) — **alchemia-ingestvm** -- "across 8 GitHub." completed to "...organizations. Detects degraded states, tracks cross-repo dependency health, and surfaces actionable alerts via structured observability...
 - **[P2 0.42]** `ATM-005083` (2026-03-21, health) — let's let that work out the feedback
@@ -506,7 +507,7 @@
 - **[P2 0.35]** `ATM-001065` (2025-12-28, security) — OAuth creds/tokens moved entirely into 1Password-backed env loading (and removed from the repo)
 - **[P2 0.35]** `ATM-000975` (2025-12-28, security) — 1password access
 - **[P2 0.35]** `ATM-000286` (2025-12-18, security) — 4jp@Mac ~ % sudo chown -R 4jp:staff /opt/homebrew Password: 4jp@Mac ~ % sudo chmod -R u+rwX /opt/homebrew 4jp@Mac ~ % xcode-select
-- **[P2 0.35]** `ATM-000209` (2025-12-16, security) — password: aqdf payj hsjg nfea
+- **[P2 0.35]** `ATM-000209` (2025-12-16, security) — password: <redacted-gmail-app-pw-2026-06-06>
 - **[P2 0.35]** `ATM-000723` (2025-12-23, UNIVERSAL) — i also want github, jules, all git associates (that are github native and dont require different logins), and then any others that dont cause those looping
 - **[P2 0.35]** `ATM-000318` (2025-12-18, relationships) — yes, continue to build this thing out, give mother and father personas and divy up their domains
 - **[P2 0.34]** `ATM-006843` (2026-03-25, meta, organ-iii) — <bash-stdout>Complete login in the Render Dashboard with code: C61Z-76EG-564D-11XV  Opening your browser to:  	https://dashboard.render.com/device-authorization/C61Z-76EG-564D-11XV   Waiting for lo...
@@ -2156,8 +2157,10 @@
 - **[P1 0.51]** `ATM-021496` (2026-04-09, meta) — That was   necessary because the old pointers were wrong, and I used the repo’s own sys-heartbeat CLI for the heartbeat   corrections.    python3 bin/piece --validate passes. python3 bin/sys-conver...
 - **[P1 0.51]** `ATM-022671` (2026-04-16, personal, UNIVERSAL) — 4444J99/portfolio#85 — dompurify 3.3.3 → 3.4.0       - Type: Dependabot security fix (moderate severity)      - Your role: Code owner, review requested      - Action: Review and merge — this is a s...
 - **[P1 0.51]** `ATM-008266` (2026-03-27, employment, naming) — Configure the App:       * Application name: Sovereign Systems CMS       * Homepage URL: https://elevate-align-spiral.netlify.app       * Authorization callback URL:         https://elevate-align-s...
-- **[P1 0.51]** `ATM-021704` (2026-04-13, meta) — assume three hardening/fortifying   personas
-- **[P1 0.51]** `ATM-021705` (2026-04-13, meta) — in round robin, question, critique,             expand
+- **[P1 0.51]** `ATM-021704` (2026-04-13, meta) — assume three hardening/fortifying 
+  personas
+- **[P1 0.51]** `ATM-021705` (2026-04-13, meta) — in round robin, question, critique,           
+  expand
 - **[P1 0.51]** `ATM-009200` (2026-03-28, personal, UNIVERSAL) — **Multimedia Specialist** bullet (the flagged one): "...fundraising through." -> "...fundraising through multi-channel donor engagement and event-driven campaigns."  **PDF build result**: 1 page, 2...
 - **[P1 0.51]** `ATM-001661` (2026-02-02, naming) — Document Requirements  - Title the document "Repository Guidelines". - Use Markdown headings (#, ##, etc.) for structure. - Keep the document concise. 200-400 words is optimal. - Keep explanations ...
 - **[P1 0.51]** `ATM-018019` (2026-04-02, meta, enforcement) — Rule Break (S52): Left Priority: N/A in IRF-GRC-002 and Owner: N/A in IRF-OPS-012/013
@@ -4602,7 +4605,8 @@
 - **[P2 0.44]** `ATM-010825` (2026-03-31, meta) — Preserve current frontend data shape - don't break existing consumers
 - **[P2 0.44]** `ATM-010957` (2026-03-31, meta) — Preserve current frontend data shape - don't break   existing consumers
 - **[P2 0.44]** `ATM-011287` (2026-03-31, UNIVERSAL) — ❯ multiversal paths diverge in a forest: you split your consciousness into all potential paths, travel to the end of time, then return to bestow your wisdom upon us; what   does thee suggest?❯ If y...
-- **[P2 0.44]** `ATM-021924` (2026-04-14, UNIVERSAL) — still require noting,       but if they aint holding us up, we move on with those tasks still hung;
+- **[P2 0.44]** `ATM-021924` (2026-04-14, UNIVERSAL) — still require noting,  
+     but if they aint holding us up, we move on with those tasks still hung;
 - **[P2 0.44]** `ATM-019363` (2026-04-04, meta, UNIVERSAL) — agentkit = contrib--coinbase-agentkit —      byte-identical directories, neither tracked as      submodule. One must go.
 - **[P2 0.44]** `ATM-019514` (2026-04-04, meta, UNIVERSAL) — **New derivation** — add to `derivations/`, must reference which axioms it      depends on
 - **[P2 0.44]** `ATM-015877` (2026-04-01, naming, UNIVERSAL) — Mood is the magnet.' },             { id: 2, title: 'Nervous System Regulation', description: 'You can’t receive in fight/flight.' },             { id: 3, title: 'Check-In: Where Am I?', descriptio...
@@ -8010,7 +8014,8 @@
 - **[P2 0.38]** `ATM-008982` (2026-03-27, organ-iv) — we just stumbled into new territory requiring process development;
 - **[P2 0.38]** `ATM-004937` (2026-03-21, unscoped) — **RP-03's coupling-structure framework** (its most important v2 contribution) is orphaned -- downstream papers (SYN-02, CAPSTONE) still cite only the older compression/search binary.
 - **[P2 0.38]** `ATM-002512` (2026-03-04, UNIVERSAL) — as for the changed files, they will obviously require full review
-- **[P2 0.38]** `ATM-021922` (2026-04-14, UNIVERSAL) — proceed with all you        can proceed with
+- **[P2 0.38]** `ATM-021922` (2026-04-14, UNIVERSAL) — proceed with all you   
+     can proceed with
 - **[P2 0.38]** `ATM-002301` (2026-03-04, UNIVERSAL) — proceed with all implementations until failures = 0
 - **[P2 0.38]** `ATM-023888` (2026-04-21, unscoped) — These are specified in SPEC-025 and the     formation files.
 - **[P2 0.38]** `ATM-023684` (2026-04-20, unscoped) — what is and what isnt , what i asked for and what u provided , past present is dictated by future ideal form logical superiority
