@@ -24,7 +24,7 @@ try:
 except ImportError:
     _engine_load = None
 
-REGISTRY_PATH = Path(__file__).parent.parent / "registry-v2.json"
+REGISTRY_PATH = Path(__file__).parent.parent / "repo-registry.json"
 
 
 def check_file_exists(org, repo, path):

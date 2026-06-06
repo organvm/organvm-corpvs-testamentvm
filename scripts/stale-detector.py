@@ -26,7 +26,7 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parent.parent
 METRICS_FILE = ROOT / "system-metrics.json"
-REGISTRY_FILE = ROOT / "registry-v2.json"
+REGISTRY_FILE = ROOT / "repo-registry.json"
 SPRINTS_DIR = ROOT / "docs" / "specs" / "sprints"
 
 # Import whitelist from propagate-metrics.py for consistent file scanning

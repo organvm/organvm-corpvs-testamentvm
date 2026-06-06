@@ -53,7 +53,7 @@ At no point does any evaluation round produce a README, a registry fix, a workin
 
 > **Status update (2026-02-10):** FIXED. Registry now shows `PLANNING`, `0%`, `PLANNED`. All aspirational data replaced with verified state.
 
-`registry-v2.json` still declares:
+`repo-registry.json` still declares:
 - `"completion_at_launch": "100%"` (line 14 of summary)
 - `"launch_status": "OPERATIONAL"` — 7 instances, one per organ (ORGAN-I line 28, ORGAN-II, III, IV, V, VI, VII)
 - `"completion": "100%"` — 7 instances, one per organ
@@ -76,7 +76,7 @@ Meanwhile:
 
 | Doc 06 Reference | Actual Current Path |
 |---|---|
-| `registry-v2.json` (at root) | `registry-v2.json` (correct, at root) |
+| `repo-registry.json` (at root) | `repo-registry.json` (correct, at root) |
 | `ANNOTATED-MANIFEST.md` (in `docs/`) | `docs/ANNOTATED-MANIFEST.md` (correct) |
 | `00-a-...-ORGAN-i-vii-sub-ORGANS.md` | `docs/genesis/00-a-system-genesis-transcript.md` |
 | `00-b-Organizing-Local-Remote-Structure.md` | `docs/genesis/00-b-local-remote-structure-transcript.md` |
@@ -158,7 +158,7 @@ The signal is clear: planning has reached completion. Further evaluation produce
 
 > **Status update (2026-02-10):** Registry updated with note: "Original target 2026-02-17 is no longer realistic." Live docs still reference Feb 17 — deferred to user decision (see deferred items).
 
-`registry-v2.json` line 6: `"launch_date": "2026-02-17"`. Today is 2026-02-10. Seven days remain.
+`repo-registry.json` line 6: `"launch_date": "2026-02-17"`. Today is 2026-02-10. Seven days remain.
 
 The Bronze Sprint alone (the *minimum* viable scope) requires 1.1M-1.6M TE of AI generation + human review of 5-7 flagship READMEs. Phase -1 is incomplete (org renames not executed on GitHub). Phase 0 has unchecked items (registry org name updates, repo count reconciliation, orphan classification). No README has been written. No registry field has been added.
 
@@ -177,7 +177,7 @@ The launch date is a planning artifact from the original "all 7 organs at 100%" 
 - [x] Config files created (`organvm.env`, `organvm.env.local`, `organvm.config.json`)
 - [x] Roadmap exported to planning corpus
 - [ ] All 7 GitHub orgs exist with new names
-- [ ] `registry-v2.json` contains zero hardcoded old org names
+- [ ] `repo-registry.json` contains zero hardcoded old org names
 - [ ] All local git remotes point to new org URLs
 - [ ] 8 unregistered ORGAN-I repos classified
 - [ ] 3 misaligned repos corrected
@@ -221,7 +221,7 @@ The evaluation chain is now 5 documents deep (06-10). Any future change to a pla
 
 **Gap:** `09` focused exclusively on Layer 3 (active planning) documents. It missed:
 - Doc `07-cross-ai-logic-check-results.md` (no supersession banner — MC4 above)
-- `registry-v2.json` aspirational data (MC2 — flagged but not fixed)
+- `repo-registry.json` aspirational data (MC2 — flagged but not fixed)
 - The roadmap filename reference (MC7 — introduced during the banner update)
 
 **Verdict:** Logically sound in scope; incomplete in coverage.
@@ -282,11 +282,11 @@ By the time a reader reaches `04-per-organ-validation-checklists.md` or `github-
 
 #### Portfolio Language Assessment: Self-Congratulatory in Places
 
-`registry-v2.json` line 17: `"portfolio_strength": "COMPREHENSIVE"` — self-assigned. No external reviewer has validated this claim.
+`repo-registry.json` line 17: `"portfolio_strength": "COMPREHENSIVE"` — self-assigned. No external reviewer has validated this claim.
 
-`registry-v2.json` line 9: `"project_status": "All 7 organs operational at launch"` — aspirational statement written as current state.
+`repo-registry.json` line 9: `"project_status": "All 7 organs operational at launch"` — aspirational statement written as current state.
 
-`registry-v2.json` line 22: `"strategic_opportunity": "Position the seven-organ system as evidence of: (a) production-ready thinking..."` — the system is not production-ready; it is planning-complete at best.
+`repo-registry.json` line 22: `"strategic_opportunity": "Position the seven-organ system as evidence of: (a) production-ready thinking..."` — the system is not production-ready; it is planning-complete at best.
 
 These are not dishonest — they are future-tense goals written in present-tense language. But a skeptical evaluator (hiring manager, grant reviewer) would read them as overclaiming.
 
@@ -309,7 +309,7 @@ The process essay ("How I Used 4 AI Agents to Cross-Validate an Eight-Organ Syst
 
 #### Credibility Signals Absent or Undermined
 
-1. **"100% OPERATIONAL" in registry.** This is the single largest credibility liability. Any technical evaluator who opens `registry-v2.json` and sees `"completion": "100%"` next to repos with `"documentation_status": "README REQUIRED"` will question every other claim in the corpus. The contradiction between claimed completion (100%) and actual documentation status (README REQUIRED on all 44 repos) is immediately visible.
+1. **"100% OPERATIONAL" in registry.** This is the single largest credibility liability. Any technical evaluator who opens `repo-registry.json` and sees `"completion": "100%"` next to repos with `"documentation_status": "README REQUIRED"` will question every other claim in the corpus. The contradiction between claimed completion (100%) and actual documentation status (README REQUIRED on all 44 repos) is immediately visible.
 
 2. **No executed deliverables.** The corpus demonstrates planning ability. It does not demonstrate execution ability. A hiring manager evaluating "can this person ship?" would find no evidence in 78 files.
 
@@ -361,7 +361,7 @@ Repeated across every evaluation round: the `organvm.env` -> `organvm.config.jso
 
 **Severity: CRITICAL**
 
-The corpus has been in planning/evaluation since at least 2026-02-03 (`registry-v2.json` generated date). As of 2026-02-10, 7 days of work have produced 78 planning/evaluation files and 0 deliverables. Every evaluation round recommends "start executing" — and then the next action is another evaluation document.
+The corpus has been in planning/evaluation since at least 2026-02-03 (`repo-registry.json` generated date). As of 2026-02-10, 7 days of work have produced 78 planning/evaluation files and 0 deliverables. Every evaluation round recommends "start executing" — and then the next action is another evaluation document.
 
 **This is not a future risk. It is the current state.** The project is in a planning loop. The loop will not break by producing another planning document. It breaks by writing one README.
 
@@ -558,7 +558,7 @@ These are the corrections that should happen before any Bronze Sprint execution 
 
 | # | Fix | Ref | Effort | Files Affected | Status |
 |---|---|---|---|---|---|
-| 1 | Fix registry aspirational data | MG6, MC2 | ~15 min | `registry-v2.json` | **DONE** (2026-02-10) |
+| 1 | Fix registry aspirational data | MG6, MC2 | ~15 min | `repo-registry.json` | **DONE** (2026-02-10) |
 | 2 | Verify GitHub org state | MG5 step 1, MB2, MS3 | ~5 min | None (verification only) | PENDING (human action) |
 | 3 | Fix roadmap stale filename | MG7, MC7 | ~2 min | `roadmap-there-and-back-again.md` | **DONE** (2026-02-10) |
 | 4 | Add supersession banner to doc 07 | MG9, MC4 | ~5 min | `07-cross-ai-logic-check-results.md` | **DONE** (2026-02-10) |
@@ -578,7 +578,7 @@ These are the corrections that should happen before any Bronze Sprint execution 
 | `docs/evaluation/07-cross-ai-logic-check-results.md` | Evaluation | Cross-AI results synthesis | Missing supersession banner (MC4); action plan superseded by `08` |
 | `docs/evaluation/08-canonical-action-plan.md` | Evaluation | D-register resolutions (D-01 to D-08) | Strongest evaluation artifact; D-register pattern is reusable (MR2) |
 | `docs/evaluation/09-corpus-coherence-review.md` | Evaluation | Consistency propagation (~34 edits) | Thorough but missed doc 07 banner and registry data fix |
-| `registry-v2.json` | L3 (Active) | Single source of truth | Aspirational data persists across 4 rounds (MC2); most-flagged unfixed issue |
+| `repo-registry.json` | L3 (Active) | Single source of truth | Aspirational data persists across 4 rounds (MC2); most-flagged unfixed issue |
 | `docs/strategy/roadmap-there-and-back-again.md` | L3 (Active) | Execution roadmap | Stale filename reference (MC7); Phase -1 partially complete (MC9) |
 | `docs/memory/constitution.md` | Governance | Project constitution | Article III / Amendment A tension (MC5) |
 | `docs/specs/bronze-sprint/spec.md` | Specification | Bronze Sprint definition | Well-structured; depends on execution to validate |

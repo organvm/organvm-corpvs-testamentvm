@@ -27,7 +27,7 @@ The conventional response to this ambiguity is to ignore it. GitHub provides no 
 
 The consequence of this neglect is that every repo presents itself as equivalent. A visitor navigating an organization's profile sees a flat list of repositories, sorted by most recently updated or alphabetically, with no indication of which ones represent serious work and which represent abandoned experiments. The visitor must click into each repo, read its README (if one exists), examine its commit history, check whether CI is configured, and form their own judgment about whether this repository is worth their attention. This is the Stranger Test in its most adversarial form: the stranger is doing the classification work that the organization should have done.
 
-The eight-organ system governs 81 repositories across 8 GitHub organizations. Without explicit maturity classification, this scale would produce exactly the ambiguity described above — a wall of repos where flagship projects with 1,254 tests sit alongside empty `.github` profile repos, with nothing to distinguish them. The promotion pipeline exists to prevent this. Every repository in the system carries an `implementation_status` field in the central registry (`registry-v2.json`), and that field can take exactly one of four values: `DESIGN_ONLY`, `SKELETON`, `PROTOTYPE`, or `PRODUCTION`. The field is not decorative. It is the system's judgment about what a repository currently is, and it governs what the repository is allowed to claim about itself.
+The eight-organ system governs 81 repositories across 8 GitHub organizations. Without explicit maturity classification, this scale would produce exactly the ambiguity described above — a wall of repos where flagship projects with 1,254 tests sit alongside empty `.github` profile repos, with nothing to distinguish them. The promotion pipeline exists to prevent this. Every repository in the system carries an `implementation_status` field in the central registry (`repo-registry.json`), and that field can take exactly one of four values: `DESIGN_ONLY`, `SKELETON`, `PROTOTYPE`, or `PRODUCTION`. The field is not decorative. It is the system's judgment about what a repository currently is, and it governs what the repository is allowed to claim about itself.
 
 ---
 
@@ -37,14 +37,14 @@ The promotion pipeline is a linear state machine. Repositories enter at DESIGN_O
 
 | Tier | Criteria | What It Means | Typical Repos |
 |------|----------|---------------|---------------|
-| **DESIGN_ONLY** | README exists; repo registered in `registry-v2.json` | The concept has been articulated but not implemented. The repo is a placeholder for an idea. | `.github` profile repos, pure-documentation repos, consolidated archives |
+| **DESIGN_ONLY** | README exists; repo registered in `repo-registry.json` | The concept has been articulated but not implemented. The repo is a placeholder for an idea. | `.github` profile repos, pure-documentation repos, consolidated archives |
 | **SKELETON** | README + basic project structure (`pyproject.toml`, `package.json`, or equivalent) | The repo has scaffolding. Someone has decided on a technology stack and created the initial files. Code may or may not exist. | Early-stage projects, governance scaffolds |
 | **PROTOTYPE** | README + functional code + CI workflow present | The repo does something. Code runs, CI is configured (though it may not pass on all dimensions), and the project is past the "idea" phase. | Projects under active development, pre-release tools |
 | **PRODUCTION** | README + functional code + CI passing + tests + documentation complete + portfolio-ready | The repo meets the Stranger Test. A grant reviewer or hiring manager encountering it for the first time would see a professional, maintained project. | Flagship repos, shipped products, mature tools |
 
 Several things are worth noting about this model. First, the tiers are about *current state*, not about *importance*. A DESIGN_ONLY repo is not necessarily unimportant — `nexus--babel-alexandria-` in ORGAN-I is a 50,000-word design document for a nine-layer rhetorical-linguistic operating system, and it has HIGH portfolio relevance despite being DESIGN_ONLY. The tier says the repo has no running code, not that its contents lack value. Second, the tiers are monotonically increasing in requirements. Every PRODUCTION repo satisfies every PROTOTYPE criterion, every PROTOTYPE satisfies every SKELETON criterion, and so on. This means the tier is also a lower bound on quality: if you know a repo is PRODUCTION, you know it has CI, tests, documentation, and functioning code without checking any of those things individually.
 
-Third — and this is the critical design decision — the tiers are enforced through a single source of truth. The `implementation_status` field in `registry-v2.json` is the authoritative record. It is not derived from the repo's actual state (checking whether CI exists, whether tests pass, etc.). It is *set* by a human who has verified those conditions. This introduces a gap between the registry's claim and reality — a repo's CI could break after promotion, making the PRODUCTION label temporarily inaccurate. This gap is intentional. The promotion is a judgment that the repo *met* the criteria at the time of promotion. Ongoing compliance is maintained through different mechanisms: CI runs on every push, dependabot keeps dependencies current, and the monthly organ audit (`monthly-organ-audit.yml`) validates the entire system. The promotion is an event; maintenance is a process.
+Third — and this is the critical design decision — the tiers are enforced through a single source of truth. The `implementation_status` field in `repo-registry.json` is the authoritative record. It is not derived from the repo's actual state (checking whether CI exists, whether tests pass, etc.). It is *set* by a human who has verified those conditions. This introduces a gap between the registry's claim and reality — a repo's CI could break after promotion, making the PRODUCTION label temporarily inaccurate. This gap is intentional. The promotion is a judgment that the repo *met* the criteria at the time of promotion. Ongoing compliance is maintained through different mechanisms: CI runs on every push, dependabot keeps dependencies current, and the monthly organ audit (`monthly-organ-audit.yml`) validates the entire system. The promotion is an event; maintenance is a process.
 
 ---
 
@@ -78,7 +78,7 @@ The workflow for each promotion followed a consistent sequence:
 
 3. **Deploy missing tests.** Some repos had CI that ran linting and type-checking but no test suite. For these repos, basic test scaffolding was deployed — enough to validate core functionality and establish a test baseline that future development could extend.
 
-4. **Update the registry.** Change `implementation_status` from `PROTOTYPE` to `PRODUCTION` in `registry-v2.json`. Append a note documenting the promotion date and any remediation performed.
+4. **Update the registry.** Change `implementation_status` from `PROTOTYPE` to `PRODUCTION` in `repo-registry.json`. Append a note documenting the promotion date and any remediation performed.
 
 5. **Verify.** Confirm the CI badge shows green after any changes. Run the validation scripts to ensure the registry is internally consistent.
 
@@ -90,7 +90,7 @@ What the sprint exposed, beyond the individual promotions, was a category of sys
 
 **Inconsistent badge rows.** The badge row deployed across the system uses a standardized format (CI status, coverage, license, organ number, status, language). Some repos had been badged during earlier sprints with slightly different formats or outdated shield.io URLs. The PROPULSION sprint normalized these, but the inconsistency demonstrated that even "cosmetic" infrastructure needs governance.
 
-The sprint concluded with the system at 64 PRODUCTION repos out of 81 total — a 79% PRODUCTION rate. The number was motivating in a way that surprised me. The implementation_status_distribution in `registry-v2.json` functions as a scoreboard, and watching the PRODUCTION count climb from 47 (pre-PROPULSION) to 64 created a tangible sense of progress that more abstract metrics (word counts, test counts, badge deployments) did not provide.
+The sprint concluded with the system at 64 PRODUCTION repos out of 81 total — a 79% PRODUCTION rate. The number was motivating in a way that surprised me. The implementation_status_distribution in `repo-registry.json` functions as a scoreboard, and watching the PRODUCTION count climb from 47 (pre-PROPULSION) to 64 created a tangible sense of progress that more abstract metrics (word counts, test counts, badge deployments) did not provide.
 
 ---
 
@@ -115,7 +115,7 @@ This approach — matching CI rigor to repo maturity — avoids the two failure 
 
 ## 6. The Registry as Scoreboard
 
-`registry-v2.json` is a 1,700-line JSON file that tracks every repository in the eight-organ system. It records each repo's name, organization, description, documentation status, portfolio relevance, dependencies, promotion status, tier, last validation date, implementation status, CI workflow, and Platinum status. It is the single source of truth — the canonical record from which all other views of the system are derived.
+`repo-registry.json` is a 1,700-line JSON file that tracks every repository in the eight-organ system. It records each repo's name, organization, description, documentation status, portfolio relevance, dependencies, promotion status, tier, last validation date, implementation status, CI workflow, and Platinum status. It is the single source of truth — the canonical record from which all other views of the system are derived.
 
 One section of the registry has outsized motivational power: `implementation_status_distribution`.
 

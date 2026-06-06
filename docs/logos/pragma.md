@@ -54,7 +54,7 @@ Top-level shape: **21 directories** (7 hidden agent/integration configs, 14 cont
 - Root-required files: `LICENSE`, `README.md`, `CLAUDE.md`, `DIRECTORY.md`, `CONTRIBUTING.md`, `CHANGELOG.md`, `AGENTS.md`, `GEMINI.md`, `.gitignore`, `.gitattributes`, `.editorconfig`, `.pre-commit-config.yaml`, `.gitleaks.toml`, `.nojekyll`
 - Hidden agent integrations: `.claude/`, `.gemini/`, `.serena/`, `.sops/`
 
-## 3. State of the Eight Organs (Per `registry-v2.json` + Live Variables)
+## 3. State of the Eight Organs (Per `repo-registry.json` + Live Variables)
 
 | Organ | Org | Repos | Status | Flagship documentation |
 |---|---|---|---|---|
@@ -82,7 +82,7 @@ Note: `code_files`/`test_files`/`repos_with_tests` reporting 0 is itself a pragm
 | Total coverage of every artifact | ~404K words deployed across 148 docs + 8 org profiles | Substantial; cross-organ logos symmetry currently low across most repos |
 | Perfect symmetry (no Ghosts, no Dreams) | Symmetry: 0.0 (VACUUM) for this repo before today; status of other repos varies | Closing for this repo with the current PR; other repos enumerated in IRF |
 | Recursive self-description | This document set itself is a step toward recursive self-description | First iteration; ontology will need refinement after live use |
-| Single source of truth | `registry-v2.json` exists and is treated as authoritative | Cross-references in legacy v1 docs (`docs/archive/`) still reference older state |
+| Single source of truth | `repo-registry.json` exists and is treated as authoritative | Cross-references in legacy v1 docs (`docs/archive/`) still reference older state |
 | Public-process alignment | 29 essays published; ORGAN-V `public-process` repo OPERATIONAL | Logos→essay extraction pipeline (per `14-logos-documentation-layer.md` §5) not yet automated |
 
 ## 5. Notable Pragma-Specific Properties

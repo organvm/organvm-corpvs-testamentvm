@@ -66,7 +66,7 @@ SPEC-005 mandates explicit Or-else for all rules. A statement with A-D-I-C but n
 
 | Component | Content |
 |-----------|---------|
-| **A** | Every repository entry in registry-v2.json |
+| **A** | Every repository entry in repo-registry.json |
 | **D** | MUST |
 | **I** | Appear in exactly one organ, have non-empty name, be counted correctly in repository_count |
 | **C** | On every registry operation (load, save, update) |
@@ -455,7 +455,7 @@ The evaluation engine's working memory consists of:
 
 | Fact Type | Source | Change Frequency |
 |-----------|--------|-----------------|
-| Registry entries | `registry-v2.json` | On registry update |
+| Registry entries | `repo-registry.json` | On registry update |
 | Seed declarations | `seed.yaml` per repo | On seed modification |
 | Governance rules | `governance-rules.json` | On constitutional revision |
 | Entity states | `ontologia/entities.json` | On entity lifecycle event |

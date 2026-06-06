@@ -48,7 +48,7 @@ subscriptions:
 
 ### Deployment Strategy
 
-- `scripts/generate-seed-yaml.py` generates seed.yaml files for all eligible repos using registry-v2.json as the source
+- `scripts/generate-seed-yaml.py` generates seed.yaml files for all eligible repos using repo-registry.json as the source
 - During SENSORIA sprint, deployed to 41 repos that were missing seed.yaml (50%→100% coverage)
 - For repos without specific cross-repo dependencies, organ-level produces/consumes are used (e.g., "ORGAN-II produces creative-artifact, consumes theory from ORGAN-I")
 
@@ -68,7 +68,7 @@ The `orchestrator-agent.yml` workflow (Mon 07:00 UTC) clones all seed.yaml files
 
 ### Negative
 
-- **Dual source of truth risk**: seed.yaml and registry-v2.json can drift. The registry is authoritative; seed.yaml is declarative.
+- **Dual source of truth risk**: seed.yaml and repo-registry.json can drift. The registry is authoritative; seed.yaml is declarative.
 - **Generic organ-level declarations**: 34 repos with no specific cross-repo dependencies got organ-level produces/consumes — accurate but not granular
 - **Maintenance burden**: seed.yaml files must be updated when repos change their interfaces
 - **Schema evolution**: Changing the seed.yaml schema requires updating 82 files across 8 orgs — a batch operation

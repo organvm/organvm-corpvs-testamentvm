@@ -22,7 +22,7 @@
   - Finding: W5
 
 - [x] **Q2.** Change `revenue: active` to `revenue_model: [subscription|freemium|one-time]` for all ORGAN-III repos with zero actual revenue — **RESOLVED (VERITAS Sprint):** Split into `revenue_model` + `revenue_status: pre-launch` across all 27 ORGAN-III repos
-  - File: `registry-v2.json` (9 entries with `"revenue": "active"`)
+  - File: `repo-registry.json` (9 entries with `"revenue": "active"`)
   - Finding: W3, LC4, SP3
 
 - [x] **Q3.** Redate 9 future-dated essays (2026-02-14 through 2026-02-22) to their actual creation date (2026-02-13) — **RESOLVED (VERITAS Sprint):** All 9 essays redated in system-metrics.json and public-process _posts/
@@ -48,8 +48,8 @@
 
 ## P2 — MEDIUM (Fix Within 1–2 Weeks)
 
-- [x] **M1.** Rename `implementation_status: PRODUCTION` → `ACTIVE` across the entire system — **RESOLVED (VERITAS Sprint):** 82 repos renamed in registry-v2.json, system-metrics.json, validation scripts, CLAUDE.md, and all 5 application materials
-  - Files: `registry-v2.json` (82 entries), `system-metrics.json`, all validation scripts, CLAUDE.md, application materials
+- [x] **M1.** Rename `implementation_status: PRODUCTION` → `ACTIVE` across the entire system — **RESOLVED (VERITAS Sprint):** 82 repos renamed in repo-registry.json, system-metrics.json, validation scripts, CLAUDE.md, and all 5 application materials
+  - Files: `repo-registry.json` (82 entries), `system-metrics.json`, all validation scripts, CLAUDE.md, application materials
   - Finding: LC3, SP1, ET2
   - Note: Chose `ACTIVE` over `DOCUMENTED` or `MAINTAINED` — it says "this repo is maintained" without implying production deployment
 
@@ -65,7 +65,7 @@
 - [x] **M3.** Add `revenue_status` field to ORGAN-III repo schema — **RESOLVED (VERITAS Sprint):** Split `revenue` into `revenue_model` + `revenue_status` across all 27 ORGAN-III repos
   - Values: `pre-launch` | `beta` | `live`
   - Separates business model (what you plan to charge) from business state (whether anyone is paying)
-  - File: `registry-v2.json`
+  - File: `repo-registry.json`
   - Finding: W3, LC4
 
 - [ ] **M4.** ~~Restructure CI to distinguish "test suite passes" from "no tests found"~~ → **Reclassified to P3 (MANIFESTATIO Sprint).** Corrected system-wide audit reveals 49 repos with test directories — the "hollow CI" narrative was based on flawed measurement. CI does run real tests in the majority of code-heavy repos. Monitor over 30 days; restructure only if needed.

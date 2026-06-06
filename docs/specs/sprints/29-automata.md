@@ -107,7 +107,7 @@ ON PUSH (life-my--midst--in):
 - Did not deploy life-my--midst--in to Render (requires RENDER_DEPLOY_HOOK secret)
 - Did not create social media accounts (human action per setup guide)
 - Did not write essays (the pulse generator creates operational reports, not essays)
-- Did not modify registry-v2.json (no status changes)
+- Did not modify repo-registry.json (no status changes)
 
 ## Lessons
 

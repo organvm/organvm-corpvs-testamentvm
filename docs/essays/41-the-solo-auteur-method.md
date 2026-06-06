@@ -38,7 +38,7 @@ The Solo Auteur Method has four characteristics:
 
 I don't write code the way a software engineer writes code. I don't sit down with a blank file and type functions. I design environments — registries, dependency graphs, promotion pipelines, governance rules — and then use AI tools to populate those environments with working software. The environment is the creative act. The code is what grows in it.
 
-This is Eno's method applied to software. The `registry-v2.json` file that coordinates 97 repositories is a compositional instrument. The promotion state machine (LOCAL → CANDIDATE → PUBLIC_PROCESS → GRADUATED → ARCHIVED) is an oblique strategy. The governance rules aren't bureaucracy; they're generative constraints that shape what the system can become.
+This is Eno's method applied to software. The `repo-registry.json` file that coordinates 97 repositories is a compositional instrument. The promotion state machine (LOCAL → CANDIDATE → PUBLIC_PROCESS → GRADUATED → ARCHIVED) is an oblique strategy. The governance rules aren't bureaucracy; they're generative constraints that shape what the system can become.
 
 When someone asks "Did you write all this code?", the honest answer is: I designed the system that generated it, the same way Eno designed the systems that generated ambient music. The compositional intelligence is in the architecture, not in any single line of code.
 

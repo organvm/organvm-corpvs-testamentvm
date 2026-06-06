@@ -49,7 +49,7 @@ I designed and implemented an eight-organ orchestration system that coordinates 
 ## Key Technical Achievements
 
 ### Orchestration Architecture
-- **Central registry** (`registry-v2.json`): Single source of truth for all 100 repos — status, dependencies, documentation, tier, promotion state
+- **Central registry** (`repo-registry.json`): Single source of truth for all 100 repos — status, dependencies, documentation, tier, promotion state
 - **Dependency validation**: Automated checks enforce no back-edges in I->II->III chain, no circular dependencies, transitive depth <= 4
 - **Promotion state machine**: Formal governance pipeline (LOCAL -> CANDIDATE -> PUBLIC_PROCESS -> GRADUATED -> ARCHIVED) with automated workflows
 
@@ -86,7 +86,7 @@ I designed and implemented an eight-organ orchestration system that coordinates 
 
 | Asset | URL |
 |-------|-----|
-| Central Registry | `github.com/meta-organvm/organvm-corpvs-testamentvm/registry-v2.json` |
+| Central Registry | `github.com/meta-organvm/organvm-corpvs-testamentvm/repo-registry.json` |
 | Orchestration Hub | `github.com/organvm-iv-taxis/orchestration-start-here` |
 | Public Process | `github.com/organvm-v-logos/public-process` |
 | Governance Spec | `github.com/meta-organvm/organvm-corpvs-testamentvm/docs/implementation/orchestration-system-v2.md` |

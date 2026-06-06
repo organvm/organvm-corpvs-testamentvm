@@ -27,7 +27,7 @@ This wasn't a documentation pass on existing code. It was documentation-first de
 **Code examples in Python and TypeScript.** The system includes:
 - Python validation scripts (organ-audit.py, platinum-validation.py)
 - YAML workflow specifications for 5 GitHub Actions
-- JSON schemas (registry-v2.json, governance-rules.json, organvm.config.json)
+- JSON schemas (repo-registry.json, governance-rules.json, organvm.config.json)
 - Shell scripts for environment configuration
 
 I write code that teaches. Every script is documented with the "why," not just the "what."

@@ -55,7 +55,7 @@ Every knowledge query must resolve to a definitive source. Ambiguity in source a
 | Query Domain | Authoritative Source | Secondary Sources | Conflict Resolution |
 |-------------|---------------------|-------------------|-------------------|
 | System identity and axioms | SPEC-000 through SPEC-017 | CLAUDE.md summaries | SPEC documents are canonical |
-| Repo metadata (status, tier, dependencies) | `registry-v2.json` | MCP server responses, CLAUDE.md summaries | Registry is canonical |
+| Repo metadata (status, tier, dependencies) | `repo-registry.json` | MCP server responses, CLAUDE.md summaries | Registry is canonical |
 | Repo contracts (produces, consumes, events) | `seed.yaml` (per repo) | Registry summaries, MCP responses | seed.yaml is canonical |
 | Governance constraints | `governance-rules.json` | SPEC-005 prose descriptions | governance-rules.json is canonical for enforcement; SPEC-005 for intent |
 | Entity identity (UIDs, naming) | `ontologia/entities.json` | Registry names | Ontologia is canonical |

@@ -32,14 +32,14 @@
 #### Strengths (with evidence)
 
 **S1. Architectural coherence is genuine.**
-89 repos across 8 orgs, coordinated by a single `registry-v2.json` source-of-truth (schema v0.4). The dependency graph enforces unidirectional flow (I→II→III) with zero back-edges, validated by `scripts/v4-dependency-validation.py`. 33 registry dependency edges and 115 seed.yaml contract edges form a machine-readable system graph. This is not documentation theater — the constraints are enforced by code.
+89 repos across 8 orgs, coordinated by a single `repo-registry.json` source-of-truth (schema v0.4). The dependency graph enforces unidirectional flow (I→II→III) with zero back-edges, validated by `scripts/v4-dependency-validation.py`. 33 registry dependency edges and 115 seed.yaml contract edges form a machine-readable system graph. This is not documentation theater — the constraints are enforced by code.
 
-*Evidence:* `registry-v2.json:4` (schema note), `system-metrics.json:402–429` (praxis_targets), `scripts/v4-dependency-validation.py` (cycle detection)
+*Evidence:* `repo-registry.json:4` (schema note), `system-metrics.json:402–429` (praxis_targets), `scripts/v4-dependency-validation.py` (cycle detection)
 
 **S2. Sprint velocity is remarkable.**
 10 named sprints (IGNITION through PRAXIS) completed between 2026-02-09 and 2026-02-13 — five calendar days. The sprint history in `system-metrics.json:339–400` documents each sprint's focus and deliverables. This velocity demonstrates genuine command of the AI-conductor methodology and the ability to coordinate large-scale documentation generation with human review.
 
-*Evidence:* `system-metrics.json:339–400` (sprint_history), `registry-v2.json:7` (launch_date_note)
+*Evidence:* `system-metrics.json:339–400` (sprint_history), `repo-registry.json:7` (launch_date_note)
 
 **S3. Self-documenting governance is a portfolio differentiator.**
 The system includes: a ratified constitution (`docs/memory/constitution.md`, 6 articles + 4 amendments), an annotated manifest of 120+ files (`docs/ANNOTATED-MANIFEST.md`), 28 published essays totaling ~111K words, 5 validation scripts producing machine-readable reports, and an autonomous workflow system with 11 GitHub Actions workflows. The governance layer is not just documentation — it is infrastructure.
@@ -73,7 +73,7 @@ Only 4 of 8 flagship repos are classified SUBSTANTIAL; 2 are MINIMAL. `agentic-t
 **W3. Revenue claims are aspirational, not actual.**
 15 ORGAN-III repos carry `revenue` values of `active` (9), `freemium` (3), `subscription` (2), or `one-time` (1). Zero actual transactions have occurred. No payment infrastructure exists. The `praxis_targets` section confirms: `revenue_products.current = "0"`. The word "active" in `revenue: active` implies live commerce, but no product has paying customers.
 
-*Evidence:* `registry-v2.json` (grep for `"revenue"`: 9 repos claim "active"), `system-metrics.json:422–425` (revenue_products: target "2-3", current "0")
+*Evidence:* `repo-registry.json` (grep for `"revenue"`: 9 repos claim "active"), `system-metrics.json:422–425` (revenue_products: target "2-3", current "0")
 
 **W4. Essay dating anomaly creates a credibility vulnerability.**
 The `system-metrics.json` essay timeline shows essays dated 2026-02-14 through 2026-02-22 in a dataset generated on 2026-02-13. Nine essays have dates in the future. The most charitable interpretation is pre-scheduling for staggered publication; the least charitable is fabricated dates. Either way, a reviewer examining git commit timestamps against essay dates would find a discrepancy.
@@ -109,12 +109,12 @@ Constitution Article V states: *"Every README is a portfolio piece, written for 
 **LC3. "PRODUCTION" status vs. production-readiness.** *(RESOLVED: VERITAS Sprint renamed PRODUCTION→ACTIVE across all 82 repos; current count is 90 ACTIVE, 7 ARCHIVED.)*
 82 repos carried `implementation_status: PRODUCTION` at time of this review. In conventional software engineering, "production" means deployed, tested, monitored, and serving users. In this system, "PRODUCTION" meant "documentation is deployed and repository is maintained" — a documentation status, not a software status. This semantic overloading was the single largest credibility risk. The VERITAS Sprint (2026-02-13) renamed the status to `ACTIVE`, resolving this finding.
 
-*Evidence:* `registry-v2.json:4` (schema note: `implementation_status enum: ACTIVE|PROTOTYPE|SKELETON|DESIGN_ONLY|ARCHIVED`), current state: 90 ACTIVE, 7 ARCHIVED
+*Evidence:* `repo-registry.json:4` (schema note: `implementation_status enum: ACTIVE|PROTOTYPE|SKELETON|DESIGN_ONLY|ARCHIVED`), current state: 90 ACTIVE, 7 ARCHIVED
 
 **LC4. Revenue "active" vs. zero revenue.**
 9 repos are tagged `revenue: active` in the registry. Zero revenue products are deployed (`praxis_targets.revenue_products.current = "0"`). The word "active" does not modify the registry's definition of revenue state — it implies ongoing commercial activity where none exists.
 
-*Evidence:* `registry-v2.json` (9 instances of `"revenue": "active"`), `system-metrics.json:422–425`
+*Evidence:* `repo-registry.json` (9 instances of `"revenue": "active"`), `system-metrics.json:422–425`
 
 **LC5. Monthly/quarterly audit cadence vs. system age.**
 `docs/implementation/orchestration-system-v2.md` specifies monthly organ audits transitioning to quarterly. The system is 3 days old at the time of this review. The `monthly-organ-audit` workflow is deployed but has never executed a real audit cycle. The governance specification describes a mature operational cadence for a nascent system.
@@ -188,9 +188,9 @@ The portfolio site at `https://4444j99.github.io/portfolio/` returns HTTP 200, b
 
 ### Priority-Ranked Contradictions Requiring Resolution
 
-1. **CRITICAL — Rename "PRODUCTION" status.** The word "PRODUCTION" is the single most dangerous term in the system. Replace with `DOCUMENTED` or `MAINTAINED` across registry, scripts, and documentation. Every external-facing claim of "82 PRODUCTION repos" should become "82 documented and maintained repos." *Files affected:* `registry-v2.json`, `system-metrics.json`, all application materials, validation scripts.
+1. **CRITICAL — Rename "PRODUCTION" status.** The word "PRODUCTION" is the single most dangerous term in the system. Replace with `DOCUMENTED` or `MAINTAINED` across registry, scripts, and documentation. Every external-facing claim of "82 PRODUCTION repos" should become "82 documented and maintained repos." *Files affected:* `repo-registry.json`, `system-metrics.json`, all application materials, validation scripts.
 
-2. **CRITICAL — Resolve revenue labeling.** Change `"revenue": "active"` to `"revenue": "planned"` or `"revenue_model": "subscription"` (describing the intended model, not current state) for all repos with zero actual revenue. *Files affected:* `registry-v2.json` (9 entries).
+2. **CRITICAL — Resolve revenue labeling.** Change `"revenue": "active"` to `"revenue": "planned"` or `"revenue_model": "subscription"` (describing the intended model, not current state) for all repos with zero actual revenue. *Files affected:* `repo-registry.json` (9 entries).
 
 3. **HIGH — Fix essay dating.** Either (a) update pre-dated essay publication dates to reflect actual publication or (b) document the pre-scheduling strategy explicitly. Future-dated essays in a dataset generated today are a red flag under any scrutiny. *Files affected:* `system-metrics.json`, public-process `_posts/` frontmatter.
 
@@ -285,7 +285,7 @@ The system spans theory (philosophy), art (generative), commerce (SaaS), governa
 | # | Action | Impact | Files |
 |---|--------|--------|-------|
 | Q1 | Fix TODO in all 5 application materials (portfolio URL is live) | Removes embarrassing oversight | `applications/*.md` |
-| Q2 | Change `revenue: active` → `revenue_model: [type]` in registry | Eliminates false revenue claims | `registry-v2.json` |
+| Q2 | Change `revenue: active` → `revenue_model: [type]` in registry | Eliminates false revenue claims | `repo-registry.json` |
 | Q3 | Redate 9 future-dated essays to 2026-02-13 | Removes timestamp anomaly | `system-metrics.json`, `_posts/*` |
 | Q4 | Add portfolio URL to application materials | Completes materials for submission | `applications/*.md` |
 | Q5 | Translate project-internal vocabulary in applications | Makes materials audience-readable | `applications/*.md` |
@@ -294,9 +294,9 @@ The system spans theory (philosophy), art (generative), commerce (SaaS), governa
 
 | # | Action | Impact | Files |
 |---|--------|--------|-------|
-| M1 | Rename `implementation_status: ACTIVE` → `DOCUMENTED` system-wide | Resolves the #1 credibility risk | `registry-v2.json`, `system-metrics.json`, all validation scripts, CLAUDE.md |
+| M1 | Rename `implementation_status: ACTIVE` → `DOCUMENTED` system-wide | Resolves the #1 credibility risk | `repo-registry.json`, `system-metrics.json`, all validation scripts, CLAUDE.md |
 | M2 | Vivify top 4 non-SUBSTANTIAL flagships (agentic-titan, public-process, auto-revision-epistemic-engine, example-generative-music) | Closes the code substance gap for visible repos | Target repos |
-| M3 | Add `revenue_status` field (pre-launch/beta/live) to ORGAN-III repos | Separates business model from business state | `registry-v2.json` |
+| M3 | Add `revenue_status` field (pre-launch/beta/live) to ORGAN-III repos | Separates business model from business state | `repo-registry.json` |
 | M4 | Restructure CI to distinguish "test suite passes" from "no tests found" | Makes CI signal honest | `.github/workflows/ci.yml` templates |
 | M5 | Write an honest "How This Was Built" essay acknowledging AI role, compressed timeline, and current limitations | Preempts criticism by owning the narrative | `_posts/` in public-process |
 | M6 | Create audience-specific application variants (technical vs. humanities vs. arts) | Different audiences need different vocabulary | `applications/` |
@@ -318,7 +318,7 @@ The system spans theory (philosophy), art (generative), commerce (SaaS), governa
 
 | Evidence Source | Path / Location | Key Data Points |
 |---|---|---|
-| Registry | `registry-v2.json` | 97 repos, 90 ACTIVE, 7 ARCHIVED, 33 dependency edges |
+| Registry | `repo-registry.json` | 97 repos, 90 ACTIVE, 7 ARCHIVED, 33 dependency edges |
 | System Metrics | `system-metrics.json` | 10 sprints, 28 essays, PRAXIS targets vs actuals |
 | Flagship Report | `praxis-flagship-report.json` | 8 audited: 4 SUBSTANTIAL, 2 PARTIAL, 2 MINIMAL |
 | Constitution | `docs/memory/constitution.md` | 6 articles, 4 amendments, 4 quality gates |

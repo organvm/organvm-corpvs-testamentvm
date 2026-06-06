@@ -208,7 +208,7 @@ And the model does not produce creative insight. The meta-system essays (the one
 
 The AI-conductor model is not proprietary. It is a workflow that anyone can adopt, and its replicability is part of its value as a portfolio asset. The components are:
 
-1. **A registry or inventory** of what needs to be documented. `registry-v2.json` serves this role for the organvm system.
+1. **A registry or inventory** of what needs to be documented. `repo-registry.json` serves this role for the organvm system.
 2. **A quality rubric** that defines what "good" documentation looks like. `01-readme-audit-framework.md` serves this role.
 3. **Templates** that structure the generation. The constitutional principles, the README template (problem statement, architecture, usage, testing, positioning), and the portfolio positioning guidelines.
 4. **Access to a capable AI model** that can generate 3,000-5,000 words of structured documentation from rich context.

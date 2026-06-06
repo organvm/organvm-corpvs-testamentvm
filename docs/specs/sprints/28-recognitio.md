@@ -89,7 +89,7 @@ This document.
 - Did not deploy life-my--midst--in (that is P0 human work)
 - Did not make any social media posts (that is P0 human work)
 - Did not run the soak test in non-dry-run mode (P1 item E2)
-- Did not modify registry-v2.json (no status changes)
+- Did not modify repo-registry.json (no status changes)
 - Did not create any new infrastructure (assessment and documentation only)
 - Did not write new essays (assessment sprint, not content sprint)
 

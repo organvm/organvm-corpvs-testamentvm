@@ -222,7 +222,7 @@ def main() -> None:
         mode = "DRY RUN (cross-repo)" if args.dry_run else "PROPAGATING (cross-repo)"
 
         # Load registry for landing.json transform
-        registry_path = ROOT / "registry-v2.json"
+        registry_path = ROOT / "repo-registry.json"
         registry = None
         if registry_path.exists():
             registry = _engine_load(registry_path)

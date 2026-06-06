@@ -100,7 +100,7 @@ The 21 top-level directories of this corpus partition cleanly into the four laye
 
 ### CORPUS
 `docs/`, `registry/`, `data/`, `ecosystem/`, `testament/`, `site-data/` (state telemetry consumed by docs), `essays/`, `applications/`, `specs/`, `_posts/` (TBD — see §5)
-Plus root markdown not in SUBSTRATE: `INST-INDEX-LOCORUM.md`, `INST-INDEX-RERUM-FACIENDARUM.md`, `IRF-V3-SPEC.md`, `ONTOLOGY-V2-SKETCH.md`, `essay-1-…-essay-8.md`, `CAPTAINS-LOG.md`, plus all root JSON/YAML governance files (`organ-definitions.json`, `governance-rules.json`, `governance-config.yaml`, `governance-amendments.jsonl`, `metrics-targets.yaml`, `vars-targets.yaml`, `seed.yaml`, `task-manifest.yaml`, `system-metrics.json`, `system-snapshot.json`, `system-vars.json`, `workspace-manifest.json`, `provenance-registry.json`, `praxis-distribution-report.json`, `praxis-flagship-report.json`, `code-substance-report.json`, `ecosystem.yaml`, `registry-v2.json`).
+Plus root markdown not in SUBSTRATE: `INST-INDEX-LOCORUM.md`, `INST-INDEX-RERUM-FACIENDARUM.md`, `IRF-V3-SPEC.md`, `ONTOLOGY-V2-SKETCH.md`, `essay-1-…-essay-8.md`, `CAPTAINS-LOG.md`, plus all root JSON/YAML governance files (`organ-definitions.json`, `governance-rules.json`, `governance-config.yaml`, `governance-amendments.jsonl`, `metrics-targets.yaml`, `vars-targets.yaml`, `seed.yaml`, `task-manifest.yaml`, `system-metrics.json`, `system-snapshot.json`, `system-vars.json`, `workspace-manifest.json`, `provenance-registry.json`, `praxis-distribution-report.json`, `praxis-flagship-report.json`, `code-substance-report.json`, `ecosystem.yaml`, `repo-registry.json`).
 
 ### ENGINE
 `scripts/`, `templates/`, `.config/` (env config consumed exclusively by scripts).
@@ -128,7 +128,7 @@ Currently classified as CORPUS / PRAGMA (state-of-the-corpus telemetry) because 
 The downstream-template directory is SURFACE because it propagates SURFACE-typed files (org profiles, issue templates, workflows) to other repos. Even though it lives at root, its contents are interface-shaped.
 
 ### 5.5 Root JSON/YAML
-The 19+ root JSON/YAML files (`registry-v2.json`, `organ-definitions.json`, etc.) are CORPUS / PRAGMA — they are the corpus's machine-readable self-knowledge. They are *not* SUBSTRATE despite living at root, because they are not externally mandated to be there in name or location.
+The 19+ root JSON/YAML files (`repo-registry.json`, `organ-definitions.json`, etc.) are CORPUS / PRAGMA — they are the corpus's machine-readable self-knowledge. They are *not* SUBSTRATE despite living at root, because they are not externally mandated to be there in name or location.
 
 ---
 
@@ -180,7 +180,7 @@ The two standards are **co-required**.
 | File | System | Inner classification | Why |
 |---|---|---|---|
 | `docs/memory/constitution.md` | CORPUS | TELOS / memory | The repo's immutable principles |
-| `registry-v2.json` | CORPUS | PRAGMA / root-singleton | Authoritative state-of-the-corpus |
+| `repo-registry.json` | CORPUS | PRAGMA / root-singleton | Authoritative state-of-the-corpus |
 | `docs/strategy/sprint-catalog.md` | CORPUS | PRAXIS / strategy | Documentation about action |
 | `docs/validation-runs/codex-cli/runs/20260209-135130/result.json` | CORPUS | RECEPTIO / validation-runs | External-AI reception of the corpus |
 | `data/fossil/fossil-record.jsonl` | CORPUS | ALCHEMICAL-IO / fossil | Metabolic flow record |

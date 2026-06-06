@@ -270,12 +270,12 @@ All seed.yaml files updated with deployment_url. Registry-v2.json updated.
 
 #### #9: revenue_status: live for >=1 Registry Entry — NOT STARTED
 
-**Criterion:** At least one ORGAN-III repository has `revenue_status: live` in registry-v2.json.
+**Criterion:** At least one ORGAN-III repository has `revenue_status: live` in repo-registry.json.
 
 **Status:** All 27 ORGAN-III repos have `revenue_status: pre-launch` or null. No Stripe integration connected.
 
 **Evidence:**
-- Registry: `registry-v2.json` — all ORGAN-III entries show `revenue_status: "pre-launch"`
+- Registry: `repo-registry.json` — all ORGAN-III entries show `revenue_status: "pre-launch"`
 
 **Gap:** Requires: (1) product deployed (#8), (2) Stripe integration connected (M2-II), (3) at least 1 paying user.
 

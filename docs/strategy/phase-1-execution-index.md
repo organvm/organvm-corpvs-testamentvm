@@ -258,7 +258,7 @@ When all of the following are true, Phase 1 is complete ✅
 - [ ] All external links validated (no 404s)
 - [ ] All code examples tested (working)
 - [ ] All 7 GitHub org About sections updated
-- [ ] registry-v2.json updated with documentation status
+- [ ] repo-registry.json updated with documentation status
 - [ ] Personal account consolidation complete
 - [ ] Empty/skeleton repo decisions executed
 - [ ] All 3 strategic decisions recorded

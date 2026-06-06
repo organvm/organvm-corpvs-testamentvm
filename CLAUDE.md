@@ -28,7 +28,7 @@ There is no build system or unified test suite here. Executable artifacts includ
 
 ## Key Invariants (Enforced Across All Documents)
 
-1. **`registry-v2.json` is the single source of truth** — all repo state lives there
+1. **`repo-registry.json` is the single source of truth** — all repo state lives there
 2. **No back-edges in dependency graph** — flow is I→II→III only; ORGAN-III cannot depend on ORGAN-II
 3. **All 8 organs are represented at launch** — each organ has at least one flagship repo fully documented; remaining repos may launch as stubs or in-progress (compatible with Bronze/Silver/Gold tiered approach)
 4. **Documentation precedes deployment** — no Phase 2 until Phase 1 is complete
@@ -42,7 +42,7 @@ There is no build system or unified test suite here. Executable artifacts includ
 1. `docs/genesis/00-c-master-summary.md` — Executive summary, start here (30 min)
 2. `docs/strategy/parallel-launch-strategy.md` — Strategic rationale for simultaneous launch
 3. `docs/genesis/00-d-organ-system-audit.md` — Current-state repo inventory per organ
-4. `registry-v2.json` — Machine-readable source of truth (skim)
+4. `repo-registry.json` — Machine-readable source of truth (skim)
 5. `docs/implementation/implementation-package-v2.md` — Master execution plan with subtask TE budgets
 6. `docs/implementation/orchestration-system-v2.md` — Governance rules and dependency model
 7. `docs/planning/01` through `05` — Phase 1 planning details (audit framework, templates, checklists, risk map)
@@ -57,7 +57,7 @@ There is no build system or unified test suite here. Executable artifacts includ
 - **Layer 0 (Genesis):** `docs/genesis/00-a`, `00-b`, `00-c`, `00-d` — conversational source material and audit
 - **Layer 1 (Phase 1 Planning):** `docs/planning/01` through `05`, `docs/standards/10-repository-standards.md`, `docs/standards/11-specification-driven-development.md` — sequential planning toolkit (scoring rubric, inventory, templates, checklists, risk map, repository standards, SDD methodology)
 - **Layer 2 (Execution):** `docs/strategy/phase-1-execution-index.md`, `docs/strategy/parallel-launch-strategy.md`, `docs/strategy/sprint-catalog.md` (76 named sprints across 18 categories)
-- **Layer 3 (v2 Active):** `docs/implementation/implementation-package-v2.md`, `docs/implementation/orchestration-system-v2.md`, `docs/implementation/public-process-map-v2.md`, `registry-v2.json`, `docs/implementation/github-actions-spec.md`
+- **Layer 3 (v2 Active):** `docs/implementation/implementation-package-v2.md`, `docs/implementation/orchestration-system-v2.md`, `docs/implementation/public-process-map-v2.md`, `repo-registry.json`, `docs/implementation/github-actions-spec.md`
 - **Operations:** `docs/operations/` — rolling-todo.md (work queue), operational-cadence.md (anti-patterns, review rhythm), concordance.md (invocation symbol table), stranger-test-protocol.md, key-workflows.md
 - **Archive:** `docs/archive/` contains v1 predecessors (superseded by v2 documents)
 
@@ -67,7 +67,7 @@ There is no build system or unified test suite here. Executable artifacts includ
 docs/genesis/00-a (Genesis Q&A)
   ├─→ 00-b (Local/Remote Structure)
   ├─→ 00-d (System Audit)
-  │     ├─→ registry-v2.json
+  │     ├─→ repo-registry.json
   │     └─→ docs/implementation/orchestration-system-v2.md
   └─→ 00-c (Master Summary)
         ├─→ docs/planning/01–05 (Phase 1 Planning)
@@ -78,7 +78,7 @@ docs/strategy/parallel-launch-strategy
   ├─→ docs/implementation/orchestration-system-v2
   ├─→ docs/implementation/public-process-map-v2
   ├─→ docs/implementation/github-actions-spec
-  └─→ registry-v2.json
+  └─→ repo-registry.json
 ```
 
 ## Implementation History (All Complete)
@@ -133,7 +133,7 @@ All org references in docs, registry, and workflows use the resolved instance na
 
 ## Working With This Corpus
 
-- When editing `registry-v2.json`, maintain the existing JSON schema. Every repo entry has: `name`, `org`, `status`, `public`, `description`, `documentation_status`, `portfolio_relevance`.
+- When editing `repo-registry.json`, maintain the existing JSON schema. Every repo entry has: `name`, `org`, `status`, `public`, `description`, `documentation_status`, `portfolio_relevance`.
 - ORGAN-III repos additionally carry `type` (SaaS/B2B/B2C/internal) and `revenue` fields.
 - The `docs/archive/` directory is frozen — do not modify v1 files; create v2+ variants in `docs/implementation/` instead.
 - Documents `01`–`05` are sequentially numbered outputs of the master summary (`00-c`). They form a cohesive planning toolkit and cross-reference each other. They live in `docs/planning/`.

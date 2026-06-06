@@ -24,7 +24,7 @@ The ORGAN I–VII system is designed to protect distinct modes of work (theory, 
 
 ## 📐 Key Invariants
 
-1.  **`registry-v2.json` is the Single Source of Truth**: All repository states and relationships must be defined here.
+1.  **`repo-registry.json` is the Single Source of Truth**: All repository states and relationships must be defined here.
 2.  **Unidirectional Dependency Flow**: Flow is strictly **I → II → III**. Back-edges are prohibited (e.g., ORGAN-III cannot depend on ORGAN-II).
 3.  **Parallel Launch**: All 8 organs are represented and operational at launch day.
 4.  **Documentation-First**: No Phase 2 (Validation) until Phase 1 (Documentation) is complete.
@@ -38,13 +38,13 @@ Primary content lives as numbered planning artifacts at the top level.
 *   **Layer 0 (Genesis):** `00-a` through `00-c` — Conversational source material and audit foundations.
 *   **Layer 1 (Planning):** `01` through `05` — Sequential planning toolkit (rubrics, templates, checklists, risk map).
 *   **Layer 2 (Strategy):** `parallel-launch-strategy.md`, `phase-1-execution-index.md`.
-*   **Layer 3 (v2 Active):** Active implementation specs (`registry-v2.json`, `docs/implementation/orchestration-system-v2.md`, `docs/implementation/github-actions-spec.md`).
+*   **Layer 3 (v2 Active):** Active implementation specs (`repo-registry.json`, `docs/implementation/orchestration-system-v2.md`, `docs/implementation/github-actions-spec.md`).
 *   **`docs/archive/`**: Superseded v1 documents (read-only reference).
 
 ## 🛠️ Maintenance & Validation
 
 ### Critical Files
-*   **`registry-v2.json`**: Canonical registry of all 44+ repos.
+*   **`repo-registry.json`**: Canonical registry of all 44+ repos.
 *   **`.config/organvm.config.json`**: Organ metadata and naming conventions.
 *   **`CLAUDE.md`**: Detailed implementation guide for AI agents.
 *   **`01-readme-audit-framework.md`**: The scoring rubric (0-100) for documentation quality.
@@ -54,7 +54,7 @@ This project has no build pipeline; quality is maintained via documentation QA.
 
 *   **Validate JSON Syntax**:
     ```bash
-    jq . registry-v2.json > /dev/null
+    jq . repo-registry.json > /dev/null
     python3 -m json.tool .config/organvm.config.json > /dev/null
     ```
 *   **Find Unresolved Placeholders**:
@@ -68,6 +68,6 @@ This project has no build pipeline; quality is maintained via documentation QA.
 
 ## 🧠 AI-Conductor Workflow
 
-When working in this repo, agents should prioritize **architectural reasoning** and **systemic coherence**. Every change to a repository's status or a project's roadmap must be reflected in `registry-v2.json`. Effort is measured in **TE (Tokens-Expended)** budgets rather than human-hours.
+When working in this repo, agents should prioritize **architectural reasoning** and **systemic coherence**. Every change to a repository's status or a project's roadmap must be reflected in `repo-registry.json`. Effort is measured in **TE (Tokens-Expended)** budgets rather than human-hours.
 
 Refer to `docs/ANNOTATED-MANIFEST.md` for a document-by-document breakdown of the corpus.

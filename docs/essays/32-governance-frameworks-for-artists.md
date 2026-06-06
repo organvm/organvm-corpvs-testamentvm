@@ -36,7 +36,7 @@ Let me describe the governance framework I use for the eight-organ system — 97
 
 ### The Registry: Knowing What You Have
 
-The registry is a single JSON file (`registry-v2.json`) that records the state of every project in the system. Each entry has:
+The registry is a single JSON file (`repo-registry.json`) that records the state of every project in the system. Each entry has:
 - A name and description
 - An implementation status (DESIGN_ONLY, SKELETON, PROTOTYPE, ACTIVE, ARCHIVED)
 - A portfolio relevance score

@@ -640,7 +640,7 @@ This is Essay 36 ("Construction Addiction") made operational. A sustained, measu
 ║    here --limit 5                    # workflow status        ║
 ║  python3 scripts/soak-test-monitor.py collect  # snapshot    ║
 ║  python3 scripts/soak-test-monitor.py report   # 30-day rpt  ║
-║  python3 scripts/organ-audit.py --registry registry-v2.json  ║
+║  python3 scripts/organ-audit.py --registry repo-registry.json  ║
 ║    --governance governance-rules.json --output audit.md      ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝

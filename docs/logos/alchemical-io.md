@@ -19,7 +19,7 @@ The corpus consumes raw signals from a wide contextual surface. Inputs cluster i
 - **Per-session continuation prompts** — emitted by the corpus *back into itself* for resuming paused work; consumers: ALL agents (per `seed.yaml`).
 
 ### 1.2 Registry and Telemetry
-- **`registry-v2.json`** updates from cross-organ sprints — the canonical state of all 145 repos
+- **`repo-registry.json`** updates from cross-organ sprints — the canonical state of all 145 repos
 - **`data/pulse/`** — system-pulse telemetry from `organvm` daemons
 - **`data/dashboard/`** — system-dashboard data feeds
 - **`data/organism/`** — organism-state snapshots
@@ -83,7 +83,7 @@ Distillation is performed by AI under human direction (the AI-conductor model). 
 
 ### Stage 4 — Coagulation
 Distilled material is set into authoritative containers:
-- Schema-conformant entries in `registry-v2.json`
+- Schema-conformant entries in `repo-registry.json`
 - Numbered standards in `docs/standards/`
 - Constitutional Articles and Amendments in `docs/memory/constitution.md`
 - IRF entries (each with a stable ID under one of 19 namespaces — IRF-SYS, IRF-OPS, IRF-DOC, IRF-RES, etc.)

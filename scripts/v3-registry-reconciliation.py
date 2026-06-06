@@ -12,7 +12,7 @@ import subprocess
 import sys
 import os
 
-REGISTRY_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "registry-v2.json")
+REGISTRY_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "repo-registry.json")
 
 SYSTEM_ORGS = [
     'organvm-i-theoria', 'organvm-ii-poiesis', 'organvm-iii-ergon',

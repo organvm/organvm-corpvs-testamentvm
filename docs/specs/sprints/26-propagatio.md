@@ -80,6 +80,6 @@ Propagate INSPECTIO findings and corrected metrics across all active documents. 
 
 - Did not build product code (that's Sprint 27+ in life-my--midst--in repo)
 - Did not submit applications (human work per checklist)
-- Did not change registry-v2.json (no status changes)
+- Did not change repo-registry.json (no status changes)
 - Did not create new infrastructure (AP-1 compliant)
 - Did not rewrite history — added update notes and propagated existing findings

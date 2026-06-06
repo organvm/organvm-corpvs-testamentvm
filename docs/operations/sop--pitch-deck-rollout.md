@@ -127,7 +127,7 @@ python -m organvm_engine registry stats
 ```
 
 Verify the target repo(s) have:
-- [ ] Entry in `registry-v2.json`
+- [ ] Entry in `repo-registry.json`
 - [ ] `tier`, `org`, `tech_stack` fields populated
 - [ ] ORGAN-III repos: `revenue_model` and `revenue_status` present
 
@@ -815,7 +815,7 @@ Is this a bespoke deck that IS the primary docs output?
 ### A. Data Assembly Priority Chain
 
 ```
-pitch.yaml  →  seed.yaml  →  registry-v2.json  →  README.md
+pitch.yaml  →  seed.yaml  →  repo-registry.json  →  README.md
  (highest)                                         (lowest)
 ```
 

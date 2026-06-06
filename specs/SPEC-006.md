@@ -25,9 +25,9 @@ ORGANVM's architecture is a seven-layer stack where each layer provides services
 
 **Layer 1 — Design Rules.**
 
-The constitutional substrate consists of the SPEC corpus, `registry-v2.json`, and `governance-rules.json`. These are the visible design parameters in Baldwin and Clark's (2000) vocabulary — the constraints that bind all downstream modules. Every other layer depends on the constitutional substrate; the substrate depends on nothing within the system.
+The constitutional substrate consists of the SPEC corpus, `repo-registry.json`, and `governance-rules.json`. These are the visible design parameters in Baldwin and Clark's (2000) vocabulary — the constraints that bind all downstream modules. Every other layer depends on the constitutional substrate; the substrate depends on nothing within the system.
 
-**Contents:** SPEC-000 through SPEC-017, `registry-v2.json` (source of truth for all repos), `governance-rules.json` (promotion criteria, organ dictums, dependency rules), the post-flood corpus (constitutional source narratives).
+**Contents:** SPEC-000 through SPEC-017, `repo-registry.json` (source of truth for all repos), `governance-rules.json` (promotion criteria, organ dictums, dependency rules), the post-flood corpus (constitutional source narratives).
 
 **Hides:** The specific format of governance documents, the prose structure of SPEC narratives, the versioning history of constitutional amendments. Upper layers interact with the substrate through the engine's registry and governance APIs, not through direct file reads.
 
@@ -71,7 +71,7 @@ The identity layer (`organvm-ontologia/`) provides the ULID-based entity registr
 
 **Hides:** The specific storage format (JSON/JSONL), the ULID generation algorithm, the hierarchy edge data structure. Upper layers resolve entities through `resolve_entity(name_or_uid, registry)` without knowledge of the store's internal layout.
 
-**Dependency:** Bootstraps from ARCH-001 (`registry-v2.json`). Uses ARCH-002 schemas for entity validation.
+**Dependency:** Bootstraps from ARCH-001 (`repo-registry.json`). Uses ARCH-002 schemas for entity validation.
 
 **Traces to:** AX-000-007 (Alchemical Inheritance — lineage records preserve structural history), INV-000-003 (Identity Persistence — the append-only store enforces UID monotonicity).
 
@@ -181,7 +181,7 @@ Following Bass, Clements, and Kazman (2012), ORGANVM's architectural quality att
 
 ### ARCH-030: Modifiability
 
-**Scenario.** Stimulus: a new product repo is added to ORGAN-III. Source: human operator. Environment: normal operation. Artifact: ORGAN-III registry section, new repo's seed.yaml, ORGAN-III dependency subgraph. Response: the addition is absorbed by creating seed.yaml, registering in registry-v2.json, bootstrapping in ontologia. Response measure: no modification required to any existing repo's seed.yaml, no modification required to any other organ's registry section, no governance audit finding generated that was not already present.
+**Scenario.** Stimulus: a new product repo is added to ORGAN-III. Source: human operator. Environment: normal operation. Artifact: ORGAN-III registry section, new repo's seed.yaml, ORGAN-III dependency subgraph. Response: the addition is absorbed by creating seed.yaml, registering in repo-registry.json, bootstrapping in ontologia. Response measure: no modification required to any existing repo's seed.yaml, no modification required to any other organ's registry section, no governance audit finding generated that was not already present.
 
 **Supporting tactics:** Information hiding (the new repo is hidden behind its seed.yaml interface), modular decomposition (the organ boundary contains the change scope), design-time binding (seed.yaml contract is established at creation).
 
@@ -205,7 +205,7 @@ Following Bass, Clements, and Kazman (2012), ORGANVM's architectural quality att
 
 ### ARCH-034: Evolutionary Capacity
 
-**Scenario.** Stimulus: the operator determines the eight-organ topology should gain a ninth organ. Source: governed constitutional revision (SPEC-000 Section 9). Environment: era transition. Artifact: `organ_config.py`, `registry-v2.json`, `governance-rules.json`, all seed.yaml files referencing organ taxonomy. Response: topology change enacted through constitutional revision proposal, organ_config update, registry extension, governance-rules extension, seed.yaml updates. Response measure: no invariant violated during transition; AMMOI summary reflects new topology within one metric refresh cycle.
+**Scenario.** Stimulus: the operator determines the eight-organ topology should gain a ninth organ. Source: governed constitutional revision (SPEC-000 Section 9). Environment: era transition. Artifact: `organ_config.py`, `repo-registry.json`, `governance-rules.json`, all seed.yaml files referencing organ taxonomy. Response: topology change enacted through constitutional revision proposal, organ_config update, registry extension, governance-rules extension, seed.yaml updates. Response measure: no invariant violated during transition; AMMOI summary reflects new topology within one metric refresh cycle.
 
 **Architectural debt disclosure:** The architecture *partially* supports this scenario. Data structures accommodate extension (registry keyed by organ, adding a key is trivial). However, the hardcoding in `organ_config.py` violates AX-000-006 and requires code modification rather than configuration change. This is the most significant architectural debt.
 

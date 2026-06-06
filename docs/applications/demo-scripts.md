@@ -447,7 +447,7 @@ organvm metrics refresh --dry-run 2>&1 | head -15
 ```
 DRY RUN — no files will be modified
   Would update: organvm-corpvs-testamentvm/docs/genesis/00-c-master-summary.md
-  Would update: organvm-corpvs-testamentvm/registry-v2.json
+  Would update: organvm-corpvs-testamentvm/repo-registry.json
   ...
 ```
 

@@ -52,7 +52,7 @@
 
 ## Procedure 2: Registry Corruption Recovery
 
-**Symptoms:** `organ-audit.py` reports critical errors. `registry-v2.json` has invalid JSON, missing organs, or inconsistent data.
+**Symptoms:** `organ-audit.py` reports critical errors. `repo-registry.json` has invalid JSON, missing organs, or inconsistent data.
 
 **Steps:**
 
@@ -61,20 +61,20 @@
 2. **Identify when corruption occurred:**
    ```bash
    cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm
-   git log --oneline -20 -- registry-v2.json
+   git log --oneline -20 -- repo-registry.json
    ```
 
 3. **Restore from last known good state:**
    ```bash
    # Find the last commit where the audit passed
    # Then restore that version
-   git show <good-commit>:registry-v2.json > registry-v2.json
+   git show <good-commit>:repo-registry.json > repo-registry.json
    ```
 
 4. **Validate the restored version:**
    ```bash
    python3 scripts/organ-audit.py \
-       --registry registry-v2.json \
+       --registry repo-registry.json \
        --governance governance-rules.json \
        --output /tmp/recovery-audit.md
    ```
@@ -83,7 +83,7 @@
 
 6. **Commit the fix:**
    ```bash
-   git add registry-v2.json
+   git add repo-registry.json
    git commit -m "fix: restore registry from <good-commit> after corruption"
    git push origin main
    ```
@@ -146,18 +146,18 @@
 1. **Identify the violation:**
    ```bash
    python3 scripts/organ-audit.py \
-       --registry registry-v2.json \
+       --registry repo-registry.json \
        --governance governance-rules.json \
        --output /tmp/dep-audit.md
    ```
    Look for lines like: `Back-edge violation: organvm-iii-ergon/repo -> organvm-ii-poiesis/repo`
 
 2. **Determine if the dependency is real or stale:**
-   - Read the offending repo's `seed.yaml` (if it has one) or check the `dependencies` field in `registry-v2.json`
+   - Read the offending repo's `seed.yaml` (if it has one) or check the `dependencies` field in `repo-registry.json`
    - Often, back-edges were introduced during batch operations and don't reflect actual code dependencies
 
 3. **Remove the offending dependency:**
-   - Edit `registry-v2.json` to remove the dependency from the `dependencies` array
+   - Edit `repo-registry.json` to remove the dependency from the `dependencies` array
    - If the repo has a `seed.yaml`, update its `consumes` field too
 
 4. **Re-validate:**
@@ -202,7 +202,7 @@
 
 | What | Where |
 |------|-------|
-| Registry | `registry-v2.json` |
+| Registry | `repo-registry.json` |
 | Governance rules | `governance-rules.json` |
 | Audit script | `scripts/organ-audit.py` |
 | Dependency validator | `scripts/v4-dependency-validation.py` |

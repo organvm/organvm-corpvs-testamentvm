@@ -32,7 +32,7 @@
 - **Run ID:** 22022504449
 - **Triggered:** 2026-02-14T18:50:39Z
 - **Result:** Completed successfully
-- **Action:** Audits all entries in registry-v2.json for consistency
+- **Action:** Audits all entries in repo-registry.json for consistency
 - **Interpretation:** Registry data is consistent and healthy
 
 ### 3. Validate Dependencies (FAIL → FIXED)
@@ -61,7 +61,7 @@ FAILED — 2 issues found
 **Fix applied:**
 - Removed back-edge from `tab-bookmark-manager/seed.yaml` (remote push via gh api)
 - Fixed placeholder values in `my--father-mother/seed.yaml` (remote push via gh api)
-- Removed both dependencies from `registry-v2.json` (local)
+- Removed both dependencies from `repo-registry.json` (local)
 - Dependency edge count: 33 → 31
 
 **Interpretation:** The autonomous validation system correctly detected violations that were missed during manual Sprint reviews. This is the governance working as designed.

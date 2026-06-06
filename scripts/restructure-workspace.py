@@ -24,7 +24,7 @@ HOME = Path.home()
 WORKSPACE = HOME / "Workspace"
 WORLD_REALM = HOME / "world" / "realm"
 SCRIPT_DIR = Path(__file__).parent
-REGISTRY_PATH = SCRIPT_DIR.parent / "registry-v2.json"
+REGISTRY_PATH = SCRIPT_DIR.parent / "repo-registry.json"
 
 ORG_DIRS = [
     "organvm-i-theoria",
@@ -114,7 +114,7 @@ except ImportError:
 
 
 def load_registry() -> list[dict]:
-    """Load all repos from registry-v2.json."""
+    """Load all repos from repo-registry.json."""
     if _engine_load is not None:
         data = _engine_load(REGISTRY_PATH)
     else:

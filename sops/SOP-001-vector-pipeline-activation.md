@@ -226,7 +226,7 @@ When activating this SOP for a new project, answer these first:
 
 This SOP interacts with:
 - **seed.yaml** — declares what content a repo produces (used by ingestion to find files)
-- **registry-v2.json** — source of truth for repo metadata (used to enumerate repos)
+- **repo-registry.json** — source of truth for repo metadata (used to enumerate repos)
 - **CLAUDE.md** — per-repo documentation (primary ingestion target)
 - **governance-rules.json** — no direct interaction, but vector search quality is a potential governance metric
 

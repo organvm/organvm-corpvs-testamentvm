@@ -565,7 +565,7 @@ Article-by-article assessment against post-launch state:
 
 **Status: PASS**
 
-`registry-v2.json` schema v0.3 with 81 entries. All required fields populated. Validated by v5 registry gate (all fields present, no empty descriptions). The registry matches GitHub reality within the tolerance of the v3 reconciliation (0 missing repos, 3 description mismatches — all archived repos pending fix).
+`repo-registry.json` schema v0.3 with 81 entries. All required fields populated. Validated by v5 registry gate (all fields present, no empty descriptions). The registry matches GitHub reality within the tolerance of the v3 reconciliation (0 missing repos, 3 description mismatches — all archived repos pending fix).
 
 ### Article II: Unidirectional Dependencies
 
@@ -814,7 +814,7 @@ Doc 10 closed the planning-evaluation loop. Doc 11 closes the execution-evaluati
 | `docs/evaluation/06-evaluation-to-growth-analysis.md` | 25 original coded findings | C1–C7, L1–L3, B1–B7, S1–S4, R1–R6, E1–E7 status |
 | `docs/evaluation/10-e2g-meta-review.md` | 18 meta-findings | MC1–MC10, ML1–ML4, MB1–MB5, MS1–MS3, MR1–MR5, MG1–MG9 status |
 | `docs/evaluation/08-canonical-action-plan.md` | D-register resolutions | D-01 through D-08 execution status |
-| `registry-v2.json` | Source of truth | 81 entries, schema v0.3, implementation_status distribution |
+| `repo-registry.json` | Source of truth | 81 entries, schema v0.3, implementation_status distribution |
 | `scripts/v1-v2-report.json` | Link/TBD audit | 1 broken system link, 14 contextual TBD markers |
 | `scripts/v3-report.json` | Registry reconciliation | 3 archived repo description mismatches |
 | `scripts/v4-report.json` | Dependency validation | 31 deps, 0 violations |

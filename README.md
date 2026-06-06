@@ -26,7 +26,7 @@ This is **not a source code repository**. It is the authoritative planning and g
 |-------------------|-----------|
 | Understand the whole system in 30 minutes | [`00-c-master-summary.md`](docs/genesis/00-c-master-summary.md) |
 | See the strategic rationale | [`parallel-launch-strategy.md`](docs/strategy/parallel-launch-strategy.md) |
-| Know what repos exist and their status | [`registry-v2.json`](registry-v2.json) |
+| Know what repos exist and their status | [`repo-registry.json`](repo-registry.json) |
 | See the execution plan | [`implementation-package-v2.md`](docs/implementation/implementation-package-v2.md) |
 | Understand governance rules | [`orchestration-system-v2.md`](docs/implementation/orchestration-system-v2.md) |
 | See the historical timeline (launch) | [`roadmap-there-and-back-again.md`](docs/strategy/roadmap-there-and-back-again.md) |
@@ -52,7 +52,7 @@ Layer 2: Execution & Strategy (docs/strategy/)
   phase-1-execution-index → parallel-launch-strategy → roadmap-there-and-back-again
 
 Layer 3: v2 Active Documents (docs/implementation/)
-  implementation-package-v2 → orchestration-system-v2 → public-process-map-v2 → registry-v2.json → github-actions-spec
+  implementation-package-v2 → orchestration-system-v2 → public-process-map-v2 → repo-registry.json → github-actions-spec
 
 Layer 4: Evaluation & Cross-Validation (docs/evaluation/)
   06 (evaluation) → 07 (prompts + results) → 08 (canonical action plan) → 09 (corpus coherence review)
@@ -207,7 +207,7 @@ After launch, a series of targeted sprints drove the system from launch-ready to
 
 **Concordia Sprint (2026-02-16):** Registry reconciliation with actual GitHub state. 6 orphan repos discovered and registered (91→97 total). `render-second-amendment` deleted locally (14 GB freed). 2 LFS checkout failures fixed. Seed.yaml coverage audited (38/86 = 44%).
 
-**Tripartitum Sprint (2026-02-16):** Three-part combined sprint — metrics correction, sprint spec writing, and document alignment. 13 files updated with ~70 edits correcting stale metrics. 19 retrospective sprint specs written in `docs/specs/sprints/`. All active documents aligned with `registry-v2.json`.
+**Tripartitum Sprint (2026-02-16):** Three-part combined sprint — metrics correction, sprint spec writing, and document alignment. 13 files updated with ~70 edits correcting stale metrics. 19 retrospective sprint specs written in `docs/specs/sprints/`. All active documents aligned with `repo-registry.json`.
 
 **Submissio Sprint (2026-02-16):** Application verification and submission preparation. All 9 submission bundles verified against current metrics (97 repos, ~398K+ words, 33 essays). Step-by-step submission checklist created (`docs/applications/08-submission-checklist.md`). Human form-filling is the remaining step.
 
@@ -243,7 +243,7 @@ The AI-conductor model is documented extensively in the ORGAN V essays, particul
 Every repository in the eight-organ system meets a defined quality floor:
 
 - **README:** 2,000+ words minimum (flagships: 3,000+), written for grant reviewers and hiring managers. Each README includes a badge row, project description, architecture overview, and honest assessment of tradeoffs.
-- **CI/CD:** 70+ repos carry GitHub Actions workflows — linting, testing, or build validation depending on the repo's tech stack. CI status is tracked in `registry-v2.json`.
+- **CI/CD:** 70+ repos carry GitHub Actions workflows — linting, testing, or build validation depending on the repo's tech stack. CI status is tracked in `repo-registry.json`.
 - **CHANGELOG:** Present in every repo, following Keep a Changelog format. Documents the progression from initial creation through documentation sprints to current status.
 - **Community health files:** CONTRIBUTING.md, CODE_OF_CONDUCT.md, and SECURITY.md inherited from org-level `.github` repositories where possible, with repo-specific overrides where needed.
 - **Architectural Decision Records:** 130+ ADRs across the system documenting key design choices — technology selections, dependency declarations, naming decisions, and tradeoff analyses.
@@ -256,7 +256,7 @@ The complete standards specification is in [`docs/standards/10-repository-standa
 
 Five validation scripts in [`scripts/`](scripts/) enforce system integrity:
 
-1. **Registry validation** — verifies `registry-v2.json` schema compliance: every repo entry has required fields (name, org, status, public, description, documentation_status, portfolio_relevance), ORGAN-III entries carry additional `type`, `revenue_model`, and `revenue_status` fields.
+1. **Registry validation** — verifies `repo-registry.json` schema compliance: every repo entry has required fields (name, org, status, public, description, documentation_status, portfolio_relevance), ORGAN-III entries carry additional `type`, `revenue_model`, and `revenue_status` fields.
 2. **Dependency graph validation** — checks all 62 dependency edges for acyclicity and enforces the no-back-edges constraint (I→II→III only). Detects circular dependencies and cross-organ violations.
 3. **Documentation completeness** — audits every repo for README presence, minimum word count, badge row, and required sections.
 4. **Link integrity** — checks all cross-references across the corpus (1,267+ links audited at launch).
@@ -273,7 +273,7 @@ The Platinum validation suite adds additional checks: CI workflow presence, CHAN
 ### For Human Readers
 
 1. **Start with** [`00-c-master-summary.md`](docs/genesis/00-c-master-summary.md) for a 30-minute overview of the system's design
-2. **Browse** [`registry-v2.json`](registry-v2.json) to see all 97 repos with their status, tiers, and documentation state
+2. **Browse** [`repo-registry.json`](repo-registry.json) to see all 97 repos with their status, tiers, and documentation state
 3. **Read the essays** at [public-process](https://organvm-v-logos.github.io/public-process/) for the meta-system narrative
 4. **Reference** the numbered documents (`01`–`05`) in [`docs/planning/`](docs/planning/) for the original planning methodology
 
@@ -286,7 +286,7 @@ The Platinum validation suite adds additional checks: CI workflow presence, CHAN
 
 ### Key Invariants
 
-1. `registry-v2.json` is the single source of truth for all repo state
+1. `repo-registry.json` is the single source of truth for all repo state
 2. No back-edges in the dependency graph (I → II → III only)
 3. All 8 organs are represented at launch
 4. Documentation precedes deployment

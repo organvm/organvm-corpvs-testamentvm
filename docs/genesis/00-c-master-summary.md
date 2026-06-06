@@ -75,7 +75,7 @@ Meta-system documentation (registry, governance, essays) is your competitive dif
 | ORGAN-VI (Community) | PRIVATE | Invitation-only participation; archival value only |
 | ORGAN-VII (Marketing) | PRIVATE | Internal distribution logistics; no external need |
 
-**Action:** Classify each of 14 local repos, record in registry-v2.json
+**Action:** Classify each of 14 local repos, record in repo-registry.json
 
 **Decision deadline:** Friday, Feb 14 (end of Sprint 1)
 
@@ -209,7 +209,7 @@ Meta-system documentation (registry, governance, essays) is your competitive dif
 **Meta Tasks (~740K TE total)**
 - Update all 7 GitHub org About sections (7 orgs x ~15K TE = ~105K TE)
 - Migrate 14 local repos to GitHub (with READMEs)
-- Update registry-v2.json with documentation status
+- Update repo-registry.json with documentation status
 - Validate all internal links (cross-repo references)
 - Validate all external links (no 404s)
 
@@ -221,7 +221,7 @@ Meta-system documentation (registry, governance, essays) is your competitive dif
 - ✅ All internal links verified working
 - ✅ All external links validated
 - ✅ All READMEs AI-validated + human-reviewed + approved
-- ✅ registry-v2.json updated with documentation status
+- ✅ repo-registry.json updated with documentation status
 - ✅ Ready for Phase 2 validation ✅
 
 ---
@@ -246,7 +246,7 @@ Meta-system documentation (registry, governance, essays) is your competitive dif
 - [ ] Personal account consolidation decided + executed
 - [ ] All 14 local repos classified (public/private)
 - [ ] All empty repos decided (populate/archive)
-- [ ] Decisions recorded in registry-v2.json
+- [ ] Decisions recorded in repo-registry.json
 
 **Quality assurance:**
 - [ ] All READMEs AI-validated + human-reviewed
@@ -417,7 +417,7 @@ Dependencies, critical path, risks, optimal sequencing
 - [ ] Update org About sections
 - [ ] Validate all links (internal + external)
 - [ ] AI-validate + human-review all READMEs
-- [ ] Update registry-v2.json
+- [ ] Update repo-registry.json
 - [ ] Final sign-off: All documentation complete
 
 **Phase 1 Complete:** All 44 repos documented ✅ Ready for Phase 2 ✅

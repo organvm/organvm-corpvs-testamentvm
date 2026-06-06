@@ -98,4 +98,4 @@ Execute the full database provisioning pipeline (migrations + seeds), fix all bu
 - Did not configure custom domains or SSL
 - Did not set up monitoring/alerting (Sentry, Grafana)
 - Did not run integration tests against live Neon (unit tests only; API manually verified via curl)
-- Did not modify registry-v2.json (no status changes)
+- Did not modify repo-registry.json (no status changes)

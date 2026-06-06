@@ -76,7 +76,7 @@ GET <api-url>/demo/profile  → Full demo profile
 ### After deploy:
 - Copy API URL and Web URL
 - Copy Deploy Hook URL → add as `RENDER_DEPLOY_HOOK` secret to the repo
-- Update `registry-v2.json`: add `"url"`, set `"revenue_status": "beta"`
+- Update `repo-registry.json`: add `"url"`, set `"revenue_status": "beta"`
 
 ### Full script: `submission-scripts/life-deploy.md`
 

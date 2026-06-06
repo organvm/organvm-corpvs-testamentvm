@@ -1,6 +1,6 @@
 # ORGAN-IV: Orchestration System (Parallel Launch)
 
-> **⚠ HISTORICAL DOCUMENT (2026-02-03).** The orchestration design is implemented and running. Repo count is now 97 (not 44). Current system state lives in [`registry-v2.json`](../../registry-v2.json). Workflow specs are live at [`orchestration-start-here`](https://github.com/organvm-iv-taxis/orchestration-start-here).
+> **⚠ HISTORICAL DOCUMENT (2026-02-03).** The orchestration design is implemented and running. Repo count is now 97 (not 44). Current system state lives in [`repo-registry.json`](../../repo-registry.json). Workflow specs are live at [`orchestration-start-here`](https://github.com/organvm-iv-taxis/orchestration-start-here).
 
 **Status:** Design Document (Ready to Implement)  
 **Version:** 2.0 (Parallel All-Organs Deployment)  
@@ -213,7 +213,7 @@ LOCAL → CANDIDATE → PUBLIC_PROCESS → GRADUATED → ARCHIVED
 
 ### Repo Documentation Status (Registry Vocabulary)
 
-The `registry-v2.json` uses a separate vocabulary for current repo state:
+The `repo-registry.json` uses a separate vocabulary for current repo state:
 
 | Value | Meaning |
 |-------|---------|

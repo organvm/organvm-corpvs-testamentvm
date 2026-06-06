@@ -113,7 +113,7 @@ The speckit skill defines three commands that form a pipeline: specify -> plan -
 3. Run constitution check (evaluate quality gates)
 4. Research phase: explore the actual repo (code state, existing docs, dependencies)
 5. Map cross-references: which other repos will this README link to? Do those READMEs exist yet?
-6. Plan registry updates: what fields will change in `registry-v2.json`?
+6. Plan registry updates: what fields will change in `repo-registry.json`?
 7. Re-evaluate constitution compliance post-design
 
 **Constitution Gates (adapted for documentation):**
@@ -151,7 +151,7 @@ The project constitution lives at [`docs/memory/constitution.md`](../memory/cons
 
 | Article | Principle | Gate Implication |
 |---------|-----------|-----------------|
-| I | Registry as Single Source of Truth | Every deliverable that changes repo state must update `registry-v2.json` |
+| I | Registry as Single Source of Truth | Every deliverable that changes repo state must update `repo-registry.json` |
 | II | Unidirectional Dependencies | Cross-references must flow I->II->III; no back-edges |
 | III | All Eight Organs at Launch | Bronze Sprint must produce at least one flagship per organ I-V |
 | IV | Documentation Precedes Deployment | Specification must exist before writing begins |
@@ -210,7 +210,7 @@ docs/specs/{deliverable}/spec.md (deliverable specification)
 docs/specs/{deliverable}/plan.md (documentation plan)
   |                           |
   v                           v
-03 templates (README writing)  registry-v2.json (state updates)
+03 templates (README writing)  repo-registry.json (state updates)
   |                           |
   v                           v
 04 checklists (validation)    01 rubric (scoring)

@@ -10,7 +10,7 @@ Concise map of the corpus. For detailed per-file annotations, see [`docs/ANNOTAT
 | `LICENSE` | CC BY-SA 4.0 |
 | `CLAUDE.md` | Claude Code agent context and project rules |
 | `DIRECTORY.md` | This file — corpus directory map |
-| `registry-v2.json` | Single source of truth for all repo state |
+| `repo-registry.json` | Single source of truth for all repo state |
 | `INST-INDEX-RERUM-FACIENDARUM.md` | Universal work registry — the canonical gap between what the system IS and what it NEEDS TO BE. Part of the four-index classical apparatus (Faciendarum, Locorum, Nominum, Rerum). 76 items across 19 domains. |
 
 ## `.config/` — Org Naming Configuration

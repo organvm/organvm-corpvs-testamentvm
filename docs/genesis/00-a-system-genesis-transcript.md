@@ -5023,7 +5023,7 @@ Architected parallel organ launch with governance and documentation framework
 
 Revised registry.json: All 7 organs launched in parallel with complete repo inventory and meta-documentation framework
 
-registry-v2.json
+repo-registry.json
 
 Good, now I need to revise the orchestration-system.md for parallel launch. This needs to address:
 
@@ -5138,7 +5138,7 @@ You now have **6 comprehensive documents** totaling ~200 KB of complete, actiona
 
 ### **Data & Architecture**
 
-**registry-v2.json** — Central repository
+**repo-registry.json** — Central repository
 
 *   All 60 repos mapped to 7 organs (+ 14 local repos to migrate)
 *   Portfolio relevance scoring (critical for external visibility)
@@ -7831,7 +7831,7 @@ Research shows **meta-system documentation is increasingly valued by:**
 
 ## What You Have: Five Complete Design Documents
 
-### 1. **registry-v2.json** (Central Registry)
+### 1. **repo-registry.json** (Central Registry)
 - All 60 repos mapped to 7 organs
 - 14 local repos integrated
 - Portfolio relevance scoring (for external visibility)
@@ -7992,7 +7992,7 @@ What you'd contribute to their community:
 - Action: Share templates + deadline (all READMEs by end of week 2)
 
 **Subtask 1.2: Personal Account & Org Audit** (4 hours)
-- Inventory all 60 repos (already done in registry-v2.json)
+- Inventory all 60 repos (already done in repo-registry.json)
 - Decision: Personal account 4444J99 consolidation
   - Option A: Archive as read-only, migrate all working repos to orgs (recommended)
   - Option B: Keep active, but mirror all to orgs (adds maintenance burden)
@@ -8069,7 +8069,7 @@ What you'd contribute to their community:
 - All 60 repos have comprehensive READMEs
 - All 7 orgs have About sections
 - 14 local repos migrated to GitHub
-- registry-v2.json updated with documentation status
+- repo-registry.json updated with documentation status
 - Total effort: 70 hours
 
 ---
@@ -8401,7 +8401,7 @@ The funding and hiring ecosystem has shifted to explicitly value:
 
 ### Five Revised Implementation Documents
 
-**1. registry-v2.json** (Central Registry)
+**1. repo-registry.json** (Central Registry)
 - All 60 repos + 14 local repos mapped to 7 organs
 - Dependencies fully specified (no circular, correct transitive depth)
 - Portfolio relevance scoring visible to external evaluators
@@ -8734,7 +8734,7 @@ The parallel launch strategy is sound because:
 
 ## Documents You Have
 
-1. **registry-v2.json** — All 60 repos + relationships (central source of truth)
+1. **repo-registry.json** — All 60 repos + relationships (central source of truth)
 2. **orchestration-system-v2.md** — Governance rules for parallel operation
 3. **github-actions-spec.md** — 5 core workflows (all active day 1)
 4. **public-process-map-v2.md** — ORGAN-V essays + distribution
@@ -9154,7 +9154,7 @@ Meta-system documentation (registry, governance, essays) is your competitive dif
 | ORGAN-VI (Community) | PRIVATE | Invitation-only participation; archival value only |
 | ORGAN-VII (Marketing) | PRIVATE | Internal distribution logistics; no external need |
 
-**Action:** Classify each of 14 local repos, record in registry-v2.json
+**Action:** Classify each of 14 local repos, record in repo-registry.json
 
 **Decision deadline:** Friday, Feb 14 (end of Week 1)
 
@@ -9288,7 +9288,7 @@ Meta-system documentation (registry, governance, essays) is your competitive dif
 **Meta Tasks (5 hours total)**
 - Update all 7 GitHub org About sections (7 hours / 7 orgs = 1 hour each)
 - Migrate 14 local repos to GitHub (with READMEs)
-- Update registry-v2.json with documentation status
+- Update repo-registry.json with documentation status
 - Validate all internal links (cross-repo references)
 - Validate all external links (no 404s)
 
@@ -9300,7 +9300,7 @@ Meta-system documentation (registry, governance, essays) is your competitive dif
 - ✅ All internal links verified working
 - ✅ All external links validated
 - ✅ All READMEs peer-reviewed + approved
-- ✅ registry-v2.json updated with documentation status
+- ✅ repo-registry.json updated with documentation status
 - ✅ Ready for Phase 2 validation ✅
 
 ---
@@ -9325,7 +9325,7 @@ Meta-system documentation (registry, governance, essays) is your competitive dif
 - [ ] Personal account consolidation decided + executed
 - [ ] All 14 local repos classified (public/private)
 - [ ] All empty repos decided (populate/archive)
-- [ ] Decisions recorded in registry-v2.json
+- [ ] Decisions recorded in repo-registry.json
 
 **Quality assurance:**
 - [ ] All READMEs peer-reviewed
@@ -9496,7 +9496,7 @@ Dependencies, critical path, risks, optimal sequencing
 - [ ] Update org About sections
 - [ ] Validate all links (internal + external)
 - [ ] Peer-review all READMEs
-- [ ] Update registry-v2.json
+- [ ] Update repo-registry.json
 - [ ] Final sign-off: All documentation complete
 
 **Phase 1 Complete:** All 60 repos documented ✅ Ready for Phase 2 ✅
@@ -10549,7 +10549,7 @@ If delayed, causes cascading effects on ORGAN-II completeness.
 **Sunday (Feb 23) - Final Review**
 - Peer review pass: 4 hours
 - Final validation: 2 hours
-- registry-v2.json updates: 2 hours
+- repo-registry.json updates: 2 hours
 - Total: 8 hours (final push if needed)
 
 ### Critical Path Milestones
@@ -10575,7 +10575,7 @@ If delayed, causes cascading effects on ORGAN-II completeness.
 **Sunday, Feb 23 (Final):**
 - ✅ All 60 repos peer-reviewed + approved
 - ✅ All links validated
-- ✅ registry-v2.json updated
+- ✅ repo-registry.json updated
 - ✅ All GitHub org About sections done
 - ✅ Phase 1 COMPLETE ✅
 
@@ -10670,7 +10670,7 @@ If delayed, causes cascading effects on ORGAN-II completeness.
 - [ ] All READMEs peer-reviewed + approved
 - [ ] All links validated (0 broken)
 - [ ] All GitHub org About sections complete
-- [ ] registry-v2.json updated
+- [ ] repo-registry.json updated
 - [ ] 0 critical issues remaining
 
 **If all criteria met:** Phase 1 COMPLETE ✅ Launch Phase 2 immediately
@@ -10965,7 +10965,7 @@ When all of the following are true, Phase 1 is complete ✅
 - [ ] All external links validated (no 404s)
 - [ ] All code examples tested (working)
 - [ ] All 7 GitHub org About sections updated
-- [ ] registry-v2.json updated with documentation status
+- [ ] repo-registry.json updated with documentation status
 - [ ] Personal account consolidation complete
 - [ ] Empty/skeleton repo decisions executed
 - [ ] All 3 strategic decisions recorded

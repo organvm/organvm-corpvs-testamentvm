@@ -42,14 +42,14 @@ On Feb 9, 2026, the planning corpus underwent a systematic conversion from human
 
 The registry claims 60 repos. The registry contains 44. This 16-repo gap is never acknowledged or reconciled. Every document that says "60 repos" is inflated by ~27%.
 
-- `registry-v2.json` line 9: `"total_repos": 60`
+- `repo-registry.json` line 9: `"total_repos": 60`
 - Actual count: 44 repos across 7 organs
 - `summary.local_repos_to_migrate`: 14, but none are enumerated with real names
 - `02-repo-inventory-audit.md` lists repos 45-58 as `[local-theory-1]`, `[local-art-2]`, etc. -- placeholders, not real repos
 
 **Implication:** The entire effort estimation, timeline, and validation plan is built on a repo count that includes 16 placeholders with no real names. The "comprehensive README for all 60 repos" promise is impossible to fulfill because 16 of those repos do not exist yet. The `02-repo-inventory-audit.md` inventory header says "74 Repositories" while the body shows 44 registered + 14 local = 58. Even the document that should resolve the count contradicts itself.
 
-**Resolution path:** Phase 0 must reconcile: audit the 8 unregistered repos discovered in `organvm-i-theoria`, classify the 14 local repos with real names, and update `registry-v2.json` to reflect actual state.
+**Resolution path:** Phase 0 must reconcile: audit the 8 unregistered repos discovered in `organvm-i-theoria`, classify the 14 local repos with real names, and update `repo-registry.json` to reflect actual state.
 
 #### C2: TE Budget Variance
 
@@ -117,7 +117,7 @@ All of this is designed for a team. The operator is one person. The risk map (`0
 
 **Severity: MEDIUM | Status: STILL OPEN**
 
-`registry-v2.json` calls itself "single source of truth" but lacks:
+`repo-registry.json` calls itself "single source of truth" but lacks:
 - No `dependencies` field between repos (the dependency graph exists only in prose)
 - No `promotion_status` field (the state machine LOCAL-->CANDIDATE-->...-->ARCHIVED exists only in docs)
 - `documentation_status` is a free-text string ("README REQUIRED") with no enum
@@ -187,7 +187,7 @@ The natural order is: validate what exists --> document what is real --> fill ga
 
 **Status: STILL OPEN**
 
-`registry-v2.json` declares every organ at `"completion": "100%"` and `"launch_status": "OPERATIONAL"` -- but this is the *target state* written as *current state*. The registry is aspirational, not descriptive. Any tooling that reads it will get false positives. The `02-repo-inventory-audit.md` inventory shows average scores of 40-65/100 across organs, directly contradicting the registry's 100% claims.
+`repo-registry.json` declares every organ at `"completion": "100%"` and `"launch_status": "OPERATIONAL"` -- but this is the *target state* written as *current state*. The registry is aspirational, not descriptive. Any tooling that reads it will get false positives. The `02-repo-inventory-audit.md` inventory shows average scores of 40-65/100 across organs, directly contradicting the registry's 100% claims.
 
 ---
 
@@ -370,7 +370,7 @@ The TE conversion did not address this -- it priced the READMEs but not the cros
 
 #### S3: Registry Becomes Stale Immediately
 
-If `registry-v2.json` claims 100% completion and operational status before launch, then post-launch reality (repos at 50-70% quality, some validation checks failing) makes the registry a liability, not an asset. Any evaluator who reads the registry and then visits the actual repos will see the gap. The TE conversion made this worse by adding precise-looking TE budgets to a registry that still contains aspirational state.
+If `repo-registry.json` claims 100% completion and operational status before launch, then post-launch reality (repos at 50-70% quality, some validation checks failing) makes the registry a liability, not an asset. Any evaluator who reads the registry and then visits the actual repos will see the gap. The TE conversion made this worse by adding precise-looking TE budgets to a registry that still contains aspirational state.
 
 #### S4: Governance Overhead Collapses the System
 
@@ -412,7 +412,7 @@ Replace the binary "all or nothing" gate with tiers:
 
 #### E2: Fix the Registry
 
-Rebuild `registry-v2.json` with:
+Rebuild `repo-registry.json` with:
 - Honest `documentation_status` enum: `["none", "stub", "draft", "complete", "validated"]`
 - Honest `completion` reflecting actual state (not 100% when average is 50/100)
 - `dependencies` array per repo (enables the automation layer from `github-actions-spec.md`)
@@ -502,7 +502,7 @@ This meta-lesson should inform Phase 1 README writing: plan for reconciliation p
 |------|-------|----------------------|-------------|
 | `CLAUDE.md` | Meta | CURRENT | Project invariants, reading order, TE methodology -- the guidebook for working with this corpus |
 | `ANNOTATED-MANIFEST.md` (in `docs/`) | Meta | CURRENT | Exhaustive per-file annotations; best starting point for understanding the corpus |
-| `registry-v2.json` (at root) | L3 (Active) | TE-RECONCILED | 44 repos not 60; schema missing dependency/promotion fields; organ TE values + totals reconciled to 02 sums; `total_repos: 60` still wrong |
+| `repo-registry.json` (at root) | L3 (Active) | TE-RECONCILED | 44 repos not 60; schema missing dependency/promotion fields; organ TE values + totals reconciled to 02 sums; `total_repos: 60` still wrong |
 | `docs/genesis/00-a-system-genesis-transcript.md` | L0 (Genesis) | TE-CONVERTED | ~397KB foundational transcript; intellectual bedrock of the system; TE references updated |
 | `docs/genesis/00-b-local-remote-structure-transcript.md` | L0 (Genesis) | TE-CONVERTED | Local/remote structure analysis; TE references updated |
 | `00-d-organ-system-audit.md` (in `docs/genesis/`) | L0 (Genesis) | TE-CONVERTED | Current-state repo inventory per organ; TE values updated |

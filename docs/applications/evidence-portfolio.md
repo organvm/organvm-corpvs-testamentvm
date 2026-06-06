@@ -1,7 +1,7 @@
 # Evidence Portfolio — ORGANVM System
 
 **Generated:** 2026-03-04
-**Source:** Omega Evidence Map, registry-v2.json, system metrics
+**Source:** Omega Evidence Map, repo-registry.json, system metrics
 **Purpose:** Portable evidence summary for grant applications, fellowship submissions, and portfolio presentations
 
 ---
@@ -76,7 +76,7 @@
 
 | Artifact | Location | Purpose |
 |----------|----------|---------|
-| Registry | `registry-v2.json` | Single source of truth for all 103 repos |
+| Registry | `repo-registry.json` | Single source of truth for all 103 repos |
 | Constitution | `docs/memory/constitution.md` | 6 articles + 5 amendments governing all operations |
 | Roadmap | `docs/strategy/there+back-again.md` | 17 omega criteria across 5 horizons |
 | Sprint Catalog | `docs/strategy/sprint-catalog.md` | 76 named sprints across 18 categories |

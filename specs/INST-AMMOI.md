@@ -69,7 +69,7 @@ The architecture draws on Boisot and Child's (1999) Information Space (I-Space) 
 **Content:** Append-only record of every state mutation with timestamp, causation, and payload (INST-EVENT-SPINE).
 **Reconciliation responsibility:** When any other layer changes, the Event layer must record the change as an immutable event. Events are never modified or deleted. The Event layer is the constitutional memory of the system.
 
-**Implementation:** MISSING. Currently, state mutations are applied directly to registry-v2.json without event recording. Target: INST-EVENT-SPINE implementation.
+**Implementation:** MISSING. Currently, state mutations are applied directly to repo-registry.json without event recording. Target: INST-EVENT-SPINE implementation.
 
 ### AMMOI-006: Governance Layer
 
@@ -175,7 +175,7 @@ AMMOI is the theoretical model. Ontologia is the implementation. The alignment m
 | Identity | EntityIdentity (ULID, entity_type) | ALIGNED |
 | Hierarchy | ContainmentEdge (organ -> repo -> module) | ALIGNED |
 | Relation | (not yet in ontologia; in seed/graph.py) | PARTIAL |
-| State | (not yet in ontologia; in registry-v2.json) | PARTIAL |
+| State | (not yet in ontologia; in repo-registry.json) | PARTIAL |
 | Event | (not yet implemented) | MISSING |
 | Governance | (in governance-rules.json, not ontologia) | MISSING |
 
@@ -183,12 +183,12 @@ Full AMMOI reconciliation requires extending ontologia to manage the Relation, S
 
 ### AMMOI-015: Bootstrap Reconciliation
 
-When the AMMOI system is bootstrapped (from registry-v2.json as the initial state), the bootstrap process must establish coherence across all six layers:
+When the AMMOI system is bootstrapped (from repo-registry.json as the initial state), the bootstrap process must establish coherence across all six layers:
 
 1. **Identity:** Create EntityIdentity for every registered entity (done: `bootstrap_from_registry()`)
 2. **Hierarchy:** Create containment edges for every organ-repo-module relationship (done: `sync_modules_from_excavation()`)
 3. **Relation:** Import produces/consumes/subscribes edges from seed.yaml (partial: seed graph exists)
-4. **State:** Import current promotion state, CI status, metric values (partial: registry-v2.json)
+4. **State:** Import current promotion state, CI status, metric values (partial: repo-registry.json)
 5. **Event:** Synthesise a bootstrap event for each entity and relation (missing)
 6. **Governance:** Import governance rules and validate all entities against them (partial: audit exists)
 

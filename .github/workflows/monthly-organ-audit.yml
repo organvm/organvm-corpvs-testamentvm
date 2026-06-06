@@ -25,7 +25,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python3 scripts/organ-audit.py \
-            --registry registry-v2.json \
+            --registry repo-registry.json \
             --governance governance-rules.json \
             --output audit-report.md \
             --metrics metrics.json \
@@ -74,7 +74,7 @@ jobs:
           import json
           from datetime import datetime, timezone
 
-          registry = json.load(open('registry-v2.json'))
+          registry = json.load(open('repo-registry.json'))
           metrics = json.load(open('metrics.json'))
 
           if 'audit_history' not in registry:
@@ -88,7 +88,7 @@ jobs:
           # Keep only last 12 audit entries
           registry['audit_history'] = registry['audit_history'][-12:]
 
-          with open('registry-v2.json', 'w') as f:
+          with open('repo-registry.json', 'w') as f:
               json.dump(registry, f, indent=2)
               f.write('\n')
           PYEOF
@@ -97,7 +97,7 @@ jobs:
         run: |
           git config user.name "ORGAN-IV Audit Bot"
           git config user.email "audit@organvm.org"
-          git add registry-v2.json
+          git add repo-registry.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else

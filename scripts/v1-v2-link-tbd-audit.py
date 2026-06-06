@@ -16,7 +16,7 @@ from collections import defaultdict
 from urllib.parse import urlparse
 
 # ── Config ──────────────────────────────────────────────────────────────
-REGISTRY_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "registry-v2.json")
+REGISTRY_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "repo-registry.json")
 
 # Markers to scan for (V2)
 TBD_PATTERNS = [

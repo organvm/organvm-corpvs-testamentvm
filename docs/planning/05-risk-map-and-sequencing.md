@@ -230,7 +230,7 @@ If delayed, causes cascading effects on ORGAN-II completeness.
 **Sunday (Feb 23) - Final Review**
 - Human review pass: 4 hours
 - Final validation: ~30K TE
-- registry-v2.json updates: ~30K TE
+- repo-registry.json updates: ~30K TE
 - Total: ~60K TE + human review (final push if needed)
 
 ### Critical Path Milestones
@@ -256,7 +256,7 @@ If delayed, causes cascading effects on ORGAN-II completeness.
 **Sunday, Feb 23 (Final):**
 - ✅ All 60 repos peer-reviewed + approved
 - ✅ All links validated
-- ✅ registry-v2.json updated
+- ✅ repo-registry.json updated
 - ✅ All GitHub org About sections done
 - ✅ Phase 1 COMPLETE ✅
 
@@ -351,7 +351,7 @@ If delayed, causes cascading effects on ORGAN-II completeness.
 - [ ] All READMEs peer-reviewed + approved
 - [ ] All links validated (0 broken)
 - [ ] All GitHub org About sections complete
-- [ ] registry-v2.json updated
+- [ ] repo-registry.json updated
 - [ ] 0 critical issues remaining
 
 **If all criteria met:** Phase 1 COMPLETE ✅ Launch Phase 2 immediately

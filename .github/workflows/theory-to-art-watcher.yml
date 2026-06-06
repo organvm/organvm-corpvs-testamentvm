@@ -7,7 +7,7 @@ name: Theory → Art Watcher
 on:
   push:
     paths:
-      - 'registry-v2.json'
+      - 'repo-registry.json'
   schedule:
     - cron: '0 10 * * 2'  # Tuesday 10:00 UTC
   workflow_dispatch:
@@ -33,7 +33,7 @@ jobs:
           import json
           import os
 
-          with open("registry-v2.json") as f:
+          with open("repo-registry.json") as f:
               registry = json.load(f)
 
           organ_i = registry.get("organs", {}).get("ORGAN-I", {})

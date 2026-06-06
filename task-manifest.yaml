@@ -36,7 +36,7 @@ deliverables:
     status: done
     completed: "2026-02-10"
     description: >
-      Added 4 fields to all 44 repo entries in registry-v2.json:
+      Added 4 fields to all 44 repo entries in repo-registry.json:
       dependencies, promotion_status, tier, last_validated.
       Schema version bumped to 0.2.
 
@@ -48,7 +48,7 @@ deliverables:
     depends_on: [P1_flagships]
     description: >
       One flagship essay for ORGAN-V (public-process). Topic selected from
-      the 5 essay outlines in registry-v2.json. 4,000-5,000 words,
+      the 5 essay outlines in repo-registry.json. 4,000-5,000 words,
       publishable quality. Requires flagship READMEs to exist as source material.
 
   P4_xrefs:

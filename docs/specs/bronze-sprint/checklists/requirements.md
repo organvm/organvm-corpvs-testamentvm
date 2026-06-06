@@ -24,7 +24,7 @@ Use this checklist before declaring Bronze Sprint complete. Every box must be ch
 
 ## Registry Schema (P2)
 
-- [x] `registry-v2.json` parses as valid JSON (`python3 -m json.tool`) — Validated, 79 repos, schema v0.2
+- [x] `repo-registry.json` parses as valid JSON (`python3 -m json.tool`) — Validated, 79 repos, schema v0.2
 - [x] `dependencies[]` field exists on all flagship repo entries — All 7 entries have `dependencies` arrays populated
 - [x] `promotion_status` field exists on all flagship repo entries — I-V: CANDIDATE; VI-VII: LOCAL
 - [x] `tier` field exists on all flagship repo entries — I-V: flagship; VI-VII: infrastructure
@@ -48,7 +48,7 @@ Use this checklist before declaring Bronze Sprint complete. Every box must be ch
 
 ## Constitution Compliance
 
-- [x] Article I: All registry entries updated for flagships — All 7 flagship entries in registry-v2.json have documentation_status updated to FLAGSHIP README DEPLOYED
+- [x] Article I: All registry entries updated for flagships — All 7 flagship entries in repo-registry.json have documentation_status updated to FLAGSHIP README DEPLOYED
 - [x] Article II: No dependency back-edges in READMEs or registry — 6 dependency edges verified, all flow upstream (II→I, IV→I, V→I/II/III/IV). No ORGAN-III→II or II→III edges.
 - [x] Article III: All 8 organs represented (flagships I-V, stubs VI-VII) — I-V have flagship READMEs deployed; VI-VII have stub READMEs as org profiles; VIII (meta-organvm) exists as umbrella org
 - [x] Article IV: Specifications exist before deliverables were written — `spec.md` created Feb 10 13:31:58; first flagship created Feb 10 15:56:17. Spec precedes all deliverables.

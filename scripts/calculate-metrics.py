@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Calculate system-wide metrics from registry-v2.json, sprint specs, and essays.
+"""Calculate system-wide metrics from repo-registry.json, sprint specs, and essays.
 
 Thin wrapper around organvm_engine.metrics.calculator — delegates core computation
 to the engine while adding corpus-specific features (sprint counts, essay API, etc.).
 
 Usage:
     python3 scripts/calculate-metrics.py
-    python3 scripts/calculate-metrics.py --registry registry-v2.json --output system-metrics.json
+    python3 scripts/calculate-metrics.py --registry repo-registry.json --output system-metrics.json
     python3 scripts/calculate-metrics.py --skip-essays   # offline mode
 """
 
@@ -29,7 +29,7 @@ from organvm_engine.metrics.calculator import (
 from organvm_engine.registry.loader import load_registry as _engine_load
 
 ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_REGISTRY = ROOT / "registry-v2.json"
+DEFAULT_REGISTRY = ROOT / "repo-registry.json"
 DEFAULT_OUTPUT = ROOT / "system-metrics.json"
 SPRINTS_DIR = ROOT / "docs" / "specs" / "sprints"
 
@@ -112,7 +112,7 @@ def load_existing_essay_count(output_path: Path) -> int:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Calculate system metrics")
     parser.add_argument("--registry", default=str(DEFAULT_REGISTRY),
-                        help="Path to registry-v2.json")
+                        help="Path to repo-registry.json")
     parser.add_argument("--output", default=str(DEFAULT_OUTPUT),
                         help="Path for JSON metrics output")
     parser.add_argument("--skip-essays", action="store_true",

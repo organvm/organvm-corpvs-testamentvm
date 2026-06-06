@@ -39,7 +39,7 @@ Added `⚠ HISTORICAL DOCUMENT` blockquote headers to 4 files:
 | `implementation-sprint-specs.md` | 2026-02-12 | All 5 repos validated, PRODUCTION→ACTIVE |
 | `orchestration-system-v2.md` | 2026-02-03 | Design implemented, 44→97 repos |
 
-Each header points to current authoritative documents (registry-v2.json, sprint-catalog.md, operational-cadence.md) without rewriting the historical content.
+Each header points to current authoritative documents (repo-registry.json, sprint-catalog.md, operational-cadence.md) without rewriting the historical content.
 
 ## Key Decisions
 

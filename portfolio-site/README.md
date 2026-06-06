@@ -5,7 +5,7 @@ The unified front door for the eight-organ creative-institutional system.
 ## Architecture
 
 - **Framework**: Astro (static site generator)
-- **Data source**: `registry-v2.json` via `praxis-portfolio-generate.py`
+- **Data source**: `repo-registry.json` via `praxis-portfolio-generate.py`
 - **Design tokens**: Derived from `taste.yaml` aesthetic pillars
 - **Deploy target**: Vercel or GitHub Pages
 
@@ -50,7 +50,7 @@ npm run build:fresh
 ## Data Pipeline
 
 ```
-registry-v2.json
+repo-registry.json
        |
        v
 praxis-portfolio-generate.py  -->  src/data/*.json (committed snapshot)

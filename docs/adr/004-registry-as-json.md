@@ -20,7 +20,7 @@ The choice needed to support: CI/CD validation workflows, human review via `git 
 
 ## Decision
 
-All repository metadata lives in `registry-v2.json` — a single flat JSON file at the repository root. Schema version 0.5 defines the structure:
+All repository metadata lives in `repo-registry.json` — a single flat JSON file at the repository root. Schema version 0.5 defines the structure:
 
 - Top-level: `metadata` (schema version, timestamps), `organizations` (per-org config), `repositories` (array of repo entries)
 - Each repo entry: `name`, `org`, `implementation_status`, `public`, `description`, `documentation_status`, `portfolio_relevance`
@@ -35,7 +35,7 @@ The file is validated by `scripts/praxis-validate.py` and CI workflows. Changes 
 
 - **Zero infrastructure**: No database server, no connection strings, no hosting cost
 - **Full version history**: Every registry change is a git commit with diff, author, and timestamp
-- **Grep-able**: `grep -c '"ACTIVE"' registry-v2.json` gives instant counts
+- **Grep-able**: `grep -c '"ACTIVE"' repo-registry.json` gives instant counts
 - **CI-friendly**: Validation scripts run against the file without any runtime dependencies
 - **Atomic updates**: A single commit updates the entire system state
 - **Portable**: Copy one file and you have the complete system inventory
@@ -50,7 +50,7 @@ The file is validated by `scripts/praxis-validate.py` and CI workflows. Changes 
 
 ## References
 
-- Registry file: `registry-v2.json`
+- Registry file: `repo-registry.json`
 - Validation: `scripts/praxis-validate.py`
 - Schema history: v1 (archived in `docs/archive/`), v2 current (schema 0.5)
 - ADR-009 for the VERITAS revenue field split that modified the schema

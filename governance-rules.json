@@ -389,7 +389,7 @@
       {
         "id": "AX-4",
         "name": "Registry Coherence",
-        "statement": "registry-v2.json is the single source of truth. No repo may appear in multiple organs, repository_count must match actual arrays, and no entry may have an empty name.",
+        "statement": "repo-registry.json is the single source of truth. No repo may appear in multiple organs, repository_count must match actual arrays, and no entry may have an empty name.",
         "enforcement": "automated",
         "validator": "validate_registry_coherence",
         "references": ["constitution.md Article I", "registry/query.py"],
