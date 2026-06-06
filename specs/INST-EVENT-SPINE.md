@@ -140,7 +140,7 @@ Snapshots are produced:
 
 ### EVT-012: Snapshot as Recovery Point
 
-registry-v2.json is the current materialized snapshot of the event stream's state. If the event log is lost or corrupted, registry-v2.json serves as the recovery point from which a new event log can be bootstrapped. The snapshot is the backup; the event log is the authority.
+repo-registry.json is the current materialized snapshot of the event stream's state. If the event log is lost or corrupted, repo-registry.json serves as the recovery point from which a new event log can be bootstrapped. The snapshot is the backup; the event log is the authority.
 
 ---
 
@@ -156,7 +156,7 @@ All state representations are read models -- materialized views derived from the
 
 | Read Model | Consumer | Projection |
 |------------|----------|------------|
-| `registry-v2.json` | Engine, governance | Current entity state (latest promotion, current dependencies) |
+| `repo-registry.json` | Engine, governance | Current entity state (latest promotion, current dependencies) |
 | Dashboard | Human operator | Health visualization, graph rendering, soak monitoring |
 | MCP server | AI agents | Query results, context injection, governance status |
 | Metrics engine | Temporal metrics | Observation history, trend computation, reference mode classification |
@@ -200,7 +200,7 @@ Given any current state element (a repo's promotion status, a dependency edge, a
 | CQRS consumer architecture | PARTIAL | Dashboard and MCP server read from registry (a materialized view) but not from an event log |
 | Temporal query engine | MISSING | Target: `organvm-engine/src/organvm_engine/events/replay.py` |
 
-The current system operates with mutable state (registry-v2.json as a directly edited JSON file) rather than event-sourced state. The transition from mutable state to event sourcing is a significant architectural change that this specification authorizes and defines.
+The current system operates with mutable state (repo-registry.json as a directly edited JSON file) rather than event-sourced state. The transition from mutable state to event sourcing is a significant architectural change that this specification authorizes and defines.
 
 ---
 

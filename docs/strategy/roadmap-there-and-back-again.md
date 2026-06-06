@@ -108,7 +108,7 @@ PERSONAL_ACCOUNT="4444J99"
 ```
 
 **How this works in practice:**
-- `registry-v2.json` stores `"org": "$ORGAN_I_ORG"` (or resolved at generation time)
+- `repo-registry.json` stores `"org": "$ORGAN_I_ORG"` (or resolved at generation time)
 - GitHub Actions workflows read org names from repository variables or secrets
 - READMEs use relative links within the org (no hardcoded org name in URLs)
 - Cross-org links use a link-resolver script that reads `organvm.env`
@@ -184,7 +184,7 @@ Step 5: AI updates all local git remotes (scriptable, ~30 min)
 
 Step 6: AI creates organvm.env, organvm.env.local, organvm.config.json
 
-Step 7: AI updates registry-v2.json — parameterize all org references
+Step 7: AI updates repo-registry.json — parameterize all org references
 
 Step 8: AI updates all 20 planning docs — search-replace org names
 ```
@@ -216,7 +216,7 @@ Remaining on personal account (2 public):
 ```
 PHASE -1: Org Architecture (THIS PLAN — ~30 min human + ~150K TE)
     ↓ Execute: rename/create orgs, create config files
-    ↓ Update registry-v2.json + all 20 planning docs
+    ↓ Update repo-registry.json + all 20 planning docs
     ↓
     ══════ APPROVAL GATE: Verify all 8 orgs exist with correct names ══════
     ↓
@@ -245,7 +245,7 @@ PHASE 3: Integration + Launch (~1.1M TE)
 - [x] Create `organvm.env` (template) + `organvm.env.local` (your instance) + `organvm.config.json`
 - [x] Cross-validate corpus via 3 AI models × 2 runs (gemini-cli/, github-copilot-cli/, codex-cli/)
 - [x] Produce `08-canonical-action-plan.md` — resolves all D-registers, defines Bronze Sprint scope and criteria
-- [x] Update `registry-v2.json`: all 44 entries use `organvm-*` names (verified 2026-02-10)
+- [x] Update `repo-registry.json`: all 44 entries use `organvm-*` names (verified 2026-02-10)
 - [x] Update all 20 planning docs: old names in historical context only (verified 2026-02-10)
 - [x] Build template infrastructure (`.github-template/`, `scripts/generate-github-configs.py`)
 - [x] Template audit & fixes (C1-C3, M1-M2, L1 resolved)
@@ -391,7 +391,7 @@ STREAM D (Copilot):     Code examples + inline docs across all repos (on-demand)
 | VII | ~88K TE | POSSE workflows, distribution strategy, templates, analytics |
 | VIII (Meta) | ~30K TE | Profile README, org links, cross-org navigation |
 
-**Phase 2 Complete When:** All 8 organs show `LOCKED` in registry-v2.json.
+**Phase 2 Complete When:** All 8 organs show `LOCKED` in repo-registry.json.
 
 ---
 
@@ -437,7 +437,7 @@ STREAM D (Copilot):     Code examples + inline docs across all repos (on-demand)
 - [x] `organvm.env`, `organvm.env.local`, `organvm.config.json` created
 - [x] `roadmap-there-and-back-again.md` exported to planning corpus directory
 - [x] All 8 GitHub orgs exist with new names and are accessible (verified 2026-02-10)
-- [x] `registry-v2.json` contains zero hardcoded old org names (verified 2026-02-10)
+- [x] `repo-registry.json` contains zero hardcoded old org names (verified 2026-02-10)
 - [x] All local git remotes point to new org URLs (no local clones found with old URLs)
 - [x] 13 unregistered ORGAN-I repos classified + 8 ORGAN-II repos classified (2026-02-10)
 - [x] 3 misaligned repos verified — already in correct org (enterprise-plugin auto-redirects)
@@ -450,7 +450,7 @@ STREAM D (Copilot):     Code examples + inline docs across all repos (on-demand)
 | # | Criterion | Status | Evidence |
 |---|-----------|--------|----------|
 | 1 | All repos documented (score ≥90) | PASS | 58 repos at 2,000+ words, 6 flagships at 3,000+ |
-| 2 | registry-v2.json complete + accurate | PASS | V3 reconciliation: 0 mismatches, 67 repos confirmed |
+| 2 | repo-registry.json complete + accurate | PASS | V3 reconciliation: 0 mismatches, 67 repos confirmed |
 | 3 | All 8 organs operational | PASS | All 8 organs OPERATIONAL in registry |
 | 4 | 0 broken links | PASS | V1 audit: 1,267 links scanned, 7 fixed, 0 remaining |
 | 5 | All 5 GitHub Actions workflows passing | PASS | validate-deps, monthly-audit, distribute-content confirmed |
@@ -505,7 +505,7 @@ The planning corpus itself was committed as `meta-organvm/organvm-corpvs-testame
 | `organvm.config.json` | **NEW** — Machine-readable org mapping |
 | `roadmap-there-and-back-again.md` | **NEW** — Exported full execution plan |
 | `08-canonical-action-plan.md` | **NEW** — Bronze Sprint definition (post-cross-validation) |
-| `registry-v2.json` | Single source of truth |
+| `repo-registry.json` | Single source of truth |
 | `01-readme-audit-framework.md` | Scoring rubric |
 | `02-repo-inventory-audit.md` | Task list |
 | `03-per-organ-readme-templates.md` | README templates |

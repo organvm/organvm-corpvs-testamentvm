@@ -86,7 +86,7 @@
 - "The registry is more important than any individual repo"
 
 **Slide 11 — Registry-as-JSON**
-- `registry-v2.json`: single source of truth for all 113 repos
+- `repo-registry.json`: single source of truth for all 113 repos
 - Keyed by organ, each containing array of repo objects
 - Fields: name, org, status, tier, promotion_status, ci_workflow, revenue_model
 - Demo moment: show the actual registry file, scroll through it
@@ -155,7 +155,7 @@
 
 ### Key Demo Moments
 
-1. **Slide 11:** Open `registry-v2.json` in an editor — scroll through the 113 repos to show real scale. Show a single repo entry with all its fields.
+1. **Slide 11:** Open `repo-registry.json` in an editor — scroll through the 113 repos to show real scale. Show a single repo entry with all its fields.
 2. **Slide 12:** Show the `organvm` CLI running `organvm registry list --organ ORGAN-I` — live listing of repos with their promotion states.
 3. **Slide 7:** Show a terminal with a TE budget calculation — the token arithmetic for generating a README (input tokens + output tokens + revision iterations).
 4. **Slide 17:** Run `organvm metrics calculate` or show the system dashboard at localhost:8000 — the omega scorecard in real time.
@@ -210,7 +210,7 @@
 - Build FROM the constraint, not DESPITE it
 - "No database budget" does not mean "find a cheaper database"
 - It means: "What if the entire system runs on a single JSON file?"
-- `registry-v2.json`: 2,400+ lines, 113 repos, zero infrastructure cost
+- `repo-registry.json`: 2,400+ lines, 113 repos, zero infrastructure cost
 - Demo moment: show the registry file — a JSON file that IS the database
 - "The constraint eliminated an entire class of operational complexity"
 
@@ -308,7 +308,7 @@
 
 ### Key Demo Moments
 
-1. **Slide 5:** Open `registry-v2.json` and show it as the "database" — a single JSON file serving the function of an entire data layer. Scroll to show scale (2,400+ lines, 113 repos).
+1. **Slide 5:** Open `repo-registry.json` and show it as the "database" — a single JSON file serving the function of an entire data layer. Scroll to show scale (2,400+ lines, 113 repos).
 2. **Slide 7:** Show the four governance quadrilateral documents side by side in split panes — roadmap, catalog, cadence, rolling TODO.
 3. **Slide 10:** Open an actual ADR file and walk through the constraint -> decision -> consequences format.
 4. **Slide 13:** Run `organvm registry validate` to show the validation scripts catching errors in real time.
@@ -508,12 +508,12 @@ These metrics appear across all three talks and should be kept consistent. Sourc
 
 | Metric | Value | Source |
 |--------|-------|--------|
-| Total repositories | 149 | registry-v2.json |
-| GitHub organizations | 8 | registry-v2.json |
+| Total repositories | 149 | repo-registry.json |
+| GitHub organizations | 8 | repo-registry.json |
 | Documentation volume | ~6K+ words | system metrics |
 | Published essays | 29 | ORGAN-V public-process |
 | Automated tests | 4,015+ | CI aggregation |
-| CI/CD workflows | 107+ | registry-v2.json |
+| CI/CD workflows | 107+ | repo-registry.json |
 | JSON schemas | 6 (all v1.0.0) | schema-definitions |
 | ADRs | 16 | docs/adr/ |
 | Completed sprints | 33 | sprint catalog |

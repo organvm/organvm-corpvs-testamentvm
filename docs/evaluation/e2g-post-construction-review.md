@@ -34,7 +34,7 @@
 **S1-II. All E2G-I P0/P1 findings resolved.**
 The VERITAS Sprint (Sprint 11) addressed every critical finding: `PRODUCTION` renamed to `ACTIVE` across 82 repos, `revenue: active` split into `revenue_model` + `revenue_status: pre-launch` across all 27 ORGAN-III repos, 9 future-dated essays corrected, all application TODOs fixed, jargon de-translated, and an honesty essay published. This is not incremental improvement — it's a full remediation of every credibility-destroying vulnerability identified in E2G-I.
 
-*Evidence:* `registry-v2.json` (0 instances of PRODUCTION, 0 instances of old `revenue` field), `docs/evaluation/e2g-action-items.md` (all P0/P1 checked), `grep TODO docs/applications/` (0 results)
+*Evidence:* `repo-registry.json` (0 instances of PRODUCTION, 0 instances of old `revenue` field), `docs/evaluation/e2g-action-items.md` (all P0/P1 checked), `grep TODO docs/applications/` (0 results)
 
 **S2-II. Sprint infrastructure is mature.**
 27 sprint specs in continuous numbering (`docs/specs/sprints/01-ignition.md` through `27-beta-vitae.md`), each with standard format (Objective, Delivered, Key Decisions, Metrics Delta, Lessons). A metrics pipeline (`scripts/calculate-metrics.py` + `scripts/propagate-metrics.py`) automatically calculates and cascades numbers across documents. The sprint catalog (`docs/strategy/sprint-catalog.md`) maps ~60 hypothetical future sprints to 17 omega criteria. This is industrial-grade project management infrastructure.
@@ -49,7 +49,7 @@ The VERITAS Sprint (Sprint 11) addressed every critical finding: `PRODUCTION` re
 **S4-II. Registry schema is clean and honest.**
 Schema v0.5 with correct field semantics: `implementation_status: ACTIVE` (not PRODUCTION), `revenue_model` (business model intent) separated from `revenue_status: pre-launch` (business reality). 97 repos registered, all on GitHub. The registry says what it means and means what it says.
 
-*Evidence:* `registry-v2.json` (schema_version: "0.5"), 28 `revenue_model` entries, 28 `revenue_status` entries, 90 ACTIVE + 7 ARCHIVED
+*Evidence:* `repo-registry.json` (schema_version: "0.5"), 28 `revenue_model` entries, 28 `revenue_status` entries, 90 ACTIVE + 7 ARCHIVED
 
 **S5-II. Operational infrastructure is built.**
 Soak test monitor deployed (`scripts/soak-test-monitor.py`), stranger test protocol written (`docs/operations/stranger-test-protocol.md`), 3 operational runbooks exist (`minimum-viable-operations.md`, `emergency-procedures.md`, `key-workflows.md`), operational cadence document covers daily/weekly/monthly rhythms. The infrastructure for external validation is ready — it just hasn't been used.
@@ -212,8 +212,8 @@ The bad news is that internal consistency was necessary but not sufficient. E2G-
 
 | Claim | E2G-I Status | E2G-II Status | Evidence |
 |-------|-------------|---------------|----------|
-| "97 maintained repositories" | Overclaimed (said PRODUCTION) | **Accurately labeled ACTIVE** | registry-v2.json |
-| "Revenue models identified" | False (said "active" revenue) | **Honest** (pre-launch status) | registry-v2.json |
+| "97 maintained repositories" | Overclaimed (said PRODUCTION) | **Accurately labeled ACTIVE** | repo-registry.json |
+| "Revenue models identified" | False (said "active" revenue) | **Honest** (pre-launch status) | repo-registry.json |
 | "35 published essays" | Future-dated anomaly | **Correctly dated** | public-process _posts/ |
 | "AI-conductor methodology" | Drafted only | **Published** | public-process/_posts/2026-02-11 |
 | "Beta product ready" | Did not exist | **Provisioned + tested** | life-my--midst--in on Neon |
@@ -336,7 +336,7 @@ Based on E2G-II findings, the next sprints should exclusively prioritize **exter
 
 | Evidence Source | Path / Location | Key Data Points |
 |---|---|---|
-| Registry | `registry-v2.json` | 97 repos, 90 ACTIVE, 7 ARCHIVED, schema v0.5, 28 revenue_model entries |
+| Registry | `repo-registry.json` | 97 repos, 90 ACTIVE, 7 ARCHIVED, schema v0.5, 28 revenue_model entries |
 | System Metrics | `system-metrics.json` | 27 sprints, 35 essays, ~386K+ words, 77 CI workflows |
 | Soak Test | `data/soak-test/daily-2026-02-16.json` | 1 data point, dry_run: true, 0 engagement |
 | Application Tracker | `docs/applications/04-application-tracker.md` | 0 submitted, 9 ready, 0 in progress |

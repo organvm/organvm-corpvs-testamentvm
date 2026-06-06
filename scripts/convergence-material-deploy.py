@@ -15,7 +15,7 @@ import os
 from pathlib import Path
 
 PROVENANCE_PATH = Path(__file__).parent.parent / "provenance-registry.json"
-REGISTRY_PATH = Path(__file__).parent.parent / "registry-v2.json"
+REGISTRY_PATH = Path(__file__).parent.parent / "repo-registry.json"
 
 # 7 DESIGN_ONLY repos and their deploy path mappings
 DEPLOY_TARGETS = {

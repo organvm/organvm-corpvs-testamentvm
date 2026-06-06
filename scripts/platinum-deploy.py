@@ -14,7 +14,7 @@ import os
 from pathlib import Path
 
 TEMPLATES_DIR = Path(__file__).parent.parent / "templates"
-REGISTRY_PATH = Path(__file__).parent.parent / "registry-v2.json"
+REGISTRY_PATH = Path(__file__).parent.parent / "repo-registry.json"
 
 # Organ metadata for badge generation
 ORGAN_META = {
@@ -240,7 +240,7 @@ Accepted
 
 ## Decision
 
-We chose {lang} as the primary implementation language, leveraging its ecosystem for {"scientific computing, data processing, and AI/ML integration" if "Python" in lang else "web application development, type safety, and modern frontend/backend patterns" if "TypeScript" in lang or "JavaScript" in lang else "the specific domain requirements of this project"}. The project follows the organvm repository standards (documented in `docs/standards/10-repository-standards.md` of the planning corpus) and integrates with the cross-organ dependency graph maintained in `registry-v2.json`.
+We chose {lang} as the primary implementation language, leveraging its ecosystem for {"scientific computing, data processing, and AI/ML integration" if "Python" in lang else "web application development, type safety, and modern frontend/backend patterns" if "TypeScript" in lang or "JavaScript" in lang else "the specific domain requirements of this project"}. The project follows the organvm repository standards (documented in `docs/standards/10-repository-standards.md` of the planning corpus) and integrates with the cross-organ dependency graph maintained in `repo-registry.json`.
 
 Key architectural choices:
 - **Language**: {lang} — selected for ecosystem fit and team expertise
@@ -265,7 +265,7 @@ Key architectural choices:
 
 - Part of the [organvm eight-organ system](https://github.com/meta-organvm)
 - Organ: {organ_label}
-- Registry: `registry-v2.json` in [organvm-corpvs-testamentvm](https://github.com/meta-organvm/organvm-corpvs-testamentvm)
+- Registry: `repo-registry.json` in [organvm-corpvs-testamentvm](https://github.com/meta-organvm/organvm-corpvs-testamentvm)
 """
 
 
@@ -291,7 +291,7 @@ The organvm system enforces a strict dependency flow: ORGAN-I (Theory) feeds int
 ## Decision
 
 This repository participates in the cross-organ dependency graph as follows:
-- **Upstream dependencies**: Defined in `registry-v2.json` under the `dependencies` field
+- **Upstream dependencies**: Defined in `repo-registry.json` under the `dependencies` field
 - **Downstream consumers**: Other repos that list this repo in their dependencies
 - **Integration pattern**: {"Direct Python package imports via pip installable modules" if "Python" in lang else "NPM package consumption or API integration" if "TypeScript" in lang or "JavaScript" in lang else "Documentation and specification sharing"}
 - **Communication**: Asynchronous — repos communicate through versioned releases and registry state, not runtime coupling

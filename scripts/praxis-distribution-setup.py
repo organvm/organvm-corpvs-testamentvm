@@ -28,7 +28,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-REGISTRY_PATH = Path(__file__).parent.parent / "registry-v2.json"
+REGISTRY_PATH = Path(__file__).parent.parent / "repo-registry.json"
 
 # Expected channels from public-process-map-v2.md
 CHANNELS = [

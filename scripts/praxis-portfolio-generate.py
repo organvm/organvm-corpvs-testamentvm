@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """PRAXIS Sprint Phase A: Portfolio site data generator.
 
-Reads registry-v2.json and generates structured data for the Astro portfolio site.
+Reads repo-registry.json and generates structured data for the Astro portfolio site.
 Outputs:
   - site-data/landing.json      — Landing page metrics and overview
   - site-data/projects.json     — 19 curated project gallery entries
@@ -23,7 +23,7 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
-REGISTRY_PATH = Path(__file__).parent.parent / "registry-v2.json"
+REGISTRY_PATH = Path(__file__).parent.parent / "repo-registry.json"
 PROVENANCE_PATH = Path(__file__).parent.parent / "provenance-registry.json"
 
 ORGAN_NAMES = {

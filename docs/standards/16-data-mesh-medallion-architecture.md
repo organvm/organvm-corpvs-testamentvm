@@ -45,7 +45,7 @@ A decentralized lakehouse with three storage tiers and a single governance plane
 
 - **Tool families:** dbt, Atlan, Collibra.
 - **Role:** Metadata catalog, frontmatter standards, lineage tracking, row-level access.
-- **ORGANVM instantiation today:** `registry-v2.json` (repo metadata), `docs/operations/concordance.md` (ID prefix table), per-memory-file YAML frontmatter (`name`, `description`, `metadata.type`), the four-registry table in home-scope `CLAUDE.md`. The lineage tracking is the gap (see §4).
+- **ORGANVM instantiation today:** `repo-registry.json` (repo metadata), `docs/operations/concordance.md` (ID prefix table), per-memory-file YAML frontmatter (`name`, `description`, `metadata.type`), the four-registry table in home-scope `CLAUDE.md`. The lineage tracking is the gap (see §4).
 
 ---
 

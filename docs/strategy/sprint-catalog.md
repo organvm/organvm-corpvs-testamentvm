@@ -128,7 +128,7 @@ Registry reconciliation: 6 orphan repos registered (91→97), render-second-amen
 | Effort | ~1.5 hours |
 | Horizon | H1 (data integrity) |
 | Omega criteria | Constitution Article I (registry is never wrong) |
-| Resolution | All 13 active documents reconciled with registry-v2.json |
+| Resolution | All 13 active documents reconciled with repo-registry.json |
 
 ### Sprint 31: FUNDAMEN (Foundation) — **COMPLETE** (2026-02-17)
 
@@ -166,7 +166,7 @@ Gave the system a sensory layer: fixed stale system-metrics.json (29→32 sprint
 
 **Combined REMEDIUM + MEMORIA + ANNOTATIO into a single execution sprint.** *(Executed as Sprint 20, 2026-02-16.)*
 
-Three work streams in one sprint: (1) stale metrics corrected across 13 files (~70 edits), (2) 19 retrospective sprint specs written in `docs/specs/sprints/`, (3) all active docs aligned with registry-v2.json. Each spec follows a consistent template: Objective, Delivered, Key Decisions, Metrics Delta, Lessons.
+Three work streams in one sprint: (1) stale metrics corrected across 13 files (~70 edits), (2) 19 retrospective sprint specs written in `docs/specs/sprints/`, (3) all active docs aligned with repo-registry.json. Each spec follows a consistent template: Objective, Delivered, Key Decisions, Metrics Delta, Lessons.
 
 | Field | Value |
 |-------|-------|

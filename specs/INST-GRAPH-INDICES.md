@@ -45,7 +45,7 @@ CCI = (nodes_with_complete_governance_metadata) / (total_active_nodes)
 
 where "complete governance metadata" requires:
 - seed.yaml present and schema-valid
-- registry-v2.json entry present with all required fields
+- repo-registry.json entry present with all required fields
 - ontologia entity with valid ULID
 - at least one declared `produces` or `consumes` edge
 

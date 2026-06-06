@@ -57,7 +57,7 @@ ORGANVM governs the design, implementation, and evolution of creative-institutio
 - Traceable refinement from theory through implementation
 - Evolutionary self-modification through governed processes
 
-The system boundary is defined by registry inclusion: what is registered in `registry-v2.json` is inside ORGANVM; what is not registered is environment.
+The system boundary is defined by registry inclusion: what is registered in `repo-registry.json` is inside ORGANVM; what is not registered is environment.
 
 ---
 

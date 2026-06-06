@@ -15,7 +15,7 @@
 **Attach these files in this order:**
 1. `organvm.env` (in `.config/`) — Read first: the naming architecture (env-var template)
 2. `organvm.config.json` (in `.config/`) — Read second: machine-readable org mapping
-3. `registry-v2.json` (at root) — Read third: the central registry (source of truth for all repos)
+3. `repo-registry.json` (at root) — Read third: the central registry (source of truth for all repos)
 4. `orchestration-system-v2.md` (in `docs/implementation/`) — Read fourth: governance rules and dependency model
 5. `github-actions-spec.md` (in `docs/implementation/`) — Read fifth: the 5 workflows that consume the registry
 6. `06-evaluation-to-growth-analysis.md` (in `docs/evaluation/`) — Read last: the independent evaluation you're validating
@@ -34,13 +34,13 @@ the perspective of someone who would actually implement this system.
 READ THE ATTACHED FILES IN THIS ORDER:
 1. organvm.env — the naming architecture (env-var template)
 2. organvm.config.json — machine-readable org mapping
-3. registry-v2.json — the central registry (source of truth for all repos)
+3. repo-registry.json — the central registry (source of truth for all repos)
 4. orchestration-system-v2.md — governance rules and dependency model
 5. github-actions-spec.md — the 5 workflows that consume the registry
 6. 06-evaluation-to-growth-analysis.md — the independent evaluation you're validating
 
 CONTEXT: One person is building this. The system uses env-var-based org naming
-(organvm.env), a central JSON registry (registry-v2.json), governance rules
+(organvm.env), a central JSON registry (repo-registry.json), governance rules
 (orchestration-system-v2.md), and 5 GitHub Actions workflows (github-actions-spec.md).
 
 COMPLETED SO FAR:
@@ -68,7 +68,7 @@ THE EVALUATION FOUND:
 YOUR TASK — answer each question with AGREE / DISAGREE / ADD:
 
 1. REGISTRY SCHEMA
-   a. Does the current registry-v2.json schema support the 5 workflows in
+   a. Does the current repo-registry.json schema support the 5 workflows in
       github-actions-spec.md? If not, what specific fields are missing?
    b. The evaluation proposes adding: dependencies[], promotion_status enum, tier enum,
       documentation_status enum, last_validated timestamp. Is this the right set of fields?
@@ -244,7 +244,7 @@ strategy has a fatal flaw, name it.
 2. `02-repo-inventory-audit.md` (in `docs/planning/`) — Read second: per-repo inventory with current scores and TE budgets
 3. `03-per-organ-readme-templates.md` (in `docs/planning/`) — Read third: the 12-section README template
 4. `05-risk-map-and-sequencing.md` (in `docs/planning/`) — Read fourth: risk identification and writing sequence
-5. `registry-v2.json` (at root) — Read fifth: the actual repo data (names, orgs, status, relevance)
+5. `repo-registry.json` (at root) — Read fifth: the actual repo data (names, orgs, status, relevance)
 6. `06-evaluation-to-growth-analysis.md` (in `docs/evaluation/`) — Read last: the independent evaluation you're validating
 
 ---
@@ -266,7 +266,7 @@ READ THE ATTACHED FILES IN THIS ORDER:
 2. 02-repo-inventory-audit.md — per-repo inventory with current scores and TE budgets
 3. 03-per-organ-readme-templates.md — the 12-section README template
 4. 05-risk-map-and-sequencing.md — risk identification and writing sequence
-5. registry-v2.json — the actual repo data (names, orgs, status, relevance)
+5. repo-registry.json — the actual repo data (names, orgs, status, relevance)
 6. 06-evaluation-to-growth-analysis.md — the independent evaluation you're validating
 
 COMPLETED SO FAR:
@@ -293,7 +293,7 @@ THE EVALUATION FOUND:
 7. Coordination overhead between parallel AI streams (B7) adds ~5-10% (~220-440K TE) to
    Phase 1. This is currently unbudgeted.
 
-THE REGISTRY (registry-v2.json) CONTAINS THESE REPOS. Your task is to work with the
+THE REGISTRY (repo-registry.json) CONTAINS THESE REPOS. Your task is to work with the
 actual data.
 
 YOUR TASK — answer each question with AGREE / DISAGREE / ADD:

@@ -32,19 +32,19 @@ A grant reviewer visits the organvm GitHub organizations for the first time. The
 
 ### User Story 2 - Registry Schema Hardening (Priority: P2)
 
-An AI agent (or GitHub Actions workflow) reads `registry-v2.json` to determine the state of a repo. It finds all required fields populated with verified data, enabling automated dependency validation and audit reporting.
+An AI agent (or GitHub Actions workflow) reads `repo-registry.json` to determine the state of a repo. It finds all required fields populated with verified data, enabling automated dependency validation and audit reporting.
 
 **Why this priority:** The registry is the machine-readable backbone. Without the 4 new fields (`dependencies[]`, `promotion_status`, `tier`, `last_validated`), Phase 2 automation is blocked. Schema hardening during Bronze prevents a retrofit later.
 
-**Independent Test:** Can be validated by running `python3 -m json.tool registry-v2.json` (schema validity) and checking that all flagship repos have the 4 new fields populated with non-placeholder values.
+**Independent Test:** Can be validated by running `python3 -m json.tool repo-registry.json` (schema validity) and checking that all flagship repos have the 4 new fields populated with non-placeholder values.
 
 **Acceptance Scenarios:**
 
-1. **Given** `registry-v2.json` is loaded, **When** an agent queries a flagship repo entry, **Then** it finds `dependencies[]`, `promotion_status`, `tier`, and `last_validated` fields with verified values.
+1. **Given** `repo-registry.json` is loaded, **When** an agent queries a flagship repo entry, **Then** it finds `dependencies[]`, `promotion_status`, `tier`, and `last_validated` fields with verified values.
 2. **Given** the registry schema includes `dependencies[]`, **When** an agent traverses dependencies for an ORGAN-III repo, **Then** no dependency path leads back to ORGAN-III (no back-edges, per Article II).
 3. **Given** all flagship READMEs are drafted, **When** the registry is compared to repo reality, **Then** `documentation_status` and `tier` fields match actual state (no aspirational "100%" or "OPERATIONAL" for incomplete repos).
 
-**Deliverable:** `registry-v2.json` gains 4 new fields. Data populated iteratively as flagships are written, locked after majority of flagships are drafted (per D-05).
+**Deliverable:** `repo-registry.json` gains 4 new fields. Data populated iteratively as flagships are written, locked after majority of flagships are drafted (per D-05).
 
 **TE Budget:** 70K-88K TE
 
@@ -105,7 +105,7 @@ A technical reviewer clicks every link in every flagship README. Every link reso
 - **FR-002:** Each flagship README MUST score >=90/100 on the `01-readme-audit-framework.md` rubric
 - **FR-003:** Each flagship README MUST follow the progressive disclosure pattern from `10-repository-standards.md` §3
 - **FR-004:** Each flagship README MUST include organ-specific sections from `03-per-organ-readme-templates.md`
-- **FR-005:** `registry-v2.json` MUST include `dependencies[]`, `promotion_status`, `tier`, and `last_validated` fields for all flagship repos
+- **FR-005:** `repo-registry.json` MUST include `dependencies[]`, `promotion_status`, `tier`, and `last_validated` fields for all flagship repos
 - **FR-006:** Registry data MUST match repo reality (no aspirational values)
 - **FR-007:** Process essay MUST be 4,000-5,000 words covering cross-validation methodology
 - **FR-008:** All cross-references between flagships MUST resolve (0 broken links)
@@ -115,7 +115,7 @@ A technical reviewer clicks every link in every flagship README. Every link reso
 ### Key Entities
 
 - **Flagship README:** A fully documented (3,000+ words, 12 sections) README for a portfolio-critical repo. The primary output of the Bronze Sprint.
-- **Registry Entry:** A JSON object in `registry-v2.json` representing one repo's canonical state. Source of truth per Article I.
+- **Registry Entry:** A JSON object in `repo-registry.json` representing one repo's canonical state. Source of truth per Article I.
 - **Process Essay:** A 4,000-5,000 word public-facing essay documenting the AI-conductor methodology. Published to ORGAN-V.
 - **Cross-Reference:** A link from one README to another repo's README or section. Must follow dependency direction per Article II.
 
@@ -126,7 +126,7 @@ Mapped directly from `08-canonical-action-plan.md` D-08. All must be true for Br
 ### Measurable Outcomes
 
 - **SC-001:** At least one fully documented flagship per organ (I-V mandatory, VI-VII at least stubs)
-- **SC-002:** `registry-v2.json` schema includes `dependencies[]`, `promotion_status`, `tier`, `last_validated`
+- **SC-002:** `repo-registry.json` schema includes `dependencies[]`, `promotion_status`, `tier`, `last_validated`
 - **SC-003:** All flagship READMEs score >=90/100 on the `01` rubric
 - **SC-004:** All cross-references between flagships are resolved (no TBD markers)
 - **SC-005:** Process essay ("How I Used 4 AI Agents...") is draft-complete

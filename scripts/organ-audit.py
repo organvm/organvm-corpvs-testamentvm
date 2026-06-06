@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Organ Audit — Full system health check across all eight organs.
 
-Reads registry-v2.json and governance-rules.json, validates:
+Reads repo-registry.json and governance-rules.json, validates:
 1. Every organ has minimum repo count
 2. All repos have required fields and documentation
 3. Dependency graph: no cycles, no back-edges, targets exist
@@ -15,7 +15,7 @@ Exit code: 1 if critical alerts, 0 otherwise.
 
 Usage:
     python3 scripts/organ-audit.py \
-        --registry registry-v2.json \
+        --registry repo-registry.json \
         --governance governance-rules.json \
         --output audit-report.md \
         [--metrics metrics.json] \
@@ -318,7 +318,7 @@ def calculate_metrics(registry: dict, all_repos: list, alerts: dict) -> dict:
 
 def main():
     parser = argparse.ArgumentParser(description="Organ Audit — full system health check")
-    parser.add_argument("--registry", required=True, help="Path to registry-v2.json")
+    parser.add_argument("--registry", required=True, help="Path to repo-registry.json")
     parser.add_argument("--governance", required=True, help="Path to governance-rules.json")
     parser.add_argument("--output", required=True, help="Path for Markdown audit report")
     parser.add_argument("--metrics", default=None, help="Path for JSON metrics output")

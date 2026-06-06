@@ -35,7 +35,7 @@ ORGAN-I (Theory) → ORGAN-II (Art) → ORGAN-III (Commerce)
 - ORGAN-IV (Orchestration) has read access to all organs but owns no production code
 - ORGAN-V/VI/VII consume outputs but do not create code dependencies
 
-Dependencies are declared in `registry-v2.json` and validated by `validate-dependencies.yml` (runs weekly + on registry push). The workflow checks for cycles, back-edges, and maximum depth.
+Dependencies are declared in `repo-registry.json` and validated by `validate-dependencies.yml` (runs weekly + on registry push). The workflow checks for cycles, back-edges, and maximum depth.
 
 ## Consequences
 
@@ -59,4 +59,4 @@ Dependencies are declared in `registry-v2.json` and validated by `validate-depen
 - Dependency validation: `validate-dependencies.yml` in orchestration-start-here
 - Orchestration design: `docs/implementation/orchestration-system-v2.md`
 - Back-edge fixes: Sprint 13 MANIFESTATIO (`docs/specs/sprints/13-manifestatio.md`)
-- Registry: `registry-v2.json` (dependencies declared per-repo)
+- Registry: `repo-registry.json` (dependencies declared per-repo)

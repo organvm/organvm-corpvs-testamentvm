@@ -12,7 +12,7 @@ The ORGANVM system is an eight-organ creative-institutional platform spanning 14
 
 The system is **largely autonomous** — GitHub Actions workflows handle CI, dependency validation, essay monitoring, and distribution auditing. Your job as operator is to monitor, not to intervene.
 
-**Source of truth:** `registry-v2.json` in `meta-organvm/organvm-corpvs-testamentvm`
+**Source of truth:** `repo-registry.json` in `meta-organvm/organvm-corpvs-testamentvm`
 
 ---
 
@@ -74,7 +74,7 @@ For each open PR:
 cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm
 
 python3 scripts/organ-audit.py \
-    --registry registry-v2.json \
+    --registry repo-registry.json \
     --governance governance-rules.json \
     --output audit-report.md \
     --metrics metrics.json \
@@ -146,7 +146,7 @@ Review each of these and note any concerns:
 
 | Resource | Location |
 |----------|----------|
-| Registry (source of truth) | `meta-organvm/organvm-corpvs-testamentvm/registry-v2.json` |
+| Registry (source of truth) | `meta-organvm/organvm-corpvs-testamentvm/repo-registry.json` |
 | Governance rules | `meta-organvm/organvm-corpvs-testamentvm/governance-rules.json` |
 | Orchestration workflows | `organvm-iv-taxis/orchestration-start-here/.github/workflows/` |
 | Validation scripts | `meta-organvm/organvm-corpvs-testamentvm/scripts/` |
@@ -162,5 +162,5 @@ Review each of these and note any concerns:
 - **Don't push directly to branch-protected repos** (e.g., `public-record-data-scrapper`) — use PRs
 - **Don't push to archived repos** — they reject pushes by design
 - **Don't re-enable disabled cron workflows** without checking billing first (see emergency procedures)
-- **Don't modify `registry-v2.json` without running the audit afterward** — it's the single source of truth
+- **Don't modify `repo-registry.json` without running the audit afterward** — it's the single source of truth
 - **Don't use `gh api` file-by-file pushes for bulk updates** — they create divergent remote commits. Use `git push` instead.

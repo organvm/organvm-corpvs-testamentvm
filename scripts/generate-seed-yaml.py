@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate seed.yaml for repos that don't have one yet.
 
-Reads registry-v2.json to enumerate all non-archived repos, checks which
+Reads repo-registry.json to enumerate all non-archived repos, checks which
 already have seed.yaml, and generates one for each missing repo using
 registry metadata and organ-level defaults.
 
@@ -27,7 +27,7 @@ except ImportError:
     _engine_load = None
 
 ROOT = Path(__file__).resolve().parent.parent
-REGISTRY = ROOT / "registry-v2.json"
+REGISTRY = ROOT / "repo-registry.json"
 WORKSPACE = Path.home() / "Workspace"
 
 TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")

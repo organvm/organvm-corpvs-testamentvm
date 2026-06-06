@@ -26,7 +26,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS = ROOT / "scripts"
-REGISTRY_PATH = ROOT / "registry-v2.json"
+REGISTRY_PATH = ROOT / "repo-registry.json"
 METRICS_PATH = ROOT / "system-metrics.json"
 SOAK_DIR = ROOT / "data" / "soak-test"
 
@@ -127,7 +127,7 @@ def cmd_registry_show(args):
 
 
 def cmd_registry_validate(args):
-    """Validate registry-v2.json schema."""
+    """Validate repo-registry.json schema."""
     registry = load_registry()
     errors = []
     warnings = []

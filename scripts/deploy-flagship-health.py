@@ -243,7 +243,7 @@ pip install -e ".[dev]"
             "Organvm Engine is the system engine for the organvm meta-org. "
             "It provides registry validation, metrics calculation, "
             "and system-level tooling that operates across all eight organs. "
-            "It reads from registry-v2.json and coordinates cross-org operations."
+            "It reads from repo-registry.json and coordinates cross-org operations."
         ),
         setup_instructions="""\
 ```bash

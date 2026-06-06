@@ -90,7 +90,7 @@ Third, institutional memory. In a year, in five years, someone — possibly us, 
 
 ## The Promotion Pipeline
 
-With the last seven repositories remediated and provenance resolved, we needed to promote each repository from DESIGN_ONLY to PRODUCTION. This was not a simple status change. The promotion pipeline — defined in our orchestration system — requires each repository to pass a series of quality gates before its status can be updated in registry-v2.json.
+With the last seven repositories remediated and provenance resolved, we needed to promote each repository from DESIGN_ONLY to PRODUCTION. This was not a simple status change. The promotion pipeline — defined in our orchestration system — requires each repository to pass a series of quality gates before its status can be updated in repo-registry.json.
 
 The quality gates for PRODUCTION promotion are:
 
@@ -106,7 +106,7 @@ The quality gates for PRODUCTION promotion are:
 
 Each of the seven repositories needed different work to meet these gates. organ-aesthetic.yaml needed README expansion and CI workflow deployment. creative-brief-generator needed README creation, CI workflow, and seed.yaml contracts. provenance-registry needed all five gates addressed from scratch. The work was heterogeneous, as the incompletions had been, but the gates were uniform — the same standard applied to every repository, regardless of its organ, its content type, or its history.
 
-We promoted all seven repositories over a span of two days. Each promotion followed the same protocol: deploy remediated content, run the validation suite, verify all five gates pass, update registry-v2.json, commit with a message documenting the promotion. The protocol was mechanical, even ritualistic, and that was by design. Promotions should be boring. The excitement should be in the work that precedes them, not in the act of status change itself.
+We promoted all seven repositories over a span of two days. Each promotion followed the same protocol: deploy remediated content, run the validation suite, verify all five gates pass, update repo-registry.json, commit with a message documenting the promotion. The protocol was mechanical, even ritualistic, and that was by design. Promotions should be boring. The excitement should be in the work that precedes them, not in the act of status change itself.
 
 After the final promotion — dispatch-receiver, the last of the seven — we ran the full system validation suite: registry integrity, dependency graph validation, link checking, documentation completeness, provenance coverage. All checks passed. For the first time in the project's history, every non-archived repository was at PRODUCTION status.
 

@@ -215,7 +215,7 @@ organvm governance excavate --json
 
 Moving a repo between organs:
 1. Run `organvm governance placement --repo <name>` to confirm misplacement
-2. Update `registry-v2.json` — move repo to the correct organ's array
+2. Update `repo-registry.json` — move repo to the correct organ's array
 3. Update `seed.yaml` — change `organ` field
 4. Update GitHub — transfer repo to the correct org
 5. Re-run `organvm governance placement --audit` to verify

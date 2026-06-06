@@ -106,7 +106,7 @@ Public Process: https://organvm-v-logos.github.io/public-process/
 
 ---
 
-The system uses GitHub as its primary substrate — 8 GitHub organizations containing 100 repositories, each tracked by a machine-readable JSON registry (registry-v2.json). Governance is enforced by 11 GitHub Actions workflows: dependency validation on every push, monthly organ audits, automated content distribution (POSSE to Mastodon + Discord + RSS via GitHub Actions), and a promotion pipeline that manages repository state transitions. 82+ CI/CD pipelines run tests across the system. The essay series is published via Jekyll on GitHub Pages with Atom feed syndication.
+The system uses GitHub as its primary substrate — 8 GitHub organizations containing 100 repositories, each tracked by a machine-readable JSON registry (repo-registry.json). Governance is enforced by 11 GitHub Actions workflows: dependency validation on every push, monthly organ audits, automated content distribution (POSSE to Mastodon + Discord + RSS via GitHub Actions), and a promotion pipeline that manages repository state transitions. 82+ CI/CD pipelines run tests across the system. The essay series is published via Jekyll on GitHub Pages with Atom feed syndication.
 
 The dependency architecture enforces a strict directed acyclic graph: I→II→III (theory→art→commerce). Cross-organ dependencies are validated automatically — no circular dependencies, no back-edges. The registry tracks implementation status, promotion tier, CI/CD status, and inter-repository dependencies for all 97 components.
 

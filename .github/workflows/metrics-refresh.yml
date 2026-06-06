@@ -6,7 +6,7 @@ name: Metrics Refresh
 on:
   push:
     paths:
-      - registry-v2.json
+      - repo-registry.json
   schedule:
     - cron: '0 6 * * *'  # daily at 06:00 UTC
   workflow_dispatch:
@@ -51,7 +51,7 @@ jobs:
           from pathlib import Path
 
           import json
-          registry = load_registry(Path('registry-v2.json'))
+          registry = load_registry(Path('repo-registry.json'))
           computed = compute_metrics(registry)
           # Load full metrics (includes manual section with word counts, essays)
           metrics_full = json.loads(Path('system-metrics.json').read_text()) if Path('system-metrics.json').exists() else {'computed': computed, 'manual': {}}

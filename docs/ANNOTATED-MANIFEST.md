@@ -1,7 +1,7 @@
 # Exhaustive Annotated Manifest: `ingesting-organ-document-structure/`
 
 **Directory:** `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure`
-**Total files:** 6 root files (README.md, LICENSE, CLAUDE.md, registry-v2.json, .gitignore, DIRECTORY.md) + docs/ subdirectories (genesis/4, planning/5, strategy/3, implementation/4, evaluation/4, standards/2, agents/2, archive/4, memory/1, specs/2, validation-runs/~45 files) + .config/3 + .github/4 + .github-template/(~25 templates + ~14 generated) + scripts/1 = ~120 content files
+**Total files:** 6 root files (README.md, LICENSE, CLAUDE.md, repo-registry.json, .gitignore, DIRECTORY.md) + docs/ subdirectories (genesis/4, planning/5, strategy/3, implementation/4, evaluation/4, standards/2, agents/2, archive/4, memory/1, specs/2, validation-runs/~45 files) + .config/3 + .github/4 + .github-template/(~25 templates + ~14 generated) + scripts/1 = ~120 content files
 **Total size:** ~2.0 MB of documentation + templates (no runtime source code; 1 Python generator script)
 **File types:** 50+ Markdown (.md), 4 JSON (.json), 2 Bash (.env/.env.local), 1 Python (.py), 7 YAML (.yml, generated), 1 text (.txt), 1 license (.txt), 6 log files (.log), 6 prompt files (.txt), 4 archived versions
 **CLI validation artifacts:** `docs/validation-runs/codex-cli/` (23 files), `docs/validation-runs/gemini-cli/` (10 files), `docs/validation-runs/github-copilot-cli/` (12 files)
@@ -414,7 +414,7 @@ These 5 documents form a sequential planning toolkit. Each is self-contained but
 - **Role:** MASTER IMPLEMENTATION PLAN — the definitive "how to build this" document
 - **Content:**
   - **Strategic context:** 2026 funding landscape shift (meta-system documentation valued)
-  - **5 design documents described:** registry-v2.json, orchestration-system-v2.md, github-actions-spec.md, public-process-map-v2.md, this document
+  - **5 design documents described:** repo-registry.json, orchestration-system-v2.md, github-actions-spec.md, public-process-map-v2.md, this document
   - **3 application strategies** (detailed — identical to parallel-launch-strategy but with more implementation detail)
   - **Phase 1 (Sprints 1–2, ~4.4M TE):** 8 subtasks with effort breakdowns
     - 1.1: README audit template (~88K TE)
@@ -509,7 +509,7 @@ These 5 documents form a sequential planning toolkit. Each is self-contained but
 
 ---
 
-#### `registry-v2.json`
+#### `repo-registry.json`
 - **Size:** ~27 KB
 - **Format:** JSON data file
 - **Role:** SINGLE SOURCE OF TRUTH — the canonical registry of all repos, organs, and relationships
@@ -672,7 +672,7 @@ These 5 documents form a sequential planning toolkit. Each is self-contained but
 - **Key annotations:**
   - Created during Phase -1 (2026-02-09)
   - Companion to `.config/organvm.env` — same data in JSON form for programmatic consumption
-  - Used by `registry-v2.json` and GitHub Actions workflows for org name resolution
+  - Used by `repo-registry.json` and GitHub Actions workflows for org name resolution
   - The `domain` field provides human-readable labels (Theory, Art, Commerce, Orchestration, Public, Community, Marketing)
 
 ---
@@ -1148,7 +1148,7 @@ All in `archive/` subdirectory. These are v1 predecessors superseded by v2 docum
 
 #### `archive/registry.json` (~27 KB)
 - v1 registry, pre-parallel-launch model
-- Superseded by `registry-v2.json`
+- Superseded by `repo-registry.json`
 
 #### `archive/IMPLEMENTATION-PACKAGE.md` (~15 KB)
 - v1 implementation plan (sequential launch)
@@ -1182,7 +1182,7 @@ All in `archive/` subdirectory. These are v1 predecessors superseded by v2 docum
 - **Format:** Structured standards document with numbered sections
 - **Role:** REPOSITORY STANDARDS — defines naming conventions, licensing, community health files, CI/CD, and branch protection for all 44+ repos
 - **Content:** 7 sections covering repo naming patterns, license selection (CC BY-SA 4.0 for docs, MIT for code), README requirements, community health files, GitHub Actions standards, branch protection rules, and tiered compliance (Bronze/Silver/Gold)
-- **Key annotations:** Extends the Phase 1 planning toolkit (numbered 10 to continue the 01–05 sequence). References `01-readme-audit-framework.md` for scoring rubric and `registry-v2.json` for repo inventory.
+- **Key annotations:** Extends the Phase 1 planning toolkit (numbered 10 to continue the 01–05 sequence). References `01-readme-audit-framework.md` for scoring rubric and `repo-registry.json` for repo inventory.
 
 ---
 
@@ -1269,7 +1269,7 @@ All in `archive/` subdirectory. These are v1 predecessors superseded by v2 docum
 00-a (Genesis Q&A) [docs/genesis/]
   ├─→ 00-b (Local/Remote Structure Q&A) [docs/genesis/]
   ├─→ 00-d (System Audit) [docs/genesis/]
-  │     ├─→ registry-v2.json (machine-readable audit data) [root]
+  │     ├─→ repo-registry.json (machine-readable audit data) [root]
   │     └─→ orchestration-system-v2.md (governance rules) [docs/implementation/]
   └─→ 00-c (Master Summary) [docs/genesis/]
         ├─→ 01 (Scoring Framework) [docs/planning/]
@@ -1284,7 +1284,7 @@ parallel-launch-strategy (Strategic Rationale) [docs/strategy/]
   ├─→ orchestration-system-v2 (How to Govern) [docs/implementation/]
   ├─→ public-process-map-v2 (How to Narrate) [docs/implementation/]
   ├─→ github-actions-spec (How to Automate) [docs/implementation/]
-  └─→ registry-v2.json (What Exists) [root]
+  └─→ repo-registry.json (What Exists) [root]
 
 roadmap-there-and-back-again.md (Canonical Timeline) [docs/strategy/]
   ├─→ .config/organvm.env (Template Config)
@@ -1315,7 +1315,7 @@ roadmap-there-and-back-again.md (Canonical Timeline) [docs/strategy/]
 1. **00-c-master-summary.md** — Start here (30 min) [docs/genesis/]
 2. **parallel-launch-strategy.md** — Strategic context (30 min) [docs/strategy/]
 3. **00-d-organ-system-audit.md** — Current state understanding (20 min) [docs/genesis/]
-4. **registry-v2.json** — Machine-readable truth (skim) [root]
+4. **repo-registry.json** — Machine-readable truth (skim) [root]
 5. **implementation-package-v2.md** — Execution plan (30 min) [docs/implementation/]
 6. **orchestration-system-v2.md** — Governance rules (20 min) [docs/implementation/]
 7. **roadmap-there-and-back-again.md** — Canonical timeline and Phase -1 details (20 min) [docs/strategy/]
@@ -1379,7 +1379,7 @@ roadmap-there-and-back-again.md (Canonical Timeline) [docs/strategy/]
 | `implementation-package-v2.md` | docs/implementation/ | 24 KB | v2 Active | Master implementation plan | 5th |
 | `orchestration-system-v2.md` | docs/implementation/ | 19 KB | v2 Active | Governance specification | 6th |
 | `public-process-map-v2.md` | docs/implementation/ | 21 KB | v2 Active | ORGAN-V blueprint | 9th |
-| `registry-v2.json` | root | 29 KB | v2 Active | Single source of truth | 4th (skim) |
+| `repo-registry.json` | root | 29 KB | v2 Active | Single source of truth | 4th (skim) |
 | `github-actions-spec.md` | docs/implementation/ | 26 KB | v2 Active | CI/CD specification | Reference only |
 | `roadmap-there-and-back-again.md` | docs/strategy/ | 22 KB | Execution | Canonical timeline | 7th |
 | `organvm.env` | .config/ | 1.9 KB | Config | Template org config | Reference |
@@ -1426,7 +1426,7 @@ roadmap-there-and-back-again.md (Canonical Timeline) [docs/strategy/]
 
 These rules appear in multiple documents and are never contradicted:
 
-1. **Registry is single source of truth** — all state lives in `registry-v2.json`
+1. **Registry is single source of truth** — all state lives in `repo-registry.json`
 2. **No back-edges in dependency graph** — ORGAN-III cannot depend on ORGAN-II; flow is I→II→III only
 3. **Repo-inside-repo is prohibited** unless declared as a git submodule
 4. **All 8 organs represented at launch** — each organ has at least one flagship repo
@@ -1438,7 +1438,7 @@ These rules appear in multiple documents and are never contradicted:
 
 8. **Bronze tier is the canonical launch path** — 5 flagship repos + registry + essay first, not all 44 at once. "5 Perfect Repos > 44 Mediocre Repos." The all-at-once binary launch gate was unanimously rejected by all 3 AI validators.
 9. **Coordination overhead (~10%) must be budgeted** — managing parallel AI streams requires explicit budget allocation (finding B7, validated by all 3 models)
-10. **Registry schema must be hardened before execution** — current `registry-v2.json` is missing `dependencies[]`, `promotion_status`, `tier`, and `last_validated` fields required by GitHub Actions workflows
+10. **Registry schema must be hardened before execution** — current `repo-registry.json` is missing `dependencies[]`, `promotion_status`, `tier`, and `last_validated` fields required by GitHub Actions workflows
 11. **AI validation is non-deterministic for strategy** — same prompts run ~5.5 hours apart produced different strategic recommendations while core technical findings remained stable (documented in `validation-runs/github-copilot-cli/THREE_CLI_COMPARISON_ANALYSIS.md`)
 
 *Invariants 1–6 are formalized as Articles I–VI in `memory/constitution.md`. Invariants 8–11 are formalized as Amendments A–D. The constitution also defines 4 quality gates (Registry, Portfolio, Dependency, Completeness) enforced by the SDD methodology in `11-specification-driven-development.md`.*

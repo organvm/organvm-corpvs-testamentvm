@@ -73,7 +73,7 @@ In multi-agent AI systems, the same principle applies. An agent with unbounded c
 An autonomous system you can't observe is an autonomous system you can't trust. And a system you can't trust is one you'll eventually override manually, which defeats the purpose.
 
 The eight-organ system has four observability layers:
-1. **Registry**: `registry-v2.json` records the state of every entity
+1. **Registry**: `repo-registry.json` records the state of every entity
 2. **Audit workflows**: automated weekly checks that detect drift (missing files, broken CI, stale deps)
 3. **Metrics pipeline**: `calculate-metrics.py` → `system-metrics.json` computes system-wide metrics from source data
 4. **Essay pipeline**: ORGAN-V essays document decisions, rationale, and lessons learned — human-readable observability

@@ -79,7 +79,7 @@ A constraint that is not enforced is not a constraint. It is a suggestion. And s
 
 We enforce the no-back-edges rule through a GitHub Actions workflow called validate-dependencies, which runs in two contexts:
 
-1. **On push to registry-v2.json:** Whenever the registry — our single source of truth — is updated, the validation workflow runs and checks that no new dependency edges violate the DAG constraint.
+1. **On push to repo-registry.json:** Whenever the registry — our single source of truth — is updated, the validation workflow runs and checks that no new dependency edges violate the DAG constraint.
 
 2. **On schedule (weekly, Monday 06:30 UTC):** Even without registry changes, the workflow runs weekly to catch any drift that might have been introduced through direct repository changes.
 

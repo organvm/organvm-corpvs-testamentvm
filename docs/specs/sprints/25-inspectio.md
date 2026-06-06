@@ -46,7 +46,7 @@ Assess the 5 highest-code-substance ORGAN-III repos across 10 dimensions (tech s
 ## Key Decisions
 
 - **life-my--midst--in over public-record-data-scrapper:** Both are strong candidates. life-my--midst--in won because it's feature-complete (zero open issues, 68+ commits) with comprehensive deployment infrastructure (Docker, Helm, K8s, Railway, Render, Vercel). public-record-data-scrapper has better market fit (B2B lead gen) but runs on mock data — it's a sophisticated demo, not a product yet.
-- **Assessment-only, no registry changes:** This sprint produces a decision, not a deployment. No `registry-v2.json` entries are modified. Implementation status changes will happen when actual product work begins.
+- **Assessment-only, no registry changes:** This sprint produces a decision, not a deployment. No `repo-registry.json` entries are modified. Implementation status changes will happen when actual product work begins.
 - **AP-1 compliance:** This sprint is product assessment, not infrastructure building. It produces artifacts that enable Tuesday product work per the operational cadence, not new systems.
 
 ## Metrics

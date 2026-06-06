@@ -28,13 +28,13 @@ For structural changes, new documents, or strategic adjustments:
 - Follow the existing document naming conventions (`NN-TITLE.md` for numbered docs).
 - Maintain consistency with the reading order and document layers described in `CLAUDE.md`.
 - Cross-reference related documents using relative links.
-- When modifying `registry-v2.json`, preserve the existing JSON schema exactly.
+- When modifying `repo-registry.json`, preserve the existing JSON schema exactly.
 - Do not modify files in the `archive/` directory — it is frozen.
 
 ### Commit Messages
 
 - Use imperative mood, under 72 characters for the title line.
-- Reference the document(s) changed (e.g., `Update registry-v2.json: add repo X to ORGAN-III`).
+- Reference the document(s) changed (e.g., `Update repo-registry.json: add repo X to ORGAN-III`).
 
 ## Review Process
 

@@ -144,7 +144,7 @@ Universal work registry. 26 domain prefixes:
 | ID | Description | Priority | Refs |
 |----|-------------|----------|------|
 | ~~IRF-DOM-001~~ | ~~Create seed.yaml~~ — DONE | ~~P1~~ | S29 |
-| ~~IRF-DOM-002~~ | ~~Add domus to registry-v2.json (PERSONAL section)~~ — DONE (S-domus-vacuum) | ~~P0~~ | S29, #19 |
+| ~~IRF-DOM-002~~ | ~~Add domus to repo-registry.json (PERSONAL section)~~ — DONE (S-domus-vacuum) | ~~P0~~ | S29, #19 |
 | ~~IRF-DOM-003~~ | ~~Emit testament events for domus~~ — DONE (S-domus-vacuum) | ~~P1~~ | DOM-002 |
 | ~~IRF-DOM-004~~ | ~~Register IRF-DOM in concordance + omega xrefs~~ — DONE (S-domus-vacuum) | ~~P2~~ | S29 |
 | IRF-DOM-005 | Create GitHub issues for domus testing gaps (5 areas) | P1 | S29, S32 |

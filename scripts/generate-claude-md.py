@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate CLAUDE.md files for repos that don't have one yet.
 
-Reads registry-v2.json, fetches each repo's README and directory tree via
+Reads repo-registry.json, fetches each repo's README and directory tree via
 GitHub API, then generates a tiered CLAUDE.md appropriate to the repo's
 type and significance.
 
@@ -27,7 +27,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-REGISTRY = ROOT / "registry-v2.json"
+REGISTRY = ROOT / "repo-registry.json"
 TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 # ── Organ metadata ──────────────────────────────────────────
@@ -399,7 +399,7 @@ def generate_claude_md(org, repo, organ_key, repo_meta, readme, tree, languages,
         sections.append("")
 
     # Registry reference
-    sections.append(f"**Registry:** [`registry-v2.json`](https://github.com/meta-organvm/organvm-corpvs-testamentvm/blob/main/registry-v2.json)")
+    sections.append(f"**Registry:** [`repo-registry.json`](https://github.com/meta-organvm/organvm-corpvs-testamentvm/blob/main/repo-registry.json)")
     sections.append(f"**Corpus:** [`organvm-corpvs-testamentvm`](https://github.com/meta-organvm/organvm-corpvs-testamentvm)")
     sections.append("")
 
@@ -416,7 +416,7 @@ except ImportError:
 
 
 def load_registry():
-    """Load and parse registry-v2.json."""
+    """Load and parse repo-registry.json."""
     if _engine_load is not None:
         return _engine_load(REGISTRY)
     with open(REGISTRY) as f:

@@ -29,11 +29,11 @@ jobs:
 
       - name: Fetch Central Registry
         run: |
-          curl -sf https://raw.githubusercontent.com/organvm-iv-taxis/orchestration-start-here/main/registry-v2.json \
-            -o registry-v2.json || {
+          curl -sf https://raw.githubusercontent.com/organvm-iv-taxis/orchestration-start-here/main/repo-registry.json \
+            -o repo-registry.json || {
             echo "::warning::Could not fetch central registry; falling back to local"
-            if [ -f registry-v2.json ]; then
-              echo "Using local registry-v2.json"
+            if [ -f repo-registry.json ]; then
+              echo "Using local repo-registry.json"
             else
               echo "::error::No registry available"
               exit 1
@@ -67,7 +67,7 @@ jobs:
           CURRENT_REPO = os.environ["CURRENT_REPO"]
 
           # Load registry
-          with open("registry-v2.json") as f:
+          with open("repo-registry.json") as f:
               registry = json.load(f)
           with open("governance-rules.json") as f:
               governance = json.load(f)

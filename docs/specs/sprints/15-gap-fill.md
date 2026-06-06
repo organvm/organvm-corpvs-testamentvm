@@ -17,7 +17,7 @@ Fill architectural gaps revealed by launch audit, ensuring every organ has minim
 ## Key Decisions
 - Created repos to ensure every organ had minimum representation rather than deepening existing repos
 - Prioritized coverage breadth over individual repo depth
-- Used registry-v2.json gap analysis to identify missing slots systematically
+- Used repo-registry.json gap analysis to identify missing slots systematically
 
 ## Metrics Delta
 - Repos: 66 to 77

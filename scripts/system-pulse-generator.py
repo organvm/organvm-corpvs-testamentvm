@@ -4,7 +4,7 @@
 Generates a structured markdown document from automated data sources:
 - system-metrics.json (repo counts, sprint count, essay count)
 - data/soak-test/daily-*.json (validation health, CI stability, engagement)
-- registry-v2.json (implementation status distribution)
+- repo-registry.json (implementation status distribution)
 - GitHub API (recent commits, stars/forks delta)
 
 Output: data/pulse/weekly-YYYY-MM-DD.md
@@ -25,7 +25,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 METRICS_PATH = ROOT / "system-metrics.json"
-REGISTRY_PATH = ROOT / "registry-v2.json"
+REGISTRY_PATH = ROOT / "repo-registry.json"
 SOAK_DIR = ROOT / "data" / "soak-test"
 PULSE_DIR = ROOT / "data" / "pulse"
 
@@ -274,7 +274,7 @@ def main():
 
     registry = load_json(REGISTRY_PATH)
     if not registry:
-        print("WARNING: Could not load registry-v2.json")
+        print("WARNING: Could not load repo-registry.json")
         registry = {}
 
     snapshots = load_soak_snapshots(days=args.days)

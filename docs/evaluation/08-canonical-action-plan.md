@@ -25,7 +25,7 @@ Every contradiction surfaced by the cross-validation cycle has been resolved by 
 
 ### D-02: Bronze Flagship Selection — DECIDED: Defer to Exploration
 
-**Contradiction:** Run A/B recommends 5 flagships (one per organ I–V) + 2 stretch goals. Run C recommends 7 required flagships. Both runs pre-select specific repos based on `registry-v2.json` portfolio_relevance and current scores.
+**Contradiction:** Run A/B recommends 5 flagships (one per organ I–V) + 2 stretch goals. Run C recommends 7 required flagships. Both runs pre-select specific repos based on `repo-registry.json` portfolio_relevance and current scores.
 
 **Resolution:** Do not pre-select flagship repos. Full repo exploration and README draft attempts will reveal which repos are genuinely showcase-ready and which need more work than their scores suggest. The flagship list emerges from doing the work, not from planning documents.
 
@@ -134,7 +134,7 @@ Every contradiction surfaced by the cross-validation cycle has been resolved by 
 
 **Bronze success criteria (all must be true):**
 - [ ] At least one fully documented flagship per organ (I–V mandatory, VI–VII at least stubs)
-- [ ] `registry-v2.json` schema includes `dependencies[]`, `promotion_status`, `tier`, `last_validated`
+- [ ] `repo-registry.json` schema includes `dependencies[]`, `promotion_status`, `tier`, `last_validated`
 - [ ] All flagship READMEs score ≥90/100 on the `01-readme-audit-framework.md` rubric
 - [ ] All cross-references between flagships are resolved (no TBD markers)
 - [ ] Process essay ("How I Used 4 AI Agents...") is draft-complete
@@ -170,7 +170,7 @@ The Bronze Sprint produces the **Minimum Viable Launch (MVL)**: enough fully doc
 
 **Deliverables:**
 1. **Flagship READMEs** — At least one per organ (I–V mandatory, VI–VII at minimum stubs). Specific repos TBD after exploration.
-2. **Registry schema hardening** — `registry-v2.json` gains `dependencies[]`, `promotion_status`, `tier`, `last_validated` fields. Data populated iteratively as flagships are written.
+2. **Registry schema hardening** — `repo-registry.json` gains `dependencies[]`, `promotion_status`, `tier`, `last_validated` fields. Data populated iteratively as flagships are written.
 3. **Process essay** — "How I Used 4 AI Agents to Cross-Validate a Seven-Organ System" (~4,000–5,000 words). Written iteratively as flagships provide material.
 4. **Cross-reference resolution** — All inter-repo links validated. No TBD markers in shipped READMEs.
 
@@ -368,7 +368,7 @@ The automation layer (`github-actions-spec.md`) assumes unlimited API calls. Git
 
 **Source:** `gemini-cli/codex_validation_response.md`, `gemini-cli/validation_synthesis.md`, `gemini-cli/analysis_differences_report.md`
 
-No migration strategy exists for moving from the current `registry-v2.json` schema to the enhanced schema (with `dependencies[]`, `promotion_status`, `tier`, `last_validated`). 44 repos already have entries in the current schema.
+No migration strategy exists for moving from the current `repo-registry.json` schema to the enhanced schema (with `dependencies[]`, `promotion_status`, `tier`, `last_validated`). 44 repos already have entries in the current schema.
 
 **Mitigation (Phase 2):** Write `migrate-registry-v2-to-v3.py` script before making schema changes. Script should validate all existing data, add new fields with sensible defaults, and produce a diff for human review.
 

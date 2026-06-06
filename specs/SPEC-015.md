@@ -67,7 +67,7 @@ Escalation events are classified into four severity levels. Classification deter
 | Promoting a repo from LOCAL to CANDIDATE | T2 | Governance change, but bounded and reversible |
 | Promoting a repo to GRADUATED | T3 | Cross-organ implications; effectively irreversible in practice |
 | Dependency cycle detected in production registry | T4 | INV-000-001 violated; system integrity at risk |
-| Agent discovers registry-v2.json has < 50 repos | T4 | Data corruption; save_registry guard would fire |
+| Agent discovers repo-registry.json has < 50 repos | T4 | Data corruption; save_registry guard would fire |
 | Modifying governance-rules.json | T3 | Constitutional impact; requires human confirmation |
 | Agent finds conflicting instructions in two CLAUDE.md files | T2 | Bounded ambiguity; agent should report and request clarification |
 | Agent cannot determine whether a change violates AX-000-003 | T3 | Constitutional judgment required; agent cannot resolve |
@@ -145,7 +145,7 @@ Woods and Hollnagel (2005) identified "clumsy automation" as the design patholog
 |-------|---------------------|---------------------|
 | T2 | Full structured format (ESCL-007) | Detailed context on request |
 | T3 | Compressed: 3-sentence summary + response options | Full format on request |
-| T4 | Single-line: "[EMERGENCY] INV-000-001 violated in registry-v2.json. All agent operations paused. [A] Investigate [B] Revert" | Full format + audit trail on request |
+| T4 | Single-line: "[EMERGENCY] INV-000-001 violated in repo-registry.json. All agent operations paused. [A] Investigate [B] Revert" | Full format + audit trail on request |
 
 A T4 emergency that presents 47 individual violation reports (rather than a single synthesized summary with drill-down) violates ESCL-008.
 

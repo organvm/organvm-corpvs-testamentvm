@@ -18,7 +18,7 @@ In its idealized form the corpus exhibits five properties:
 1. **Total coverage** — every artifact in the eight-organ ecosystem (148 repos, 8 organizations, ~404K+ words deployed) has a corresponding narrative entry here. Nothing acts that is not witnessed.
 2. **Perfect symmetry** — for every implementation-side artifact (Nature) there is a corpus-side counterpart (Logos). The system's `Symmetry` metric reports 1.0 across all formations; no Ghosts (code without narrative), no Dreams (narrative without code).
 3. **Recursive self-description** — the corpus describes its own ontology, governance, evolution, and reception. It is not just *of* the system; it *is* a part of the system, accountable to the same standards it imposes on others.
-4. **Single source of truth** — `registry-v2.json` is authoritative; all derived artifacts (CLAUDE.md auto-gen zone, ecosystem dashboards, audit reports, public-process essays) trace back to it without contradiction.
+4. **Single source of truth** — `repo-registry.json` is authoritative; all derived artifacts (CLAUDE.md auto-gen zone, ecosystem dashboards, audit reports, public-process essays) trace back to it without contradiction.
 5. **Public-process alignment** — every significant move in the corpus is broadcastable as an essay, talk, or update. The corpus is *legible to outsiders*, not just to its makers.
 
 ## 2. The Theoretical Grounding
@@ -52,7 +52,7 @@ Inside CORPUS, every file falls into exactly one inner form:
 | Inner form | Means | This corpus's exemplars |
 |---|---|---|
 | **Telos** | What should be | `docs/memory/constitution.md`, `docs/standards/`, `docs/genesis/`, `docs/specs/`, `specs/` |
-| **Pragma** | What is | `registry/`, `registry-v2.json`, `data/`, `ecosystem/`, `testament/`, `docs/evaluation/` |
+| **Pragma** | What is | `registry/`, `repo-registry.json`, `data/`, `ecosystem/`, `testament/`, `docs/evaluation/` |
 | **Praxis** | How to act | `docs/implementation/`, `docs/operations/`, `docs/strategy/`, `docs/planning/`, `docs/agents/` |
 | **Receptio** | What was received | `essays/`, `docs/essays/`, `applications/`, `docs/pitch/`, `docs/validation-runs/`, `docs/archive/` |
 | **Alchemical-io** | How signals flow | `data/fossil/`, `data/atoms/`, breathing artifacts (this is itself a Pragma instance, summarized in `alchemical-io.md`) |

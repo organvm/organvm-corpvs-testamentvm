@@ -197,7 +197,7 @@ The principal confirms, renames, or rejects the nomination.
 
 ### COMP-008: Formation Registry
 
-Crystallized formations are registered in the ORGANVM registry (extending registry-v2.json or in a dedicated formations registry). Each entry contains:
+Crystallized formations are registered in the ORGANVM registry (extending repo-registry.json or in a dedicated formations registry). Each entry contains:
 
 ```yaml
 formation:

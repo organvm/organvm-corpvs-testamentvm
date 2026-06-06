@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Update registry-v2.json with Platinum Sprint fields."""
+"""Update repo-registry.json with Platinum Sprint fields."""
 
 import json
 from pathlib import Path
@@ -11,7 +11,7 @@ try:
 except ImportError:
     _engine_load = None
 
-REGISTRY_PATH = Path(__file__).parent.parent / "registry-v2.json"
+REGISTRY_PATH = Path(__file__).parent.parent / "repo-registry.json"
 
 # Map of (org, repo) -> (ci_workflow, implementation_status)
 PLATINUM_MAP = {

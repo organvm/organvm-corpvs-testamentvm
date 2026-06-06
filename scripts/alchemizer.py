@@ -22,7 +22,7 @@ from typing import Optional
 
 ROOT = Path(__file__).resolve().parent.parent
 COVENANT_ARK_PATH = ROOT / "docs" / "applications" / "00-covenant-ark.md"
-REGISTRY_PATH = ROOT / "registry-v2.json"
+REGISTRY_PATH = ROOT / "repo-registry.json"
 METRICS_PATH = ROOT / "system-metrics.json"
 PROFILES_DIR = ROOT / "docs" / "applications" / "profiles"
 SCRIPTS_DIR = ROOT / "docs" / "applications" / "submission-scripts"
@@ -471,7 +471,7 @@ LINKS = {
     "rss": "https://organvm-v-logos.github.io/public-process/feed.xml",
     "hub": "https://github.com/meta-organvm/organvm-corpvs-testamentvm",
     "orchestration": "https://github.com/organvm-iv-taxis/orchestration-start-here",
-    "registry": "https://github.com/meta-organvm/organvm-corpvs-testamentvm/blob/main/registry-v2.json",
+    "registry": "https://github.com/meta-organvm/organvm-corpvs-testamentvm/blob/main/repo-registry.json",
     "meta_org": "https://github.com/meta-organvm",
 }
 
@@ -562,7 +562,7 @@ except ImportError:
 
 
 def load_registry() -> Optional[dict]:
-    """Load registry-v2.json."""
+    """Load repo-registry.json."""
     if not REGISTRY_PATH.exists():
         return None
     if _engine_load is not None:

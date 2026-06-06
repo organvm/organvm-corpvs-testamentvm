@@ -61,7 +61,7 @@ ORGANVM commits to three fundamental, mutually exclusive categories of entity, f
 
 **Definition:** An organizational unit with functional differentiation, constitutional authority over a bounded domain, and a position in the organ sequence. Organs are the top-level containment boundaries.
 
-*Formalization: FORMAL. Checkable as: entity appears as a top-level key in registry-v2.json with name, description, and repositories array. Identity criterion: organ position (0-VII).*
+*Formalization: FORMAL. Checkable as: entity appears as a top-level key in repo-registry.json with name, description, and repositories array. Identity criterion: organ position (0-VII).*
 
 *Traces to: SPEC-000 Section 5 (Constitutional Topology), AX-000-006 (Topological Plasticity).*
 
@@ -69,7 +69,7 @@ ORGANVM commits to three fundamental, mutually exclusive categories of entity, f
 
 **Definition:** A version-controlled repository within an organ, bearing a seed.yaml contract, governance state (promotion_status), and dependency declarations. Repos are the primary unit of constitutional governance.
 
-*Formalization: FORMAL. Checkable as: entity appears in registry-v2.json repositories array with name, org, status, tier, promotion_status fields; corresponding seed.yaml exists in workspace.*
+*Formalization: FORMAL. Checkable as: entity appears in repo-registry.json repositories array with name, org, status, tier, promotion_status fields; corresponding seed.yaml exists in workspace.*
 
 *Traces to: AX-000-004 (Constitutional Governance), INV-000-002 (Governance Reachability).*
 
@@ -309,7 +309,7 @@ Entity relations in ORGANVM are typed and constrained. Following Sowa's (2000) t
 
 **Definition:** A structural production-directional relation between repos (or organs). The dependency graph G^dep must be acyclic at all times. Dependency declares: "A requires B to function."
 
-*Formalization: FORMAL. Implemented in governance/dependency_graph.py with DAG validation. Declared in seed.yaml `dependencies` field and registry-v2.json `dependencies` array.*
+*Formalization: FORMAL. Implemented in governance/dependency_graph.py with DAG validation. Declared in seed.yaml `dependencies` field and repo-registry.json `dependencies` array.*
 
 *Traces to: INV-000-001 (Dependency Acyclicity), AX-000-008 (Multiplex Flow Governance — G^dep).*
 

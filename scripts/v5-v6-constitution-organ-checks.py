@@ -24,7 +24,7 @@ import base64
 import os
 import sys
 
-REGISTRY_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "registry-v2.json")
+REGISTRY_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "repo-registry.json")
 
 REQUIRED_FIELDS = ['name', 'org', 'description', 'documentation_status', 'portfolio_relevance',
                    'dependencies', 'promotion_status', 'tier', 'last_validated']

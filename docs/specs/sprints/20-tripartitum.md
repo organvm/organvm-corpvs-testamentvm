@@ -22,7 +22,7 @@ Combine three sprint-catalog items into a single execution pass: verify REMEDIUM
 ## Metrics Delta
 - Stale references eliminated: ~70 edits across 13 files
 - Sprint specs: 0 → 19 (in `docs/specs/sprints/`)
-- All active documents now aligned with registry-v2.json
+- All active documents now aligned with repo-registry.json
 - Files changed: 32 (13 modified + 19 created)
 
 ## Lessons

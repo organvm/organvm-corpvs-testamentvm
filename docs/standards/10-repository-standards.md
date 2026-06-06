@@ -202,7 +202,7 @@ Use [Contributor Covenant v2.1](https://www.contributor-covenant.org/version/2/1
 
 ### Visibility Decision Matrix
 
-Every repo must have an explicit visibility decision recorded in `registry-v2.json`:
+Every repo must have an explicit visibility decision recorded in `repo-registry.json`:
 
 | Visibility | Criteria | Action |
 |------------|----------|--------|
@@ -321,7 +321,7 @@ Quick-reference checklist for validating any repo against these standards. Use a
 - [ ] Scores ≥90/100 on `01` rubric (Flagship) or ≥70/100 (Standard)
 
 ### Visibility & Curation
-- [ ] Visibility decision recorded in `registry-v2.json`
+- [ ] Visibility decision recorded in `repo-registry.json`
 - [ ] GitHub topics set: organ tag + domain tag + type tag + status tag
 - [ ] Repository description filled in on GitHub
 - [ ] Pinned repos reviewed (if this is a flagship)

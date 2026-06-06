@@ -21,7 +21,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-REGISTRY_PATH = Path(__file__).parent.parent / "registry-v2.json"
+REGISTRY_PATH = Path(__file__).parent.parent / "repo-registry.json"
 PROVENANCE_PATH = Path(__file__).parent.parent / "provenance-registry.json"
 SCRIPTS_DIR = Path(__file__).parent
 SITE_DATA_DIR = Path(__file__).parent.parent / "site-data"

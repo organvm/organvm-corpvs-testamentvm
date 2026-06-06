@@ -66,7 +66,7 @@ GET <api-url>/v1/taxonomy/masks → 16 masks from database
 - [ ] Copy the Web URL (e.g., `https://inmidst-web.onrender.com`)
 - [ ] Copy the Deploy Hook URL from Render dashboard
 - [ ] Add `RENDER_DEPLOY_HOOK` secret to `organvm-iii-ergon/life-my--midst--in` repo (enables auto-deploy on push)
-- [ ] Update `registry-v2.json` — set `life-my--midst--in` entry: add `"url": "<web-url>"`, set `"revenue_status": "beta"`
+- [ ] Update `repo-registry.json` — set `life-my--midst--in` entry: add `"url": "<web-url>"`, set `"revenue_status": "beta"`
 - [ ] Update `docs/operations/rolling-todo.md` — mark X2 as COMPLETED with date and URL
 - [ ] Update omega scorecard — #8 becomes MET
 

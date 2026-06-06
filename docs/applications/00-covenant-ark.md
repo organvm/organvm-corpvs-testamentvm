@@ -144,7 +144,7 @@ Copy-paste into any application form:
 | RSS Feed | https://organvm-v-logos.github.io/public-process/feed.xml |
 | ORGANVM Hub (governance corpus) | https://github.com/meta-organvm/organvm-corpvs-testamentvm |
 | Orchestration Hub | https://github.com/organvm-iv-taxis/orchestration-start-here |
-| Registry (source of truth) | https://github.com/meta-organvm/organvm-corpvs-testamentvm/blob/main/registry-v2.json |
+| Registry (source of truth) | https://github.com/meta-organvm/organvm-corpvs-testamentvm/blob/main/repo-registry.json |
 | ORGAN-I (Theory) | https://github.com/organvm-i-theoria |
 | ORGAN-II (Art) | https://github.com/organvm-ii-poiesis |
 | ORGAN-III (Commerce) | https://github.com/organvm-iii-ergon |
@@ -211,8 +211,8 @@ What you can claim, with proof:
 
 | Claim | Evidence | Verification |
 |-------|----------|-------------|
-| 100 repos across 8 orgs | registry-v2.json | `jq '.summary.total_repos' registry-v2.json` → 100 |
-| 93 ACTIVE, 54 ARCHIVED | registry-v2.json | implementation_status_distribution field |
+| 100 repos across 8 orgs | repo-registry.json | `jq '.summary.total_repos' repo-registry.json` → 100 |
+| 93 ACTIVE, 54 ARCHIVED | repo-registry.json | implementation_status_distribution field |
 | 42 published essays | public-process/_posts/ | `ls _posts/ \| wc -l` → 42 |
 | ~6K+ words in essays | Word count of _posts/ | Measured at deploy |
 | ~410K+ total words | Aggregate across all repos | system-metrics.json |

@@ -33,7 +33,7 @@
 1. **Inner-tier completeness.** All five mandated logos files present and substantive: `telos`, `pragma`, `praxis`, `receptio`, `alchemical-io`. None are placeholder or template-fill.
 2. **Outer-tier discipline.** Every non-substrate file belongs to exactly one of CORPUS / ENGINE / SURFACE; vocabulary discipline holds (TELOS/PRAGMA/etc. never leaks into ENGINE or SURFACE classifications).
 3. **Bidirectional reception.** `receptio.md` covers both outward reception (how the polis reads the repo) and inward absorption (what the repo absorbs from its contextual universe — sibling repos, scholarly lineages, conversation corpora, external tools).
-4. **Pragma anchored in fact.** Each narrative cites concrete data from registry-v2.json, Live System Variables, and on-disk audit; not generic boilerplate.
+4. **Pragma anchored in fact.** Each narrative cites concrete data from repo-registry.json, Live System Variables, and on-disk audit; not generic boilerplate.
 5. **Recursive self-coherence.** The repo honors the same standards it imposes on others; the ontology describes its own existence without contradiction.
 
 ### Antithesis — Structural failure modes common to ontology instantiation
@@ -93,7 +93,7 @@ find . -type f \( -name '.git/*' \) -prune -o -type f -print | wc -l
 cat seed.yaml | grep -E "(implementation_status|tier|promotion_status|sprint|organ|repo|org)"
 
 # Registry view (run from corpus host or via MCP)
-jq '.repos["<this-repo-name>"]' registry-v2.json 2>/dev/null
+jq '.repos["<this-repo-name>"]' repo-registry.json 2>/dev/null
 
 # Live System Variables (auto-gen zone)
 grep -A20 "Live System Variables" CLAUDE.md

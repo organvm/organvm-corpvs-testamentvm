@@ -1,6 +1,6 @@
 # IMPLEMENTATION PACKAGE: Eight-Organ Parallel Launch (v2.0)
 
-> **⚠ HISTORICAL DOCUMENT (2026-02-03).** All phases described below are COMPLETE as of 2026-02-11 (launch). Repo count has grown from 44 to 97. The current authoritative documents are: [`sprint-catalog.md`](../strategy/sprint-catalog.md) (work inventory), [`operational-cadence.md`](../operations/operational-cadence.md) (rhythm), [`registry-v2.json`](../../registry-v2.json) (source of truth). This document is retained for its strategic framing and TE budget methodology.
+> **⚠ HISTORICAL DOCUMENT (2026-02-03).** All phases described below are COMPLETE as of 2026-02-11 (launch). Repo count has grown from 44 to 97. The current authoritative documents are: [`sprint-catalog.md`](../strategy/sprint-catalog.md) (work inventory), [`operational-cadence.md`](../operations/operational-cadence.md) (rhythm), [`repo-registry.json`](../../repo-registry.json) (source of truth). This document is retained for its strategic framing and TE budget methodology.
 
 > **Note:** Effort estimates in this document use TE (tokens-expended) as the unit of work, reflecting the AI-conductor workflow model. Timeline references use sprints (not weeks). The canonical execution plan is `roadmap-there-and-back-again.md` (revised Feb 9, 2026). This document is retained for its detailed strategic framing, subtask descriptions, and portfolio positioning guidance.
 
@@ -48,7 +48,7 @@ Research shows **meta-system documentation is increasingly valued by:**
 
 ## What You Have: Five Complete Design Documents
 
-### 1. **registry-v2.json** (Central Registry)
+### 1. **repo-registry.json** (Central Registry)
 - All 44 repos mapped to 8 organs
 - 14 local repos integrated
 - Portfolio relevance scoring (for external visibility)
@@ -209,7 +209,7 @@ What you'd contribute to their community:
 - Action: Share templates + deadline (all READMEs by end of Sprint 2)
 
 **Subtask 1.2: Personal Account & Org Audit** (~88K TE)
-- Inventory all 44 repos (already done in registry-v2.json)
+- Inventory all 44 repos (already done in repo-registry.json)
 - Decision: Personal account 4444J99 consolidation
   - Option A: Archive as read-only, migrate all working repos to orgs (recommended)
   - Option B: Keep active, but mirror all to orgs (adds maintenance burden)
@@ -287,7 +287,7 @@ What you'd contribute to their community:
 - All 44 repos have comprehensive READMEs
 - All 8 orgs have About sections
 - 14 local repos migrated to GitHub
-- registry-v2.json updated with documentation status
+- repo-registry.json updated with documentation status
 - Total effort: ~4.4M TE
 
 ---

@@ -105,7 +105,7 @@ Critical operations require multiple authorization factors:
 | Modify governance-rules.json | Agent proposal | Human approval + adversarial review | Constitutional impact |
 | Amend SPEC documents | Agent draft | Human approval + adversarial review | Constitutional authority |
 | Delete entity from ontologia | Agent proposal | Human confirmation | INV-000-003 (identity persistence) |
-| Modify registry-v2.json (> 5 fields) | Agent execution | Human review before write | Data corruption risk |
+| Modify repo-registry.json (> 5 fields) | Agent execution | Human review before write | Data corruption risk |
 
 ### AUTH-008: Economy of Mechanism
 
@@ -193,7 +193,7 @@ The Biba integrity model (Anderson 2020) -- "no read down, no write up" -- provi
 | Integrity Level | Data Classification | Write Authority |
 |----------------|-------------------|----------------|
 | **Constitutional** (highest) | SPEC-000 through SPEC-017, `archive_original/` | Human operator only; `archive_original/` is read-only for all |
-| **Governance** | `governance-rules.json`, `registry-v2.json`, schema definitions | L4 (Approve) with human confirmation |
+| **Governance** | `governance-rules.json`, `repo-registry.json`, schema definitions | L4 (Approve) with human confirmation |
 | **Contractual** | `seed.yaml` files, organ-aesthetic.yaml, taste.yaml | L3 (Mutate) within scope |
 | **Operational** | Source code, tests, documentation, CLAUDE.md | L3 (Mutate) within scope |
 | **Session** (lowest) | Plan files, session logs, claims registry entries | Any authorized agent |
@@ -213,7 +213,7 @@ The following files carry explicit integrity protection. No agent may write to t
 | `archive_original/*` | Constitutional | No write access (read-only for all) | N/A -- filesystem permissions |
 | SPEC-000 through SPEC-017 | Constitutional | L4 + adversarial review + creator sign-off | Git branch protection |
 | `governance-rules.json` | Governance | L4 + human confirmation | Manual review |
-| `registry-v2.json` | Governance | L3 with `save_registry()` corruption guard (min 50 repos) | `save_registry()` in `registry/loader.py` |
+| `repo-registry.json` | Governance | L3 with `save_registry()` corruption guard (min 50 repos) | `save_registry()` in `registry/loader.py` |
 | `schema-definitions/schemas/*` | Governance | L4 + schema validation | Schema self-validation |
 | `seed.yaml` (any repo) | Contractual | L3 within organ scope | Seed validation on write |
 | `ontologia/entities.json` | Governance | L3 through ontologia API only (append-only) | Store API enforces append-only |

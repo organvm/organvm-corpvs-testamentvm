@@ -25,7 +25,7 @@ Three-pronged perception layer: (1) fix stale metrics + propagate, (2) batch-gen
 - Manually fixed essay count in system-overview.md (29 → 35 essays)
 
 ### 2. generate-seed-yaml.py batch script
-- New `scripts/generate-seed-yaml.py` — reads registry-v2.json, detects primary language from local file extensions, generates seed.yaml with organ-level defaults
+- New `scripts/generate-seed-yaml.py` — reads repo-registry.json, detects primary language from local file extensions, generates seed.yaml with organ-level defaults
 - Supports `--write`, `--push`, `--remote-only`, `--organ`, `--repo` flags
 - Includes `git pull --rebase` before push to handle diverged repos
 - Handles 3 push modes: local git push, gh api PUT (for repos without local clone), skip

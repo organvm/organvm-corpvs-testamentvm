@@ -16,7 +16,7 @@ The cross-AI logic check rigorously stress-tested the planning corpus. The resul
 **The Verdict:** The "Seven-Organ" model is sound. The "All-at-Once" execution is not.
 
 ### Consensus Findings (All 3 Models Agree)
-1.  **Registry Schema is Blocking:** The current `registry-v2.json` cannot support the specified GitHub Actions. It is missing critical fields (`dependencies`, `promotion_status`). **Action: Rebuild schema immediately.**
+1.  **Registry Schema is Blocking:** The current `repo-registry.json` cannot support the specified GitHub Actions. It is missing critical fields (`dependencies`, `promotion_status`). **Action: Rebuild schema immediately.**
 2.  **Binary Launch is Critical Risk:** Waiting for 44 repos to be 100% ready guarantees indefinite delay. **Action: Adopt Bronze (5 Flagships) / Silver (15 Repos) / Gold (Full System) tiers.**
 3.  **Coordination Overhead is Real:** The ~5-10% overhead for managing parallel AI streams (discovered in TE conversion) is accurate and must be budgeted. **Action: Add 10% "Coordination Tax" to all future estimates.**
 4.  **Org Architecture is Solid:** The `organvm.env` -> `organvm.config.json` pattern is production-grade. **Action: Keep as-is.**
@@ -55,7 +55,7 @@ The cross-AI logic check rigorously stress-tested the planning corpus. The resul
 Based on this synthesis, the immediate plan (`roadmap-there-and-back-again.md`) requires the following adjustments:
 
 1.  **Phase 0 (Technical Foundation):**
-    *   **Fix `registry-v2.json`**: Add `tier` (Flagship/Standard/Stub), `dependencies`, `promotion_status`.
+    *   **Fix `repo-registry.json`**: Add `tier` (Flagship/Standard/Stub), `dependencies`, `promotion_status`.
     *   **Prune Inventory**: Archive the 4 empty ORGAN-II repos immediately.
     *   **Secret Strategy**: Define how secrets (`ORCHESTRATION_PAT`) are distributed to 7 orgs.
 

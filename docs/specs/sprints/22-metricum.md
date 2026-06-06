@@ -13,7 +13,7 @@ Every time a repo was added, an essay published, or a sprint completed, the same
 Three-script pipeline: **compute → store → propagate**.
 
 ```
-registry-v2.json ──┐
+repo-registry.json ──┐
 docs/specs/sprints/ ┼──→ calculate-metrics.py ──→ system-metrics.json ──→ propagate-metrics.py ──→ 40+ files
 gh API (essays)  ───┘         (compute)                 (source of truth)        (cascade)
 ```
@@ -21,7 +21,7 @@ gh API (essays)  ───┘         (compute)                 (source of truth
 ## Deliverables
 
 ### 1. Rewritten `scripts/calculate-metrics.py`
-- Computes all metrics from three sources: registry-v2.json, sprint specs directory, and essay count via GitHub API
+- Computes all metrics from three sources: repo-registry.json, sprint specs directory, and essay count via GitHub API
 - New `system-metrics.json` schema v1.0 with `computed` (auto-derived) and `manual` (human-maintained) sections
 - `--skip-essays` flag for offline mode
 - Manual section preserved across runs (word counts, code file counts — values that can't be auto-computed)

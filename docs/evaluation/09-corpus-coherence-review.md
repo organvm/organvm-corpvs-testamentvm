@@ -32,7 +32,7 @@ This document applies the Evaluation-to-Growth framework to the active Layer 3 c
 | `orchestration-system-v2.md` | Line 27 | "Holly Herndon, Zach Lieberman, Gene Kogan" in practitioner alignment |
 | `public-process-map-v2.md` | Line 130 | "Herndon/Dryhurst, Lieberman, Kogan" connection reference |
 | `public-process-map-v2.md` | Line 152 | "Herndon/Dryhurst (The Call), Lieberman (openFrameworks), Kogan (ml4a)" |
-| `registry-v2.json` | Line 21 | `supporting_evidence` field with all 4 rejected names |
+| `repo-registry.json` | Line 21 | `supporting_evidence` field with all 4 rejected names |
 | `ANNOTATED-MANIFEST.md` (in `docs/`) | Lines 326, 338 | Practitioner precedents summary |
 
 **Severity:** HIGH — external readers (grant reviewers, hiring managers) would encounter these names and check, finding the comparison doesn't hold at current portfolio scale.
@@ -57,7 +57,7 @@ This document applies the Evaluation-to-Growth framework to the active Layer 3 c
 
 ### 1.3 Stale Repo Count ("60+")
 
-**The problem:** Multiple documents use "60+" as the repo count. The actual count is 44 registered repos in `registry-v2.json` + 14 local repos pending migration = 58 total. "60+" was a rough estimate that was never corrected. After `08`'s Bronze scoping (which focuses on flagships, not all repos), the inflated number is misleading.
+**The problem:** Multiple documents use "60+" as the repo count. The actual count is 44 registered repos in `repo-registry.json` + 14 local repos pending migration = 58 total. "60+" was a rough estimate that was never corrected. After `08`'s Bronze scoping (which focuses on flagships, not all repos), the inflated number is misleading.
 
 | Document | Location | Content |
 |----------|----------|---------|
@@ -66,7 +66,7 @@ This document applies the Evaluation-to-Growth framework to the active Layer 3 c
 | `public-process-map-v2.md` | Lines 375–376 | "60+ repos" in social media thread |
 | `implementation-package-v2.md` | Line 100 | "60+ repos" in cover letter |
 | `implementation-package-v2.md` | Line 479 | "60+ repositories" in pitch |
-| `registry-v2.json` | Line 462 | Essay title "Across 60 GitHub Repositories" |
+| `repo-registry.json` | Line 462 | Essay title "Across 60 GitHub Repositories" |
 | `ANNOTATED-MANIFEST.md` (in `docs/`) | Line 528 | "60+ repos" in workflow deployment note |
 
 **Severity:** MEDIUM — the number is verifiable (someone could count the repos). Precision matters for credibility with technical audiences.
@@ -105,7 +105,7 @@ The corpus has several structural strengths that should be preserved:
 
 2. **Document-level notes.** `parallel-launch-strategy.md` and `implementation-package-v2.md` already have header notes explaining their retained role. These just need expansion, not replacement.
 
-3. **registry-v2.json as SSOT.** The registry's role as single source of truth is reinforced by `08`'s schema hardening decisions (SC-1).
+3. **repo-registry.json as SSOT.** The registry's role as single source of truth is reinforced by `08`'s schema hardening decisions (SC-1).
 
 4. **Cross-validation provenance.** The `gemini-cli/`, `codex-cli/`, and `github-copilot-cli/` directories are correctly frozen as source material consumed by `08`. No edits needed there.
 
@@ -142,7 +142,7 @@ Replace Holly Herndon/Mat Dryhurst, Zach Lieberman, Gene Kogan, Lauren McCarthy 
 
 Each replacement includes an annotation: `(updated per 08-canonical-action-plan.md §7)`
 
-**Files:** `parallel-launch-strategy.md`, `orchestration-system-v2.md`, `public-process-map-v2.md`, `registry-v2.json`, `ANNOTATED-MANIFEST.md` (in `docs/`)
+**Files:** `parallel-launch-strategy.md`, `orchestration-system-v2.md`, `public-process-map-v2.md`, `repo-registry.json`, `ANNOTATED-MANIFEST.md` (in `docs/`)
 
 ### Priority 2: Remove/Annotate NSF Convergence Accelerator (9 edits, 5 files)
 
@@ -156,7 +156,7 @@ Each replacement includes an annotation: `(updated per 08-canonical-action-plan.
 
 Replace "60+" with "~44" (registered repos) or "~58 including local repos pending migration" where the broader count is contextually appropriate.
 
-**Files:** `parallel-launch-strategy.md`, `public-process-map-v2.md`, `implementation-package-v2.md`, `registry-v2.json`, `ANNOTATED-MANIFEST.md` (in `docs/`)
+**Files:** `parallel-launch-strategy.md`, `public-process-map-v2.md`, `implementation-package-v2.md`, `repo-registry.json`, `ANNOTATED-MANIFEST.md` (in `docs/`)
 
 ### Priority 4: Fix Launch Criteria (1 edit, 1 file)
 
@@ -205,7 +205,7 @@ This checklist tracks the coherence pass. Each item corresponds to a specific ed
 - [x] `orchestration-system-v2.md` — practitioner alignment (line 27)
 - [x] `public-process-map-v2.md` — connection reference (line 130)
 - [x] `public-process-map-v2.md` — examples list (line 152)
-- [x] `registry-v2.json` — `supporting_evidence` field (line 21)
+- [x] `repo-registry.json` — `supporting_evidence` field (line 21)
 - [x] `ANNOTATED-MANIFEST.md` (in `docs/`) — practitioner precedents (line 326)
 - [x] `ANNOTATED-MANIFEST.md` (in `docs/`) — practitioner references note (line 338)
 
@@ -226,7 +226,7 @@ This checklist tracks the coherence pass. Each item corresponds to a specific ed
 - [x] `public-process-map-v2.md` — lines 375–376
 - [x] `implementation-package-v2.md` — line 100
 - [x] `implementation-package-v2.md` — line 479
-- [x] `registry-v2.json` — line 462
+- [x] `repo-registry.json` — line 462
 - [x] `ANNOTATED-MANIFEST.md` (in `docs/`) — line 528
 
 ### Launch Criteria (Priority 4)

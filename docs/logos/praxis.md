@@ -13,7 +13,7 @@
 The corpus does not act *on the world* directly — that is the work of the operating organs (I–VII). The corpus acts *on itself* (and on the system's self-knowledge) by:
 
 1. **Declaring** what should be (TELOS-typed additions to `docs/standards/`, `docs/specs/`, `docs/memory/`)
-2. **Recording** what is (PRAGMA-typed updates to `registry-v2.json`, `data/`, `docs/evaluation/`)
+2. **Recording** what is (PRAGMA-typed updates to `repo-registry.json`, `data/`, `docs/evaluation/`)
 3. **Witnessing** what was received (RECEPTIO-typed entries in `docs/applications/`, `docs/validation-runs/`, `docs/archive/`)
 4. **Composing** the next move (PRAXIS-typed plans in `docs/operations/rolling-todo.md`, `INST-INDEX-RERUM-FACIENDARUM.md`, `docs/strategy/sprint-catalog.md`)
 

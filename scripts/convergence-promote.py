@@ -2,7 +2,7 @@
 """CONVERGENCE Sprint Phase C: Promote 7 DESIGN_ONLY repos to PRODUCTION.
 
 Deploys prototype skeletons, CI workflows, CHANGELOGs, ADRs, and badge rows.
-Updates registry-v2.json with PRODUCTION status.
+Updates repo-registry.json with PRODUCTION status.
 """
 
 import json
@@ -20,7 +20,7 @@ except ImportError:
     _engine_load = None
 
 TEMPLATES_DIR = Path(__file__).parent.parent / "templates"
-REGISTRY_PATH = Path(__file__).parent.parent / "registry-v2.json"
+REGISTRY_PATH = Path(__file__).parent.parent / "repo-registry.json"
 
 ORGAN_META = {
     "organvm-i-theoria":   {"num": "I",    "name": "Theoria",   "color": "8B5CF6"},
@@ -283,7 +283,7 @@ The organvm system enforces a strict dependency flow: ORGAN-I (Theory) feeds int
 ## Decision
 
 This repository participates in the cross-organ dependency graph as follows:
-- **Upstream dependencies**: Defined in `registry-v2.json` under the `dependencies` field
+- **Upstream dependencies**: Defined in `repo-registry.json` under the `dependencies` field
 - **Integration pattern**: {"Python package imports via pip" if "Python" in lang else "NPM package consumption or API integration"}
 - **Communication**: Asynchronous — repos communicate through versioned releases and registry state
 
@@ -463,7 +463,7 @@ def promote_repo(org, repo, lang, ci_template, dry_run=False):
 
 
 def update_registry(promoted_repos):
-    """Update registry-v2.json with PRODUCTION status for promoted repos."""
+    """Update repo-registry.json with PRODUCTION status for promoted repos."""
     import shutil
     # Backup before any modification
     backup = REGISTRY_PATH.with_suffix(".json.bak")

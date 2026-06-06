@@ -40,7 +40,7 @@ Transitions are governed by `promotion-recommender.yml` (monthly, 1st at 08:00 U
 DESIGN_ONLY → SKELETON → PROTOTYPE → ACTIVE → ARCHIVED
 ```
 
-This tracks the code maturity of each repo, independent of its promotion state. Stored in `registry-v2.json` as `implementation_status`.
+This tracks the code maturity of each repo, independent of its promotion state. Stored in `repo-registry.json` as `implementation_status`.
 
 ## Consequences
 
@@ -64,4 +64,4 @@ This tracks the code maturity of each repo, independent of its promotion state. 
 - Promotion workflow: `promotion-recommender.yml` in orchestration-start-here
 - Orchestration system: `docs/implementation/orchestration-system-v2.md` §Promotion Criteria
 - VERITAS sprint renamed PRODUCTION→ACTIVE: `docs/specs/sprints/11-veritas.md`
-- Registry: `registry-v2.json` (`implementation_status` field)
+- Registry: `repo-registry.json` (`implementation_status` field)

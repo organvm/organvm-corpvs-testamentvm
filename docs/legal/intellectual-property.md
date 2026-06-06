@@ -25,7 +25,7 @@ All source code, documentation, architectural designs, governance frameworks, an
 
 - The eight-organ architectural model (Theoria, Poiesis, Ergon, Taxis, Logos, Koinonia, Kerygma, Meta)
 - The promotion state machine (LOCAL, CANDIDATE, PUBLIC_PROCESS, GRADUATED, ARCHIVED)
-- The registry-v2.json schema and governance-rules.json specification
+- The repo-registry.json schema and governance-rules.json specification
 - All 6 canonical JSON schemas in schema-definitions
 - The organvm-engine CLI and its 12 command groups
 - The MCP server implementation and its 16 tools

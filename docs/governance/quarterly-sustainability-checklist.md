@@ -10,7 +10,7 @@
 ## Pre-Audit
 
 - [ ] Note the date and quarter (e.g., "Q2 2026 — 2026-04-15")
-- [ ] Confirm `registry-v2.json` is the working copy (not stale)
+- [ ] Confirm `repo-registry.json` is the working copy (not stale)
 
 ## 1. Registry Currency Check
 
@@ -63,7 +63,7 @@
 
 - [ ] Query registry for `promotion_obligations` with `status: "PENDING"`:
   ```
-  python3 -c "import json; [print(f'{r[\"org\"]}/{r[\"name\"]}: {o}') for org in json.load(open('registry-v2.json'))['organs'].values() for r in org['repositories'] for o in r.get('promotion_obligations', []) if o['status'] == 'PENDING']"
+  python3 -c "import json; [print(f'{r[\"org\"]}/{r[\"name\"]}: {o}') for org in json.load(open('repo-registry.json'))['organs'].values() for r in org['repositories'] for o in r.get('promotion_obligations', []) if o['status'] == 'PENDING']"
   ```
 - [ ] For each PENDING obligation: is it still relevant? Should it be started, deferred, or cancelled?
 
@@ -73,7 +73,7 @@
   ```bash
   python3 -c "
   import json
-  reg = json.load(open('registry-v2.json'))
+  reg = json.load(open('repo-registry.json'))
   dist = reg.get('implementation_status_distribution', {})
   print('Current distribution:')
   for status, count in sorted(dist.items()):

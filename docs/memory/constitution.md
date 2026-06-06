@@ -6,7 +6,7 @@
 ## Core Principles (Articles I-VI)
 
 ### I. Registry as Single Source of Truth
-All repo state lives in `registry-v2.json`. The registry is never wrong; if reality and registry disagree, update the registry or fix reality. No document, workflow, or agent may claim authoritative repo state outside the registry.
+All repo state lives in `repo-registry.json`. The registry is never wrong; if reality and registry disagree, update the registry or fix reality. No document, workflow, or agent may claim authoritative repo state outside the registry.
 
 ### II. Unidirectional Dependencies
 Flow is I->II->III only. No back-edges: ORGAN-III cannot depend on ORGAN-II; ORGAN-II cannot depend on ORGAN-III. ORGAN-IV orchestrates; ORGAN-V documents; ORGAN-VII amplifies. Dependency violations are structural failures, not style issues.
@@ -38,7 +38,7 @@ Budget 10% of phase TE as explicit line item for reconciling parallel AI streams
 ### Amendment C: Registry Schema Completeness
 *Source: SC-1 in `08-canonical-action-plan.md`*
 
-`registry-v2.json` must include `dependencies[]`, `promotion_status`, `tier`, and `last_validated` fields before Phase 2. Schema evolves iteratively during Bronze (fields added as workflows need them, locked after majority of flagships are drafted).
+`repo-registry.json` must include `dependencies[]`, `promotion_status`, `tier`, and `last_validated` fields before Phase 2. Schema evolves iteratively during Bronze (fields added as workflows need them, locked after majority of flagships are drafted).
 
 ### Amendment D: AI Non-Determinism Acknowledgment
 *Source: Meta-finding in `THREE_CLI_COMPARISON_ANALYSIS.md`*
@@ -48,7 +48,7 @@ Same inputs produce different strategic outputs across AI models and across time
 ## Quality Gates
 
 ### Registry Gate
-Does this deliverable update `registry-v2.json`? Is the schema satisfied? Are all required fields populated with verified (not aspirational) data?
+Does this deliverable update `repo-registry.json`? Is the schema satisfied? Are all required fields populated with verified (not aspirational) data?
 
 ### Portfolio Gate
 Does this README or essay pass the "Stranger Test" (D-08, Copilot validation §7)? Would a grant reviewer seeing this for the first time be convinced? Score >=90/100 on the `01` rubric for flagships.
@@ -233,7 +233,7 @@ Encoded as: LIM-I, LIM-II, LIM-III in `governance-rules.json` `lex_naturalis.lim
 
 | Article | Status | Notes |
 |---------|--------|-------|
-| I. Registry as SSOT | ACTIVE | registry-v2.json at schema v1.0.0, 103 repos tracked |
+| I. Registry as SSOT | ACTIVE | repo-registry.json at schema v1.0.0, 103 repos tracked |
 | II. Unidirectional Deps | ACTIVE | 0 back-edge violations. ORGAN-III→VI/VII edges are forward (higher→lower organ flow for community/distribution) |
 | III. Eight Organs Visible | SATISFIED | All 8 organs operational since 2026-02-11 |
 | IV. Doc Precedes Deploy | ACTIVE | Governs ongoing promotions and new features |

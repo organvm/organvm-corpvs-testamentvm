@@ -24,7 +24,7 @@ Full infrastructure pass: sync all stale locals, add README/CI/seed.yaml to alch
 
 ### 2. alchemia-ingestvm infrastructure
 - **README.md** (~2,700 words): Documents three-stage pipeline (INTAKE → ABSORB → ALCHEMIZE), aesthetic nervous system (taste.yaml cascade), 5 capture channels, full module reference, CLI usage, data directory layout
-- **seed.yaml**: Schema v1.0, Organ: Meta, produces classified-artifacts/deployment-manifests/provenance-records/creative-briefs/aesthetic-chains, consumes registry-v2.json from corpvs-testamentvm
+- **seed.yaml**: Schema v1.0, Organ: Meta, produces classified-artifacts/deployment-manifests/provenance-records/creative-briefs/aesthetic-chains, consumes repo-registry.json from corpvs-testamentvm
 - **.github/workflows/ci.yml**: Python CI matrix (3.11, 3.12), ruff lint + pytest
 
 ### 3. social-automation real HTTP logic (ORGAN-VII)

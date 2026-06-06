@@ -7,7 +7,7 @@ delivery:
 - platform: governance_corpus
   status: live
   priority: critical
-  notes: "registry-v2.json, governance-rules.json, 21 essays, full planning record"
+  notes: "repo-registry.json, governance-rules.json, 21 essays, full planning record"
   next_action: "Maintain as source of truth, keep registry current"
 - platform: web_app
   status: planned

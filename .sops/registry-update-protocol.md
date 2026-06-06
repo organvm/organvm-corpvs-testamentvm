@@ -12,7 +12,7 @@ overrides: null
 
 ## Purpose
 
-Defines safe editing practices for `registry-v2.json`, the 2,200+ line single source of truth for all repos.
+Defines safe editing practices for `repo-registry.json`, the 2,200+ line single source of truth for all repos.
 
 ## Procedure
 
@@ -25,5 +25,5 @@ Defines safe editing practices for `registry-v2.json`, the 2,200+ line single so
 ## Verification
 
 - `organvm registry validate` exits 0
-- `git diff organvm-corpvs-testamentvm/registry-v2.json` shows only intended changes
+- `git diff organvm-corpvs-testamentvm/repo-registry.json` shows only intended changes
 - No test writes to the production registry path

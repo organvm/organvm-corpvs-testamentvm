@@ -29,7 +29,7 @@ A system at omega exhibits all eight of the following characteristics simultaneo
 
 **1. Self-Healing Infrastructure**
 
-Workflows detect issues and route them to the correct handler without human triage. The orchestrator agent identifies drift between `registry-v2.json` and the actual state of GitHub repos; the validation workflow catches dependency violations before they merge; the monthly audit generates actionable reports, not just dashboards. When a CI workflow fails, the system creates an issue in the correct repo with diagnostic context — not a Slack notification that a human must investigate.
+Workflows detect issues and route them to the correct handler without human triage. The orchestrator agent identifies drift between `repo-registry.json` and the actual state of GitHub repos; the validation workflow catches dependency violations before they merge; the monthly audit generates actionable reports, not just dashboards. When a CI workflow fails, the system creates an issue in the correct repo with diagnostic context — not a Slack notification that a human must investigate.
 
 Self-healing does not mean self-fixing. It means the system's diagnostic capabilities are sufficient to identify the problem, classify its severity, and route it to the appropriate response — automated fix, human review, or graceful degradation. The 30-day soak test (S1) is the first empirical measure of this capability.
 
@@ -333,7 +333,7 @@ Omega is achieved when all 17 criteria below are met. Each criterion is measurab
 | 6 | AI-conductor essay published | H2 | Public-process URL | MET |
 | 7 | ≥3 pieces of external feedback collected | H2 | Feedback synthesis doc | [Omega #3](https://github.com/meta-organvm/organvm-corpvs-testamentvm/issues/3) |
 | 8 | ≥1 ORGAN-III product live | H3 | Product URL + user count | MET |
-| 9 | `revenue_status: live` for ≥1 registry entry | H3 | `registry-v2.json` | [Omega #4](https://github.com/meta-organvm/organvm-corpvs-testamentvm/issues/4) |
+| 9 | `revenue_status: live` for ≥1 registry entry | H3 | `repo-registry.json` | [Omega #4](https://github.com/meta-organvm/organvm-corpvs-testamentvm/issues/4) |
 | 10 | MRR ≥ system operating costs | H3 | Financial record | [Omega #4](https://github.com/meta-organvm/organvm-corpvs-testamentvm/issues/4) |
 | 11 | ≥2 salons/events held with external participants | H4 | Event records | [Omega #5](https://github.com/meta-organvm/organvm-corpvs-testamentvm/issues/5) |
 | 12 | ≥3 external contributions to the system | H4 | GitHub activity | [Omega #6](https://github.com/meta-organvm/organvm-corpvs-testamentvm/issues/6) |

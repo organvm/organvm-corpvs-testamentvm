@@ -25,7 +25,7 @@ These aren't toy scripts. They enforce quality at a scale where eyeballing it do
 
 **Production systems end-to-end.** I shipped the eight-organ system from architecture through deployment: 107+ CI/CD pipelines, automated health audits, dependency validation, promotion state machine. I own the full lifecycle — from prototyping with real workflows to building reliable pipelines and integrating signals.
 
-**Feedback loops that strengthen systems.** The system uses a tiered documentation approach (Bronze/Silver/Gold) where validation results feed directly into the next sprint. Regression monitoring, golden datasets (the registry-v2.json as source of truth), and drift detection (monthly audits comparing current state to expected state) — these are eval patterns applied to infrastructure.
+**Feedback loops that strengthen systems.** The system uses a tiered documentation approach (Bronze/Silver/Gold) where validation results feed directly into the next sprint. Regression monitoring, golden datasets (the repo-registry.json as source of truth), and drift detection (monthly audits comparing current state to expected state) — these are eval patterns applied to infrastructure.
 
 ## Evidence
 

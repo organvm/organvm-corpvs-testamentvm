@@ -80,7 +80,7 @@ Groups are organ-scoped work contexts. A session working in ORGAN-III operates w
 
 | Group | Context Injection | Authority Scope |
 |-------|------------------|----------------|
-| META-ORGANVM | Constitutional corpus, registry-v2.json, governance-rules.json, all schemas | System-wide governance operations |
+| META-ORGANVM | Constitutional corpus, repo-registry.json, governance-rules.json, all schemas | System-wide governance operations |
 | ORGAN-I | Theoria CLAUDE.md, theoretical foundations, recursive systems | ORGAN-I repos only |
 | ORGAN-II | Poiesis CLAUDE.md, creative production, generative systems | ORGAN-II repos only |
 | ORGAN-III | Ergon CLAUDE.md, product specifications, revenue models | ORGAN-III repos only |
@@ -161,7 +161,7 @@ Shared coordination context aligns all agents toward system goals without requir
 | Context Source | Content | Injection Mechanism |
 |---------------|---------|-------------------|
 | SPEC-000 through SPEC-017 | Constitutional commitments, axioms, invariants | CLAUDE.md context blocks |
-| `registry-v2.json` | System-wide repo state, promotion status, dependencies | MCP server queries, CLAUDE.md summaries |
+| `repo-registry.json` | System-wide repo state, promotion status, dependencies | MCP server queries, CLAUDE.md summaries |
 | `governance-rules.json` | Governance constraints, allowed transitions, dependency rules | CLAUDE.md governance sections |
 | `seed.yaml` (per repo) | Per-repo contracts, produces/consumes edges, event subscriptions | Direct file reads |
 | Organ-level CLAUDE.md | Organ-specific conventions, build commands, architectural constraints | Automatic context injection |

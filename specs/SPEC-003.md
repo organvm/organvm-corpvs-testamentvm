@@ -145,7 +145,7 @@ The first conjunct asserts per-UID survival; the second asserts set-level monoto
 
 **Formalization Status: FORMAL.** UID monotonicity is checkable by comparing UID sets before and after any operation: `UIDs_pre` is a subset of `UIDs_post`. The check is O(n) with set operations.
 
-**Implementation Status: DRIFT.** The ontologia store (`store.py`) is structurally append-only — entities cannot be deleted through the store API, which enforces persistence at the store level. However, `registry-v2.json` is a plain JSON file editable by hand, and manual editing can remove entries without triggering any persistence check. Full enforcement requires either (a) routing all registry mutations through the engine's API, or (b) adding a git pre-commit hook that rejects UID deletions by comparing the proposed registry against its predecessor.
+**Implementation Status: DRIFT.** The ontologia store (`store.py`) is structurally append-only — entities cannot be deleted through the store API, which enforces persistence at the store level. However, `repo-registry.json` is a plain JSON file editable by hand, and manual editing can remove entries without triggering any persistence check. Full enforcement requires either (a) routing all registry mutations through the engine's API, or (b) adding a git pre-commit hook that rejects UID deletions by comparing the proposed registry against its predecessor.
 
 ---
 

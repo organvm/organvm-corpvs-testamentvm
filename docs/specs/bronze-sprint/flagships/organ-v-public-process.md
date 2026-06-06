@@ -142,7 +142,7 @@ Codex (running gpt-5) brought the strongest technical lens, treating the system 
 
 Codex's specific contributions:
 - **Registry as machine-validatable artifact:** Codex proposed that the registry should have a JSON Schema that CI can lint on every PR — not just "source of truth" but "machine-checkable source of truth." This became the foundation for the registry hardening work.
-- **Minimal repo object schema:** Codex proposed a concrete 15+ field schema (id, full_name, organ, stage, launch_tier, documentation_status, last_validated_at, ci_status, topics, dependencies, promotion_status, promotion_targets, promotion_history, process_doc_ref, essay_refs, analytics_key) that served as the reference for the `registry-v2.json` schema evolution.
+- **Minimal repo object schema:** Codex proposed a concrete 15+ field schema (id, full_name, organ, stage, launch_tier, documentation_status, last_validated_at, ci_status, topics, dependencies, promotion_status, promotion_targets, promotion_history, process_doc_ref, essay_refs, analytics_key) that served as the reference for the `repo-registry.json` schema evolution.
 - **`validate-dependencies` as priority workflow:** Codex identified dependency validation as the most valuable automation — the single workflow that, if broken, would invalidate the entire unidirectional dependency guarantee (Article II of the constitution).
 - **AI validation non-determinism:** The ~5.5 hour gap between Run A/B and Run C produced different strategic recommendations from the same model. Codex surfaced this as a meta-finding: AI validation is non-deterministic for strategic questions while remaining stable for technical assessments. This is itself a publishable insight.
 
@@ -290,7 +290,7 @@ The system is live. The process is public. The methodology is documented. What c
 |----------|-------------------|
 | [08-canonical-action-plan.md](https://github.com/organvm-v-logos/public-process) | The canonical output of the cross-validation cycle |
 | [07-cross-ai-logic-check-results.md](https://github.com/organvm-v-logos/public-process) | Raw cross-validation results from all 4 agents |
-| [registry-v2.json](https://github.com/organvm-v-logos/public-process) | Machine-readable source of truth for all 79 repos |
+| [repo-registry.json](https://github.com/organvm-v-logos/public-process) | Machine-readable source of truth for all 79 repos |
 
 ### Flagship READMEs (Evidence Base)
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """V4: Dependency Graph Validation
 
-Re-validates the dependency graph from registry-v2.json:
+Re-validates the dependency graph from repo-registry.json:
 1. No back-edges (I->II->III only; no III->II or II->I)
 2. No circular dependencies
 3. All dependency targets exist in registry
@@ -13,7 +13,7 @@ import os
 import sys
 from collections import defaultdict
 
-REGISTRY_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "registry-v2.json")
+REGISTRY_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "repo-registry.json")
 
 # Organ ordering for back-edge detection
 # Flow is I->II->III. IV orchestrates, V documents, VI/VII amplify.

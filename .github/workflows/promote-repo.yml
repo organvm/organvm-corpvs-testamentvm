@@ -69,7 +69,7 @@ jobs:
           PROMOTION_TYPE = os.environ["PROMOTION_TYPE"]
           SOURCE_REPO = os.environ["SOURCE_REPO"]
 
-          with open("registry-v2.json") as f:
+          with open("repo-registry.json") as f:
               registry = json.load(f)
           with open("governance-rules.json") as f:
               governance = json.load(f)
@@ -187,7 +187,7 @@ jobs:
           import os
           from datetime import datetime, timezone
 
-          with open("registry-v2.json") as f:
+          with open("repo-registry.json") as f:
               registry = json.load(f)
 
           source_repo = os.environ["SOURCE_REPO"]
@@ -207,7 +207,7 @@ jobs:
                       repo["promotion_status"] = "CANDIDATE"
                       break
 
-          with open("registry-v2.json", "w") as f:
+          with open("repo-registry.json", "w") as f:
               json.dump(registry, f, indent=2)
               f.write("\n")
           PYEOF
@@ -220,7 +220,7 @@ jobs:
         run: |
           git config user.name "ORGAN-IV Promotion Bot"
           git config user.email "promote@organvm.org"
-          git add registry-v2.json
+          git add repo-registry.json
           if git diff --cached --quiet; then
             echo "No registry changes"
           else

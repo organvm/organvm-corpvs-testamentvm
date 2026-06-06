@@ -70,7 +70,7 @@ Kahneman (2003) demonstrated that even with adequate information, decision-maker
 
 | Target Attribute | Substitution Risk | Required Query |
 |-----------------|-------------------|---------------|
-| Repo promotion status | Agent believes status based on recent context | `organvm registry show <repo>` or registry-v2.json read |
+| Repo promotion status | Agent believes status based on recent context | `organvm registry show <repo>` or repo-registry.json read |
 | Dependency graph state | Agent assumes dependency structure | `organvm governance check-deps` |
 | CI status | Agent assumes tests pass based on code inspection | Actual CI run or `organvm ci check <repo>` |
 | Seed contract content | Agent generates plausible seed.yaml from memory | Direct seed.yaml file read |

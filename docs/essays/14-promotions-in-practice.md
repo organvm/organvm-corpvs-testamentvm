@@ -90,7 +90,7 @@ The promotion log, the criteria checks, the rationale — all of that is documen
 
 This is one line in a JSON file. But it's the authoritative record that other systems (audit scripts, dashboards, workflows) read. The documentation explains *why*; the registry records *what*.
 
-This mirrors how institutional governance works: board minutes explain deliberation, but the resolution is the binding output. The eight-organ system makes this explicit — `registry-v2.json` is the resolution; everything else is minutes.
+This mirrors how institutional governance works: board minutes explain deliberation, but the resolution is the binding output. The eight-organ system makes this explicit — `repo-registry.json` is the resolution; everything else is minutes.
 
 ### 6. Archiving Demonstrates Honest Governance
 

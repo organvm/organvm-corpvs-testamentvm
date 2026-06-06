@@ -109,7 +109,7 @@ The 2026-05-26 corpvs feature branch (`daily-review-followups-2026-05-26`) is gr
 
 ## 6. PR Review Protocol
 
-- **CODEOWNERS** required for critical paths (`/governance/`, `/registry-v2.json`, `/.github/workflows/`, any `seed.yaml`).
+- **CODEOWNERS** required for critical paths (`/governance/`, `/repo-registry.json`, `/.github/workflows/`, any `seed.yaml`).
 - Auto-request reviewers by file path via `CODEOWNERS` syntax.
 - Enforce **conventional commits** in PR title (`feat:`, `fix:`, `chore:`, `docs:`, `refactor:`, `perf:`, `test:`, `ci:`, `build:`, `revert:`).
 - Block merges if reviews are **stale (>7 days)** — auto-detect via `gh pr view --json reviews`.
@@ -133,7 +133,7 @@ Per Universal Rule #11 (atomic commits): **before** squashing, ensure the PR tit
 
 ## 8. Repository Tier Classification
 
-Tiers derive from `registry-v2.json` (single source of truth per workspace CLAUDE.md). Mapping:
+Tiers derive from `repo-registry.json` (single source of truth per workspace CLAUDE.md). Mapping:
 
 | Tier | Registry-v2 criteria | Branch protection | Scheduled-task write authority |
 |---|---|---|---|
@@ -143,7 +143,7 @@ Tiers derive from `registry-v2.json` (single source of truth per workspace CLAUD
 
 Tier override: a repo's `seed.yaml` may declare `branch_governance_tier: <N>` to override the registry-v2 inference. Useful for repos that are technically Tier 3 by registry but should be treated as Tier 1 (e.g., a security-research repo where caution exceeds the scheduled-task contract).
 
-Architectural review: any tier promotion or demotion of a repo requires updating `registry-v2.json` AND adding an IRF row (per `10-repository-standards.md`).
+Architectural review: any tier promotion or demotion of a repo requires updating `repo-registry.json` AND adding an IRF row (per `10-repository-standards.md`).
 
 ---
 

@@ -44,7 +44,7 @@ Profile strengths mapped against role requirements:
 
 **Why this fits:**
 - Building MCP servers, sub-agents, and agent skills IS what the eight-organ system does — orchestration artifacts deployed to production
-- The "identify and codify repeatable deployment patterns" responsibility maps directly to registry-v2.json and governance-rules.json
+- The "identify and codify repeatable deployment patterns" responsibility maps directly to repo-registry.json and governance-rules.json
 - Forward-deployed model values someone who can represent the company at the highest technical level while communicating clearly — ~6K+ words of documentation proves this
 - Agent development experience from agentic-titan directly applicable
 
@@ -203,7 +203,7 @@ Profile strengths mapped against role requirements:
 **Requirements:** 4+ years backend-focused engineering, strong in 2+ of: Platform/Infrastructure (vector DBs, AWS, K8s), ML Domain Knowledge (model training, evaluation, dataset management), Product Engineering (TypeScript/React, UX design). Self-directed, pragmatic.
 
 **Why this fits:**
-- Building internal platform that ML researchers use — mirrors how registry-v2.json and orchestration tooling serve the eight-organ system
+- Building internal platform that ML researchers use — mirrors how repo-registry.json and orchestration tooling serve the eight-organ system
 - Product engineering + infrastructure sensibility = exactly the creative-technical hybrid profile
 - "User empathy, clean UX" in infrastructure roles is unusual and matches the portfolio-quality-README philosophy
 - Runway's mission ("merging art and science") directly resonates with creative-technical practice

@@ -10,7 +10,7 @@ Accepted
 
 ## Context
 
-In registry-v2.json schema v0.4, ORGAN-III repositories had a single `revenue` field that conflated two distinct concepts:
+In repo-registry.json schema v0.4, ORGAN-III repositories had a single `revenue` field that conflated two distinct concepts:
 
 1. **Revenue model** — *how* the product intends to generate revenue (subscription, freemium, one-time purchase, advertising, etc.)
 2. **Revenue status** — *whether* the product is currently generating revenue (none, pre-revenue, generating, profitable)
@@ -41,7 +41,7 @@ The schema version was bumped to v0.5 to reflect this breaking change. The valid
 
 ### Negative
 
-- **Schema breaking change**: All consumers of registry-v2.json needed updates (validation scripts, dashboard generators, metric calculators)
+- **Schema breaking change**: All consumers of repo-registry.json needed updates (validation scripts, dashboard generators, metric calculators)
 - **24 repos updated**: Every ORGAN-III entry required manual review and split
 - **Complexity increase**: Two fields instead of one — more to maintain and validate
 - **No revenue anywhere**: After the split, all 24 ORGAN-III repos showed `revenue_status: none` — an uncomfortable truth, but an honest one
@@ -49,6 +49,6 @@ The schema version was bumped to v0.5 to reflect this breaking change. The valid
 ## References
 
 - VERITAS sprint: `docs/specs/sprints/11-veritas.md`
-- Registry: `registry-v2.json` (schema v0.5)
+- Registry: `repo-registry.json` (schema v0.5)
 - Validation: `scripts/praxis-validate.py`
 - Constitution Article I (Honesty): `docs/memory/constitution.md`

@@ -35,7 +35,7 @@ The funding and hiring ecosystem has shifted to explicitly value:
 
 ### Five Revised Implementation Documents
 
-**1. registry-v2.json** (Central Registry)
+**1. repo-registry.json** (Central Registry)
 - All 44 repos + 14 local repos mapped to 8 organs
 - Dependencies fully specified (no circular, correct transitive depth)
 - Portfolio relevance scoring visible to external evaluators
@@ -372,7 +372,7 @@ The parallel launch strategy is sound because:
 
 ## Documents You Have
 
-1. **registry-v2.json** — All 44 repos + relationships (central source of truth)
+1. **repo-registry.json** — All 44 repos + relationships (central source of truth)
 2. **orchestration-system-v2.md** — Governance rules for parallel operation
 3. **github-actions-spec.md** — 5 core workflows (all active day 1)
 4. **public-process-map-v2.md** — ORGAN-V essays + distribution

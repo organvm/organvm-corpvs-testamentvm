@@ -290,7 +290,7 @@ The meta-organ is a **git superproject**. Submodules are tracked in `.gitmodules
 
 | File | Location | Purpose |
 |------|----------|---------|
-| `registry-v2.json` | `meta-organvm/organvm-corpvs-testamentvm/` | Single source of truth for all 124 repos across 8 organs. **PROTECTED: never overwrite wholesale.** |
+| `repo-registry.json` | `meta-organvm/organvm-corpvs-testamentvm/` | Single source of truth for all 124 repos across 8 organs. **PROTECTED: never overwrite wholesale.** |
 | `governance-rules.json` | `meta-organvm/organvm-corpvs-testamentvm/` | Dependency rules and promotion constraints. **PROTECTED.** |
 | `system-metrics.json` | `meta-organvm/organvm-corpvs-testamentvm/` | Computed system metrics. **PROTECTED.** |
 | `governance-config.yaml` | `meta-organvm/organvm-corpvs-testamentvm/` | Governance configuration |

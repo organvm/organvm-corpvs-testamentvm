@@ -25,7 +25,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).parent.parent
-REGISTRY_PATH = REPO_ROOT / "registry-v2.json"
+REGISTRY_PATH = REPO_ROOT / "repo-registry.json"
 GOVERNANCE_PATH = REPO_ROOT / "governance-rules.json"
 DATA_DIR = REPO_ROOT / "data" / "soak-test"
 

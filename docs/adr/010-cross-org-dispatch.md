@@ -16,7 +16,7 @@ The system needed cross-org communication for:
 1. **Promotion events**: When orchestration-start-here promotes a repo, the target org's workflows should react
 2. **Distribution events**: When a new essay is detected in ORGAN-V, ORGAN-VII distribution workflows should fire
 3. **Health checks**: The soak test in meta-organvm needs to query CI status across all 8 orgs
-4. **Registry updates**: Changes to registry-v2.json should trigger validation across the system
+4. **Registry updates**: Changes to repo-registry.json should trigger validation across the system
 
 ## Decision
 

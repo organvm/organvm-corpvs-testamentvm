@@ -164,7 +164,7 @@ Path dependence (North 1990) means that today's institutional choices are constr
 | **Coordination effects** | The more components that coordinate through the current mechanism, the costlier it is to switch to a different coordination mechanism |
 
 Path dependence operates at every level:
-- **Schema level:** `registry-v2.json` is consumed by engine, dashboard, MCP server, validators. Changing the format is an institutional revolution.
+- **Schema level:** `repo-registry.json` is consumed by engine, dashboard, MCP server, validators. Changing the format is an institutional revolution.
 - **Governance level:** The promotion pipeline is embedded in validators, audit reports, CLI commands, dashboard views, and documentation. Adding a new state or changing transition criteria requires updating the entire stack.
 - **Naming level:** Double-hyphen conventions, Greek organ names, and Latin terms are structural identifiers embedded in URLs, directory names, import paths, and documentation cross-references. Changing a name requires updating every reference.
 

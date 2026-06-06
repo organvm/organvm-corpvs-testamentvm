@@ -35,7 +35,7 @@ The architecture synthesizes three critical systems thinking traditions: Checkla
 
 **Question:** Does the entity exist with proper constitutional authorization?
 
-**Is-mode:** Is this entity registered in registry-v2.json? Does it have a seed.yaml? Is it tracked in ontologia with a ULID?
+**Is-mode:** Is this entity registered in repo-registry.json? Does it have a seed.yaml? Is it tracked in ontologia with a ULID?
 
 **Ought-mode:** Per AX-000-004 (Constitutional Governance), every component must be constitutionally authorized. Per INV-000-002 (Governance Reachability), every active component must be reachable from the constitutional root.
 

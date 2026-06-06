@@ -27,7 +27,7 @@
 
 ## 1. Update the Registry
 
-The registry (`registry-v2.json`) is the single source of truth for all repo state. Any change to a repo's status, metadata, or dependencies must be reflected here.
+The registry (`repo-registry.json`) is the single source of truth for all repo state. Any change to a repo's status, metadata, or dependencies must be reflected here.
 
 ### When to update
 - Repo implementation status changes (e.g., SKELETON -> PROTOTYPE -> ACTIVE)
@@ -42,7 +42,7 @@ The registry (`registry-v2.json`) is the single source of truth for all repo sta
    ```bash
    cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm
    ```
-   Edit `registry-v2.json` in your editor.
+   Edit `repo-registry.json` in your editor.
 
 2. **Find the repo entry.** Repos are nested under `organs.<ORGAN-KEY>.repositories[]`. Each entry has:
    ```json
@@ -71,7 +71,7 @@ The registry (`registry-v2.json`) is the single source of truth for all repo sta
 5. **Validate:**
    ```bash
    python3 scripts/organ-audit.py \
-       --registry registry-v2.json \
+       --registry repo-registry.json \
        --governance governance-rules.json \
        --output /tmp/audit-check.md
    ```
@@ -79,7 +79,7 @@ The registry (`registry-v2.json`) is the single source of truth for all repo sta
 
 6. **Commit and push:**
    ```bash
-   git add registry-v2.json
+   git add repo-registry.json
    git commit -m "chore: update registry — <describe change>"
    git push origin main
    ```
@@ -197,7 +197,7 @@ Application materials live in `docs/applications/` of this corpus. Three audienc
 
 3. **Prepare materials:**
    - Confirm all URLs resolve (portfolio, GitHub repos, essays)
-   - Verify claims against `registry-v2.json` (repo counts, status, etc.)
+   - Verify claims against `repo-registry.json` (repo counts, status, etc.)
    - Run link check: `grep -oP 'https?://[^\s)]+' docs/applications/<file>.md | while read url; do curl -sI "$url" | head -1; done`
 
 4. **Submit** via the target's application portal (browser — not automatable).
@@ -273,7 +273,7 @@ crontab -e
 2. **Add a README.md** — every README is a portfolio piece. Use existing repos in the same organ as style reference. Target: 2,500+ words for portfolio-relevant repos.
 
 3. **Add to the registry:**
-   Edit `registry-v2.json` and add the repo entry under the appropriate organ:
+   Edit `repo-registry.json` and add the repo entry under the appropriate organ:
    ```json
    {
      "name": "repo-name",
@@ -318,14 +318,14 @@ crontab -e
 7. **Validate:**
    ```bash
    python3 scripts/organ-audit.py \
-       --registry registry-v2.json \
+       --registry repo-registry.json \
        --governance governance-rules.json \
        --output /tmp/new-repo-audit.md
    ```
 
 8. **Commit registry changes:**
    ```bash
-   git add registry-v2.json
+   git add repo-registry.json
    git commit -m "feat: add <repo-name> to ORGAN-II"
    git push origin main
    ```
@@ -388,7 +388,7 @@ See the full SOP for the issue body template, label taxonomy, parallelization gu
 
 ```bash
 # Audit the system
-python3 scripts/organ-audit.py --registry registry-v2.json --governance governance-rules.json --output audit.md --github
+python3 scripts/organ-audit.py --registry repo-registry.json --governance governance-rules.json --output audit.md --github
 
 # Validate dependencies only
 python3 scripts/v4-dependency-validation.py

@@ -285,7 +285,7 @@ The ORGANVM model has four governance layers. A business habitat generates artif
 |-------|-----------------|-------------------|
 | **Repo** | Code, tests, product docs, agent contexts | Everything specific to this product: source, tests, research, legal analysis, ADRs, `.claude/agents/`, IaC, validation scripts |
 | **Organ** | Cross-repo policies, shared governance | Policies that apply to ALL repos in the organ: code review policy, security audit cadence, legal templates, financial frameworks |
-| **System** | Registry, schemas, dependency graph, standards | System-wide truth: `registry-v2.json`, cross-organ standards (this document), system metrics |
+| **System** | Registry, schemas, dependency graph, standards | System-wide truth: `repo-registry.json`, cross-organ standards (this document), system metrics |
 | **Orchestration** | Workflows, agents, skills | Cross-organ automation: promotion workflows, distribution pipelines, skill library |
 
 **Decision tree for artifact placement:**
@@ -312,7 +312,7 @@ A repo should be promoted from `standard` to `flagship` tier when it exhibits **
 
 When promoting, update both:
 - `seed.yaml`: `tier: flagship`
-- `registry-v2.json`: `"tier": "flagship"`, `"portfolio_relevance": "CRITICAL - ..."`, `"documentation_status": "DEPLOYED"` or `"FLAGSHIP README DEPLOYED"`
+- `repo-registry.json`: `"tier": "flagship"`, `"portfolio_relevance": "CRITICAL - ..."`, `"documentation_status": "DEPLOYED"` or `"FLAGSHIP README DEPLOYED"`
 
 ### 6.5 Registry Requirements for Business Habitats
 
