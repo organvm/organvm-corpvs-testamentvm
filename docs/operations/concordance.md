@@ -60,6 +60,10 @@ python3 scripts/invoke.py --list               # list all namespaces and counts
 | `TRX-C.NN` | Compiled specification IDs (post-flood) | TRX-C.07 |
 | `T(X,Y)` X={S,C,P,I} Y={O,C,M,A} | Threshold topology cells (governance membrane) | T(S,O) |
 | `classified_\w+` | Classified governance rules (threshold topology) | classified_logic_first_governance |
+| `INT-NNN` | Contrib intent register (`4444J99/contrib` archaeology/INTENTS.md; distinct from the fossil scheme `INT-YYYY-MM-DD-NNN` below) | INT-052 |
+| `DR-N[a]` | Contrib decision record (`4444J99/contrib` archaeology/ARCHAEOLOGY.md) | DR-1a |
+| `AB-N` | Contrib abandoned-approaches register (`4444J99/contrib` archaeology/ARCHAEOLOGY.md) | AB-17 |
+| `RD-N` | Contrib roadmap deltas (`4444J99/contrib`; distinct from a-i--skills research docs RD-001..006, see DONE-483) | RD-13 |
 
 ---
 
