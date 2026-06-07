@@ -935,3 +935,7 @@ Informal operational conventions made visible during threshold classification (W
 | classified_organ_aesthetic_identity | T(I,C) | Each organ maintains aesthetic identity |
 | classified_frontmatter_schema_validation | T(I,M) | Frontmatter validated against schema per-repo |
 | classified_essay_file_constraints | T(I,A) | Essay files follow format constraints |
+
+### S-2026-06-07
+- **IRF-SYS-998**: System Density Pulse Vacuums (`n/a`). GEMINI.md metrics show `Δ24h: n/a | Δ7d: n/a`. Research and restore telemetry.
+- **IRF-DOC-999**: Logos Documentation Vacuum. GEMINI.md shows Compliance: Record exists without implementation (Symmetry: 0.5 DREAM). Audit `docs/logos/` to transform conceptual placeholders into symmetric truth.
