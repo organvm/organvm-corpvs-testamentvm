@@ -79,6 +79,7 @@ The counter file is the single source of truth for the DONE-ID ceiling. The stat
 |----|----------|--------|-------|--------|---------|
 | IRF-MET-VAC-006 | **P1** | **Cross-domain pattern detection prototype.** Audit two active Hokage lanes and surface operational overlap. | Agent | S-2026-04-26 | None |
 | IRF-SYS-247 | P2 | **Retire/absorb the non-git corpvs stub directories + fix the stale IRF path in `~/Workspace/CLAUDE.md`.** `~/Workspace/organvm/organvm-corpvs-testamentvm` and `~/Workspace/meta-organvm/organvm-corpvs-testamentvm` exist as non-git stubs (`data/` fragments only, no IRF file) while `~/Workspace/CLAUDE.md` points the registry/IRF at the first stub path. Companion to IRF-SYS-246 (limen-work mirror, behind-40): same split-brain class — the living checkout is `~/Code/organvm/organvm-corpvs-testamentvm`. Inventory stub `data/` for unique content (add-only extraction), then retire stubs and repoint the workspace map; cartridge-doctrine inward-absorption candidate. | Agent | S-2026-06-06-contrib-hub-consolidation hall-monitor audit (propagation-path discovery) | Cartridge epoch / conductor decision on stub retirement |
+| IRF-SYS-254 | **P1** | **VACUUM: System Density delta metrics (24h/7d) reporting N/A.** Pulse tracking is returning N/A for recent changes, indicating a vacuum in seed data or the calculation pipeline. Research and restore metric aggregation. | Agent | S-HallMonitor 2026-06-07 | None |
 
 | ID | Priority | Action | Owner | Source | Blocker |
 |----|----------|--------|-------|--------|---------|
