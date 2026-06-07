@@ -1,10 +1,10 @@
 {
-  "next_id": 599,
-  "last_claimed_by": "S-2026-06-07-logos-remediation",
+  "next_id": 601,
+  "last_claimed_by": "S-2026-06-07-insights-followthrough-hall-monitor",
   "last_claimed_at": "2026-06-07",
   "claimed_range": [
-    597,
-    598
+    599,
+    600
   ],
-  "note": "S-2026-06-07-logos-remediation claims DONE-597..598 for IRF-ATN-006 and IRF-ATN-009 completion records. organvm-engine _build_logos_context fix (9b64725) resolved the Logos symmetry detection bug — agentic-titan now shows ACTIVE|SYMMETRIC. Prior: S-2026-06-07-vacuum-remediation-hall-monitor claims DONE-596 for my-knowledge-base disparate-artifact assembly integrity audit closure (IRF-SYS-163, GH#44 closed)."
+  "note": "S-2026-06-07-insights-followthrough-hall-monitor claims DONE-599..600: 599 = retroactive registration of the insights-snapshot/diff/drift system (shipped 2026-04-30, domus d6aeb8e4, never recorded \u2014 its queued IRF-MON-013/DONE-522 IDs were claimed by other work, discovered via hall-monitor falsified-live check); 600 = suggestions/friction capture extension + class prefix-collision root-cause fix (domus PR #75) + 6-snapshot backfill + snapshots local:remote soul-persistence (claude-runtime-state gitignore un-ignore). Prior: S-2026-06-07-logos-remediation claims DONE-597..598 for IRF-ATN-006 and IRF-ATN-009 completion records. organvm-engine _build_logos_context fix (9b64725) resolved the Logos symmetry detection bug \u2014 agentic-titan now shows ACTIVE|SYMMETRIC. Prior: S-2026-06-07-vacuum-remediation-hall-monitor claims DONE-596 for my-knowledge-base disparate-artifact assembly integrity audit closure (IRF-SYS-163, GH#44 closed)."
 }
