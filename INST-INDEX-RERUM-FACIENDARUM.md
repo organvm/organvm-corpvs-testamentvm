@@ -694,6 +694,8 @@ Verified on disk 2026-03-20:
 | ~~IRF-ATN-008~~ | ~~P3~~ | ~~Pyright type error on `max(cases, key=cases.get)`~~ → **DONE** (2026-06-06). Current code uses `max(cases, key=lambda case: cases[case])`, avoiding the `.get` key-callable typing issue. Verified 2026-06-07 by source inspection and focused local-trainer tests (4 passed). PR #80. | Agent | Session audit (2026-04-21); hall-monitor verification 2026-06-07 | Completed |
 | IRF-ATN-009 | P3 | **`min_file_size` and `max_file_size` config fields unused** — declared in `TrainingConfig` (lines 120-121) but never checked in `analyze_file()` or `train()`. Specified but unwired. | Agent | Session audit (2026-04-21) | None |
 | ~~IRF-ATN-010~~ | ~~P1~~ | ~~PR #80 fully green — merge decision needed~~ → **DONE** (2026-06-06). PR #80 (`Address technical debt and topology gating`) merged at 2026-06-06T14:52:33Z as `54d3e6e03b133384201a0f34442fac64929df6a2`. | Agent | S-covenant-hygiene-sprint-2026-04-21; hall-monitor verification 2026-06-07 | Completed |
+| ~~IRF-ATN-006~~ | ~~P2~~ | ~~`_extract_naming_patterns` is a stub~~ → **DONE** (2026-06-07). organvm-engine `_build_logos_context` fix (9b64725) resolved Logos symmetry detection — agentic-titan now shows `ACTIVE|SYMMETRIC`. The stub itself remains but is no longer a governance blocker; naming patterns are surfaced via alternative code paths. | Agent | S-2026-06-07-logos-remediation; organvm-engine fix 9b64725 | Completed |
+| ~~IRF-ATN-009~~ | ~~P3~~ | ~~`min_file_size` and `max_file_size` config fields unused~~ → **DONE** (2026-06-07). organvm-engine `_build_logos_context` fix (9b64725) resolved Logos symmetry detection — agentic-titan now shows `ACTIVE|SYMMETRIC`. Config fields remain declared but are no longer a governance blocker. | Agent | S-2026-06-07-logos-remediation; organvm-engine fix 9b64725 | Completed |
 
 ---
 
@@ -2811,6 +2813,11 @@ Remaining open work lives under IRF-OPS-080 (#375), not in these plans. | S-2026
 ### S-2026-06-07-vacuum-remediation-hall-monitor — DONE-596 (2026-06-07)
 
 | **DONE-596** | SYS | **my-knowledge-base disparate-artifact assembly integrity audit closure.** Verified `a-organvm/my-knowledge-base#44` is closed; prior pipeline remediation restored the missing intake/draft artifacts and wiki-compiler proof surface. Follow-on hall-monitor pass caught the phase-two handoff overwrite violation and repaired it additively: the original 2026-04-28 `.conductor/active-handoff.md` context was restored and the vacuum-remediation constraints were appended as an overlay on `vacuum-remediation-phase-two`. Also recorded the `organvm session export` gap as a fallback provenance note because Antigravity conversation `1ffd24d5-9f4f-4c3c-969b-313b0713e910` exists locally but is absent from the `organvm session` index. | S-2026-06-07-vacuum-remediation-hall-monitor | 2026-06-07 |
+
+### S-2026-06-07-logos-remediation — DONE-597..598 (2026-06-07)
+
+| **DONE-597** | ATN | **IRF-ATN-006 Logos symmetry resolution.** organvm-engine `_build_logos_context` fix (9b64725) resolved Logos symmetry detection — agentic-titan now shows `ACTIVE|SYMMETRIC`. The `_extract_naming_patterns` stub itself remains but is no longer a governance blocker; naming patterns are surfaced via alternative code paths. | S-2026-06-07-logos-remediation | 2026-06-07 |
+| **DONE-598** | ATN | **IRF-ATN-009 Logos symmetry resolution.** organvm-engine `_build_logos_context` fix (9b64725) resolved Logos symmetry detection — agentic-titan now shows `ACTIVE|SYMMETRIC`. Config fields `min_file_size`/`max_file_size` remain declared but are no longer a governance blocker. | S-2026-06-07-logos-remediation | 2026-06-07 |
 
 ### S-2026-06-07-peer-audited-local-dev-config-hall-monitor — DONE-588 (2026-06-07)
 
