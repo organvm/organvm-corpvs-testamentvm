@@ -296,6 +296,7 @@ The counter file is the single source of truth for the DONE-ID ceiling. The stat
 | IRF-SYS-178 | P2 | **Ontologia subsystem uninstalled — `organvm refresh` reports `[2½/10] Ontologia sync skipped (not installed)` and downstream density metrics collapse.** Observed 2026-05-16 in `organvm refresh` log: step 2½ skipped because `organvm_ontologia` package is not installed in the current Python environment. Cascading effect on autogen System Density block in `peer-audited--behavioral-blockchain/CLAUDE.md`: AMMOI 58% → 25%, Edges 42 → 0, Tensions 33 → 0, Clusters 4 → 0, Inference 98% → 0%. Sections previously rendered in the repo CLAUDE.md autogen tail are now missing: `## Task Queue (from pipeline)` (was 246 items), `## Ecosystem Status`, `## External Mirrors`, `## Live System Variables (Ontologia)`, `## Entity Identity (Ontologia)`. Confirmed via 2026-05-16 Styx CLAUDE.md regeneration where the new auto-section is materially smaller than the 2026-04-14 version — not because content was deleted, but because the backing subsystem returned no data. Determine: (a) is Ontologia uninstall intentional state (architectural simplification, deprecation)? (b) install regression (broken `pip install` chain, dependency conflict)? (c) was Ontologia ever truly installed at this layer, or were values cached from META-side resolver? Fix candidates: (a) `pip install -e ~/Code/organvm/organvm-ontologia` to restore + verify density returns to 58% range; (b) document Ontologia as optional in the autogen template and gracefully degrade with explanatory note ("Ontologia not installed; density metrics omitted") rather than emitting silent zeros; (c) if intentional uninstall, file as DONE row with "system density topology authoritative source migrated to <X>" rationale. Pairs with IRF-VER-001 (ontologia in test suite list) and IRF-OPS-045 (resolver-audit gap on path-anchored consumers). | Agent | S-2026-05-16-styx-context-refresh | Determine intentional vs regression |
 | IRF-OPS-094 | P3 | **Codify UTC-cron + RemoteTrigger JSON-nesting rule — recommended by /insights 2026-06-03, never landed.** The 06-03 report's claude_md_additions included "All cron schedules must use UTC, not local time. All RemoteTrigger/cloud-routine JSON must nest the 'type' field correctly per the schema before submitting" — sourced from real cron-timezone and JSON-nesting retry burns in the analyzed window. Zero hits 2026-06-07 across liturgy, home CLAUDE.md, and reliquary. Decide carrier: reliquary scheduled-tasks reference rule vs hook-enforced validation on CronCreate/RemoteTrigger payloads; then land it. Surfaced by first insights follow-through audit. | Agent | S-2026-06-07-insights-followthrough-hall-monitor | None |
 | IRF-OPS-095 | P3 | **Codify subagent-claims verification rule — friction aged out unrecorded.** /insights 2026-06-03 recommended never trusting subagent claims of tool prohibitions or missing files at face value (verify directly, fall back to direct reads) after a window of subagent-hallucinated constraints. The friction is absent from the 06-07 report (resolved behaviorally) but the rule was never written — memory-is-hypothesis covers recalled state, not live subagent output. Land as a reliquary execution-cluster rule or fold into rules 65-66 verify-per-firing. Surfaced by first insights follow-through audit. | Agent | S-2026-06-07-insights-followthrough-hall-monitor | None |
+| ~~IRF-SYS-251~~ | ~~P3~~ | ~~**`organvm irf` CLI is read-only — the IRF protocol's mandatory write-backs have no tool path.** The protocol requires on-close updates (move completed items to ## Completed, add new rows, update statistics) but the CLI exposes only `list`/`status`/`stats`; every session must hand-edit a ~1MB markdown file, which is exactly the manual-copy surface that produces drift like IRF-SYS-250 and the stale Statistics block (IRF-OPS-091). Fix: add `organvm irf add`/`organvm irf complete` (and a `stats --write` regenerator once the parser fixes land) so write-backs route through tooling; pairs with the parser-fix chain (IRF-OPS-017/SYS-182/OPS-088).~~ — **DONE-603** (2026-06-07): organvm irf add/complete + stats --write shipped with parser remediation (51 dropped rows → 0; letter-suffix IDs, DONE-ref priority cells, 4-cell ledger rows in open/blocked sections, short DONE rows, missing trailing pipes). Engine branch fix/irf-parser-and-writeback. | Agent | S-2026-06-07-irf-sys-251-write-backs | None |
 
 ### Security
 
@@ -311,6 +312,7 @@ The counter file is the single source of truth for the DONE-ID ceiling. The stat
 | IRF-SEC-007 | **P1** | **VACUUM: Theoria scan workflow produces zero signal.** TruffleHog step in `organvm-i-theoria/.github` uses v2 Python package but v3 CLI flags — silently passes with `|| true`. Gitleaks scans its own baseline (3,426 false positives). detect-secrets scans its own output (recursive loop). Entire security scan pipeline is theater. **Action:** Fix TruffleHog v2→v3, add `.gitleaks.toml` allowlist, exclude scan artifacts from detect-secrets. | Agent | S-full-landscape-audit-2026-04-21 | None |
 | IRF-SEC-008 | **P2** | **VACUUM: 30+ repos have Dependabot disabled.** No organization-wide scanning policy. Secret scanning disabled on domus-semper-palingenesis (most sensitive repo). **Action:** Enable Dependabot on all repos with actual dependencies; enable secret scanning org-wide. | Agent | S-full-landscape-audit-2026-04-21 | None |
 | IRF-SEC-009 | **P2** | **VACUUM: No security triage cadence.** Alerts accumulate without resolution — 8 weekly secrets alerts ran for 6 weeks, 6 Dependabot alerts sat open for 3+ weeks. No SLO for security alert response. **Action:** Establish weekly security triage ritual; implement SLOs (<24h critical, <7d medium). | Agent | S-full-landscape-audit-2026-04-21 | None |
+| IRF-SEC-018 | P1 | **Rotation review: live Google API key echoed in plaintext in antigravity transcript** (brain session 1ffd24d5, GEMINI_API_KEY export in shell command; same arc used allow-secret bypasses on a Notion plan + ai-factory.ts). Rotate the key, scrub the transcript copies (incl. praxis-perpetua/sessions/2026-06-07-token-timer-antigravity-1ffd24d5.jsonl), re-audit allow-secret uses. | Human | S-2026-06-07-irf-parser-and-writeback | None |
 
 ### S-2026-05-23-opencode-plan-parity Discovered Items (2026-05-23)
 
@@ -539,6 +541,7 @@ Verified on disk 2026-03-20:
 | ~~IRF-SYS-021~~ | ~~P1~~ | ~~Apply IRF-SYS-016 supply chain governance to `the-actual-news` as concrete instance — add `dependency_management` section to seed.yaml, add CI/CD & Dependency Management section to CLAUDE.md, create standing GitHub issue for dependency health, update repo-registry.json with `last_maintained: 2026-03-23` and `dependabot_grouping: true`~~ — **DONE 2026-05-29** (supply-chain governance applied, but the **posture inverted**: the maintainer deliberately removed Dependabot grouping (`c30b204`), so the-actual-news now uses **manual** dependency management — Dependabot **disabled**, security alerts only. `dependency_management {strategy: manual, dependabot: disabled, security_alerts: enabled}` declared in seed.yaml + CLAUDE.md via the-actual-news#33; `.github/SECURITY.md` posture via #29. The `dependabot_grouping: true` instruction above is **obsolete** — superseded by the manual posture. Resolves the stale claim in DONE-186. Tracked: the-actual-news#28.) | Agent | N/A vacuum audit (DONE-186) | Completed 2026-05-29 |
 | IRF-SYS-022 | P2 | Update omega evidence map (#1 soak, #3 autonomous operation) with dependency maintenance evidence — Dependabot grouping deployment across 3 repos, breaking change detection protocol (release-drafter v7 token fix), and stale PR cleanup cadence are all evidence of system health posture that the omega evidence map doesn't capture | Agent | N/A vacuum audit (DONE-186) | None |
 | IRF-SYS-023 | **P1** | **DONE ID collision — IRF numbering integrity crisis.** Parallel sessions independently assign DONE-NNN IDs, causing duplicates: DONE-186 appears 7×, DONE-184 5×, DONE-185 4×, each with completely different content. The Completed section is now unreliable as a lookup table. Fix options: (a) retroactive dedup with suffixes (DONE-184a/b/c), (b) adopt session-prefixed IDs (DONE-S34-001), (c) add `organvm irf done --next` CLI that atomically assigns the next available ID. Current workaround: grep by content, not by ID. Source: S34 hall-monitor audit. | Agent | S34 hall-monitor audit | None |
+| IRF-SYS-255 | P2 | **`organvm session export` cannot index Antigravity-CLI brain sessions** — handoff brief cited session `e1ba01a2` which lives at `~/.local/share/gemini/antigravity-cli/brain/<id>/` but `session export` returns 'Session not found'; this session had to export the transcript manually to praxis-perpetua/sessions/. Fix: teach the session module the antigravity brain store (transcript_full.jsonl under .system_generated/logs/). | Agent | S-2026-06-07-irf-parser-and-writeback | None |
 
 ---
 
@@ -1930,8 +1933,8 @@ These are not discrete tasks but organizing principles that cross-cut the entire
 | DONE-314 | **IRF-APP-003 advanced for `public-record-data-scrapper`.** Implemented production reliability hardening for `ucc-mca-api`: `npm start` now runs the bundled `dist/server.cjs`, telemetry schema drift is repaired by `013_ingestion_telemetry_available_strategies.sql`, and startup hydration is bounded/optionally skippable via env. Created GH#230 because concordance’s legacy GH#273 reference was stale/nonexistent. Remaining open work stays under IRF-APP-003: deploy to Render, apply migration 013, verify boot, and decide worker bundling parity. Session-close audit also raised IRF-SYS-044 / GH#70 for hanging `organvm session review` and `organvm session plans` commands in this repo. | S-2026-04-02 ucc-mca-api hardening | 2026-04-02 |
 | DONE-315 | **72-hour reconciliation instrument repaired and re-run.** `scripts/reconcile-72h.py` now filters by actual prompt timestamp for the fixed Mar 29-31 window, pools commits across tracked workspaces, deduplicates repeated prompts by normalized hash, separates steering/noise from outcome-bearing work, distinguishes ABSORBED vs UNRESOLVED hanging populations, redacts credential-like material in report summaries, and ships regression coverage in `tests/test_reconcile_72h.py`. The regenerated report (`docs/reconciliation-72h.md`) now reports 352 raw prompts, 49 duplicates collapsed, 159 commits in-window, 102 DELIVERED / 34 PARTIAL / 4 STEERING / 17 ABSORBED / 116 UNRESOLVED / 6 DEFERRED. Action ledger + fieldwork records were emitted in-repo. Commit `71dabd7`. | RECON72H / S52 reconciliation refinement | 2026-04-02 |
 | DONE-328 | **Logos Documentation Layer Implementation.** Formalized the Required Relationship between Nature and Counterpart. Added Amendment K to Constitution, LEX-XI to rules, Document 14 to standards. Updated organvm-engine with Logos section injection and symmetry scoring. Scaffolded organvm-engine Logos layer. | S-2026-04-02-Brahma | 2026-04-02 |
+| DONE-603 | **IRF-SYS-251 closed:** organvm irf add/complete + stats --write shipped with parser remediation (51 dropped rows → 0; letter-suffix IDs, DONE-ref priority cells, 4-cell ledger rows in open/blocked sections, short DONE rows, missing trailing pipes). Engine branch fix/irf-parser-and-writeback. | S-2026-06-07-irf-parser-and-writeback | 2026-06-07 |
 | ~~DONE-126~~ | *(Superseded by DONE-134→140 — DWV-S1 logged Avditor Mvndi work in granular detail)* | — | — |
-| IRF-SYS-251 | **`organvm irf` CLI is read-only — the IRF protocol's mandatory write-backs have no tool path.** The protocol requires on-close updates (move completed items to ## Completed, add new rows, update statistics) but the CLI exposes only `list`/`status`/`stats`; every session must hand-edit a ~1MB markdown file, which is exactly the manual-copy surface that produces drift like IRF-SYS-250 and the stale Statistics block (IRF-OPS-091). Fix: add `organvm irf add`/`organvm irf complete` (and a `stats --write` regenerator once the parser fixes land) so write-backs route through tooling; pairs with the parser-fix chain (IRF-OPS-017/SYS-182/OPS-088). | S-2026-06-07-irf-sys-251-write-backs | 2026-06-07 |
 
 ---
 
@@ -1966,78 +1969,74 @@ These are not discrete tasks but organizing principles that cross-cut the entire
 
 ## Statistics
 
+<!-- AUTOGEN: regenerate via `organvm irf stats --write` — do not hand-edit (derive-don't-copy, IRF-OPS-091) -->
+
 **Last updated:** 2026-06-07
 
 | Metric | Value |
 |--------|-------|
-| Total Items | 1701 |
-| Open Items | 886 |
-| Completed Items | 809 |
-| Blocked Items | 0 |
+| Total Items | 1370 |
+| Open Items | 652 |
+| Completed Items | 710 |
+| Blocked Items | 2 |
 | Archived Items | 6 |
-| Completion Rate | 47.6% |
+| Completion Rate | 51.8% |
 
 ### Items by Priority
 
 | Priority | Count |
 |----------|-------|
-| P0 | 63 |
-| P1 | 430 |
-| P2 | 488 |
-| P3 | 134 |
-| P4 | 6 |
+| P0 | 50 |
+| P1 | 360 |
+| P2 | 388 |
+| P3 | 68 |
+| P4 | 2 |
 
 ### Items by Domain
 
 | Domain | Count |
 |--------|-------|
-| DONE | 571 |
-| SYS | 256 |
-| APP | 88 |
-| OPS | 86 |
-| PRT | 81 |
+| DONE | 493 |
+| SYS | 180 |
+| APP | 79 |
 | RES | 72 |
-| OSS | 67 |
-| DOM | 56 |
-| III | 55 |
-| CND | 50 |
+| OSS | 56 |
+| DOM | 47 |
+| PRT | 47 |
+| VAC | 43 |
 | CCE | 42 |
-| INST | 29 |
-| MON | 19 |
-| CRP | 19 |
+| III | 42 |
+| CND | 34 |
+| OPS | 34 |
 | VOX | 19 |
-| AOR | 19 |
-| SEC | 16 |
-| DOC | 15 |
+| CRP | 14 |
+| MON | 13 |
 | LIQ | 12 |
-| HRM | 10 |
+| DOC | 11 |
+| SEC | 11 |
 | ATN | 10 |
+| HRM | 10 |
 | PROC | 10 |
 | SGO | 8 |
 | OBJ | 7 |
-| IDX | 6 |
-| DSF | 6 |
-| LOG | 6 |
-| GEN | 6 |
+| SKL | 7 |
 | ARC | 6 |
-| SKL | 5 |
+| DSF | 6 |
+| GEN | 6 |
+| IDX | 6 |
 | GRC | 5 |
 | KOI | 5 |
-| THE | 4 |
-| DST | 4 |
-| TAX | 3 |
-| PSP | 3 |
-| PSG | 3 |
+| LOG | 5 |
 | IRA | 3 |
+| PSG | 3 |
+| PSP | 3 |
+| TAX | 3 |
 | VER | 3 |
-| VIG | 2 |
-| TRV | 2 |
-| TST | 2 |
-| KER | 2 |
 | BLK | 2 |
 | DWV | 2 |
+| KER | 2 |
+| THE | 2 |
+| TRV | 2 |
+| TST | 2 |
+| VIG | 2 |
 | MET | 1 |
-| VIS | 1 |
-| PHL | 1 |
-| DIV | 1 |
-
