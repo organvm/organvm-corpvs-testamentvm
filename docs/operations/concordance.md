@@ -143,6 +143,12 @@ Universal work registry. 26 domain prefixes:
 
 *191 additional IRF-SYS items (SYS-046 through SYS-194 + SYS-198+) in full IRF — this concordance section is curated, not exhaustive (per known undercounting in IRF-SYS-045 and curation precedent in IRF-DOM footer below).*
 
+#### IRF-OPS Items (Operations)
+
+| ID | Description | Priority | Refs |
+|----|-------------|----------|------|
+| IRF-OPS-093 | Session export persistence vacuum — `organvm session export` can write durable-looking closeout markdown into non-git workspace paths | P2 | GH#429 |
+
 #### IRF-DOM Items (Domus Infrastructure, S29+)
 
 | ID | Description | Priority | Refs |
