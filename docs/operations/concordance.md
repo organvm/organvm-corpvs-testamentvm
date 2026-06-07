@@ -239,6 +239,12 @@ Universal work registry. 26 domain prefixes:
 | IRF-CCE-038 | Cross-repo commercial awareness (CCE ↔ application-pipeline) | P2 | GH#23 |
 | IRF-CCE-039 | Implementation plan not derived from commercial spec | P2 | GH#24 |
 
+#### IRF-III Items (Commerce / Product Launch)
+
+| ID | Description | Priority | Refs |
+|----|-------------|----------|------|
+| IRF-III-059 | the-actual-news canonical launch cutover vacuum: custom domain, public identity, hosted provider URLs, and strict deployed launch proof | P1 | `a-organvm/organvm-corpvs-testamentvm#21`, `a-organvm/the-actual-news` `.codex/plans/2026-06-07-actual-news-persistence-audit.md` |
+
 #### Hermeneus API Routes (S28, 2026-03-21)
 
 | Route | Method | Auth | Purpose |
