@@ -1439,11 +1439,15 @@ These are not discrete tasks but organizing principles that cross-cut the entire
 
 | ID | Priority | Action | Owner | Source | Blocker |
 |----|----------|--------|-------|--------|---------|
-| IRF-VAC-010a | P0 | Resolve N/A readouts for 24h and 7d delta in system density metrics (GEMINI.md/AGENTS.md). Investigate organvm density pulse script. | Agent | S-2026-06-08 vacuum audit | None |
+
 
 ---
 
 ## Completed (from 22-session cataloguing, 2026-03-20)
+
+| ID | Title |
+|----|-------|
+| IRF-VAC-010a | **DONE-0608** (2026-06-08): Resolve N/A readouts for 24h and 7d delta in system density metrics (GEMINI.md/AGENTS.md). Investigate organvm density pulse script. |
 
 | ID | What | Session | Date |
 |----|----------|---------|------|
@@ -1983,9 +1987,9 @@ These are not discrete tasks but organizing principles that cross-cut the entire
 
 | Metric | Value |
 |--------|-------|
-| Total Items | 1761 |
+| Total Items | 1764 |
 | Open Items | 928 |
-| Completed Items | 825 |
+| Completed Items | 828 |
 | Blocked Items | 2 |
 | Archived Items | 6 |
 | Completion Rate | 46.9% |
@@ -1996,7 +2000,7 @@ These are not discrete tasks but organizing principles that cross-cut the entire
 |----------|-------|
 | P0 | 66 |
 | P1 | 453 |
-| P2 | 508 |
+| P2 | 509 |
 | P3 | 137 |
 | P4 | 6 |
 
@@ -2004,17 +2008,17 @@ These are not discrete tasks but organizing principles that cross-cut the entire
 
 | Domain | Count |
 |--------|-------|
-| DONE | 576 |
+| DONE | 577 |
 | SYS | 262 |
 | APP | 88 |
-| OPS | 87 |
+| OPS | 88 |
 | PRT | 81 |
 | RES | 72 |
 | OSS | 67 |
 | DOM | 57 |
 | III | 55 |
 | CND | 50 |
-| VAC | 43 |
+| VAC | 44 |
 | CCE | 42 |
 | INST | 29 |
 | AOR | 19 |
@@ -2866,6 +2870,7 @@ Remaining open work lives under IRF-OPS-080 (#375), not in these plans. | S-2026
 | IRF-SEC-016 | **P1** | **Post-revocation git-history disposition for the burned Gmail app-pw literal — corpvs (PUBLIC) and domus-genoma (private) histories both retain it; HEADs are clean.** Hall-monitor 2026-06-06 found redaction commit `b08fb35` was incomplete (1 of 3 files): the literal was live on PUBLIC corpvs origin/main in `data/prompt-registry/DISPATCH-QUEUE.md` + `SESSION-CONTINUATION-PROMPTS.md`; completed same-day in `3423079` (HEAD now clean, verified 0 credential-shaped strings). Same literal existed in chezmoi-source memory `project_dotfiles_audit_2026-04-17.md` — scrubbed in domus capture `23b04754` (note: source held the literal while runtime had been scrubbed; an apply briefly reversed the redaction before a masked-scan caught it — direction-verify EVERY chezmoi apply/add on credential-adjacent files). Memory `reference_gmail_auth_multi_path.md` records revocation 2026-06-06 (old `gmail-app-pw-033526` revoked; successor provisioned at `op://Private/gmail-app-pw-2026-06-06`). Remaining: (a) Human — live-verify revocation at myaccount.google.com/apppasswords (closes IRF-SEC-005); (b) Conductor — decide history disposition: filter-repo scrub of corpvs public history vs accept-burned (credential revoked ⇒ historical exposure defanged; scrub is invasive on a 400+-PR public repo). **UPDATE 2026-06-07 (S-64cf09c5, DONE-594):** domus history inventory expanded — literals persisted in domus-genoma source until today's `12018005`+`d073b057` (8 plan files incl. archive copies and 2 never-scrubbed plans; "domus `23b04754`" was NOT the complete domus HEAD fix). Disposition decision (b) unchanged in kind; domus history now contains strictly more literal-bearing commits than previously inventoried. Domus is PRIVATE, credential recorded revoked — same accept-burned-vs-scrub calculus applies. | Human | S-2026-06-06-lifecycle-guardian hall-monitor: corpvs inspector grep at HEAD/origin (count 1→0), masked 4×4-shape scans, domus capture pre-commit gitleaks pass. | (a) browser login; (b) conductor decision |
 | IRF-OPS-090 | **P2** | **claude-runtime-state has no auto-persist loop — whitelisted soul classes accumulate untracked.** Hall-monitor found 476 non-ignored untracked artifacts (366 tldrs, 99 plans, 5 memory atoms — incl. 3 atoms referenced by already-edited MEMORY.md hubs = dangling index pointers on origin). Swept this session (commits `5670c67`/`a494f91`/`8b51c46`/`2a871c6`, repo now 0 dirty / 0-0 parity) but nothing prevents recurrence — the .gitignore whitelist permits `projects/*/{memory,tldrs}` + `plans/` yet no hook/cron commits them. Fix: SessionEnd or scheduled auto-commit+push for the whitelisted classes (route through the existing scheduled-tasks surface, not a new mechanism). Pairs with IRF-SYS-248. | Agent | S-2026-06-06-lifecycle-guardian hall-monitor inspector A (categorized all 493 untracked; 17 ignored caches). | None |
 | IRF-OPS-092 | **P3** | **Satellite working-tree hygiene triage — the-actual-news / public-record-data-scrapper / sovereign-systems--elevate-align carry uncommitted local-only state.** (a) AGENTS/CLAUDE/GEMINI.md 'Last synced' regen churn uncommitted in all three — establish whether autogen sync outputs should auto-commit via the owning loop or be restored; (b) elevate-align: 9 untracked `.claude/sessions/` dirs (2026-05-16..18) loose in the working tree — preserve-commit or route to the canonical session-archive surface; (c) elevate-align containment-board worktree holds 3 staged-but-uncommitted source mods vs PR #218 head `75f37ed` — verify intent. Already recovered this session: the-actual-news 5 orphaned governance commits (origin branch deleted on PR #40 merge) pushed to `wip/preserve-2026-06-02-actual-news-governance`. | Agent | S-2026-06-06-lifecycle-guardian satellites inspector (full git-state capture of 5 checkouts + 13 worktrees). | None |
+| ~~IRF-OPS-097~~ | ~~P2~~ | ~~Dynamic Quota State implementation for antigravity using wrapper scripts under chezmoi dotfiles.~~ — **DONE-605** (2026-06-08): Implemented dynamic quota state via chezmoi wrapper script executable_antigravity.tmpl and model_quota.json. | Agent | S-02326725-bbb4-4525-8f36-0d7b3c350626 | None |
 
 **IRF-OPS-092 UPDATE (2026-06-07 — agentic-titan included):** A follow-on hall-monitor audit found the same generated instruction-context vacuum in `/Users/4jp/Code/organvm/agentic-titan`: `AGENTS.md`, `CLAUDE.md`, and `GEMINI.md` were local-only on stale branch `fix/local-trainer-path-matching-and-type-annotations` whose upstream was gone. The bytes were not dropped and were not committed onto the stale branch as source-of-truth; they were transplanted to a main-based preservation branch and pushed to `origin/codex/context-refresh-preserve-2026-06-07` at `c9a9d088e434689c5c7b7d9a02f719bb6ec451b9` (3 generated files, 35 insertions, 233 deletions). GitHub issue `a-organvm/agentic-titan#87` now tracks the required decision: merge the generated refresh, regenerate through the owning context-sync pipeline, or restore if the generator output is wrong. No architecture/capability change was made in `agentic-titan`; this is persistence and disposition tracking for generated context drift.
 
@@ -2933,3 +2938,4 @@ Remaining open work lives under IRF-OPS-080 (#375), not in these plans. | S-2026
 ### S-2026-06-07-vacuum-remediation — DONE-602 (2026-06-07)
 
 | DONE-602 | SYS | **Conductor fleet registry populated.** Registered the 5 bench agents (Claude, Codex, OpenCode, Gemini, Jules) in /Users/4jp/Code/organvm/fleet.yaml with cognitive class, phase affinity, and sensitivity constraints. Verified python3 -m conductor fleet status now returns the active fleet. Resolves P0 conductor-cold vacuum (IRF-SYS-201). | S-2026-06-07-vacuum-remediation | 2026-06-07 |
+| DONE-605 | **IRF-OPS-097 closed:** Implemented dynamic quota state via chezmoi wrapper script executable_antigravity.tmpl and model_quota.json. | S-02326725-bbb4-4525-8f36-0d7b3c350626 | 2026-06-08 |

@@ -18,7 +18,7 @@
 ### Governance
 - *Standard ORGANVM governance applies*
 
-*Last synced: 2026-06-04T11:30:37Z*
+*Last synced: 2026-06-08T14:50:39Z*
 
 ## Active Handoff Protocol
 
@@ -45,7 +45,7 @@ Transcripts are on-demand (never committed):
 
 ## System Library
 
-Plans: 269 indexed | Chains: 5 available | SOPs: 8 active
+Plans: 269 indexed | Chains: 5 available | SOPs: 18 active
 Discover: `organvm plans search <query>` | `organvm chains list` | `organvm sop lifecycle`
 Library: `/Users/4jp/Code/organvm/praxis-perpetua/library`
 
@@ -86,28 +86,28 @@ Linked skills: SOP-TRIADIC-REVIEW-PROTOCOL, cicd-resilience-and-recovery, contin
 
 ## Task Queue (from pipeline)
 
-**220** pending tasks | Last pipeline: unknown
+**302** pending tasks | Last pipeline: unknown
 
-- `fc2ec4545206` 1 (prior session) — Identified ci.yml `disabled_manually` + matrix-check-name mismatch [graphql, node, terraform]
-- `09b6a97a46cc` 2 (loop turn 1) — Discovered parallel session's #611 supersedes my `--ci` partial fix [graphql, node, terraform]
-- `99fffd720e2d` 3 (sleep) — ScheduleWakeup 1500s; conductor signed off [graphql, node, terraform]
-- `b345836f26f5` 4 (this turn) — Corrected framing: merged-to-origin is completion. PUT ruleset to disabled, REST-merged #611+#609+#610 i [graphql, node, terraform]
-- `e374137b1279` Session Close-Out — 2026-05-17 (IRF-DOM-048 engine fix execution) [pytest]
-- `cf0e6a3618d5` Vacuum Field Burn — 2026-04-22 Continuation (COMPLETED) [astro, chezmoi, python]
-- `32bbf53c387b` Contains a specific, concrete, verifiable build/create/implement action [python]
-- `0cf55989523a` Not a conversational fragment [python]
-- ... and 212 more
+- `fa37b60572b2` SOP — triangulation — organvm/praxis-perpetua/standards/SOP--triangulation-protocol.md` (10.5KB) [bash, chezmoi, python]
+- `7a573ac44e3f` Per-item triangle log — organvm/sovereign-systems--elevate-align/docs/triangle/IRF-III-033.md` (5.9KB) [bash, chezmoi, python]
+- `01e226e603fd` IRF backfill (3 items) — meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md [bash, chezmoi, python]
+- `735993189de8` Feedback memory — ~/.claude/projects/.../memory/feedback_triangulation_protocol.md` (3.3KB) [bash, chezmoi, python]
+- `d9a5369570ec` Plan file — ~/.claude/plans/atomic-concurrent-matsumoto.md` (20.6KB) [bash, chezmoi, python]
+- `5a1162c58b12` Conv 2 verdict text — ~/Workspace/2026-04-29-155019-...txt [bash, chezmoi, python]
+- `362f2e42321d` Conv 2 source plan — ~/.claude/plans/2026-04-29-repo-triage.md` (11.3KB) [bash, chezmoi, python]
+- `9a7aa0d8ae60` DONE-ID counter — meta-organvm/organvm-corpvs-testamentvm/data/done-id-counter.json [bash, chezmoi, python]
+- ... and 294 more
 
-Cross-organ links: 324 | Top tags: `python`, `mcp`, `chezmoi`, `bash`, `pytest`
+Cross-organ links: 1343 | Top tags: `python`, `chezmoi`, `mcp`, `bash`, `pytest`
 
 Run: `organvm atoms pipeline --write && organvm atoms fanout --write`
 
 
 ## System Density (auto-generated)
 
-AMMOI: 25% | Edges: 0 | Tensions: 0 | Clusters: 0 | Adv: 27 | Events(24h): 38770
+AMMOI: 25% | Edges: 0 | Tensions: 0 | Clusters: 0 | Adv: 27 | Events(24h): 41325
 Structure: 8 organs / 149 repos / 1654 components (depth 17) | Inference: 0% | Organs: META-ORGANVM:63%, ORGAN-I:53%, ORGAN-II:48%, ORGAN-III:55% +5 more
-Last pulse: 2026-06-04T11:30:28 | Δ24h: n/a | Δ7d: n/a
+Last pulse: 2026-06-08T14:50:27 | Δ24h: 0.0% | Δ7d: n/a
 
 
 ## Dialect Identity (Trivium)
@@ -139,6 +139,7 @@ Nature demands a documentation counterpart. This formation maintains its narrati
 *Compliance: Formation is currently void.*
 
 <!-- ORGANVM:AUTO:END -->
+
 
 
 
