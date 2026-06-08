@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08T12:31:21.271561+00:00",
+  "generated": "2026-06-08T14:10:33.261987+00:00",
   "dry_run": false,
   "filters": {
     "agent": null,
@@ -34,11 +34,11 @@
     "tasks": 18448,
     "prompts": 6389,
     "noise_skipped": 336,
-    "sessions": 1327,
+    "sessions": 1329,
     "threads": 161,
     "links": 83729,
-    "reconcile_completed": 335,
-    "reconcile_partial": 21,
+    "reconcile_completed": 332,
+    "reconcile_partial": 22,
     "errors": 0
   }
 }
