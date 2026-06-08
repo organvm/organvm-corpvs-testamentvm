@@ -1,10 +1,10 @@
 {
-  "next_id": 602,
-  "last_claimed_by": "S-2026-06-07-closeout-and-vacuum-discovery",
-  "last_claimed_at": "2026-06-07",
+  "next_id": 605,
+  "last_claimed_by": "S-2026-06-08-codex-hygiene",
+  "last_claimed_at": "2026-06-08",
   "claimed_range": [
-    601,
-    601
+    604,
+    604
   ],
-  "note": "S-2026-06-07-closeout-and-vacuum-discovery claims DONE-601: merge codex/session-review-2026-06-07 into master (technical debt, security fixes, WS route, act() warnings), resolve 123 pre-existing lint errors (require-await, no-explicit-any, no-unused-vars, no-unsafe-assignment, no-base-to-string), create feature implementation worktree."
+  "note": "S-2026-06-08-codex-hygiene claims DONE-604: closed IRF-OPS-096, codex startup hygiene, healthcheck curl accept header, skills budget limit, turnstile invalid YAML."
 }
