@@ -1435,6 +1435,12 @@ These are not discrete tasks but organizing principles that cross-cut the entire
 | IRF-VAC-009g | P2 | Logos VACUUM for organvm-corpvs-testamentvm — planning corpus lacks `docs/logos/` counterpart. Symmetry score 0.0 | Agent | Handoff audit | None |
 | IRF-VAC-009h | P3 | Meta-handoff protocol — no exit interview for when the documentation format itself evolves (template changes, section additions/removals) | Agent | Handoff audit | Design decision |
 
+### System Density Metrics (Vacuum 10)
+
+| ID | Priority | Action | Owner | Source | Blocker |
+|----|----------|--------|-------|--------|---------|
+| IRF-VAC-010a | P0 | Resolve N/A readouts for 24h and 7d delta in system density metrics (GEMINI.md/AGENTS.md). Investigate organvm density pulse script. | Agent | S-2026-06-08 vacuum audit | None |
+
 ---
 
 ## Completed (from 22-session cataloguing, 2026-03-20)
