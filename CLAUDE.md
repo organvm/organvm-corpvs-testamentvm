@@ -364,7 +364,7 @@ Linked skills: SOP-TRIADIC-REVIEW-PROTOCOL, cicd-resilience-and-recovery, contin
 - `735993189de8` Feedback memory — ~/.claude/projects/.../memory/feedback_triangulation_protocol.md` (3.3KB) [bash, chezmoi, python]
 - `d9a5369570ec` Plan file — ~/.claude/plans/atomic-concurrent-matsumoto.md` (20.6KB) [bash, chezmoi, python]
 - `5a1162c58b12` Conv 2 verdict text — ~/Workspace/2026-04-29-155019-...txt [bash, chezmoi, python]
-- `362f2e42321d` Conv 2 source plan — ~/.claude/plans/2026-04-29-repo-triage.md` (11.3KB) [bash, chezmoi, python]
+- `362f2e42321d` Conv 2 source plan — ~/.claude/plans/2026-04-149-repo-triage.md` (11.3KB) [bash, chezmoi, python]
 - `9a7aa0d8ae60` DONE-ID counter — meta-organvm/organvm-corpvs-testamentvm/data/done-id-counter.json [bash, chezmoi, python]
 - ... and 294 more
 
