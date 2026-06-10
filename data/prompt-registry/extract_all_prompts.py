@@ -17,11 +17,13 @@ PROJECTS_DIR = Path.home() / ".claude" / "projects"
 CHATGPT_EXPORT = Path.home() / "Workspace/meta-organvm/intake/data-2026-02-16-00-20-00-batch-0000/conversations.json"
 CODEX_HISTORY = Path.home() / ".codex" / "history.jsonl"
 SPECSTORY_DIRS = [
-    Path.home() / "Workspace/organvm-i-theoria/linguistic-atomization-framework/.specstory",
-    Path.home() / "Workspace/organvm-i-theoria/cognitive-archaelogy-tribunal/.config/.specstory",
-    Path.home() / "Workspace/organvm-i-theoria/cognitive-archaelogy-tribunal/.specstory",
-    Path.home() / "Workspace/organvm-i-theoria/cognitive-archaelogy-tribunal/.history/.specstory",
-    Path.home() / "Workspace/organvm-iii-ergon/public-record-data-scrapper/.specstory",
+    # Post-cutover homes (2026-06-05 cartridge migration); ~/Code symlinks
+    # into the cartridge, so these survive a cartridge relocation.
+    Path.home() / "Code/organvm-i-theoria/linguistic-atomization-framework/.specstory",
+    Path.home() / "Code/organvm/cognitive-archaelogy-tribunal/.config/.specstory",
+    Path.home() / "Code/organvm/cognitive-archaelogy-tribunal/.specstory",
+    Path.home() / "Code/organvm/cognitive-archaelogy-tribunal/.history/.specstory",
+    Path.home() / "Workspace/limen-work/public-record-data-scrapper/.specstory",
 ]
 CORPUS_SITE_DIR = Path.home() / "Workspace/organvm-i-theoria/conversation-corpus-site"
 ZSH_HISTORY = Path.home() / ".config/zsh/.zsh_history"
