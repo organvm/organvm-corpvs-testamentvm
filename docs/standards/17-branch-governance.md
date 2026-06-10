@@ -145,6 +145,25 @@ Tier override: a repo's `seed.yaml` may declare `branch_governance_tier: <N>` to
 
 Architectural review: any tier promotion or demotion of a repo requires updating `repo-registry.json` AND adding an IRF row (per `10-repository-standards.md`).
 
+### 8.1 Canonical classifier (deterministic — single source of truth)
+
+The tier rules above used to live as **prose** inside each scheduled task's `SKILL.md`. That meant every agent runtime that read a task spec (Claude, opencode, gemini, codex, …) re-derived the classification independently and **diverged**. Observed live on 2026-06-10: two fires of `daily-dependabot-merge` hours apart produced opposite tier distributions (`tier2=28` vs `tier2=0`) on the same PR set — same task, same registry, opposite answers. A prose spec is not a deterministic spec.
+
+**Mandate:** every scheduled task that needs a tier MUST obtain it from the single canonical resolver and consume its output — it MUST NOT re-derive the rules inline. The current implementation is the **`dependabot-tier-classify`** command (deployed to `~/.local/bin/`; chezmoi source `dot_local/bin/executable_dependabot-tier-classify` in `domus-semper-palingenesis`):
+
+```
+printf '%s\n' "$SLUGS[@]" | dependabot-tier-classify --stdin   # one JSON object per slug
+dependabot-tier-classify --self-test                            # validate invariants in pre-flight
+```
+
+Each result object carries `{tier, resolution, matched_org, matched_name, promotion_status, repo_tier, protected, reason}`. A non-zero exit (registry unreadable) MUST abort writes to report-only — never guess a tier without the source of truth.
+
+> **Canonical-home note (open item).** The resolver presently lives in the private `domus` dotfiles while the rules it enforces are defined *here*, in the public corpus. A reader of this standard cannot audit the resolver alongside it. Preferred end-state: the implementation lives in this repo's `scripts/` (public, auditable, CI-testable) with the `~/.local/bin/` entry a thin wrapper. Tracked for the conductor; not yet actioned.
+
+**Org-slug drift it resolves.** Post-consolidation (2026-06-06) content repos were transferred to the `a-organvm` umbrella org; the old organ-org paths now redirect to `a-organvm/<repo>`. But `repo-registry.json` still keys repos by their *organ* org (its `org` field is organ-membership metadata, not a live GitHub locator). The resolver matches: (1) exact `org/name`, **case-insensitively** (the registry stores some owners lowercased, e.g. `4444j99/portfolio`, while GitHub reports `4444J99` — a case-sensitive match silently misses these and is a classification bug); (2) for an umbrella owner (`a-organvm`, `theoria`), by repo **name** *only when unambiguous* across the registry — colliding names (`.github` ×8, `hokage-chess` ×2) fall through; (3) otherwise unresolved → Tier 1.
+
+**Tier-1-preserving invariant (safety-critical).** Ambiguous or unresolved repos default to Tier 1, and a `protected` flag is raised for any repo whose registry `repo_tier ∈ {flagship, infrastructure, sovereign}` — keeping it report-only regardless of promotion status. Resolution may only ever *raise* caution, never lower it; `--self-test` proves this against the live registry.
+
 ---
 
 ## 9. Cross-Repo Coordination
@@ -158,9 +177,11 @@ Architectural review: any tier promotion or demotion of a repo requires updating
 
 ## 10. The Scheduled-Task Contract (HARD CONSTRAINTS)
 
-The following constraints apply to every scheduled task that writes to GitHub state — `daily-pr-promote-and-triage`, `daily-pr-execute-by-tier`, `daily-worktree-triage-and-cleanup`, `daily-push-feature-branches`, and any future task in this class.
+The following constraints apply to every scheduled task that writes to GitHub state — `daily-pr-promote-and-triage`, `daily-pr-execute-by-tier`, `daily-worktree-triage-and-cleanup`, `daily-push-feature-branches`, `daily-dependabot-merge`, and any future task in this class.
 
 Violation of any constraint below is a system bug, not a feature decision. Scheduled tasks MUST degrade to report-only if they cannot satisfy the constraints.
+
+**Classification mandate (determinism).** Tier classification MUST be obtained from the single canonical resolver (§8.1, currently the `dependabot-tier-classify` command); a task MUST NOT re-derive the tier rules inline. This is what makes a fire reproducible across agent runtimes — see the 2026-06-10 divergence documented in §8.1.
 
 ### Hard NEVERs (no override, no exception)
 
@@ -174,11 +195,15 @@ Violation of any constraint below is a system bug, not a feature decision. Sched
 
 ### Per-run caps (stagger per Universal Rule #26)
 
+The binding per-task cap lives **here**, not in a task's own `SKILL.md` — so a task cannot silently raise its own ceiling. (This was the failure mode behind `daily-dependabot-merge` citing "8" while this section said "3"; the task spec has since been re-aligned to the value below.)
+
 - **Max 5** draft→ready promotions per task run
 - **Max 3** auto-merges performed per task run
 - **Max 3** metadata comments posted per task run
 - **Minimum 60 seconds** between consecutive writes targeting different repos
 - **Minimum 30 seconds** between consecutive writes targeting the same repo
+
+Where the harness blocks the literal inter-write `sleep` (e.g. a foreground-sleep guard), the stagger's *intent* (no clustered burst against GitHub's secondary rate limit) is satisfied by natural inter-call spacing; a task MUST log the substitution and MUST NOT chain sleeps to evade the guard.
 
 ### Mandatory audit trail
 
