@@ -1,10 +1,10 @@
 {
-  "next_id": 605,
-  "last_claimed_by": "S-2026-06-08-codex-hygiene",
-  "last_claimed_at": "2026-06-08",
+  "next_id": 606,
+  "last_claimed_by": "S-2026-06-11-limen-fix",
+  "last_claimed_at": "2026-06-11",
   "claimed_range": [
-    604,
-    604
+    605,
+    605
   ],
-  "note": "S-2026-06-08-codex-hygiene claims DONE-604: closed IRF-OPS-096, codex startup hygiene, healthcheck curl accept header, skills budget limit, turnstile invalid YAML."
+  "note": "S-2026-06-11-limen-fix claims DONE-605: Fix limen dispatch interactive hang and harvest diff mapping."
 }
