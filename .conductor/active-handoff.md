@@ -1,36 +1,26 @@
-# Agent Handoff: Hall-Monitor Pass & Codex Diagnostics
+# Agent Handoff: Prompt-Registry Re-Ingestion (staged, not yet run)
 
-**From:** Session bd2b2d98-969f-4b93-9d14-e44642925d1f | **Date:** 2026-06-08 | **Phase:** Verification / Handoff
+**From:** Session a80496a1 (Claude, session-meta scope) | **Date:** 2026-06-10 | **Phase:** BUILD staged — interrupted by closeout before the extract run
+
+**Full campaign handoff (fleet state, spend limit, resume map):** `~/bound/findings/2026-06-10-cross-agent-handoff.md` (bound @ `47331cc`). This file covers only the corpus-repo lane.
 
 ## Current State
-- The `organvm atoms pipeline` and `fanout` have completed successfully.
-- `INST-INDEX-RERUM-FACIENDARUM.md` statistics have been regenerated and verified; the historical ledgers are fully intact, confirming that our previous structural fix to the markdown table successfully prevented Python parser data-loss (no clobbering).
-- Code changes representing the pipeline output have been committed (`4a4206a` "chore(atoms): update pipeline manifest and atomized tasks") and pushed to `origin/main`. `(local):(remote) = {1:1}` is maintained.
+- Branch `fix/ingestion-source-paths` @ `3c9c68a`, pushed, in sync. Contains: SPECSTORY_DIRS repointed to 5 verified post-cutover homes + `snapshot_status_carryover.py`.
+- `data/prompt-registry/status-carryover.json` written (3.8MB, 23,710 content-keyed entries; gitignored). Status counts at snapshot: OPEN 14898 / DONE 6361 / ARCHIVED 2012 / CLOSED-NAV 1316 / CLOSED-COMMAND 12 (24,599 atoms).
+- Rollback backup intact: `data/prompt-registry/.backup-2026-06-10/` (137MB).
+- **Re-ingestion has NOT run.** Registry stale since 2026-04-22.
+- Jules session `16163121062509222885` dispatched (2026-06-10 ~22:45 ET) to implement `harvest_opencode()` + `harvest_gemini()` in `extract_all_prompts.py` (verified store schemas inline in the envelope; see bound `findings/2026-06-10-{opencode,gemini}-store-schema.md`). Land it before or after the first re-run — the pipeline can re-run cheaply once it lands.
+- Working tree carries OTHER sessions' modifications (AGENTS.md, CLAUDE.md, GEMINI.md, IRF, omega-evidence-map, repo-registry.json) — not this session's; do not sweep-commit.
 
-## Completed Work
-- [x] Restored 877 missing lines of historical session ledgers in the IRF that had been previously clobbered.
-- [x] Isolated the ledgers under a new `## Historical Session Ledgers` header to shield them from the `regenerate_stats_block` parser.
-- [x] Executed the `organvm irf stats --write` tool to confirm that it now behaves perfectly without destructive overwrites.
-- [x] Addressed the `cloudflare-api` login loop by removing the `cloudflare-api` MCP server from the global `codex` configuration via `codex mcp remove cloudflare-api`.
-- [x] Diagnosed the `Invalid Value: 'tools.namespace'. User-defined namespace 'web' collides with an existing tool namespace` error pasted by the user. Root cause: The user is using `codex` with the `browser@openai-bundled` or `build-web-apps@openai-curated` plugins, which define tools with a `web` namespace that now collides with Anthropic's new built-in computer-use and web search tools (`google_search_20241022`). 
-
-## Key Decisions
-| Decision | Rationale |
-|----------|-----------|
-| Placed historical ledgers in their own H2 section rather than inside the `## Statistics` section. | The `organvm_engine.irf.writer.regenerate_stats_block` script inherently destroys everything within the `## Statistics` block until it hits the next H2 header. Giving the ledgers their own H2 prevents clobbering. |
-| Did not modify `codex` plugins directly for the `web` namespace collision. | Instructed the user to either update their `codex` client or temporarily disable the `browser`/`web` plugins manually since `codex` is a third-party managed application wrapper and changing its internal bundles is brittle. |
-
-## Critical Context
-- `INST-INDEX-RERUM-FACIENDARUM.md` (IRF) is the primary authoritative source of truth. N/A vacuums within the IRF act as a mandate: "research it, plan it, log it."
-- **Persistent memory integrity rule:** `(local):(remote) = {1:1}` at all times. If work happens locally, it must be pushed.
-- The `organvm atoms` pipeline runs against the local working copy. We ran it against `main` and pushed the resulting artifacts immediately.
-- There is a `VAC` domain within the IRF explicitly tracking "vacuums".
-
-## Next Actions
-1. Re-evaluate the remaining 37 open items in the `VAC` domain (`organvm irf list --domain VAC --status open`), specifically checking the P0 and P1 priorities.
-2. Complete any pending IRF vacuum tasks and immediately commit/push to maintain the 1:1 rule.
-3. If the user returns with the `codex` `tools.namespace` error persisting despite disabling the browser plugins, investigate their `opencode.json` configuration for potential clashes.
+## Next Actions (SEQUENTIAL — 16GB jetsam machine, never two heavy steps at once)
+1. `python3 data/prompt-registry/extract_all_prompts.py` (full rebuild, wholesale overwrite by design).
+2. `python3 data/prompt-registry/atomize_prompts.py`.
+3. Write + run an apply-carryover script (does not exist yet): join on `"{timestamp}|{sha1(content)}"` against `status-carryover.json`; restore status/produced/priority/priority_score.
+4. **Re-redact (IRF-SEC-005, MANDATORY):** rebuilds re-introduce the burned Gmail app-password from raw transcripts. Patterns live in corpus redaction commits `b08fb35` / `3423079` / `482408f`. grep-verify ZERO literals before committing anything.
+5. Caches: `prioritize_atoms.py` → `generate_work_queue.py` → `route_atoms.py`.
+6. Verify: registry ≥5867 prompts, max timestamp ≈2026-06-10, DONE=6361 / ARCHIVED=2012 preserved. Commit only tracked `.md` derivatives (registry/atoms JSONs are gitignored).
 
 ## Risks & Warnings
-- **Data Loss Risk:** Never modify the `## Statistics` logic or placement without running `organvm irf stats --write` followed by `git diff` to verify you aren't truncating the file.
-- **Background Tasks:** The server restarted, killing all background tasks. If you launch long-running jobs (like `organvm atoms pipeline`), they will need to be executed anew if they didn't finish.
+- `prompt-atoms.json` is a protected file — the rebuild pipeline is the ONLY sanctioned wholesale writer; everything else does targeted edits.
+- If the run dies mid-pipeline, restore from `.backup-2026-06-10/` before retrying.
+- Claude subagent fan-out is unavailable (monthly spend limit hit 2026-06-10); this pipeline is pure-local CPU and unaffected.
