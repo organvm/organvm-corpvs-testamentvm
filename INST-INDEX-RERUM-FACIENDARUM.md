@@ -1452,6 +1452,7 @@ These are not discrete tasks but organizing principles that cross-cut the entire
 | ID | Title |
 |----|-------|
 | VACUUM | **DONE-605** (2026-06-11): Resolved Limen dispatch interactive hang (stdin=DEVNULL) and harvest mapping failures (jules remote list --session regex) to enable full automated lifecycle. |
+| VACUUM | **DONE-606** (2026-06-11): Limen CLI Quality Gates & Orphan Recovery. Formatted codebase with ruff, strictly typed with mypy, tested with pytest. Released 64 orphan claims (cli session IDs) and cleanly re-dispatched them. Pushed clean, linted CLI code to main. |
 | IRF-VAC-010a | **DONE-0608** (2026-06-08): Resolve N/A readouts for 24h and 7d delta in system density metrics (GEMINI.md/AGENTS.md). Investigate organvm density pulse script. |
 
 | ID | What | Session | Date |
