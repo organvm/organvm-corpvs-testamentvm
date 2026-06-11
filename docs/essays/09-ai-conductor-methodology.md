@@ -44,7 +44,7 @@ The human defines what needs to exist and why. This is the most important phase.
 In the ORGANVM system, directives took forms like:
 
 - "Write a 3,000-word README for this repo that positions it as a portfolio piece for grant reviewers. Use the existing code as evidence. Don't invent features that don't exist."
-- "Validate all 62 dependency edges in the registry. Flag any back-edges where ORGAN-III depends on ORGAN-II."
+- "Validate all 63 dependency edges in the registry. Flag any back-edges where ORGAN-III depends on ORGAN-II."
 - "Generate a governance-rules.json that encodes the promotion state machine and dependency constraints we discussed."
 
 Notice what these directives share: they specify the deliverable, the audience, the constraints, and the quality criteria. They don't specify how to write the README or what to put in each section — that's the AI's job. But they tightly constrain the space of acceptable outputs.
@@ -59,7 +59,7 @@ The AI produces volume. A 3,000-word README. A 400-line validation script. A JSO
 
 The key principle of the generation phase is: **let the AI be prolific, then curate.** Don't interrupt generation to correct small errors. Don't micro-manage sentence structure. Let the draft exist, then evaluate it as a whole.
 
-In the ORGANVM system, generation sprints produced extraordinary volume: the Silver Sprint generated ~6,200+ words of README documentation across 149 repositories in a single session. No individual document was perfect, but the structural consistency was high because every generation was governed by the same directive template.
+In the ORGANVM system, generation sprints produced extraordinary volume: the Silver Sprint generated ~6,200+ words of README documentation across 150 repositories in a single session. No individual document was perfect, but the structural consistency was high because every generation was governed by the same directive template.
 
 ### Phase 3: Refinement
 
@@ -87,7 +87,7 @@ The AI-conductor methodology is most effective when:
 
 **3. The deliverables have clear quality criteria.** "3,000+ words, speaks to grant reviewers, references actual code features, no hallucinated capabilities" is a checkable quality spec. The human can evaluate whether the output meets it. Vague criteria ("make it good") produce vague output.
 
-**4. The domain rewards comprehensiveness.** Grant applications, documentation corpora, portfolio sites, and institutional governance all benefit from thoroughness. A system with 149 documented repositories is more credible than one with 10, even if the per-document quality is comparable. The AI-conductor methodology enables comprehensiveness that would be cost-prohibitive for a solo operator.
+**4. The domain rewards comprehensiveness.** Grant applications, documentation corpora, portfolio sites, and institutional governance all benefit from thoroughness. A system with 150 documented repositories is more credible than one with 10, even if the per-document quality is comparable. The AI-conductor methodology enables comprehensiveness that would be cost-prohibitive for a solo operator.
 
 **5. The work is parallelizable.** The AI-conductor model shines when the deliverables are structurally independent — fifty-eight READMEs, twenty-nine essays, ninety-one registry entries. Each can be generated from the same template without waiting for the others. Sequential dependencies (where document B references document A) still require ordering, but the majority of generation work in a documentation-heavy project is embarrassingly parallel. This is where the AI's speed advantage is most dramatic: a human writing 58 READMEs works sequentially, one at a time. An AI-conductor workflow generates them in rapid succession within a single session, constrained only by API rate limits and context window management.
 
@@ -103,7 +103,7 @@ The methodology has failure modes that I've encountered directly. Honesty about 
 
 **3. Strategic positioning.** The AI can write a cover letter for a specific job posting. It cannot decide which jobs to apply for, which framing will resonate with which reviewer, or whether a particular application is strategically worth the effort. In the ORGANVM system, the decision to target Google Creative Lab, Anthropic, and the Knight Foundation — and the specific framing for each — was entirely human-directed.
 
-**4. Sustained context.** AI context windows are finite. A project with 97 repositories, 6,200+ words of documentation, and 62 dependency edges exceeds any single context window. The human serves as the persistent memory layer — carrying context across sessions, noticing when the AI contradicts earlier decisions, and maintaining the system's invariants over time. The MEMORY.md file in this project is literally a human-maintained memory prosthesis for the AI.
+**4. Sustained context.** AI context windows are finite. A project with 97 repositories, 6,200+ words of documentation, and 63 dependency edges exceeds any single context window. The human serves as the persistent memory layer — carrying context across sessions, noticing when the AI contradicts earlier decisions, and maintaining the system's invariants over time. The MEMORY.md file in this project is literally a human-maintained memory prosthesis for the AI.
 
 **5. Social and ethical judgment.** Should you claim that 82 repositories have "active" code when many are primarily documentation? Is it honest to list "revenue_model: subscription" for a product with zero customers? These questions require human judgment about what constitutes honest representation. The VERITAS sprint — where we renamed "PRODUCTION" to "ACTIVE," split the revenue field into model and status, and wrote an honesty essay — was entirely human-initiated in response to credibility concerns that the AI would never have flagged on its own.
 
@@ -169,7 +169,7 @@ Second, sprints create natural review checkpoints. At the end of each sprint, th
 
 Third, sprint names serve as an organizational memory aid. When I need to find when a particular decision was made or why a particular artifact exists, I can search by sprint name. "The revenue field was split during VERITAS" is more navigable than "the revenue field was changed on February 13th."
 
-The sprint model also provides a natural vocabulary for communicating about AI-conductor work to external audiences. Instead of saying "I spent a week generating documentation," I can say "the PROPULSION sprint produced 6,200+ words of README documentation across 149 repositories, followed by the ASCENSION sprint which validated 1,267 links and 62 dependency edges." The sprint structure makes the work legible as a planned, executed, and validated process rather than a chaotic burst of AI generation.
+The sprint model also provides a natural vocabulary for communicating about AI-conductor work to external audiences. Instead of saying "I spent a week generating documentation," I can say "the PROPULSION sprint produced 6,200+ words of README documentation across 150 repositories, followed by the ASCENSION sprint which validated 1,267 links and 63 dependency edges." The sprint structure makes the work legible as a planned, executed, and validated process rather than a chaotic burst of AI generation.
 
 **Naming matters more than you'd think.** I chose Latin-derived sprint names (IGNITION, PROPULSION, VERITAS, OPERATIO) partly for aesthetic reasons and partly because distinctive names are easier to reference than numbered iterations. "Sprint 7" is forgettable; "ALCHEMIA" is memorable and searchable. This is a small thing, but in a system with fourteen sprints across a week, the naming convention paid for itself in cognitive overhead savings.
 

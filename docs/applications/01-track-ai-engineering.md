@@ -1,14 +1,14 @@
 # Track: AI Engineering Roles
 
 **Targets:** Anthropic, OpenAI, Runway, Together AI, Hugging Face, + 2 TBD
-**Evidence:** 149-repo system with automated governance, 2,349 tests across flagship projects, 5 CI/CD governance workflows, ~6K+ words of documentation
+**Evidence:** 150-repo system with automated governance, 2,349 tests across flagship projects, 5 CI/CD governance workflows, ~6K+ words of documentation
 **Core evidence:** ORGAN-IV orchestration + agentic-titan + recursive-engine
 
 ---
 
 ## Framing
 
-"I designed and implemented an eight-organ orchestration system coordinating 149 repos across 8 orgs with automated governance, dependency validation, and health checks."
+"I designed and implemented an eight-organ orchestration system coordinating 150 repos across 8 orgs with automated governance, dependency validation, and health checks."
 
 This positions you as someone who:
 1. **Thinks in systems**, not fragments — orchestrating 100 repos is an architectural challenge
@@ -32,7 +32,7 @@ This positions you as someone who:
 
 **Talking points:**
 - "I built a system where governance rules are data, not code — the system reads governance-rules.json and enforces constraints automatically"
-- "The dependency validation ensures no circular dependencies across 149 repos — the same kind of constraint enforcement that matters in AI safety"
+- "The dependency validation ensures no circular dependencies across 150 repos — the same kind of constraint enforcement that matters in AI safety"
 - "Monthly automated audits with 0 critical alerts demonstrate that governance-first design works at scale"
 
 ### OpenAI — Applied AI Engineer
@@ -67,7 +67,7 @@ This positions you as someone who:
 > [One sentence: a specific metric or mechanism]
 > [Then: how this connects to the role]
 >
-> The eight-organ system I designed coordinates 149 repositories across 8 GitHub organizations. The system includes:
+> The eight-organ system I designed coordinates 150 repositories across 8 GitHub organizations. The system includes:
 >
 > - A machine-readable registry serving as single source of truth for all repos
 > - Automated dependency validation enforcing no circular dependencies and no back-edges
@@ -123,13 +123,13 @@ Key points:
 **Expected questions and how to answer using the system:**
 
 Q: "Tell me about a complex system you've built."
-A: 149 repositories across 8 GitHub organizations, coordinated by a machine-readable registry, automated dependency validation, and a promotion state machine. Walk through the architectural decisions: why 8 organs (domain separation), why a state machine (governance without human bottlenecks), why dependency validation (structural integrity at scale).
+A: 150 repositories across 8 GitHub organizations, coordinated by a machine-readable registry, automated dependency validation, and a promotion state machine. Walk through the architectural decisions: why 8 organs (domain separation), why a state machine (governance without human bottlenecks), why dependency validation (structural integrity at scale).
 
 Q: "How do you handle system failures?"
-A: organ-audit.py runs monthly health checks across all 149 repos. governance-rules.json defines critical vs. warning thresholds. The validate-dependencies workflow blocks merges that would violate constraints. 0 critical alerts since launch.
+A: organ-audit.py runs monthly health checks across all 150 repos. governance-rules.json defines critical vs. warning thresholds. The validate-dependencies workflow blocks merges that would violate constraints. 0 critical alerts since launch.
 
 Q: "How do you test at scale?"
-A: 107+ CI/CD workflows across all code repos. agentic-titan: 1,095 tests across 18 development phases. recursive-engine: 1,254 tests, 85% coverage. platinum-validation.py sweeps the full system against 1,267 audited links and 62 dependency edges.
+A: 107+ CI/CD workflows across all code repos. agentic-titan: 1,095 tests across 18 development phases. recursive-engine: 1,254 tests, 85% coverage. platinum-validation.py sweeps the full system against 1,267 audited links and 63 dependency edges.
 
 Q: "How do you communicate technical decisions?"
 A: ~404K+ words of documentation across 100 repos. 42 published essays. orchestration-system-v2.md documents governance rationale. Every README is written for external evaluators, not internal notes.

@@ -46,7 +46,7 @@
 - Governance structures, community engagement, sustainability planning
 - Does NOT fund development of open-source products themselves
 
-**ORGANVM Fit:** EXCELLENT for Phase I. ORGANVM's 149-repo ecosystem with governance tooling (promotion state machines, registry management, dependency validation) is exactly what POSE targets. Frame as: "Building a sustainable open-source ecosystem for AI-orchestrated creative-institutional infrastructure." Would need institutional affiliation (university partner or a fiscal sponsor with eligible status).
+**ORGANVM Fit:** EXCELLENT for Phase I. ORGANVM's 150-repo ecosystem with governance tooling (promotion state machines, registry management, dependency validation) is exactly what POSE targets. Frame as: "Building a sustainable open-source ecosystem for AI-orchestrated creative-institutional infrastructure." Would need institutional affiliation (university partner or a fiscal sponsor with eligible status).
 
 ### 1b. CSSI - Cyberinfrastructure for Sustained Scientific Innovation
 
@@ -455,7 +455,7 @@ The most practical path to NSF/NEH eligibility:
 
 1. **Identify a faculty champion** at a research university whose work intersects with ORGANVM's domains (digital humanities, human-computer interaction, software engineering, media arts)
 2. **Propose a co-PI arrangement** where the university submits the grant and you serve as senior personnel or co-PI
-3. **Offer ORGANVM as a research platform** -- universities get access to a unique 149-repo ecosystem for studying open-source governance, AI-orchestrated development, or creative coding at scale
+3. **Offer ORGANVM as a research platform** -- universities get access to a unique 150-repo ecosystem for studying open-source governance, AI-orchestrated development, or creative coding at scale
 4. **Target departments:** Digital Humanities, Computer Science (SE/HCI), Media Arts, Information Science
 5. **Start with smaller collaborations** (workshop, paper co-authorship) before attempting major grants
 

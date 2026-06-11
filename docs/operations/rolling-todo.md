@@ -126,7 +126,7 @@
 
 - [ ] **W1.** Pitch Noema Magazine (pays $1/word = ~$3K/essay) — rolling, **pitch this month**
   - Contact: pitches@noemamag.com
-  - Pitch: "I built a 149-repo creative system orchestrated by AI — here's what it reveals about solo creative production."
+  - Pitch: "I built a 150-repo creative system orchestrated by AI — here's what it reveals about solo creative production."
   - Benefits cliff: Writing income is earned (counts toward SNAP $1,580/mo threshold). One per quarter = safe.
   - Source: [11-funding-research-exhaustive.md](../applications/11-funding-research-exhaustive.md) Part 5
 
@@ -215,7 +215,7 @@
 
 - [ ] **M3-II.** Refresh portfolio with post-construction evidence — 33 sprints, omega scorecard, live product
   - Site: `4444j99.github.io/portfolio/`
-  - **Partial:** RENOVATIO updated all 5 data JSON files (97 repos, 93 ACTIVE, 33 sprints, 41 essays). Omega scorecard page added (pre-validation maturation session). Remaining: visual verification after deploy, push portfolio changes.
+  - **Partial:** RENOVATIO updated all 5 data JSON files (97 repos, 94 ACTIVE, 33 sprints, 41 essays). Omega scorecard page added (pre-validation maturation session). Remaining: visual verification after deploy, push portfolio changes.
   - Source: [e2g-ii P2](../evaluation/e2g-ii-action-items.md) · Omega: #15
 
 - [ ] **M6-II.** CI restructure — make CI fail when no tests, require explicit `skip_tests: true`
@@ -274,7 +274,7 @@
 
 - [ ] **S3-II.** Create contribution pathway for external contributors — need community activity first
   - CONTRIBUTING.md templates, good-first-issue labels, onboarding docs
-  - **Partial:** CONTRIBUTING.md written (corpvs-testamentvm root), 5 good-first-issues created across 149 repos (AMPLIFICATIO). Remaining: first external contribution, community onboarding docs.
+  - **Partial:** CONTRIBUTING.md written (corpvs-testamentvm root), 5 good-first-issues created across 150 repos (AMPLIFICATIO). Remaining: first external contribution, community onboarding docs.
   - Source: [e2g-ii P3](../evaluation/e2g-ii-action-items.md) · Omega: #12
   - Recommended sprint: Catalog item 47 HOSPITIUM
 

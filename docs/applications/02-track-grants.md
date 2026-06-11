@@ -30,7 +30,7 @@ Grant reviewers evaluate:
 **Why you fit:** The eight-organ system IS a formally innovative creative work. 5+ years of sustained practice. The "process of creation IS the product" thesis is genuinely novel. 42 essays document the practice in real-time.
 
 **Key evidence:**
-- 149-repo system as living creative work, not a portfolio piece
+- 150-repo system as living creative work, not a portfolio piece
 - 33 named development sprints demonstrating sustained commitment
 - Automated governance: the rules that coordinate 100 repos are as carefully designed as any artwork
 - Public process methodology: building in public as creative practice
@@ -193,7 +193,7 @@ Grant reviewers evaluate:
 > [1-2 sentences describing the specific request]
 >
 > **Background:**
-> Over the past five years, I have developed an eight-organ creative-institutional system that coordinates 149 repositories across theory, generative art, commercial products, governance, public process, community, and marketing. The system includes automated governance (11 GitHub Actions workflows), a machine-readable registry, formal dependency validation, and ~6K+ words of public documentation. All eight organs are currently operational, built through 33 named development sprints using AI tools as compositional instruments.
+> Over the past five years, I have developed an eight-organ creative-institutional system that coordinates 150 repositories across theory, generative art, commercial products, governance, public process, community, and marketing. The system includes automated governance (11 GitHub Actions workflows), a machine-readable registry, formal dependency validation, and ~6K+ words of public documentation. All eight organs are currently operational, built through 33 named development sprints using AI tools as compositional instruments.
 >
 > **What This Grant Would Fund:**
 > [Specific deliverables — essays, implementations, community programming, installations]
@@ -202,7 +202,7 @@ Grant reviewers evaluate:
 > The eight-organ model demonstrates that sustainable creative practice requires institutional infrastructure — not just talent. By treating governance as an artistic medium and documenting the entire system publicly, this work contributes reusable patterns for other creative technologists, small arts organizations, and practitioners operating at the intersection of art and systems design.
 >
 > **Evidence of Capacity:**
-> - 149 repositories across 8 organizations, all operational
+> - 150 repositories across 8 organizations, all operational
 > - 107+ CI/CD pipelines, 11 governance workflows, automated monthly audits
 > - 42 published essays (~150K words)
 > - Flagship projects with >1,000 tests each

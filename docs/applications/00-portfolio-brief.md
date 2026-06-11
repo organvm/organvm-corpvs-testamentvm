@@ -10,7 +10,7 @@
 
 ## One-Paragraph Summary
 
-I designed and implemented an eight-organ orchestration system that coordinates 149 repositories across 8 GitHub organizations — spanning theory, generative art, commercial products, governance, public process, community, and marketing. The system includes a machine-readable registry, automated dependency validation, a formal promotion state machine (LOCAL -> CANDIDATE -> PUBLIC_PROCESS -> GRADUATED -> ARCHIVED), and 11 GitHub Actions workflows for autonomous governance. It is fully documented at ~6K+ words and validated by automated scripts that check every repository for CI/CD, documentation, dependency integrity, and constitutional compliance.
+I designed and implemented an eight-organ orchestration system that coordinates 150 repositories across 8 GitHub organizations — spanning theory, generative art, commercial products, governance, public process, community, and marketing. The system includes a machine-readable registry, automated dependency validation, a formal promotion state machine (LOCAL -> CANDIDATE -> PUBLIC_PROCESS -> GRADUATED -> ARCHIVED), and 11 GitHub Actions workflows for autonomous governance. It is fully documented at ~6K+ words and validated by automated scripts that check every repository for CI/CD, documentation, dependency integrity, and constitutional compliance.
 
 ---
 
@@ -18,16 +18,16 @@ I designed and implemented an eight-organ orchestration system that coordinates 
 
 | Dimension | Value |
 |-----------|-------|
-| Total repositories | 149 |
+| Total repositories | 150 |
 | GitHub organizations | 8 |
 | Documentation | ~6K+ words |
 | CI/CD coverage | 82+ repos with workflows |
 | Validation scripts | 5 automated, all passing |
 | Meta-system essays | 41 published (~150K words) |
-| Dependency edges | 62, all validated |
+| Dependency edges | 63, all validated |
 | Back-edge violations | 0 |
 | Circular dependencies | 0 |
-| Implementation status | 93 ACTIVE, 54 ARCHIVED |
+| Implementation status | 94 ACTIVE, 55 ARCHIVED |
 
 ---
 
@@ -75,7 +75,7 @@ I designed and implemented an eight-organ orchestration system that coordinates 
 **Evidence:** 100 repos assembled into a coherent system through editorial vision, documented in real-time across 42 essays — the creative process itself rendered as the product. **Demonstrates:** Systemic creative practice, solo production at institutional scale, AI-augmented methodology, documentation as primary artistic output. **Targets:** Google Creative Lab (8/10), Fire Island (7/10), Eyebeam (7/10), Processing Foundation (6/10).
 
 ### Consulting & Freelance
-**Evidence:** The 149-repo system IS the credential. AI orchestration, documentation, workshop facilitation. **Demonstrates:** $100-125/hr market rate for AI orchestration consulting. 100+ courses taught, 2,000+ students, ~6K+ words of documentation. **Rate floor:** $100/hr (corrected from $60/hr per market research).
+**Evidence:** The 150-repo system IS the credential. AI orchestration, documentation, workshop facilitation. **Demonstrates:** $100-125/hr market rate for AI orchestration consulting. 100+ courses taught, 2,000+ students, ~6K+ words of documentation. **Rate floor:** $100/hr (corrected from $60/hr per market research).
 
 ### Selective Employment (deprioritized)
 **Evidence:** ORGAN-IV orchestration architecture, registry-as-truth design, governance trade-offs encoded in governance-rules.json, agentic-titan (1,095 tests across 18 phases). **Demonstrates:** Production-ready systems thinking, architectural reasoning, autonomous system design, test-driven development at scale. **Targets:** Together AI (6/10), HuggingFace (5/10). Engineering roles are competitive reaches from a non-traditional background — apply selectively.
