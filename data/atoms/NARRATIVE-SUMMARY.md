@@ -1,27 +1,27 @@
 # Prompt Narrative Analysis
-**Generated**: 2026-06-08
-**Sessions**: 1329 | **Prompts**: 6389 | **Threads**: 161
+**Generated**: 2026-06-11
+**Sessions**: 1159 | **Prompts**: 5861 | **Threads**: 119
 
 ## Prompt Type Distribution
 
 | Type | Count | % |
 |------|-------|---|
-| command | 4130 | 64% |
-| context_setting | 859 | 13% |
-| git_ops | 599 | 9% |
-| question | 290 | 4% |
-| continuation | 284 | 4% |
-| correction | 132 | 2% |
-| exploration | 95 | 1% |
+| command | 3767 | 64% |
+| context_setting | 774 | 13% |
+| git_ops | 577 | 9% |
+| continuation | 263 | 4% |
+| question | 261 | 4% |
+| correction | 138 | 2% |
+| exploration | 81 | 1% |
 
 ## Size Distribution
 
 | Class | Count | % |
 |-------|-------|---|
-| short | 2592 | 40% |
-| medium | 1623 | 25% |
-| long | 1397 | 21% |
-| terse | 777 | 12% |
+| short | 2416 | 41% |
+| medium | 1463 | 24% |
+| long | 1271 | 21% |
+| terse | 711 | 12% |
 
 ## Top Narrative Threads (by prompt count)
 
@@ -29,14 +29,15 @@
 |--------|----------|---------|------------|---------------|
 | Users/4jp/continue-2026-05-16..2026-05-23 | 83 | 999 | 2026-05-16..2026-05-23 | command |
 | Users/4jp/continue-2026-05-26..2026-06-01 | 55 | 596 | 2026-05-26..2026-06-01 | command |
-| Users/4jp/continue-2026-05-09..2026-05-14 | 40 | 588 | 2026-05-09..2026-05-14 | command |
+| Users/4jp/continue-2026-05-10..2026-05-14 | 23 | 402 | 2026-05-10..2026-05-14 | command |
 | Users/4jp/continue-2026-06-03..2026-06-07 | 47 | 288 | 2026-06-03..2026-06-07 | command |
 | 4jp/Code/organvm/sovereign-systems--elevate-align/ | 10 | 262 | 2026-05-16..2026-05-18 | command |
-| 4jp/bound/continue-2026-05-10..2026-05-12 | 14 | 238 | 2026-05-10..2026-05-12 | command |
 | 4jp/bound/continue-2026-05-29..2026-06-01 | 5 | 211 | 2026-05-29..2026-06-01 | command |
 | 4jp/_dot-config/continue-2026-05-21..2026-05-23 | 14 | 177 | 2026-05-21..2026-05-23 | command |
+| session-meta/stop-2026-06-10..2026-06-11 | 6 | 175 | 2026-06-10..2026-06-11 | command |
 | 4jp/.claude/stop-2026-05-23..2026-05-25 | 8 | 165 | 2026-05-23..2026-05-25 | command |
 | 4jp/Code/_agent/push-2026-05-17..2026-05-18 | 8 | 140 | 2026-05-17..2026-05-18 | command |
+| Users/4jp/continue-2026-06-10..2026-06-11 | 15 | 139 | 2026-06-10..2026-06-11 | command |
 | session-meta/continue-2026-06-05..2026-06-06 | 3 | 129 | 2026-06-05..2026-06-06 | command |
 | 4444J99/domus-semper-palingenesis/continue-2026-05 | 5 | 125 | 2026-05-16..2026-05-17 | command |
 | 4444J99/domus-semper-palingenesis/push-2026-06-03. | 4 | 120 | 2026-06-03..2026-06-06 | command |
@@ -45,7 +46,6 @@
 | 4jp/Code/organvm/peer-audited--behavioral-blockcha | 4 | 87 | 2026-05-16..2026-05-18 | command |
 | 4jp/Code/speech-score-engine/commit-2026-05-13..20 | 6 | 87 | 2026-05-13..2026-05-14 | command |
 | 4jp/Library/Mobile Documents/com~apple~Preview/Doc | 7 | 81 | 2026-05-19..2026-05-20 | command |
-| 4jp/build-2026-04-23..2026-04-26 | 7 | 76 | 2026-04-23..2026-04-26 | command |
 | composition-1-2/commit-2026-05-13 | 2 | 67 | 2026-05-13 | command |
 | 4jp/Code/organvm/universal-mail--automation/merge- | 2 | 65 | 2026-06-03..2026-06-05 | command |
 | 4jp/Code/quick-fire--all-command/create-2026-05-18 | 5 | 60 | 2026-05-18 | command |
@@ -60,76 +60,75 @@
 | 2025-11 | 6 | 6 | 3 | Volumes/4444-iivii |
 | 2025-12 | 23 | 23 | 13 | Users/4jp |
 | 2026-01 | 13 | 15 | 9 | 4jp/Legal/padavano-v-mdc--empl |
-| 2026-03 | 24 | 103 | 14 | 4jp |
-| 2026-04 | 93 | 297 | 28 | 4jp |
-| 2026-05 | 346 | 4766 | 70 | Users/4jp |
-| 2026-06 | 84 | 1179 | 26 | Users/4jp |
+| 2026-04 | 1 | 7 | 1 | 4jp/Workspace |
+| 2026-05 | 306 | 4317 | 67 | Users/4jp |
+| 2026-06 | 105 | 1493 | 28 | Users/4jp |
 
 ## Top Imperative Verbs
 
 | Verb | Count | % |
 |------|-------|---|
-| continue | 192 | 3% |
-| stop | 94 | 1% |
-| review | 43 | 0% |
-| proceed | 39 | 0% |
-| push | 27 | 0% |
+| continue | 183 | 3% |
+| stop | 100 | 1% |
+| review | 34 | 0% |
+| proceed | 28 | 0% |
 | commit | 26 | 0% |
-| merge | 16 | 0% |
+| push | 26 | 0% |
+| merge | 18 | 0% |
 | run | 15 | 0% |
-| find | 15 | 0% |
-| check | 12 | 0% |
 | verify | 12 | 0% |
-| analyze | 11 | 0% |
-| create | 10 | 0% |
-| write | 9 | 0% |
+| check | 11 | 0% |
+| find | 11 | 0% |
+| analyze | 10 | 0% |
 | make | 8 | 0% |
 | open | 8 | 0% |
-| build | 6 | 0% |
+| create | 8 | 0% |
+| write | 6 | 0% |
 | fix | 5 | 0% |
 | delete | 4 | 0% |
 | remove | 4 | 0% |
+| build | 4 | 0% |
 
 ## Narrative Arc Patterns
 
 | Pattern | Count | Description |
 |---------|-------|-------------|
-| steady-build | 107 | Continuous command flow without major corrections |
-| single-shot | 45 | Thread with 1-2 prompts only |
-| exploration-first | 7 | Opens with questions or exploration |
+| steady-build | 83 | Continuous command flow without major corrections |
+| single-shot | 33 | Thread with 1-2 prompts only |
 | iterative-correction | 2 | Commands interspersed with corrections (>20%) |
+| exploration-first | 1 | Opens with questions or exploration |
 
 ## Recurring Themes (tags)
 
 | Tag | Count |
 |-----|-------|
-| bash | 619 |
-| chezmoi | 462 |
-| go | 388 |
-| python | 355 |
-| mcp | 299 |
-| zsh | 124 |
-| homebrew | 106 |
-| node | 104 |
-| cloudflare | 103 |
-| typescript | 66 |
-| playwright | 48 |
-| neon | 47 |
-| vercel | 47 |
-| react | 46 |
-| astro | 41 |
-| pytest | 34 |
-| docker | 33 |
-| aws | 31 |
-| vitest | 24 |
-| terraform | 21 |
-| rust | 20 |
-| gcp | 20 |
-| fastapi | 19 |
-| three.js | 17 |
-| redis | 17 |
+| bash | 571 |
+| chezmoi | 425 |
+| go | 350 |
+| python | 324 |
+| mcp | 260 |
+| zsh | 99 |
+| homebrew | 93 |
+| cloudflare | 93 |
+| node | 78 |
+| typescript | 48 |
+| playwright | 39 |
+| neon | 36 |
+| react | 34 |
+| astro | 31 |
+| vercel | 30 |
+| aws | 25 |
+| pytest | 21 |
+| docker | 21 |
+| vitest | 18 |
+| gcp | 18 |
 | vite | 16 |
-| javascript | 15 |
-| express | 14 |
-| postgres | 14 |
-| kubernetes | 14 |
+| rust | 15 |
+| terraform | 15 |
+| fastapi | 14 |
+| redis | 14 |
+| three.js | 13 |
+| express | 12 |
+| postgres | 10 |
+| javascript | 10 |
+| rollup | 9 |

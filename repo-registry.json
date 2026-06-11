@@ -2008,7 +2008,7 @@
         {
           "name": "styx-behavioral-commerce",
           "org": "organvm-iii-ergon",
-          "status": "ACTIVE",
+          "status": "ARCHIVED",
           "public": false,
           "description": "Styx \u2014 peer-audited behavioral commerce engine. Commercial realization of the Styx Pipeline traversal.",
           "documentation_status": "DEPLOYED",
@@ -2017,11 +2017,11 @@
             "organvm-i-theoria/styx-behavioral-economics-theory",
             "organvm-ii-poiesis/styx-behavioral-art"
           ],
-          "promotion_status": "LOCAL",
-          "tier": "standard",
+          "promotion_status": "ARCHIVED",
+          "tier": "archive",
           "last_validated": "2026-03-11",
-          "note": "Scaffolded during Meta-Org workflow expansion. Implements Loss Aversion Engine and Peer Audit visualization.",
-          "implementation_status": "PROTOTYPE",
+          "note": "Scaffolded during Meta-Org workflow expansion. Implements Loss Aversion Engine and Peer Audit visualization. Moved to .archive",
+          "implementation_status": "ARCHIVED",
           "ci_workflow": null,
           "platinum_status": false,
           "revenue_model": "subscription",
@@ -3499,6 +3499,28 @@
           "tier": "standard",
           "last_validated": "2026-04-16",
           "note": "Genesis 2026-04-16. Fills operational vacuum between IRF SEC domain (governance) and Security SOP (process). Seeded from S-inbox-2026-04-15 carry-forward.",
+          "implementation_status": "ACTIVE",
+          "functional_class": "infrastructure",
+          "metrics": {
+            "code_files": 0,
+            "test_files": 0
+          }
+        },
+        {
+          "name": "agentmemory",
+          "org": "meta-organvm",
+          "status": "active",
+          "public": false,
+          "description": "Formalized integration boundary for implicit agent memory structures (.gemini/config/plugins, .claude/projects/, .iii/, etc).",
+          "documentation_status": "minimal",
+          "portfolio_relevance": "medium",
+          "dependencies": [
+            "meta-organvm/organvm-corpvs-testamentvm"
+          ],
+          "promotion_status": "LOCAL",
+          "tier": "infrastructure",
+          "last_validated": "2026-06-08",
+          "note": "Formalized to resolve IRF-SYS-125 vacuum. Identifies the bounding box around floating MCP memory servers and contextual storage.",
           "implementation_status": "ACTIVE",
           "functional_class": "infrastructure",
           "metrics": {

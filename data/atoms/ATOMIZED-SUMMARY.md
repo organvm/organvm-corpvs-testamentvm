@@ -1,11 +1,143 @@
 # Plan Atomization Summary
-**Generated**: 2026-06-08
-**Plans parsed**: 1801 | **Tasks extracted**: 18448
+**Generated**: 2026-06-11
+**Plans parsed**: 2601 | **Tasks extracted**: 28169
 
 ## By Project
 
 | Project | Plans | Tasks | Completed | Pending | In Progress |
 |---------|-------|-------|-----------|---------|-------------|
+| .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | 90 | 2062 | 16 | 2046 | 0 |
+| .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.codex/plans | 10 | 63 | 0 | 63 | 0 |
+| .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.gemini/plans | 4 | 39 | 0 | 39 | 0 |
+| .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/intake/alchemical-synthesizer/.claude/plans | 1 | 38 | 0 | 38 | 0 |
+| .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/intake/alchemical-synthesizer/.gemini/plans | 1 | 5 | 0 | 5 | 0 |
+| .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/.claude/plans | 1 | 8 | 0 | 8 | 0 |
+| .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/.codex/plans | 2 | 5 | 0 | 5 | 0 |
+| .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/chatgpt-history/.codex/plans | 83 | 518 | 5 | 513 | 0 |
+| .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-ii-poiesis/.codex/plans | 1 | 4 | 0 | 4 | 0 |
+| .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-iii-ergon/.claude/plans | 2 | 2 | 0 | 2 | 0 |
+| .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-iv-taxis/.claude/plans | 25 | 446 | 19 | 427 | 0 |
+| .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-v-logos/.claude/plans | 5 | 80 | 0 | 80 | 0 |
+| .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-v-logos/.codex/plans | 2 | 6 | 0 | 6 | 0 |
+| .home-cartridge/Code/dsp-alternative/.claude/plans | 2 | 6 | 0 | 6 | 0 |
+| .home-cartridge/Code/euro-trip-2026/.claude/plans | 3 | 15 | 11 | 4 | 0 |
+| .home-cartridge/Code/euro-trip-2026/.codex/plans | 1 | 10 | 10 | 0 | 0 |
+| .home-cartridge/Code/euro-trip-2026/.gemini/worktrees/2026-06-03-18-09-00-755-yz9o/.gemini/plans | 2 | 6 | 5 | 1 | 0 |
+| .home-cartridge/Code/generative-abstract-environments-studies/.claude/plans | 8 | 32 | 7 | 25 | 0 |
+| .home-cartridge/Code/income-2026-05-04/portfolio-site/.claude/plans | 13 | 196 | 0 | 196 | 0 |
+| .home-cartridge/Code/income-2026-05-04/portfolio-site/.codex/plans | 1 | 1 | 0 | 1 | 0 |
+| .home-cartridge/Code/income-2026-05-04/portfolio-site/.gemini/plans | 4 | 30 | 0 | 30 | 0 |
+| .home-cartridge/Code/intake/dwv/specvla-ergon--avditor-mvndi/.claude/plans | 6 | 31 | 0 | 31 | 0 |
+| .home-cartridge/Code/machina-mundi-canonici/.claude/plans | 2 | 9 | 0 | 9 | 0 |
+| .home-cartridge/Code/organvm/.gemini/plans | 1 | 1 | 0 | 1 | 0 |
+| .home-cartridge/Code/organvm/a-i--skills/.claude/plans | 5 | 77 | 4 | 73 | 0 |
+| .home-cartridge/Code/organvm/a-i--skills/.claude/worktrees/codify-five-skills-2026-06-07/.claude/plans | 6 | 78 | 4 | 74 | 0 |
+| .home-cartridge/Code/organvm/a-mavs-olevm/.claude/plans | 1 | 5 | 0 | 5 | 0 |
+| .home-cartridge/Code/organvm/aerarium--res-publica/.claude/plans | 1 | 46 | 0 | 46 | 0 |
+| .home-cartridge/Code/organvm/agentic-titan/.claude/plans | 9 | 58 | 13 | 45 | 0 |
+| .home-cartridge/Code/organvm/alchemical-synthesizer/.claude/plans | 1 | 38 | 0 | 38 | 0 |
+| .home-cartridge/Code/organvm/atomic-substrata/.codex/plans | 3 | 9 | 0 | 9 | 0 |
+| .home-cartridge/Code/organvm/content-engine--asset-amplifier/.claude/plans | 3 | 13 | 0 | 13 | 0 |
+| .home-cartridge/Code/organvm/content-engine--asset-amplifier/.codex/plans | 3 | 4 | 0 | 4 | 0 |
+| .home-cartridge/Code/organvm/content-engine--asset-amplifier/.gemini/plans | 5 | 58 | 33 | 25 | 0 |
+| .home-cartridge/Code/organvm/conversation-corpus-engine/.claude/plans | 8 | 160 | 0 | 160 | 0 |
+| .home-cartridge/Code/organvm/conversation-corpus-engine/.codex/plans | 26 | 159 | 1 | 158 | 0 |
+| .home-cartridge/Code/organvm/conversation-corpus-engine/.gemini/plans | 3 | 17 | 0 | 17 | 0 |
+| .home-cartridge/Code/organvm/corpvs-irf-actual-news-phase1/.claude/plans | 17 | 172 | 0 | 172 | 0 |
+| .home-cartridge/Code/organvm/corpvs-irf-actual-news-phase1/.gemini/plans | 3 | 13 | 0 | 13 | 0 |
+| .home-cartridge/Code/organvm/corpvs-irf-repair-2026-06-07/.claude/plans | 17 | 172 | 0 | 172 | 0 |
+| .home-cartridge/Code/organvm/corpvs-irf-repair-2026-06-07/.gemini/plans | 3 | 13 | 0 | 13 | 0 |
+| .home-cartridge/Code/organvm/corpvs-irf-sys163-status-repair-2026-06-07/.claude/plans | 17 | 172 | 0 | 172 | 0 |
+| .home-cartridge/Code/organvm/corpvs-irf-sys163-status-repair-2026-06-07/.gemini/plans | 3 | 13 | 0 | 13 | 0 |
+| .home-cartridge/Code/organvm/corpvs-worktrees/irf-completion-20260607T132238Z/.claude/plans | 17 | 172 | 0 | 172 | 0 |
+| .home-cartridge/Code/organvm/corpvs-worktrees/irf-completion-20260607T132238Z/.gemini/plans | 3 | 13 | 0 | 13 | 0 |
+| .home-cartridge/Code/organvm/digital-income-organism-inquiry/.claude/plans | 2 | 22 | 0 | 22 | 0 |
+| .home-cartridge/Code/organvm/essay-pipeline/.claude/plans | 3 | 29 | 0 | 29 | 0 |
+| .home-cartridge/Code/organvm/growth-auditor/.claude/plans | 6 | 31 | 0 | 31 | 0 |
+| .home-cartridge/Code/organvm/knowledge-base-phase-two/.codex/plans | 1 | 1 | 0 | 1 | 0 |
+| .home-cartridge/Code/organvm/knowledge-base-phase-two/.gemini/plans | 9 | 169 | 9 | 160 | 0 |
+| .home-cartridge/Code/organvm/knowledge-base-synthesis/.gemini/plans | 9 | 169 | 9 | 160 | 0 |
+| .home-cartridge/Code/organvm/life-my--midst--in/.codex/plans | 2 | 2 | 0 | 2 | 0 |
+| .home-cartridge/Code/organvm/life-my--midst--in/.gemini/plans | 8 | 51 | 9 | 42 | 0 |
+| .home-cartridge/Code/organvm/materia-collider/bench/organ-reset-2026-03-11/organ-i/hierarchia-mundi/.claude/plans | 1 | 14 | 0 | 14 | 0 |
+| .home-cartridge/Code/organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/fetch-familiar-friends/.gemini/plans | 1 | 4 | 0 | 4 | 0 |
+| .home-cartridge/Code/organvm/mesh/.claude/plans | 2 | 21 | 0 | 21 | 0 |
+| .home-cartridge/Code/organvm/metasystem-master/.codex/plans | 1 | 1 | 0 | 1 | 0 |
+| .home-cartridge/Code/organvm/my-knowledge-base/.gemini/plans | 1 | 4 | 0 | 4 | 0 |
+| .home-cartridge/Code/organvm/my-knowledge-base/.history/.gemini/plans | 9 | 132 | 21 | 111 | 0 |
+| .home-cartridge/Code/organvm/narratological-algorithmic-lenses/.gemini/plans | 2 | 43 | 21 | 22 | 0 |
+| .home-cartridge/Code/organvm/orchestration-start-here/.claude/plans | 12 | 180 | 0 | 180 | 0 |
+| .home-cartridge/Code/organvm/orchestration-start-here/.gemini/plans | 8 | 55 | 0 | 55 | 0 |
+| .home-cartridge/Code/organvm/organvm-corpvs-testamentvm/.claude/plans | 17 | 172 | 0 | 172 | 0 |
+| .home-cartridge/Code/organvm/organvm-corpvs-testamentvm/.gemini/plans | 3 | 13 | 0 | 13 | 0 |
+| .home-cartridge/Code/organvm/organvm-engine/.claude/plans | 11 | 179 | 0 | 179 | 0 |
+| .home-cartridge/Code/organvm/organvm-engine/.claude/worktrees/irf-sys-254-density-restoration/.claude/plans | 11 | 179 | 0 | 179 | 0 |
+| .home-cartridge/Code/organvm/organvm-engine/.claude/worktrees/irf-sys-254-density-restoration/.codex/plans | 2 | 7 | 0 | 7 | 0 |
+| .home-cartridge/Code/organvm/organvm-engine/.codex/plans | 2 | 7 | 0 | 7 | 0 |
+| .home-cartridge/Code/organvm/organvm-engine/.gemini/worktrees/2026-06-07-15-25-24-059-c2yo/.claude/plans | 10 | 173 | 0 | 173 | 0 |
+| .home-cartridge/Code/organvm/organvm-engine/.gemini/worktrees/2026-06-07-15-25-24-059-c2yo/.codex/plans | 2 | 7 | 0 | 7 | 0 |
+| .home-cartridge/Code/organvm/organvm-engine/.gemini/worktrees/2026-06-07-15-25-24-059-c2yo/.gemini/plans | 2 | 6 | 5 | 1 | 0 |
+| .home-cartridge/Code/organvm/organvm-mcp-server/.codex/plans | 1 | 5 | 0 | 5 | 0 |
+| .home-cartridge/Code/organvm/peer-audited--behavioral-blockchain/.claude/plans | 3 | 76 | 0 | 76 | 0 |
+| .home-cartridge/Code/organvm/peer-audited--behavioral-blockchain/.codex/plans | 29 | 59 | 1 | 58 | 0 |
+| .home-cartridge/Code/organvm/peer-audited--behavioral-blockchain/.gemini/plans | 1 | 1 | 0 | 1 | 0 |
+| .home-cartridge/Code/organvm/peer-audited-finishline-670/.claude/plans | 3 | 76 | 0 | 76 | 0 |
+| .home-cartridge/Code/organvm/peer-audited-finishline-670/.codex/plans | 29 | 59 | 1 | 58 | 0 |
+| .home-cartridge/Code/organvm/peer-audited-finishline-670/.gemini/plans | 1 | 1 | 0 | 1 | 0 |
+| .home-cartridge/Code/organvm/post-flood/.claude/plans | 23 | 413 | 0 | 413 | 0 |
+| .home-cartridge/Code/organvm/praxis-perpetua/.claude/plans | 4 | 67 | 0 | 67 | 0 |
+| .home-cartridge/Code/organvm/praxis-perpetua/.gemini/plans | 1 | 3 | 0 | 3 | 0 |
+| .home-cartridge/Code/organvm/public-process/.gemini/plans | 1 | 4 | 0 | 4 | 0 |
+| .home-cartridge/Code/organvm/public-record-data-scrapper/.claude/plans | 1 | 42 | 0 | 42 | 0 |
+| .home-cartridge/Code/organvm/public-record-data-scrapper/.claude/worktrees/epic-jackson-f4e82d/.claude/plans | 1 | 42 | 0 | 42 | 0 |
+| .home-cartridge/Code/organvm/public-record-data-scrapper/.claude/worktrees/epic-jackson-f4e82d/.codex/plans | 2 | 14 | 0 | 14 | 0 |
+| .home-cartridge/Code/organvm/public-record-data-scrapper/.claude/worktrees/modest-morse-cd9309/.claude/plans | 1 | 42 | 0 | 42 | 0 |
+| .home-cartridge/Code/organvm/public-record-data-scrapper/.claude/worktrees/modest-morse-cd9309/.codex/plans | 2 | 14 | 0 | 14 | 0 |
+| .home-cartridge/Code/organvm/public-record-data-scrapper/.claude/worktrees/post-merge-main/.claude/plans | 3 | 50 | 5 | 45 | 0 |
+| .home-cartridge/Code/organvm/public-record-data-scrapper/.claude/worktrees/post-merge-main/.codex/plans | 2 | 14 | 0 | 14 | 0 |
+| .home-cartridge/Code/organvm/public-record-data-scrapper/.claude/worktrees/tech-debt-review-fixes/.claude/plans | 3 | 50 | 5 | 45 | 0 |
+| .home-cartridge/Code/organvm/public-record-data-scrapper/.claude/worktrees/tech-debt-review-fixes/.codex/plans | 2 | 14 | 0 | 14 | 0 |
+| .home-cartridge/Code/organvm/public-record-data-scrapper/.codex/plans | 2 | 14 | 0 | 14 | 0 |
+| .home-cartridge/Code/organvm/scale-threshold-emergence/.codex/plans | 4 | 16 | 0 | 16 | 0 |
+| .home-cartridge/Code/organvm/schema-definitions/.claude/plans | 1 | 7 | 0 | 7 | 0 |
+| .home-cartridge/Code/organvm/schema-definitions/.codex/plans | 1 | 5 | 0 | 5 | 0 |
+| .home-cartridge/Code/organvm/sign-signal--voice-synth/.gemini/plans | 4 | 31 | 0 | 31 | 0 |
+| .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/containment-board-fix/.claude/plans | 47 | 528 | 74 | 454 | 0 |
+| .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/containment-board-fix/.codex/plans | 5 | 42 | 0 | 42 | 0 |
+| .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/irf-iii-035/.claude/plans | 45 | 520 | 67 | 453 | 0 |
+| .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/irf-iii-035/.codex/plans | 3 | 35 | 0 | 35 | 0 |
+| .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/roadmap-drain/.claude/plans | 47 | 528 | 74 | 454 | 0 |
+| .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/roadmap-drain/.codex/plans | 3 | 35 | 0 | 35 | 0 |
+| .home-cartridge/Code/organvm/sovereign-systems--elevate-align/.claude/plans | 47 | 528 | 74 | 454 | 0 |
+| .home-cartridge/Code/organvm/sovereign-systems--elevate-align/.codex/plans | 5 | 42 | 0 | 42 | 0 |
+| .home-cartridge/Code/organvm/sovereign-systems--elevate-align/.gemini/plans | 4 | 90 | 0 | 90 | 0 |
+| .home-cartridge/Code/organvm/sovereign-systems--elevate-align/.history/.codex/plans | 2 | 10 | 0 | 10 | 0 |
+| .home-cartridge/Code/organvm/sovereign-systems--elevate-align/.history/.gemini/plans | 14 | 398 | 0 | 398 | 0 |
+| .home-cartridge/Code/organvm/sovereign-systems--layer-above-hokage/.codex/plans | 1 | 15 | 0 | 15 | 0 |
+| .home-cartridge/Code/organvm/stakeholder-portal/.claude/plans | 12 | 140 | 0 | 140 | 0 |
+| .home-cartridge/Code/organvm/stakeholder-portal/.codex/plans | 4 | 100 | 0 | 100 | 0 |
+| .home-cartridge/Code/organvm/stakeholder-portal/.gemini/plans | 5 | 22 | 0 | 22 | 0 |
+| .home-cartridge/Code/organvm/system-dashboard/.claude/plans | 1 | 10 | 0 | 10 | 0 |
+| .home-cartridge/Code/organvm/system-system--system--monad/.gemini/plans | 2 | 23 | 14 | 9 | 0 |
+| .home-cartridge/Code/organvm/system-system--system/.claude/plans | 21 | 191 | 0 | 191 | 0 |
+| .home-cartridge/Code/organvm/system-system--system/.gemini/plans | 2 | 23 | 14 | 9 | 0 |
+| .home-cartridge/Code/organvm/the-actual-news/.claude/worktrees/identity-residual-fixes/.codex/plans | 10 | 41 | 10 | 31 | 0 |
+| .home-cartridge/Code/organvm/the-actual-news/.codex/plans | 10 | 41 | 10 | 31 | 0 |
+| .home-cartridge/Code/organvm/the-actual-news/.gemini/worktrees/2026-06-07-14-15-20-108-ccnk/.codex/plans | 13 | 65 | 16 | 49 | 0 |
+| .home-cartridge/Code/organvm/tool-interaction-design/.claude/plans | 27 | 602 | 0 | 602 | 0 |
+| .home-cartridge/Code/organvm/tool-interaction-design/.codex/plans | 2 | 9 | 0 | 9 | 0 |
+| .home-cartridge/Code/organvm/tool-interaction-design/.gemini/plans | 1 | 6 | 0 | 6 | 0 |
+| .home-cartridge/Code/organvm/universal-mail--automation/.claude/plans | 2 | 7 | 6 | 1 | 0 |
+| .home-cartridge/Code/organvm/universal-mail--automation/.claude/worktrees/debt-dashboard-branding/.claude/plans | 2 | 7 | 6 | 1 | 0 |
+| .home-cartridge/Code/organvm/vox--architectura-gubernatio/.claude/plans | 3 | 28 | 0 | 28 | 0 |
+| .home-cartridge/Code/persona-fleet/.claude/plans | 2 | 19 | 5 | 14 | 0 |
+| .home-cartridge/Code/prima/.codex/plans | 1 | 1 | 0 | 1 | 0 |
+| .home-cartridge/Code/speech-score-engine/.claude/plans | 12 | 125 | 10 | 115 | 0 |
+| .home-cartridge/Code/upstream/community/contrib--adenhq-hive/.claude/plans | 2 | 56 | 0 | 56 | 0 |
+| .home-cartridge/Code/upstream/community/contrib--grafana-k6/.claude/plans | 1 | 5 | 0 | 5 | 0 |
+| .home-cartridge/_swept/knowledge-base-export-2026-05-17/atomic-substrata/.codex/plans | 3 | 9 | 0 | 9 | 0 |
+| .home-cartridge/_swept/knowledge-base-export-2026-05-17/my-knowledge-base/.gemini/plans | 5 | 130 | 7 | 123 | 0 |
+| .home-cartridge/bound/.codex/plans | 1 | 8 | 0 | 8 | 0 |
 | 4444J99/.claude/plans | 3 | 6 | 0 | 6 | 0 |
 | 4444J99/application-pipeline/.claude/plans | 46 | 770 | 4 | 766 | 0 |
 | 4444J99/application-pipeline/.codex/plans | 3 | 47 | 0 | 47 | 0 |
@@ -40,39 +172,20 @@
 | 4444J99/portvs/runtime/_agent/.codex/plans | 3 | 8 | 0 | 8 | 0 |
 | 4444J99/system-system--system/.claude/plans | 21 | 191 | 0 | 191 | 0 |
 | 4444J99/system-system--system/.gemini/plans | 2 | 23 | 14 | 9 | 0 |
-| _root | 1050 | 11296 | 784 | 10512 | 0 |
+| _root | 1015 | 10650 | 687 | 9963 | 0 |
 | a-organvm/.claude/plans | 13 | 260 | 0 | 260 | 0 |
 | a-organvm/.codex/plans | 1 | 1 | 1 | 0 | 0 |
 | a-organvm/my-knowledge-base/.gemini/plans | 5 | 130 | 7 | 123 | 0 |
 | composition-1-2/.claude/plans | 2 | 18 | 9 | 9 | 0 |
+| forge-worktrees/content-engine--asset-amplifier-worktree/.claude/plans | 3 | 13 | 0 | 13 | 0 |
+| forge-worktrees/content-engine--asset-amplifier-worktree/.codex/plans | 3 | 4 | 0 | 4 | 0 |
+| forge-worktrees/content-engine--asset-amplifier-worktree/.gemini/plans | 5 | 58 | 33 | 25 | 0 |
+| forge-worktrees/sign-signal--voice-synth-worktree/.gemini/plans | 4 | 31 | 0 | 31 | 0 |
+| forge-worktrees/specvla-ergon--avditor-mvndi-worktree/.claude/plans | 6 | 31 | 0 | 31 | 0 |
 | limen-next/.claude/plans | 2 | 18 | 11 | 7 | 0 |
 | limen-next/.codex/plans | 4 | 40 | 20 | 20 | 0 |
 | limen-next/.gemini/plans | 4 | 19 | 0 | 19 | 0 |
-| limen-work/LIMEN-052/.claude/plans | 7 | 144 | 0 | 144 | 0 |
-| limen-work/LIMEN-052/.codex/plans | 26 | 159 | 1 | 158 | 0 |
-| limen-work/LIMEN-052/.gemini/plans | 3 | 17 | 0 | 17 | 0 |
-| limen-work/LIMEN-053/.claude/plans | 7 | 144 | 0 | 144 | 0 |
-| limen-work/LIMEN-053/.codex/plans | 26 | 159 | 1 | 158 | 0 |
-| limen-work/LIMEN-053/.gemini/plans | 3 | 17 | 0 | 17 | 0 |
-| limen-work/LIMEN-054/.claude/plans | 7 | 144 | 0 | 144 | 0 |
-| limen-work/LIMEN-054/.codex/plans | 26 | 159 | 1 | 158 | 0 |
-| limen-work/LIMEN-054/.gemini/plans | 3 | 17 | 0 | 17 | 0 |
-| limen-work/LIMEN-055/.claude/plans | 7 | 144 | 0 | 144 | 0 |
-| limen-work/LIMEN-055/.codex/plans | 26 | 159 | 1 | 158 | 0 |
-| limen-work/LIMEN-055/.gemini/plans | 3 | 17 | 0 | 17 | 0 |
-| limen-work/LIMEN-056/.claude/plans | 7 | 144 | 0 | 144 | 0 |
-| limen-work/LIMEN-056/.codex/plans | 26 | 159 | 1 | 158 | 0 |
-| limen-work/LIMEN-056/.gemini/plans | 3 | 17 | 0 | 17 | 0 |
-| limen-work/LIMEN-057/.claude/plans | 7 | 144 | 0 | 144 | 0 |
-| limen-work/LIMEN-057/.codex/plans | 26 | 159 | 1 | 158 | 0 |
-| limen-work/LIMEN-057/.gemini/plans | 3 | 17 | 0 | 17 | 0 |
-| limen-work/LIMEN-058/.claude/plans | 7 | 144 | 0 | 144 | 0 |
-| limen-work/LIMEN-058/.codex/plans | 26 | 159 | 1 | 158 | 0 |
-| limen-work/LIMEN-058/.gemini/plans | 3 | 17 | 0 | 17 | 0 |
-| limen-work/LIMEN-059/.claude/plans | 8 | 160 | 0 | 160 | 0 |
-| limen-work/LIMEN-059/.codex/plans | 26 | 159 | 1 | 158 | 0 |
-| limen-work/LIMEN-059/.gemini/plans | 3 | 17 | 0 | 17 | 0 |
-| limen-work/conversation-corpus-engine/.claude/plans | 7 | 144 | 0 | 144 | 0 |
+| limen-work/conversation-corpus-engine/.claude/plans | 8 | 160 | 0 | 160 | 0 |
 | limen-work/conversation-corpus-engine/.codex/plans | 26 | 159 | 1 | 158 | 0 |
 | limen-work/conversation-corpus-engine/.gemini/plans | 3 | 17 | 0 | 17 | 0 |
 | limen-work/my-knowledge-base/.gemini/plans | 5 | 130 | 7 | 123 | 0 |
@@ -90,82 +203,86 @@
 | limen/.codex/plans | 4 | 40 | 20 | 20 | 0 |
 | limen/.gemini/plans | 5 | 26 | 0 | 26 | 0 |
 | session-meta/.claude/plans | 2 | 10 | 9 | 1 | 0 |
+| session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/.claude/plans | 2 | 10 | 9 | 1 | 0 |
+| session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/.gemini/plans | 2 | 8 | 7 | 1 | 0 |
+| session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/domus-genoma/.claude/plans | 42 | 453 | 21 | 432 | 0 |
+| session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/domus-genoma/.gemini/plans | 3 | 15 | 0 | 15 | 0 |
 | session-meta/data/session-transcripts/intake/dwv/specvla-ergon--avditor-mvndi/.claude/plans | 6 | 31 | 0 | 31 | 0 |
 
 ## By Task Type
 
 | Type | Count | % |
 |------|-------|---|
-| generic | 5903 | 31% |
-| document | 3160 | 17% |
-| create_file | 1537 | 8% |
-| configure | 1459 | 7% |
-| modify_file | 1161 | 6% |
-| write_test | 1155 | 6% |
-| verify | 795 | 4% |
-| git_operation | 669 | 3% |
-| migrate | 643 | 3% |
-| deploy | 609 | 3% |
-| delete_file | 468 | 2% |
-| research | 447 | 2% |
-| review | 243 | 1% |
-| exploration | 89 | 0% |
-| refactor | 69 | 0% |
-| post_hoc | 41 | 0% |
+| generic | 9534 | 33% |
+| document | 4181 | 14% |
+| create_file | 2730 | 9% |
+| configure | 2148 | 7% |
+| modify_file | 2010 | 7% |
+| write_test | 1631 | 5% |
+| verify | 1204 | 4% |
+| git_operation | 1017 | 3% |
+| deploy | 921 | 3% |
+| migrate | 750 | 2% |
+| delete_file | 738 | 2% |
+| research | 719 | 2% |
+| review | 284 | 1% |
+| refactor | 129 | 0% |
+| exploration | 116 | 0% |
+| post_hoc | 57 | 0% |
 
 ## By Status
 
 | Status | Count | % |
 |--------|-------|---|
-| pending | 17270 | 93% |
-| completed | 1178 | 6% |
+| pending | 26425 | 93% |
+| completed | 1744 | 6% |
 
 ## Largest Plans (by task count)
 
 | Plan | Project | Tasks | Completed % |
 |------|---------|-------|-------------|
-| Plans Index | _root | 1049 | 0% |
+| Plans Index | _root | 1014 | 0% |
 | The Ark — Past-Week Prompt Corpus | _root | 557 | 2% |
+| Flat Verb Map — meta-organvm Functional Deduplicat | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | 249 | 0% |
 | Directory Dissection: meta-organvm Post-Mortem → T | _root | 203 | 0% |
+| Directory Dissection: meta-organvm Post-Mortem → T | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | 203 | 0% |
 | Session Export: rob-gemini-warm-clock + artifact i | _root | 181 | 0% |
-| Workspace Relocation Manifest | _root | 160 | 0% |
+| Conductor Temporal Architecture — The Click Track | .home-cartridge/Code/organvm/tool-interaction-design/.claude/plans | 138 | 0% |
+| Trivium — Dialectica Universalis: The Structural I | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | 107 | 0% |
 | Spiral Artifact Evolution Timeline | _root | 103 | 0% |
+| Archaeological Excavation Report: ORGAN-I / II / I | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | 102 | 0% |
 | Unspoken Sentences — Full Implementation Plan | _root | 89 | 0% |
 | Ideal Form Classification — What Each Repo Reaches | a-organvm/.claude/plans | 89 | 0% |
 | Plan: S-Zettelkasten Close-Out (supersedes zettelk | _root | 81 | 0% |
 | Refactor: Raw Dump → Cascading Workstreams | _root | 80 | 0% |
 | Refactor: Raw Dump → Cascading Workstreams | limen-work/my-knowledge-base/.gemini/plans | 80 | 0% |
+| Refactor: Raw Dump → Cascading Workstreams | .home-cartridge/Code/organvm/knowledge-base-phase-two/.gemini/plans | 80 | 0% |
+| Refactor: Raw Dump → Cascading Workstreams | .home-cartridge/Code/organvm/knowledge-base-synthesis/.gemini/plans | 80 | 0% |
+| Refactor: Raw Dump → Cascading Workstreams | .home-cartridge/_swept/knowledge-base-export-2026-05-17/my-knowledge-base/.gemini/plans | 80 | 0% |
 | Refactor: Raw Dump → Cascading Workstreams | a-organvm/my-knowledge-base/.gemini/plans | 80 | 0% |
-| Session S40 Implementation Plan — conversation-cor | _root | 75 | 0% |
-| Implementation Plan: sign-signal--voice-synth Laye | _root | 71 | 0% |
-| Universal Modular Fractal Alchemical Synthesizer — | _root | 69 | 0% |
-| Universal Modular Fractal Alchemical Synthesizer — | a-organvm/.claude/plans | 69 | 0% |
-| Untitled Plan | _root | 65 | 0% |
-| Operational Hardening Implementation Plan | limen-work/LIMEN-055/.claude/plans | 65 | 0% |
-| Operational Hardening Implementation Plan | limen-work/LIMEN-052/.claude/plans | 65 | 0% |
-| Operational Hardening Implementation Plan | limen-work/LIMEN-053/.claude/plans | 65 | 0% |
+| Post-Flood Constitutional Implementation Plan | .home-cartridge/Code/organvm/post-flood/.claude/plans | 80 | 0% |
 
 ## By Agent
 
 | Agent | Count | % |
 |-------|-------|---|
-| claude | 16087 | 87% |
-| codex | 1704 | 9% |
-| gemini | 657 | 3% |
+| claude | 24043 | 85% |
+| gemini | 2219 | 7% |
+| codex | 1907 | 6% |
 
 ## By Organ
 
 | Organ | Count | % |
 |-------|-------|---|
-| _root | 7465 | 40% |
-| LIMINAL | 5491 | 29% |
-| META | 2438 | 13% |
-| I | 2076 | 11% |
-| III | 511 | 2% |
-| IV | 378 | 2% |
-| V | 40 | 0% |
-| VII | 24 | 0% |
-| II | 16 | 0% |
+| _root | 12433 | 44% |
+| LIMINAL | 6492 | 23% |
+| META | 4651 | 16% |
+| I | 1829 | 6% |
+| III | 1220 | 4% |
+| IV | 1119 | 3% |
+| V | 183 | 0% |
+| II | 123 | 0% |
+| VII | 110 | 0% |
 | VI | 9 | 0% |
 
 ## Non-Actionable Documents
@@ -173,8 +290,19 @@
 | Plan | Project | Classification |
 |------|---------|----------------|
 | Plans Index | _root | document |
+| Session Closeout: Agentic-Titan Resume | .home-cartridge/Code/organvm/agentic-titan/.claude/plans | git_operation |
+| Closeout Summary: agentic-titan Session 2026-06-07 | .home-cartridge/Code/organvm/agentic-titan/.claude/plans | modify_file |
+| Session Synthesis: The Multiversal "Water" Archite | .home-cartridge/Code/organvm/life-my--midst--in/.gemini/plans | delete_file |
+| Session Synthesis: The Multiversal "Water" Archite | .home-cartridge/Code/organvm/life-my--midst--in/.gemini/plans | delete_file |
+| Vacuum Resolution Plan | .home-cartridge/Code/organvm/sovereign-systems--elevate-align/.gemini/plans | verify |
+| Actual News Hall-Monitor Audit Closeout | .home-cartridge/Code/organvm/the-actual-news/.codex/plans | post_hoc |
+| Actual News Hall-Monitor Audit Closeout | .home-cartridge/Code/organvm/the-actual-news/.claude/worktrees/identity-residual-fixes/.codex/plans | post_hoc |
+| Actual News Hall-Monitor Audit Closeout | .home-cartridge/Code/organvm/the-actual-news/.gemini/worktrees/2026-06-07-14-15-20-108-ccnk/.codex/plans | post_hoc |
 | CI Simplification — From 8 Jobs to 1 | _root | migrate |
 | Limen Pipeline Resilience Plan: Defense-in-Depth A | limen/.claude/worktrees/limen-ops-2026-06-06/.gemini/plans | configure |
+| Session Plan: Milestone 3 — Package Hardening | .home-cartridge/Code/organvm/narratological-algorithmic-lenses/.gemini/plans | generic |
+| Session Plan: Technical Debt, PR Remediation & CI/ | .home-cartridge/Code/organvm/narratological-algorithmic-lenses/.gemini/plans | generic |
+| Plan: Resolve Technical Debt and PR Upgrades (2026 | .home-cartridge/Code/organvm/life-my--midst--in/.gemini/plans | document |
 | Agent Handoff: Limen Throughput Ledger + Public Da | limen-next/.codex/plans | generic |
 | Agent Handoff: Limen Throughput Ledger + Public Da | limen/.codex/plans | generic |
 | Agent Handoff: Limen Throughput Ledger + Public Da | limen/.claude/worktrees/limen-ops-2026-06-06/.codex/plans | generic |
@@ -207,6 +335,11 @@
 | Closeout: Issue Triage — 2026-05-31 | _root | write_test |
 | Agent Handoff: portal-router promotion → merge | _root | document |
 | Plan: Universal Repository Directory-Structure Sta | limen-work/organvm-corpvs-testamentvm/.claude/plans | document |
+| Plan: Universal Repository Directory-Structure Sta | .home-cartridge/Code/organvm/corpvs-irf-repair-2026-06-07/.claude/plans | document |
+| Plan: Universal Repository Directory-Structure Sta | .home-cartridge/Code/organvm/corpvs-irf-actual-news-phase1/.claude/plans | document |
+| Plan: Universal Repository Directory-Structure Sta | .home-cartridge/Code/organvm/organvm-corpvs-testamentvm/.claude/plans | document |
+| Plan: Universal Repository Directory-Structure Sta | .home-cartridge/Code/organvm/corpvs-irf-sys163-status-repair-2026-06-07/.claude/plans | document |
+| Plan: Universal Repository Directory-Structure Sta | .home-cartridge/Code/organvm/corpvs-worktrees/irf-completion-20260607T132238Z/.claude/plans | document |
 | Agent Handoff: `_limen` Operational Axis | _root | deploy |
 | Ideal-Form Constitution — Minimal Surface, Total A | _root | generic |
 | Ideal-form strip-diff preview — 2026-05-29 (NOT AP | _root | post_hoc |
@@ -214,6 +347,11 @@
 | Plan — Session-as-Black-Hole Operating Model | _root | exploration |
 | Files Opened or Touched in This Session | _root | document |
 | Plan — Session-Phase Discipline SOP | limen-work/organvm-corpvs-testamentvm/.claude/plans | generic |
+| Plan — Session-Phase Discipline SOP | .home-cartridge/Code/organvm/corpvs-irf-repair-2026-06-07/.claude/plans | generic |
+| Plan — Session-Phase Discipline SOP | .home-cartridge/Code/organvm/corpvs-irf-actual-news-phase1/.claude/plans | generic |
+| Plan — Session-Phase Discipline SOP | .home-cartridge/Code/organvm/organvm-corpvs-testamentvm/.claude/plans | generic |
+| Plan — Session-Phase Discipline SOP | .home-cartridge/Code/organvm/corpvs-irf-sys163-status-repair-2026-06-07/.claude/plans | generic |
+| Plan — Session-Phase Discipline SOP | .home-cartridge/Code/organvm/corpvs-worktrees/irf-completion-20260607T132238Z/.claude/plans | generic |
 | Session Close-Out — 2026-05-28 | _root | verify |
 | Agent Handoff: Styx CI/ruleset merge sequence — co | _root | document |
 | Skills Usage Audit Report — 2026-05-28 | _root | post_hoc |
@@ -221,6 +359,7 @@
 | Session Close-Out — 2026-05-26 (code-review covera | _root | post_hoc |
 | 2026-05-26 — Daily code review follow-ups | _root | post_hoc |
 | Single-Writer Architecture for Cross-Agent Canonic | _root | create_file |
+| Session Close-Out — 2026-05-23 hall-monitor audit | .home-cartridge/Code/generative-abstract-environments-studies/.claude/plans | post_hoc |
 | 2026-05-23 — Process Pillar Member: Hall-Monitor | 4444J99/portvs/config/_dot-config/.claude/plans | document |
 | 2026-05-23 — Process Pillar Member: Insights Revie | 4444J99/portvs/config/_dot-config/.claude/plans | generic |
 | 2026-05-23 — Process Pillar Member: Research | 4444J99/portvs/config/_dot-config/.claude/plans | research |
@@ -298,11 +437,25 @@
 | Plan: fan-out triage of surfaced session gaps (202 | _root | verify |
 | Plan — Narrative Workbook System for Derek | _root | document |
 | Improvements surfaced by the cross-agent session-d | _root | generic |
+| Cross-Agent Handoff — post-transcription-audit-gap | .home-cartridge/Code/organvm/sovereign-systems--elevate-align/.claude/plans | post_hoc |
+| Cross-Agent Handoff — post-transcription-audit-gap | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/roadmap-drain/.claude/plans | post_hoc |
+| Cross-Agent Handoff — post-transcription-audit-gap | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/containment-board-fix/.claude/plans | post_hoc |
+| Cross-Agent Handoff — post-transcription-audit-gap | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/irf-iii-035/.claude/plans | post_hoc |
 | Hall-Monitor Closeout — Styx Architecture Audit | limen-work/peer-audited--behavioral-blockchain/.codex/plans | post_hoc |
+| Hall-Monitor Closeout — Styx Architecture Audit | .home-cartridge/Code/organvm/peer-audited--behavioral-blockchain/.codex/plans | post_hoc |
+| Hall-Monitor Closeout — Styx Architecture Audit | .home-cartridge/Code/organvm/peer-audited-finishline-670/.codex/plans | post_hoc |
 | Cross-Agent Handoff — post-transcription-audit-gap | _root | post_hoc |
 | Session Close-Out — 2026-05-17 (Phase-4 findings + | _root | post_hoc |
 | Session Close-Out — 2026-05-17 (transcription-audi | _root | post_hoc |
 | Plugin-Surface Reconciliation: Grading / Auditing  | _root | document |
+| Agent Handoff: sovereign-systems-spiral triage-swe | .home-cartridge/Code/organvm/sovereign-systems--elevate-align/.claude/plans | document |
+| Agent Handoff: post-content-leak-scrub aftermath ( | .home-cartridge/Code/organvm/sovereign-systems--elevate-align/.claude/plans | post_hoc |
+| Agent Handoff: sovereign-systems-spiral triage-swe | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/roadmap-drain/.claude/plans | document |
+| Agent Handoff: post-content-leak-scrub aftermath ( | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/roadmap-drain/.claude/plans | post_hoc |
+| Agent Handoff: sovereign-systems-spiral triage-swe | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/containment-board-fix/.claude/plans | document |
+| Agent Handoff: post-content-leak-scrub aftermath ( | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/containment-board-fix/.claude/plans | post_hoc |
+| Agent Handoff: sovereign-systems-spiral triage-swe | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/irf-iii-035/.claude/plans | document |
+| Agent Handoff: post-content-leak-scrub aftermath ( | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/irf-iii-035/.claude/plans | post_hoc |
 | Agent Handoff: sovereign-systems-spiral triage-swe | _root | document |
 | Agent Handoff: AUTOGEN banner + carry-forward clos | _root | git_operation |
 | Agent Handoff: post-content-leak-scrub aftermath ( | _root | post_hoc |
@@ -317,6 +470,7 @@
 | Synthesis: three-transcript walk-through (build →  | _root | configure |
 | Plan: "the work that began this repo" → SOP-plugin | _root | create_file |
 | Plan: Prompting-Best-Practices Synthesis Audit (th | _root | document |
+| Plan: Cluster-route the 20 speech-score-engine roo | .home-cartridge/Code/speech-score-engine/.claude/plans | generic |
 | 2026-05-14 — Prompting Best Practices: Continuous- | _root | generic |
 | Plan: SEED.md Constitutional Completeness | _root | verify |
 | Plan: Fix context sync error line accumulation | _root | generic |
@@ -372,6 +526,8 @@
 | Directory Dissection: meta-organvm Post-Mortem → T | _root | generic |
 | Governance and Orchestration Infrastructure Search | _root | generic |
 | Birth Search — Discovery Interface Over the Invent | _root | document |
+| Untitled Plan | .home-cartridge/Code/speech-score-engine/.claude/plans | generic |
+| Materialize blueprint artifacts + filename + front | .home-cartridge/Code/speech-score-engine/.claude/plans | document |
 | Cross-Agent Handoff: Post Codex-Triage + /init Imp | _root | generic |
 | Plan — pentaphase-structural-architect plugin | _root | generic |
 | Unified Agent Context Directory Design — 2026-05-1 | _root | verify |
@@ -381,19 +537,38 @@
 | Session Close-Out — 2026-05-12 (Orion Absorption) | _root | document |
 | Session Close-Out — 2026-05-12 (v3: Sisyphus hall- | _root | generic |
 | Cross-Session Handoff — git-parity-audit 2026-05-1 | _root | research |
-| Session Close-Out — cowork-vm Skill-Loss Mitigatio | _root | document |
-| Untitled Plan | _root | write_test |
-| Agent Handoff: skills-recovery post-Phase-3c (v2) | _root | generic |
-| Workspace Relocation Manifest | _root | generic |
-| Session Close-Out — 2026-05-11 v2 (skills-recovery | _root | generic |
-| Session Close-Out — 2026-05-11 (effort-aware hooks | _root | git_operation |
-| Plan: Digest 100% of `/Users/4jp/Workspace/composi | _root | generic |
 | Agent Handoff: Self-Review Substrate + Timeline Ar | _root | deploy |
+| CI/CD Pipeline Resilience: Post-Mortem + Cross-Org | .home-cartridge/Code/income-2026-05-04/portfolio-site/.claude/plans | generic |
+| Portfolio Project: Unwritten Conventions & House S | .home-cartridge/Code/income-2026-05-04/portfolio-site/.claude/plans | document |
+| Agent Handoff — Relay Follow-ups Completion | .home-cartridge/Code/organvm/sovereign-systems--elevate-align/.claude/plans | document |
+| Agent Handoff — Relay Follow-ups Completion | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/roadmap-drain/.claude/plans | document |
+| Agent Handoff — Relay Follow-ups Completion | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/containment-board-fix/.claude/plans | document |
+| Agent Handoff — Relay Follow-ups Completion | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/irf-iii-035/.claude/plans | document |
 | Agent Handoff: Parity-Rectification Cascade | _root | generic |
+| Plan — Translating Maddie's 2026-05-01 Messages in | .home-cartridge/Code/organvm/sovereign-systems--elevate-align/.claude/plans | verify |
+| Plan — Translating Maddie's 2026-05-01 Messages in | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/roadmap-drain/.claude/plans | verify |
+| Plan — Translating Maddie's 2026-05-01 Messages in | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/containment-board-fix/.claude/plans | verify |
+| Plan — Translating Maddie's 2026-05-01 Messages in | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/irf-iii-035/.claude/plans | verify |
+| Plan: Absorb 100% context from 6 TMPDIR session ex | .home-cartridge/Code/income-2026-05-04/portfolio-site/.claude/plans | document |
 | Plan: Absorb 100% context from 6 TMPDIR session ex | 4444J99/portfolio/.claude/plans | document |
+| Hall-Monitor Audit + Close-Out Plan — Sovereign Sp | .home-cartridge/Code/organvm/sovereign-systems--elevate-align/.codex/plans | modify_file |
+| Hall-Monitor Audit + Close-Out Plan — Sovereign Sp | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/roadmap-drain/.codex/plans | modify_file |
+| Hall-Monitor Audit + Close-Out Plan — Sovereign Sp | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/containment-board-fix/.codex/plans | modify_file |
+| Hall-Monitor Audit + Close-Out Plan — Sovereign Sp | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/irf-iii-035/.codex/plans | modify_file |
 | /init Audit Workflows — Design | _root | post_hoc |
+| Plan: CLAUDE.md improvements for sovereign-systems | .home-cartridge/Code/organvm/sovereign-systems--elevate-align/.claude/plans | modify_file |
+| Plan: CLAUDE.md improvements for sovereign-systems | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/roadmap-drain/.claude/plans | modify_file |
+| Plan: CLAUDE.md improvements for sovereign-systems | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/containment-board-fix/.claude/plans | modify_file |
+| Plan: CLAUDE.md improvements for sovereign-systems | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/irf-iii-035/.claude/plans | modify_file |
+| Antigravity Voice Assistant Bridge (macOS) — 2026- | forge-worktrees/sign-signal--voice-synth-worktree/.gemini/plans | generic |
 | Refactor: Raw Dump → Cascading Workstreams | limen-work/my-knowledge-base/.gemini/plans | configure |
+| Refactor: Raw Dump → Cascading Workstreams | .home-cartridge/Code/organvm/knowledge-base-phase-two/.gemini/plans | configure |
+| Refactor: Raw Dump → Cascading Workstreams | .home-cartridge/Code/organvm/knowledge-base-synthesis/.gemini/plans | configure |
+| Antigravity Voice Assistant Bridge (macOS) — 2026- | .home-cartridge/Code/organvm/sign-signal--voice-synth/.gemini/plans | generic |
+| Refactor: Raw Dump → Cascading Workstreams | .home-cartridge/_swept/knowledge-base-export-2026-05-17/my-knowledge-base/.gemini/plans | configure |
 | Refactor: Raw Dump → Cascading Workstreams | a-organvm/my-knowledge-base/.gemini/plans | configure |
+| QA & Completeness Pass — Disparate Lens-Protocol / | .home-cartridge/Code/organvm/praxis-perpetua/.claude/plans | document |
+| Refactored Workstreams — 2026-04-28 | .home-cartridge/Code/organvm/sovereign-systems--elevate-align/.gemini/plans | generic |
 | Refactored Workstreams — 2026-04-28 | 4444J99/hokage-chess/.gemini/plans | generic |
 | Rob Evidence of Existence System Audit | 4444J99/hokage-chess/.codex/plans | post_hoc |
 | The Ark — Past-Week Prompt Corpus | _root | generic |
@@ -404,6 +579,16 @@
 | Warp Performance Diagnosis — Voice Lag Root Cause  | _root | generic |
 | Renamed from: you-re-auditing-reviewing-federated- | _root | post_hoc |
 | HALL-MONITOR AUDIT & CRITICAL RECOVERY PROTOCOL | limen-work/organvm-corpvs-testamentvm/.gemini/plans | git_operation |
+| HALL-MONITOR AUDIT & CRITICAL RECOVERY PROTOCOL | .home-cartridge/Code/organvm/corpvs-irf-repair-2026-06-07/.gemini/plans | git_operation |
+| HALL-MONITOR AUDIT & CRITICAL RECOVERY PROTOCOL | .home-cartridge/Code/organvm/corpvs-irf-actual-news-phase1/.gemini/plans | git_operation |
+| RESEARCH_ATLAS_V3: Dissertation-Grade OS | .home-cartridge/Code/organvm/praxis-perpetua/.gemini/plans | generic |
+| HALL-MONITOR AUDIT & CRITICAL RECOVERY PROTOCOL | .home-cartridge/Code/organvm/organvm-corpvs-testamentvm/.gemini/plans | git_operation |
+| HALL-MONITOR AUDIT & CRITICAL RECOVERY PROTOCOL | .home-cartridge/Code/organvm/corpvs-irf-sys163-status-repair-2026-06-07/.gemini/plans | git_operation |
+| Visibility Schema Substrate Sweep (The Alpha to Om | .home-cartridge/Code/organvm/orchestration-start-here/.gemini/plans | modify_file |
+| SOP: Reflexive Loop Human Anchoring (The Ouroboros | .home-cartridge/Code/organvm/orchestration-start-here/.gemini/plans | review |
+| HALL-MONITOR AUDIT & CRITICAL RECOVERY PROTOCOL | .home-cartridge/Code/organvm/corpvs-worktrees/irf-completion-20260607T132238Z/.gemini/plans | git_operation |
+| 2026-04-25 — Sourced CI Failure Ledger | session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/domus-genoma/.claude/plans | research |
+| 2026-04-25 — SYS-156 User Decision Packet | session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/domus-genoma/.claude/plans | research |
 | 2026-04-25 — Sourced CI Failure Ledger | 4444J99/domus-semper-palingenesis/.claude/plans | research |
 | 2026-04-25 — SYS-156 User Decision Packet | 4444J99/domus-semper-palingenesis/.claude/plans | research |
 | 2026-04-25 — Sourced CI Failure Ledger | 4444J99/domus-semper-palingenesis/.claude/worktrees/agent-doctor/.claude/plans | research |
@@ -413,69 +598,63 @@
 | Rob/Hokage Prompt Corpus — Past 72 Hours (2026-04- | _root | exploration |
 | SYS-156 — GitHub Notification Triage (P0) | _root | configure |
 | Email Triage — Repeatable Process Plan | _root | create_file |
+| Sticky Note Atom Routing — 2026-04-22 | session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/domus-genoma/.claude/plans | exploration |
 | Sticky Note Atom Routing — 2026-04-22 | 4444J99/domus-semper-palingenesis/.claude/plans | exploration |
 | Sticky Note Atom Routing — 2026-04-22 | 4444J99/domus-semper-palingenesis/.claude/worktrees/agent-doctor/.claude/plans | exploration |
 | Conductor Session Handoff — 2026-04-22 v2 | _root | document |
 | Conductor Session Handoff — 2026-04-22 | _root | verify |
 | Sticky Note Atom Routing — 2026-04-22 | _root | exploration |
 | Declarative Configuration Landscape Research | a-organvm/.claude/plans | configure |
+| Institutional Substrate Phase 0 — Implementation P | .home-cartridge/Code/organvm/organvm-engine/.claude/plans | create_file |
+| Institutional Substrate Phase 0 — Implementation P | .home-cartridge/Code/organvm/organvm-engine/.claude/worktrees/irf-sys-254-density-restoration/.claude/plans | create_file |
+| Institutional Substrate Phase 0 — Implementation P | .home-cartridge/Code/organvm/organvm-engine/.gemini/worktrees/2026-06-07-15-25-24-059-c2yo/.claude/plans | create_file |
 | Declarative Configuration Landscape Research | _root | configure |
 | Zeitgeist Carrier Wave — Research Dispatch Plan | _root | generic |
+| S-Constitutional-Wiring: Restore Corpus Access + W | .home-cartridge/Code/organvm/organvm-engine/.claude/plans | research |
+| S-Constitutional-Wiring: Restore Corpus Access + W | .home-cartridge/Code/organvm/organvm-engine/.claude/worktrees/irf-sys-254-density-restoration/.claude/plans | research |
+| S-Constitutional-Wiring: Restore Corpus Access + W | .home-cartridge/Code/organvm/organvm-engine/.gemini/worktrees/2026-06-07-15-25-24-059-c2yo/.claude/plans | research |
+| Comprehensive Maddie Request Audit — 2026-04-17 | .home-cartridge/Code/organvm/sovereign-systems--elevate-align/.claude/plans | git_operation |
+| Comprehensive Maddie Request Audit — 2026-04-17 | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/roadmap-drain/.claude/plans | git_operation |
+| Comprehensive Maddie Request Audit — 2026-04-17 | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/containment-board-fix/.claude/plans | git_operation |
+| Comprehensive Maddie Request Audit — 2026-04-17 | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/irf-iii-035/.claude/plans | git_operation |
 | Plugin Errors + Activity Monitor Review | _root | post_hoc |
+| Session Close-Out Plan: S-contrib-execution-2 (202 | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | generic |
+| S-Zettelkasten Successor: Complete the Zettelkaste | .home-cartridge/Code/organvm/post-flood/.claude/plans | document |
 | Ideal Form Classification — What Each Repo Reaches | a-organvm/.claude/plans | generic |
+| UMFAS Birth Sequence — Step 1: INVENTORY | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | git_operation |
 | Fortify-ORGANVM Postmortem: Governance Threshold M | _root | verify |
 | Universal Modular Fractal Alchemical Synthesizer — | a-organvm/.claude/plans | generic |
+| META-ORGANVM — Top-to-Bottom Structural Analysis | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | modify_file |
+| Universal Modular Fractal Alchemical Synthesizer — | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | generic |
+| Plan: Bidirectional Process Crystallization | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-iv-taxis/.claude/plans | create_file |
+| META-ORGANVM — Top-to-Bottom Structural Analysis | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-iv-taxis/.claude/plans | modify_file |
+| Universal Modular Fractal Alchemical Synthesizer — | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-iv-taxis/.claude/plans | generic |
+| Directory Dissection: meta-organvm Post-Mortem → T | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | generic |
+| Flat Verb Map — meta-organvm Functional Deduplicat | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | document |
+| Prompt Archaeology — Full Corpus Assembly | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | configure |
+| Universal Prompt Archaeology — System-Wide Extract | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | exploration |
+| Reconciliation Handoff Groupings | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.codex/plans | git_operation |
+| Audit: Documentation Handoff Architecture | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | modify_file |
+| Plan: Define AI Agent Fleet — Limits, Abilities, a | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-iv-taxis/.claude/plans | generic |
 | Temporal Maturity Vacuum Audit | a-organvm/.codex/plans | post_hoc |
-| S40 Plan: Full-Breath Session — Ops Recovery, Code | limen-work/LIMEN-055/.claude/plans | generic |
-| S40 Plan: Full-Breath Session — Ops Recovery, Code | limen-work/LIMEN-052/.claude/plans | generic |
-| S40 Plan: Full-Breath Session — Ops Recovery, Code | limen-work/LIMEN-053/.claude/plans | generic |
-| S40 Plan: Full-Breath Session — Ops Recovery, Code | limen-work/LIMEN-054/.claude/plans | generic |
+| Maddie Spiral Orchestration Assignment | .home-cartridge/Code/organvm/sovereign-systems--elevate-align/.claude/plans | review |
+| Maddie Spiral Session-Close Audit | .home-cartridge/Code/organvm/sovereign-systems--elevate-align/.claude/plans | post_hoc |
+| Maddie Spiral Orchestration Assignment | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/roadmap-drain/.claude/plans | review |
+| Maddie Spiral Session-Close Audit | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/roadmap-drain/.claude/plans | post_hoc |
+| Maddie Spiral Orchestration Assignment | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/containment-board-fix/.claude/plans | review |
+| Maddie Spiral Session-Close Audit | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/containment-board-fix/.claude/plans | post_hoc |
+| Maddie Spiral Orchestration Assignment | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/irf-iii-035/.claude/plans | review |
+| Maddie Spiral Session-Close Audit | .home-cartridge/Code/organvm/sovereign-systems--elevate-align-worktrees/irf-iii-035/.claude/plans | post_hoc |
+| Transcript Ingestion Plan: S48/S49 Full Audit & Re | .home-cartridge/Code/organvm/orchestration-start-here/.gemini/plans | generic |
+| Session Closure Health Audit — Two Prior Sessions | .home-cartridge/Code/organvm/orchestration-start-here/.claude/plans | modify_file |
+| Energy-Expelling State Changes + Claude Plans Hand | .home-cartridge/Code/organvm/orchestration-start-here/.claude/plans | configure |
 | S40 Plan: Full-Breath Session — Ops Recovery, Code | limen-work/conversation-corpus-engine/.claude/plans | generic |
-| S40 Plan: Full-Breath Session — Ops Recovery, Code | limen-work/LIMEN-056/.claude/plans | generic |
-| S40 Plan: Full-Breath Session — Ops Recovery, Code | limen-work/LIMEN-058/.claude/plans | generic |
-| S40 Plan: Full-Breath Session — Ops Recovery, Code | limen-work/LIMEN-059/.claude/plans | generic |
-| S40 Plan: Full-Breath Session — Ops Recovery, Code | limen-work/LIMEN-057/.claude/plans | generic |
+| Patch-Based Signal Architecture for SOP Governance | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | configure |
+| S40 Plan: Full-Breath Session — Ops Recovery, Code | .home-cartridge/Code/organvm/conversation-corpus-engine/.claude/plans | generic |
+| Conductor Temporal Architecture — The Click Track | .home-cartridge/Code/organvm/tool-interaction-design/.claude/plans | generic |
+| Corpus Temporal Architecture — The Constitutional  | .home-cartridge/Code/organvm/tool-interaction-design/.claude/plans | document |
 | Full Quadrant Distribution — Work Item Specificati | 4444J99/application-pipeline/.claude/plans | exploration |
-| Exhaustive Forward Campaign v12 | limen-work/LIMEN-055/.codex/plans | generic |
-| Exhaustive Forward Campaign v13 | limen-work/LIMEN-055/.codex/plans | generic |
-| Exhaustive Forward Campaign v14 | limen-work/LIMEN-055/.codex/plans | review |
-| Exhaustive Forward Campaign v15 | limen-work/LIMEN-055/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion | limen-work/LIMEN-055/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion v10 | limen-work/LIMEN-055/.codex/plans | configure |
-| Post-Federated-Canon Forward Propulsion v11 | limen-work/LIMEN-055/.codex/plans | configure |
-| Post-Federated-Canon Forward Propulsion v4 | limen-work/LIMEN-055/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion v8 | limen-work/LIMEN-055/.codex/plans | configure |
-| Session Closeout Audit v17 | limen-work/LIMEN-055/.codex/plans | post_hoc |
-| Exhaustive Forward Campaign v12 | limen-work/LIMEN-052/.codex/plans | generic |
-| Exhaustive Forward Campaign v13 | limen-work/LIMEN-052/.codex/plans | generic |
-| Exhaustive Forward Campaign v14 | limen-work/LIMEN-052/.codex/plans | review |
-| Exhaustive Forward Campaign v15 | limen-work/LIMEN-052/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion | limen-work/LIMEN-052/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion v10 | limen-work/LIMEN-052/.codex/plans | configure |
-| Post-Federated-Canon Forward Propulsion v11 | limen-work/LIMEN-052/.codex/plans | configure |
-| Post-Federated-Canon Forward Propulsion v4 | limen-work/LIMEN-052/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion v8 | limen-work/LIMEN-052/.codex/plans | configure |
-| Session Closeout Audit v17 | limen-work/LIMEN-052/.codex/plans | post_hoc |
-| Exhaustive Forward Campaign v12 | limen-work/LIMEN-053/.codex/plans | generic |
-| Exhaustive Forward Campaign v13 | limen-work/LIMEN-053/.codex/plans | generic |
-| Exhaustive Forward Campaign v14 | limen-work/LIMEN-053/.codex/plans | review |
-| Exhaustive Forward Campaign v15 | limen-work/LIMEN-053/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion | limen-work/LIMEN-053/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion v10 | limen-work/LIMEN-053/.codex/plans | configure |
-| Post-Federated-Canon Forward Propulsion v11 | limen-work/LIMEN-053/.codex/plans | configure |
-| Post-Federated-Canon Forward Propulsion v4 | limen-work/LIMEN-053/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion v8 | limen-work/LIMEN-053/.codex/plans | configure |
-| Session Closeout Audit v17 | limen-work/LIMEN-053/.codex/plans | post_hoc |
-| Exhaustive Forward Campaign v12 | limen-work/LIMEN-054/.codex/plans | generic |
-| Exhaustive Forward Campaign v13 | limen-work/LIMEN-054/.codex/plans | generic |
-| Exhaustive Forward Campaign v14 | limen-work/LIMEN-054/.codex/plans | review |
-| Exhaustive Forward Campaign v15 | limen-work/LIMEN-054/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion | limen-work/LIMEN-054/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion v10 | limen-work/LIMEN-054/.codex/plans | configure |
-| Post-Federated-Canon Forward Propulsion v11 | limen-work/LIMEN-054/.codex/plans | configure |
-| Post-Federated-Canon Forward Propulsion v4 | limen-work/LIMEN-054/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion v8 | limen-work/LIMEN-054/.codex/plans | configure |
-| Session Closeout Audit v17 | limen-work/LIMEN-054/.codex/plans | post_hoc |
+| Context Sync Propagation Log — 2026-03-25 | .home-cartridge/Code/organvm/stakeholder-portal/.claude/plans | deploy |
 | Exhaustive Forward Campaign v12 | limen-work/conversation-corpus-engine/.codex/plans | generic |
 | Exhaustive Forward Campaign v13 | limen-work/conversation-corpus-engine/.codex/plans | generic |
 | Exhaustive Forward Campaign v14 | limen-work/conversation-corpus-engine/.codex/plans | review |
@@ -486,77 +665,120 @@
 | Post-Federated-Canon Forward Propulsion v4 | limen-work/conversation-corpus-engine/.codex/plans | generic |
 | Post-Federated-Canon Forward Propulsion v8 | limen-work/conversation-corpus-engine/.codex/plans | configure |
 | Session Closeout Audit v17 | limen-work/conversation-corpus-engine/.codex/plans | post_hoc |
-| Exhaustive Forward Campaign v12 | limen-work/LIMEN-056/.codex/plans | generic |
-| Exhaustive Forward Campaign v13 | limen-work/LIMEN-056/.codex/plans | generic |
-| Exhaustive Forward Campaign v14 | limen-work/LIMEN-056/.codex/plans | review |
-| Exhaustive Forward Campaign v15 | limen-work/LIMEN-056/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion | limen-work/LIMEN-056/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion v10 | limen-work/LIMEN-056/.codex/plans | configure |
-| Post-Federated-Canon Forward Propulsion v11 | limen-work/LIMEN-056/.codex/plans | configure |
-| Post-Federated-Canon Forward Propulsion v4 | limen-work/LIMEN-056/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion v8 | limen-work/LIMEN-056/.codex/plans | configure |
-| Session Closeout Audit v17 | limen-work/LIMEN-056/.codex/plans | post_hoc |
-| Exhaustive Forward Campaign v12 | limen-work/LIMEN-058/.codex/plans | generic |
-| Exhaustive Forward Campaign v13 | limen-work/LIMEN-058/.codex/plans | generic |
-| Exhaustive Forward Campaign v14 | limen-work/LIMEN-058/.codex/plans | review |
-| Exhaustive Forward Campaign v15 | limen-work/LIMEN-058/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion | limen-work/LIMEN-058/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion v10 | limen-work/LIMEN-058/.codex/plans | configure |
-| Post-Federated-Canon Forward Propulsion v11 | limen-work/LIMEN-058/.codex/plans | configure |
-| Post-Federated-Canon Forward Propulsion v4 | limen-work/LIMEN-058/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion v8 | limen-work/LIMEN-058/.codex/plans | configure |
-| Session Closeout Audit v17 | limen-work/LIMEN-058/.codex/plans | post_hoc |
-| Exhaustive Forward Campaign v12 | limen-work/LIMEN-059/.codex/plans | generic |
-| Exhaustive Forward Campaign v13 | limen-work/LIMEN-059/.codex/plans | generic |
-| Exhaustive Forward Campaign v14 | limen-work/LIMEN-059/.codex/plans | review |
-| Exhaustive Forward Campaign v15 | limen-work/LIMEN-059/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion | limen-work/LIMEN-059/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion v10 | limen-work/LIMEN-059/.codex/plans | configure |
-| Post-Federated-Canon Forward Propulsion v11 | limen-work/LIMEN-059/.codex/plans | configure |
-| Post-Federated-Canon Forward Propulsion v4 | limen-work/LIMEN-059/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion v8 | limen-work/LIMEN-059/.codex/plans | configure |
-| Session Closeout Audit v17 | limen-work/LIMEN-059/.codex/plans | post_hoc |
-| Exhaustive Forward Campaign v12 | limen-work/LIMEN-057/.codex/plans | generic |
-| Exhaustive Forward Campaign v13 | limen-work/LIMEN-057/.codex/plans | generic |
-| Exhaustive Forward Campaign v14 | limen-work/LIMEN-057/.codex/plans | review |
-| Exhaustive Forward Campaign v15 | limen-work/LIMEN-057/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion | limen-work/LIMEN-057/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion v10 | limen-work/LIMEN-057/.codex/plans | configure |
-| Post-Federated-Canon Forward Propulsion v11 | limen-work/LIMEN-057/.codex/plans | configure |
-| Post-Federated-Canon Forward Propulsion v4 | limen-work/LIMEN-057/.codex/plans | generic |
-| Post-Federated-Canon Forward Propulsion v8 | limen-work/LIMEN-057/.codex/plans | configure |
-| Session Closeout Audit v17 | limen-work/LIMEN-057/.codex/plans | post_hoc |
+| Exhaustive Forward Campaign v12 | .home-cartridge/Code/organvm/conversation-corpus-engine/.codex/plans | generic |
+| Exhaustive Forward Campaign v13 | .home-cartridge/Code/organvm/conversation-corpus-engine/.codex/plans | generic |
+| Exhaustive Forward Campaign v14 | .home-cartridge/Code/organvm/conversation-corpus-engine/.codex/plans | review |
+| Exhaustive Forward Campaign v15 | .home-cartridge/Code/organvm/conversation-corpus-engine/.codex/plans | generic |
+| Post-Federated-Canon Forward Propulsion | .home-cartridge/Code/organvm/conversation-corpus-engine/.codex/plans | generic |
+| Post-Federated-Canon Forward Propulsion v10 | .home-cartridge/Code/organvm/conversation-corpus-engine/.codex/plans | configure |
+| Post-Federated-Canon Forward Propulsion v11 | .home-cartridge/Code/organvm/conversation-corpus-engine/.codex/plans | configure |
+| Post-Federated-Canon Forward Propulsion v4 | .home-cartridge/Code/organvm/conversation-corpus-engine/.codex/plans | generic |
+| Post-Federated-Canon Forward Propulsion v8 | .home-cartridge/Code/organvm/conversation-corpus-engine/.codex/plans | configure |
+| Session Closeout Audit v17 | .home-cartridge/Code/organvm/conversation-corpus-engine/.codex/plans | post_hoc |
+| The Living Stratigraphy — `organvm fossil` | .home-cartridge/Code/organvm/organvm-engine/.claude/plans | modify_file |
+| The Living Stratigraphy — `organvm fossil` | .home-cartridge/Code/organvm/organvm-engine/.claude/worktrees/irf-sys-254-density-restoration/.claude/plans | modify_file |
+| The Living Stratigraphy — `organvm fossil` | .home-cartridge/Code/organvm/organvm-engine/.gemini/worktrees/2026-06-07-15-25-24-059-c2yo/.claude/plans | modify_file |
+| Phase 4: Scaling & Collaboration Implementation Pl | forge-worktrees/specvla-ergon--avditor-mvndi-worktree/.claude/plans | modify_file |
 | Phase 4: Scaling & Collaboration Implementation Pl | session-meta/data/session-transcripts/intake/dwv/specvla-ergon--avditor-mvndi/.claude/plans | modify_file |
-| Evaluation Extraction Plan | limen-work/LIMEN-055/.codex/plans | generic |
-| Provider Refresh Orchestration Plan | limen-work/LIMEN-055/.codex/plans | migrate |
-| Evaluation Extraction Plan | limen-work/LIMEN-052/.codex/plans | generic |
-| Provider Refresh Orchestration Plan | limen-work/LIMEN-052/.codex/plans | migrate |
-| Evaluation Extraction Plan | limen-work/LIMEN-053/.codex/plans | generic |
-| Provider Refresh Orchestration Plan | limen-work/LIMEN-053/.codex/plans | migrate |
-| Evaluation Extraction Plan | limen-work/LIMEN-054/.codex/plans | generic |
-| Provider Refresh Orchestration Plan | limen-work/LIMEN-054/.codex/plans | migrate |
+| Phase 4: Scaling & Collaboration Implementation Pl | .home-cartridge/Code/intake/dwv/specvla-ergon--avditor-mvndi/.claude/plans | modify_file |
+| Phase 4: Scaling & Collaboration Implementation Pl | .home-cartridge/Code/organvm/growth-auditor/.claude/plans | modify_file |
+| Corpvs Testamentvm Decomposition Plan | .home-cartridge/Code/organvm/post-flood/.claude/plans | modify_file |
+| Post-Flood Constitutional Implementation | .home-cartridge/Code/organvm/post-flood/.claude/plans | verify |
 | Evaluation Extraction Plan | limen-work/conversation-corpus-engine/.codex/plans | generic |
 | Provider Refresh Orchestration Plan | limen-work/conversation-corpus-engine/.codex/plans | migrate |
-| Evaluation Extraction Plan | limen-work/LIMEN-056/.codex/plans | generic |
-| Provider Refresh Orchestration Plan | limen-work/LIMEN-056/.codex/plans | migrate |
-| Evaluation Extraction Plan | limen-work/LIMEN-058/.codex/plans | generic |
-| Provider Refresh Orchestration Plan | limen-work/LIMEN-058/.codex/plans | migrate |
-| Evaluation Extraction Plan | limen-work/LIMEN-059/.codex/plans | generic |
-| Provider Refresh Orchestration Plan | limen-work/LIMEN-059/.codex/plans | migrate |
-| Evaluation Extraction Plan | limen-work/LIMEN-057/.codex/plans | generic |
-| Provider Refresh Orchestration Plan | limen-work/LIMEN-057/.codex/plans | migrate |
+| V2 Topology And Migration | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/.codex/plans | configure |
+| Evaluation Extraction Plan | .home-cartridge/Code/organvm/conversation-corpus-engine/.codex/plans | generic |
+| Provider Refresh Orchestration Plan | .home-cartridge/Code/organvm/conversation-corpus-engine/.codex/plans | migrate |
+| CCE Surface MCP Exposure V1 | .home-cartridge/Code/organvm/organvm-mcp-server/.codex/plans | create_file |
+| CCE Surface Ingestion V1 | .home-cartridge/Code/organvm/organvm-engine/.codex/plans | review |
+| CCE Surface Ingestion V1 | .home-cartridge/Code/organvm/organvm-engine/.claude/worktrees/irf-sys-254-density-restoration/.codex/plans | review |
+| CCE Surface Ingestion V1 | .home-cartridge/Code/organvm/organvm-engine/.gemini/worktrees/2026-06-07-15-25-24-059-c2yo/.codex/plans | review |
+| Network Testament Protocol — Design Specification | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | generic |
+| SGO-2026-D-003: Object-Attention in Art — Disserta | .home-cartridge/Code/organvm/praxis-perpetua/.claude/plans | write_test |
 | Evaluation-to-Growth Report — March 18-20 Session  | 4444J99/application-pipeline/.claude/plans | generic |
+| AMP Lab ORGANVM Integration — Implementation Plan | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | generic |
+| UX Redesign Research: High-Density, Attention-Hold | .home-cartridge/Code/income-2026-05-04/portfolio-site/.claude/plans | generic |
+| Post-Flood Spec Implementation Methodology (v2) | .home-cartridge/Code/organvm/post-flood/.claude/plans | generic |
+| Post-Flood Spec Implementation Methodology | .home-cartridge/Code/organvm/post-flood/.claude/plans | generic |
 | UX Redesign Research: High-Density, Attention-Hold | 4444J99/portfolio/.claude/plans | generic |
 | Materials Reorganization Plan | 4444J99/application-pipeline/.claude/plans | generic |
+| SPEC-SVSE-001 Completion: Rollups, Thresholds, Con | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | generic |
+| Refactoring Markdown Specifications | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.gemini/plans | modify_file |
+| Claude Manual Evaluation And Promotion Readiness | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/chatgpt-history/.codex/plans | post_hoc |
+| Untitled Plan | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/chatgpt-history/.codex/plans | review |
+| Untitled Plan | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/chatgpt-history/.codex/plans | generic |
+| Post-Promotion-Proven Burn-In Roadmap | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/chatgpt-history/.codex/plans | generic |
+| Post-Provider-Readiness Roadmap | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/chatgpt-history/.codex/plans | migrate |
+| Ontologia Activation — From Code to Operational Ba | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | git_operation |
+| Canonical Review Application And Detector Refineme | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/chatgpt-history/.codex/plans | post_hoc |
+| Cross-Corpus Canon, Review, Synthesis, and Evaluat | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/chatgpt-history/.codex/plans | post_hoc |
+| Untitled Plan | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/chatgpt-history/.codex/plans | generic |
+| Manual Gold Promotion | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/chatgpt-history/.codex/plans | generic |
+| Markdown Corpus Signal Reduction And Manual Eval | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/chatgpt-history/.codex/plans | migrate |
+| 2026-03-13 Post-Transactional Promotion Governance | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/chatgpt-history/.codex/plans | create_file |
+| Untitled Plan | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/chatgpt-history/.codex/plans | generic |
+| Promotion Governance Implementation | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/chatgpt-history/.codex/plans | generic |
+| Retrieval Rerank Quality Pass | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/chatgpt-history/.codex/plans | generic |
+| Untitled Plan | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/chatgpt-history/.codex/plans | write_test |
+| Semantic-v3, Graph, Ledgers, Review, Automation | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/chatgpt-history/.codex/plans | post_hoc |
+| Sparse Corpus Manual Eval Promotion | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/chatgpt-history/.codex/plans | delete_file |
+| Triage, Canon Materialization, And Detector Evalua | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-i-theoria/conversation-corpus-site/chatgpt-history/.codex/plans | post_hoc |
+| Pulse: The System's Nervous System & Self-Awarenes | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | create_file |
+| Atomic Corpus Branch Preservation Plan | .home-cartridge/Code/organvm/atomic-substrata/.codex/plans | configure |
+| Atomic Corpus Branch Preservation Plan | .home-cartridge/_swept/knowledge-base-export-2026-05-17/atomic-substrata/.codex/plans | configure |
+| Plan: Ecosystem Activation — Meta-Org-Wide Workflo | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | generic |
 | Plan: Positioning Core | limen-work/peer-audited--behavioral-blockchain/.codex/plans | delete_file |
+| Plan: Positioning Core | .home-cartridge/Code/organvm/peer-audited--behavioral-blockchain/.codex/plans | delete_file |
+| Plan: Positioning Core | .home-cartridge/Code/organvm/peer-audited-finishline-670/.codex/plans | delete_file |
 | Architecture: Ergon Test Harness (`ergon-test-harn | limen-work/peer-audited--behavioral-blockchain/.gemini/plans | verify |
 | Plan: Organ III Test Repo Functional Spec | limen-work/peer-audited--behavioral-blockchain/.gemini/plans | write_test |
+| 2026-03-09 Exhaustive CI Remediation Plan | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.gemini/plans | modify_file |
+| Oracle Advisory Attack Plan | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | generic |
+| Phase 2: Activation Pipeline — Research → Implemen | .home-cartridge/Code/organvm/tool-interaction-design/.claude/plans | create_file |
+| Research Corpus Activation — Phase 1 Complete + Ba | .home-cartridge/Code/organvm/tool-interaction-design/.claude/plans | deploy |
 | CI/CD Pipeline Resilience: Post-Mortem + Cross-Org | 4444J99/portfolio/.claude/plans | generic |
 | Portfolio Project: Unwritten Conventions & House S | 4444J99/portfolio/.claude/plans | document |
+| Chronological User Prompts — Past 48 Hours | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | exploration |
+| 48-Hour Prompt Narrative | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | exploration |
+| Task Triage Report — 2026-03-07 | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | generic |
+| Plan: Genesis Sweep + Session Intelligence System | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | review |
+| Part 4: Atom Pipeline Maturation — Quality, Integr | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | configure |
+| Organvm-Engine Codebase Exploration Plan | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | document |
+| Plan: Research Standards SOP Cluster | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | create_file |
+| Synthesis: The Director, the Habitat, and the Know | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | verify |
+| Conversation Summary: Research Ingestion SOP Searc | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-iv-taxis/.claude/plans | document |
+| Plan: Activate the Conductor as the Interaction Bu | .home-cartridge/Code/organvm/tool-interaction-design/.claude/plans | generic |
+| Process Self-Analysis: What the Pipeline Data Reve | .home-cartridge/Code/organvm/organvm-engine/.claude/plans | generic |
+| Process Self-Analysis: What the Pipeline Data Reve | .home-cartridge/Code/organvm/organvm-engine/.claude/worktrees/irf-sys-254-density-restoration/.claude/plans | generic |
+| Process Self-Analysis: What the Pipeline Data Reve | .home-cartridge/Code/organvm/organvm-engine/.gemini/worktrees/2026-06-07-15-25-24-059-c2yo/.claude/plans | generic |
 | Application Pipeline: Five-Phase Infrastructure En | 4444J99/application-pipeline/.claude/plans | create_file |
+| Claude Archives Inventory — Portfolio Project | .home-cartridge/Code/income-2026-05-04/portfolio-site/.claude/plans | document |
+| Content-Based Linking Analysis: Comprehensive Conv | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | document |
+| Living Data Organism — Implementation Record | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | write_test |
+| OrganVM Identity & Linking Analysis - Comprehensiv | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | generic |
+| Research Ingestion/Synthesis/Digestion SOP Discove | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | generic |
+| ORGANVM-IV Research Directory Exploration Plan | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-iv-taxis/.claude/plans | document |
+| ORGANVM-IV Research Ingestion SOP Discovery — Conv | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-iv-taxis/.claude/plans | research |
+| ORGANVM-IV: Research Ingestion SOP Investigation | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-iv-taxis/.claude/plans | document |
+| Embedding Solutions Analysis for Stakeholder Porta | .home-cartridge/Code/organvm/stakeholder-portal/.claude/plans | configure |
+| Stakeholder Portal Entity/Disambiguation/Graph Lay | .home-cartridge/Code/organvm/stakeholder-portal/.claude/plans | generic |
 | Claude Archives Inventory — Portfolio Project | 4444J99/portfolio/.claude/plans | document |
+| Plan: Per-Project Alpha-to-Omega Progress Bar — v2 | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-iv-taxis/.claude/plans | generic |
+| 2026-03-04 — Full Implementation: Executor Complet | .home-cartridge/Code/organvm/tool-interaction-design/.claude/plans | generic |
+| Guardian Angel: Oracle Expansion Plan | .home-cartridge/Code/organvm/tool-interaction-design/.claude/plans | create_file |
 | Application Pipeline: Five-Phase Infrastructure En | 4444J99/application-pipeline/.claude/plans | create_file |
+| Extension Reduction & Summoning Strategy | session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/domus-genoma/.gemini/plans | deploy |
+| Implementation Plan: Fix CI Workflow Context Warni | .home-cartridge/Code/organvm/stakeholder-portal/.gemini/plans | modify_file |
+| Implementation Plan: High-Leverage Sequence | .home-cartridge/Code/organvm/stakeholder-portal/.gemini/plans | configure |
 | Extension Reduction & Summoning Strategy | 4444J99/domus-semper-palingenesis/.gemini/plans | deploy |
 | Extension Reduction & Summoning Strategy | 4444J99/domus-semper-palingenesis/.claude/worktrees/agent-doctor/.gemini/plans | deploy |
+| Stakeholder Portal Omnipresence + Omnipotence Plan | .home-cartridge/Code/organvm/stakeholder-portal/.codex/plans | document |
+| Stakeholder Portal Omnipresence + Omnipotence Plan | .home-cartridge/Code/organvm/stakeholder-portal/.codex/plans | document |
+| Plan: The Patchbay — Conductor's Command Center | .home-cartridge/Code/organvm/tool-interaction-design/.claude/plans | create_file |
+| Tool Interaction Design — Complete YAML Exploratio | .home-cartridge/Code/organvm/tool-interaction-design/.claude/plans | generic |
+| Plan: Citations + Log Restructuring for ORGAN-V | .home-cartridge/Code/organvm/essay-pipeline/.claude/plans | create_file |
 | Application Pipeline: Algorithmic Patterns Discove | 4444J99/application-pipeline/.claude/plans | generic |
+| organvm Content Filter Audit Plan | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | document |
+| Plan: Project-Wide Review & Critique (Evaluation-t | .home-cartridge/Code/income-2026-05-04/portfolio-site/.gemini/plans | verify |
 | Plan: Project-Wide Review & Critique (Evaluation-t | 4444J99/portfolio/.gemini/plans | verify |
+| Revise First Captain's Log to Full-Workspace Polyv | .home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-v-logos/.claude/plans | create_file |

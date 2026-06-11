@@ -154,6 +154,7 @@ Scorecard code fix: [`organvm-engine#1`](https://github.com/meta-organvm/organvm
 **Evidence:**
 - Runbooks: `docs/operations/operational-cadence.md`, `docs/operations/autonomous-setup-guide.md`
 - CLI: `scripts/organ-cli.py` (8 subcommands for system operations)
+- **Email triage runbook:** Validated by 51-message test (zero false humans), providing partial autonomous agent validation of runbook execution.
 
 **Gap:** Needs a second human operator to attempt the procedures and log results.
 
@@ -464,6 +465,7 @@ All seed.yaml files updated with deployment_url. Registry-v2.json updated.
 - Autonomous schedule: 12 cron workflows across 2 repos
 - Workflow list: soak-test-daily, essay-monitor, metrics-refresh, orchestrator-agent, backfill-distribution, distribution-agent, stale-detector-weekly, system-pulse-weekly, promotion-recommender, essay-deploy, auto-deploy
 - Data: `data/soak-test/daily-*.json` (tracks system operation without intervention)
+- **Prompt atomization:** Creates a comprehensive measurement surface for autonomous accountability across all agent sessions.
 
 **Current autonomous operation:**
 - Essay distribution: Active (backfill-distribution running Mon/Wed/Fri)

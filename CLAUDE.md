@@ -13,6 +13,12 @@ This is a **planning and governance documentation corpus** — not a source code
 
 There is no build system or unified test suite here. Executable artifacts include ~51 Python/shell scripts in `scripts/` (validation, deployment, audit, registry tooling), 16 GitHub Actions workflows in `.github/workflows/`, and YAML/Python workflow specifications in `docs/implementation/github-actions-spec.md`.
 
+## Active Operational Systems
+
+While this is primarily a documentation corpus, it hosts two active, git-tracked operational data systems:
+1. **Prompt Registry Data System:** Tracks thousands of agent prompts to measure implementation and system health. Governed by Python scripts: `extract_all_prompts.py`, `atomize_prompts.py`, `measure_implementation.py`, and `organvm_atoms_status.py`. Data resides in `data/prompt-registry/`.
+2. **Mail-Triage System:** An operational runbook and automation system for managing communications, validated by agent testing.
+
 ## The Eight-Organ Model
 
 | Organ | Domain | GitHub Org | Repos | Flagships |
@@ -168,9 +174,9 @@ CLI: `python3 scripts/invoke.py <ID>` for terminal lookup. See `docs/operations/
 
 The **Index Rerum Faciendarum** (`INST-INDEX-RERUM-FACIENDARUM.md`) is the universal work registry — the canonical gap between what the system IS and what it NEEDS TO BE. It is the first of four classical indices:
 - **Rerum Faciendarum** (things to be done) — governance instrument, THIS EXISTS
-- **Locorum** (places) — reference instrument, PLANNED (IRF-IDX-001)
+- **Locorum** (places) — reference instrument, PLANNED (IRF-IDX-001). *Note: `SESSION-CONTINUATION-PROMPTS.md` serves as a proto-Index Locorum.*
 - **Nominum** (names) — reference instrument, PLANNED (IRF-IDX-002)
-- **Rerum** (things) — reference instrument, PLANNED (IRF-IDX-003)
+- **Rerum** (things) — reference instrument, PLANNED (IRF-IDX-003). *Note: `data/prompt-registry/prompt-atoms.json` serves as a proto-Index Rerum.*
 
 When closing a session, check the IRF for items completed or discovered. When starting a session, consult the IRF for P0/P1 items in the relevant domain.
 
@@ -288,7 +294,7 @@ schedule. Trigger any of them manually with `gh workflow run <name>`.
 ### Governance
 - *Standard ORGANVM governance applies*
 
-*Last synced: 2026-06-08T14:50:39Z*
+*Last synced: 2026-06-08T16:26:25Z*
 
 ## Active Handoff Protocol
 
@@ -375,9 +381,9 @@ Run: `organvm atoms pipeline --write && organvm atoms fanout --write`
 
 ## System Density (auto-generated)
 
-AMMOI: 25% | Edges: 0 | Tensions: 0 | Clusters: 0 | Adv: 27 | Events(24h): 41325
+AMMOI: 25% | Edges: 0 | Tensions: 0 | Clusters: 0 | Adv: 27 | Events(24h): 41370
 Structure: 8 organs / 149 repos / 1654 components (depth 17) | Inference: 0% | Organs: META-ORGANVM:63%, ORGAN-I:53%, ORGAN-II:48%, ORGAN-III:55% +5 more
-Last pulse: 2026-06-08T14:50:27 | Δ24h: 0.0% | Δ7d: n/a
+Last pulse: 2026-06-08T16:26:13 | Δ24h: 0.0% | Δ7d: vacuum
 
 
 ## Dialect Identity (Trivium)
@@ -409,6 +415,7 @@ Nature demands a documentation counterpart. This formation maintains its narrati
 *Compliance: Formation is currently void.*
 
 <!-- ORGANVM:AUTO:END -->
+
 
 
 
