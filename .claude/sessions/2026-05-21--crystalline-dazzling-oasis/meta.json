@@ -1,0 +1,22 @@
+{
+  "session_id": "7d3a6af5-c4e9-43b8-92dc-3b0a2bb6c4e3",
+  "slug": "crystalline-dazzling-oasis",
+  "cwd": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm",
+  "git_branch": "main",
+  "project_dir": "-Users-4jp-Code-organvm-organvm-corpvs-testamentvm",
+  "started": "2026-05-21T19:22:55.343000+00:00",
+  "ended": "2026-05-21T21:09:50.672000+00:00",
+  "duration_minutes": 106,
+  "message_count": 145,
+  "human_messages": 45,
+  "assistant_messages": 100,
+  "tools_used": {
+    "Bash": 25,
+    "Read": 5,
+    "AskUserQuestion": 1,
+    "Write": 2
+  },
+  "first_human_message": "<command-message>batch</command-message>\n<command-name>/batch</command-name>\n<command-args>1. Decide edge-priority (closeout Section 4 item 1) \u2014 collapses 3 of 4 deferred decisions.\n2. Decide Neon's fate (wanted vs vestigial) \u2014 unblocks Phase 1a regardless of edge-priority answer.\n3. Optionally merg",
+  "source_file": "/Users/4jp/.claude/projects/-Users-4jp-Code-organvm-organvm-corpvs-testamentvm/7d3a6af5-c4e9-43b8-92dc-3b0a2bb6c4e3.jsonl",
+  "archived_at": "2026-06-12T12:04:51.451671+00:00"
+}

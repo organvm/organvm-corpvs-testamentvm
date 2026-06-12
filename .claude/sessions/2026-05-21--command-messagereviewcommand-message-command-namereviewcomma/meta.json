@@ -1,0 +1,17 @@
+{
+  "session_id": "019e4c93-039d-74a1-9ccf-d14da7a5edfb",
+  "slug": "",
+  "cwd": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm",
+  "git_branch": "",
+  "project_dir": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm",
+  "started": "2026-05-21T22:06:03.866000+00:00",
+  "ended": "2026-05-21T22:06:03.930000+00:00",
+  "duration_minutes": 0,
+  "message_count": 79,
+  "human_messages": 2,
+  "assistant_messages": 77,
+  "tools_used": {},
+  "first_human_message": "<command-message>review</command-message>\n<command-name>/review</command-name>\n<command-args>all issues surface, all work planned or completed or left in vacuum; ref:' cursor 19309190-e810-4e72-b7d5-a72ed3931bc6 && opencode ses_1b54687a5ffeROlZKHntkg75Qp && codex 019e4ba8-dc68-72d0-8062-39c54ee122ec",
+  "source_file": "/Users/4jp/.codex/sessions/2026/05/21/rollout-2026-05-21T18-06-03-019e4c93-039d-74a1-9ccf-d14da7a5edfb.jsonl",
+  "archived_at": "2026-06-12T12:04:51.375511+00:00"
+}

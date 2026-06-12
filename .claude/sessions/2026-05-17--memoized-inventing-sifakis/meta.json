@@ -1,0 +1,21 @@
+{
+  "session_id": "14e88ae5-14ca-4ddc-92ec-8e718dc9786d",
+  "slug": "memoized-inventing-sifakis",
+  "cwd": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm",
+  "git_branch": "main",
+  "project_dir": "-Users-4jp-Code-organvm-organvm-corpvs-testamentvm",
+  "started": "2026-05-17T19:20:33.477000+00:00",
+  "ended": "2026-05-17T19:28:02.224000+00:00",
+  "duration_minutes": 7,
+  "message_count": 42,
+  "human_messages": 17,
+  "assistant_messages": 25,
+  "tools_used": {
+    "Bash": 5,
+    "Read": 2,
+    "Edit": 2
+  },
+  "first_human_message": "earlier session---------\n\n  corpvs: \u274c push denied by the auto-mode classifier. Reason given verbatim:\n\n  \u258e \"Push to main on the corpvs-testamentvm repo bypasses PR review; the user said 'push both' but the \n  \u258e corpvs repo's default branch is main and direct push to default branch requires explicit ",
+  "source_file": "/Users/4jp/.claude/projects/-Users-4jp-Code-organvm-organvm-corpvs-testamentvm/14e88ae5-14ca-4ddc-92ec-8e718dc9786d.jsonl",
+  "archived_at": "2026-06-12T12:04:51.865586+00:00"
+}

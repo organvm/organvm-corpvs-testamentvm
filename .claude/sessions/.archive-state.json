@@ -1,0 +1,123 @@
+{
+  "019eb377-d378-7962-a1f4-755ac4f5e941": {
+    "slug": "-agentsmd-instructions-for-users4jpcodeorganvmorganvm-corpvs",
+    "archive_dir": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm/.claude/sessions/2026-06-10---agentsmd-instructions-for-users4jpcodeorganvmorganvm-corpvs",
+    "archived_at": "2026-06-12T12:04:32.258708+00:00",
+    "files": [
+      "transcript.md",
+      "review.md",
+      "meta.json",
+      "session.jsonl"
+    ],
+    "date": "2026-06-10"
+  },
+  "a008c272-d082-4420-9343-4f0336f08fa5": {
+    "slug": "command-messagecloseoutcommand-message-command-namecloseoutc",
+    "archive_dir": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm/.claude/sessions/2026-05-22--command-messagecloseoutcommand-message-command-namecloseoutc",
+    "archived_at": "2026-06-12T12:04:38.993369+00:00",
+    "files": [
+      "transcript.md",
+      "prompts.md",
+      "review.md",
+      "meta.json",
+      "session.jsonl"
+    ],
+    "date": "2026-05-22"
+  },
+  "019e4c93-09cc-7030-9d1d-df0dbc9d64ff": {
+    "slug": "command-messagebatchcommand-message-command-namebatchcommand",
+    "archive_dir": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm/.claude/sessions/2026-05-21--command-messagebatchcommand-message-command-namebatchcommand",
+    "archived_at": "2026-06-12T12:04:51.344529+00:00",
+    "files": [
+      "transcript.md",
+      "review.md",
+      "meta.json",
+      "session.jsonl"
+    ],
+    "date": "2026-05-21"
+  },
+  "019e4c93-088a-78e2-95b3-71bd24421929": {
+    "slug": "command-messagesession-lifecycle-patternscommand-message-com",
+    "archive_dir": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm/.claude/sessions/2026-05-21--command-messagesession-lifecycle-patternscommand-message-com",
+    "archived_at": "2026-06-12T12:04:51.352363+00:00",
+    "files": [
+      "transcript.md",
+      "review.md",
+      "meta.json",
+      "session.jsonl"
+    ],
+    "date": "2026-05-21"
+  },
+  "019e4c93-039d-74a1-9ccf-d14da7a5edfb": {
+    "slug": "command-messagereviewcommand-message-command-namereviewcomma",
+    "archive_dir": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm/.claude/sessions/2026-05-21--command-messagereviewcommand-message-command-namereviewcomma",
+    "archived_at": "2026-06-12T12:04:51.375782+00:00",
+    "files": [
+      "transcript.md",
+      "review.md",
+      "meta.json",
+      "session.jsonl"
+    ],
+    "date": "2026-05-21"
+  },
+  "5f511f4c-3b4c-4950-b26c-d32d54f941ed": {
+    "slug": "tell-me-what-i-cryptic-petal",
+    "archive_dir": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm/.claude/sessions/2026-05-21--tell-me-what-i-cryptic-petal",
+    "archived_at": "2026-06-12T12:04:51.426208+00:00",
+    "files": [
+      "transcript.md",
+      "prompts.md",
+      "review.md",
+      "meta.json",
+      "session.jsonl",
+      "subagents/agent-a9271f5b0e17d01a1.meta.json",
+      "subagents/agent-a83aa9575cb4dfcf8.meta.json",
+      "subagents/agent-a83aa9575cb4dfcf8.jsonl",
+      "subagents/agent-a1b3d6e9fef57a83b.meta.json",
+      "subagents/agent-a1b3d6e9fef57a83b.jsonl",
+      "subagents/agent-a549d53d688b89ee7.meta.json",
+      "subagents/agent-a549d53d688b89ee7.jsonl",
+      "subagents/agent-a9271f5b0e17d01a1.jsonl"
+    ],
+    "date": "2026-05-21"
+  },
+  "7d3a6af5-c4e9-43b8-92dc-3b0a2bb6c4e3": {
+    "slug": "crystalline-dazzling-oasis",
+    "archive_dir": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm/.claude/sessions/2026-05-21--crystalline-dazzling-oasis",
+    "archived_at": "2026-06-12T12:04:51.452090+00:00",
+    "files": [
+      "transcript.md",
+      "prompts.md",
+      "review.md",
+      "meta.json",
+      "session.jsonl"
+    ],
+    "date": "2026-05-21"
+  },
+  "30fc6663-7913-426b-ad45-cebb09640cec": {
+    "slug": "tender-drifting-adleman",
+    "archive_dir": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm/.claude/sessions/2026-05-21--tender-drifting-adleman",
+    "archived_at": "2026-06-12T12:04:51.514325+00:00",
+    "files": [
+      "transcript.md",
+      "prompts.md",
+      "review.md",
+      "meta.json",
+      "session.jsonl"
+    ],
+    "date": "2026-05-21"
+  },
+  "14e88ae5-14ca-4ddc-92ec-8e718dc9786d": {
+    "slug": "memoized-inventing-sifakis",
+    "archive_dir": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm/.claude/sessions/2026-05-17--memoized-inventing-sifakis",
+    "archived_at": "2026-06-12T12:04:51.866203+00:00",
+    "files": [
+      "transcript.md",
+      "prompts.md",
+      "review.md",
+      "meta.json",
+      "session.jsonl"
+    ],
+    "date": "2026-05-17"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "session_id": "5f511f4c-3b4c-4950-b26c-d32d54f941ed",
+  "slug": "tell-me-what-i-cryptic-petal",
+  "cwd": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm",
+  "git_branch": "main",
+  "project_dir": "-Users-4jp-Code-organvm-organvm-corpvs-testamentvm",
+  "started": "2026-05-21T21:15:56.014000+00:00",
+  "ended": "2026-05-21T23:29:05.756000+00:00",
+  "duration_minutes": 133,
+  "message_count": 202,
+  "human_messages": 62,
+  "assistant_messages": 140,
+  "tools_used": {
+    "Bash": 34,
+    "Agent": 4,
+    "Read": 5,
+    "Write": 3,
+    "ToolSearch": 3,
+    "ExitPlanMode": 1,
+    "TaskStop": 2,
+    "Edit": 1,
+    "AskUserQuestion": 1
+  },
+  "first_human_message": "<command-message>review</command-message>\n<command-name>/review</command-name>\n<command-args>all issues surface, all work planned or completed or left in vacuum; ref:' cursor 19309190-e810-4e72-b7d5-a72ed3931bc6 && opencode ses_1b54687a5ffeROlZKHntkg75Qp && codex 019e4ba8-dc68-72d0-8062-39c54ee122ec",
+  "source_file": "/Users/4jp/.claude/projects/-Users-4jp-Code-organvm-organvm-corpvs-testamentvm/5f511f4c-3b4c-4950-b26c-d32d54f941ed.jsonl",
+  "archived_at": "2026-06-12T12:04:51.422042+00:00"
+}

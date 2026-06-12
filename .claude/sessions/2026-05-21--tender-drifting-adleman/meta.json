@@ -1,0 +1,28 @@
+{
+  "session_id": "30fc6663-7913-426b-ad45-cebb09640cec",
+  "slug": "tender-drifting-adleman",
+  "cwd": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm",
+  "git_branch": "main",
+  "project_dir": "-Users-4jp-Code-organvm-organvm-corpvs-testamentvm",
+  "started": "2026-05-21T17:49:11.515000+00:00",
+  "ended": "2026-05-21T21:08:23.471000+00:00",
+  "duration_minutes": 199,
+  "message_count": 197,
+  "human_messages": 78,
+  "assistant_messages": 119,
+  "tools_used": {
+    "Bash": 18,
+    "AskUserQuestion": 1,
+    "ToolSearch": 4,
+    "TaskCreate": 8,
+    "TaskUpdate": 10,
+    "Write": 4,
+    "WebFetch": 9,
+    "Read": 1,
+    "Edit": 3,
+    "Skill": 1
+  },
+  "first_human_message": "<command-message>session-lifecycle-patterns</command-message>\n<command-name>/session-lifecycle-patterns</command-name>\n<command-args>codex, gemini, opencode, claude require alignment; review the codex printout:' \u26a0 MCP client for `Neon` failed to start: MCP startup failed: Environment variable NEON_A",
+  "source_file": "/Users/4jp/.claude/projects/-Users-4jp-Code-organvm-organvm-corpvs-testamentvm/30fc6663-7913-426b-ad45-cebb09640cec.jsonl",
+  "archived_at": "2026-06-12T12:04:51.513454+00:00"
+}

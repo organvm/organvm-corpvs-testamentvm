@@ -1,0 +1,17 @@
+{
+  "session_id": "019e4c93-088a-78e2-95b3-71bd24421929",
+  "slug": "",
+  "cwd": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm",
+  "git_branch": "",
+  "project_dir": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm",
+  "started": "2026-05-21T22:06:05.134000+00:00",
+  "ended": "2026-05-21T22:06:05.225000+00:00",
+  "duration_minutes": 0,
+  "message_count": 160,
+  "human_messages": 12,
+  "assistant_messages": 148,
+  "tools_used": {},
+  "first_human_message": "<command-message>session-lifecycle-patterns</command-message>\n<command-name>/session-lifecycle-patterns</command-name>\n<command-args>codex, gemini, opencode, claude require alignment; review the codex printout:' \u26a0 MCP client for `Neon` failed to start: MCP startup failed: Environment variable NEON_A",
+  "source_file": "/Users/4jp/.codex/sessions/2026/05/21/rollout-2026-05-21T18-06-04-019e4c93-088a-78e2-95b3-71bd24421929.jsonl",
+  "archived_at": "2026-06-12T12:04:51.352045+00:00"
+}

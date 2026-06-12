@@ -1,0 +1,17 @@
+{
+  "session_id": "019e4c93-09cc-7030-9d1d-df0dbc9d64ff",
+  "slug": "",
+  "cwd": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm",
+  "git_branch": "",
+  "project_dir": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm",
+  "started": "2026-05-21T22:06:05.451000+00:00",
+  "ended": "2026-05-21T22:06:05.490000+00:00",
+  "duration_minutes": 0,
+  "message_count": 108,
+  "human_messages": 9,
+  "assistant_messages": 99,
+  "tools_used": {},
+  "first_human_message": "<command-message>batch</command-message>\n<command-name>/batch</command-name>\n<command-args>1. Decide edge-priority (closeout Section 4 item 1) \u2014 collapses 3 of 4 deferred decisions.\n2. Decide Neon's fate (wanted vs vestigial) \u2014 unblocks Phase 1a regardless of edge-priority answer.\n3. Optionally merg",
+  "source_file": "/Users/4jp/.codex/sessions/2026/05/21/rollout-2026-05-21T18-06-05-019e4c93-09cc-7030-9d1d-df0dbc9d64ff.jsonl",
+  "archived_at": "2026-06-12T12:04:51.343991+00:00"
+}

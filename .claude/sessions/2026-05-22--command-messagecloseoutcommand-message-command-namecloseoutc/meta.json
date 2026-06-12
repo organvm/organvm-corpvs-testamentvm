@@ -1,0 +1,25 @@
+{
+  "session_id": "a008c272-d082-4420-9343-4f0336f08fa5",
+  "slug": "",
+  "cwd": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm",
+  "git_branch": "main",
+  "project_dir": "-Users-4jp-Code-organvm-organvm-corpvs-testamentvm",
+  "started": "2026-05-22T22:16:19.726000+00:00",
+  "ended": "2026-05-22T23:49:11.351000+00:00",
+  "duration_minutes": 92,
+  "message_count": 150,
+  "human_messages": 52,
+  "assistant_messages": 98,
+  "tools_used": {
+    "Bash": 30,
+    "Write": 4,
+    "ToolSearch": 2,
+    "EnterWorktree": 1,
+    "Read": 2,
+    "Edit": 1,
+    "ExitWorktree": 2
+  },
+  "first_human_message": "<command-message>closeout</command-message>\n<command-name>/closeout</command-name>\n<command-args>re:all-sessions; survey, cleanup, report:' \u276f\u00a0double check all work; be the hall-monitor wanting oh so badly to catch someone breaking the rules;\nThe Index Rerum Faciendarum at meta-organvm/organvm-corpvs",
+  "source_file": "/Users/4jp/.claude/projects/-Users-4jp-Code-organvm-organvm-corpvs-testamentvm/a008c272-d082-4420-9343-4f0336f08fa5.jsonl",
+  "archived_at": "2026-06-12T12:04:38.993023+00:00"
+}

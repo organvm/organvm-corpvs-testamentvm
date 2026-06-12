@@ -1,0 +1,17 @@
+{
+  "session_id": "019eb377-d378-7962-a1f4-755ac4f5e941",
+  "slug": "",
+  "cwd": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm",
+  "git_branch": "",
+  "project_dir": "/Users/4jp/Code/organvm/organvm-corpvs-testamentvm",
+  "started": "2026-06-10T21:37:16.325000+00:00",
+  "ended": "2026-06-10T21:37:21.683000+00:00",
+  "duration_minutes": 0,
+  "message_count": 2,
+  "human_messages": 2,
+  "assistant_messages": 0,
+  "tools_used": {},
+  "first_human_message": "# AGENTS.md instructions for /Users/4jp/Code/organvm/organvm-corpvs-testamentvm\n\n<INSTRUCTIONS>\n<!-- Role: shim | Owner: domus-genoma | Source: dot_local/share/codex/AGENTS.md.tmpl | Redirects-to: ~/AGENTS.md | Manifest: ~/.config/ai-context/agent-instruction-surfaces.json -->\n\nGlobal policy: /Users",
+  "source_file": "/Users/4jp/.codex/sessions/2026/06/10/rollout-2026-06-10T17-37-15-019eb377-d378-7962-a1f4-755ac4f5e941.jsonl",
+  "archived_at": "2026-06-12T12:04:32.258389+00:00"
+}
