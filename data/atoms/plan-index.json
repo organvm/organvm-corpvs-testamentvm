@@ -1,32 +1,8 @@
 {
-  "generated": "2026-06-12T09:59:57Z",
-  "total_plans": 1709,
-  "total_tasks": 19352,
+  "generated": "2026-06-12T13:48:15Z",
+  "total_plans": 1714,
+  "total_tasks": 19376,
   "entries": [
-    {
-      "qualified_id": "gemini:_root:_global:ephemera-engine-visualizer",
-      "path": "/Users/4jp/Workspace/.home-cartridge/Code/organvm/life-my--midst--in/.gemini/plans/2026-06-12-ephemera-engine-visualizer.md",
-      "agent": "gemini",
-      "organ": "_root",
-      "repo": "_global",
-      "slug": "ephemera-engine-visualizer",
-      "date": "2026-06-12",
-      "version": 1,
-      "status": "active",
-      "title": "Ephemera Engine Visualizer & Phase 6 Workflow Plan",
-      "size_bytes": 1346,
-      "has_verification": false,
-      "archetype": "sequenced_list",
-      "task_count": 6,
-      "completed_count": 0,
-      "tags": [
-        "docker",
-        "react",
-        "vitest"
-      ],
-      "file_refs": [],
-      "domain_fingerprint": "80f62e8c7be08cda"
-    },
     {
       "qualified_id": "claude:_root:_global:indexed-marinating-rabin",
       "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/indexed-marinating-rabin.md",
@@ -3599,6 +3575,67 @@
     },
     {
       "qualified_id": "claude:_root:_global:closeout-session-meta-ingest-substrate",
+      "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/freshness-architecture-receipt/.claude/plans/2026-06-05-closeout-session-meta-ingest-substrate.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "closeout-session-meta-ingest-substrate",
+      "date": "2026-06-05",
+      "version": 1,
+      "status": "active",
+      "title": "Session Close-Out — 2026-06-05",
+      "size_bytes": 3172,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [
+        "aws"
+      ],
+      "file_refs": [
+        "ingest/redact.py",
+        "ingest/extractors/opencode_db.py",
+        "ingest/extractors/antigravity_db.py",
+        "ingest/adapters/claude-code-sessions.py",
+        ".claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
+        "ingest/atomize.py",
+        "ingest/registry.py",
+        "ingest/manifest.jsonl",
+        "ingest/README.md",
+        ".conductor/active-handoff.md"
+      ],
+      "domain_fingerprint": "ecc4e3d02c60048f"
+    },
+    {
+      "qualified_id": "claude:LIMINAL:session-meta:handoff-session-meta-ingest-substrate",
+      "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/freshness-architecture-receipt/.claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
+      "agent": "claude",
+      "organ": "LIMINAL",
+      "repo": "session-meta",
+      "slug": "handoff-session-meta-ingest-substrate",
+      "date": "2026-06-05",
+      "version": 1,
+      "status": "active",
+      "title": "Agent Handoff: session-meta ingest substrate + de-secret cutover",
+      "size_bytes": 7965,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 9,
+      "completed_count": 9,
+      "tags": [
+        "aws"
+      ],
+      "file_refs": [
+        "atomize.py",
+        "ingest/atoms.jsonl",
+        "ingest/manifest.jsonl",
+        "ingest/README.md",
+        "adapters/opencode.py"
+      ],
+      "domain_fingerprint": "3f4bb364487f419a"
+    },
+    {
+      "qualified_id": "claude:_root:_global:closeout-session-meta-ingest-substrate",
       "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/ev-565f806f/.claude/plans/2026-06-05-closeout-session-meta-ingest-substrate.md",
       "agent": "claude",
       "organ": "_root",
@@ -3782,6 +3819,67 @@
     },
     {
       "qualified_id": "claude:_root:_global:closeout-session-meta-ingest-substrate",
+      "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/routine-fleet-revision/.claude/plans/2026-06-05-closeout-session-meta-ingest-substrate.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "closeout-session-meta-ingest-substrate",
+      "date": "2026-06-05",
+      "version": 1,
+      "status": "active",
+      "title": "Session Close-Out — 2026-06-05",
+      "size_bytes": 3172,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [
+        "aws"
+      ],
+      "file_refs": [
+        "ingest/redact.py",
+        "ingest/extractors/opencode_db.py",
+        "ingest/extractors/antigravity_db.py",
+        "ingest/adapters/claude-code-sessions.py",
+        ".claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
+        "ingest/atomize.py",
+        "ingest/registry.py",
+        "ingest/manifest.jsonl",
+        "ingest/README.md",
+        ".conductor/active-handoff.md"
+      ],
+      "domain_fingerprint": "ecc4e3d02c60048f"
+    },
+    {
+      "qualified_id": "claude:LIMINAL:session-meta:handoff-session-meta-ingest-substrate",
+      "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/routine-fleet-revision/.claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
+      "agent": "claude",
+      "organ": "LIMINAL",
+      "repo": "session-meta",
+      "slug": "handoff-session-meta-ingest-substrate",
+      "date": "2026-06-05",
+      "version": 1,
+      "status": "active",
+      "title": "Agent Handoff: session-meta ingest substrate + de-secret cutover",
+      "size_bytes": 7965,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 9,
+      "completed_count": 9,
+      "tags": [
+        "aws"
+      ],
+      "file_refs": [
+        "atomize.py",
+        "ingest/atoms.jsonl",
+        "ingest/manifest.jsonl",
+        "ingest/README.md",
+        "adapters/opencode.py"
+      ],
+      "domain_fingerprint": "3f4bb364487f419a"
+    },
+    {
+      "qualified_id": "claude:_root:_global:closeout-session-meta-ingest-substrate",
       "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/ev+b71f6cdf/.claude/plans/2026-06-05-closeout-session-meta-ingest-substrate.md",
       "agent": "claude",
       "organ": "_root",
@@ -3816,6 +3914,67 @@
     {
       "qualified_id": "claude:LIMINAL:session-meta:handoff-session-meta-ingest-substrate",
       "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/ev+b71f6cdf/.claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
+      "agent": "claude",
+      "organ": "LIMINAL",
+      "repo": "session-meta",
+      "slug": "handoff-session-meta-ingest-substrate",
+      "date": "2026-06-05",
+      "version": 1,
+      "status": "active",
+      "title": "Agent Handoff: session-meta ingest substrate + de-secret cutover",
+      "size_bytes": 7965,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 9,
+      "completed_count": 9,
+      "tags": [
+        "aws"
+      ],
+      "file_refs": [
+        "atomize.py",
+        "ingest/atoms.jsonl",
+        "ingest/manifest.jsonl",
+        "ingest/README.md",
+        "adapters/opencode.py"
+      ],
+      "domain_fingerprint": "3f4bb364487f419a"
+    },
+    {
+      "qualified_id": "claude:_root:_global:closeout-session-meta-ingest-substrate",
+      "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/prof-dispatch-0fc455b5/.claude/plans/2026-06-05-closeout-session-meta-ingest-substrate.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "closeout-session-meta-ingest-substrate",
+      "date": "2026-06-05",
+      "version": 1,
+      "status": "active",
+      "title": "Session Close-Out — 2026-06-05",
+      "size_bytes": 3172,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [
+        "aws"
+      ],
+      "file_refs": [
+        "ingest/redact.py",
+        "ingest/extractors/opencode_db.py",
+        "ingest/extractors/antigravity_db.py",
+        "ingest/adapters/claude-code-sessions.py",
+        ".claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
+        "ingest/atomize.py",
+        "ingest/registry.py",
+        "ingest/manifest.jsonl",
+        "ingest/README.md",
+        ".conductor/active-handoff.md"
+      ],
+      "domain_fingerprint": "ecc4e3d02c60048f"
+    },
+    {
+      "qualified_id": "claude:LIMINAL:session-meta:handoff-session-meta-ingest-substrate",
+      "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/prof-dispatch-0fc455b5/.claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
       "agent": "claude",
       "organ": "LIMINAL",
       "repo": "session-meta",
@@ -50549,11 +50708,11 @@
     },
     "LIMINAL": {
       "organ_key": "LIMINAL",
-      "total_plans": 402,
-      "active_plans": 394,
-      "total_tasks": 4470,
-      "completed_tasks": 459,
-      "completion_pct": 10.3,
+      "total_plans": 405,
+      "active_plans": 397,
+      "total_tasks": 4497,
+      "completed_tasks": 486,
+      "completion_pct": 10.8,
       "agents_active": [
         "claude",
         "codex",
@@ -50649,9 +50808,9 @@
     },
     "_root": {
       "organ_key": "_root",
-      "total_plans": 812,
-      "active_plans": 777,
-      "total_tasks": 8455,
+      "total_plans": 814,
+      "active_plans": 779,
+      "total_tasks": 8452,
       "completed_tasks": 414,
       "completion_pct": 4.9,
       "agents_active": [
@@ -51125,22 +51284,6 @@
       "jaccard": 1.0
     },
     {
-      "domain": "docker, react, vite, vitest",
-      "plans": [
-        "gemini:_root:_global:ephemera-engine-visualizer",
-        "gemini:_root:_global:handoff-feature-implementation",
-        "gemini:_root:_global:product-portal-and-handshake"
-      ],
-      "agents": [
-        "gemini"
-      ],
-      "organs": [
-        "_root"
-      ],
-      "severity": "warning",
-      "jaccard": 1.0
-    },
-    {
       "domain": "kubernetes, pytest, python, typescript",
       "plans": [
         "claude:LIMINAL:application-pipeline:indexed-marinating-rabin",
@@ -51305,6 +51448,21 @@
       "domain": "shared file refs",
       "plans": [
         "gemini:_root:_global:closeout-local-dev-config"
+      ],
+      "agents": [
+        "gemini"
+      ],
+      "organs": [
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "react, vite",
+      "plans": [
+        "gemini:_root:_global:handoff-feature-implementation",
+        "gemini:_root:_global:product-portal-and-handshake"
       ],
       "agents": [
         "gemini"

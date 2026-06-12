@@ -1,27 +1,27 @@
 # Prompt Narrative Analysis
 **Generated**: 2026-06-12
-**Sessions**: 1166 | **Prompts**: 5732 | **Threads**: 117
+**Sessions**: 1173 | **Prompts**: 5776 | **Threads**: 117
 
 ## Prompt Type Distribution
 
 | Type | Count | % |
 |------|-------|---|
-| command | 3643 | 63% |
-| context_setting | 783 | 13% |
-| git_ops | 571 | 9% |
-| question | 258 | 4% |
-| continuation | 257 | 4% |
+| command | 3663 | 63% |
+| context_setting | 790 | 13% |
+| git_ops | 574 | 9% |
+| question | 266 | 4% |
+| continuation | 262 | 4% |
 | correction | 140 | 2% |
-| exploration | 80 | 1% |
+| exploration | 81 | 1% |
 
 ## Size Distribution
 
 | Class | Count | % |
 |-------|-------|---|
-| short | 2345 | 40% |
-| medium | 1427 | 24% |
-| long | 1259 | 21% |
-| terse | 701 | 12% |
+| short | 2361 | 40% |
+| medium | 1438 | 24% |
+| long | 1269 | 21% |
+| terse | 708 | 12% |
 
 ## Top Narrative Threads (by prompt count)
 
@@ -29,13 +29,13 @@
 |--------|----------|---------|------------|---------------|
 | Users/4jp/continue-2026-05-16..2026-05-23 | 83 | 999 | 2026-05-16..2026-05-23 | command |
 | Users/4jp/continue-2026-05-26..2026-06-01 | 55 | 596 | 2026-05-26..2026-06-01 | command |
-| session-meta/stop-2026-06-10..2026-06-12 | 17 | 366 | 2026-06-10..2026-06-12 | command |
+| session-meta/stop-2026-06-10..2026-06-12 | 19 | 405 | 2026-06-10..2026-06-12 | command |
 | Users/4jp/continue-2026-06-03..2026-06-07 | 47 | 288 | 2026-06-03..2026-06-07 | command |
 | 4jp/Code/organvm/sovereign-systems--elevate-align/ | 10 | 262 | 2026-05-16..2026-05-18 | command |
 | 4jp/bound/continue-2026-05-29..2026-06-01 | 5 | 211 | 2026-05-29..2026-06-01 | command |
 | 4jp/_dot-config/continue-2026-05-21..2026-05-23 | 14 | 177 | 2026-05-21..2026-05-23 | command |
 | 4jp/.claude/stop-2026-05-23..2026-05-25 | 8 | 165 | 2026-05-23..2026-05-25 | command |
-| Users/4jp/continue-2026-06-10..2026-06-11 | 20 | 145 | 2026-06-10..2026-06-11 | command |
+| Users/4jp/continue-2026-06-10..2026-06-12 | 25 | 150 | 2026-06-10..2026-06-12 | command |
 | 4jp/Code/_agent/push-2026-05-17..2026-05-18 | 8 | 140 | 2026-05-17..2026-05-18 | command |
 | Users/4jp/continue-2026-05-13..2026-05-14 | 10 | 140 | 2026-05-13..2026-05-14 | command |
 | session-meta/continue-2026-06-05..2026-06-06 | 3 | 129 | 2026-06-05..2026-06-06 | command |
@@ -62,16 +62,16 @@
 | 2026-01 | 13 | 15 | 9 | 4jp/Legal/padavano-v-mdc--empl |
 | 2026-04 | 1 | 7 | 1 | 4jp/Workspace |
 | 2026-05 | 292 | 3991 | 65 | Users/4jp |
-| 2026-06 | 121 | 1690 | 28 | session-meta |
+| 2026-06 | 128 | 1734 | 28 | session-meta |
 
 ## Top Imperative Verbs
 
 | Verb | Count | % |
 |------|-------|---|
-| continue | 179 | 3% |
+| continue | 181 | 3% |
 | stop | 102 | 1% |
 | review | 33 | 0% |
-| proceed | 27 | 0% |
+| proceed | 28 | 0% |
 | push | 26 | 0% |
 | commit | 24 | 0% |
 | merge | 18 | 0% |
@@ -83,8 +83,8 @@
 | make | 8 | 0% |
 | open | 8 | 0% |
 | create | 7 | 0% |
+| fix | 6 | 0% |
 | write | 6 | 0% |
-| fix | 5 | 0% |
 | delete | 4 | 0% |
 | remove | 4 | 0% |
 | close | 4 | 0% |
@@ -102,14 +102,14 @@
 
 | Tag | Count |
 |-----|-------|
-| bash | 566 |
-| chezmoi | 398 |
-| go | 345 |
+| bash | 568 |
+| chezmoi | 400 |
+| go | 348 |
 | python | 315 |
-| mcp | 256 |
+| mcp | 261 |
 | zsh | 101 |
 | cloudflare | 92 |
-| homebrew | 87 |
+| homebrew | 88 |
 | node | 74 |
 | typescript | 48 |
 | playwright | 39 |
@@ -118,7 +118,7 @@
 | astro | 31 |
 | vercel | 30 |
 | aws | 24 |
-| pytest | 21 |
+| pytest | 22 |
 | docker | 21 |
 | vitest | 19 |
 | gcp | 18 |

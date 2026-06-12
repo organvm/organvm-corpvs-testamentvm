@@ -1,13 +1,13 @@
 # Atom Link Summary
 **Generated**: 2026-06-12
-**Links**: 120189 | **Threshold**: 0.3
+**Links**: 120370 | **Threshold**: 0.3
 
 ## Jaccard Distribution
 
 | Range | Count | % |
 |-------|-------|---|
-| 0.50+ | 22403 | 18% |
-| 0.30–0.49 | 97786 | 81% |
+| 0.50+ | 22409 | 18% |
+| 0.30–0.49 | 97961 | 81% |
 | 0.20–0.29 | 0 | 0% |
 | 0.15–0.19 | 0 | 0% |
 | <0.15 | 0 | 0% |
@@ -16,14 +16,14 @@
 
 | Tag | Occurrences |
 |-----|-------------|
-| go | 52744 |
-| chezmoi | 48837 |
-| mcp | 43020 |
+| go | 52829 |
+| chezmoi | 48858 |
+| mcp | 43195 |
 | python | 41879 |
 | bash | 15520 |
 | zsh | 2824 |
 | node | 2776 |
-| homebrew | 2596 |
+| homebrew | 2599 |
 | cloudflare | 2041 |
 | astro | 1531 |
 | typescript | 915 |
@@ -53,8 +53,8 @@
 | `CLAUDE.md` | 22 |
 | `/Users/4jp/CLAUDE.md` | 16 |
 | `scripts/refresh_skill_collections.py` | 11 |
+| `registry-v2.json` | 10 |
 | `scripts/extract-branch-html.mjs` | 10 |
-| `registry-v2.json` | 9 |
 | `src/pages/capture.ts` | 9 |
 | `private_dot_claude/hooks/executable_block-chezmoi-rebase.sh.tmpl` | 7 |
 | `scripts/validate_skills.py` | 7 |

@@ -1,6 +1,6 @@
 # Plan Atomization Summary
 **Generated**: 2026-06-12
-**Plans parsed**: 2692 | **Tasks extracted**: 29731
+**Plans parsed**: 2697 | **Tasks extracted**: 29755
 
 ## By Project
 
@@ -58,7 +58,7 @@
 | .home-cartridge/Code/organvm/knowledge-base-phase-two/.gemini/plans | 9 | 169 | 9 | 160 | 0 |
 | .home-cartridge/Code/organvm/knowledge-base-synthesis/.gemini/plans | 9 | 169 | 9 | 160 | 0 |
 | .home-cartridge/Code/organvm/life-my--midst--in/.codex/plans | 2 | 2 | 0 | 2 | 0 |
-| .home-cartridge/Code/organvm/life-my--midst--in/.gemini/plans | 9 | 57 | 9 | 48 | 0 |
+| .home-cartridge/Code/organvm/life-my--midst--in/.gemini/plans | 8 | 51 | 9 | 42 | 0 |
 | .home-cartridge/Code/organvm/materia-collider/bench/organ-reset-2026-03-11/organ-i/hierarchia-mundi/.claude/plans | 1 | 14 | 0 | 14 | 0 |
 | .home-cartridge/Code/organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/fetch-familiar-friends/.gemini/plans | 1 | 4 | 0 | 4 | 0 |
 | .home-cartridge/Code/organvm/mesh/.claude/plans | 2 | 21 | 0 | 21 | 0 |
@@ -210,8 +210,11 @@
 | session-meta/.claude/worktrees/entity-discovery-audit/.claude/plans | 2 | 10 | 9 | 1 | 0 |
 | session-meta/.claude/worktrees/ev+b71f6cdf/.claude/plans | 2 | 10 | 9 | 1 | 0 |
 | session-meta/.claude/worktrees/ev-565f806f/.claude/plans | 2 | 10 | 9 | 1 | 0 |
+| session-meta/.claude/worktrees/freshness-architecture-receipt/.claude/plans | 2 | 10 | 9 | 1 | 0 |
 | session-meta/.claude/worktrees/helm-0fc455b5/.claude/plans | 2 | 10 | 9 | 1 | 0 |
 | session-meta/.claude/worktrees/helm-f2ca6eb8/.claude/plans | 2 | 10 | 9 | 1 | 0 |
+| session-meta/.claude/worktrees/prof-dispatch-0fc455b5/.claude/plans | 2 | 10 | 9 | 1 | 0 |
+| session-meta/.claude/worktrees/routine-fleet-revision/.claude/plans | 2 | 10 | 9 | 1 | 0 |
 | session-meta/.claude/worktrees/track-e-professionalization/.claude/plans | 2 | 10 | 9 | 1 | 0 |
 | session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/.claude/plans | 2 | 10 | 9 | 1 | 0 |
 | session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/.gemini/plans | 2 | 8 | 7 | 1 | 0 |
@@ -227,20 +230,20 @@
 
 | Type | Count | % |
 |------|-------|---|
-| generic | 10158 | 34% |
+| generic | 10164 | 34% |
 | document | 4182 | 14% |
-| create_file | 2945 | 9% |
-| configure | 2273 | 7% |
-| modify_file | 2154 | 7% |
-| write_test | 1793 | 6% |
+| create_file | 2947 | 9% |
+| configure | 2279 | 7% |
+| modify_file | 2157 | 7% |
+| write_test | 1792 | 6% |
 | verify | 1269 | 4% |
-| git_operation | 1075 | 3% |
+| git_operation | 1081 | 3% |
 | deploy | 957 | 3% |
-| migrate | 793 | 2% |
+| migrate | 792 | 2% |
 | delete_file | 763 | 2% |
 | research | 757 | 2% |
 | review | 299 | 1% |
-| refactor | 135 | 0% |
+| refactor | 138 | 0% |
 | exploration | 121 | 0% |
 | post_hoc | 57 | 0% |
 
@@ -248,8 +251,8 @@
 
 | Status | Count | % |
 |--------|-------|---|
-| pending | 27923 | 93% |
-| completed | 1808 | 6% |
+| pending | 27920 | 93% |
+| completed | 1835 | 6% |
 
 ## Largest Plans (by task count)
 
@@ -280,16 +283,16 @@
 
 | Agent | Count | % |
 |-------|-------|---|
-| claude | 25510 | 85% |
-| gemini | 2220 | 7% |
+| claude | 25540 | 85% |
+| gemini | 2214 | 7% |
 | codex | 2001 | 6% |
 
 ## By Organ
 
 | Organ | Count | % |
 |-------|-------|---|
-| _root | 13899 | 46% |
-| LIMINAL | 6505 | 21% |
+| _root | 13896 | 46% |
+| LIMINAL | 6532 | 21% |
 | META | 4741 | 15% |
 | I | 1798 | 6% |
 | III | 1252 | 4% |
