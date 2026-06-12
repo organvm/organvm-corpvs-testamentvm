@@ -4213,3 +4213,11 @@
 **Captured:** 2026-06-12T10:47:41 | **Prompts:** 13 | **Effort:** default
 **Archive:** `data/prompt-registry/sessions/30249e53-5e03-4297-a94a-8d46e63e20bb-prompts.md`
 
+
+### 5327b94d-a3e1-4576-baf2-62818bf5358f
+**Captured:** 2026-06-12T10:59:44 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
+
+### b835ec93-bda7-422b-aa3e-85976b296ffe
+**Captured:** 2026-06-12T10:59:44 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+

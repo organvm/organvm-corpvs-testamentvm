@@ -13,12 +13,12 @@
 - **Consumes** ← `ORGAN-IV`: orchestration-artifact
 
 ### Siblings in Meta
-`.github`, `alchemia-ingestvm`, `schema-definitions`, `organvm-engine`, `system-dashboard`, `organvm-mcp-server`, `praxis-perpetua`, `stakeholder-portal`, `materia-collider`, `organvm-ontologia`, `vigiles-aeternae--agon-cosmogonicum`, `cvrsvs-honorvm`, `custodia-securitatis`
+`.github`, `alchemia-ingestvm`, `schema-definitions`, `organvm-engine`, `system-dashboard`, `organvm-mcp-server`, `praxis-perpetua`, `stakeholder-portal`, `materia-collider`, `organvm-ontologia`, `vigiles-aeternae--agon-cosmogonicum`, `cvrsvs-honorvm`, `custodia-securitatis`, `agentmemory`
 
 ### Governance
 - *Standard ORGANVM governance applies*
 
-*Last synced: 2026-06-08T16:26:25Z*
+*Last synced: 2026-06-12T14:54:21Z*
 
 ## Active Handoff Protocol
 
@@ -61,8 +61,6 @@ Library: `/Users/4jp/Code/organvm/praxis-perpetua/library`
 | system | any | session-handoff-avalanche | Session Handoff Avalanche |
 | system | any | system-loops | System Loops |
 | system | any | prompting-standards | Prompting Standards |
-| system | any | prompting-standards | Prompting Standards |
-| system | any | prompting-standards | Prompting Standards |
 | system | any | background-task-resilience | background-task-resilience |
 | system | any | context-window-conservation | context-window-conservation |
 | system | any | session-self-critique | session-self-critique |
@@ -86,28 +84,28 @@ Linked skills: SOP-TRIADIC-REVIEW-PROTOCOL, cicd-resilience-and-recovery, contin
 
 ## Task Queue (from pipeline)
 
-**302** pending tasks | Last pipeline: unknown
+**503** pending tasks | Last pipeline: unknown
 
+- `948a83834272` IRF-SYS-250: The hardcoded system directive asserts "150 items" in the IRF, while live stats report 1694. This vacuu [python]
+- `41c11b2f6e24` IRF-OPS-088: CLI parser misses late-file rows, suggesting the `organvm irf` scraping or reading mechanism drops entr [python]
+- `3d932e09e75c` Research `IRF-SYS-250`: Trace the origin of the hardcoded 150-item system prompt limit (potentially in `meta-organvm [python]
+- `f78dbd0c4f25` Research `IRF-OPS-088`: Audit the `organvm irf` CLI source code (presumably in the Python workspace `packages/cli` o [python]
+- `6b78ac96bb66` Execution: Create PRs for both the system prompt fix and the CLI fix. Once merged, update the IRF to move both to `# [python]
+- `c3268ad7db66` Log: Record this plan and update the inquiry log for tracking cross-repo. [python]
 - `fa37b60572b2` SOP — triangulation — organvm/praxis-perpetua/standards/SOP--triangulation-protocol.md` (10.5KB) [bash, chezmoi, python]
 - `7a573ac44e3f` Per-item triangle log — organvm/sovereign-systems--elevate-align/docs/triangle/IRF-III-033.md` (5.9KB) [bash, chezmoi, python]
-- `01e226e603fd` IRF backfill (3 items) — meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md [bash, chezmoi, python]
-- `735993189de8` Feedback memory — ~/.claude/projects/.../memory/feedback_triangulation_protocol.md` (3.3KB) [bash, chezmoi, python]
-- `d9a5369570ec` Plan file — ~/.claude/plans/atomic-concurrent-matsumoto.md` (20.6KB) [bash, chezmoi, python]
-- `5a1162c58b12` Conv 2 verdict text — ~/Workspace/2026-04-29-155019-...txt [bash, chezmoi, python]
-- `362f2e42321d` Conv 2 source plan — ~/.claude/plans/2026-04-29-repo-triage.md` (11.3KB) [bash, chezmoi, python]
-- `9a7aa0d8ae60` DONE-ID counter — meta-organvm/organvm-corpvs-testamentvm/data/done-id-counter.json [bash, chezmoi, python]
-- ... and 294 more
+- ... and 495 more
 
-Cross-organ links: 1343 | Top tags: `python`, `chezmoi`, `mcp`, `bash`, `pytest`
+Cross-organ links: 1356 | Top tags: `python`, `bash`, `mcp`, `pytest`, `fastapi`
 
 Run: `organvm atoms pipeline --write && organvm atoms fanout --write`
 
 
 ## System Density (auto-generated)
 
-AMMOI: 25% | Edges: 0 | Tensions: 0 | Clusters: 0 | Adv: 27 | Events(24h): 41370
-Structure: 8 organs / 149 repos / 1654 components (depth 17) | Inference: 0% | Organs: META-ORGANVM:63%, ORGAN-I:53%, ORGAN-II:48%, ORGAN-III:55% +5 more
-Last pulse: 2026-06-08T16:26:13 | Δ24h: 0.0% | Δ7d: vacuum
+AMMOI: 25% | Edges: 0 | Tensions: 0 | Clusters: 0 | Adv: 27 | Events(24h): 42700
+Structure: 8 organs / 150 repos / 1654 components (depth 17) | Inference: 0% | Organs: META-ORGANVM:62%, ORGAN-I:53%, ORGAN-II:48%, ORGAN-III:54% +5 more
+Last pulse: 2026-06-12T14:54:03 | Δ24h: 0.0% | Δ7d: -0.1%
 
 
 ## Dialect Identity (Trivium)
@@ -139,6 +137,7 @@ Nature demands a documentation counterpart. This formation maintains its narrati
 *Compliance: Formation is currently void.*
 
 <!-- ORGANVM:AUTO:END -->
+
 
 
 
