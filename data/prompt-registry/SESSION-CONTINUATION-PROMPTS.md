@@ -422,7 +422,7 @@ Resume: execute PR 1 (homepage restructure). It's the highest-impact, lowest-ris
 This session continues S-routing-law-2026-04-17.
 
 COMPLETED:
-- Security remediation (Phase 0): deleted 7 files from HOME root containing plaintext Gmail app password. 3 Python scripts (fetch_recent_gmail.py, search_gmail_extended.py, extract_work_tasks.py), 2 JSON outputs, 1 text output, 1 empty directory. Git history audited across 120+ repos — password never committed (local-only exposure). Burned password: dxmz yydz pbmo shjk. Still needs manual revocation in Google Account.
+- Security remediation (Phase 0): deleted 7 files from HOME root containing plaintext Gmail app password. 3 Python scripts (fetch_recent_gmail.py, search_gmail_extended.py, extract_work_tasks.py), 2 JSON outputs, 1 text output, 1 empty directory. Git history audited across 120+ repos — password never committed (local-only exposure). Burned password: <redacted-burned-app-pw>. Still needs manual revocation in Google Account.
 - Conceptual design of universal routing law drafted. The system currently has classification logic scattered across disconnected implementations:
   - seed.yaml declares repo properties but doesn't generate placement
   - domus-sort classifies files but only by its own local rules
