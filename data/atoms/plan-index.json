@@ -1,8 +1,444 @@
 {
-  "generated": "2026-06-11T12:38:12Z",
-  "total_plans": 1586,
-  "total_tasks": 17519,
+  "generated": "2026-06-12T09:59:57Z",
+  "total_plans": 1709,
+  "total_tasks": 19352,
   "entries": [
+    {
+      "qualified_id": "gemini:_root:_global:ephemera-engine-visualizer",
+      "path": "/Users/4jp/Workspace/.home-cartridge/Code/organvm/life-my--midst--in/.gemini/plans/2026-06-12-ephemera-engine-visualizer.md",
+      "agent": "gemini",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "ephemera-engine-visualizer",
+      "date": "2026-06-12",
+      "version": 1,
+      "status": "active",
+      "title": "Ephemera Engine Visualizer & Phase 6 Workflow Plan",
+      "size_bytes": 1346,
+      "has_verification": false,
+      "archetype": "sequenced_list",
+      "task_count": 6,
+      "completed_count": 0,
+      "tags": [
+        "docker",
+        "react",
+        "vitest"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "80f62e8c7be08cda"
+    },
+    {
+      "qualified_id": "claude:_root:_global:indexed-marinating-rabin",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/indexed-marinating-rabin.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "indexed-marinating-rabin",
+      "date": "2026-06-11",
+      "version": 1,
+      "status": "active",
+      "title": "Text Analysis Engine: TF-IDF Cosine Similarity for Objective Scoring",
+      "size_bytes": 8438,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 5,
+      "completed_count": 0,
+      "tags": [
+        "kubernetes",
+        "pytest",
+        "python",
+        "typescript"
+      ],
+      "file_refs": [
+        "scripts/text_match.py",
+        "scripts/score.py",
+        "scripts/run.py",
+        "tests/test_text_match.py",
+        "signals/text-match-corpus.yaml",
+        "blocks/_index.yaml"
+      ],
+      "domain_fingerprint": "d59052e1c1f20398"
+    },
+    {
+      "qualified_id": "claude:_root:_global:memoized-beaming-wigderson",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/memoized-beaming-wigderson.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "memoized-beaming-wigderson",
+      "date": "2026-06-11",
+      "version": 1,
+      "status": "active",
+      "title": "Application Pipeline: Five-Phase Infrastructure Enhancement",
+      "size_bytes": 11038,
+      "has_verification": true,
+      "archetype": "phase_task",
+      "task_count": 40,
+      "completed_count": 0,
+      "tags": [
+        "mcp",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/validate_signals.py",
+        "scripts/validate.py",
+        "scripts/triage.py",
+        "scripts/verify_all.py",
+        "tests/test_validate_signals.py",
+        "tests/test_validate.py",
+        "tests/test_triage.py",
+        "scripts/run.py",
+        "scripts/standup.py",
+        "scripts/conversion_dashboard.py",
+        "scripts/campaign.py",
+        "scripts/crm.py",
+        "scripts/snapshot.py",
+        "tests/test_standup.py",
+        "tests/test_conversion_dashboard.py",
+        "tests/test_campaign.py",
+        "tests/test_crm.py",
+        "tests/test_snapshot.py",
+        "scripts/notify.py",
+        "scripts/weekly_brief.py",
+        "scripts/agent.py",
+        "scripts/mcp_server.py",
+        "tests/test_notify.py",
+        "tests/test_mcp_server.py",
+        "scripts/org_intelligence.py",
+        "scripts/skills_gap.py",
+        "scripts/block_outcomes.py",
+        "tests/test_org_intelligence.py",
+        "tests/test_skills_gap.py",
+        "tests/test_block_outcomes.py",
+        "scripts/calendar_export.py",
+        "scripts/interview_prep.py",
+        "tests/test_calendar_export.py",
+        "tests/test_interview_prep.py",
+        "signals/daily-snapshots/YYYY-MM-DD.json",
+        "strategy/notifications.yaml",
+        "launchd/com.4jp.pipeline.weekly-briefing.plist",
+        "launchd/com.4jp.pipeline.calendar-refresh.plist"
+      ],
+      "domain_fingerprint": "7d1599212cf607cf"
+    },
+    {
+      "qualified_id": "claude:META:?:pure-riding-twilight",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/pure-riding-twilight.md",
+      "agent": "claude",
+      "organ": "META",
+      "repo": null,
+      "slug": "pure-riding-twilight",
+      "date": "2026-06-11",
+      "version": 1,
+      "status": "active",
+      "title": "Diagnostic Tool, Grading Rubric & Inter-Rater Agreement SOP",
+      "size_bytes": 8826,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 17,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/diagnose.py",
+        "scripts/diagnose_ira.py",
+        "docs/sop--diagnostic-inter-rater-agreement.md",
+        "tests/test_diagnose.py",
+        "tests/test_diagnose_ira.py",
+        "scripts/run.py",
+        "scripts/verification_matrix.py",
+        "strategy/system-grading-rubric.yaml",
+        "strategy/module-verification-overrides.yaml"
+      ],
+      "domain_fingerprint": "2ee14a061865336b"
+    },
+    {
+      "qualified_id": "claude:III:peer-audited--behavioral-blockchain:tingly-roaming-coral",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/tingly-roaming-coral.md",
+      "agent": "claude",
+      "organ": "III",
+      "repo": "peer-audited--behavioral-blockchain",
+      "slug": "tingly-roaming-coral",
+      "date": "2026-06-11",
+      "version": 1,
+      "status": "active",
+      "title": "Plan: Fix Loose Ends from Competitor Research Session",
+      "size_bytes": 2741,
+      "has_verification": true,
+      "archetype": "generic",
+      "task_count": 6,
+      "completed_count": 0,
+      "tags": [
+        "bash"
+      ],
+      "file_refs": [
+        "docs/research/research--sop-product-teardown.md",
+        "meta-organvm/SOP--market-gap-analysis.md",
+        "/Users/4jp/Workspace/meta-organvm/SOP--market-gap-analysis.md"
+      ],
+      "domain_fingerprint": "373ddd194bd7283c"
+    },
+    {
+      "qualified_id": "claude:LIMINAL:application-pipeline:all-gh-issue-closure-audit",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-06-11-all-gh-issue-closure-audit.md",
+      "agent": "claude",
+      "organ": "LIMINAL",
+      "repo": "application-pipeline",
+      "slug": "all-gh-issue-closure-audit",
+      "date": "2026-06-11",
+      "version": 1,
+      "status": "active",
+      "title": "GitHub Issue Closure Audit - 2026-06-11",
+      "size_bytes": 6706,
+      "has_verification": false,
+      "archetype": "post_hoc",
+      "task_count": 1,
+      "completed_count": 1,
+      "tags": [
+        "bash"
+      ],
+      "file_refs": [
+        "strategy/future-cycle-recovery-2026.md",
+        "strategy/linkedin-profile-update-packet.md",
+        "strategy/linkedin-featured-order.md",
+        ".claude/plans/2026-06-11-openclaw-host-remediation-packet.md",
+        ".claude/plans/2026-06-11-issue-closeout-governance.md",
+        ".claude/plans/2026-06-11-all-gh-issue-closure-audit.md"
+      ],
+      "domain_fingerprint": "b42ee8fe37506713"
+    },
+    {
+      "qualified_id": "claude:IV:contrib--adenhq-hive:hanging-issues-follow-through",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-06-11-hanging-issues-follow-through.md",
+      "agent": "claude",
+      "organ": "IV",
+      "repo": "contrib--adenhq-hive",
+      "slug": "hanging-issues-follow-through",
+      "date": "2026-06-11",
+      "version": 1,
+      "status": "active",
+      "title": "Hanging Issue Follow-Through — 2026-06-11",
+      "size_bytes": 4320,
+      "has_verification": true,
+      "archetype": "generic",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [
+        "scripts/legacy-submission/whiting.md",
+        "pipeline/closed/whiting-nonfiction.yaml",
+        ".github/issues/linkedin-profile-fortification.md",
+        "strategy/linkedin-profile-update-packet.md",
+        "strategy/linkedin-featured-order.md",
+        "applications/2026-03-19/adenhq-hive-contribution.md",
+        ".claude/plans/2026-03-31-openclaw-vacuum-registry.md",
+        ".claude/plans/2026-06-11-openclaw-host-remediation-packet.md"
+      ],
+      "domain_fingerprint": "8c0db48d53d5b112"
+    },
+    {
+      "qualified_id": "claude:LIMINAL:application-pipeline:issue-closeout-governance",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-06-11-issue-closeout-governance.md",
+      "agent": "claude",
+      "organ": "LIMINAL",
+      "repo": "application-pipeline",
+      "slug": "issue-closeout-governance",
+      "date": "2026-06-11",
+      "version": 1,
+      "status": "active",
+      "title": "Issue Closeout Governance",
+      "size_bytes": 2350,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 5,
+      "completed_count": 0,
+      "tags": [
+        "bash"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "37d2b12d5d9abc2a"
+    },
+    {
+      "qualified_id": "claude:_root:_global:openclaw-host-remediation-packet",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-06-11-openclaw-host-remediation-packet.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "openclaw-host-remediation-packet",
+      "date": "2026-06-11",
+      "version": 1,
+      "status": "active",
+      "title": "OpenClaw Host Remediation Packet",
+      "size_bytes": 1893,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 7,
+      "completed_count": 0,
+      "tags": [
+        "bash"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "37d2b12d5d9abc2a"
+    },
+    {
+      "qualified_id": "claude:_root:_global:indexed-marinating-rabin",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/indexed-marinating-rabin.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "indexed-marinating-rabin",
+      "date": "2026-06-11",
+      "version": 1,
+      "status": "active",
+      "title": "Text Analysis Engine: TF-IDF Cosine Similarity for Objective Scoring",
+      "size_bytes": 8438,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 5,
+      "completed_count": 0,
+      "tags": [
+        "kubernetes",
+        "pytest",
+        "python",
+        "typescript"
+      ],
+      "file_refs": [
+        "scripts/text_match.py",
+        "scripts/score.py",
+        "scripts/run.py",
+        "tests/test_text_match.py",
+        "signals/text-match-corpus.yaml",
+        "blocks/_index.yaml"
+      ],
+      "domain_fingerprint": "d59052e1c1f20398"
+    },
+    {
+      "qualified_id": "claude:_root:_global:memoized-beaming-wigderson",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/memoized-beaming-wigderson.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "memoized-beaming-wigderson",
+      "date": "2026-06-11",
+      "version": 1,
+      "status": "active",
+      "title": "Application Pipeline: Five-Phase Infrastructure Enhancement",
+      "size_bytes": 11038,
+      "has_verification": true,
+      "archetype": "phase_task",
+      "task_count": 40,
+      "completed_count": 0,
+      "tags": [
+        "mcp",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/validate_signals.py",
+        "scripts/validate.py",
+        "scripts/triage.py",
+        "scripts/verify_all.py",
+        "tests/test_validate_signals.py",
+        "tests/test_validate.py",
+        "tests/test_triage.py",
+        "scripts/run.py",
+        "scripts/standup.py",
+        "scripts/conversion_dashboard.py",
+        "scripts/campaign.py",
+        "scripts/crm.py",
+        "scripts/snapshot.py",
+        "tests/test_standup.py",
+        "tests/test_conversion_dashboard.py",
+        "tests/test_campaign.py",
+        "tests/test_crm.py",
+        "tests/test_snapshot.py",
+        "scripts/notify.py",
+        "scripts/weekly_brief.py",
+        "scripts/agent.py",
+        "scripts/mcp_server.py",
+        "tests/test_notify.py",
+        "tests/test_mcp_server.py",
+        "scripts/org_intelligence.py",
+        "scripts/skills_gap.py",
+        "scripts/block_outcomes.py",
+        "tests/test_org_intelligence.py",
+        "tests/test_skills_gap.py",
+        "tests/test_block_outcomes.py",
+        "scripts/calendar_export.py",
+        "scripts/interview_prep.py",
+        "tests/test_calendar_export.py",
+        "tests/test_interview_prep.py",
+        "signals/daily-snapshots/YYYY-MM-DD.json",
+        "strategy/notifications.yaml",
+        "launchd/com.4jp.pipeline.weekly-briefing.plist",
+        "launchd/com.4jp.pipeline.calendar-refresh.plist"
+      ],
+      "domain_fingerprint": "7d1599212cf607cf"
+    },
+    {
+      "qualified_id": "claude:META:?:pure-riding-twilight",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/pure-riding-twilight.md",
+      "agent": "claude",
+      "organ": "META",
+      "repo": null,
+      "slug": "pure-riding-twilight",
+      "date": "2026-06-11",
+      "version": 1,
+      "status": "active",
+      "title": "Diagnostic Tool, Grading Rubric & Inter-Rater Agreement SOP",
+      "size_bytes": 8826,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 17,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/diagnose.py",
+        "scripts/diagnose_ira.py",
+        "docs/sop--diagnostic-inter-rater-agreement.md",
+        "tests/test_diagnose.py",
+        "tests/test_diagnose_ira.py",
+        "scripts/run.py",
+        "scripts/verification_matrix.py",
+        "strategy/system-grading-rubric.yaml",
+        "strategy/module-verification-overrides.yaml"
+      ],
+      "domain_fingerprint": "2ee14a061865336b"
+    },
+    {
+      "qualified_id": "claude:III:peer-audited--behavioral-blockchain:tingly-roaming-coral",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/tingly-roaming-coral.md",
+      "agent": "claude",
+      "organ": "III",
+      "repo": "peer-audited--behavioral-blockchain",
+      "slug": "tingly-roaming-coral",
+      "date": "2026-06-11",
+      "version": 1,
+      "status": "active",
+      "title": "Plan: Fix Loose Ends from Competitor Research Session",
+      "size_bytes": 2741,
+      "has_verification": true,
+      "archetype": "generic",
+      "task_count": 6,
+      "completed_count": 0,
+      "tags": [
+        "bash"
+      ],
+      "file_refs": [
+        "docs/research/research--sop-product-teardown.md",
+        "meta-organvm/SOP--market-gap-analysis.md",
+        "/Users/4jp/Workspace/meta-organvm/SOP--market-gap-analysis.md"
+      ],
+      "domain_fingerprint": "373ddd194bd7283c"
+    },
     {
       "qualified_id": "claude:_root:_global:data-relay-from-your-generic-willow",
       "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/domus-genoma/.claude/plans/data-relay-from-your-generic-willow.md",
@@ -870,6 +1306,30 @@
       ],
       "file_refs": [],
       "domain_fingerprint": "c5bb16c1b9d0c6e8"
+    },
+    {
+      "qualified_id": "gemini:_root:_global:closeout-local-dev-config",
+      "path": "/Users/4jp/Workspace/limen-work/peer-audited--behavioral-blockchain/.gemini/plans/2026-06-07-closeout-local-dev-config.md",
+      "agent": "gemini",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "closeout-local-dev-config",
+      "date": "2026-06-07",
+      "version": 1,
+      "status": "active",
+      "title": "Session Close-Out — 2026-06-07",
+      "size_bytes": 1223,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [
+        "scripts/dev/env.mjs",
+        "docs/planning/agent-handoffs/2026-06-07--peer-audited-local-dev-config-hall-monitor-completion.md",
+        "docs/GEMINI.md"
+      ],
+      "domain_fingerprint": "e226e72c24cb8265"
     },
     {
       "qualified_id": "gemini:_root:_global:closeout-2026-06-07",
@@ -2990,6 +3450,372 @@
     {
       "qualified_id": "claude:LIMINAL:session-meta:handoff-session-meta-ingest-substrate",
       "path": "/Users/4jp/Workspace/session-meta/.claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
+      "agent": "claude",
+      "organ": "LIMINAL",
+      "repo": "session-meta",
+      "slug": "handoff-session-meta-ingest-substrate",
+      "date": "2026-06-05",
+      "version": 1,
+      "status": "active",
+      "title": "Agent Handoff: session-meta ingest substrate + de-secret cutover",
+      "size_bytes": 7965,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 9,
+      "completed_count": 9,
+      "tags": [
+        "aws"
+      ],
+      "file_refs": [
+        "atomize.py",
+        "ingest/atoms.jsonl",
+        "ingest/manifest.jsonl",
+        "ingest/README.md",
+        "adapters/opencode.py"
+      ],
+      "domain_fingerprint": "3f4bb364487f419a"
+    },
+    {
+      "qualified_id": "claude:_root:_global:closeout-session-meta-ingest-substrate",
+      "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/helm-f2ca6eb8/.claude/plans/2026-06-05-closeout-session-meta-ingest-substrate.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "closeout-session-meta-ingest-substrate",
+      "date": "2026-06-05",
+      "version": 1,
+      "status": "active",
+      "title": "Session Close-Out — 2026-06-05",
+      "size_bytes": 3172,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [
+        "aws"
+      ],
+      "file_refs": [
+        "ingest/redact.py",
+        "ingest/extractors/opencode_db.py",
+        "ingest/extractors/antigravity_db.py",
+        "ingest/adapters/claude-code-sessions.py",
+        ".claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
+        "ingest/atomize.py",
+        "ingest/registry.py",
+        "ingest/manifest.jsonl",
+        "ingest/README.md",
+        ".conductor/active-handoff.md"
+      ],
+      "domain_fingerprint": "ecc4e3d02c60048f"
+    },
+    {
+      "qualified_id": "claude:LIMINAL:session-meta:handoff-session-meta-ingest-substrate",
+      "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/helm-f2ca6eb8/.claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
+      "agent": "claude",
+      "organ": "LIMINAL",
+      "repo": "session-meta",
+      "slug": "handoff-session-meta-ingest-substrate",
+      "date": "2026-06-05",
+      "version": 1,
+      "status": "active",
+      "title": "Agent Handoff: session-meta ingest substrate + de-secret cutover",
+      "size_bytes": 7965,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 9,
+      "completed_count": 9,
+      "tags": [
+        "aws"
+      ],
+      "file_refs": [
+        "atomize.py",
+        "ingest/atoms.jsonl",
+        "ingest/manifest.jsonl",
+        "ingest/README.md",
+        "adapters/opencode.py"
+      ],
+      "domain_fingerprint": "3f4bb364487f419a"
+    },
+    {
+      "qualified_id": "claude:_root:_global:closeout-session-meta-ingest-substrate",
+      "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/entity-discovery-audit/.claude/plans/2026-06-05-closeout-session-meta-ingest-substrate.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "closeout-session-meta-ingest-substrate",
+      "date": "2026-06-05",
+      "version": 1,
+      "status": "active",
+      "title": "Session Close-Out — 2026-06-05",
+      "size_bytes": 3172,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [
+        "aws"
+      ],
+      "file_refs": [
+        "ingest/redact.py",
+        "ingest/extractors/opencode_db.py",
+        "ingest/extractors/antigravity_db.py",
+        "ingest/adapters/claude-code-sessions.py",
+        ".claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
+        "ingest/atomize.py",
+        "ingest/registry.py",
+        "ingest/manifest.jsonl",
+        "ingest/README.md",
+        ".conductor/active-handoff.md"
+      ],
+      "domain_fingerprint": "ecc4e3d02c60048f"
+    },
+    {
+      "qualified_id": "claude:LIMINAL:session-meta:handoff-session-meta-ingest-substrate",
+      "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/entity-discovery-audit/.claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
+      "agent": "claude",
+      "organ": "LIMINAL",
+      "repo": "session-meta",
+      "slug": "handoff-session-meta-ingest-substrate",
+      "date": "2026-06-05",
+      "version": 1,
+      "status": "active",
+      "title": "Agent Handoff: session-meta ingest substrate + de-secret cutover",
+      "size_bytes": 7965,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 9,
+      "completed_count": 9,
+      "tags": [
+        "aws"
+      ],
+      "file_refs": [
+        "atomize.py",
+        "ingest/atoms.jsonl",
+        "ingest/manifest.jsonl",
+        "ingest/README.md",
+        "adapters/opencode.py"
+      ],
+      "domain_fingerprint": "3f4bb364487f419a"
+    },
+    {
+      "qualified_id": "claude:_root:_global:closeout-session-meta-ingest-substrate",
+      "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/ev-565f806f/.claude/plans/2026-06-05-closeout-session-meta-ingest-substrate.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "closeout-session-meta-ingest-substrate",
+      "date": "2026-06-05",
+      "version": 1,
+      "status": "active",
+      "title": "Session Close-Out — 2026-06-05",
+      "size_bytes": 3172,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [
+        "aws"
+      ],
+      "file_refs": [
+        "ingest/redact.py",
+        "ingest/extractors/opencode_db.py",
+        "ingest/extractors/antigravity_db.py",
+        "ingest/adapters/claude-code-sessions.py",
+        ".claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
+        "ingest/atomize.py",
+        "ingest/registry.py",
+        "ingest/manifest.jsonl",
+        "ingest/README.md",
+        ".conductor/active-handoff.md"
+      ],
+      "domain_fingerprint": "ecc4e3d02c60048f"
+    },
+    {
+      "qualified_id": "claude:LIMINAL:session-meta:handoff-session-meta-ingest-substrate",
+      "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/ev-565f806f/.claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
+      "agent": "claude",
+      "organ": "LIMINAL",
+      "repo": "session-meta",
+      "slug": "handoff-session-meta-ingest-substrate",
+      "date": "2026-06-05",
+      "version": 1,
+      "status": "active",
+      "title": "Agent Handoff: session-meta ingest substrate + de-secret cutover",
+      "size_bytes": 7965,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 9,
+      "completed_count": 9,
+      "tags": [
+        "aws"
+      ],
+      "file_refs": [
+        "atomize.py",
+        "ingest/atoms.jsonl",
+        "ingest/manifest.jsonl",
+        "ingest/README.md",
+        "adapters/opencode.py"
+      ],
+      "domain_fingerprint": "3f4bb364487f419a"
+    },
+    {
+      "qualified_id": "claude:_root:_global:closeout-session-meta-ingest-substrate",
+      "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/track-e-professionalization/.claude/plans/2026-06-05-closeout-session-meta-ingest-substrate.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "closeout-session-meta-ingest-substrate",
+      "date": "2026-06-05",
+      "version": 1,
+      "status": "active",
+      "title": "Session Close-Out — 2026-06-05",
+      "size_bytes": 3172,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [
+        "aws"
+      ],
+      "file_refs": [
+        "ingest/redact.py",
+        "ingest/extractors/opencode_db.py",
+        "ingest/extractors/antigravity_db.py",
+        "ingest/adapters/claude-code-sessions.py",
+        ".claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
+        "ingest/atomize.py",
+        "ingest/registry.py",
+        "ingest/manifest.jsonl",
+        "ingest/README.md",
+        ".conductor/active-handoff.md"
+      ],
+      "domain_fingerprint": "ecc4e3d02c60048f"
+    },
+    {
+      "qualified_id": "claude:LIMINAL:session-meta:handoff-session-meta-ingest-substrate",
+      "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/track-e-professionalization/.claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
+      "agent": "claude",
+      "organ": "LIMINAL",
+      "repo": "session-meta",
+      "slug": "handoff-session-meta-ingest-substrate",
+      "date": "2026-06-05",
+      "version": 1,
+      "status": "active",
+      "title": "Agent Handoff: session-meta ingest substrate + de-secret cutover",
+      "size_bytes": 7965,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 9,
+      "completed_count": 9,
+      "tags": [
+        "aws"
+      ],
+      "file_refs": [
+        "atomize.py",
+        "ingest/atoms.jsonl",
+        "ingest/manifest.jsonl",
+        "ingest/README.md",
+        "adapters/opencode.py"
+      ],
+      "domain_fingerprint": "3f4bb364487f419a"
+    },
+    {
+      "qualified_id": "claude:_root:_global:closeout-session-meta-ingest-substrate",
+      "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/helm-0fc455b5/.claude/plans/2026-06-05-closeout-session-meta-ingest-substrate.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "closeout-session-meta-ingest-substrate",
+      "date": "2026-06-05",
+      "version": 1,
+      "status": "active",
+      "title": "Session Close-Out — 2026-06-05",
+      "size_bytes": 3172,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [
+        "aws"
+      ],
+      "file_refs": [
+        "ingest/redact.py",
+        "ingest/extractors/opencode_db.py",
+        "ingest/extractors/antigravity_db.py",
+        "ingest/adapters/claude-code-sessions.py",
+        ".claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
+        "ingest/atomize.py",
+        "ingest/registry.py",
+        "ingest/manifest.jsonl",
+        "ingest/README.md",
+        ".conductor/active-handoff.md"
+      ],
+      "domain_fingerprint": "ecc4e3d02c60048f"
+    },
+    {
+      "qualified_id": "claude:LIMINAL:session-meta:handoff-session-meta-ingest-substrate",
+      "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/helm-0fc455b5/.claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
+      "agent": "claude",
+      "organ": "LIMINAL",
+      "repo": "session-meta",
+      "slug": "handoff-session-meta-ingest-substrate",
+      "date": "2026-06-05",
+      "version": 1,
+      "status": "active",
+      "title": "Agent Handoff: session-meta ingest substrate + de-secret cutover",
+      "size_bytes": 7965,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 9,
+      "completed_count": 9,
+      "tags": [
+        "aws"
+      ],
+      "file_refs": [
+        "atomize.py",
+        "ingest/atoms.jsonl",
+        "ingest/manifest.jsonl",
+        "ingest/README.md",
+        "adapters/opencode.py"
+      ],
+      "domain_fingerprint": "3f4bb364487f419a"
+    },
+    {
+      "qualified_id": "claude:_root:_global:closeout-session-meta-ingest-substrate",
+      "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/ev+b71f6cdf/.claude/plans/2026-06-05-closeout-session-meta-ingest-substrate.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "closeout-session-meta-ingest-substrate",
+      "date": "2026-06-05",
+      "version": 1,
+      "status": "active",
+      "title": "Session Close-Out — 2026-06-05",
+      "size_bytes": 3172,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [
+        "aws"
+      ],
+      "file_refs": [
+        "ingest/redact.py",
+        "ingest/extractors/opencode_db.py",
+        "ingest/extractors/antigravity_db.py",
+        "ingest/adapters/claude-code-sessions.py",
+        ".claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
+        "ingest/atomize.py",
+        "ingest/registry.py",
+        "ingest/manifest.jsonl",
+        "ingest/README.md",
+        ".conductor/active-handoff.md"
+      ],
+      "domain_fingerprint": "ecc4e3d02c60048f"
+    },
+    {
+      "qualified_id": "claude:LIMINAL:session-meta:handoff-session-meta-ingest-substrate",
+      "path": "/Users/4jp/Workspace/session-meta/.claude/worktrees/ev+b71f6cdf/.claude/plans/2026-06-05-handoff-session-meta-ingest-substrate.md",
       "agent": "claude",
       "organ": "LIMINAL",
       "repo": "session-meta",
@@ -26802,6 +27628,138 @@
       "domain_fingerprint": "c9cb69f4cbbd958b"
     },
     {
+      "qualified_id": "claude:_root:_global:full-triage-week-recovery",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-04-03-full-triage-week-recovery.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "full-triage-week-recovery",
+      "date": "2026-04-03",
+      "version": 1,
+      "status": "active",
+      "title": "Full Pipeline Triage — Week of Disengagement Recovery",
+      "size_bytes": 9345,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 26,
+      "completed_count": 0,
+      "tags": [
+        "go",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/interview_prep.py",
+        "scripts/org_intelligence.py",
+        "scripts/skills_gap.py",
+        "scripts/followup.py",
+        "scripts/advance.py",
+        "scripts/standup.py",
+        "scripts/compose.py",
+        "scripts/tailor_resume.py",
+        "scripts/hygiene.py",
+        "scripts/snapshot.py",
+        "scripts/check_outcomes.py",
+        "scripts/check_email.py",
+        "scripts/freshness_monitor.py",
+        "pipeline/submissions/grafana-labs-staff-ai-engineer-people-technology-nasa-remote-interview-prep.md",
+        "signals/outreach-log.yaml",
+        "signals/contacts.yaml",
+        "signals/signal-actions.yaml"
+      ],
+      "domain_fingerprint": "1a17952b20153bf3"
+    },
+    {
+      "qualified_id": "claude:_root:_global:session-handoff-s54",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-04-03-session-handoff-s54.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "session-handoff-s54",
+      "date": "2026-04-03",
+      "version": 1,
+      "status": "active",
+      "title": "Session Handoff — S54 (2026-04-03)",
+      "size_bytes": 3289,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 17,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [
+        "scripts/followup.py",
+        ".claude/plans/2026-04-03-full-triage-week-recovery.md",
+        "signals/daily-snapshots/2026-04-03.json",
+        "memory/project_session_2026-04-03-s54.md"
+      ],
+      "domain_fingerprint": "e72fea114a0ca461"
+    },
+    {
+      "qualified_id": "claude:_root:_global:full-triage-week-recovery",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-04-03-full-triage-week-recovery.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "full-triage-week-recovery",
+      "date": "2026-04-03",
+      "version": 1,
+      "status": "active",
+      "title": "Full Pipeline Triage — Week of Disengagement Recovery",
+      "size_bytes": 9345,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 26,
+      "completed_count": 0,
+      "tags": [
+        "go",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/interview_prep.py",
+        "scripts/org_intelligence.py",
+        "scripts/skills_gap.py",
+        "scripts/followup.py",
+        "scripts/advance.py",
+        "scripts/standup.py",
+        "scripts/compose.py",
+        "scripts/tailor_resume.py",
+        "scripts/hygiene.py",
+        "scripts/snapshot.py",
+        "scripts/check_outcomes.py",
+        "scripts/check_email.py",
+        "scripts/freshness_monitor.py",
+        "pipeline/submissions/grafana-labs-staff-ai-engineer-people-technology-nasa-remote-interview-prep.md",
+        "signals/outreach-log.yaml",
+        "signals/contacts.yaml",
+        "signals/signal-actions.yaml"
+      ],
+      "domain_fingerprint": "1a17952b20153bf3"
+    },
+    {
+      "qualified_id": "claude:_root:_global:session-handoff-s54",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-04-03-session-handoff-s54.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "session-handoff-s54",
+      "date": "2026-04-03",
+      "version": 1,
+      "status": "active",
+      "title": "Session Handoff — S54 (2026-04-03)",
+      "size_bytes": 3289,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 17,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [
+        "scripts/followup.py",
+        ".claude/plans/2026-04-03-full-triage-week-recovery.md",
+        "signals/daily-snapshots/2026-04-03.json",
+        "memory/project_session_2026-04-03-s54.md"
+      ],
+      "domain_fingerprint": "e72fea114a0ca461"
+    },
+    {
       "qualified_id": "claude:META:praxis-perpetua:documentation-handoff-architecture-audit",
       "path": "/Users/4jp/Workspace/.home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans/2026-04-03-documentation-handoff-architecture-audit.md",
       "agent": "claude",
@@ -26948,6 +27906,142 @@
         "test_cultvra_logos.py"
       ],
       "domain_fingerprint": "a3e40bed2503febe"
+    },
+    {
+      "qualified_id": "claude:_root:_global:four-stream-hygiene-prep",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-04-02-four-stream-hygiene-prep.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "four-stream-hygiene-prep",
+      "date": "2026-04-02",
+      "version": 1,
+      "status": "active",
+      "title": "Session Plan: Four-Stream Hygiene + Prep Pass",
+      "size_bytes": 7573,
+      "has_verification": false,
+      "archetype": "sequenced_list",
+      "task_count": 26,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "mcp",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/hygiene.py",
+        "scripts/run.py",
+        "scripts/validate.py",
+        "scripts/tailor_resume.py",
+        "scripts/build_resumes.py",
+        "scripts/compose.py",
+        "scripts/advance.py",
+        "scripts/log_dm.py",
+        "scripts/followup.py",
+        "pipeline/closed/creative-capital-2027.yaml",
+        ".claude/plans/2026-04-01-grafana-interview-avalanche.md",
+        "pipeline/submitted/grafana-labs-staff-ai-engineer-people-technology-nasa-remote.yaml",
+        "materials/variants/cover-letters/zkm-rauschenberg-alchemized.md",
+        "materials/variants/statements/zkm-rauschenberg-artist-statement.md",
+        "materials/variants/project-descriptions/zkm-rauschenberg-proposal.md",
+        "signals/outreach-log.yaml",
+        "signals/contacts.yaml",
+        ".claude/plans/2026-04-02-session-handoff-S53.md"
+      ],
+      "domain_fingerprint": "09730652bcc1d0a6"
+    },
+    {
+      "qualified_id": "claude:_root:_global:session-handoff-S53",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-04-02-session-handoff-S53.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "session-handoff-S53",
+      "date": "2026-04-02",
+      "version": 1,
+      "status": "active",
+      "title": "Session Handoff — S53 → Next",
+      "size_bytes": 3263,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 8,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [
+        ".claude/plans/2026-04-02-four-stream-hygiene-prep.md",
+        ".claude/plans/2026-04-02-session-handoff-S53.md",
+        ".claude/plans/2026-04-01-grafana-interview-avalanche.md"
+      ],
+      "domain_fingerprint": "0a3e791ff4c36dab"
+    },
+    {
+      "qualified_id": "claude:_root:_global:four-stream-hygiene-prep",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-04-02-four-stream-hygiene-prep.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "four-stream-hygiene-prep",
+      "date": "2026-04-02",
+      "version": 1,
+      "status": "active",
+      "title": "Session Plan: Four-Stream Hygiene + Prep Pass",
+      "size_bytes": 7573,
+      "has_verification": false,
+      "archetype": "sequenced_list",
+      "task_count": 26,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "mcp",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/hygiene.py",
+        "scripts/run.py",
+        "scripts/validate.py",
+        "scripts/tailor_resume.py",
+        "scripts/build_resumes.py",
+        "scripts/compose.py",
+        "scripts/advance.py",
+        "scripts/log_dm.py",
+        "scripts/followup.py",
+        "pipeline/closed/creative-capital-2027.yaml",
+        ".claude/plans/2026-04-01-grafana-interview-avalanche.md",
+        "pipeline/submitted/grafana-labs-staff-ai-engineer-people-technology-nasa-remote.yaml",
+        "materials/variants/cover-letters/zkm-rauschenberg-alchemized.md",
+        "materials/variants/statements/zkm-rauschenberg-artist-statement.md",
+        "materials/variants/project-descriptions/zkm-rauschenberg-proposal.md",
+        "signals/outreach-log.yaml",
+        "signals/contacts.yaml",
+        ".claude/plans/2026-04-02-session-handoff-S53.md"
+      ],
+      "domain_fingerprint": "09730652bcc1d0a6"
+    },
+    {
+      "qualified_id": "claude:_root:_global:session-handoff-S53",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-04-02-session-handoff-S53.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "session-handoff-S53",
+      "date": "2026-04-02",
+      "version": 1,
+      "status": "active",
+      "title": "Session Handoff — S53 → Next",
+      "size_bytes": 3263,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 8,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [
+        ".claude/plans/2026-04-02-four-stream-hygiene-prep.md",
+        ".claude/plans/2026-04-02-session-handoff-S53.md",
+        ".claude/plans/2026-04-01-grafana-interview-avalanche.md"
+      ],
+      "domain_fingerprint": "0a3e791ff4c36dab"
     },
     {
       "qualified_id": "claude:IV:fleet:fleet-agent-capability-definition",
@@ -27152,6 +28246,166 @@
         "docs/operations/2026-04-02-transcript-ingestion-record-s48-s51.md"
       ],
       "domain_fingerprint": "cd4bf261fe6092a3"
+    },
+    {
+      "qualified_id": "claude:_root:_global:avalanche-protocol-generic",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-04-01-avalanche-protocol-generic.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "avalanche-protocol-generic",
+      "date": "2026-04-01",
+      "version": 1,
+      "status": "active",
+      "title": "Avalanche Protocol — Generic Session Handoff Specification",
+      "size_bytes": 7772,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [
+        ".claude/plans/2026-04-01-grafana-interview-avalanche.md"
+      ],
+      "domain_fingerprint": "7a80a37a636652d5"
+    },
+    {
+      "qualified_id": "claude:_root:_global:grafana-interview-avalanche",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-04-01-grafana-interview-avalanche.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "grafana-interview-avalanche",
+      "date": "2026-04-01",
+      "version": 1,
+      "status": "active",
+      "title": "Avalanche Manifest: Grafana Interview Conversion",
+      "size_bytes": 6230,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [
+        "go",
+        "mcp",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/validate.py",
+        "scripts/interview_prep.py",
+        "scripts/crm.py",
+        "pipeline/submitted/grafana-labs-staff-ai-engineer-people-technology-nasa-remote.yaml",
+        "signals/outreach-log.yaml",
+        "signals/contacts.yaml",
+        "pipeline/submissions/grafana-labs-full-dossier.md"
+      ],
+      "domain_fingerprint": "70b138c19375abde"
+    },
+    {
+      "qualified_id": "claude:_root:_global:session-handoff-S49",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-04-01-session-handoff-S49.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "session-handoff-S49",
+      "date": "2026-04-01",
+      "version": 1,
+      "status": "active",
+      "title": "Session Handoff — S49 → Next",
+      "size_bytes": 3927,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 13,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [
+        "pipeline/submitted/grafana-labs-staff-ai-engineer-people-technology-nasa-remote.yaml",
+        "pipeline/submissions/grafana-labs-staff-ai-engineer-people-technology-nasa-remote-interview-prep.md",
+        "pipeline/submissions/grafana-labs-full-dossier.md",
+        ".claude/plans/2026-04-01-grafana-interview-avalanche.md",
+        ".claude/plans/2026-04-01-avalanche-protocol-generic.md"
+      ],
+      "domain_fingerprint": "63c887f5216ea884"
+    },
+    {
+      "qualified_id": "claude:_root:_global:avalanche-protocol-generic",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-04-01-avalanche-protocol-generic.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "avalanche-protocol-generic",
+      "date": "2026-04-01",
+      "version": 1,
+      "status": "active",
+      "title": "Avalanche Protocol — Generic Session Handoff Specification",
+      "size_bytes": 7772,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [
+        ".claude/plans/2026-04-01-grafana-interview-avalanche.md"
+      ],
+      "domain_fingerprint": "7a80a37a636652d5"
+    },
+    {
+      "qualified_id": "claude:_root:_global:grafana-interview-avalanche",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-04-01-grafana-interview-avalanche.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "grafana-interview-avalanche",
+      "date": "2026-04-01",
+      "version": 1,
+      "status": "active",
+      "title": "Avalanche Manifest: Grafana Interview Conversion",
+      "size_bytes": 6230,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [
+        "go",
+        "mcp",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/validate.py",
+        "scripts/interview_prep.py",
+        "scripts/crm.py",
+        "pipeline/submitted/grafana-labs-staff-ai-engineer-people-technology-nasa-remote.yaml",
+        "signals/outreach-log.yaml",
+        "signals/contacts.yaml",
+        "pipeline/submissions/grafana-labs-full-dossier.md"
+      ],
+      "domain_fingerprint": "70b138c19375abde"
+    },
+    {
+      "qualified_id": "claude:_root:_global:session-handoff-S49",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-04-01-session-handoff-S49.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "session-handoff-S49",
+      "date": "2026-04-01",
+      "version": 1,
+      "status": "active",
+      "title": "Session Handoff — S49 → Next",
+      "size_bytes": 3927,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 13,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [
+        "pipeline/submitted/grafana-labs-staff-ai-engineer-people-technology-nasa-remote.yaml",
+        "pipeline/submissions/grafana-labs-staff-ai-engineer-people-technology-nasa-remote-interview-prep.md",
+        "pipeline/submissions/grafana-labs-full-dossier.md",
+        ".claude/plans/2026-04-01-grafana-interview-avalanche.md",
+        ".claude/plans/2026-04-01-avalanche-protocol-generic.md"
+      ],
+      "domain_fingerprint": "63c887f5216ea884"
     },
     {
       "qualified_id": "claude:META:organvm-engine:dispersio-formalis",
@@ -27727,6 +28981,100 @@
       "domain_fingerprint": "2b01214d32c382db"
     },
     {
+      "qualified_id": "claude:LIMINAL:CLAUDE:claude-md-compression",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-31-claude-md-compression.md",
+      "agent": "claude",
+      "organ": "LIMINAL",
+      "repo": "CLAUDE",
+      "slug": "claude-md-compression",
+      "date": "2026-03-31",
+      "version": 1,
+      "status": "active",
+      "title": "Plan: Compress CLAUDE.md Below 40k Threshold",
+      "size_bytes": 7459,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 12,
+      "completed_count": 0,
+      "tags": [
+        "mcp"
+      ],
+      "file_refs": [
+        "application-pipeline/CLAUDE.md",
+        "signals/hypotheses.yaml"
+      ],
+      "domain_fingerprint": "7093d72627fe7ac2"
+    },
+    {
+      "qualified_id": "claude:META:organvm-corpvs-testamentvm:openclaw-vacuum-registry",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-31-openclaw-vacuum-registry.md",
+      "agent": "claude",
+      "organ": "META",
+      "repo": "organvm-corpvs-testamentvm",
+      "slug": "openclaw-vacuum-registry",
+      "date": "2026-03-31",
+      "version": 1,
+      "status": "active",
+      "title": "OpenClaw Vacuum Registry — 2026-03-31",
+      "size_bytes": 6167,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [
+        "meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md"
+      ],
+      "domain_fingerprint": "b7b04155dac7480b"
+    },
+    {
+      "qualified_id": "claude:LIMINAL:CLAUDE:claude-md-compression",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-31-claude-md-compression.md",
+      "agent": "claude",
+      "organ": "LIMINAL",
+      "repo": "CLAUDE",
+      "slug": "claude-md-compression",
+      "date": "2026-03-31",
+      "version": 1,
+      "status": "active",
+      "title": "Plan: Compress CLAUDE.md Below 40k Threshold",
+      "size_bytes": 7459,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 12,
+      "completed_count": 0,
+      "tags": [
+        "mcp"
+      ],
+      "file_refs": [
+        "application-pipeline/CLAUDE.md",
+        "signals/hypotheses.yaml"
+      ],
+      "domain_fingerprint": "7093d72627fe7ac2"
+    },
+    {
+      "qualified_id": "claude:META:organvm-corpvs-testamentvm:openclaw-vacuum-registry",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-31-openclaw-vacuum-registry.md",
+      "agent": "claude",
+      "organ": "META",
+      "repo": "organvm-corpvs-testamentvm",
+      "slug": "openclaw-vacuum-registry",
+      "date": "2026-03-31",
+      "version": 1,
+      "status": "active",
+      "title": "OpenClaw Vacuum Registry — 2026-03-31",
+      "size_bytes": 6167,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [
+        "meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md"
+      ],
+      "domain_fingerprint": "b7b04155dac7480b"
+    },
+    {
       "qualified_id": "claude:META:?:s41-handoff-documents",
       "path": "/Users/4jp/Workspace/limen-work/conversation-corpus-engine/.claude/plans/2026-03-31-s41-handoff-documents.md",
       "agent": "claude",
@@ -28295,6 +29643,332 @@
         "tools/superproject_topology_audit.py"
       ],
       "domain_fingerprint": "de4d003a71fc7f4d"
+    },
+    {
+      "qualified_id": "claude:_root:_global:full-quadrant-distribution-strategy",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-30-full-quadrant-distribution-strategy.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "full-quadrant-distribution-strategy",
+      "date": "2026-03-30",
+      "version": 1,
+      "status": "active",
+      "title": "Full Quadrant Distribution: How Every Audience Finds This and Pays For It",
+      "size_bytes": 16075,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 26,
+      "completed_count": 0,
+      "tags": [
+        "python"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "11a4a60b518bf249"
+    },
+    {
+      "qualified_id": "claude:III:?:full-quadrant-work-items",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-30-full-quadrant-work-items.md",
+      "agent": "claude",
+      "organ": "III",
+      "repo": null,
+      "slug": "full-quadrant-work-items",
+      "date": "2026-03-30",
+      "version": 1,
+      "status": "active",
+      "title": "Full Quadrant Distribution — Work Item Specification",
+      "size_bytes": 20714,
+      "has_verification": false,
+      "archetype": "exploration",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [
+        "go",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/apply.py",
+        "scripts/build_cover_letters.py",
+        "scripts/dm_composer.py",
+        "scripts/recruiter_filter.py",
+        "config/identity.yaml",
+        "scripts/run.py"
+      ],
+      "domain_fingerprint": "e1d8e1d7ccfced16"
+    },
+    {
+      "qualified_id": "claude:_root:_global:linkedin-content-engine-cleanup",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-30-linkedin-content-engine-cleanup.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "linkedin-content-engine-cleanup",
+      "date": "2026-03-30",
+      "version": 1,
+      "status": "active",
+      "title": "LinkedIn Content Engine Cleanup & Post #004",
+      "size_bytes": 2256,
+      "has_verification": true,
+      "archetype": "sequenced_list",
+      "task_count": 4,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [],
+      "domain_fingerprint": "e3b0c44298fc1c14"
+    },
+    {
+      "qualified_id": "claude:III:commerce--meta:product-extraction-triptych",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-30-product-extraction-triptych.md",
+      "agent": "claude",
+      "organ": "III",
+      "repo": "commerce--meta",
+      "slug": "product-extraction-triptych",
+      "date": "2026-03-30",
+      "version": 1,
+      "status": "active",
+      "title": "Product Extraction: Application Pipeline → ORGAN-III Flagship",
+      "size_bytes": 4598,
+      "has_verification": false,
+      "archetype": "phase_checkbox",
+      "task_count": 15,
+      "completed_count": 3,
+      "tags": [],
+      "file_refs": [
+        "config/identity.yaml"
+      ],
+      "domain_fingerprint": "4714b8a5af40f6b4"
+    },
+    {
+      "qualified_id": "claude:_root:_global:product-strategy-two-sided-marketplace",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-30-product-strategy-two-sided-marketplace.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "product-strategy-two-sided-marketplace",
+      "date": "2026-03-30",
+      "version": 1,
+      "status": "active",
+      "title": "Product Strategy: The Two-Sided Application Marketplace",
+      "size_bytes": 12896,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [
+        "postgresql"
+      ],
+      "file_refs": [
+        "config/identity.yaml"
+      ],
+      "domain_fingerprint": "cc2bf0733d2ca6f3"
+    },
+    {
+      "qualified_id": "claude:META:organvm-corpvs-testamentvm:week-14-weekly-plan",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-30-week-14-weekly-plan.md",
+      "agent": "claude",
+      "organ": "META",
+      "repo": "organvm-corpvs-testamentvm",
+      "slug": "week-14-weekly-plan",
+      "date": "2026-03-30",
+      "version": 1,
+      "status": "active",
+      "title": "Weekly Plan: 2026-03-30 (Week 14)",
+      "size_bytes": 8495,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 5,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "launchd_manager.py",
+        "scripts/launchd_manager.py",
+        "scripts/apply.py",
+        "scripts/advance.py",
+        "scripts/run.py",
+        "scripts/log_dm.py",
+        "scripts/check_outcomes.py",
+        "config/identity.yaml",
+        "scripts/dm_composer.py",
+        "tests/test_apply.py",
+        "tests/test_dm_composer.py",
+        "scripts/pipeline_lib.py",
+        "scripts/recruiter_filter.py",
+        "scripts/verify_all.py",
+        "scripts/validate.py",
+        "scripts/snapshot.py",
+        "scripts/diagnose.py",
+        "pipeline/active/creative-capital-2027.yaml",
+        "materials/targets/profiles/creative-capital.json",
+        "strategy/linkedin-content/harvest-YYYY-MM-DD.yaml"
+      ],
+      "domain_fingerprint": "878bf0d1bc845615"
+    },
+    {
+      "qualified_id": "claude:_root:_global:full-quadrant-distribution-strategy",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-30-full-quadrant-distribution-strategy.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "full-quadrant-distribution-strategy",
+      "date": "2026-03-30",
+      "version": 1,
+      "status": "active",
+      "title": "Full Quadrant Distribution: How Every Audience Finds This and Pays For It",
+      "size_bytes": 16075,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 26,
+      "completed_count": 0,
+      "tags": [
+        "python"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "11a4a60b518bf249"
+    },
+    {
+      "qualified_id": "claude:III:?:full-quadrant-work-items",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-30-full-quadrant-work-items.md",
+      "agent": "claude",
+      "organ": "III",
+      "repo": null,
+      "slug": "full-quadrant-work-items",
+      "date": "2026-03-30",
+      "version": 1,
+      "status": "active",
+      "title": "Full Quadrant Distribution — Work Item Specification",
+      "size_bytes": 20714,
+      "has_verification": false,
+      "archetype": "exploration",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [
+        "go",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/apply.py",
+        "scripts/build_cover_letters.py",
+        "scripts/dm_composer.py",
+        "scripts/recruiter_filter.py",
+        "config/identity.yaml",
+        "scripts/run.py"
+      ],
+      "domain_fingerprint": "e1d8e1d7ccfced16"
+    },
+    {
+      "qualified_id": "claude:_root:_global:linkedin-content-engine-cleanup",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-30-linkedin-content-engine-cleanup.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "linkedin-content-engine-cleanup",
+      "date": "2026-03-30",
+      "version": 1,
+      "status": "active",
+      "title": "LinkedIn Content Engine Cleanup & Post #004",
+      "size_bytes": 2256,
+      "has_verification": true,
+      "archetype": "sequenced_list",
+      "task_count": 4,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [],
+      "domain_fingerprint": "e3b0c44298fc1c14"
+    },
+    {
+      "qualified_id": "claude:III:commerce--meta:product-extraction-triptych",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-30-product-extraction-triptych.md",
+      "agent": "claude",
+      "organ": "III",
+      "repo": "commerce--meta",
+      "slug": "product-extraction-triptych",
+      "date": "2026-03-30",
+      "version": 1,
+      "status": "active",
+      "title": "Product Extraction: Application Pipeline → ORGAN-III Flagship",
+      "size_bytes": 4598,
+      "has_verification": false,
+      "archetype": "phase_checkbox",
+      "task_count": 15,
+      "completed_count": 3,
+      "tags": [],
+      "file_refs": [
+        "config/identity.yaml"
+      ],
+      "domain_fingerprint": "4714b8a5af40f6b4"
+    },
+    {
+      "qualified_id": "claude:_root:_global:product-strategy-two-sided-marketplace",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-30-product-strategy-two-sided-marketplace.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "product-strategy-two-sided-marketplace",
+      "date": "2026-03-30",
+      "version": 1,
+      "status": "active",
+      "title": "Product Strategy: The Two-Sided Application Marketplace",
+      "size_bytes": 12896,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [
+        "postgresql"
+      ],
+      "file_refs": [
+        "config/identity.yaml"
+      ],
+      "domain_fingerprint": "cc2bf0733d2ca6f3"
+    },
+    {
+      "qualified_id": "claude:META:organvm-corpvs-testamentvm:week-14-weekly-plan",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-30-week-14-weekly-plan.md",
+      "agent": "claude",
+      "organ": "META",
+      "repo": "organvm-corpvs-testamentvm",
+      "slug": "week-14-weekly-plan",
+      "date": "2026-03-30",
+      "version": 1,
+      "status": "active",
+      "title": "Weekly Plan: 2026-03-30 (Week 14)",
+      "size_bytes": 8495,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 5,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "launchd_manager.py",
+        "scripts/launchd_manager.py",
+        "scripts/apply.py",
+        "scripts/advance.py",
+        "scripts/run.py",
+        "scripts/log_dm.py",
+        "scripts/check_outcomes.py",
+        "config/identity.yaml",
+        "scripts/dm_composer.py",
+        "tests/test_apply.py",
+        "tests/test_dm_composer.py",
+        "scripts/pipeline_lib.py",
+        "scripts/recruiter_filter.py",
+        "scripts/verify_all.py",
+        "scripts/validate.py",
+        "scripts/snapshot.py",
+        "scripts/diagnose.py",
+        "pipeline/active/creative-capital-2027.yaml",
+        "materials/targets/profiles/creative-capital.json",
+        "strategy/linkedin-content/harvest-YYYY-MM-DD.yaml"
+      ],
+      "domain_fingerprint": "878bf0d1bc845615"
     },
     {
       "qualified_id": "claude:_root:_global:formation-chemistry",
@@ -31558,6 +33232,35 @@
       "domain_fingerprint": "950186e4914c0a2c"
     },
     {
+      "qualified_id": "claude:_root:_global:hive-organvm-fusion-public-process",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-21-hive-organvm-fusion-public-process.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "hive-organvm-fusion-public-process",
+      "date": "2026-03-21",
+      "version": 1,
+      "status": "active",
+      "title": "Hive × ORGANVM Fusion — Public Process Architecture",
+      "size_bytes": 6240,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [
+        "jekyll",
+        "mcp",
+        "node"
+      ],
+      "file_refs": [
+        "adapters/hive_adapter.py",
+        "governance/promotion_node.py",
+        "governance/quality_gate_node.py",
+        "evaluation/ira_node.py"
+      ],
+      "domain_fingerprint": "e8f01e96926f55b4"
+    },
+    {
       "qualified_id": "claude:_root:_global:complete-phase3",
       "path": "/Users/4jp/Workspace/forge-worktrees/specvla-ergon--avditor-mvndi-worktree/.claude/plans/2026-03-21-complete-phase3.md",
       "agent": "claude",
@@ -31780,6 +33483,35 @@
         "src/app/globals.css"
       ],
       "domain_fingerprint": "98bcfaac9664171d"
+    },
+    {
+      "qualified_id": "claude:_root:_global:hive-organvm-fusion-public-process",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-21-hive-organvm-fusion-public-process.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "hive-organvm-fusion-public-process",
+      "date": "2026-03-21",
+      "version": 1,
+      "status": "active",
+      "title": "Hive × ORGANVM Fusion — Public Process Architecture",
+      "size_bytes": 6240,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [
+        "jekyll",
+        "mcp",
+        "node"
+      ],
+      "file_refs": [
+        "adapters/hive_adapter.py",
+        "governance/promotion_node.py",
+        "governance/quality_gate_node.py",
+        "evaluation/ira_node.py"
+      ],
+      "domain_fingerprint": "e8f01e96926f55b4"
     },
     {
       "qualified_id": "claude:_root:_global:e2g-comprehensive-review",
@@ -33244,6 +34976,112 @@
       "domain_fingerprint": "10182ab855ff7727"
     },
     {
+      "qualified_id": "claude:_root:_global:evaluation-to-growth-session-arc",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-20-evaluation-to-growth-session-arc.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "evaluation-to-growth-session-arc",
+      "date": "2026-03-20",
+      "version": 1,
+      "status": "active",
+      "title": "Evaluation-to-Growth Report — March 18-20 Session Arc",
+      "size_bytes": 21139,
+      "has_verification": false,
+      "archetype": "phase_checkbox",
+      "task_count": 35,
+      "completed_count": 0,
+      "tags": [
+        "go",
+        "kubernetes",
+        "mcp",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/launchd_manager.py",
+        "strategy/linkedin-content/devto-article-career-pipeline.md",
+        "strategy/linkedin-content/post-002-teaching-story.md",
+        "applications/2026-03-19/linkedin-profile-gaps.md"
+      ],
+      "domain_fingerprint": "3c4ce7f74f52eea3"
+    },
+    {
+      "qualified_id": "claude:LIMINAL:application-pipeline:intake-pipeline-fix",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-20-intake-pipeline-fix.md",
+      "agent": "claude",
+      "organ": "LIMINAL",
+      "repo": "application-pipeline",
+      "slug": "intake-pipeline-fix",
+      "date": "2026-03-20",
+      "version": 1,
+      "status": "active",
+      "title": "Plan: Universal Intake Pipeline Fix",
+      "size_bytes": 3814,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 12,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [
+        "scripts/agent.py",
+        "scripts/source_jobs.py"
+      ],
+      "domain_fingerprint": "207fd67e48e282a2"
+    },
+    {
+      "qualified_id": "claude:_root:_global:evaluation-to-growth-session-arc",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-20-evaluation-to-growth-session-arc.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "evaluation-to-growth-session-arc",
+      "date": "2026-03-20",
+      "version": 1,
+      "status": "active",
+      "title": "Evaluation-to-Growth Report — March 18-20 Session Arc",
+      "size_bytes": 21139,
+      "has_verification": false,
+      "archetype": "phase_checkbox",
+      "task_count": 35,
+      "completed_count": 0,
+      "tags": [
+        "go",
+        "kubernetes",
+        "mcp",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/launchd_manager.py",
+        "strategy/linkedin-content/devto-article-career-pipeline.md",
+        "strategy/linkedin-content/post-002-teaching-story.md",
+        "applications/2026-03-19/linkedin-profile-gaps.md"
+      ],
+      "domain_fingerprint": "3c4ce7f74f52eea3"
+    },
+    {
+      "qualified_id": "claude:LIMINAL:application-pipeline:intake-pipeline-fix",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-20-intake-pipeline-fix.md",
+      "agent": "claude",
+      "organ": "LIMINAL",
+      "repo": "application-pipeline",
+      "slug": "intake-pipeline-fix",
+      "date": "2026-03-20",
+      "version": 1,
+      "status": "active",
+      "title": "Plan: Universal Intake Pipeline Fix",
+      "size_bytes": 3814,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 12,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [
+        "scripts/agent.py",
+        "scripts/source_jobs.py"
+      ],
+      "domain_fingerprint": "207fd67e48e282a2"
+    },
+    {
       "qualified_id": "claude:META:?:irf-system-integration",
       "path": "/Users/4jp/Workspace/limen-work/organvm-corpvs-testamentvm/.claude/plans/2026-03-20-irf-system-integration.md",
       "agent": "claude",
@@ -34085,6 +35923,50 @@
       "domain_fingerprint": "207fd67e48e282a2"
     },
     {
+      "qualified_id": "claude:_root:_global:evaluation-to-growth-report",
+      "path": "/Users/4jp/Workspace/application-pipeline/strategy/.claude/plans/2026-03-19-evaluation-to-growth-report.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "evaluation-to-growth-report",
+      "date": "2026-03-19",
+      "version": 1,
+      "status": "active",
+      "title": "Evaluation-to-Growth Report — Application Pipeline",
+      "size_bytes": 20120,
+      "has_verification": false,
+      "archetype": "phase_checkbox",
+      "task_count": 27,
+      "completed_count": 0,
+      "tags": [
+        "kubernetes"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "94abcb2d2773df65"
+    },
+    {
+      "qualified_id": "claude:_root:_global:evaluation-to-growth-report",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/strategy/.claude/plans/2026-03-19-evaluation-to-growth-report.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "evaluation-to-growth-report",
+      "date": "2026-03-19",
+      "version": 1,
+      "status": "active",
+      "title": "Evaluation-to-Growth Report — Application Pipeline",
+      "size_bytes": 20120,
+      "has_verification": false,
+      "archetype": "phase_checkbox",
+      "task_count": 27,
+      "completed_count": 0,
+      "tags": [
+        "kubernetes"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "94abcb2d2773df65"
+    },
+    {
       "qualified_id": "claude:_root:_global:pathos-excavated-conversations",
       "path": "/Users/4jp/Workspace/.home-cartridge/Code/income-2026-05-04/portfolio-site/.claude/plans/2026-03-19-pathos-excavated-conversations.md",
       "agent": "claude",
@@ -34376,6 +36258,182 @@
       "domain_fingerprint": "94abcb2d2773df65"
     },
     {
+      "qualified_id": "claude:_root:_global:linkedin-profile-elevation",
+      "path": "/Users/4jp/Workspace/application-pipeline/strategy/.claude/plans/2026-03-18-linkedin-profile-elevation-v2.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "linkedin-profile-elevation",
+      "date": "2026-03-18",
+      "version": 2,
+      "status": "active",
+      "title": "LinkedIn Profile Elevation Plan v2 — 2026-03-18",
+      "size_bytes": 6438,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 11,
+      "completed_count": 11,
+      "tags": [
+        "docker",
+        "javascript",
+        "node",
+        "python",
+        "typescript"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "098b39d1ed4652aa"
+    },
+    {
+      "qualified_id": "claude:META:?:linkedin-profile-elevation-v3-merged",
+      "path": "/Users/4jp/Workspace/application-pipeline/strategy/.claude/plans/2026-03-18-linkedin-profile-elevation-v3-merged.md",
+      "agent": "claude",
+      "organ": "META",
+      "repo": null,
+      "slug": "linkedin-profile-elevation-v3-merged",
+      "date": "2026-03-18",
+      "version": 1,
+      "status": "active",
+      "title": "LinkedIn Profile Elevation Plan v3 — MERGED FINAL",
+      "size_bytes": 13533,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 14,
+      "completed_count": 9,
+      "tags": [
+        "astro",
+        "cloudflare",
+        "docker",
+        "go",
+        "javascript",
+        "node",
+        "python",
+        "redis",
+        "typescript",
+        "vercel"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "829286a4fcf38196"
+    },
+    {
+      "qualified_id": "claude:META:?:linkedin-profile-elevation-v4-alchemized",
+      "path": "/Users/4jp/Workspace/application-pipeline/strategy/.claude/plans/2026-03-18-linkedin-profile-elevation-v4-alchemized.md",
+      "agent": "claude",
+      "organ": "META",
+      "repo": null,
+      "slug": "linkedin-profile-elevation-v4-alchemized",
+      "date": "2026-03-18",
+      "version": 1,
+      "status": "active",
+      "title": "LinkedIn Profile Elevation v4 — ALCHEMIZED FINAL",
+      "size_bytes": 14950,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 10,
+      "completed_count": 0,
+      "tags": [
+        "astro",
+        "cloudflare",
+        "docker",
+        "go",
+        "javascript",
+        "node",
+        "python",
+        "redis",
+        "typescript",
+        "vercel"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "829286a4fcf38196"
+    },
+    {
+      "qualified_id": "claude:_root:_global:linkedin-profile-elevation",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/strategy/.claude/plans/2026-03-18-linkedin-profile-elevation-v2.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "linkedin-profile-elevation",
+      "date": "2026-03-18",
+      "version": 2,
+      "status": "active",
+      "title": "LinkedIn Profile Elevation Plan v2 — 2026-03-18",
+      "size_bytes": 6438,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 11,
+      "completed_count": 11,
+      "tags": [
+        "docker",
+        "javascript",
+        "node",
+        "python",
+        "typescript"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "098b39d1ed4652aa"
+    },
+    {
+      "qualified_id": "claude:META:?:linkedin-profile-elevation-v3-merged",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/strategy/.claude/plans/2026-03-18-linkedin-profile-elevation-v3-merged.md",
+      "agent": "claude",
+      "organ": "META",
+      "repo": null,
+      "slug": "linkedin-profile-elevation-v3-merged",
+      "date": "2026-03-18",
+      "version": 1,
+      "status": "active",
+      "title": "LinkedIn Profile Elevation Plan v3 — MERGED FINAL",
+      "size_bytes": 13533,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 14,
+      "completed_count": 9,
+      "tags": [
+        "astro",
+        "cloudflare",
+        "docker",
+        "go",
+        "javascript",
+        "node",
+        "python",
+        "redis",
+        "typescript",
+        "vercel"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "829286a4fcf38196"
+    },
+    {
+      "qualified_id": "claude:META:?:linkedin-profile-elevation-v4-alchemized",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/strategy/.claude/plans/2026-03-18-linkedin-profile-elevation-v4-alchemized.md",
+      "agent": "claude",
+      "organ": "META",
+      "repo": null,
+      "slug": "linkedin-profile-elevation-v4-alchemized",
+      "date": "2026-03-18",
+      "version": 1,
+      "status": "active",
+      "title": "LinkedIn Profile Elevation v4 — ALCHEMIZED FINAL",
+      "size_bytes": 14950,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 10,
+      "completed_count": 0,
+      "tags": [
+        "astro",
+        "cloudflare",
+        "docker",
+        "go",
+        "javascript",
+        "node",
+        "python",
+        "redis",
+        "typescript",
+        "vercel"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "829286a4fcf38196"
+    },
+    {
       "qualified_id": "claude:LIMINAL:application-pipeline:linkedin-profile-elevation",
       "path": "/Users/4jp/Workspace/4444J99/application-pipeline/strategy/.claude/plans/2026-03-18-linkedin-profile-elevation-v2.md",
       "agent": "claude",
@@ -34464,6 +36522,60 @@
       "domain_fingerprint": "829286a4fcf38196"
     },
     {
+      "qualified_id": "gemini:META:?:linkedin-profile-elevation",
+      "path": "/Users/4jp/Workspace/application-pipeline/strategy/.gemini/plans/2026-03-18-linkedin-profile-elevation.md",
+      "agent": "gemini",
+      "organ": "META",
+      "repo": null,
+      "slug": "linkedin-profile-elevation",
+      "date": "2026-03-18",
+      "version": 1,
+      "status": "superseded",
+      "title": "LinkedIn Profile Elevation: Copy-Paste Master Plan",
+      "size_bytes": 4962,
+      "has_verification": false,
+      "archetype": "sequenced_list",
+      "task_count": 9,
+      "completed_count": 0,
+      "tags": [
+        "astro",
+        "go",
+        "p5.js",
+        "python",
+        "redis",
+        "typescript"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "755c8678d40ae8e0"
+    },
+    {
+      "qualified_id": "gemini:META:?:linkedin-profile-elevation",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/strategy/.gemini/plans/2026-03-18-linkedin-profile-elevation.md",
+      "agent": "gemini",
+      "organ": "META",
+      "repo": null,
+      "slug": "linkedin-profile-elevation",
+      "date": "2026-03-18",
+      "version": 1,
+      "status": "superseded",
+      "title": "LinkedIn Profile Elevation: Copy-Paste Master Plan",
+      "size_bytes": 4962,
+      "has_verification": false,
+      "archetype": "sequenced_list",
+      "task_count": 9,
+      "completed_count": 0,
+      "tags": [
+        "astro",
+        "go",
+        "p5.js",
+        "python",
+        "redis",
+        "typescript"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "755c8678d40ae8e0"
+    },
+    {
       "qualified_id": "gemini:LIMINAL:application-pipeline:linkedin-profile-elevation",
       "path": "/Users/4jp/Workspace/4444J99/application-pipeline/strategy/.gemini/plans/2026-03-18-linkedin-profile-elevation.md",
       "agent": "gemini",
@@ -34489,6 +36601,50 @@
       ],
       "file_refs": [],
       "domain_fingerprint": "755c8678d40ae8e0"
+    },
+    {
+      "qualified_id": "claude:_root:_global:materials-reorganization",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-17-materials-reorganization.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "materials-reorganization",
+      "date": "2026-03-17",
+      "version": 1,
+      "status": "active",
+      "title": "Materials Reorganization Plan",
+      "size_bytes": 2271,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 8,
+      "completed_count": 0,
+      "tags": [
+        "mcp"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "10182ab855ff7727"
+    },
+    {
+      "qualified_id": "claude:_root:_global:materials-reorganization",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-17-materials-reorganization.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "materials-reorganization",
+      "date": "2026-03-17",
+      "version": 1,
+      "status": "active",
+      "title": "Materials Reorganization Plan",
+      "size_bytes": 2271,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 8,
+      "completed_count": 0,
+      "tags": [
+        "mcp"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "10182ab855ff7727"
     },
     {
       "qualified_id": "claude:_root:_global:ux-redesign-research",
@@ -34813,6 +36969,88 @@
       "domain_fingerprint": "10182ab855ff7727"
     },
     {
+      "qualified_id": "claude:_root:_global:corpus-driven-scoring",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-15-corpus-driven-scoring-v2.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "corpus-driven-scoring",
+      "date": "2026-03-15",
+      "version": 2,
+      "status": "active",
+      "title": "Corpus-Driven Scoring Implementation Plan (v2)",
+      "size_bytes": 17992,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 37,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "docker",
+        "kubernetes",
+        "pytest",
+        "python",
+        "react",
+        "typescript"
+      ],
+      "file_refs": [
+        "source_jobs.py",
+        "scripts/score_constants.py",
+        "scripts/corpus_fingerprint.py",
+        "scripts/source_jobs.py",
+        "scripts/score_human_dimensions.py",
+        "scripts/score_text_match.py",
+        "tests/test_corpus_fingerprint.py",
+        "tests/test_score_human_dimensions.py",
+        "tests/test_source_jobs.py",
+        "tests/test_score.py",
+        "scripts/score.py",
+        "signals/corpus-fingerprint.yaml",
+        ".alchemize-work/research.md"
+      ],
+      "domain_fingerprint": "17034be6a17e65d8"
+    },
+    {
+      "qualified_id": "claude:_root:_global:corpus-driven-scoring",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-15-corpus-driven-scoring.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "corpus-driven-scoring",
+      "date": "2026-03-15",
+      "version": 1,
+      "status": "superseded",
+      "title": "Corpus-Driven Scoring Implementation Plan",
+      "size_bytes": 15810,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 36,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "pytest",
+        "python",
+        "typescript"
+      ],
+      "file_refs": [
+        "text_match.py",
+        "target.description",
+        "scripts/source_jobs.py",
+        "scripts/score_human_dimensions.py",
+        "scripts/score_text_match.py",
+        "scripts/score_constants.py",
+        "tests/test_score_human_dimensions.py",
+        "tests/test_source_jobs.py",
+        "tests/test_score_text_match.py",
+        "tests/test_text_match.py",
+        "tests/test_score.py",
+        "tests/test_pipeline_freshness.py",
+        "scripts/score.py",
+        ".alchemize-work/research.md"
+      ],
+      "domain_fingerprint": "16139f5bad0de6d1"
+    },
+    {
       "qualified_id": "claude:_root:_global:phase2-implementation",
       "path": "/Users/4jp/Workspace/forge-worktrees/specvla-ergon--avditor-mvndi-worktree/.claude/plans/2026-03-15-phase2-implementation.md",
       "agent": "claude",
@@ -34943,6 +37181,88 @@
         "src/app/results/page.tsx"
       ],
       "domain_fingerprint": "756c8a4574326bd0"
+    },
+    {
+      "qualified_id": "claude:_root:_global:corpus-driven-scoring",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-15-corpus-driven-scoring-v2.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "corpus-driven-scoring",
+      "date": "2026-03-15",
+      "version": 2,
+      "status": "active",
+      "title": "Corpus-Driven Scoring Implementation Plan (v2)",
+      "size_bytes": 17992,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 37,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "docker",
+        "kubernetes",
+        "pytest",
+        "python",
+        "react",
+        "typescript"
+      ],
+      "file_refs": [
+        "source_jobs.py",
+        "scripts/score_constants.py",
+        "scripts/corpus_fingerprint.py",
+        "scripts/source_jobs.py",
+        "scripts/score_human_dimensions.py",
+        "scripts/score_text_match.py",
+        "tests/test_corpus_fingerprint.py",
+        "tests/test_score_human_dimensions.py",
+        "tests/test_source_jobs.py",
+        "tests/test_score.py",
+        "scripts/score.py",
+        "signals/corpus-fingerprint.yaml",
+        ".alchemize-work/research.md"
+      ],
+      "domain_fingerprint": "17034be6a17e65d8"
+    },
+    {
+      "qualified_id": "claude:_root:_global:corpus-driven-scoring",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-15-corpus-driven-scoring.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "corpus-driven-scoring",
+      "date": "2026-03-15",
+      "version": 1,
+      "status": "superseded",
+      "title": "Corpus-Driven Scoring Implementation Plan",
+      "size_bytes": 15810,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 36,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "pytest",
+        "python",
+        "typescript"
+      ],
+      "file_refs": [
+        "text_match.py",
+        "target.description",
+        "scripts/source_jobs.py",
+        "scripts/score_human_dimensions.py",
+        "scripts/score_text_match.py",
+        "scripts/score_constants.py",
+        "tests/test_score_human_dimensions.py",
+        "tests/test_source_jobs.py",
+        "tests/test_score_text_match.py",
+        "tests/test_text_match.py",
+        "tests/test_score.py",
+        "tests/test_pipeline_freshness.py",
+        "scripts/score.py",
+        ".alchemize-work/research.md"
+      ],
+      "domain_fingerprint": "16139f5bad0de6d1"
     },
     {
       "qualified_id": "claude:_root:_global:phase2-implementation",
@@ -36022,6 +38342,148 @@
       "tags": [],
       "file_refs": [],
       "domain_fingerprint": "e3b0c44298fc1c14"
+    },
+    {
+      "qualified_id": "claude:_root:_global:evaluation-to-growth-full-audit",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-13-evaluation-to-growth-full-audit.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "evaluation-to-growth-full-audit",
+      "date": "2026-03-13",
+      "version": 1,
+      "status": "active",
+      "title": "Evaluation-to-Growth: Full Pipeline Audit & Forward Propulsion",
+      "size_bytes": 2344,
+      "has_verification": true,
+      "archetype": "sequenced_list",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [
+        "mcp"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "10182ab855ff7727"
+    },
+    {
+      "qualified_id": "claude:META:?:system-integrity-audit-ira",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-13-system-integrity-audit-ira.md",
+      "agent": "claude",
+      "organ": "META",
+      "repo": null,
+      "slug": "system-integrity-audit-ira",
+      "date": "2026-03-13",
+      "version": 1,
+      "status": "active",
+      "title": "System Integrity Audit, Diagnostic Grading Tool & IRA Grade-Norming SOP",
+      "size_bytes": 15373,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 20,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "mcp",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "docs/sop--ira-grade-norming.md",
+        "strategy/system-grading-rubric.yaml",
+        "tests/test_audit_system.py",
+        "audit_system.py",
+        "scripts/score.py",
+        "scripts/score_constants.py",
+        "scripts/diagnose.py",
+        "scripts/diagnose_ira.py",
+        "tests/test_diagnose.py",
+        "tests/test_diagnose_ira.py",
+        "scripts/audit_system.py",
+        "scripts/run.py",
+        "scripts/cli.py",
+        "scripts/mcp_server.py",
+        "scripts/verification_matrix.py",
+        "strategy/scoring-rubric.yaml",
+        "strategy/market-intelligence-2026.json",
+        "strategy/market-research-corpus.md",
+        "strategy/scoring-rubric.md",
+        "ratings/rater1.json",
+        "ratings/rater2.json",
+        "ratings/objective.json",
+        "meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--ira-grade-norming.md"
+      ],
+      "domain_fingerprint": "ea19a1b20b030886"
+    },
+    {
+      "qualified_id": "claude:_root:_global:evaluation-to-growth-full-audit",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-13-evaluation-to-growth-full-audit.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "evaluation-to-growth-full-audit",
+      "date": "2026-03-13",
+      "version": 1,
+      "status": "active",
+      "title": "Evaluation-to-Growth: Full Pipeline Audit & Forward Propulsion",
+      "size_bytes": 2344,
+      "has_verification": true,
+      "archetype": "sequenced_list",
+      "task_count": 1,
+      "completed_count": 0,
+      "tags": [
+        "mcp"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "10182ab855ff7727"
+    },
+    {
+      "qualified_id": "claude:META:?:system-integrity-audit-ira",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-13-system-integrity-audit-ira.md",
+      "agent": "claude",
+      "organ": "META",
+      "repo": null,
+      "slug": "system-integrity-audit-ira",
+      "date": "2026-03-13",
+      "version": 1,
+      "status": "active",
+      "title": "System Integrity Audit, Diagnostic Grading Tool & IRA Grade-Norming SOP",
+      "size_bytes": 15373,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 20,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "mcp",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "docs/sop--ira-grade-norming.md",
+        "strategy/system-grading-rubric.yaml",
+        "tests/test_audit_system.py",
+        "audit_system.py",
+        "scripts/score.py",
+        "scripts/score_constants.py",
+        "scripts/diagnose.py",
+        "scripts/diagnose_ira.py",
+        "tests/test_diagnose.py",
+        "tests/test_diagnose_ira.py",
+        "scripts/audit_system.py",
+        "scripts/run.py",
+        "scripts/cli.py",
+        "scripts/mcp_server.py",
+        "scripts/verification_matrix.py",
+        "strategy/scoring-rubric.yaml",
+        "strategy/market-intelligence-2026.json",
+        "strategy/market-research-corpus.md",
+        "strategy/scoring-rubric.md",
+        "ratings/rater1.json",
+        "ratings/rater2.json",
+        "ratings/objective.json",
+        "meta-organvm/organvm-corpvs-testamentvm/docs/operations/sop--ira-grade-norming.md"
+      ],
+      "domain_fingerprint": "ea19a1b20b030886"
     },
     {
       "qualified_id": "claude:META:organvm-ontologia:ontologia-activation",
@@ -38864,74 +41326,6 @@
         "lib/automata.lib"
       ],
       "domain_fingerprint": "19042d188f1b4fbc"
-    },
-    {
-      "qualified_id": "gemini:VI:community-hub:ergon-test-harness-architecture",
-      "path": "/Users/4jp/Workspace/limen-work/peer-audited--behavioral-blockchain/.gemini/plans/2026-03-09-ergon-test-harness-architecture.md",
-      "agent": "gemini",
-      "organ": "VI",
-      "repo": "community-hub",
-      "slug": "ergon-test-harness-architecture",
-      "date": "2026-03-09",
-      "version": 1,
-      "status": "active",
-      "title": "Architecture: Ergon Test Harness (`ergon-test-harness`)",
-      "size_bytes": 3443,
-      "has_verification": false,
-      "archetype": "sequenced_list",
-      "task_count": 9,
-      "completed_count": 0,
-      "tags": [
-        "node",
-        "playwright",
-        "typescript",
-        "vitest"
-      ],
-      "file_refs": [],
-      "domain_fingerprint": "964e651c61d65261"
-    },
-    {
-      "qualified_id": "gemini:III:ergon-test-harness:organ-iii-test-repo-spec",
-      "path": "/Users/4jp/Workspace/limen-work/peer-audited--behavioral-blockchain/.gemini/plans/2026-03-09-organ-iii-test-repo-spec.md",
-      "agent": "gemini",
-      "organ": "III",
-      "repo": "ergon-test-harness",
-      "slug": "organ-iii-test-repo-spec",
-      "date": "2026-03-09",
-      "version": 1,
-      "status": "active",
-      "title": "Plan: Organ III Test Repo Functional Spec",
-      "size_bytes": 3530,
-      "has_verification": false,
-      "archetype": "sequenced_list",
-      "task_count": 12,
-      "completed_count": 0,
-      "tags": [
-        "playwright",
-        "typescript"
-      ],
-      "file_refs": [],
-      "domain_fingerprint": "9328c0acebc2605d"
-    },
-    {
-      "qualified_id": "gemini:_root:_global:s4-gamma-shadow-queue",
-      "path": "/Users/4jp/Workspace/limen-work/peer-audited--behavioral-blockchain/.gemini/plans/2026-03-09-s4-gamma-shadow-queue.md",
-      "agent": "gemini",
-      "organ": "_root",
-      "repo": "_global",
-      "slug": "s4-gamma-shadow-queue",
-      "date": "2026-03-09",
-      "version": 1,
-      "status": "active",
-      "title": "S4 - Gamma Shadow Queue (Strategic Planning)",
-      "size_bytes": 1151,
-      "has_verification": false,
-      "archetype": "generic",
-      "task_count": 3,
-      "completed_count": 0,
-      "tags": [],
-      "file_refs": [],
-      "domain_fingerprint": "e3b0c44298fc1c14"
     },
     {
       "qualified_id": "gemini:III:life-my--midst--in:exhaustive-ci-remediation",
@@ -43487,6 +45881,280 @@
       "domain_fingerprint": "7857d91e3c6d6fc6"
     },
     {
+      "qualified_id": "claude:META:?:diagnostic-ira-grade-norming",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-05-diagnostic-ira-grade-norming.md",
+      "agent": "claude",
+      "organ": "META",
+      "repo": null,
+      "slug": "diagnostic-ira-grade-norming",
+      "date": "2026-03-05",
+      "version": 1,
+      "status": "active",
+      "title": "Diagnostic Tool, Grading Rubric & Inter-Rater Agreement SOP",
+      "size_bytes": 8826,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 17,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/diagnose.py",
+        "scripts/diagnose_ira.py",
+        "docs/sop--diagnostic-inter-rater-agreement.md",
+        "tests/test_diagnose.py",
+        "tests/test_diagnose_ira.py",
+        "scripts/run.py",
+        "scripts/verification_matrix.py",
+        "strategy/system-grading-rubric.yaml",
+        "strategy/module-verification-overrides.yaml"
+      ],
+      "domain_fingerprint": "2ee14a061865336b"
+    },
+    {
+      "qualified_id": "claude:_root:_global:evaluation-to-growth-review",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-05-evaluation-to-growth-review.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "evaluation-to-growth-review",
+      "date": "2026-03-05",
+      "version": 1,
+      "status": "active",
+      "title": "Evaluation-to-Growth: Application Pipeline Full Review",
+      "size_bytes": 28893,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 16,
+      "completed_count": 0,
+      "tags": [
+        "mcp",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/triage.py",
+        "scripts/followup.py",
+        "scripts/hygiene.py",
+        "scripts/notify.py",
+        "scripts/standup.py",
+        "scripts/recalibrate.py",
+        "scripts/retrospective.py",
+        "docs/secrets-management.md",
+        "docs/handoff-protocol.md",
+        "scripts/okr.py",
+        "strategy/market-intelligence-2026.json",
+        "strategy/notifications.yaml",
+        "signals/signal-actions.yaml",
+        "signals/patterns.md",
+        ".github/workflows/quality.yml",
+        "signals/notification-log.yaml"
+      ],
+      "domain_fingerprint": "a51f1d7b58ebd773"
+    },
+    {
+      "qualified_id": "claude:_root:_global:five-phase-infrastructure-enhancement",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-05-five-phase-infrastructure-enhancement.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "five-phase-infrastructure-enhancement",
+      "date": "2026-03-05",
+      "version": 1,
+      "status": "active",
+      "title": "Application Pipeline: Five-Phase Infrastructure Enhancement",
+      "size_bytes": 11038,
+      "has_verification": true,
+      "archetype": "phase_task",
+      "task_count": 40,
+      "completed_count": 0,
+      "tags": [
+        "mcp",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/validate_signals.py",
+        "scripts/validate.py",
+        "scripts/triage.py",
+        "scripts/verify_all.py",
+        "tests/test_validate_signals.py",
+        "tests/test_validate.py",
+        "tests/test_triage.py",
+        "scripts/run.py",
+        "scripts/standup.py",
+        "scripts/conversion_dashboard.py",
+        "scripts/campaign.py",
+        "scripts/crm.py",
+        "scripts/snapshot.py",
+        "tests/test_standup.py",
+        "tests/test_conversion_dashboard.py",
+        "tests/test_campaign.py",
+        "tests/test_crm.py",
+        "tests/test_snapshot.py",
+        "scripts/notify.py",
+        "scripts/weekly_brief.py",
+        "scripts/agent.py",
+        "scripts/mcp_server.py",
+        "tests/test_notify.py",
+        "tests/test_mcp_server.py",
+        "scripts/org_intelligence.py",
+        "scripts/skills_gap.py",
+        "scripts/block_outcomes.py",
+        "tests/test_org_intelligence.py",
+        "tests/test_skills_gap.py",
+        "tests/test_block_outcomes.py",
+        "scripts/calendar_export.py",
+        "scripts/interview_prep.py",
+        "tests/test_calendar_export.py",
+        "tests/test_interview_prep.py",
+        "signals/daily-snapshots/YYYY-MM-DD.json",
+        "strategy/notifications.yaml",
+        "launchd/com.4jp.pipeline.weekly-briefing.plist",
+        "launchd/com.4jp.pipeline.calendar-refresh.plist"
+      ],
+      "domain_fingerprint": "7d1599212cf607cf"
+    },
+    {
+      "qualified_id": "claude:META:?:diagnostic-ira-grade-norming",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-05-diagnostic-ira-grade-norming.md",
+      "agent": "claude",
+      "organ": "META",
+      "repo": null,
+      "slug": "diagnostic-ira-grade-norming",
+      "date": "2026-03-05",
+      "version": 1,
+      "status": "active",
+      "title": "Diagnostic Tool, Grading Rubric & Inter-Rater Agreement SOP",
+      "size_bytes": 8826,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 17,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/diagnose.py",
+        "scripts/diagnose_ira.py",
+        "docs/sop--diagnostic-inter-rater-agreement.md",
+        "tests/test_diagnose.py",
+        "tests/test_diagnose_ira.py",
+        "scripts/run.py",
+        "scripts/verification_matrix.py",
+        "strategy/system-grading-rubric.yaml",
+        "strategy/module-verification-overrides.yaml"
+      ],
+      "domain_fingerprint": "2ee14a061865336b"
+    },
+    {
+      "qualified_id": "claude:_root:_global:evaluation-to-growth-review",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-05-evaluation-to-growth-review.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "evaluation-to-growth-review",
+      "date": "2026-03-05",
+      "version": 1,
+      "status": "active",
+      "title": "Evaluation-to-Growth: Application Pipeline Full Review",
+      "size_bytes": 28893,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 16,
+      "completed_count": 0,
+      "tags": [
+        "mcp",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/triage.py",
+        "scripts/followup.py",
+        "scripts/hygiene.py",
+        "scripts/notify.py",
+        "scripts/standup.py",
+        "scripts/recalibrate.py",
+        "scripts/retrospective.py",
+        "docs/secrets-management.md",
+        "docs/handoff-protocol.md",
+        "scripts/okr.py",
+        "strategy/market-intelligence-2026.json",
+        "strategy/notifications.yaml",
+        "signals/signal-actions.yaml",
+        "signals/patterns.md",
+        ".github/workflows/quality.yml",
+        "signals/notification-log.yaml"
+      ],
+      "domain_fingerprint": "a51f1d7b58ebd773"
+    },
+    {
+      "qualified_id": "claude:_root:_global:five-phase-infrastructure-enhancement",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-05-five-phase-infrastructure-enhancement.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "five-phase-infrastructure-enhancement",
+      "date": "2026-03-05",
+      "version": 1,
+      "status": "active",
+      "title": "Application Pipeline: Five-Phase Infrastructure Enhancement",
+      "size_bytes": 11038,
+      "has_verification": true,
+      "archetype": "phase_task",
+      "task_count": 40,
+      "completed_count": 0,
+      "tags": [
+        "mcp",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/validate_signals.py",
+        "scripts/validate.py",
+        "scripts/triage.py",
+        "scripts/verify_all.py",
+        "tests/test_validate_signals.py",
+        "tests/test_validate.py",
+        "tests/test_triage.py",
+        "scripts/run.py",
+        "scripts/standup.py",
+        "scripts/conversion_dashboard.py",
+        "scripts/campaign.py",
+        "scripts/crm.py",
+        "scripts/snapshot.py",
+        "tests/test_standup.py",
+        "tests/test_conversion_dashboard.py",
+        "tests/test_campaign.py",
+        "tests/test_crm.py",
+        "tests/test_snapshot.py",
+        "scripts/notify.py",
+        "scripts/weekly_brief.py",
+        "scripts/agent.py",
+        "scripts/mcp_server.py",
+        "tests/test_notify.py",
+        "tests/test_mcp_server.py",
+        "scripts/org_intelligence.py",
+        "scripts/skills_gap.py",
+        "scripts/block_outcomes.py",
+        "tests/test_org_intelligence.py",
+        "tests/test_skills_gap.py",
+        "tests/test_block_outcomes.py",
+        "scripts/calendar_export.py",
+        "scripts/interview_prep.py",
+        "tests/test_calendar_export.py",
+        "tests/test_interview_prep.py",
+        "signals/daily-snapshots/YYYY-MM-DD.json",
+        "strategy/notifications.yaml",
+        "launchd/com.4jp.pipeline.weekly-briefing.plist",
+        "launchd/com.4jp.pipeline.calendar-refresh.plist"
+      ],
+      "domain_fingerprint": "7d1599212cf607cf"
+    },
+    {
       "qualified_id": "claude:META:system-dashboard:alpha-omega-progress-bar",
       "path": "/Users/4jp/Workspace/.home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-iv-taxis/.claude/plans/2026-03-05-alpha-omega-progress-bar.md",
       "agent": "claude",
@@ -44265,6 +46933,76 @@
       "domain_fingerprint": "e3b0c44298fc1c14"
     },
     {
+      "qualified_id": "codex:_root:_global:sprint-gap-audit-and-full-implementation-roadmap",
+      "path": "/Users/4jp/Workspace/application-pipeline/.codex/plans/2026-03-05-sprint-gap-audit-and-full-implementation-roadmap.md",
+      "agent": "codex",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "sprint-gap-audit-and-full-implementation-roadmap",
+      "date": "2026-03-05",
+      "version": 1,
+      "status": "active",
+      "title": "Sprint Gap Audit + Full Implementation Roadmap",
+      "size_bytes": 9445,
+      "has_verification": false,
+      "archetype": "sequenced_list",
+      "task_count": 20,
+      "completed_count": 0,
+      "tags": [
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/diagnose.py",
+        "scripts/validate.py",
+        "scripts/source_jobs.py",
+        "scripts/run.py",
+        "tests/test_source_jobs.py",
+        "tests/test_run.py",
+        "scripts/score.py",
+        "scripts/monitor_pipeline.py",
+        "scripts/notify.py",
+        "tests/test_diagnose.py",
+        "tests/test_notify.py"
+      ],
+      "domain_fingerprint": "1373371bb52fe562"
+    },
+    {
+      "qualified_id": "codex:_root:_global:sprint-gap-audit-and-full-implementation-roadmap",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.codex/plans/2026-03-05-sprint-gap-audit-and-full-implementation-roadmap.md",
+      "agent": "codex",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "sprint-gap-audit-and-full-implementation-roadmap",
+      "date": "2026-03-05",
+      "version": 1,
+      "status": "active",
+      "title": "Sprint Gap Audit + Full Implementation Roadmap",
+      "size_bytes": 9445,
+      "has_verification": false,
+      "archetype": "sequenced_list",
+      "task_count": 20,
+      "completed_count": 0,
+      "tags": [
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/diagnose.py",
+        "scripts/validate.py",
+        "scripts/source_jobs.py",
+        "scripts/run.py",
+        "tests/test_source_jobs.py",
+        "tests/test_run.py",
+        "scripts/score.py",
+        "scripts/monitor_pipeline.py",
+        "scripts/notify.py",
+        "tests/test_diagnose.py",
+        "tests/test_notify.py"
+      ],
+      "domain_fingerprint": "1373371bb52fe562"
+    },
+    {
       "qualified_id": "codex:_root:_global:evaluation-to-growth-project-wide-review",
       "path": "/Users/4jp/Workspace/.home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-v-logos/.codex/plans/2026-03-05-evaluation-to-growth-project-wide-review-v4.md",
       "agent": "codex",
@@ -44630,6 +47368,352 @@
         "tests/test_notify.py"
       ],
       "domain_fingerprint": "1373371bb52fe562"
+    },
+    {
+      "qualified_id": "claude:_root:_global:doctoral-research-pipeline-optimization",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-04-doctoral-research-pipeline-optimization-v2.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "doctoral-research-pipeline-optimization",
+      "date": "2026-03-04",
+      "version": 2,
+      "status": "active",
+      "title": "Doctoral Research: Job/Grant Application Pipeline Optimization",
+      "size_bytes": 27994,
+      "has_verification": false,
+      "archetype": "sequenced_list",
+      "task_count": 31,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [],
+      "domain_fingerprint": "e3b0c44298fc1c14"
+    },
+    {
+      "qualified_id": "claude:_root:_global:doctoral-research-precision-pipeline-thesis",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-04-doctoral-research-precision-pipeline-thesis-v2.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "doctoral-research-precision-pipeline-thesis",
+      "date": "2026-03-04",
+      "version": 2,
+      "status": "active",
+      "title": "Doctoral Research Notes v2: Mathematical & Algorithmic Foundations for Multi-Criteria Application Scoring",
+      "size_bytes": 39486,
+      "has_verification": false,
+      "archetype": "sequenced_list",
+      "task_count": 44,
+      "completed_count": 0,
+      "tags": [
+        "node",
+        "vue"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "2c121fb2379c52aa"
+    },
+    {
+      "qualified_id": "claude:_root:_global:evaluation-to-growth-project-review",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-04-evaluation-to-growth-project-review.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "evaluation-to-growth-project-review",
+      "date": "2026-03-04",
+      "version": 1,
+      "status": "active",
+      "title": "Evaluation-to-Growth: Project-Wide Review",
+      "size_bytes": 29907,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 24,
+      "completed_count": 0,
+      "tags": [
+        "kubernetes"
+      ],
+      "file_refs": [
+        "test_score_explain.py"
+      ],
+      "domain_fingerprint": "c786e337aaa3577b"
+    },
+    {
+      "qualified_id": "claude:_root:_global:precision-over-volume-pivot",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-04-precision-over-volume-pivot.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "precision-over-volume-pivot",
+      "date": "2026-03-04",
+      "version": 1,
+      "status": "active",
+      "title": "Precision-Over-Volume Pipeline Pivot",
+      "size_bytes": 2315,
+      "has_verification": true,
+      "archetype": "sequenced_list",
+      "task_count": 17,
+      "completed_count": 0,
+      "tags": [
+        "pytest"
+      ],
+      "file_refs": [
+        "tests/test_network_proximity.py",
+        "scripts/pipeline_lib.py",
+        "scripts/score.py",
+        "scripts/standup.py",
+        "scripts/ingest_top_roles.py",
+        "tests/test_score.py",
+        "tests/test_standup.py",
+        "tests/test_validate.py",
+        "tests/test_pipeline_lib.py",
+        "tests/test_company_cap.py",
+        "tests/test_check_outcomes.py",
+        "tests/test_hygiene.py"
+      ],
+      "domain_fingerprint": "863008d84c974a2f"
+    },
+    {
+      "qualified_id": "claude:_root:_global:precision-pipeline-four-tier-implementation",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-04-precision-pipeline-four-tier-implementation.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "precision-pipeline-four-tier-implementation",
+      "date": "2026-03-04",
+      "version": 1,
+      "status": "active",
+      "title": "Precision Pipeline: Full Four-Tier Implementation",
+      "size_bytes": 13799,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 18,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "tests/test_agent.py",
+        "scripts/cultivate.py",
+        "tests/test_cultivate.py",
+        "tests/test_mode_toggle.py",
+        "scripts/agent.py",
+        "scripts/score.py",
+        "tests/test_score.py",
+        "scripts/enrich.py",
+        "scripts/standup.py",
+        "scripts/pipeline_lib.py",
+        "tests/test_network_proximity.py",
+        "scripts/funnel_report.py",
+        "scripts/conversion_report.py",
+        "scripts/log_signal_action.py",
+        "scripts/portfolio_analysis.py",
+        "scripts/run.py",
+        "tests/test_era.py",
+        "scripts/validate.py",
+        "strategy/market-intelligence-2026.json"
+      ],
+      "domain_fingerprint": "1e279c2c58298b3e"
+    },
+    {
+      "qualified_id": "claude:_root:_global:precision-pivot-review",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-04-precision-pivot-review.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "precision-pivot-review",
+      "date": "2026-03-04",
+      "version": 1,
+      "status": "active",
+      "title": "Evaluation-to-Growth: Precision-Over-Volume Pivot Review",
+      "size_bytes": 1978,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 8,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [
+        "scripts/score.py",
+        "scripts/run.py",
+        "scripts/ingest_top_roles.py",
+        "tests/test_score.py",
+        "tests/test_network_proximity.py",
+        "strategy/agent-rules.yaml"
+      ],
+      "domain_fingerprint": "62c8718d99237782"
+    },
+    {
+      "qualified_id": "claude:_root:_global:doctoral-research-pipeline-optimization",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-04-doctoral-research-pipeline-optimization-v2.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "doctoral-research-pipeline-optimization",
+      "date": "2026-03-04",
+      "version": 2,
+      "status": "active",
+      "title": "Doctoral Research: Job/Grant Application Pipeline Optimization",
+      "size_bytes": 27994,
+      "has_verification": false,
+      "archetype": "sequenced_list",
+      "task_count": 31,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [],
+      "domain_fingerprint": "e3b0c44298fc1c14"
+    },
+    {
+      "qualified_id": "claude:_root:_global:doctoral-research-precision-pipeline-thesis",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-04-doctoral-research-precision-pipeline-thesis-v2.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "doctoral-research-precision-pipeline-thesis",
+      "date": "2026-03-04",
+      "version": 2,
+      "status": "active",
+      "title": "Doctoral Research Notes v2: Mathematical & Algorithmic Foundations for Multi-Criteria Application Scoring",
+      "size_bytes": 39486,
+      "has_verification": false,
+      "archetype": "sequenced_list",
+      "task_count": 44,
+      "completed_count": 0,
+      "tags": [
+        "node",
+        "vue"
+      ],
+      "file_refs": [],
+      "domain_fingerprint": "2c121fb2379c52aa"
+    },
+    {
+      "qualified_id": "claude:_root:_global:evaluation-to-growth-project-review",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-04-evaluation-to-growth-project-review.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "evaluation-to-growth-project-review",
+      "date": "2026-03-04",
+      "version": 1,
+      "status": "active",
+      "title": "Evaluation-to-Growth: Project-Wide Review",
+      "size_bytes": 29907,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 24,
+      "completed_count": 0,
+      "tags": [
+        "kubernetes"
+      ],
+      "file_refs": [
+        "test_score_explain.py"
+      ],
+      "domain_fingerprint": "c786e337aaa3577b"
+    },
+    {
+      "qualified_id": "claude:_root:_global:precision-over-volume-pivot",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-04-precision-over-volume-pivot.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "precision-over-volume-pivot",
+      "date": "2026-03-04",
+      "version": 1,
+      "status": "active",
+      "title": "Precision-Over-Volume Pipeline Pivot",
+      "size_bytes": 2315,
+      "has_verification": true,
+      "archetype": "sequenced_list",
+      "task_count": 17,
+      "completed_count": 0,
+      "tags": [
+        "pytest"
+      ],
+      "file_refs": [
+        "tests/test_network_proximity.py",
+        "scripts/pipeline_lib.py",
+        "scripts/score.py",
+        "scripts/standup.py",
+        "scripts/ingest_top_roles.py",
+        "tests/test_score.py",
+        "tests/test_standup.py",
+        "tests/test_validate.py",
+        "tests/test_pipeline_lib.py",
+        "tests/test_company_cap.py",
+        "tests/test_check_outcomes.py",
+        "tests/test_hygiene.py"
+      ],
+      "domain_fingerprint": "863008d84c974a2f"
+    },
+    {
+      "qualified_id": "claude:_root:_global:precision-pipeline-four-tier-implementation",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-04-precision-pipeline-four-tier-implementation.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "precision-pipeline-four-tier-implementation",
+      "date": "2026-03-04",
+      "version": 1,
+      "status": "active",
+      "title": "Precision Pipeline: Full Four-Tier Implementation",
+      "size_bytes": 13799,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 18,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "tests/test_agent.py",
+        "scripts/cultivate.py",
+        "tests/test_cultivate.py",
+        "tests/test_mode_toggle.py",
+        "scripts/agent.py",
+        "scripts/score.py",
+        "tests/test_score.py",
+        "scripts/enrich.py",
+        "scripts/standup.py",
+        "scripts/pipeline_lib.py",
+        "tests/test_network_proximity.py",
+        "scripts/funnel_report.py",
+        "scripts/conversion_report.py",
+        "scripts/log_signal_action.py",
+        "scripts/portfolio_analysis.py",
+        "scripts/run.py",
+        "tests/test_era.py",
+        "scripts/validate.py",
+        "strategy/market-intelligence-2026.json"
+      ],
+      "domain_fingerprint": "1e279c2c58298b3e"
+    },
+    {
+      "qualified_id": "claude:_root:_global:precision-pivot-review",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-04-precision-pivot-review.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "precision-pivot-review",
+      "date": "2026-03-04",
+      "version": 1,
+      "status": "active",
+      "title": "Evaluation-to-Growth: Precision-Over-Volume Pivot Review",
+      "size_bytes": 1978,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 8,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [
+        "scripts/score.py",
+        "scripts/run.py",
+        "scripts/ingest_top_roles.py",
+        "tests/test_score.py",
+        "tests/test_network_proximity.py",
+        "strategy/agent-rules.yaml"
+      ],
+      "domain_fingerprint": "62c8718d99237782"
     },
     {
       "qualified_id": "claude:V:?:doctoral-dissertation-styx",
@@ -45315,6 +48399,108 @@
       "domain_fingerprint": "09f813ba600fddb7"
     },
     {
+      "qualified_id": "codex:_root:_global:evaluation-to-growth-implementation-plan",
+      "path": "/Users/4jp/Workspace/application-pipeline/.codex/plans/2026-03-04-evaluation-to-growth-implementation-plan.md",
+      "agent": "codex",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "evaluation-to-growth-implementation-plan",
+      "date": "2026-03-04",
+      "version": 1,
+      "status": "active",
+      "title": "Evaluation-to-Growth Implementation Plan",
+      "size_bytes": 8439,
+      "has_verification": false,
+      "archetype": "sequenced_list",
+      "task_count": 15,
+      "completed_count": 0,
+      "tags": [
+        "mcp",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/verify_all.py",
+        "scripts/cli.py",
+        "scripts/run.py",
+        "tests/test_standup_pipeline_sections.py",
+        "scripts/pipeline_freshness.py",
+        "scripts/score_text_match.py",
+        "tests/test_pipeline_freshness.py",
+        "tests/test_score_text_match.py",
+        "scripts/pipeline_entry_state.py",
+        "scripts/standup_work_sections.py",
+        "scripts/standup_relationship_sections.py",
+        "tests/test_pipeline_entry_state.py",
+        "tests/test_standup_work_sections.py",
+        "tests/test_standup_relationship_sections.py",
+        "scripts/score_human_dimensions.py",
+        "scripts/score_auto_dimensions.py",
+        "scripts/score_network.py",
+        "scripts/score_explain.py",
+        "scripts/score_reachability.py",
+        "scripts/score.py",
+        "tests/test_score_human_dimensions.py",
+        "tests/test_score_auto_dimensions.py",
+        "tests/test_score_network.py",
+        "tests/test_score_explain.py",
+        "tests/test_score_reachability.py",
+        "scripts/mcp_server.py"
+      ],
+      "domain_fingerprint": "9514639219e51c25"
+    },
+    {
+      "qualified_id": "codex:_root:_global:evaluation-to-growth-implementation-plan",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.codex/plans/2026-03-04-evaluation-to-growth-implementation-plan.md",
+      "agent": "codex",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "evaluation-to-growth-implementation-plan",
+      "date": "2026-03-04",
+      "version": 1,
+      "status": "active",
+      "title": "Evaluation-to-Growth Implementation Plan",
+      "size_bytes": 8439,
+      "has_verification": false,
+      "archetype": "sequenced_list",
+      "task_count": 15,
+      "completed_count": 0,
+      "tags": [
+        "mcp",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/verify_all.py",
+        "scripts/cli.py",
+        "scripts/run.py",
+        "tests/test_standup_pipeline_sections.py",
+        "scripts/pipeline_freshness.py",
+        "scripts/score_text_match.py",
+        "tests/test_pipeline_freshness.py",
+        "tests/test_score_text_match.py",
+        "scripts/pipeline_entry_state.py",
+        "scripts/standup_work_sections.py",
+        "scripts/standup_relationship_sections.py",
+        "tests/test_pipeline_entry_state.py",
+        "tests/test_standup_work_sections.py",
+        "tests/test_standup_relationship_sections.py",
+        "scripts/score_human_dimensions.py",
+        "scripts/score_auto_dimensions.py",
+        "scripts/score_network.py",
+        "scripts/score_explain.py",
+        "scripts/score_reachability.py",
+        "scripts/score.py",
+        "tests/test_score_human_dimensions.py",
+        "tests/test_score_auto_dimensions.py",
+        "tests/test_score_network.py",
+        "tests/test_score_explain.py",
+        "tests/test_score_reachability.py",
+        "scripts/mcp_server.py"
+      ],
+      "domain_fingerprint": "9514639219e51c25"
+    },
+    {
       "qualified_id": "codex:_root:_global:consult-cloudflare-worker-fix",
       "path": "/Users/4jp/Workspace/.home-cartridge/Code/income-2026-05-04/portfolio-site/.codex/plans/2026-03-04-consult-cloudflare-worker-fix.md",
       "agent": "codex",
@@ -45462,6 +48648,130 @@
         "scripts/mcp_server.py"
       ],
       "domain_fingerprint": "9514639219e51c25"
+    },
+    {
+      "qualified_id": "claude:_root:_global:skill-based-discovery",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-03-skill-based-discovery.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "skill-based-discovery",
+      "date": "2026-03-03",
+      "version": 1,
+      "status": "active",
+      "title": "Plan: Skill-Based Job Discovery System",
+      "size_bytes": 6006,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 5,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        ".discovery-queries.yaml",
+        "discover_jobs.py",
+        "scripts/discover_jobs.py",
+        "scripts/.discovery-queries.yaml",
+        "tests/test_discover_jobs.py",
+        "scripts/run.py",
+        "scripts/.discovery-stats.yaml"
+      ],
+      "domain_fingerprint": "6b207c54bc61ca2a"
+    },
+    {
+      "qualified_id": "claude:_root:_global:submission-pipeline-fix",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-03-submission-pipeline-fix.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "submission-pipeline-fix",
+      "date": "2026-03-03",
+      "version": 1,
+      "status": "active",
+      "title": "Plan: Fix Autonomous Submission Pipeline",
+      "size_bytes": 4625,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 5,
+      "completed_count": 0,
+      "tags": [
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/email_submit.py",
+        "scripts/submission_audit.py",
+        "scripts/run.py",
+        "scripts/pipeline_lib.py",
+        "scripts/lever_submit.py",
+        "scripts/greenhouse_submit.py"
+      ],
+      "domain_fingerprint": "9510ea60f6c4ffa9"
+    },
+    {
+      "qualified_id": "claude:_root:_global:skill-based-discovery",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-03-skill-based-discovery.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "skill-based-discovery",
+      "date": "2026-03-03",
+      "version": 1,
+      "status": "active",
+      "title": "Plan: Skill-Based Job Discovery System",
+      "size_bytes": 6006,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 5,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        ".discovery-queries.yaml",
+        "discover_jobs.py",
+        "scripts/discover_jobs.py",
+        "scripts/.discovery-queries.yaml",
+        "tests/test_discover_jobs.py",
+        "scripts/run.py",
+        "scripts/.discovery-stats.yaml"
+      ],
+      "domain_fingerprint": "6b207c54bc61ca2a"
+    },
+    {
+      "qualified_id": "claude:_root:_global:submission-pipeline-fix",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-03-submission-pipeline-fix.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "submission-pipeline-fix",
+      "date": "2026-03-03",
+      "version": 1,
+      "status": "active",
+      "title": "Plan: Fix Autonomous Submission Pipeline",
+      "size_bytes": 4625,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 5,
+      "completed_count": 0,
+      "tags": [
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/email_submit.py",
+        "scripts/submission_audit.py",
+        "scripts/run.py",
+        "scripts/pipeline_lib.py",
+        "scripts/lever_submit.py",
+        "scripts/greenhouse_submit.py"
+      ],
+      "domain_fingerprint": "9510ea60f6c4ffa9"
     },
     {
       "qualified_id": "claude:V:public-process:essay-backfill-plan",
@@ -45797,6 +49107,46 @@
       "domain_fingerprint": "e3601fbcdd0d739d"
     },
     {
+      "qualified_id": "codex:_root:_global:implement-steps-2-3-4-6",
+      "path": "/Users/4jp/Workspace/application-pipeline/.codex/plans/2026-03-03-implement-steps-2-3-4-6.md",
+      "agent": "codex",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "implement-steps-2-3-4-6",
+      "date": "2026-03-03",
+      "version": 1,
+      "status": "active",
+      "title": "Plan: Implement Steps 2, 3, 4, 6",
+      "size_bytes": 982,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 12,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [],
+      "domain_fingerprint": "e3b0c44298fc1c14"
+    },
+    {
+      "qualified_id": "codex:_root:_global:implement-steps-2-3-4-6",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.codex/plans/2026-03-03-implement-steps-2-3-4-6.md",
+      "agent": "codex",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "implement-steps-2-3-4-6",
+      "date": "2026-03-03",
+      "version": 1,
+      "status": "active",
+      "title": "Plan: Implement Steps 2, 3, 4, 6",
+      "size_bytes": 982,
+      "has_verification": false,
+      "archetype": "generic",
+      "task_count": 12,
+      "completed_count": 0,
+      "tags": [],
+      "file_refs": [],
+      "domain_fingerprint": "e3b0c44298fc1c14"
+    },
+    {
       "qualified_id": "codex:II:?:fix-remaining-workflow-failures",
       "path": "/Users/4jp/Workspace/.home-cartridge/Code/.archive/superprojects-20260420-120747/organvm-ii-poiesis/.codex/plans/2026-03-03-fix-remaining-workflow-failures.md",
       "agent": "codex",
@@ -45835,6 +49185,218 @@
       "tags": [],
       "file_refs": [],
       "domain_fingerprint": "e3b0c44298fc1c14"
+    },
+    {
+      "qualified_id": "claude:_root:_global:blind-spots-sweep",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-02-blind-spots-sweep.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "blind-spots-sweep",
+      "date": "2026-03-02",
+      "version": 1,
+      "status": "active",
+      "title": "Plan: Blind Spots 3/15 → 15/15 — Full Sweep",
+      "size_bytes": 9062,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 13,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "blocks/methodology/founder-sustainability.md",
+        "scripts/warm_intro_audit.py",
+        "tests/test_warm_intro_audit.py",
+        "blocks/framings/academic-partnerships.md",
+        "strategy/disability-grant-research.md",
+        "blocks/framings/disability-founder.md",
+        "blocks/framings/esg-climate-impact.md",
+        "blocks/framings/eu-ai-compliance.md",
+        "scripts/funding_scorer.py",
+        "tests/test_funding_scorer.py",
+        "scripts/build_block_index.py",
+        "scripts/run.py",
+        "tests/test_blind_spot_tracker.py",
+        "scripts/blind_spot_tracker.py",
+        "strategy/startup-profile.yaml",
+        "signals/warm-intro-audit.md",
+        "blocks/_index.yaml"
+      ],
+      "domain_fingerprint": "5a0f7b52841969a7"
+    },
+    {
+      "qualified_id": "claude:_root:_global:evaluation-to-growth-codebase-study",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-02-evaluation-to-growth-codebase-study-v2.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "evaluation-to-growth-codebase-study",
+      "date": "2026-03-02",
+      "version": 2,
+      "status": "active",
+      "title": "Evaluation-to-Growth: Codebase Study v2",
+      "size_bytes": 15703,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 56,
+      "completed_count": 0,
+      "tags": [
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "build_resumes.py"
+      ],
+      "domain_fingerprint": "741fd15fc959121e"
+    },
+    {
+      "qualified_id": "claude:_root:_global:source-pool-expansion",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-02-source-pool-expansion.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "source-pool-expansion",
+      "date": "2026-03-02",
+      "version": 1,
+      "status": "active",
+      "title": "Massive Source Pool Expansion + 3-Per-Company Cap Enforcement",
+      "size_bytes": 10222,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 9,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "deno",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/pipeline_lib.py",
+        "scripts/ingest_top_roles.py",
+        "scripts/advance.py",
+        "scripts/hygiene.py",
+        "scripts/source_jobs.py",
+        "scripts/score.py",
+        "tests/test_company_cap.py",
+        "tests/test_ingest_top_roles.py",
+        "tests/test_advance.py",
+        "scripts/verify_sources.py",
+        "scripts/.job-sources.yaml",
+        "scripts/validate.py",
+        "scripts/run.py"
+      ],
+      "domain_fingerprint": "f6099a2dc0c3d0c9"
+    },
+    {
+      "qualified_id": "claude:_root:_global:blind-spots-sweep",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-02-blind-spots-sweep.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "blind-spots-sweep",
+      "date": "2026-03-02",
+      "version": 1,
+      "status": "active",
+      "title": "Plan: Blind Spots 3/15 → 15/15 — Full Sweep",
+      "size_bytes": 9062,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 13,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "blocks/methodology/founder-sustainability.md",
+        "scripts/warm_intro_audit.py",
+        "tests/test_warm_intro_audit.py",
+        "blocks/framings/academic-partnerships.md",
+        "strategy/disability-grant-research.md",
+        "blocks/framings/disability-founder.md",
+        "blocks/framings/esg-climate-impact.md",
+        "blocks/framings/eu-ai-compliance.md",
+        "scripts/funding_scorer.py",
+        "tests/test_funding_scorer.py",
+        "scripts/build_block_index.py",
+        "scripts/run.py",
+        "tests/test_blind_spot_tracker.py",
+        "scripts/blind_spot_tracker.py",
+        "strategy/startup-profile.yaml",
+        "signals/warm-intro-audit.md",
+        "blocks/_index.yaml"
+      ],
+      "domain_fingerprint": "5a0f7b52841969a7"
+    },
+    {
+      "qualified_id": "claude:_root:_global:evaluation-to-growth-codebase-study",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-02-evaluation-to-growth-codebase-study-v2.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "evaluation-to-growth-codebase-study",
+      "date": "2026-03-02",
+      "version": 2,
+      "status": "active",
+      "title": "Evaluation-to-Growth: Codebase Study v2",
+      "size_bytes": 15703,
+      "has_verification": false,
+      "archetype": "table_inventory",
+      "task_count": 56,
+      "completed_count": 0,
+      "tags": [
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "build_resumes.py"
+      ],
+      "domain_fingerprint": "741fd15fc959121e"
+    },
+    {
+      "qualified_id": "claude:_root:_global:source-pool-expansion",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-02-source-pool-expansion.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "source-pool-expansion",
+      "date": "2026-03-02",
+      "version": 1,
+      "status": "active",
+      "title": "Massive Source Pool Expansion + 3-Per-Company Cap Enforcement",
+      "size_bytes": 10222,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 9,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "deno",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/pipeline_lib.py",
+        "scripts/ingest_top_roles.py",
+        "scripts/advance.py",
+        "scripts/hygiene.py",
+        "scripts/source_jobs.py",
+        "scripts/score.py",
+        "tests/test_company_cap.py",
+        "tests/test_ingest_top_roles.py",
+        "tests/test_advance.py",
+        "scripts/verify_sources.py",
+        "scripts/.job-sources.yaml",
+        "scripts/validate.py",
+        "scripts/run.py"
+      ],
+      "domain_fingerprint": "f6099a2dc0c3d0c9"
     },
     {
       "qualified_id": "claude:LIMINAL:application-pipeline:blind-spots-sweep",
@@ -45943,6 +49505,208 @@
       "domain_fingerprint": "f6099a2dc0c3d0c9"
     },
     {
+      "qualified_id": "claude:_root:_global:algorithms-discovery",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-01-algorithms-discovery.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "algorithms-discovery",
+      "date": "2026-03-01",
+      "version": 1,
+      "status": "active",
+      "title": "Application Pipeline: Algorithmic Patterns Discovery",
+      "size_bytes": 2288,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 8,
+      "completed_count": 1,
+      "tags": [],
+      "file_refs": [
+        "scripts/campaign.py",
+        "scripts/pipeline_lib.py",
+        "scripts/funnel_report.py",
+        "scripts/standup.py",
+        "strategy/scoring-rubric.md",
+        "strategy/job-prioritization.md",
+        "signals/patterns.md",
+        "signals/conversion-log.yaml",
+        "strategy/identity-positions.md",
+        "signals/signal-map.md"
+      ],
+      "domain_fingerprint": "b6802571d1cda74f"
+    },
+    {
+      "qualified_id": "claude:_root:_global:eval-to-growth-review",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-01-eval-to-growth-review.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "eval-to-growth-review",
+      "date": "2026-03-01",
+      "version": 1,
+      "status": "active",
+      "title": "Evaluation-to-Growth: Application Pipeline — Project-Wide Review",
+      "size_bytes": 20050,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 33,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "funnel_report.py",
+        "scripts/score.py",
+        "scripts/followup.py",
+        "scripts/velocity.py",
+        "scripts/funnel_report.py",
+        "scripts/preflight.py",
+        "scripts/validate.py",
+        "scripts/pipeline_lib.py",
+        "scripts/enrich.py",
+        "scripts/advance.py",
+        "scripts/market_intel.py",
+        "scripts/check_metrics.py",
+        "signals/outreach-log.yaml",
+        "blocks/_index.yaml"
+      ],
+      "domain_fingerprint": "1fbee7a05b57443e"
+    },
+    {
+      "qualified_id": "claude:_root:_global:march-strategic-orientation",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-03-01-march-strategic-orientation.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "march-strategic-orientation",
+      "date": "2026-03-01",
+      "version": 1,
+      "status": "active",
+      "title": "Job Market Landscape: March 2026 Strategic Orientation",
+      "size_bytes": 7140,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 5,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "go",
+        "kubernetes",
+        "python",
+        "terraform"
+      ],
+      "file_refs": [
+        "scripts/followup.py",
+        "scripts/standup.py",
+        "scripts/compose.py",
+        "scripts/campaign.py"
+      ],
+      "domain_fingerprint": "1b658f7bfed23b76"
+    },
+    {
+      "qualified_id": "claude:_root:_global:algorithms-discovery",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-01-algorithms-discovery.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "algorithms-discovery",
+      "date": "2026-03-01",
+      "version": 1,
+      "status": "active",
+      "title": "Application Pipeline: Algorithmic Patterns Discovery",
+      "size_bytes": 2288,
+      "has_verification": false,
+      "archetype": "checkbox",
+      "task_count": 8,
+      "completed_count": 1,
+      "tags": [],
+      "file_refs": [
+        "scripts/campaign.py",
+        "scripts/pipeline_lib.py",
+        "scripts/funnel_report.py",
+        "scripts/standup.py",
+        "strategy/scoring-rubric.md",
+        "strategy/job-prioritization.md",
+        "signals/patterns.md",
+        "signals/conversion-log.yaml",
+        "strategy/identity-positions.md",
+        "signals/signal-map.md"
+      ],
+      "domain_fingerprint": "b6802571d1cda74f"
+    },
+    {
+      "qualified_id": "claude:_root:_global:eval-to-growth-review",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-01-eval-to-growth-review.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "eval-to-growth-review",
+      "date": "2026-03-01",
+      "version": 1,
+      "status": "active",
+      "title": "Evaluation-to-Growth: Application Pipeline — Project-Wide Review",
+      "size_bytes": 20050,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 33,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "funnel_report.py",
+        "scripts/score.py",
+        "scripts/followup.py",
+        "scripts/velocity.py",
+        "scripts/funnel_report.py",
+        "scripts/preflight.py",
+        "scripts/validate.py",
+        "scripts/pipeline_lib.py",
+        "scripts/enrich.py",
+        "scripts/advance.py",
+        "scripts/market_intel.py",
+        "scripts/check_metrics.py",
+        "signals/outreach-log.yaml",
+        "blocks/_index.yaml"
+      ],
+      "domain_fingerprint": "1fbee7a05b57443e"
+    },
+    {
+      "qualified_id": "claude:_root:_global:march-strategic-orientation",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-03-01-march-strategic-orientation.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "march-strategic-orientation",
+      "date": "2026-03-01",
+      "version": 1,
+      "status": "active",
+      "title": "Job Market Landscape: March 2026 Strategic Orientation",
+      "size_bytes": 7140,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 5,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "go",
+        "kubernetes",
+        "python",
+        "terraform"
+      ],
+      "file_refs": [
+        "scripts/followup.py",
+        "scripts/standup.py",
+        "scripts/compose.py",
+        "scripts/campaign.py"
+      ],
+      "domain_fingerprint": "1b658f7bfed23b76"
+    },
+    {
       "qualified_id": "claude:LIMINAL:application-pipeline:algorithms-discovery",
       "path": "/Users/4jp/Workspace/4444J99/application-pipeline/.claude/plans/2026-03-01-algorithms-discovery.md",
       "agent": "claude",
@@ -46042,6 +49806,88 @@
         "scripts/campaign.py"
       ],
       "domain_fingerprint": "1b658f7bfed23b76"
+    },
+    {
+      "qualified_id": "claude:_root:_global:freshness-integration",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-02-28-freshness-integration.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "freshness-integration",
+      "date": "2026-02-28",
+      "version": 1,
+      "status": "active",
+      "title": "7-Day Rule: Posting-Age Freshness Integration",
+      "size_bytes": 25600,
+      "has_verification": true,
+      "archetype": "phase_task",
+      "task_count": 44,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/feedback_capture.py",
+        "scripts/sync_metrics.py",
+        "blocks/identity/60s.md",
+        "scripts/source_jobs.py",
+        "scripts/ingest_top_roles.py",
+        "scripts/score.py",
+        "scripts/check_outcomes.py",
+        "pipeline/_schema.yaml",
+        "pipeline/active/prix-ars-electronica.yaml",
+        "pipeline/active/starts-prize.yaml",
+        "signals/hypotheses.yaml",
+        "signals/conversion-log.yaml",
+        "strategy/scoring-rubric.md",
+        "organvm-corpvs-testamentvm/docs/applications/00-covenant-ark.md",
+        "strategy/identity-positions.md",
+        "blocks/framings/independent-engineer.md"
+      ],
+      "domain_fingerprint": "343d4457652feca0"
+    },
+    {
+      "qualified_id": "claude:_root:_global:freshness-integration",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-02-28-freshness-integration.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "freshness-integration",
+      "date": "2026-02-28",
+      "version": 1,
+      "status": "active",
+      "title": "7-Day Rule: Posting-Age Freshness Integration",
+      "size_bytes": 25600,
+      "has_verification": true,
+      "archetype": "phase_task",
+      "task_count": 44,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "pytest",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/feedback_capture.py",
+        "scripts/sync_metrics.py",
+        "blocks/identity/60s.md",
+        "scripts/source_jobs.py",
+        "scripts/ingest_top_roles.py",
+        "scripts/score.py",
+        "scripts/check_outcomes.py",
+        "pipeline/_schema.yaml",
+        "pipeline/active/prix-ars-electronica.yaml",
+        "pipeline/active/starts-prize.yaml",
+        "signals/hypotheses.yaml",
+        "signals/conversion-log.yaml",
+        "strategy/scoring-rubric.md",
+        "organvm-corpvs-testamentvm/docs/applications/00-covenant-ark.md",
+        "strategy/identity-positions.md",
+        "blocks/framings/independent-engineer.md"
+      ],
+      "domain_fingerprint": "343d4457652feca0"
     },
     {
       "qualified_id": "claude:LIMINAL:portfolio:eval-to-growth-review",
@@ -46352,6 +50198,58 @@
       "domain_fingerprint": "bce0e8a9a0c0a1bf"
     },
     {
+      "qualified_id": "claude:_root:_global:resume-content-density",
+      "path": "/Users/4jp/Workspace/application-pipeline/.claude/plans/2026-02-27-resume-content-density.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "resume-content-density",
+      "date": "2026-02-27",
+      "version": 1,
+      "status": "active",
+      "title": "Plan: Fix Over-Trimmed Resumes + Add Content Length Template",
+      "size_bytes": 4486,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 2,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/build_resumes.py",
+        "scripts/tailor_resume.py"
+      ],
+      "domain_fingerprint": "72d38bca17751641"
+    },
+    {
+      "qualified_id": "claude:_root:_global:resume-content-density",
+      "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/application-pipeline-repo/.claude/plans/2026-02-27-resume-content-density.md",
+      "agent": "claude",
+      "organ": "_root",
+      "repo": "_global",
+      "slug": "resume-content-density",
+      "date": "2026-02-27",
+      "version": 1,
+      "status": "active",
+      "title": "Plan: Fix Over-Trimmed Resumes + Add Content Length Template",
+      "size_bytes": 4486,
+      "has_verification": true,
+      "archetype": "table_inventory",
+      "task_count": 2,
+      "completed_count": 0,
+      "tags": [
+        "bash",
+        "python"
+      ],
+      "file_refs": [
+        "scripts/build_resumes.py",
+        "scripts/tailor_resume.py"
+      ],
+      "domain_fingerprint": "72d38bca17751641"
+    },
+    {
       "qualified_id": "claude:_root:_global:domus-doctor-expected-state",
       "path": "/Users/4jp/Workspace/session-meta/.gemini/worktrees/2026-06-11-11-12-33-572-yf1g/domus-genoma/.claude/plans/2026-02-27-domus-doctor-expected-state.md",
       "agent": "claude",
@@ -46591,10 +50489,10 @@
     },
     "III": {
       "organ_key": "III",
-      "total_plans": 91,
-      "active_plans": 87,
-      "total_tasks": 783,
-      "completed_tasks": 160,
+      "total_plans": 96,
+      "active_plans": 92,
+      "total_tasks": 815,
+      "completed_tasks": 166,
       "completion_pct": 20.4,
       "agents_active": [
         "claude",
@@ -46618,13 +50516,13 @@
         "META",
         "VII"
       ],
-      "stale_count": 63
+      "stale_count": 64
     },
     "IV": {
       "organ_key": "IV",
-      "total_plans": 50,
-      "active_plans": 50,
-      "total_tasks": 790,
+      "total_plans": 51,
+      "active_plans": 51,
+      "total_tasks": 791,
       "completed_tasks": 47,
       "completion_pct": 5.9,
       "agents_active": [
@@ -46651,11 +50549,11 @@
     },
     "LIMINAL": {
       "organ_key": "LIMINAL",
-      "total_plans": 390,
-      "active_plans": 382,
-      "total_tasks": 4362,
-      "completed_tasks": 404,
-      "completion_pct": 9.3,
+      "total_plans": 402,
+      "active_plans": 394,
+      "total_tasks": 4470,
+      "completed_tasks": 459,
+      "completion_pct": 10.3,
       "agents_active": [
         "claude",
         "codex",
@@ -46677,15 +50575,15 @@
         "I",
         "META"
       ],
-      "stale_count": 228
+      "stale_count": 232
     },
     "META": {
       "organ_key": "META",
-      "total_plans": 185,
-      "active_plans": 181,
-      "total_tasks": 3117,
-      "completed_tasks": 29,
-      "completion_pct": 0.9,
+      "total_plans": 201,
+      "active_plans": 195,
+      "total_tasks": 3303,
+      "completed_tasks": 47,
+      "completion_pct": 1.4,
       "agents_active": [
         "claude",
         "codex",
@@ -46696,17 +50594,17 @@
         "bash",
         "pytest",
         "mcp",
-        "chezmoi",
         "vercel",
-        "fastapi",
+        "chezmoi",
         "go",
-        "gcp",
+        "fastapi",
+        "typescript",
         "node"
       ],
       "cross_organ_refs": [
         "LIMINAL"
       ],
-      "stale_count": 163
+      "stale_count": 174
     },
     "V": {
       "organ_key": "V",
@@ -46726,25 +50624,6 @@
       ],
       "cross_organ_refs": [],
       "stale_count": 8
-    },
-    "VI": {
-      "organ_key": "VI",
-      "total_plans": 1,
-      "active_plans": 1,
-      "total_tasks": 9,
-      "completed_tasks": 0,
-      "completion_pct": 0.0,
-      "agents_active": [
-        "gemini"
-      ],
-      "top_tags": [
-        "node",
-        "playwright",
-        "typescript",
-        "vitest"
-      ],
-      "cross_organ_refs": [],
-      "stale_count": 1
     },
     "VII": {
       "organ_key": "VII",
@@ -46770,11 +50649,11 @@
     },
     "_root": {
       "organ_key": "_root",
-      "total_plans": 722,
-      "active_plans": 689,
-      "total_tasks": 6940,
-      "completed_tasks": 390,
-      "completion_pct": 5.6,
+      "total_plans": 812,
+      "active_plans": 777,
+      "total_tasks": 8455,
+      "completed_tasks": 414,
+      "completion_pct": 4.9,
       "agents_active": [
         "claude",
         "codex",
@@ -46782,20 +50661,20 @@
       ],
       "top_tags": [
         "node",
+        "python",
+        "bash",
         "cloudflare",
         "astro",
-        "bash",
-        "python",
+        "pytest",
         "mcp",
         "go",
-        "pytest",
         "typescript",
         "react"
       ],
       "cross_organ_refs": [
         "META"
       ],
-      "stale_count": 470
+      "stale_count": 541
     }
   },
   "overlaps": [
@@ -46846,13 +50725,17 @@
         "claude:LIMINAL:?:agent-dispatch-pipeline-research",
         "claude:LIMINAL:?:home-audit-analysis",
         "claude:LIMINAL:?:hook-enforcement",
+        "claude:LIMINAL:CLAUDE:claude-md-compression",
         "claude:LIMINAL:CLAUDE:exhaustive-todo",
         "claude:LIMINAL:application-pipeline:claude-md-compression",
         "claude:LIMINAL:application-pipeline:doctoral-research-precision-pipeline-thesis",
         "claude:LIMINAL:application-pipeline:evaluation-to-growth-codebase-study",
         "claude:LIMINAL:application-pipeline:evaluation-to-growth-full-audit",
+        "claude:LIMINAL:application-pipeline:evaluation-to-growth-project-review",
+        "claude:LIMINAL:application-pipeline:evaluation-to-growth-report",
         "claude:LIMINAL:application-pipeline:evaluation-to-growth-session-arc",
         "claude:LIMINAL:application-pipeline:full-quadrant-distribution-strategy",
+        "claude:LIMINAL:application-pipeline:issue-closeout-governance",
         "claude:LIMINAL:application-pipeline:linkedin-profile-elevation",
         "claude:LIMINAL:application-pipeline:linkedin-profile-elevation-v3-merged",
         "claude:LIMINAL:application-pipeline:linkedin-profile-elevation-v4-alchemized",
@@ -46921,6 +50804,8 @@
         "claude:META:?:cce-exhaustive-roadmap",
         "claude:META:?:dramaturgist-canvas-recovery-handoff",
         "claude:META:?:full-system-structural-census",
+        "claude:META:?:linkedin-profile-elevation-v3-merged",
+        "claude:META:?:linkedin-profile-elevation-v4-alchemized",
         "claude:META:?:meta-organvm-code-completeness-audit-final-report",
         "claude:META:?:mobile-interaction-api-gateway",
         "claude:META:?:rebase-recovery",
@@ -46929,6 +50814,7 @@
         "claude:META:glyph-cascade-tapes:closeout-2026-05-23-hall-monitor-audit",
         "claude:META:organvm-corpvs-testamentvm:cultvra-logos-third-function",
         "claude:META:organvm-corpvs-testamentvm:irf-institutional-reform",
+        "claude:META:organvm-corpvs-testamentvm:openclaw-vacuum-registry",
         "claude:META:organvm-corpvs-testamentvm:shell-config-rewrite-spec",
         "claude:META:organvm-engine:enchanted-wobbling-moon-agent-ac221530c11a7bcc8",
         "claude:META:organvm-engine:epistemic-membranes",
@@ -46950,7 +50836,6 @@
         "claude:_root:_global:attack-sequence",
         "claude:_root:_global:brewfile-and-ci-green",
         "claude:_root:_global:cce-unbounded-evaluation-fix",
-        "claude:_root:_global:claudemd-reconcile-and-strays-triage",
         "claude:_root:_global:client-acquisition-strategy",
         "claude:_root:_global:closeout-735b7d45-post-compact",
         "claude:_root:_global:closeout-limen-greenline",
@@ -46964,12 +50849,17 @@
         "claude:_root:_global:content-engine-mvp",
         "claude:_root:_global:corrective-implementation",
         "claude:_root:_global:declarative-config-landscape-research",
+        "claude:_root:_global:doctoral-research-precision-pipeline-thesis",
         "claude:_root:_global:domus-doctor-expected-state",
         "claude:_root:_global:domus-sort-routing-analysis",
         "claude:_root:_global:dotdir-migration-matrix-phase-4",
         "claude:_root:_global:dramatic-spiral-animations",
         "claude:_root:_global:embedding-solutions-analysis",
+        "claude:_root:_global:evaluation-to-growth-codebase-study",
+        "claude:_root:_global:evaluation-to-growth-full-audit",
+        "claude:_root:_global:evaluation-to-growth-project-review",
         "claude:_root:_global:evaluation-to-growth-report",
+        "claude:_root:_global:evaluation-to-growth-session-arc",
         "claude:_root:_global:executor-health-oracle",
         "claude:_root:_global:executor-health-oracle-growth",
         "claude:_root:_global:fabrica-phase-5-heartbeat-daemon",
@@ -46977,6 +50867,7 @@
         "claude:_root:_global:five-project-interconnection-map",
         "claude:_root:_global:fossil-living-stratigraphy",
         "claude:_root:_global:four-phase-system-activation",
+        "claude:_root:_global:full-quadrant-distribution-strategy",
         "claude:_root:_global:fundamental-realignment-threejs-helix",
         "claude:_root:_global:gap-analysis-sovereign-ground",
         "claude:_root:_global:gcloud-python-pin",
@@ -46991,17 +50882,21 @@
         "claude:_root:_global:hook-enforcement",
         "claude:_root:_global:ideal-form-classification",
         "claude:_root:_global:irf-cce-039-commercial-implementation-plan",
+        "claude:_root:_global:linkedin-profile-elevation",
+        "claude:_root:_global:macro-conductor-plan",
         "claude:_root:_global:maddie-ask-packet-MD-1-7",
         "claude:_root:_global:maddie-ideals-vs-rendered-diff",
         "claude:_root:_global:maddie-spiral-chakra-stars-round2-lightening",
         "claude:_root:_global:maddie-spiral-first-realignment",
         "claude:_root:_global:maddie-substrate-audit-persona-refresh-ask-packet",
         "claude:_root:_global:mail-triage-closeout-audit",
+        "claude:_root:_global:materials-reorganization",
         "claude:_root:_global:mechanism-documentation-counterparts",
         "claude:_root:_global:messy-attic-attack-plan",
         "claude:_root:_global:monad-postmortem-vacuum-wiring",
         "claude:_root:_global:network-testament-protocol",
         "claude:_root:_global:omniscience-vector-pipeline-activation",
+        "claude:_root:_global:openclaw-host-remediation-packet",
         "claude:_root:_global:oracle-advisory-attack-plan",
         "claude:_root:_global:organ-chain-gap-analysis",
         "claude:_root:_global:patchbay-command-center",
@@ -47009,10 +50904,12 @@
         "claude:_root:_global:process-self-analysis-findings",
         "claude:_root:_global:project-maturity-review",
         "claude:_root:_global:relay-handoff-followups",
+        "claude:_root:_global:resume-content-density",
         "claude:_root:_global:resume-prompt",
         "claude:_root:_global:session-close-audit",
         "claude:_root:_global:session-lifecycle-phrases",
         "claude:_root:_global:spatiotemporal-cartography",
+        "claude:_root:_global:stripe-free-deployment-diversification",
         "claude:_root:_global:symlink-audit-final-report",
         "claude:_root:_global:system-activation-plan",
         "claude:_root:_global:tool-interaction-design",
@@ -47064,7 +50961,6 @@
         "codex:_root:_global:surface-externalization",
         "codex:_root:_global:temporal-maturity-vacuum-audit",
         "gemini:I:conversation-corpus-engine:SISYPHUS-HANDOFF-AND-RECOVERY-BLUEPRINT",
-        "gemini:III:ergon-test-harness:organ-iii-test-repo-spec",
         "gemini:III:life-my--midst--in:exhaustive-ci-remediation",
         "gemini:IV:?:HALL-MONITOR-AUDIT-AND-RECOVERY",
         "gemini:IV:vacuum-observer:sovereign-superordinate-master-plan",
@@ -47076,7 +50972,7 @@
         "gemini:LIMINAL:portvs:closeout-2026-05-26",
         "gemini:META:organvm-corpvs-testamentvm:transcript-ingestion",
         "gemini:META:organvm-corpvs-testamentvm:vacuum-resolution",
-        "gemini:VI:community-hub:ergon-test-harness-architecture",
+        "gemini:_root:_global:00-alpha-to-omega-multiverse-phases",
         "gemini:_root:_global:02-repo-architecture-cme-full",
         "gemini:_root:_global:04-commercial-artifacts",
         "gemini:_root:_global:05-clip-extraction-attribution-model",
@@ -47090,6 +50986,7 @@
         "gemini:_root:_global:evaluation-growth",
         "gemini:_root:_global:evaluation-to-growth",
         "gemini:_root:_global:evaluation-to-growth-report",
+        "gemini:_root:_global:high-leverage-sequence",
         "gemini:_root:_global:limen-pipeline-resilience-plan",
         "gemini:_root:_global:milestone-3-package-hardening",
         "gemini:_root:_global:milestone-4-remediation-and-ci",
@@ -47129,7 +51026,6 @@
         "LIMINAL",
         "META",
         "V",
-        "VI",
         "_root"
       ],
       "severity": "conflict",
@@ -47229,6 +51125,93 @@
       "jaccard": 1.0
     },
     {
+      "domain": "docker, react, vite, vitest",
+      "plans": [
+        "gemini:_root:_global:ephemera-engine-visualizer",
+        "gemini:_root:_global:handoff-feature-implementation",
+        "gemini:_root:_global:product-portal-and-handshake"
+      ],
+      "agents": [
+        "gemini"
+      ],
+      "organs": [
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "kubernetes, pytest, python, typescript",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:indexed-marinating-rabin",
+        "claude:_root:_global:indexed-marinating-rabin"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "mcp, pytest, python",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:five-phase-infrastructure-enhancement",
+        "claude:LIMINAL:application-pipeline:memoized-beaming-wigderson",
+        "claude:_root:_global:five-phase-infrastructure-enhancement",
+        "claude:_root:_global:memoized-beaming-wigderson"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "bash, mcp, pytest, python",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:application-pipeline-diagnostic-tool",
+        "claude:LIMINAL:application-pipeline:diagnostic-ira-grade-norming",
+        "claude:LIMINAL:application-pipeline:pure-riding-twilight",
+        "claude:LIMINAL:application-pipeline:system-integrity-audit-ira",
+        "claude:META:?:diagnostic-ira-grade-norming",
+        "claude:META:?:pure-riding-twilight",
+        "claude:META:?:system-integrity-audit-ira"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "META"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "bash",
+      "plans": [
+        "claude:III:peer-audited--behavioral-blockchain:tingly-roaming-coral",
+        "claude:LIMINAL:application-pipeline:tingly-roaming-coral"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "III",
+        "LIMINAL"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
       "domain": "astro, node",
       "plans": [
         "claude:LIMINAL:domus-semper-palingenesis:data-relay-from-your-generic-willow",
@@ -47314,21 +51297,6 @@
       ],
       "organs": [
         "LIMINAL"
-      ],
-      "severity": "warning",
-      "jaccard": 1.0
-    },
-    {
-      "domain": "react, vite",
-      "plans": [
-        "gemini:_root:_global:handoff-feature-implementation",
-        "gemini:_root:_global:product-portal-and-handshake"
-      ],
-      "agents": [
-        "gemini"
-      ],
-      "organs": [
-        "_root"
       ],
       "severity": "warning",
       "jaccard": 1.0
@@ -48485,6 +52453,104 @@
       "jaccard": 1.0
     },
     {
+      "domain": "go, python",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:full-triage-week-recovery",
+        "claude:_root:_global:full-triage-week-recovery"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "shared file refs",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:session-handoff-s54",
+        "claude:_root:_global:session-handoff-s54"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "bash, mcp, pytest, python",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:four-stream-hygiene-prep",
+        "claude:_root:_global:four-stream-hygiene-prep"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "shared file refs",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:avalanche-protocol-generic",
+        "claude:LIMINAL:application-pipeline:session-handoff-S53",
+        "claude:_root:_global:avalanche-protocol-generic",
+        "claude:_root:_global:session-handoff-S53"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "go, mcp, python",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:grafana-interview-avalanche",
+        "claude:_root:_global:grafana-interview-avalanche"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "shared file refs",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:session-handoff-S49",
+        "claude:_root:_global:session-handoff-S49"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
       "domain": "shared file refs",
       "plans": [
         "claude:_root:_global:maddie-spiral-session-close-audit"
@@ -48535,6 +52601,57 @@
         "claude"
       ],
       "organs": [
+        "META"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "go, python",
+      "plans": [
+        "claude:III:?:full-quadrant-work-items",
+        "claude:LIMINAL:application-pipeline:full-quadrant-work-items"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "III",
+        "LIMINAL"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "postgresql",
+      "plans": [
+        "claude:III:commerce--meta:product-extraction-triptych",
+        "claude:LIMINAL:application-pipeline:product-extraction-triptych",
+        "claude:LIMINAL:application-pipeline:product-strategy-two-sided-marketplace",
+        "claude:_root:_global:product-strategy-two-sided-marketplace"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "III",
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "bash, pytest, python",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:week-14-weekly-plan",
+        "claude:META:organvm-corpvs-testamentvm:week-14-weekly-plan"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
         "META"
       ],
       "severity": "warning",
@@ -48685,6 +52802,22 @@
       "jaccard": 1.0
     },
     {
+      "domain": "jekyll, mcp, node",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:hive-organvm-fusion-public-process",
+        "claude:_root:_global:hive-organvm-fusion-public-process"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
       "domain": "shared file refs",
       "plans": [
         "claude:_root:_global:complete-phase3"
@@ -48785,6 +52918,20 @@
       "jaccard": 1.0
     },
     {
+      "domain": "shared file refs",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:intake-pipeline-fix"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
       "domain": "bash, fastapi, mcp, pytest, python",
       "plans": [
         "claude:META:?:irf-system-integration"
@@ -48857,6 +53004,22 @@
       "jaccard": 1.0
     },
     {
+      "domain": "bash, docker, kubernetes, pytest, python",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:corpus-driven-scoring",
+        "claude:_root:_global:corpus-driven-scoring"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
       "domain": "vercel",
       "plans": [
         "claude:_root:_global:phase2-implementation"
@@ -48895,23 +53058,6 @@
       ],
       "organs": [
         "I"
-      ],
-      "severity": "warning",
-      "jaccard": 1.0
-    },
-    {
-      "domain": "bash, mcp, pytest, python",
-      "plans": [
-        "claude:LIMINAL:application-pipeline:application-pipeline-diagnostic-tool",
-        "claude:LIMINAL:application-pipeline:diagnostic-ira-grade-norming",
-        "claude:LIMINAL:application-pipeline:pure-riding-twilight",
-        "claude:LIMINAL:application-pipeline:system-integrity-audit-ira"
-      ],
-      "agents": [
-        "claude"
-      ],
-      "organs": [
-        "LIMINAL"
       ],
       "severity": "warning",
       "jaccard": 1.0
@@ -49194,21 +53340,6 @@
       "jaccard": 1.0
     },
     {
-      "domain": "mcp, pytest, python",
-      "plans": [
-        "claude:LIMINAL:application-pipeline:five-phase-infrastructure-enhancement",
-        "claude:LIMINAL:application-pipeline:memoized-beaming-wigderson"
-      ],
-      "agents": [
-        "claude"
-      ],
-      "organs": [
-        "LIMINAL"
-      ],
-      "severity": "warning",
-      "jaccard": 1.0
-    },
-    {
       "domain": "bash, react",
       "plans": [
         "claude:_root:_global:architecture-completeness-matrix"
@@ -49251,6 +53382,22 @@
       "jaccard": 1.0
     },
     {
+      "domain": "mcp, python",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:evaluation-to-growth-review",
+        "claude:_root:_global:evaluation-to-growth-review"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
       "domain": "astro, node, playwright",
       "plans": [
         "gemini:LIMINAL:portfolio:evaluation-to-growth-plan",
@@ -49258,6 +53405,70 @@
       ],
       "agents": [
         "gemini"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "pytest, python",
+      "plans": [
+        "codex:LIMINAL:application-pipeline:sprint-gap-audit-and-full-implementation-roadmap",
+        "codex:_root:_global:sprint-gap-audit-and-full-implementation-roadmap"
+      ],
+      "agents": [
+        "codex"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "pytest",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:precision-over-volume-pivot",
+        "claude:_root:_global:precision-over-volume-pivot"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "bash, pytest, python",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:precision-pipeline-four-tier-implementation",
+        "claude:_root:_global:precision-pipeline-four-tier-implementation"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "shared file refs",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:precision-pivot-review",
+        "claude:_root:_global:precision-pivot-review"
+      ],
+      "agents": [
+        "claude"
       ],
       "organs": [
         "LIMINAL",
@@ -49276,6 +53487,150 @@
       ],
       "organs": [
         "V"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "mcp, pytest, python",
+      "plans": [
+        "codex:LIMINAL:application-pipeline:evaluation-to-growth-implementation-plan",
+        "codex:_root:_global:evaluation-to-growth-implementation-plan"
+      ],
+      "agents": [
+        "codex"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "bash, pytest, python",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:skill-based-discovery",
+        "claude:_root:_global:skill-based-discovery"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "pytest, python",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:submission-pipeline-fix",
+        "claude:_root:_global:submission-pipeline-fix"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "bash, pytest, python",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:blind-spots-sweep",
+        "claude:_root:_global:blind-spots-sweep"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "bash, deno, pytest, python",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:source-pool-expansion",
+        "claude:_root:_global:source-pool-expansion"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "shared file refs",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:algorithms-discovery",
+        "claude:_root:_global:algorithms-discovery"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "bash, pytest, python",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:eval-to-growth-review",
+        "claude:_root:_global:eval-to-growth-review"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "bash, go, kubernetes, python, terraform",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:march-strategic-orientation",
+        "claude:_root:_global:march-strategic-orientation"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
+      ],
+      "severity": "warning",
+      "jaccard": 1.0
+    },
+    {
+      "domain": "bash, pytest, python",
+      "plans": [
+        "claude:LIMINAL:application-pipeline:freshness-integration",
+        "claude:_root:_global:freshness-integration"
+      ],
+      "agents": [
+        "claude"
+      ],
+      "organs": [
+        "LIMINAL",
+        "_root"
       ],
       "severity": "warning",
       "jaccard": 1.0
@@ -49392,27 +53747,6 @@
       "jaccard": 0.6
     },
     {
-      "domain": "go, k8s, kubernetes, postgres, redis",
-      "plans": [
-        "claude:LIMINAL:application-pipeline:evaluation-to-growth-project-review",
-        "claude:LIMINAL:application-pipeline:evaluation-to-growth-report",
-        "claude:_root:_global:macro-conductor-plan",
-        "claude:_root:_global:stripe-free-deployment-diversification",
-        "gemini:_root:_global:00-alpha-to-omega-multiverse-phases",
-        "gemini:_root:_global:high-leverage-sequence"
-      ],
-      "agents": [
-        "claude",
-        "gemini"
-      ],
-      "organs": [
-        "LIMINAL",
-        "_root"
-      ],
-      "severity": "warning",
-      "jaccard": 0.5
-    },
-    {
       "domain": "shared file refs",
       "plans": [
         "claude:LIMINAL:portvs:process-insights-review",
@@ -49438,21 +53772,6 @@
       ],
       "organs": [
         "_root"
-      ],
-      "severity": "warning",
-      "jaccard": 0.5
-    },
-    {
-      "domain": "postgresql",
-      "plans": [
-        "claude:LIMINAL:application-pipeline:product-extraction-triptych",
-        "claude:LIMINAL:application-pipeline:product-strategy-two-sided-marketplace"
-      ],
-      "agents": [
-        "claude"
-      ],
-      "organs": [
-        "LIMINAL"
       ],
       "severity": "warning",
       "jaccard": 0.5
@@ -49581,24 +53900,10 @@
       ],
       "severity": "info",
       "jaccard": 0.333
-    },
-    {
-      "domain": "shared file refs",
-      "plans": [
-        "claude:LIMINAL:application-pipeline:avalanche-protocol-generic",
-        "claude:LIMINAL:application-pipeline:session-handoff-S53"
-      ],
-      "agents": [
-        "claude"
-      ],
-      "organs": [
-        "LIMINAL"
-      ],
-      "severity": "info",
-      "jaccard": 0.333
     }
   ],
   "stale_candidates": [
+    "claude:META:?:orion-structural-absorption",
     "codex:_root:_global:closeout-summary",
     "claude:_root:_global:hyperliquid-paper-track",
     "claude:META:organvm-corpvs-testamentvm:curious-napping-gosling",
@@ -50071,17 +54376,31 @@
     "gemini:LIMINAL:system-system--system:cascade-correction-atom-registry",
     "codex:IV:CLAUDE:reconciliation-handoff-groupings",
     "claude:_root:_global:mechanism-documentation-counterparts",
+    "claude:_root:_global:full-triage-week-recovery",
+    "claude:_root:_global:session-handoff-s54",
+    "claude:_root:_global:full-triage-week-recovery",
+    "claude:_root:_global:session-handoff-s54",
     "claude:META:praxis-perpetua:documentation-handoff-architecture-audit",
     "claude:_root:_global:xenograft-protocol-design",
     "claude:LIMINAL:application-pipeline:full-triage-week-recovery",
     "claude:LIMINAL:application-pipeline:session-handoff-s54",
     "claude:META:organvm-corpvs-testamentvm:cultvra-logos-third-function",
+    "claude:_root:_global:four-stream-hygiene-prep",
+    "claude:_root:_global:session-handoff-S53",
+    "claude:_root:_global:four-stream-hygiene-prep",
+    "claude:_root:_global:session-handoff-S53",
     "claude:IV:fleet:fleet-agent-capability-definition",
     "claude:META:?:review-sessions-improvements-all",
     "claude:LIMINAL:application-pipeline:four-stream-hygiene-prep",
     "claude:LIMINAL:application-pipeline:session-handoff-S53",
     "codex:META:?:cross-session-ledger-externalization",
     "codex:META:?:transcript-ingestion-record-s48-s51",
+    "claude:_root:_global:avalanche-protocol-generic",
+    "claude:_root:_global:grafana-interview-avalanche",
+    "claude:_root:_global:session-handoff-S49",
+    "claude:_root:_global:avalanche-protocol-generic",
+    "claude:_root:_global:grafana-interview-avalanche",
+    "claude:_root:_global:session-handoff-S49",
     "claude:META:organvm-engine:dispersio-formalis",
     "claude:_root:_global:communications-correspondence-relay-protocol",
     "claude:_root:_global:maddie-spiral-orchestration-assignment",
@@ -50102,6 +54421,10 @@
     "claude:META:post-flood:eve-adam-lineage-verification",
     "claude:_root:_global:first-embodiment-gen002-skl001-sig001",
     "claude:IV:?:state-of-affairs-union-mind-state",
+    "claude:LIMINAL:CLAUDE:claude-md-compression",
+    "claude:META:organvm-corpvs-testamentvm:openclaw-vacuum-registry",
+    "claude:LIMINAL:CLAUDE:claude-md-compression",
+    "claude:META:organvm-corpvs-testamentvm:openclaw-vacuum-registry",
     "claude:META:?:s41-handoff-documents",
     "claude:META:organvm-engine:gravitas-culturalis",
     "claude:META:praxis-perpetua:system-library-prompt-chains",
@@ -50121,6 +54444,16 @@
     "gemini:META:?:superproject-topology-audit",
     "codex:META:?:superproject-topology-audit",
     "codex:_root:_global:topology-audit-doc-and-tool",
+    "claude:_root:_global:full-quadrant-distribution-strategy",
+    "claude:III:?:full-quadrant-work-items",
+    "claude:_root:_global:linkedin-content-engine-cleanup",
+    "claude:_root:_global:product-strategy-two-sided-marketplace",
+    "claude:META:organvm-corpvs-testamentvm:week-14-weekly-plan",
+    "claude:_root:_global:full-quadrant-distribution-strategy",
+    "claude:III:?:full-quadrant-work-items",
+    "claude:_root:_global:linkedin-content-engine-cleanup",
+    "claude:_root:_global:product-strategy-two-sided-marketplace",
+    "claude:META:organvm-corpvs-testamentvm:week-14-weekly-plan",
     "claude:_root:_global:formation-chemistry",
     "claude:META:organvm-corpvs-testamentvm:irf-institutional-reform",
     "claude:III:content-engine--asset-amplifier:post-office-project-registry",
@@ -50204,6 +54537,7 @@
     "claude:_root:_global:fossil-living-stratigraphy",
     "claude:META:organvm-engine:fossil-phase-1-the-dig",
     "claude:META:organvm-engine:fossil-phase-2-the-chronicle",
+    "claude:_root:_global:hive-organvm-fusion-public-process",
     "claude:_root:_global:complete-phase3",
     "claude:_root:_global:path-to-omega",
     "claude:_root:_global:phase4-scaling-collaboration",
@@ -50212,6 +54546,7 @@
     "claude:_root:_global:path-to-omega",
     "claude:_root:_global:phase4-scaling-collaboration",
     "claude:_root:_global:signal-based-disclosure",
+    "claude:_root:_global:hive-organvm-fusion-public-process",
     "claude:_root:_global:e2g-comprehensive-review",
     "claude:I:?:companion-indices-construction-plan",
     "claude:I:conversation-corpus-engine:operational-hardening",
@@ -50264,6 +54599,10 @@
     "codex:META:organvm-engine:cce-surface-ingestion",
     "codex:META:organvm-engine:cce-surface-ingestion",
     "codex:META:organvm-engine:cce-surface-ingestion",
+    "claude:_root:_global:evaluation-to-growth-session-arc",
+    "claude:LIMINAL:application-pipeline:intake-pipeline-fix",
+    "claude:_root:_global:evaluation-to-growth-session-arc",
+    "claude:LIMINAL:application-pipeline:intake-pipeline-fix",
     "claude:META:?:irf-system-integration",
     "claude:LIMINAL:CLAUDE:exhaustive-todo",
     "claude:_root:_global:network-testament-protocol",
@@ -50284,6 +54623,8 @@
     "claude:LIMINAL:portfolio:exhaustive-todo",
     "claude:LIMINAL:application-pipeline:evaluation-to-growth-session-arc",
     "claude:LIMINAL:application-pipeline:intake-pipeline-fix",
+    "claude:_root:_global:evaluation-to-growth-report",
+    "claude:_root:_global:evaluation-to-growth-report",
     "claude:_root:_global:pathos-excavated-conversations",
     "claude:VII:kerygma-profiles:amp-lab-organvm-integration",
     "claude:META:schema-definitions:collaboration-infrastructure",
@@ -50291,7 +54632,11 @@
     "claude:_root:_global:inst-generative-testament",
     "claude:LIMINAL:portfolio:pathos-excavated-conversations",
     "claude:LIMINAL:application-pipeline:evaluation-to-growth-report",
+    "claude:META:?:linkedin-profile-elevation-v4-alchemized",
+    "claude:META:?:linkedin-profile-elevation-v4-alchemized",
     "claude:LIMINAL:application-pipeline:linkedin-profile-elevation-v4-alchemized",
+    "claude:_root:_global:materials-reorganization",
+    "claude:_root:_global:materials-reorganization",
     "claude:_root:_global:ux-redesign-research",
     "claude:I:studium-generale:studium-generale-organvm",
     "claude:_root:_global:layer-1-phase-r-spec-000",
@@ -50299,10 +54644,12 @@
     "claude:_root:_global:spec-implementation-methodology",
     "claude:LIMINAL:portfolio:ux-redesign-research",
     "claude:LIMINAL:application-pipeline:materials-reorganization",
+    "claude:_root:_global:corpus-driven-scoring",
     "claude:_root:_global:phase2-implementation",
     "claude:_root:_global:phase3-implementation",
     "claude:_root:_global:phase2-implementation",
     "claude:_root:_global:phase3-implementation",
+    "claude:_root:_global:corpus-driven-scoring",
     "claude:_root:_global:phase2-implementation",
     "claude:_root:_global:phase3-implementation",
     "claude:_root:_global:portal-metrics-layer",
@@ -50343,6 +54690,10 @@
     "codex:I:conversation-corpus-site:post-provider-readiness-roadmap",
     "codex:_root:_global:provider-readiness-and-generic-evaluation-bootstrap-implementation",
     "codex:I:conversation-corpus-site:scope-stable-organic-ingress-implementation",
+    "claude:_root:_global:evaluation-to-growth-full-audit",
+    "claude:META:?:system-integrity-audit-ira",
+    "claude:_root:_global:evaluation-to-growth-full-audit",
+    "claude:META:?:system-integrity-audit-ira",
     "claude:META:organvm-ontologia:ontologia-activation",
     "claude:META:organvm-engine:systema-sentiens",
     "claude:LIMINAL:application-pipeline:evaluation-to-growth-full-audit",
@@ -50452,9 +54803,6 @@
     "claude:IV:?:mellow-knitting-comet",
     "claude:_root:_global:conductor-preflight-auto-start",
     "claude:_root:_global:hierarchia-phase2-dynamic-schema",
-    "gemini:VI:community-hub:ergon-test-harness-architecture",
-    "gemini:III:ergon-test-harness:organ-iii-test-repo-spec",
-    "gemini:_root:_global:s4-gamma-shadow-queue",
     "gemini:III:life-my--midst--in:exhaustive-ci-remediation",
     "codex:_root:_global:beta-launch-propulsion",
     "codex:_root:_global:business-blocker-ledger",
@@ -50605,6 +54953,12 @@
     "claude:LIMINAL:domus-semper-palingenesis:dotdir-migration-matrix-phase-4",
     "claude:LIMINAL:domus-semper-palingenesis:home-audit-analysis",
     "gemini:META:stakeholder-portal:stakeholder-portal-completion",
+    "claude:META:?:diagnostic-ira-grade-norming",
+    "claude:_root:_global:evaluation-to-growth-review",
+    "claude:_root:_global:five-phase-infrastructure-enhancement",
+    "claude:META:?:diagnostic-ira-grade-norming",
+    "claude:_root:_global:evaluation-to-growth-review",
+    "claude:_root:_global:five-phase-infrastructure-enhancement",
     "claude:META:system-dashboard:alpha-omega-progress-bar",
     "claude:META:system-dashboard:per-project-progress-bar",
     "claude:I:my-knowledge-base:transcript-driven-contextual-awareness-plan",
@@ -50630,6 +54984,8 @@
     "gemini:LIMINAL:portfolio:evaluation-to-growth-plan",
     "gemini:LIMINAL:domus-semper-palingenesis:agentic-python-matrix",
     "gemini:LIMINAL:domus-semper-palingenesis:extension-reduction",
+    "codex:_root:_global:sprint-gap-audit-and-full-implementation-roadmap",
+    "codex:_root:_global:sprint-gap-audit-and-full-implementation-roadmap",
     "codex:_root:_global:evaluation-to-growth-project-wide-review",
     "codex:META:?:e2g-exhaustive-implementation",
     "codex:META:?:evaluation-growth-implementation-pass",
@@ -50639,6 +54995,18 @@
     "codex:META:organvm-engine:expand-registry-features-and-functions",
     "codex:META:organvm-engine:expand-registry-features-and-functions",
     "codex:LIMINAL:application-pipeline:sprint-gap-audit-and-full-implementation-roadmap",
+    "claude:_root:_global:doctoral-research-pipeline-optimization",
+    "claude:_root:_global:doctoral-research-precision-pipeline-thesis",
+    "claude:_root:_global:evaluation-to-growth-project-review",
+    "claude:_root:_global:precision-over-volume-pivot",
+    "claude:_root:_global:precision-pipeline-four-tier-implementation",
+    "claude:_root:_global:precision-pivot-review",
+    "claude:_root:_global:doctoral-research-pipeline-optimization",
+    "claude:_root:_global:doctoral-research-precision-pipeline-thesis",
+    "claude:_root:_global:evaluation-to-growth-project-review",
+    "claude:_root:_global:precision-over-volume-pivot",
+    "claude:_root:_global:precision-pipeline-four-tier-implementation",
+    "claude:_root:_global:precision-pivot-review",
     "claude:V:?:doctoral-dissertation-styx",
     "claude:META:stakeholder-portal:hermeneus-stakeholder-portal",
     "claude:_root:_global:conductor-e2g-report",
@@ -50660,11 +55028,17 @@
     "gemini:_root:_global:evaluation-to-growth-report",
     "gemini:LIMINAL:portfolio:evaluation-to-growth-plan",
     "gemini:LIMINAL:portfolio:portfolio-refinement",
+    "codex:_root:_global:evaluation-to-growth-implementation-plan",
+    "codex:_root:_global:evaluation-to-growth-implementation-plan",
     "codex:_root:_global:consult-cloudflare-worker-fix",
     "codex:_root:_global:evaluation-to-growth-project-review-and-hardening",
     "codex:_root:_global:implement-all-suggested-findings",
     "codex:LIMINAL:portfolio:consult-cloudflare-worker-fix",
     "codex:LIMINAL:application-pipeline:evaluation-to-growth-implementation-plan",
+    "claude:_root:_global:skill-based-discovery",
+    "claude:_root:_global:submission-pipeline-fix",
+    "claude:_root:_global:skill-based-discovery",
+    "claude:_root:_global:submission-pipeline-fix",
     "claude:V:public-process:essay-backfill-plan",
     "claude:I:?:github-billing-support-ticket",
     "claude:_root:_global:evaluation-to-growth-report",
@@ -50677,13 +55051,27 @@
     "gemini:_root:_global:evaluation-growth",
     "gemini:LIMINAL:domus-semper-palingenesis:evaluation-growth",
     "gemini:LIMINAL:domus-semper-palingenesis:evaluation-growth",
+    "codex:_root:_global:implement-steps-2-3-4-6",
+    "codex:_root:_global:implement-steps-2-3-4-6",
     "codex:II:?:fix-remaining-workflow-failures",
     "codex:LIMINAL:application-pipeline:implement-steps-2-3-4-6",
+    "claude:_root:_global:blind-spots-sweep",
+    "claude:_root:_global:evaluation-to-growth-codebase-study",
+    "claude:_root:_global:source-pool-expansion",
+    "claude:_root:_global:blind-spots-sweep",
+    "claude:_root:_global:evaluation-to-growth-codebase-study",
+    "claude:_root:_global:source-pool-expansion",
     "claude:LIMINAL:application-pipeline:blind-spots-sweep",
     "claude:LIMINAL:application-pipeline:evaluation-to-growth-codebase-study",
     "claude:LIMINAL:application-pipeline:source-pool-expansion",
+    "claude:_root:_global:eval-to-growth-review",
+    "claude:_root:_global:march-strategic-orientation",
+    "claude:_root:_global:eval-to-growth-review",
+    "claude:_root:_global:march-strategic-orientation",
     "claude:LIMINAL:application-pipeline:eval-to-growth-review",
     "claude:LIMINAL:application-pipeline:march-strategic-orientation",
+    "claude:_root:_global:freshness-integration",
+    "claude:_root:_global:freshness-integration",
     "claude:LIMINAL:portfolio:eval-to-growth-review",
     "claude:V:essay-pipeline:ignition-living-site",
     "claude:META:organvm-corpvs-testamentvm:content-filter-audit",
@@ -50693,6 +55081,8 @@
     "claude:LIMINAL:application-pipeline:freshness-integration",
     "gemini:_root:_global:evaluation-to-growth",
     "gemini:LIMINAL:portfolio:evaluation-to-growth",
+    "claude:_root:_global:resume-content-density",
+    "claude:_root:_global:resume-content-density",
     "claude:_root:_global:domus-doctor-expected-state",
     "claude:V:essay-pipeline:captains-log-revision",
     "claude:LIMINAL:domus-semper-palingenesis:domus-doctor-expected-state",

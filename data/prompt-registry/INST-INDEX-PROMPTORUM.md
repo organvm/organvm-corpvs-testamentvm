@@ -4098,3 +4098,20 @@
 ### 482097b5-949a-4142-9089-2d258205166f
 **Captured:** 2026-06-11T15:17:57 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
 
+
+### 78a9c25d-f015-4622-82e8-3687a4c80d14
+**Captured:** 2026-06-11T18:04:22 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
+
+### c565ec57-fa99-4c5a-80cc-b87de78453f4
+**Captured:** 2026-06-11T18:04:22 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
+
+### 730fa665-0777-497a-a171-6074d3b8d3f2
+**Captured:** 2026-06-11T18:11:35 | **Prompts:** 21 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/730fa665-0777-497a-a171-6074d3b8d3f2-prompts.md`
+
+
+### d2ff123d-7e08-42a8-8cc1-e85a6e8de6d8
+**Captured:** 2026-06-12T05:17:16 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+

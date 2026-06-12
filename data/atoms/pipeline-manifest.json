@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-11T12:31:13.075783+00:00",
+  "generated": "2026-06-12T09:56:08.770836+00:00",
   "dry_run": false,
   "filters": {
     "agent": null,
@@ -7,37 +7,37 @@
   },
   "files": {
     "atomized-tasks.jsonl": {
-      "count": 28169,
-      "sha256": "46a54be98982f79304d11c6c0b1a4e41bc4b03fac2fd2567bc68a8bf7d2424fc"
+      "count": 29731,
+      "sha256": "315a8c628161734d8bf5561aa6d4b5d67806685064bc5e4aa1676b77f45a8677"
     },
     "annotated-prompts.jsonl": {
-      "count": 5861,
-      "sha256": "e895450e997c7785544fbc3c15163cd7b2a59be900c6caefa4a1aef83b6dd8bd"
+      "count": 5732,
+      "sha256": "7ad0798bd2fe51dcd78e82b77e89be51d38ae126c8626cdb125b14b4b57178c6"
     },
     "atom-links.jsonl": {
-      "count": 117973,
-      "sha256": "487efb423f535b7dede058b206266d5e85f01056819058e3192ba33f5c7e0b77"
+      "count": 120189,
+      "sha256": "1e871e1469522daefa49c47da8c994f08cf3fda5a420a381852408d7e53b9950"
     },
     "plan-index.json": {
-      "count": 1586
+      "count": 1709
     }
   },
   "quality": {
-    "null_organ_tasks": 12433,
-    "empty_fingerprint_prompts": 4568,
+    "null_organ_tasks": 13899,
+    "empty_fingerprint_prompts": 4460,
     "link_threshold": 0.3
   },
   "counts": {
-    "plans_parsed": 2601,
+    "plans_parsed": 2692,
     "research_docs_scanned": 0,
     "research_directives": 0,
-    "tasks": 28169,
-    "prompts": 5861,
-    "noise_skipped": 393,
-    "sessions": 1159,
-    "threads": 119,
-    "links": 117973,
-    "reconcile_completed": 373,
+    "tasks": 29731,
+    "prompts": 5732,
+    "noise_skipped": 403,
+    "sessions": 1166,
+    "threads": 117,
+    "links": 120189,
+    "reconcile_completed": 388,
     "reconcile_partial": 23,
     "errors": 0
   }

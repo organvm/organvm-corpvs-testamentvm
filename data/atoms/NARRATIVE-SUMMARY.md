@@ -1,27 +1,27 @@
 # Prompt Narrative Analysis
-**Generated**: 2026-06-11
-**Sessions**: 1159 | **Prompts**: 5861 | **Threads**: 119
+**Generated**: 2026-06-12
+**Sessions**: 1166 | **Prompts**: 5732 | **Threads**: 117
 
 ## Prompt Type Distribution
 
 | Type | Count | % |
 |------|-------|---|
-| command | 3767 | 64% |
-| context_setting | 774 | 13% |
-| git_ops | 577 | 9% |
-| continuation | 263 | 4% |
-| question | 261 | 4% |
-| correction | 138 | 2% |
-| exploration | 81 | 1% |
+| command | 3643 | 63% |
+| context_setting | 783 | 13% |
+| git_ops | 571 | 9% |
+| question | 258 | 4% |
+| continuation | 257 | 4% |
+| correction | 140 | 2% |
+| exploration | 80 | 1% |
 
 ## Size Distribution
 
 | Class | Count | % |
 |-------|-------|---|
-| short | 2416 | 41% |
-| medium | 1463 | 24% |
-| long | 1271 | 21% |
-| terse | 711 | 12% |
+| short | 2345 | 40% |
+| medium | 1427 | 24% |
+| long | 1259 | 21% |
+| terse | 701 | 12% |
 
 ## Top Narrative Threads (by prompt count)
 
@@ -29,15 +29,15 @@
 |--------|----------|---------|------------|---------------|
 | Users/4jp/continue-2026-05-16..2026-05-23 | 83 | 999 | 2026-05-16..2026-05-23 | command |
 | Users/4jp/continue-2026-05-26..2026-06-01 | 55 | 596 | 2026-05-26..2026-06-01 | command |
-| Users/4jp/continue-2026-05-10..2026-05-14 | 23 | 402 | 2026-05-10..2026-05-14 | command |
+| session-meta/stop-2026-06-10..2026-06-12 | 17 | 366 | 2026-06-10..2026-06-12 | command |
 | Users/4jp/continue-2026-06-03..2026-06-07 | 47 | 288 | 2026-06-03..2026-06-07 | command |
 | 4jp/Code/organvm/sovereign-systems--elevate-align/ | 10 | 262 | 2026-05-16..2026-05-18 | command |
 | 4jp/bound/continue-2026-05-29..2026-06-01 | 5 | 211 | 2026-05-29..2026-06-01 | command |
 | 4jp/_dot-config/continue-2026-05-21..2026-05-23 | 14 | 177 | 2026-05-21..2026-05-23 | command |
-| session-meta/stop-2026-06-10..2026-06-11 | 6 | 175 | 2026-06-10..2026-06-11 | command |
 | 4jp/.claude/stop-2026-05-23..2026-05-25 | 8 | 165 | 2026-05-23..2026-05-25 | command |
+| Users/4jp/continue-2026-06-10..2026-06-11 | 20 | 145 | 2026-06-10..2026-06-11 | command |
 | 4jp/Code/_agent/push-2026-05-17..2026-05-18 | 8 | 140 | 2026-05-17..2026-05-18 | command |
-| Users/4jp/continue-2026-06-10..2026-06-11 | 15 | 139 | 2026-06-10..2026-06-11 | command |
+| Users/4jp/continue-2026-05-13..2026-05-14 | 10 | 140 | 2026-05-13..2026-05-14 | command |
 | session-meta/continue-2026-06-05..2026-06-06 | 3 | 129 | 2026-06-05..2026-06-06 | command |
 | 4444J99/domus-semper-palingenesis/continue-2026-05 | 5 | 125 | 2026-05-16..2026-05-17 | command |
 | 4444J99/domus-semper-palingenesis/push-2026-06-03. | 4 | 120 | 2026-06-03..2026-06-06 | command |
@@ -61,39 +61,39 @@
 | 2025-12 | 23 | 23 | 13 | Users/4jp |
 | 2026-01 | 13 | 15 | 9 | 4jp/Legal/padavano-v-mdc--empl |
 | 2026-04 | 1 | 7 | 1 | 4jp/Workspace |
-| 2026-05 | 306 | 4317 | 67 | Users/4jp |
-| 2026-06 | 105 | 1493 | 28 | Users/4jp |
+| 2026-05 | 292 | 3991 | 65 | Users/4jp |
+| 2026-06 | 121 | 1690 | 28 | session-meta |
 
 ## Top Imperative Verbs
 
 | Verb | Count | % |
 |------|-------|---|
-| continue | 183 | 3% |
-| stop | 100 | 1% |
-| review | 34 | 0% |
-| proceed | 28 | 0% |
-| commit | 26 | 0% |
+| continue | 179 | 3% |
+| stop | 102 | 1% |
+| review | 33 | 0% |
+| proceed | 27 | 0% |
 | push | 26 | 0% |
+| commit | 24 | 0% |
 | merge | 18 | 0% |
 | run | 15 | 0% |
+| check | 12 | 0% |
 | verify | 12 | 0% |
-| check | 11 | 0% |
 | find | 11 | 0% |
-| analyze | 10 | 0% |
+| analyze | 9 | 0% |
 | make | 8 | 0% |
 | open | 8 | 0% |
-| create | 8 | 0% |
+| create | 7 | 0% |
 | write | 6 | 0% |
 | fix | 5 | 0% |
 | delete | 4 | 0% |
 | remove | 4 | 0% |
-| build | 4 | 0% |
+| close | 4 | 0% |
 
 ## Narrative Arc Patterns
 
 | Pattern | Count | Description |
 |---------|-------|-------------|
-| steady-build | 83 | Continuous command flow without major corrections |
+| steady-build | 81 | Continuous command flow without major corrections |
 | single-shot | 33 | Thread with 1-2 prompts only |
 | iterative-correction | 2 | Commands interspersed with corrections (>20%) |
 | exploration-first | 1 | Opens with questions or exploration |
@@ -102,32 +102,32 @@
 
 | Tag | Count |
 |-----|-------|
-| bash | 571 |
-| chezmoi | 425 |
-| go | 350 |
-| python | 324 |
-| mcp | 260 |
-| zsh | 99 |
-| homebrew | 93 |
-| cloudflare | 93 |
-| node | 78 |
+| bash | 566 |
+| chezmoi | 398 |
+| go | 345 |
+| python | 315 |
+| mcp | 256 |
+| zsh | 101 |
+| cloudflare | 92 |
+| homebrew | 87 |
+| node | 74 |
 | typescript | 48 |
 | playwright | 39 |
-| neon | 36 |
-| react | 34 |
+| neon | 34 |
+| react | 32 |
 | astro | 31 |
 | vercel | 30 |
-| aws | 25 |
+| aws | 24 |
 | pytest | 21 |
 | docker | 21 |
-| vitest | 18 |
+| vitest | 19 |
 | gcp | 18 |
+| rust | 16 |
 | vite | 16 |
-| rust | 15 |
 | terraform | 15 |
 | fastapi | 14 |
-| redis | 14 |
 | three.js | 13 |
+| redis | 13 |
 | express | 12 |
 | postgres | 10 |
 | javascript | 10 |
