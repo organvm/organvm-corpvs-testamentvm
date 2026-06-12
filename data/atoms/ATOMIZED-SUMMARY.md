@@ -1,6 +1,6 @@
 # Plan Atomization Summary
 **Generated**: 2026-06-12
-**Plans parsed**: 2697 | **Tasks extracted**: 29755
+**Plans parsed**: 2697 | **Tasks extracted**: 29741
 
 ## By Project
 
@@ -172,7 +172,7 @@
 | 4444J99/portvs/runtime/_agent/.codex/plans | 3 | 8 | 0 | 8 | 0 |
 | 4444J99/system-system--system/.claude/plans | 21 | 191 | 0 | 191 | 0 |
 | 4444J99/system-system--system/.gemini/plans | 2 | 23 | 14 | 9 | 0 |
-| _root | 983 | 10379 | 648 | 9731 | 0 |
+| _root | 983 | 10365 | 648 | 9717 | 0 |
 | a-organvm/.claude/plans | 13 | 260 | 0 | 260 | 0 |
 | a-organvm/.codex/plans | 1 | 1 | 1 | 0 | 0 |
 | a-organvm/my-knowledge-base/.gemini/plans | 5 | 130 | 7 | 123 | 0 |
@@ -231,7 +231,7 @@
 | Type | Count | % |
 |------|-------|---|
 | generic | 10164 | 34% |
-| document | 4182 | 14% |
+| document | 4168 | 14% |
 | create_file | 2947 | 9% |
 | configure | 2279 | 7% |
 | modify_file | 2157 | 7% |
@@ -251,14 +251,14 @@
 
 | Status | Count | % |
 |--------|-------|---|
-| pending | 27920 | 93% |
+| pending | 27906 | 93% |
 | completed | 1835 | 6% |
 
 ## Largest Plans (by task count)
 
 | Plan | Project | Tasks | Completed % |
 |------|---------|-------|-------------|
-| Plans Index | _root | 996 | 0% |
+| Plans Index | _root | 982 | 0% |
 | The Ark — Past-Week Prompt Corpus | _root | 557 | 2% |
 | Flat Verb Map — meta-organvm Functional Deduplicat | .home-cartridge/Code/.archive/superprojects-20260420-120747/meta-organvm/.claude/plans | 249 | 0% |
 | Directory Dissection: meta-organvm Post-Mortem → T | _root | 203 | 0% |
@@ -283,7 +283,7 @@
 
 | Agent | Count | % |
 |-------|-------|---|
-| claude | 25540 | 85% |
+| claude | 25526 | 85% |
 | gemini | 2214 | 7% |
 | codex | 2001 | 6% |
 
@@ -291,7 +291,7 @@
 
 | Organ | Count | % |
 |-------|-------|---|
-| _root | 13896 | 46% |
+| _root | 13882 | 46% |
 | LIMINAL | 6532 | 21% |
 | META | 4741 | 15% |
 | I | 1798 | 6% |

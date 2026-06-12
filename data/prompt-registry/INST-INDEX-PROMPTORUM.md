@@ -4115,3 +4115,101 @@
 ### d2ff123d-7e08-42a8-8cc1-e85a6e8de6d8
 **Captured:** 2026-06-12T05:17:16 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
 
+
+### f2ca6eb8-d808-4f24-b494-bbbabc7813a9
+**Captured:** 2026-06-12T10:22:36 | **Prompts:** 38 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/f2ca6eb8-d808-4f24-b494-bbbabc7813a9-prompts.md`
+
+
+### 3eface69-4564-41a4-8bcf-a3044c03aa72
+**Captured:** 2026-06-12T10:29:35 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
+
+### 5026a675-bd48-4f3b-a411-d0f837ec8d78
+**Captured:** 2026-06-12T10:34:20 | **Prompts:** 1 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/5026a675-bd48-4f3b-a411-d0f837ec8d78-prompts.md`
+
+
+### 07b0585a-ae81-44db-a476-bdf8e8e5135d
+**Captured:** 2026-06-12T10:34:19 | **Prompts:** 1 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/07b0585a-ae81-44db-a476-bdf8e8e5135d-prompts.md`
+
+
+### 5faa552c-da3f-4c56-b6e2-e1f10d6d3461
+**Captured:** 2026-06-12T10:34:20 | **Prompts:** 1 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/5faa552c-da3f-4c56-b6e2-e1f10d6d3461-prompts.md`
+
+
+### 8e1b0f9b-03f3-48fb-963a-42031f66c96e
+**Captured:** 2026-06-12T10:34:19 | **Prompts:** 1 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/8e1b0f9b-03f3-48fb-963a-42031f66c96e-prompts.md`
+
+
+### 7eef907b-f1a2-4bb3-9ba8-91d975cbeec5
+**Captured:** 2026-06-12T10:34:21 | **Prompts:** 1 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/7eef907b-f1a2-4bb3-9ba8-91d975cbeec5-prompts.md`
+
+
+### 901b4c12-64db-4803-8020-3bdf0d5adaef
+**Captured:** 2026-06-12T10:34:19 | **Prompts:** 1 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/901b4c12-64db-4803-8020-3bdf0d5adaef-prompts.md`
+
+
+### 05a96868-3379-4ab9-b34d-83eab09e5a38
+**Captured:** 2026-06-12T10:34:21 | **Prompts:** 1 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/05a96868-3379-4ab9-b34d-83eab09e5a38-prompts.md`
+
+
+### 0eff4391-8a90-4d30-963a-1de49f23f829
+**Captured:** 2026-06-12T10:34:20 | **Prompts:** 3 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/0eff4391-8a90-4d30-963a-1de49f23f829-prompts.md`
+
+
+### 0aa6b229-9701-4c4d-b330-84a302e10bb1
+**Captured:** 2026-06-12T10:34:21 | **Prompts:** 1 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/0aa6b229-9701-4c4d-b330-84a302e10bb1-prompts.md`
+
+
+### 597d2f0d-5861-4037-8dd5-0d99c68cd17e
+**Captured:** 2026-06-12T10:34:20 | **Prompts:** 6 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/597d2f0d-5861-4037-8dd5-0d99c68cd17e-prompts.md`
+
+
+### 52e2f383-11cd-4549-8a25-4e4c495894a8
+**Captured:** 2026-06-12T10:34:23 | **Prompts:** 2 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/52e2f383-11cd-4549-8a25-4e4c495894a8-prompts.md`
+
+
+### 15aabd40-0e9d-4b32-b348-7684a2f5a194
+**Captured:** 2026-06-12T10:34:23 | **Prompts:** 2 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/15aabd40-0e9d-4b32-b348-7684a2f5a194-prompts.md`
+
+
+### 4eb30964-fbcb-475d-8bf4-fd509b3897bf
+
+**Captured:** 2026-06-12T10:35:06 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
+### be2e2ff2-f1c3-4269-a733-89201887ff46
+**Captured:** 2026-06-12T10:35:06 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
+
+### f10cffee-3539-483c-95f4-4de843c0f589
+**Captured:** 2026-06-12T10:38:53 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
+
+### a097e6c0-9e76-4cd6-83d0-4ea0efc5b2df
+**Captured:** 2026-06-12T10:38:53 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
+
+### f70757ef-ce56-40f5-82e7-f8fc098ad4f2
+**Captured:** 2026-06-12T10:44:05 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
+
+### 1aa3948f-3b41-43d3-92f8-152662f04b6d
+**Captured:** 2026-06-12T10:44:05 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
+
+
+### 30249e53-5e03-4297-a94a-8d46e63e20bb
+**Captured:** 2026-06-12T10:47:41 | **Prompts:** 13 | **Effort:** default
+**Archive:** `data/prompt-registry/sessions/30249e53-5e03-4297-a94a-8d46e63e20bb-prompts.md`
+
