@@ -36,8 +36,8 @@ Scorecard code fix: [`organvm-engine#1`](https://github.com/meta-organvm/organvm
 | Status | Count | Criteria |
 |--------|-------|----------|
 | MET | 9 | #1, #3, #5, #6, #8, #13, #15, #17, #19 |
-| IN PROGRESS | 0 | — |
-| NOT MET | 10 | #2, #4, #7, #9, #10, #11, #12, #14, #16, #18 |
+| IN PROGRESS | 3 | #10, #12, #20 |
+| NOT MET | 8 | #2, #4, #7, #9, #11, #14, #16, #18 |
 
 **By Horizon:**
 
@@ -45,10 +45,10 @@ Scorecard code fix: [`organvm-engine#1`](https://github.com/meta-organvm/organvm
 |---------|----------|-----|-------------|---------|
 | H1: Prove It Works | Days 1-30 | 3 (#1, #3, #17) | 0 | 2 (#2, #4) |
 | H2: Validate Externally | Days 15-90 | 2 (#5, #6) | 0 | 1 (#7) |
-| H3: Generate Revenue | Days 30-180 | 1 (#8) | 0 | 2 (#9, #10) |
-| H4: Build Community | Days 60-365 | 1 (#13) | 0 | 2 (#11, #12) |
-| H5: Achieve Recognition | Days 90-730 | 1 (#15) | 0 | 1 (#14) |
-| Cross-horizon | H1+H4+H5 | 1 (#19) | 0 | 2 (#16, #18) |
+| H3: Generate Revenue / Traffic | Days 30-180 | 2 (#8, #19) | 2 (#10, #20) | 1 (#9) |
+| H4: Build Community | Days 60-365 | 1 (#13) | 1 (#12) | 1 (#11) |
+| H5: Achieve Recognition | Days 90-730 | 1 (#15) | 0 | 2 (#14, #18) |
+| Cross-horizon | H1+H4 | 0 | 0 | 1 (#16) |
 
 ---
 
@@ -268,38 +268,45 @@ All seed.yaml files updated with deployment_url. Registry-v2.json updated.
 
 ---
 
-#### #9: revenue_status: live for >=1 Registry Entry — NOT STARTED
+#### #9: >=3 ORGAN-III Products at Stranger-Ready Polish — NOT MET
 
-**Criterion:** At least one ORGAN-III repository has `revenue_status: live` in repo-registry.json.
+**Criterion:** At least 3 ORGAN-III products pass the per-product stranger test (UI functional, docs clear, onboarding complete, zero rough edges for a first-time visitor).
 
-**Status:** All 27 ORGAN-III repos have `revenue_status: pre-launch` or null. No Stripe integration connected.
+**Status:** 12 products are live (far exceeding the ≥1 from #8), but stranger-ready polish has not been validated for any of them.
+
+**Constitutional note:** This criterion was revised from "revenue_status: live for ≥1 registry entry." The constitutional amendment establishes the sequencing: craft (#9) → traffic (#10) → inquiry → revenue (#18). Revenue is an outcome, not a feature to bolt on.
 
 **Evidence:**
-- Registry: `repo-registry.json` — all ORGAN-III entries show `revenue_status: "pre-launch"`
+- 12 products deployed: `data/omega/omega-status-2026-05-26.json` (criterion #8 evidence)
+- Per-product polish: no stranger-test-per-product records exist yet
 
-**Gap:** Requires: (1) product deployed (#8), (2) Stripe integration connected (M2-II), (3) at least 1 paying user.
+**Gap:** Requires per-product stranger-test execution for at least 3 candidates.
 
-**Blocker:** INCOME (Stripe setup) + product deployment
+**Blocker:** INTERNAL — craft/QA work; no external dependency
 
-**Rolling TODO:** M2-II
+**Rolling TODO:** M2-II (repurposed from Stripe integration → polish validation)
 
 **Tracking:** [Omega issue #4](https://github.com/meta-organvm/organvm-corpvs-testamentvm/issues/4), [Sprint 40 MERCATURA #25](https://github.com/meta-organvm/organvm-corpvs-testamentvm/issues/25)
 
 ---
 
-#### #10: MRR >= System Operating Costs — NOT STARTED
+#### #10: >=100 Unique Visitors/Month (Organic Discovery) — IN PROGRESS
 
-**Criterion:** Monthly recurring revenue equals or exceeds system operating costs.
+**Criterion:** At least 100 unique visitors per month across portfolio + portal + products, arriving organically (not solicited).
 
-**Status:** No revenue generated. Operating costs currently ~$0/month (all free tier: GitHub, Neon free, Render free).
+**Status:** Plausible Analytics installed on portfolio (4444j99.github.io/portfolio/). Visitor threshold not yet reached as of 2026-05-26.
 
-**Evidence:** None.
+**Constitutional note:** This criterion was revised from "MRR ≥ system operating costs." The new sequencing: craft (#9) → traffic (#10) → inquiry → revenue (#18). Traffic is the gate between polish and organic revenue.
 
-**Gap:** Requires revenue (#9). Note: since operating costs are ~$0 on free tier, technically even $1 MRR meets this criterion — but the spirit of the criterion assumes real hosting costs.
+**Evidence:**
+- Plausible Analytics script: in portfolio `Layout.astro` since 2026-04
+- Visitor count: requires authenticated dashboard access (UNVERIFIABLE-FROM-CLOUD)
 
-**Blocker:** Depends on #9
+**Gap:** Organic traffic takes calendar time and distribution. More instrumentation is not the constraint — craft polish (#9) and active distribution are.
 
-**Rolling TODO:** Downstream of M2-II
+**Blocker:** TIME + EXTERNAL (organic discovery); unblocked only after #9 is met
+
+**Rolling TODO:** Downstream of #9
 
 **Tracking:** [Omega issue #4](https://github.com/meta-organvm/organvm-corpvs-testamentvm/issues/4)
 
@@ -394,22 +401,20 @@ All seed.yaml files updated with deployment_url. Registry-v2.json updated.
 
 ---
 
-#### #15: Portfolio Updated with External Validation — NOT STARTED
+#### #15: Portfolio Updated with External Validation — MET (2026-03-19)
 
 **Criterion:** Portfolio site reflects external validation (testimonials, acceptance letters, user counts, press).
 
-**Status:** Portfolio exists at `4444j99.github.io/portfolio/` with 19 curated projects and system metrics. No external validation to display yet.
+**Status:** **MET.** Validation page live at `4444j99.github.io/portfolio/validation/` since 2026-03-19. Confirmed in `data/omega/omega-status-2026-05-26.json`. This document previously showed NOT STARTED — corrected 2026-06-15.
+
+**Date met:** 2026-03-19
 
 **Evidence:**
+- Validation page: `4444j99.github.io/portfolio/validation/` (UNVERIFIABLE-FROM-CLOUD; confirmed per omega JSON)
 - Portfolio URL: `4444j99.github.io/portfolio/`
-- Current state: 97 repos, 87 ACTIVE, 33 sprints, 41 essays displayed
-- Data files: `site-data/*.json` and `portfolio-site/src/data/*.json`
+- Data files: `portfolio-site/src/data/*.json`, `site-data/*.json`
 
-**Gap:** No external validation exists to display. This criterion becomes achievable after #7, #14, or #8 produces user testimonials.
-
-**Blocker:** Depends on external validation from other criteria
-
-**Rolling TODO:** M3-II (partial — data files updated, omega scorecard page pending)
+**Gap:** None — criterion met.
 
 **Tracking:** [Omega issue #8](https://github.com/meta-organvm/organvm-corpvs-testamentvm/issues/8), [Sprint 52 RENOVATIO #36](https://github.com/meta-organvm/organvm-corpvs-testamentvm/issues/36)
 
@@ -487,25 +492,84 @@ All seed.yaml files updated with deployment_url. Registry-v2.json updated.
 
 ---
 
+#### #18: First Organic Revenue (Inquiry → Payment) — NOT MET
+
+*Horizon: H5*
+
+**Criterion:** A first payment received from someone who discovered the work organically — not through a solicited pitch.
+
+**Status:** No revenue. Gated behind #9 (stranger-ready polish) and #10 (organic traffic). Neither prerequisite is met.
+
+**Constitutional note:** Revenue is the final outcome of the craft → traffic → inquiry → payment chain. It should not be targeted directly before #9 and #10 are proven.
+
+**Evidence:** None.
+
+**Gap:** Unblock #9 first (polish 3 products), then #10 (organic traffic), then create conditions for inbound inquiry.
+
+**Blocker:** Depends on #9 and #10
+
+---
+
+#### #19: Network Testament Health (Density + Engagement + Milestones) — MET (2026-02-28)
+
+*Horizon: H3*
+
+**Criterion:** `network_density >= 0.5`, `engagement_velocity > 0`, `>=1 milestone` met simultaneously.
+
+**Status:** **MET.** Confirmed in `data/omega/omega-status-2026-05-26.json`.
+
+**Date met:** 2026-02-28 (discovered during Deployment Sprint).
+
+**Evidence:**
+- density = 1.00 (target ≥0.5) ✓
+- engagement_velocity = 0.03 (target >0) ✓
+- milestones = 3 (target ≥1) ✓
+- maps = 2, mirrors = 5
+- Source: `data/omega/omega-status-2026-05-26.json` (criterion #19, `auto: true`)
+- Sigma-E tool state UNVERIFIABLE-FROM-CLOUD
+
+**Gap:** None — criterion met.
+
+---
+
+#### #20: Formal Validation (Sigma-E ≥80% FORMAL Derivations) — IN PROGRESS
+
+*Horizon: H3*
+
+**Criterion:** ≥80% of sigma-E derivations reach FORMAL formalization level, validating system integrity (SPEC-025 Predicate 7 IMMUTABILITY).
+
+**Status:** 14/24 derivations at FORMAL level = **58%**. Target is ≥80% (requires ≥20/24). Gap: 6 more derivations must reach FORMAL.
+
+**Evidence:**
+- Source: `data/omega/omega-status-2026-05-26.json` (criterion #20, `auto: true`, value "14/24 derivations at FORMAL level (58%)")
+- Sigma-E adjudicatory layer runs locally (UNVERIFIABLE-FROM-CLOUD)
+
+**Gap:** 6 derivations below FORMAL threshold. Requires sigma-E formal adjudication work.
+
+**Blocker:** INTERNAL — sigma-E tooling work
+
+---
+
 ## Critical Path to Omega
 
 The fastest path through the criteria follows the horizon dependency chain:
 
 ```
-H1 (#1, #3, #17) ──30 days──→ H1 complete
+H1 (#1, #3, #17) ──DONE──→ H1 complete (3/3 MET)
   ↓
-H2 (#5) ──human submits──→ H2 partially complete
+H2 (#5, #6) ──DONE──→ H2 partially complete (2/3; #7 needs external feedback)
   ↓
-H3 (#8) ──human deploys──→ H3 partially complete
-  ↓
-H4 (#11, #12, #13) ──calendar time──→ H4 gradually
-  ↓
-H5 (#14, #15) ──external response──→ H5 last
+H3 (#9) ──polish 3 products──→ unlocks #10 (organic traffic)
+     (#8, #19 already MET; #20 IN PROGRESS)
+          ↓
+H4 (#13 MET; #12 IN PROGRESS; #11 needs events)
+          ↓
+H5 (#15 MET; #14 needs recognition; #18 needs #9+#10 first)
 ```
 
-**What blocks omega is not engineering.** H1 is now fully MET (3/3: #1, #3, #17). The 10 NOT MET criteria are blocked by: external humans (5: #2, #4, #7, #11, #16), money (2: #9, #10), time/calendar (2: #12, #14), and portfolio data (#18).
+**What blocks omega is not engineering.** H1 is fully MET (3/3: #1, #3, #17). The 8 NOT MET criteria are blocked by: external humans (5: #2, #4, #7, #11, #16), craft gate (#9 — polish 3 products), dependency chain (#18 ← #9+#10), and recognition (#14).
 
-**The one thing that accelerates everything:** Submitting applications (X1, X3, E3). This directly advances #5 and creates the feedback loop that feeds #7, #14, and ultimately #15.
+**The one thing that accelerates everything:** Polish 3 products to stranger-ready (#9). This unblocks organic traffic (#10), which unblocks revenue (#18), and provides concrete evidence for recognition (#14) and external feedback (#7).
 
 ---
 
@@ -519,3 +583,4 @@ H5 (#14, #15) ──external response──→ H5 last
 | 2026-02-28 | Deployment Sprint — #5 flipped IN PROGRESS → MET (application submitted 02-24); #8 evidence massively expanded (12 products live across Netlify/Render); #13 flipped NOT STARTED → MET (LobeHub organic indexing of ORGAN-IV skills discovered); summary 2/7/8 → 4/6/7 | Full Deployment Sprint |
 | 2026-03-04 | GitHub issue tracking — 58 issues created across organvm-engine (1) and organvm-corpvs-testamentvm (57). 9 omega tracking issues + 48 sprint issues + 1 scorecard code fix. Tracking links added to all 17 criteria entries in this document. | Issue codification session |
 | 2026-04-14 | **Reconciliation Sprint** — #1 and #17 flipped IN PROGRESS → MET (both passed 2026-03-18, 27 days of unrecognized progress). Domus evidence added to #1, #16, #17, #19. Summary 7/2/10 → 9/0/10. H1 now fully MET (3/3). Registry grew 129→146 (mass registration + portfolio). | System-Wide Reconciliation Sprint |
+| 2026-06-15 | **Omega scorecard sync** — Reconciled against `data/omega/omega-status-2026-05-26.json`. (1) #9 revised: "revenue_status: live" → "≥3 products at stranger-ready polish"; (2) #10 revised: "MRR ≥ costs" → "≥100 unique visitors/month"; (3) #15 corrected: NOT STARTED → MET (validation page live since 2026-03-19); (4) Sections for #18, #19, #20 added (previously absent); (5) Summary 9/0/10 (19 criteria) → 9/3/8 (20 criteria); (6) By Horizon and Critical Path updated. | omega-scorecard agent first run ([a-organvm/organvm-corpvs-testamentvm#490](https://github.com/a-organvm/organvm-corpvs-testamentvm/issues/490)) |
