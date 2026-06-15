@@ -11,7 +11,7 @@
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey?style=flat-square)](LICENSE)
 [![Status: LAUNCHED](https://img.shields.io/badge/Status-LAUNCHED-2e7d32?style=flat-square)](#current-status)
 [![Organs: 8](https://img.shields.io/badge/Organs-8-1a237e?style=flat-square)](#the-eight-organ-model)
-[![Repos: 97](https://img.shields.io/badge/Repos-149-2e7d32?style=flat-square)](#the-eight-organ-model)
+[![Repos: 97](https://img.shields.io/badge/Repos-150-2e7d32?style=flat-square)](#the-eight-organ-model)
 [![Docs: ~6K+ words](https://img.shields.io/badge/Docs-~6K%2B%20words-6a1b9a?style=flat-square)](#current-status)
 
 > Complete planning, audit, and implementation corpus for an eight-organ creative-institutional system coordinating 97 GitHub repositories across 8 organizations (7 organs + 1 meta). The system is **live** — all organs are operational.
@@ -301,7 +301,7 @@ The eight-organ system began with a question: what happens when you apply the sa
 
 This system takes a different approach. The relationships between projects are explicit (declared dependencies in the registry), the governance is visible (promotion state machines, validation scripts, constitutional articles), and the organizational logic is itself a designed artifact (eight organs with distinct responsibilities and no back-edges). The meta-system isn't overhead on top of the creative work — it *is* the creative work, or at least the most interesting part of it.
 
-The practical consequence is that this portfolio can answer questions that flat portfolios cannot: How do theory projects relate to commercial products? (Through declared dependency edges.) How do you maintain quality across 149 repos? (Through automated validation and documented standards.) How do you prevent different types of work from corrupting each other? (Through organ-level separation with GitHub organizations as the enforcement boundary.) How was ~6K+ words of documentation produced in nine days? (Through the AI-conductor model, documented transparently.)
+The practical consequence is that this portfolio can answer questions that flat portfolios cannot: How do theory projects relate to commercial products? (Through declared dependency edges.) How do you maintain quality across 150 repos? (Through automated validation and documented standards.) How do you prevent different types of work from corrupting each other? (Through organ-level separation with GitHub organizations as the enforcement boundary.) How was ~6K+ words of documentation produced in nine days? (Through the AI-conductor model, documented transparently.)
 
 For grant reviewers, the system demonstrates sustained creative practice with institutional ambition — not just individual projects but the infrastructure that connects them. For hiring managers, it demonstrates systems architecture, governance design, and the ability to ship at scale with quality. For fellow practitioners, it offers a reusable model for organizing creative work that goes beyond "put it all in one repo and hope for the best."
 

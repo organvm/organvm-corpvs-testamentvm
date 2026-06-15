@@ -67,7 +67,7 @@ The procedure is organ-agnostic. It works identically for ORGAN-I theory repos, 
 | Version | Date | Empirical basis | Key changes |
 |---------|------|-----------------|-------------|
 | v1.0 | 2026-03-04 | Styx/ORGAN-III: 52 authored docs, 74 issues, single repo | 5-phase architecture |
-| v2.0 | 2026-03-06 | + ORGAN-IV: 16 AI transcripts, 73 issues across 149 repos | 8-phase architecture, completeness proof, tension detection, synthesis, multi-repo routing, coverage thresholds |
+| v2.0 | 2026-03-06 | + ORGAN-IV: 16 AI transcripts, 73 issues across 150 repos | 8-phase architecture, completeness proof, tension detection, synthesis, multi-repo routing, coverage thresholds |
 
 ---
 
@@ -787,7 +787,7 @@ Repo: agentic-titan             — 17 issues created (#8-#24)
 Repo: petasum-super-petasum     — 13 issues created (#119-#131)
 Repo: agent--claude-smith       — 3 issues created (#14-#16)
 ─────────────────────────────────────────────────────────
-Total: 59 issues created across 149 repos
+Total: 59 issues created across 150 repos
 ```
 
 For single-repo audits, track by category or folder:
@@ -1528,6 +1528,6 @@ File this as part of the audit summary (Phase 7, Step 5) or as a standalone docu
 
 1. *Styx/ORGAN-III (`peer-audited--behavioral-blockchain`): 52 authored docs across 6 folders, 74 issues (#46-#119), single repo, 2026-03-04. Established the 5-phase v1 architecture.*
 
-2. *ORGAN-IV (`organvm-iv-taxis`): 16 AI chat transcripts in 4 thematic cohorts, 73 issues across 149 repos (orchestration-start-here, agentic-titan, petasum-super-petasum, agent--claude-smith), 2026-03-06. Exposed structural gaps: 70% first-pass coverage, 8 undetected tensions, 5 under-extracted documents, ad-hoc multi-repo routing. Motivated the v2 revision with completeness proof, tension detection, synthesis, and universal document type support.*
+2. *ORGAN-IV (`organvm-iv-taxis`): 16 AI chat transcripts in 4 thematic cohorts, 73 issues across 150 repos (orchestration-start-here, agentic-titan, petasum-super-petasum, agent--claude-smith), 2026-03-06. Exposed structural gaps: 70% first-pass coverage, 8 undetected tensions, 5 under-extracted documents, ad-hoc multi-repo routing. Motivated the v2 revision with completeness proof, tension detection, synthesis, and universal document type support.*
 
 *The procedure is codified for reuse across all ~111 repos in the eight-organ system.*

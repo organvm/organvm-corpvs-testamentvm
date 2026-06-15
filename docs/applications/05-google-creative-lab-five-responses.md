@@ -32,7 +32,7 @@ The best way to gain perspective: make the invisible structure explicit, then be
 
 ## Q3: "In 1-3 sentences, tell us about the project you are most proud of and why."
 
-I built an eight-organ system that coordinates 149 repositories across 8 GitHub organizations — governing how theory, generative art, commercial products, and community work flow into each other through automated dependency validation, a promotion state machine, and ~6K+ words of public documentation. The governance rules that coordinate the system are as carefully designed as any artwork it produces — dependency constraints shape what each organ can become, and the documentation renders the entire decision history visible. It's infrastructure that makes its own logic legible.
+I built an eight-organ system that coordinates 150 repositories across 8 GitHub organizations — governing how theory, generative art, commercial products, and community work flow into each other through automated dependency validation, a promotion state machine, and ~6K+ words of public documentation. The governance rules that coordinate the system are as carefully designed as any artwork it produces — dependency constraints shape what each organ can become, and the documentation renders the entire decision history visible. It's infrastructure that makes its own logic legible.
 
 ---
 

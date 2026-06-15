@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0",
-  "generated": "2026-06-14T09:28:08.102181+00:00",
+  "generated": "2026-06-15T10:13:07.335882+00:00",
   "computed": {
-    "total_repos": 149,
+    "total_repos": 150,
     "active_repos": 93,
     "archived_repos": 54,
     "total_organs": 10,
     "operational_organs": 10,
-    "ci_workflows": 107,
+    "ci_workflows": 108,
     "dependency_edges": 62,
     "per_organ": {
       "ORGAN-I": {
@@ -20,7 +20,7 @@
       },
       "ORGAN-III": {
         "name": "Commerce",
-        "repos": 32
+        "repos": 33
       },
       "ORGAN-IV": {
         "name": "Orchestration",
@@ -54,6 +54,7 @@
     "implementation_status": {
       "ACTIVE": 93,
       "ARCHIVED": 54,
+      "DEVELOPMENT": 1,
       "PROTOTYPE": 2
     },
     "sprints_completed": 33,

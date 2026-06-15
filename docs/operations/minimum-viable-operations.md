@@ -8,7 +8,7 @@
 
 ## System Overview (60-Second Version)
 
-The ORGANVM system is an eight-organ creative-institutional platform spanning 149 repositories across 8 GitHub organizations. It coordinates theory (ORGAN-I), art (ORGAN-II), commerce (ORGAN-III), orchestration (ORGAN-IV), public process (ORGAN-V), community (ORGAN-VI), marketing (ORGAN-VII), and meta-governance (Meta).
+The ORGANVM system is an eight-organ creative-institutional platform spanning 150 repositories across 8 GitHub organizations. It coordinates theory (ORGAN-I), art (ORGAN-II), commerce (ORGAN-III), orchestration (ORGAN-IV), public process (ORGAN-V), community (ORGAN-VI), marketing (ORGAN-VII), and meta-governance (Meta).
 
 The system is **largely autonomous** — GitHub Actions workflows handle CI, dependency validation, essay monitoring, and distribution auditing. Your job as operator is to monitor, not to intervene.
 

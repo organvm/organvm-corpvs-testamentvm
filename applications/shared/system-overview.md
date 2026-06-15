@@ -2,7 +2,7 @@
 
 ## What It Is
 
-ORGANVM is an eight-organ creative-institutional system coordinating 149 repositories across 8 GitHub organizations. Each organ governs a domain — from epistemological theory (ORGAN-I) through generative art (ORGAN-II), commercial products (ORGAN-III), orchestration governance (ORGAN-IV), public documentation (ORGAN-V), community infrastructure (ORGAN-VI), marketing distribution (ORGAN-VII), to meta-system governance (META).
+ORGANVM is an eight-organ creative-institutional system coordinating 150 repositories across 8 GitHub organizations. Each organ governs a domain — from epistemological theory (ORGAN-I) through generative art (ORGAN-II), commercial products (ORGAN-III), orchestration governance (ORGAN-IV), public documentation (ORGAN-V), community infrastructure (ORGAN-VI), marketing distribution (ORGAN-VII), to meta-system governance (META).
 
 ## Key Metrics
 
@@ -10,12 +10,12 @@ ORGANVM is an eight-organ creative-institutional system coordinating 149 reposit
 - **93 ACTIVE repos** (100% of non-archived)
 - **36 published essays** (~132,000 words) documenting the build process
 - **62 registry dependency edges** with zero back-edge violations
-- **107+ CI/CD workflows** with automated validation
+- **108+ CI/CD workflows** with automated validation
 - **33 sprints completed** from initial architecture to operational readiness
 
 ## Methodology
 
-The system operates on an **AI-conductor model**: AI generates volume, human directs architecture and reviews output. This methodology enabled a single operator to build, document, and validate 149 repositories in under a week — demonstrating production-grade systems thinking at scale.
+The system operates on an **AI-conductor model**: AI generates volume, human directs architecture and reviews output. This methodology enabled a single operator to build, document, and validate 150 repositories in under a week — demonstrating production-grade systems thinking at scale.
 
 ## Strategic Context
 

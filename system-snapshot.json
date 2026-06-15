@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-14T09:28:08.962636+00:00",
+  "generated_at": "2026-06-15T10:13:08.243133+00:00",
   "system": {
-    "total_repos": 149,
+    "total_repos": 150,
     "active_repos": 93,
-    "density": 0.252,
-    "entities": 149,
+    "density": 0.251,
+    "entities": 150,
     "edges": 0,
-    "ci_workflows": 107,
+    "ci_workflows": 108,
     "code_files": 0,
     "test_files": 0,
     "repos_with_tests": 0,
@@ -484,11 +484,17 @@
     {
       "key": "ORGAN-III",
       "name": "Commerce",
-      "repo_count": 32,
-      "flagship_count": 2,
+      "repo_count": 33,
+      "flagship_count": 3,
       "standard_count": 26,
       "infrastructure_count": 1,
       "repositories": [
+        {
+          "name": "ergon-prime--business-orchestrator",
+          "status": "LOCAL",
+          "tier": "flagship",
+          "ci": true
+        },
         {
           "name": "classroom-rpg-aetheria",
           "status": "GRADUATED",
@@ -1014,7 +1020,7 @@
     }
   ],
   "variables": {
-    "total_repos": "149",
+    "total_repos": "150",
     "active_repos": "93",
     "archived_repos": "54",
     "total_organs": "10",
@@ -1022,7 +1028,7 @@
     "total_words_numeric": "0",
     "total_words_formatted": "0",
     "total_words_short": "0K+",
-    "ci_workflows": "107",
+    "ci_workflows": "108",
     "dependency_edges": "62",
     "published_essays": "29",
     "sprints_completed": "33",
@@ -1033,7 +1039,7 @@
     "organ_name.ORGAN-I": "Theory",
     "organ_repos.ORGAN-II": "32",
     "organ_name.ORGAN-II": "Art",
-    "organ_repos.ORGAN-III": "32",
+    "organ_repos.ORGAN-III": "33",
     "organ_name.ORGAN-III": "Commerce",
     "organ_repos.ORGAN-IV": "22",
     "organ_name.ORGAN-IV": "Orchestration",
@@ -1058,7 +1064,7 @@
     "ARCHIVED": 53,
     "CANDIDATE": 1,
     "GRADUATED": 59,
-    "LOCAL": 28,
+    "LOCAL": 29,
     "PUBLIC_PROCESS": 8
   }
 }
