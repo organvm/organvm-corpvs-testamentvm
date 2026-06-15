@@ -110,7 +110,7 @@ The best way to gain perspective: make the invisible structure explicit, then be
 
 ### Q3: "In 1-3 sentences, tell us about the project you are most proud of and why."
 
-I built an eight-organ system that coordinates 149 repositories across 8 GitHub organizations — governing how theory, generative art, commercial products, and community work flow into each other through automated dependency validation, a promotion state machine, and ~6K+ words of public documentation. I'm most proud of it because it demonstrates that governance and art aren't separate categories: the rules that coordinate the system are as carefully designed as any artwork it produces. It's infrastructure that makes its own logic visible.
+I built an eight-organ system that coordinates 150 repositories across 8 GitHub organizations — governing how theory, generative art, commercial products, and community work flow into each other through automated dependency validation, a promotion state machine, and ~6K+ words of public documentation. I'm most proud of it because it demonstrates that governance and art aren't separate categories: the rules that coordinate the system are as carefully designed as any artwork it produces. It's infrastructure that makes its own logic visible.
 
 ### Links to Submit
 - Portfolio: https://4444j99.github.io/portfolio/
@@ -175,7 +175,7 @@ That's the same discipline Anthropic brings to AI safety: constraints that scale
 
 *Communication capacity for enterprise environments.* The system includes 6,200+ words of documentation written for grant reviewers and hiring managers, not just developers. I can explain complex orchestration systems to non-technical stakeholders and translate their needs into production implementations.
 
-*Autonomy under ambiguity.* The eight-organ system didn't start with a spec — it started with a question about how to organize 149 repositories into a coherent creative-institutional system. I defined the architecture, built the tooling, documented the decisions, and shipped it. That's the FDE operating model.
+*Autonomy under ambiguity.* The eight-organ system didn't start with a spec — it started with a question about how to organize 150 repositories into a coherent creative-institutional system. I defined the architecture, built the tooling, documented the decisions, and shipped it. That's the FDE operating model.
 
 I'd welcome the chance to discuss how governance-first design applies to deploying Claude in regulated enterprise environments.
 
@@ -200,17 +200,17 @@ I'm applying for the Software Engineer position on the Claude Code team. I build
 
 **Why Claude Code**
 
-I'm excited about AI-assisted coding as a tool to enhance developer productivity because I've experienced firsthand what happens when systems grow beyond what any single person can hold in their head. The eight-organ system I designed coordinates 149 repositories across 8 GitHub organizations. Without strong tooling — a machine-readable registry, automated health checks, dependency validation — that system would be unmanageable. I built those tools because I needed them. Claude Code is building them for everyone.
+I'm excited about AI-assisted coding as a tool to enhance developer productivity because I've experienced firsthand what happens when systems grow beyond what any single person can hold in their head. The eight-organ system I designed coordinates 150 repositories across 8 GitHub organizations. Without strong tooling — a machine-readable registry, automated health checks, dependency validation — that system would be unmanageable. I built those tools because I needed them. Claude Code is building them for everyone.
 
 **What I'd Bring**
 
-*Developer tools shaped by real need.* orchestration-start-here is the entry point to a 149-repo system. It exists because I discovered that without a clear "start here" experience, even well-documented systems are impenetrable. Every design choice — the reading order, the cross-document dependency map, the annotated manifest — came from watching people get lost and building something better. That's the developer experience instinct your team needs.
+*Developer tools shaped by real need.* orchestration-start-here is the entry point to a 150-repo system. It exists because I discovered that without a clear "start here" experience, even well-documented systems are impenetrable. Every design choice — the reading order, the cross-document dependency map, the annotated manifest — came from watching people get lost and building something better. That's the developer experience instinct your team needs.
 
 *LLM orchestration patterns in production.* agentic-titan implements multi-agent orchestration across 18 development phases with 1,095 tests. I've worked with chaining patterns, tool-use, and coordination across agent boundaries. linguistic-atomization-framework breaks language into composable units — the kind of DSL design thinking that matters when building tools that parse and transform code. The eight-organ system itself was built using an AI-conductor workflow model where AI generates volume and human reviews — I've been in the loop of LLM-assisted development for the entire project.
 
 *Full-stack capacity with safety instincts.* The system enforces constitutional constraints: no back-edges in the dependency graph, promotion through a formal state machine, transitive depth limits. These are safety constraints at the infrastructure level — the same thinking that matters in AI-assisted coding tools. I've built compliance into the architecture, not bolted it on after.
 
-*Container and CLI experience.* 5 GitHub Actions workflows automate validation across the entire system. organ-audit.py runs health checks across 149 repos. I've worked with containerized environments, CI/CD pipelines, and command-line tooling at production scale.
+*Container and CLI experience.* 5 GitHub Actions workflows automate validation across the entire system. organ-audit.py runs health checks across 150 repos. I've worked with containerized environments, CI/CD pipelines, and command-line tooling at production scale.
 
 The eight-organ system exists because I believe autonomous creative systems need the same governance rigor as production AI tools — and that building infrastructure transparently makes it better.
 
@@ -231,7 +231,7 @@ The eight-organ system exists because I believe autonomous creative systems need
 
 ### Cover Letter
 
-I'm applying for the Lead DX Engineer, Documentation role at Together AI. I've written 6,200+ words of portfolio-quality documentation for a system coordinating 149 repositories across 8 organizations — and I did it because I believe documentation is infrastructure, not decoration.
+I'm applying for the Lead DX Engineer, Documentation role at Together AI. I've written 6,200+ words of portfolio-quality documentation for a system coordinating 150 repositories across 8 organizations — and I did it because I believe documentation is infrastructure, not decoration.
 
 **Why Together AI**
 
@@ -275,17 +275,17 @@ I'm applying for the Software Engineer, Applied Evals role at OpenAI. I build ev
 
 **Why Applied Evals**
 
-Evaluation is governance. When you're evaluating multi-turn and tool-using systems, you're deciding what "good" means for an agent operating autonomously. I've made exactly these decisions for a system coordinating 149 repositories across 8 organizations: What does a healthy repo look like? What dependency patterns indicate architectural risk? When should a promotion be blocked? The answers became automated validation — organ-audit.py, platinum-validation.py, 5 GitHub Actions workflows — that runs continuously without human intervention.
+Evaluation is governance. When you're evaluating multi-turn and tool-using systems, you're deciding what "good" means for an agent operating autonomously. I've made exactly these decisions for a system coordinating 150 repositories across 8 organizations: What does a healthy repo look like? What dependency patterns indicate architectural risk? When should a promotion be blocked? The answers became automated validation — organ-audit.py, platinum-validation.py, 5 GitHub Actions workflows — that runs continuously without human intervention.
 
 That's eval infrastructure. I want to build it for the systems that matter most.
 
 **What I'd Bring**
 
-*Evaluation frameworks, battle-tested.* I built a multi-layered validation system: organ-audit.py (monthly health monitoring across all 149 repos), platinum-validation.py (full system sweep verifying every repo against 1,267 audited links and 62 dependency edges), validate-dependencies workflow (blocks merges that would violate constitutional constraints). These aren't toy scripts. They enforce quality at a scale where eyeballing it doesn't work.
+*Evaluation frameworks, battle-tested.* I built a multi-layered validation system: organ-audit.py (monthly health monitoring across all 150 repos), platinum-validation.py (full system sweep verifying every repo against 1,267 audited links and 62 dependency edges), validate-dependencies workflow (blocks merges that would violate constitutional constraints). These aren't toy scripts. They enforce quality at a scale where eyeballing it doesn't work.
 
 *Agent harness design.* agentic-titan is a multi-agent orchestration framework with 1,095 tests across 18 development phases. The test framework itself IS an agent harness. a-i-council--coliseum takes this further: multi-agent deliberation where AI agents debate positions and synthesize conclusions — evaluating the quality of that synthesis requires exactly the kind of multi-turn eval infrastructure this role builds.
 
-*Production systems end-to-end.* I shipped the eight-organ system from architecture through deployment: 107+ CI/CD pipelines, automated health audits, dependency validation, promotion state machine. I own the full lifecycle.
+*Production systems end-to-end.* I shipped the eight-organ system from architecture through deployment: 108+ CI/CD pipelines, automated health audits, dependency validation, promotion state machine. I own the full lifecycle.
 
 *Feedback loops that strengthen systems.* The system uses a tiered documentation approach (Bronze/Silver/Gold) where validation results feed directly into the next sprint. Regression monitoring, golden datasets, and drift detection — these are eval patterns applied to infrastructure.
 
@@ -309,7 +309,7 @@ I don't just build AI agents; I build the evaluation infrastructure that makes t
 
 ### Cover Letter
 
-I'm applying for the Developer Advocate Engineer role at Hugging Face. I've built a public documentation corpus of 6,200+ words across 149 repositories — not because someone assigned it, but because I believe open-source systems deserve documentation that treats every reader as someone worth teaching.
+I'm applying for the Developer Advocate Engineer role at Hugging Face. I've built a public documentation corpus of 6,200+ words across 150 repositories — not because someone assigned it, but because I believe open-source systems deserve documentation that treats every reader as someone worth teaching.
 
 **Why Hugging Face**
 
@@ -350,7 +350,7 @@ The eight-organ system is public because I believe building in the open makes th
 
 ### Cover Letter
 
-I'm applying for the Applied AI Engineer, Agentic Workflows role at Cohere. I build multi-agent orchestration systems with production governance — and I've shipped one that coordinates 149 repositories across 8 organizations using exactly the kind of constraint enforcement and evaluation infrastructure your agentic platform needs.
+I'm applying for the Applied AI Engineer, Agentic Workflows role at Cohere. I build multi-agent orchestration systems with production governance — and I've shipped one that coordinates 150 repositories across 8 organizations using exactly the kind of constraint enforcement and evaluation infrastructure your agentic platform needs.
 
 **Why Agentic Workflows at Cohere**
 
@@ -387,7 +387,7 @@ I build agentic systems that are governed, tested, and documented — because th
 
 ### Cover Letter
 
-The eight-organ system coordinates 149 repositories across 8 organizations — half generative art, interactive narrative, and experiential design; half the governance, orchestration, and tooling infrastructure that makes the creative work possible at scale. metasystem-master serves as the internal tooling layer that makes the whole system navigable. I built both because creative systems need the same engineering rigor as production platforms. That's Runway's thesis, and why I'm applying for the MTS, Research Tooling & Data Platform role.
+The eight-organ system coordinates 150 repositories across 8 organizations — half generative art, interactive narrative, and experiential design; half the governance, orchestration, and tooling infrastructure that makes the creative work possible at scale. metasystem-master serves as the internal tooling layer that makes the whole system navigable. I built both because creative systems need the same engineering rigor as production platforms. That's Runway's thesis, and why I'm applying for the MTS, Research Tooling & Data Platform role.
 
 **Why Runway**
 

@@ -58,7 +58,7 @@ The `aria-label` on the container provides a name but not the data content. Scre
 
 **Remediation (P0):**
 1. Add a visually-hidden data table below the galaxy canvas listing all repositories by organ, with columns for name, status, and organ. Use `class="sr-only"` or a disclosure widget.
-2. Alternatively, add an `aria-describedby` region with a text summary: "Interactive galaxy showing 149 repositories across 8 organs. 4 graduated, 68 candidate, 12 public process."
+2. Alternatively, add an `aria-describedby` region with a text summary: "Interactive galaxy showing 150 repositories across 8 organs. 4 graduated, 68 candidate, 12 public process."
 
 ---
 

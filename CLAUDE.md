@@ -9,7 +9,7 @@ This is a **planning and governance documentation corpus** — not a source code
 **Owner:** @4444j99 / @4444J99
 **Status:** LAUNCHED (2026-02-11) — all 8 organs OPERATIONAL
 **Repository:** `a-organvm/organvm-corpvs-testamentvm` (canonical; `meta-organvm/organvm-corpvs-testamentvm` is a GitHub redirect to the same repo — both URLs resolve identically. Local clone tracks the canonical `a-organvm/` remote.)
-**Documentation deployed:** ~6K+ words across 149 repos + 8 org profiles + 29 meta-system essays
+**Documentation deployed:** ~6K+ words across 150 repos + 8 org profiles + 29 meta-system essays
 
 There is no build system or unified test suite here. Executable artifacts include ~51 Python/shell scripts in `scripts/` (validation, deployment, audit, registry tooling), 16 GitHub Actions workflows in `.github/workflows/`, and YAML/Python workflow specifications in `docs/implementation/github-actions-spec.md`.
 
@@ -364,7 +364,7 @@ Linked skills: SOP-TRIADIC-REVIEW-PROTOCOL, cicd-resilience-and-recovery, contin
 - `735993189de8` Feedback memory — ~/.claude/projects/.../memory/feedback_triangulation_protocol.md` (3.3KB) [bash, chezmoi, python]
 - `d9a5369570ec` Plan file — ~/.claude/plans/atomic-concurrent-matsumoto.md` (20.6KB) [bash, chezmoi, python]
 - `5a1162c58b12` Conv 2 verdict text — ~/Workspace/2026-04-29-155019-...txt [bash, chezmoi, python]
-- `362f2e42321d` Conv 2 source plan — ~/.claude/plans/2026-04-149-repo-triage.md` (11.3KB) [bash, chezmoi, python]
+- `362f2e42321d` Conv 2 source plan — ~/.claude/plans/2026-04-150-repo-triage.md` (11.3KB) [bash, chezmoi, python]
 - `9a7aa0d8ae60` DONE-ID counter — meta-organvm/organvm-corpvs-testamentvm/data/done-id-counter.json [bash, chezmoi, python]
 - ... and 294 more
 

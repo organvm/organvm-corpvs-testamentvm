@@ -8,6 +8,8 @@ description: "How the ALCHEMIA sprint designed and deployed a cascading aestheti
 
 # The Aesthetic Nervous System: How taste.yaml Cascades Across Eight Organs
 
+> **Sister essay.** This piece governs *form* — how the work looks and feels. Its content-side companion, [The Artistic Triforce](docs/essays/42-the-artistic-triforce.md), governs *intent* — what the work is about and why it is made (the Conscious / Subconscious / Temporal polarities). Read together they describe the full creative practice: aesthetics and ontology, form and content.
+
 Every creative system faces the coherence problem. When the output is a single painting, coherence is a matter of composition — the artist's eye holds the whole together. When the output is a catalog of paintings, coherence becomes a matter of style — a recognizable set of formal choices that unifies diverse works. When the output is an institution that produces paintings, essays, software, performances, community events, and marketing materials across eight organizational domains and 89 repositories, coherence becomes a matter of infrastructure. The artist's eye is no longer sufficient. You need a nervous system.
 
 This essay describes the aesthetic nervous system we built during the ALCHEMIA sprint: a cascading governance system that propagates aesthetic constraints from a global taste document through organ-level specifications to per-repository creative briefs. It is, to our knowledge, the first attempt to treat aesthetic governance as a software engineering problem — to apply the same rigor we use for dependency management and type safety to the problem of visual and tonal coherence across a multi-organ creative institution.

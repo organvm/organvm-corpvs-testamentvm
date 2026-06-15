@@ -59,7 +59,7 @@ The AI produces volume. A 3,000-word README. A 400-line validation script. A JSO
 
 The key principle of the generation phase is: **let the AI be prolific, then curate.** Don't interrupt generation to correct small errors. Don't micro-manage sentence structure. Let the draft exist, then evaluate it as a whole.
 
-In the ORGANVM system, generation sprints produced extraordinary volume: the Silver Sprint generated ~6,200+ words of README documentation across 149 repositories in a single session. No individual document was perfect, but the structural consistency was high because every generation was governed by the same directive template.
+In the ORGANVM system, generation sprints produced extraordinary volume: the Silver Sprint generated ~6,200+ words of README documentation across 150 repositories in a single session. No individual document was perfect, but the structural consistency was high because every generation was governed by the same directive template.
 
 ### Phase 3: Refinement
 
@@ -87,7 +87,7 @@ The AI-conductor methodology is most effective when:
 
 **3. The deliverables have clear quality criteria.** "3,000+ words, speaks to grant reviewers, references actual code features, no hallucinated capabilities" is a checkable quality spec. The human can evaluate whether the output meets it. Vague criteria ("make it good") produce vague output.
 
-**4. The domain rewards comprehensiveness.** Grant applications, documentation corpora, portfolio sites, and institutional governance all benefit from thoroughness. A system with 149 documented repositories is more credible than one with 10, even if the per-document quality is comparable. The AI-conductor methodology enables comprehensiveness that would be cost-prohibitive for a solo operator.
+**4. The domain rewards comprehensiveness.** Grant applications, documentation corpora, portfolio sites, and institutional governance all benefit from thoroughness. A system with 150 documented repositories is more credible than one with 10, even if the per-document quality is comparable. The AI-conductor methodology enables comprehensiveness that would be cost-prohibitive for a solo operator.
 
 **5. The work is parallelizable.** The AI-conductor model shines when the deliverables are structurally independent — fifty-eight READMEs, twenty-nine essays, ninety-one registry entries. Each can be generated from the same template without waiting for the others. Sequential dependencies (where document B references document A) still require ordering, but the majority of generation work in a documentation-heavy project is embarrassingly parallel. This is where the AI's speed advantage is most dramatic: a human writing 58 READMEs works sequentially, one at a time. An AI-conductor workflow generates them in rapid succession within a single session, constrained only by API rate limits and context window management.
 
@@ -169,7 +169,7 @@ Second, sprints create natural review checkpoints. At the end of each sprint, th
 
 Third, sprint names serve as an organizational memory aid. When I need to find when a particular decision was made or why a particular artifact exists, I can search by sprint name. "The revenue field was split during VERITAS" is more navigable than "the revenue field was changed on February 13th."
 
-The sprint model also provides a natural vocabulary for communicating about AI-conductor work to external audiences. Instead of saying "I spent a week generating documentation," I can say "the PROPULSION sprint produced 6,200+ words of README documentation across 149 repositories, followed by the ASCENSION sprint which validated 1,267 links and 62 dependency edges." The sprint structure makes the work legible as a planned, executed, and validated process rather than a chaotic burst of AI generation.
+The sprint model also provides a natural vocabulary for communicating about AI-conductor work to external audiences. Instead of saying "I spent a week generating documentation," I can say "the PROPULSION sprint produced 6,200+ words of README documentation across 150 repositories, followed by the ASCENSION sprint which validated 1,267 links and 62 dependency edges." The sprint structure makes the work legible as a planned, executed, and validated process rather than a chaotic burst of AI generation.
 
 **Naming matters more than you'd think.** I chose Latin-derived sprint names (IGNITION, PROPULSION, VERITAS, OPERATIO) partly for aesthetic reasons and partly because distinctive names are easier to reference than numbered iterations. "Sprint 7" is forgettable; "ALCHEMIA" is memorable and searchable. This is a small thing, but in a system with fourteen sprints across a week, the naming convention paid for itself in cognitive overhead savings.
 

@@ -16,7 +16,7 @@ otherwise noted.
 
 **Audience:** Grant panels, portfolio reviewers, anyone evaluating system scope.
 **Goal:** Establish that this is a real, operational system — not a spec document
-or a folder of side projects. Show that 149 repositories across 8 organs are
+or a folder of side projects. Show that 150 repositories across 8 organs are
 running, monitored, and governed by a unified CLI.
 
 ### Script

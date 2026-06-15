@@ -92,7 +92,7 @@
 
 ## Procedure 3: Billing Overrun
 
-**Context:** In February 2026, `organvm-i-theoria` hit 48,880 GitHub Actions minutes due to 14 cron workflows running across 149 repos. Three additional ORGAN-III cron workflows also contributed. Total: 17 cron workflows disabled.
+**Context:** In February 2026, `organvm-i-theoria` hit 48,880 GitHub Actions minutes due to 14 cron workflows running across 150 repos. Three additional ORGAN-III cron workflows also contributed. Total: 17 cron workflows disabled.
 
 **Symptoms:** GitHub sends billing alerts. Or you notice workflows are being queued but not running (quota exhaustion).
 

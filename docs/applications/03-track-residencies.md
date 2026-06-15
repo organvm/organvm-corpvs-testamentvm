@@ -14,7 +14,7 @@
 
 Residency evaluators assess:
 1. **Artistic practice** — Is there a coherent body of work? (8 organs, 100 repos, 5+ years of sustained practice)
-2. **Systemic thinking** — Does the artist think beyond individual pieces? (Governance model, dependency graph, state machine, editorial vision across 149 repos)
+2. **Systemic thinking** — Does the artist think beyond individual pieces? (Governance model, dependency graph, state machine, editorial vision across 150 repos)
 3. **Community contribution** — Will this benefit the residency community? (ORGAN-VI, public documentation, reusable governance patterns)
 4. **Innovation** — Is this genuinely pushing boundaries? (Solo production at institutional scale through AI-augmented methodology)
 5. **Communication** — Can the artist articulate their practice? (~6K+ words, 42 essays, process documented in real-time)
@@ -25,7 +25,7 @@ Residency evaluators assess:
 
 > I design environments where creative organisms grow — and then I document the process of growing them.
 >
-> My practice centers on the eight-organ system: a documented infrastructure coordinating theory, generative art, commercial products, governance, public process, community, and marketing across 149 repositories. I don't produce individual artworks. I produce the *systems* that generate, coordinate, and sustain creative work — and the visible record of how those systems are built is itself the primary creative output.
+> My practice centers on the eight-organ system: a documented infrastructure coordinating theory, generative art, commercial products, governance, public process, community, and marketing across 150 repositories. I don't produce individual artworks. I produce the *systems* that generate, coordinate, and sustain creative work — and the visible record of how those systems are built is itself the primary creative output.
 >
 > The process of creation is the product. The 42 essays I've published aren't reflections on the work; they ARE the work — the creative process rendered into prose in real time. The governance rules — registry design, dependency graphs, promotion pipelines — aren't bureaucratic overhead; they're generative constraints, the way a composer's harmonic rules shape what melodies can emerge. Every architectural decision is an artistic decision.
 >
@@ -186,7 +186,7 @@ Residency evaluators assess:
 
 **What they value:** Self-directed programming. Learning generously. Community.
 
-**Why you fit:** Perfect fit — free, Brooklyn-based, self-directed. The organ system is exactly the kind of ambitious creative-technical project RC values. The 149-repo governance infrastructure would be a fascinating RC project.
+**Why you fit:** Perfect fit — free, Brooklyn-based, self-directed. The organ system is exactly the kind of ambitious creative-technical project RC values. The 150-repo governance infrastructure would be a fascinating RC project.
 
 **Amount:** FREE (no tuition, no stipend, no obligation). 6 or 12 weeks in Brooklyn.
 **Timeline:** Rolling admissions. Apply anytime.
@@ -264,7 +264,7 @@ See [11-funding-research-exhaustive.md](./11-funding-research-exhaustive.md) Par
 >
 > **Medium:** Software infrastructure, governance protocols, public documentation, generative systems, AI-augmented production
 >
-> **Practice summary:** I build creative systems — environments where creative work grows through documented governance, automated coordination, and visible process. My current body of work is the eight-organ system: 149 repositories across 8 GitHub organizations, coordinating theory, art, commerce, and community as a single integrated practice. The system is documented at ~6K+ words across 42 essays and governance specifications, all produced through an AI-augmented methodology where I design the architecture and editorial vision while using AI tools as compositional instruments. The governance model — registry design, dependency rules, promotion pipelines — is artistic output equal to any individual work the system produces. The process of creation, made visible and governable, IS the product.
+> **Practice summary:** I build creative systems — environments where creative work grows through documented governance, automated coordination, and visible process. My current body of work is the eight-organ system: 150 repositories across 8 GitHub organizations, coordinating theory, art, commerce, and community as a single integrated practice. The system is documented at ~6K+ words across 42 essays and governance specifications, all produced through an AI-augmented methodology where I design the architecture and editorial vision while using AI tools as compositional instruments. The governance model — registry design, dependency rules, promotion pipelines — is artistic output equal to any individual work the system produces. The process of creation, made visible and governable, IS the product.
 >
 > **Duration:** 5+ years of sustained practice, 33 named development sprints
 >
@@ -278,7 +278,7 @@ See [11-funding-research-exhaustive.md](./11-funding-research-exhaustive.md) Par
 
 > **Title:** [RESIDENCY-SPECIFIC TITLE]
 >
-> **Summary:** During this residency, I will [SPECIFIC DELIVERABLES] within the context of my ongoing eight-organ creative-institutional system — a documented infrastructure coordinating 149 repositories across theory, art, commerce, governance, and community.
+> **Summary:** During this residency, I will [SPECIFIC DELIVERABLES] within the context of my ongoing eight-organ creative-institutional system — a documented infrastructure coordinating 150 repositories across theory, art, commerce, governance, and community.
 >
 > **Why here:** [RESIDENCY NAME]'s commitment to [THEIR VALUES] aligns with my practice of treating governance and systems design as primary artistic output. The eight-organ model demonstrates that [SPECIFIC CONNECTION TO THEIR MISSION].
 >
@@ -293,7 +293,7 @@ See [11-funding-research-exhaustive.md](./11-funding-research-exhaustive.md) Par
 > - github.com/organvm-v-logos/public-process — essays and public documentation
 > - [RELEVANT ORGAN-I/II/III repos]
 >
-> **Bio:** [NAME] builds creative systems — environments where theory, art, commerce, and community grow through documented governance and AI-augmented production. Their eight-organ system coordinates 149 repositories across 8 organizations, treating the process of creation itself as the primary artistic output. With 18 years of professional experience across construction, education, multimedia, and software, they bring an unusual combination of execution discipline and creative vision to systemic art practice.
+> **Bio:** [NAME] builds creative systems — environments where theory, art, commerce, and community grow through documented governance and AI-augmented production. Their eight-organ system coordinates 150 repositories across 8 organizations, treating the process of creation itself as the primary artistic output. With 18 years of professional experience across construction, education, multimedia, and software, they bring an unusual combination of execution discipline and creative vision to systemic art practice.
 
 ---
 
@@ -301,7 +301,7 @@ See [11-funding-research-exhaustive.md](./11-funding-research-exhaustive.md) Par
 
 1. **The process IS the product.** The 42 essays, the governance specifications, the public documentation — these aren't supplements to the work. They ARE the work. The creative process, made visible and governable, is the primary output.
 
-2. **Solo production at institutional scale.** One person coordinating 149 repositories through documented governance, using AI tools as compositional instruments. 33 named sprints, ~6K+ words, 107+ CI/CD workflows — the system is evidence this mode of production works.
+2. **Solo production at institutional scale.** One person coordinating 150 repositories through documented governance, using AI tools as compositional instruments. 33 named sprints, ~6K+ words, 108+ CI/CD workflows — the system is evidence this mode of production works.
 
 3. **5+ years of sustained practice.** This isn't a proposal — it's an ongoing body of work requesting a context (the residency) to deepen and share. 33 development sprints, ~6K+ words, fully operational.
 
