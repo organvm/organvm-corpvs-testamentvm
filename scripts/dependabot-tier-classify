@@ -1,0 +1,304 @@
+#!/usr/bin/env python3
+"""dependabot-tier-classify — canonical, deterministic Phase-B tier resolver.
+
+WHY THIS EXISTS
+---------------
+`daily-dependabot-merge` (and `daily-pr-management`) classify each open PR into
+Tier 1/2/3 by looking the repo up in `repo-registry.json`. The registry keys
+every repo by its *organ org* (e.g. `organvm-ii-poiesis/a-mavs-olevm`,
+`meta-organvm/organvm-engine`), but those repos were transferred on GitHub to the
+canonical umbrella org `a-organvm/*` — GitHub keeps the organ-org slug only as a
+redirect alias. Verified 2026-06-10:
+
+    organvm-ii-poiesis/a-mavs-olevm   -> a-organvm/a-mavs-olevm   (redirect)
+    meta-organvm/organvm-engine       -> a-organvm/organvm-engine (redirect)
+
+So dependabot opens its PRs on `a-organvm/<name>` (the live home), Phase-A
+enumeration (`--owner=a-organvm`) finds them, but a naive Phase-B lookup keyed on
+`organ-org/name` MISSES every one of them -> "unknown" -> Tier 1 -> never merged.
+That defeated the routine for ~43 of 57 PRs.
+
+Two same-day fires (2026-06-10 12:01Z vs 13:13Z) produced *opposite* tier
+distributions because Phase B was described in PROSE and each implementer diverged
+(name-only fallback vs strict org/name). This script removes that divergence:
+classification is now ONE deterministic, offline function. Same input -> same
+output, every fire, no network call.
+
+RESOLUTION MODEL (offline, deterministic)
+-----------------------------------------
+Each registry row is reachable by TWO keys into the same row:
+  1. its recorded `<org>/<name>`           (handles PRs still under the organ org)
+  2. the live alias `a-organvm/<name>`     (handles the post-transfer home)
+
+GUARD — strictly Tier-1-preserving (the critical invariant):
+  * If `a-organvm/<name>` maps to MORE THAN ONE registry row (a name collision,
+    e.g. `.github`, `hokage-chess`) the alias is AMBIGUOUS -> Tier 1.
+  * If a slug resolves to NO row -> unknown -> Tier 1.
+  * A GRADUATED flagship/infrastructure/sovereign repo ALWAYS resolves Tier 1
+    (the Tier-1 test runs first), so the alias layer can never lower an organ
+    flagship (a-mavs-olevm, public-record-data-scrapper, organvm-engine,
+    organvm-mcp-server, ...) into auto-merge range.
+  Net effect: the resolver only ever moves a repo's classification toward MORE
+  caution, never less. The pre-existing safe default (unknown -> Tier 1) is
+  preserved verbatim for every case it used to cover.
+
+TIER RULES — faithful to docs/standards/17 §8 (single source: repo-registry.json):
+  Tier 1: promotion_status == GRADUATED AND tier in {infrastructure, flagship,
+          sovereign}                                            -> NEVER merged
+  Tier 2: promotion_status in {PUBLIC_PROCESS, CANDIDATE} OR tier == standard
+  Tier 3: promotion_status in {LOCAL, ARCHIVED} OR owner == 4444J99 (personal)
+  else  : known-but-unclassifiable                              -> Tier 1 (safe)
+
+  Precedence is top-down, FIRST MATCH WINS. This is what fixes the second latent
+  bug: `4444J99/portfolio` is tier=flagship/promo=PUBLIC_PROCESS, which is Tier 2
+  (PUBLIC_PROCESS matches before the personal -> Tier 3 rule). An owner-prefix
+  shortcut that ranked "4444J99/* -> Tier 3" above promotion_status (as the 13:13Z
+  fire did) is therefore a bug; this script encodes the correct precedence.
+
+USAGE
+  dependabot-tier-classify <slug> [<slug> ...]      # classify given slugs
+  echo -e "a-organvm/foo\\n4444J99/bar" | dependabot-tier-classify --stdin
+  dependabot-tier-classify --table <slug> ...       # human-readable table
+  dependabot-tier-classify --self-test              # assert guard invariants
+  dependabot-tier-classify --registry <path> ...    # override registry location
+
+Default registry: $REGISTRY_V2, else
+  ~/Code/organvm/organvm-corpvs-testamentvm/repo-registry.json
+
+OUTPUT (default: one JSON object per line, machine-parseable for Phase B):
+  {"slug","tier","resolution","matched_org","matched_name",
+   "promotion_status","repo_tier","protected","reason"}
+  resolution in {exact, alias, ambiguous, unknown}
+  protected = true when repo_tier in {flagship, infrastructure, sovereign}
+              (defense-in-depth flag for the SKILL's report/never-merge logic)
+
+Exit status: 0 on success; 2 if the registry cannot be read (caller must then
+degrade to report-only — never guess tiers without the source of truth).
+"""
+from __future__ import annotations
+
+import json
+import os
+import sys
+
+DEFAULT_REGISTRY = os.path.expanduser(
+    "~/Code/organvm/organvm-corpvs-testamentvm/repo-registry.json"
+)
+
+# docs/standards/17 §8 — the structurally load-bearing tiers.
+FLAGSHIP_TIERS = {"infrastructure", "flagship", "sovereign"}
+# The canonical live umbrella org all organ orgs redirect to (verified 2026-06-10).
+CANONICAL_OWNER = "a-organvm"
+# The conductor's personal org (registry records it lowercase).
+PERSONAL_OWNER = "4444j99"
+
+
+def load_rows(registry_path):
+    """Flatten organs[*].repositories[*] into a list of repo rows.
+
+    organs is a dict keyed by organ id (ORGAN-I .. META-ORGANVM, PERSONAL);
+    each value carries a `repositories` list. We tolerate the alternate shape
+    (repositories as a dict) defensively so a future schema tweak does not
+    silently drop rows.
+    """
+    with open(registry_path, "r", encoding="utf-8") as fh:
+        data = json.load(fh)
+    rows = []
+    organs = data.get("organs", {})
+    organ_values = organs.values() if isinstance(organs, dict) else organs
+    for organ in organ_values:
+        repos = organ.get("repositories", []) if isinstance(organ, dict) else []
+        repo_iter = repos.values() if isinstance(repos, dict) else repos
+        for repo in repo_iter:
+            if isinstance(repo, dict) and repo.get("name") and repo.get("org"):
+                rows.append(repo)
+    return rows
+
+
+def build_index(rows):
+    """Return (exact, by_name): exact[(org,name)] and by_name[name] -> [rows]."""
+    exact = {}
+    by_name = {}
+    for row in rows:
+        org = row["org"].lower()
+        name = row["name"].lower()
+        exact[(org, name)] = row
+        by_name.setdefault(name, []).append(row)
+    return exact, by_name
+
+
+def tier_of(row, owner_lower):
+    """Apply §8 tier rules to a resolved row. First match wins (Tier 1 first)."""
+    promo = (row.get("promotion_status") or "").upper()
+    repo_tier = (row.get("tier") or "").lower()
+    if promo == "GRADUATED" and repo_tier in FLAGSHIP_TIERS:
+        return 1
+    if promo in {"PUBLIC_PROCESS", "CANDIDATE"} or repo_tier == "standard":
+        return 2
+    if promo in {"LOCAL", "ARCHIVED"} or owner_lower == PERSONAL_OWNER:
+        return 3
+    # Known repo that matches no rule (e.g. tier=archive + promo=GRADUATED):
+    # default to the most cautious tier rather than guessing it mergeable.
+    return 1
+
+
+def classify(slug, exact, by_name):
+    """Resolve a `owner/name` slug to a tier with full provenance.
+
+    Resolution order:
+      1. exact (owner, name) match — works for organ-org slugs as recorded
+      2. a-organvm alias — unique name match; collisions are AMBIGUOUS -> Tier 1
+      3. unknown -> Tier 1 (the pre-existing safe default, preserved)
+    """
+    slug = slug.strip()
+    if "/" not in slug:
+        return _result(slug, 1, "unknown", None, "slug-not-owner/name")
+    owner, name = slug.split("/", 1)
+    owner_lower, name_lower = owner.lower(), name.lower()
+
+    row = exact.get((owner_lower, name_lower))
+    if row is not None:
+        return _result(slug, tier_of(row, owner_lower), "exact", row,
+                       "exact org/name match")
+
+    if owner_lower == CANONICAL_OWNER:
+        candidates = by_name.get(name_lower, [])
+        if len(candidates) == 1:
+            row = candidates[0]
+            # The alias home is a-organvm; tier rules see the canonical owner,
+            # not the personal-owner branch, so a transferred repo is never
+            # misread as a personal Tier-3 repo.
+            return _result(slug, tier_of(row, owner_lower), "alias", row,
+                           "a-organvm alias -> %s/%s" % (row["org"], row["name"]))
+        if len(candidates) > 1:
+            orgs = ", ".join(sorted(c["org"] for c in candidates))
+            return _result(slug, 1, "ambiguous", None,
+                           "name collides across [%s] -> Tier 1 guard" % orgs)
+        return _result(slug, 1, "unknown", None, "a-organvm name not in registry")
+
+    return _result(slug, 1, "unknown", None, "owner not in registry, no alias")
+
+
+def _result(slug, tier, resolution, row, reason):
+    repo_tier = (row.get("tier") if row else None)
+    return {
+        "slug": slug,
+        "tier": tier,
+        "resolution": resolution,
+        "matched_org": (row.get("org") if row else None),
+        "matched_name": (row.get("name") if row else None),
+        "promotion_status": (row.get("promotion_status") if row else None),
+        "repo_tier": repo_tier,
+        "protected": bool(repo_tier and repo_tier.lower() in FLAGSHIP_TIERS),
+        "reason": reason,
+    }
+
+
+def self_test(rows):
+    """Assert the guard invariants against the live registry. Exit 1 on failure."""
+    exact, by_name = build_index(rows)
+    failures = []
+
+    # INVARIANT 1: every GRADUATED flagship/infra/sovereign repo classifies Tier 1
+    # under BOTH its organ-org slug AND the a-organvm alias (when unambiguous).
+    for row in rows:
+        promo = (row.get("promotion_status") or "").upper()
+        rtier = (row.get("tier") or "").lower()
+        if promo == "GRADUATED" and rtier in FLAGSHIP_TIERS:
+            for slug in ("%s/%s" % (row["org"], row["name"]),
+                         "%s/%s" % (CANONICAL_OWNER, row["name"])):
+                res = classify(slug, exact, by_name)
+                # alias of a collision is allowed to be ambiguous (still Tier 1).
+                if res["tier"] != 1:
+                    failures.append(
+                        "GRADUATED %s %s classified Tier %d (must be 1): %s"
+                        % (rtier, slug, res["tier"], res["reason"]))
+
+    # INVARIANT 2: ambiguous/unknown resolutions are ALWAYS Tier 1.
+    for slug in ("a-organvm/.github", "a-organvm/hokage-chess",
+                 "a-organvm/this-repo-does-not-exist", "garbage-no-slash"):
+        res = classify(slug, exact, by_name)
+        if res["tier"] != 1:
+            failures.append("guard slug %s -> Tier %d (must be 1)"
+                            % (slug, res["tier"]))
+
+    # INVARIANT 3: resolution never lowers a known repo below its organ-org tier.
+    for row in rows:
+        direct = classify("%s/%s" % (row["org"], row["name"]), exact, by_name)
+        alias = classify("%s/%s" % (CANONICAL_OWNER, row["name"]), exact, by_name)
+        if alias["resolution"] == "alias" and alias["tier"] < direct["tier"]:
+            failures.append(
+                "alias %s lowered %s below organ-org tier (%d < %d)"
+                % (alias["slug"], direct["slug"], alias["tier"], direct["tier"]))
+
+    if failures:
+        print("SELF-TEST FAILED (%d):" % len(failures), file=sys.stderr)
+        for f in failures:
+            print("  - " + f, file=sys.stderr)
+        return 1
+    print("SELF-TEST PASSED: %d rows, all guard invariants hold." % len(rows))
+    return 0
+
+
+def main(argv):
+    registry = os.environ.get("REGISTRY_V2", DEFAULT_REGISTRY)
+    args = list(argv)
+    table = False
+    use_stdin = False
+    do_self_test = False
+    slugs = []
+    i = 0
+    while i < len(args):
+        a = args[i]
+        if a == "--registry":
+            i += 1
+            registry = args[i]
+        elif a == "--table":
+            table = True
+        elif a == "--stdin":
+            use_stdin = True
+        elif a == "--self-test":
+            do_self_test = True
+        elif a in ("-h", "--help"):
+            print(__doc__)
+            return 0
+        else:
+            slugs.append(a)
+        i += 1
+
+    try:
+        rows = load_rows(registry)
+    except (OSError, ValueError) as exc:
+        print("FATAL: cannot read registry %s: %s" % (registry, exc),
+              file=sys.stderr)
+        return 2  # caller MUST degrade to report-only — never guess tiers.
+
+    if do_self_test:
+        return self_test(rows)
+
+    if use_stdin:
+        slugs.extend(line for line in (l.strip() for l in sys.stdin) if line)
+
+    if not slugs:
+        print("usage: dependabot-tier-classify <slug> [...] | --stdin | "
+              "--self-test  (--help for detail)", file=sys.stderr)
+        return 1
+
+    exact, by_name = build_index(rows)
+    results = [classify(s, exact, by_name) for s in slugs]
+
+    if table:
+        print("%-46s %-4s %-10s %-9s %s" %
+              ("SLUG", "TIER", "RESOLUTION", "PROTECTED", "REASON"))
+        for r in results:
+            print("%-46s %-4s %-10s %-9s %s" %
+                  (r["slug"], r["tier"], r["resolution"],
+                   "yes" if r["protected"] else "-", r["reason"]))
+    else:
+        for r in results:
+            print(json.dumps(r, ensure_ascii=False))
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))
