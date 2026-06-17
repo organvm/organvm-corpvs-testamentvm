@@ -1,0 +1,258 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/a-organvm/organvm-corpvs-testamentvm/blob/main/docs/beacon/beacon-schema.json",
+  "title": "Telos Beacon Protocol — Emission Record",
+  "description": "JSON Schema for a single Beacon emission. Bundled with the seed-extension-v1.1 schema for the per-repo `beacon` block. Anchored as TBP-001 in governance-amendments.jsonl. Conserved under LEX-I; constitutive per AX-7.",
+  "type": "object",
+  "required": [
+    "emission_id",
+    "ts",
+    "schema_version",
+    "polarity",
+    "reach_radius",
+    "source_repo",
+    "payload"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "emission_id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{12}$",
+      "description": "SHA-256 truncated to 12 hex characters of the canonical emission bytes."
+    },
+    "ts": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO-8601 emission timestamp."
+    },
+    "schema_version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+(\\.\\d+)?$",
+      "description": "Version of this schema the emission was produced under. Currently '1.0' (the Beacon emission schema), distinct from seed.yaml's '1.1' (the per-repo extension)."
+    },
+    "polarity": {
+      "type": "string",
+      "enum": ["formal", "aesthetic", "mixed"],
+      "description": "Which polarity this emission carries. Drives channel selection."
+    },
+    "reach_radius": {
+      "type": "string",
+      "enum": ["local", "organ", "system", "public"],
+      "description": "Intended audience scope."
+    },
+    "source_repo": {
+      "type": "string",
+      "description": "GitHub repo slug (org/repo) of the emitter. Use 'system' for system-level emissions from this corpus."
+    },
+    "tether_budget": {
+      "type": "integer",
+      "minimum": 100,
+      "maximum": 1000000,
+      "default": 5000,
+      "description": "Token-effort budget per chunk during tethered delivery."
+    },
+    "chunk_size": {
+      "type": "integer",
+      "minimum": 1024,
+      "maximum": 1048576,
+      "default": 32768,
+      "description": "Wire-level chunk size in bytes."
+    },
+    "payload": {
+      "type": "object",
+      "description": "The Beacon's content for this emission. Carries one or both polarity surfaces.",
+      "minProperties": 1,
+      "additionalProperties": false,
+      "properties": {
+        "formal": {
+          "type": "object",
+          "description": "Structured payload. Required when polarity ∈ {formal, mixed}.",
+          "required": ["title", "claims"],
+          "additionalProperties": false,
+          "properties": {
+            "title": { "type": "string", "maxLength": 200 },
+            "subtitle": { "type": "string", "maxLength": 400 },
+            "claims": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["statement", "evidence_anchor"],
+                "additionalProperties": false,
+                "properties": {
+                  "statement": { "type": "string", "minLength": 1, "maxLength": 1000 },
+                  "evidence_anchor": {
+                    "type": "string",
+                    "description": "Repo-relative path or URL pointing to the evidence. e.g. 'governance-rules.json#/axioms/AX-7' or 'docs/audits/STRUCTURED-CANDIDATES.json'."
+                  },
+                  "tag": {
+                    "type": "string",
+                    "enum": ["EXPLICIT", "IMPLIED", "SPECULATIVE", "MISSING_EVIDENCE"],
+                    "default": "EXPLICIT"
+                  },
+                  "confidence": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1,
+                    "default": 1.0
+                  }
+                }
+              }
+            },
+            "atom_ids": {
+              "type": "array",
+              "items": { "type": "string", "pattern": "^[0-9a-f]{12}$" },
+              "description": "mesh atom IDs the payload decomposes into. Populated by ATOMIZE stage."
+            }
+          }
+        },
+        "aesthetic": {
+          "type": "object",
+          "description": "Narrative payload. Required when polarity ∈ {aesthetic, mixed}.",
+          "required": ["title", "body_markdown"],
+          "additionalProperties": false,
+          "properties": {
+            "title": { "type": "string", "maxLength": 200 },
+            "subtitle": { "type": "string", "maxLength": 400 },
+            "body_markdown": { "type": "string", "minLength": 1, "maxLength": 200000 },
+            "cover_image_uri": { "type": "string", "format": "uri" },
+            "diagram_uri": { "type": "string", "format": "uri" }
+          }
+        }
+      }
+    },
+    "anchors": {
+      "type": "object",
+      "description": "Cross-references to constitutional anchors. Audit-friendly.",
+      "additionalProperties": false,
+      "properties": {
+        "axioms": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^(LEX-(I|II|III|IV|V|VI|VII|VIII|IX|X)|AX-[0-9]+|RR-[0-9A-Za-z-]+|A-[A-Z]|LIQ-[0-9]+)$"
+          },
+          "description": "Identifiers of constitutional anchors cited by this emission."
+        },
+        "irf_ids": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^IRF-[A-Z]{2,4}-[0-9]{3,5}$" }
+        },
+        "beacon_ids": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^(BEACON|TBP)(-[A-Z]+)?-[0-9]{3,5}$" }
+        },
+        "reprwa_candidates": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^P-[0-9]{3}$|^SPEC-P-[0-9]{3}$" }
+        }
+      }
+    },
+    "replaces": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{12}$",
+      "description": "Optional emission_id of a prior emission this amends. Both rows persist; downstream queries decide which to display."
+    },
+    "producers": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "description": "Provenance. Examples: '@4444J99', 'claude-opus-4-7', 'codex-cloud-agent-2026-05-18'."
+    },
+    "signed": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether this record carries a valid signature."
+    },
+    "signature": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "algorithm": { "type": "string", "enum": ["ed25519"] },
+        "public_key_uri": { "type": "string", "format": "uri" },
+        "value": { "type": "string", "description": "base64-encoded signature over canonical bytes." }
+      },
+      "required": ["algorithm", "public_key_uri", "value"]
+    },
+    "license_ack": {
+      "type": "string",
+      "description": "Acknowledgement of license obligations on quoted external content. Optional for purely-self-cited emissions; required if any external license-restricted material is included."
+    },
+    "private_fields_stripped": {
+      "type": "boolean",
+      "default": true,
+      "description": "Whether the ALCHEMIZE stage stripped fields tagged `private: true`. Should be true for distributed emissions."
+    }
+  },
+  "$defs": {
+    "Tetradic": {
+      "type": "object",
+      "description": "Sub-schema for the per-repo `seed.yaml.beacon` block. Referenced as the seed-extension-v1.1 contract.",
+      "required": ["telos_brief", "pragma_state", "praxis_vector", "receptio_log_uri"],
+      "additionalProperties": false,
+      "properties": {
+        "telos_brief": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000,
+          "description": "One-paragraph statement of this repo's idealized form. SHOULD reference docs/logos/telos.md."
+        },
+        "pragma_state": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000,
+          "description": "One-paragraph honest summary of current state. Cite specific artefacts."
+        },
+        "praxis_vector": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 5,
+          "items": { "type": "string", "minLength": 1, "maxLength": 200 }
+        },
+        "receptio_log_uri": {
+          "type": "string",
+          "format": "uri"
+        },
+        "polarity": {
+          "type": "string",
+          "enum": ["formal", "aesthetic", "mixed"],
+          "default": "mixed"
+        },
+        "reach_radius": {
+          "type": "string",
+          "enum": ["local", "organ", "system", "public"],
+          "default": "system"
+        },
+        "frequency_hz": {
+          "type": "string",
+          "enum": ["weekly", "biweekly", "monthly", "annual"],
+          "default": "biweekly"
+        },
+        "last_emission_at": {
+          "anyOf": [
+            { "type": "null" },
+            { "type": "string", "format": "date-time" }
+          ]
+        },
+        "roles": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "praxis_owner": { "type": ["string", "null"] },
+            "receptio_steward": { "type": ["string", "null"] },
+            "beacon_maintainer": { "type": ["string", "null"] },
+            "tether_observer": { "type": ["string", "null"] }
+          }
+        },
+        "signing": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "public_key_uri": { "type": ["string", "null"], "format": "uri" },
+            "enforce": { "type": "boolean", "default": false }
+          }
+        }
+      }
+    }
+  }
+}
