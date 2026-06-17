@@ -99,8 +99,10 @@ def main(argv: list[str] | None = None) -> int:
         bad = "organ: Meta\nrepo: x\norg: meta-organvm\nconsumes:\n  id: organ/repo\n"
         with tempfile.TemporaryDirectory() as d:
             g, b = os.path.join(d, "g.yaml"), os.path.join(d, "b.yaml")
-            open(g, "w").write(good)
-            open(b, "w").write(bad)
+            with open(g, "w", encoding="utf-8") as fh:
+                fh.write(good)
+            with open(b, "w", encoding="utf-8") as fh:
+                fh.write(bad)
             assert validate(g) == 0, "valid seed should pass"
             assert validate(b) == 1, "non-list consumes should fail"
         print("self-test OK")
