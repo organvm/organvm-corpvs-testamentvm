@@ -1,0 +1,65 @@
+# Reusable aesthetic-guard workflow (GH#102).
+# ORGAN-III repos call this on pull_request:
+#
+#   jobs:
+#     aesthetic:
+#       uses: a-organvm/organvm-corpvs-testamentvm/.github/workflows/reusable-aesthetic-guard.yml@main
+#       with:
+#         config: .github/organ-aesthetic.yaml
+#         mode: error
+#
+# The consuming repo supplies its own `.github/organ-aesthetic.yaml` (the palette
+# + typography source of truth). The linter engine ships in this corpus.
+name: reusable-aesthetic-guard
+
+on:
+  workflow_call:
+    inputs:
+      config:
+        description: "Path to organ-aesthetic.yaml in the CALLING repo."
+        type: string
+        required: false
+        default: ".github/organ-aesthetic.yaml"
+      globs:
+        description: "Newline-separated source globs."
+        type: string
+        required: false
+        default: ""
+      mode:
+        description: "'error' or 'warn'."
+        type: string
+        required: false
+        default: "error"
+
+permissions:
+  contents: read
+
+jobs:
+  aesthetic-guard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout calling repo
+        uses: actions/checkout@v4
+      - name: Checkout aesthetic-guard engine
+        uses: actions/checkout@v4
+        with:
+          repository: a-organvm/organvm-corpvs-testamentvm
+          path: .aesthetic-guard-engine
+          ref: main
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install PyYAML
+        run: python -m pip install --quiet pyyaml
+      - name: Run aesthetic-guard
+        env:
+          AG_CONFIG: ${{ inputs.config }}
+          AG_MODE: ${{ inputs.mode }}
+          AG_GLOBS: ${{ inputs.globs }}
+        run: |
+          args=(--config "$AG_CONFIG" --mode "$AG_MODE")
+          if [ -n "$AG_GLOBS" ]; then
+            while IFS= read -r g; do [ -n "$g" ] && args+=(--glob "$g"); done <<< "$AG_GLOBS"
+          fi
+          python .aesthetic-guard-engine/scripts/aesthetic_guard.py "${args[@]}"

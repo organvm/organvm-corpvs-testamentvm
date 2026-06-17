@@ -1,0 +1,38 @@
+# Reusable Registry Gate template (GH#94, Template 4: Registry Gate).
+# Validates a repo's seed.yaml contract on pull_request. Calling repo:
+#   jobs:
+#     gate:
+#       uses: a-organvm/organvm-corpvs-testamentvm/.github/workflows/reusable-registry-gate.yml@main
+#       with:
+#         seed: seed.yaml
+name: reusable-registry-gate
+
+on:
+  workflow_call:
+    inputs:
+      seed:
+        type: string
+        required: false
+        default: "seed.yaml"
+
+permissions:
+  contents: read
+
+jobs:
+  registry-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout calling repo
+        uses: actions/checkout@v4
+      - name: Checkout gate engine
+        uses: actions/checkout@v4
+        with:
+          repository: a-organvm/organvm-corpvs-testamentvm
+          path: .registry-gate-engine
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --quiet pyyaml
+      - name: Validate seed.yaml
+        run: python .registry-gate-engine/scripts/seed_gate.py --seed "${{ inputs.seed }}"

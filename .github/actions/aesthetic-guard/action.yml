@@ -1,0 +1,40 @@
+name: "Aesthetic Guard"
+description: "Lint CSS/Tailwind color & typography usage against an organ-aesthetic.yaml palette contract (ORGAN-III). Resolves GH#102."
+inputs:
+  config:
+    description: "Path to the organ-aesthetic.yaml palette/typography contract."
+    required: false
+    default: ".github/organ-aesthetic.yaml"
+  globs:
+    description: "Newline-separated source globs to scan. Empty => sensible web defaults."
+    required: false
+    default: ""
+  mode:
+    description: "'error' (fail the check on violations) or 'warn' (annotate only)."
+    required: false
+    default: "error"
+runs:
+  using: "composite"
+  steps:
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+    - name: Install PyYAML
+      shell: bash
+      run: python -m pip install --quiet pyyaml
+    - name: Run aesthetic-guard
+      shell: bash
+      env:
+        AG_CONFIG: ${{ inputs.config }}
+        AG_MODE: ${{ inputs.mode }}
+        AG_GLOBS: ${{ inputs.globs }}
+      run: |
+        # The linter script ships in this corpus repo; consuming repos call the
+        # reusable workflow which checks the corpus out at a pinned ref.
+        SCRIPT="${AESTHETIC_GUARD_SCRIPT:-scripts/aesthetic_guard.py}"
+        args=(--config "$AG_CONFIG" --mode "$AG_MODE")
+        if [ -n "$AG_GLOBS" ]; then
+          while IFS= read -r g; do [ -n "$g" ] && args+=(--glob "$g"); done <<< "$AG_GLOBS"
+        fi
+        python "$SCRIPT" "${args[@]}"

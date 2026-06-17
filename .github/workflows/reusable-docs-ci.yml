@@ -1,0 +1,45 @@
+# Reusable Documentation CI template (GH#94, Template 3: Documentation CI).
+# Markdown lint + link check. Calling repo:
+#   jobs:
+#     docs:
+#       uses: a-organvm/organvm-corpvs-testamentvm/.github/workflows/reusable-docs-ci.yml@main
+name: reusable-docs-ci
+
+on:
+  workflow_call:
+    inputs:
+      paths:
+        description: "Glob of markdown to lint."
+        type: string
+        required: false
+        default: "**/*.md"
+      link-check:
+        description: "Run the link checker (lychee)."
+        type: boolean
+        required: false
+        default: true
+      fail-on-broken-links:
+        description: "Fail the job on broken links (false => report only)."
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  docs-ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Markdown lint
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: ${{ inputs.paths }}
+        continue-on-error: true
+      - name: Link check (lychee)
+        if: ${{ inputs.link-check }}
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: "--no-progress --max-concurrency 4 ${{ inputs.paths }}"
+          fail: ${{ inputs.fail-on-broken-links }}

@@ -1,0 +1,55 @@
+# Reusable TypeScript CI template (GH#94, Template 2: TypeScript CI).
+# Calling repo:
+#   jobs:
+#     ci:
+#       uses: a-organvm/organvm-corpvs-testamentvm/.github/workflows/reusable-typescript-ci.yml@main
+#       with:
+#         node-version: "20"
+name: reusable-typescript-ci
+
+on:
+  workflow_call:
+    inputs:
+      node-version:
+        type: string
+        required: false
+        default: "20"
+      working-directory:
+        type: string
+        required: false
+        default: "."
+      package-manager:
+        description: "npm | pnpm | yarn"
+        type: string
+        required: false
+        default: "npm"
+
+permissions:
+  contents: read
+
+jobs:
+  typescript-ci:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ${{ inputs.working-directory }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ inputs.node-version }}
+          cache: ${{ inputs.package-manager }}
+      - name: Install
+        run: |
+          case "${{ inputs.package-manager }}" in
+            pnpm) corepack enable && pnpm install --frozen-lockfile ;;
+            yarn) corepack enable && yarn install --frozen-lockfile ;;
+            *)    npm ci ;;
+          esac
+      - name: Lint (eslint, if configured)
+        run: npm run lint --if-present
+      - name: Typecheck (tsc)
+        run: |
+          if [ -f tsconfig.json ]; then npx --no-install tsc --noEmit || npx tsc --noEmit; fi
+      - name: Test (if configured)
+        run: npm test --if-present

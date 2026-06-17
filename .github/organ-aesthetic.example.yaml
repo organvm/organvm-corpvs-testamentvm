@@ -1,0 +1,27 @@
+# organ-aesthetic.yaml (EXAMPLE) — palette & typography contract for the aesthetic-guard (GH#102).
+#
+# The real contract lives in each organ's `.github/organ-aesthetic.yaml`
+# (source of truth: organvm-iii-ergon/.github/organ-aesthetic.yaml). This example
+# documents the schema the `scripts/aesthetic_guard.py` linter enforces and is
+# the content-side counterpart to the aesthetic nervous system
+# (see essay-2-aesthetic-nervous-system.md).
+palette:
+  # Hex colors permitted anywhere in CSS/SCSS/Tailwind/JSX source.
+  # Anything outside this set raises an annotation. #RGB is normalized to #RRGGBB.
+  allowed:
+    - "#0A0A0A"   # ink
+    - "#FAFAFA"   # paper
+    - "#FFFFFF"   # white
+    - "#1565C0"   # ORGAN-III signal blue (commerce)
+    - "#C62828"   # alert
+  # Tokens exempt from palette enforcement (keywords, design-system variables).
+  tolerate:
+    - "transparent"
+    - "currentColor"
+
+typography:
+  # Permitted PRIMARY font-family names (first entry in a font stack).
+  allowed_fonts:
+    - "Inter"
+    - "JetBrains Mono"
+    - "system-ui"
