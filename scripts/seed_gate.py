@@ -65,16 +65,30 @@ def validate(path: str) -> int:
                 annotate("error", path, f"{section}[{i}] must be a mapping, got {type(edge).__name__}")
                 violations += 1
                 continue
-            # An edge is identified by `type` (the internal seed/v1.0 form) or by
-            # `id` (the external-dependency form in standard 29, e.g. id: stripe +
-            # source: EXTERNAL). Require at least one identifier.
-            if not edge.get("type") and not edge.get("id"):
-                annotate("error", path,
-                         f"{section}[{i}] needs a 'type' (internal edge) or 'id' (external edge, standard 29)")
+            # Edge identifier rules:
+            #  - internal edge: a `type` (seed/v1.0), or an org/repo reference in
+            #    `id`/`from` (contains '/')
+            #  - external edge (standard 29): a service `id` WITH source: EXTERNAL
+            # A bare service `id` without source: EXTERNAL is rejected — it would
+            # otherwise vanish from external-dependency tracking (standard 29).
+            edge_id = edge.get("id")
+            edge_from = edge.get("from")
+            src = edge.get("source")
+            is_external = isinstance(src, str) and src.upper() == "EXTERNAL"
+            repo_ref = next((v for v in (edge_id, edge_from) if isinstance(v, str) and "/" in v), None)
+            if not edge.get("type") and not repo_ref and not (edge_id and is_external):
+                if isinstance(edge_id, str) and not is_external:
+                    annotate("error", path,
+                             f"{section}[{i}] service id '{edge_id}' must declare source: EXTERNAL (standard 29), "
+                             f"or use a 'type'/org-repo id for an internal edge")
+                else:
+                    annotate("error", path,
+                             f"{section}[{i}] needs a 'type' (internal), an org/repo id|from (internal), "
+                             f"or an id + source: EXTERNAL (external)")
                 violations += 1
-            # self-reference detection across consumers/source/consumer fields
+            # self-reference detection across consumers / source / consumer / from / id
             refs = []
-            for v in (edge.get("consumers"), edge.get("source"), edge.get("consumer")):
+            for v in (edge.get("consumers"), src, edge.get("consumer"), edge_from, edge_id):
                 if isinstance(v, str):
                     refs.append(v)
                 elif isinstance(v, list):
@@ -109,17 +123,18 @@ def main(argv: list[str] | None = None) -> int:
         )
         bad = "organ: Meta\nrepo: x\norg: meta-organvm\nconsumes:\n  id: organ/repo\n"
         selfref = "organ: Meta\nrepo: x\norg: meta-organvm\nconsumes:\n  - type: t\n    source: meta-organvm/x\n"
+        idservice = "organ: Meta\nrepo: x\norg: meta-organvm\nconsumes:\n  - id: stripe\n    kind: payments\n"
+        fromref = "organ: Meta\nrepo: x\norg: meta-organvm\nconsumes:\n  - type: t\n    from: META-ORGANVM/x\n"
         with tempfile.TemporaryDirectory() as d:
-            g, b, s = os.path.join(d, "g.yaml"), os.path.join(d, "b.yaml"), os.path.join(d, "s.yaml")
-            with open(g, "w", encoding="utf-8") as fh:
-                fh.write(good)
-            with open(b, "w", encoding="utf-8") as fh:
-                fh.write(bad)
-            with open(s, "w", encoding="utf-8") as fh:
-                fh.write(selfref)
-            assert validate(g) == 0, "valid seed (incl. external edge) should pass"
-            assert validate(b) == 1, "non-list consumes should fail"
-            assert validate(s) == 1, "self-reference should fail"
+            paths = {k: os.path.join(d, f"{k}.yaml") for k in ("g", "b", "s", "isv", "fr")}
+            for k, content in (("g", good), ("b", bad), ("s", selfref), ("isv", idservice), ("fr", fromref)):
+                with open(paths[k], "w", encoding="utf-8") as fh:
+                    fh.write(content)
+            assert validate(paths["g"]) == 0, "valid seed (incl. external edge) should pass"
+            assert validate(paths["b"]) == 1, "non-list consumes should fail"
+            assert validate(paths["s"]) == 1, "self-reference should fail"
+            assert validate(paths["isv"]) == 1, "bare service id without source: EXTERNAL should fail"
+            assert validate(paths["fr"]) == 1, "case-insensitive 'from' self-reference should fail"
         print("self-test OK")
         return 0
     if not os.path.exists(args.seed):

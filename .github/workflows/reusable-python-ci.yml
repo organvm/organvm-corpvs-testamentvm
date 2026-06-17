@@ -31,9 +31,8 @@ permissions:
 jobs:
   python-ci:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ${{ inputs.working-directory }}
+    # NB: working-directory is applied per run-step below — `defaults.run` does not
+    # support contexts/expressions.
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -41,6 +40,7 @@ jobs:
           python-version: ${{ inputs.python-version }}
           cache: pip
       - name: Install
+        working-directory: ${{ inputs.working-directory }}
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
@@ -50,8 +50,10 @@ jobs:
           if [ -f pyproject.toml ]; then pip install -e ".[dev]"; fi
           pip install ruff pytest pytest-cov
       - name: Lint (ruff)
+        working-directory: ${{ inputs.working-directory }}
         run: ruff check .
       - name: Test (pytest + coverage)
+        working-directory: ${{ inputs.working-directory }}
         env:
           COV_THRESHOLD: ${{ inputs.coverage-threshold }}
         run: |

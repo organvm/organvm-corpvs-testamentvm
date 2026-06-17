@@ -11,6 +11,15 @@ This is the engine behind the reusable `aesthetic-guard` Action
 those; the palette/typography source of truth is the repo's own
 `.github/organ-aesthetic.yaml`.
 
+Scope & limitations (by design — this is a lightweight heuristic, not an AST/CSS
+engine): it checks hex-literal colors and font-family declarations (CSS,
+JS/JSX `fontFamily`, and Tailwind theme objects). It does NOT resolve Tailwind
+*utility classes* (e.g. `bg-red-500`, `text-sky-600`) against the palette —
+mapping the full Tailwind default palette would require encoding Tailwind's
+theme and is prone to false positives; that enforcement belongs to a Tailwind-
+aware linter (e.g. `eslint-plugin-tailwindcss` with a restricted theme). The
+guard validates the *declared* design tokens/contract, not every utility class.
+
 Contract schema (organ-aesthetic.yaml):
 
     palette:
@@ -124,6 +133,11 @@ def check_file(fp: str, contract: dict) -> int:
     def check_fonts(names: list[str], ln: int) -> None:
         nonlocal violations
         for name in names:
+            # Skip CSS custom properties / design tokens (e.g. var(--font-body)):
+            # the real stack lives in the token definition, which is validated where
+            # it is declared, not at each use site.
+            if name.startswith("var(") or name.startswith("--"):
+                continue
             if name and name not in allowed_fonts and name not in tolerate:
                 annotate("error", fp, ln, f"font-family '{name}' is not in the declared font stack")
                 violations += 1

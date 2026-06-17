@@ -30,9 +30,8 @@ permissions:
 jobs:
   typescript-ci:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ${{ inputs.working-directory }}
+    # NB: working-directory is applied per run-step below. `defaults.run` does not
+    # support contexts/expressions, so the input is referenced on each step.
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -46,6 +45,7 @@ jobs:
           # subdirectory projects (e.g. frontend/package-lock.json) cache correctly.
           cache-dependency-path: ${{ inputs.package-manager == 'npm' && format('{0}/package-lock.json', inputs.working-directory) || '' }}
       - name: Install
+        working-directory: ${{ inputs.working-directory }}
         env:
           PM: ${{ inputs.package-manager }}
         run: |
@@ -55,6 +55,7 @@ jobs:
             *)    npm ci ;;
           esac
       - name: Lint / Typecheck / Test
+        working-directory: ${{ inputs.working-directory }}
         env:
           PM: ${{ inputs.package-manager }}
         run: |
@@ -63,5 +64,6 @@ jobs:
           has_script() { node -e "process.exit(((require('./package.json').scripts||{})['$1'])?0:1)" 2>/dev/null; }
           run_script() { if has_script "$1"; then echo "→ $PM run $1"; "$PM" run "$1"; else echo "skip: no '$1' script"; fi; }
           run_script lint
-          if [ -f tsconfig.json ]; then "$PM" exec tsc --noEmit || npx --no-install tsc --noEmit; fi
+          # `--` forwards --noEmit to tsc rather than letting npm/pnpm consume it.
+          if [ -f tsconfig.json ]; then "$PM" exec -- tsc --noEmit || npx --no-install tsc --noEmit; fi
           run_script test
