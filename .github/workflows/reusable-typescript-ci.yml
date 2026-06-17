@@ -40,8 +40,10 @@ jobs:
           node-version: ${{ inputs.node-version }}
           cache: ${{ inputs.package-manager }}
       - name: Install
+        env:
+          PM: ${{ inputs.package-manager }}
         run: |
-          case "${{ inputs.package-manager }}" in
+          case "$PM" in
             pnpm) corepack enable && pnpm install --frozen-lockfile ;;
             yarn) corepack enable && yarn install --frozen-lockfile ;;
             *)    npm ci ;;

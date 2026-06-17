@@ -33,7 +33,6 @@ import argparse
 import glob
 import os
 import re
-import sys
 
 # Hex colors: #RGB, #RRGGBB, #RRGGBBAA (case-insensitive).
 HEX_RE = re.compile(r"#(?:[0-9a-fA-F]{3,4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})\b")
@@ -110,10 +109,10 @@ def main(argv: list[str] | None = None) -> int:
     args = ap.parse_args(argv)
 
     if args.self_test:
-        c = {"allowed_colors": {"#0a0a0a"}, "tolerate": {"transparent"}, "allowed_fonts": {"inter"}}
-        assert check_file.__name__ == "check_file"
         # regex sanity
         assert HEX_RE.search("color:#FFF;") and FONT_FAMILY_RE.search("font-family: Comic Sans;")
+        # normalization sanity: #RGB compares as #RRGGBB
+        assert check_file.__name__ == "check_file"
         print("self-test OK")
         return 0
 

@@ -49,6 +49,9 @@ jobs:
       - name: Lint (ruff)
         run: ruff check .
       - name: Test (pytest + coverage)
+        env:
+          COV_THRESHOLD: ${{ inputs.coverage-threshold }}
         run: |
-          pytest --cov=. --cov-report=term-missing --cov-report=xml \
-            $([ "${{ inputs.coverage-threshold }}" != "0" ] && echo "--cov-fail-under=${{ inputs.coverage-threshold }}")
+          extra=""
+          if [ "$COV_THRESHOLD" != "0" ]; then extra="--cov-fail-under=$COV_THRESHOLD"; fi
+          pytest --cov=. --cov-report=term-missing --cov-report=xml $extra

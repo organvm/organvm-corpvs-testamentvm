@@ -35,4 +35,6 @@ jobs:
           python-version: "3.12"
       - run: python -m pip install --quiet pyyaml
       - name: Validate seed.yaml
-        run: python .registry-gate-engine/scripts/seed_gate.py --seed "${{ inputs.seed }}"
+        env:
+          SEED: ${{ inputs.seed }}
+        run: python .registry-gate-engine/scripts/seed_gate.py --seed "$SEED"
