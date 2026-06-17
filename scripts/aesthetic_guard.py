@@ -36,10 +36,22 @@ import re
 
 # Hex colors: #RGB, #RRGGBB, #RRGGBBAA (case-insensitive).
 HEX_RE = re.compile(r"#(?:[0-9a-fA-F]{3,4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})\b")
-# font-family declarations in CSS / inline styles / Tailwind theme config.
-FONT_FAMILY_RE = re.compile(r"font-family\s*:\s*([^;}{]+)", re.IGNORECASE)
-DEFAULT_GLOBS = ["**/*.css", "**/*.scss", "**/*.sass", "**/*.jsx", "**/*.tsx", "**/*.vue", "**/*.svelte"]
+# font-family declarations in CSS (`font-family:`) and JS/JSX/Tailwind (`fontFamily:`).
+FONT_FAMILY_RE = re.compile(r"font-?[fF]amily\s*:\s*([^;}{]+)", re.IGNORECASE)
+DEFAULT_GLOBS = [
+    "**/*.css", "**/*.scss", "**/*.sass", "**/*.jsx", "**/*.tsx", "**/*.vue", "**/*.svelte",
+    # Tailwind config is where palettes & font stacks are most often declared.
+    "**/tailwind.config.js", "**/tailwind.config.cjs", "**/tailwind.config.mjs", "**/tailwind.config.ts",
+]
 SKIP_DIRS = {"node_modules", ".git", "dist", "build", ".next", "out", "coverage", "vendor"}
+
+
+def norm_hex(hexv: str) -> str:
+    """Normalize #RGB / #RGBA shorthand to #RRGGBB(AA), lowercased, for comparison."""
+    hexv = hexv.lower()
+    if len(hexv) in (4, 5):  # #RGB or #RGBA
+        hexv = "#" + "".join(ch * 2 for ch in hexv[1:])
+    return hexv
 
 
 def load_contract(path: str) -> dict:
@@ -50,7 +62,9 @@ def load_contract(path: str) -> dict:
     palette = (data.get("palette") or {})
     typo = (data.get("typography") or {})
     return {
-        "allowed_colors": {c.lower() for c in (palette.get("allowed") or [])},
+        # Normalize palette entries so a contract that allows shorthand (#FFF)
+        # still matches expanded usage (#ffffff) and vice-versa.
+        "allowed_colors": {norm_hex(c) for c in (palette.get("allowed") or [])},
         "tolerate": {t.lower() for t in (palette.get("tolerate") or [])}
         | {"transparent", "currentcolor", "inherit", "initial", "unset", "none"},
         "allowed_fonts": {f.strip().strip("'\"").lower() for f in (typo.get("allowed_fonts") or [])},
@@ -80,10 +94,7 @@ def check_file(fp: str, contract: dict) -> int:
     with open(fp, "r", encoding="utf-8", errors="replace") as fh:
         for n, line in enumerate(fh, start=1):
             for m in HEX_RE.finditer(line):
-                hexv = m.group(0).lower()
-                # normalize #RGB -> #RRGGBB for comparison
-                if len(hexv) == 4:
-                    hexv = "#" + "".join(ch * 2 for ch in hexv[1:])
+                hexv = norm_hex(m.group(0))
                 if allowed_colors and hexv not in allowed_colors:
                     annotate("error", fp, n, f"color {m.group(0)} is not in the declared palette")
                     violations += 1

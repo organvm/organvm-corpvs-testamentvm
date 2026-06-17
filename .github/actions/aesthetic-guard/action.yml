@@ -30,9 +30,11 @@ runs:
         AG_MODE: ${{ inputs.mode }}
         AG_GLOBS: ${{ inputs.globs }}
       run: |
-        # The linter script ships in this corpus repo; consuming repos call the
-        # reusable workflow which checks the corpus out at a pinned ref.
-        SCRIPT="${AESTHETIC_GUARD_SCRIPT:-scripts/aesthetic_guard.py}"
+        # Resolve the linter from the ACTION's own checkout (not the caller's
+        # workspace): GITHUB_ACTION_PATH points at this action dir
+        # (<repo>/.github/actions/aesthetic-guard), so the engine is three levels up.
+        DEFAULT_SCRIPT="$GITHUB_ACTION_PATH/../../../scripts/aesthetic_guard.py"
+        SCRIPT="${AESTHETIC_GUARD_SCRIPT:-$DEFAULT_SCRIPT}"
         args=(--config "$AG_CONFIG" --mode "$AG_MODE")
         if [ -n "$AG_GLOBS" ]; then
           while IFS= read -r g; do [ -n "$g" ] && args+=(--glob "$g"); done <<< "$AG_GLOBS"

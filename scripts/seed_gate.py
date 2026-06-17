@@ -1,38 +1,33 @@
 #!/usr/bin/env python3
 """seed_gate.py — seed.yaml contract validator (GH#94 Template 4: Registry Gate).
 
-Validates a repo's seed.yaml against the structural contract:
-  - required top-level keys present (id, organ)
-  - produces/consumes are lists of edges with an `id`
-  - no self-dependency (a repo may not consume its own id)
-  - external edges are correctly marked (`source: EXTERNAL`) and are EXEMPT from
-    intra-system acyclicity expectations (per docs/standards/29-external-dependency-policy.md)
+Validates a repo's seed.yaml against the seed/v1.0 contract as it actually exists
+in this ecosystem (see the repo-root seed.yaml and scripts/generate-seed-yaml.py):
+
+  - identity keys present: organ, repo, org  (schema_version recommended)
+  - produces / consumes (if present) MUST be lists of edge mappings, each with a
+    `type`; a mapping or scalar in those slots is a malformed section, not an edge
+  - no self-reference (a repo may not list its own org/repo as a consumer/source)
+  - external edges use the additive `source: EXTERNAL` marker
+    (docs/standards/29-external-dependency-policy.md) and are recognised as such;
+    ORGAN-name sources (e.g. source: ORGAN-IV) are the normal internal form
 
 This is the engine for the reusable-registry-gate workflow. It is deliberately
 schema-light (the authoritative JSON Schema lives in schema-definitions); it
-enforces the invariants that every organ repo must satisfy regardless of schema
-version. Emits GitHub Actions annotations; exit 1 on violation.
+enforces the structural invariants every organ repo must satisfy. Emits GitHub
+Actions annotations; exit 1 on violation.
 """
 from __future__ import annotations
 
 import argparse
 import os
 
-REQUIRED = ("id", "organ")
+REQUIRED = ("organ", "repo", "org")
+EDGE_SECTIONS = ("produces", "consumes", "implements", "subscriptions")
 
 
 def annotate(level: str, file: str, msg: str) -> None:
     print(f"::{level} file={file}::{msg}")
-
-
-def edge_ids(node) -> list[tuple[str, dict]]:
-    out = []
-    for e in node or []:
-        if isinstance(e, str):
-            out.append((e, {}))
-        elif isinstance(e, dict):
-            out.append((e.get("id", ""), e))
-    return out
 
 
 def validate(path: str) -> int:
@@ -50,26 +45,40 @@ def validate(path: str) -> int:
             annotate("error", path, f"missing required key: {key}")
             violations += 1
 
-    me = data.get("id", "")
-    for direction in ("produces", "consumes"):
-        for eid, meta in edge_ids(data.get(direction)):
-            if not eid:
-                annotate("error", path, f"{direction}: edge missing 'id'")
+    me_repo = data.get("repo", "")
+    me_org = data.get("org", "")
+    me_full = f"{me_org}/{me_repo}" if me_org and me_repo else ""
+
+    for section in ("produces", "consumes"):
+        if section not in data or data[section] is None:
+            continue
+        node = data[section]
+        if not isinstance(node, list):
+            annotate("error", path,
+                     f"'{section}' must be a list of edges, got {type(node).__name__} "
+                     f"— a mapping or scalar here is a malformed section")
+            violations += 1
+            continue
+        for i, edge in enumerate(node):
+            if not isinstance(edge, dict):
+                annotate("error", path, f"{section}[{i}] must be a mapping, got {type(edge).__name__}")
                 violations += 1
                 continue
-            if direction == "consumes" and eid == me:
-                annotate("error", path, f"self-dependency: consumes its own id '{eid}'")
+            if not edge.get("type"):
+                annotate("error", path, f"{section}[{i}] missing 'type'")
                 violations += 1
-            # external edges must self-declare; internal edges must not borrow EXTERNAL
-            src = (meta.get("source") or "").upper() if isinstance(meta, dict) else ""
-            looks_internal = "/" in eid  # org/repo form = internal system edge
-            if src == "EXTERNAL" and looks_internal:
-                annotate("warning", path,
-                         f"edge '{eid}' marked source:EXTERNAL but looks internal (org/repo form)")
-            if src != "EXTERNAL" and not looks_internal and direction == "consumes":
-                annotate("warning", path,
-                         f"edge '{eid}' is bare (not org/repo) and not marked source:EXTERNAL "
-                         f"— if this is a third-party service, add source: EXTERNAL (see standard 29)")
+            # self-reference detection across consumers/source/consumer fields
+            refs = []
+            for v in (edge.get("consumers"), edge.get("source"), edge.get("consumer")):
+                if isinstance(v, str):
+                    refs.append(v)
+                elif isinstance(v, list):
+                    refs.extend(x for x in v if isinstance(x, str))
+            for r in refs:
+                if r.upper() == "EXTERNAL":
+                    continue  # recognised external-dependency marker (standard 29)
+                if me_full and r == me_full:
+                    annotate("warning", path, f"{section}[{i}] self-reference: '{r}'")
 
     if violations:
         annotate("error", path, f"registry-gate: {violations} violation(s)")
@@ -84,7 +93,16 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--self-test", action="store_true")
     args = ap.parse_args(argv)
     if args.self_test:
-        assert edge_ids([{"id": "x"}, "y"]) == [("x", {"id": "x"}), ("y", {})]
+        import tempfile
+
+        good = "organ: Meta\nrepo: x\norg: meta-organvm\nconsumes:\n  - type: t\n    source: ORGAN-IV\n"
+        bad = "organ: Meta\nrepo: x\norg: meta-organvm\nconsumes:\n  id: organ/repo\n"
+        with tempfile.TemporaryDirectory() as d:
+            g, b = os.path.join(d, "g.yaml"), os.path.join(d, "b.yaml")
+            open(g, "w").write(good)
+            open(b, "w").write(bad)
+            assert validate(g) == 0, "valid seed should pass"
+            assert validate(b) == 1, "non-list consumes should fail"
         print("self-test OK")
         return 0
     if not os.path.exists(args.seed):

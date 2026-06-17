@@ -38,7 +38,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ inputs.node-version }}
-          cache: ${{ inputs.package-manager }}
+          # Only cache for npm, which is always present. pnpm/yarn are enabled via
+          # corepack in the install step (after Node exists); caching them here would
+          # run before the manager is installed, which setup-node forbids.
+          cache: ${{ inputs.package-manager == 'npm' && 'npm' || '' }}
       - name: Install
         env:
           PM: ${{ inputs.package-manager }}
@@ -48,10 +51,14 @@ jobs:
             yarn) corepack enable && yarn install --frozen-lockfile ;;
             *)    npm ci ;;
           esac
-      - name: Lint (eslint, if configured)
-        run: npm run lint --if-present
-      - name: Typecheck (tsc)
+      - name: Lint / Typecheck / Test
+        env:
+          PM: ${{ inputs.package-manager }}
         run: |
-          if [ -f tsconfig.json ]; then npx --no-install tsc --noEmit || npx tsc --noEmit; fi
-      - name: Test (if configured)
-        run: npm test --if-present
+          # Dispatch package scripts through the SELECTED manager so pnpm/yarn
+          # workspaces resolve commands from the same environment just installed.
+          has_script() { node -e "process.exit(((require('./package.json').scripts||{})['$1'])?0:1)" 2>/dev/null; }
+          run_script() { if has_script "$1"; then echo "→ $PM run $1"; "$PM" run "$1"; else echo "skip: no '$1' script"; fi; }
+          run_script lint
+          if [ -f tsconfig.json ]; then "$PM" exec tsc --noEmit || npx --no-install tsc --noEmit; fi
+          run_script test

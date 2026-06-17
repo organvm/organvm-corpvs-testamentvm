@@ -30,6 +30,11 @@ on:
         type: string
         required: false
         default: "error"
+      engine-ref:
+        description: "Ref (tag/SHA/branch) of the corpus engine to check out. Pin this to match the ref you pinned this workflow to, for reproducibility."
+        type: string
+        required: false
+        default: "main"
 
 permissions:
   contents: read
@@ -45,7 +50,7 @@ jobs:
         with:
           repository: a-organvm/organvm-corpvs-testamentvm
           path: .aesthetic-guard-engine
-          ref: main
+          ref: ${{ inputs.engine-ref }}
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
