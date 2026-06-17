@@ -29,9 +29,11 @@ Audited from `repo-registry.json` dependency fields, 2026-06-15:
 |----------------|------|--------|
 | `classroom-rpg-aetheria` | `consumes` | `organvm-iii-ergon/gamified-coach-interface` |
 
-**Finding: exactly one declared intra-ORGAN-III dependency edge exists**, and it is acyclic (a single directed edge between two repos, no return path). All other ORGAN-III dependency declarations point *out* of the organ — notably `styx-behavioral-commerce`, which consumes `organvm-i-theoria/styx-behavioral-economics-theory` and `organvm-ii-poiesis/styx-behavioral-art`. Those are legitimate **cross-organ** edges along the sanctioned I→II→III flow, not intra-organ interference.
+**Finding: exactly one declared intra-ORGAN-III dependency edge exists — and it is a remediation risk, not a healthy edge.** `classroom-rpg-aetheria` (ACTIVE/DEPLOYED) consumes `organvm-iii-ergon/gamified-coach-interface`, but that target is **ARCHIVED** ("Dissolved to materia-collider 2026-03-11" per the registry). An active product therefore depends on a dissolved sibling — a dangling intra-organ edge that should be remediated (re-point to the dissolved component's new home in `materia-collider`, inline the needed capability, or drop the dependency). This is exactly the kind of interference the audit must surface.
 
-The practical reading: today's interference is almost entirely *implicit* (bandwidth and infrastructure contention) rather than *declared* (registry edges). The single explicit edge is healthy. The risk is the undeclared contention below.
+A second ORGAN-III edge also warrants correction: `styx-behavioral-commerce` declares a dependency on `organvm-ii-poiesis/styx-behavioral-art` (and `organvm-i-theoria/styx-behavioral-economics-theory`). The II edge is **not** a sanctioned flow — `scripts/v4-dependency-validation.py` explicitly flags `organvm-iii-ergon → organvm-ii-poiesis` as a **BACK-EDGE** (the dependency points against the I→II→III order; a *consumes* edge must not run III→II). It is one of the repo's pre-existing dependency violations and should be resolved either by promoting the needed `styx-behavioral-art` output through the proper flow or by routing the dependency via the Logos Bypass (std 27) rather than a structural edge. **Teams should not treat this edge as a template for new cross-organ dependencies** — the validator will reject `III → II`.
+
+The practical reading: today's *declared* intra/cross-organ edges are few but already include one dangling-to-archived edge and one flagged back-edge; the larger interference is *implicit* (bandwidth and infrastructure contention), modeled below.
 
 ## 4. Open question — orchestration bandwidth contention
 

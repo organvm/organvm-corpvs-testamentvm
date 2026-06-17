@@ -50,16 +50,20 @@ def validate(path: str) -> int:
     # GitHub repo full-names are case-insensitive; normalize for comparison.
     me_full = f"{me_org}/{me_repo}".lower() if me_org and me_repo else ""
 
-    for section in ("produces", "consumes"):
-        if section not in data or data[section] is None:
-            continue
-        node = data[section]
-        if not isinstance(node, list):
+    # Every edge section is modelled as a list (produces/consumes/implements/
+    # subscriptions). A mapping or scalar in any of them is a malformed section.
+    for section in EDGE_SECTIONS:
+        if section in data and data[section] is not None and not isinstance(data[section], list):
             annotate("error", path,
-                     f"'{section}' must be a list of edges, got {type(node).__name__} "
+                     f"'{section}' must be a list, got {type(data[section]).__name__} "
                      f"— a mapping or scalar here is a malformed section")
             violations += 1
+
+    # Edge-identifier and self-reference checks apply to the dependency sections.
+    for section in ("produces", "consumes"):
+        if section not in data or not isinstance(data.get(section), list):
             continue
+        node = data[section]
         for i, edge in enumerate(node):
             if not isinstance(edge, dict):
                 annotate("error", path, f"{section}[{i}] must be a mapping, got {type(edge).__name__}")
@@ -125,9 +129,11 @@ def main(argv: list[str] | None = None) -> int:
         selfref = "organ: Meta\nrepo: x\norg: meta-organvm\nconsumes:\n  - type: t\n    source: meta-organvm/x\n"
         idservice = "organ: Meta\nrepo: x\norg: meta-organvm\nconsumes:\n  - id: stripe\n    kind: payments\n"
         fromref = "organ: Meta\nrepo: x\norg: meta-organvm\nconsumes:\n  - type: t\n    from: META-ORGANVM/x\n"
+        subbad = "organ: Meta\nrepo: x\norg: meta-organvm\nsubscriptions:\n  event: governance.updated\n"
         with tempfile.TemporaryDirectory() as d:
-            paths = {k: os.path.join(d, f"{k}.yaml") for k in ("g", "b", "s", "isv", "fr")}
-            for k, content in (("g", good), ("b", bad), ("s", selfref), ("isv", idservice), ("fr", fromref)):
+            paths = {k: os.path.join(d, f"{k}.yaml") for k in ("g", "b", "s", "isv", "fr", "sub")}
+            for k, content in (("g", good), ("b", bad), ("s", selfref), ("isv", idservice),
+                               ("fr", fromref), ("sub", subbad)):
                 with open(paths[k], "w", encoding="utf-8") as fh:
                     fh.write(content)
             assert validate(paths["g"]) == 0, "valid seed (incl. external edge) should pass"
@@ -135,6 +141,7 @@ def main(argv: list[str] | None = None) -> int:
             assert validate(paths["s"]) == 1, "self-reference should fail"
             assert validate(paths["isv"]) == 1, "bare service id without source: EXTERNAL should fail"
             assert validate(paths["fr"]) == 1, "case-insensitive 'from' self-reference should fail"
+            assert validate(paths["sub"]) == 1, "non-list subscriptions should fail"
         print("self-test OK")
         return 0
     if not os.path.exists(args.seed):

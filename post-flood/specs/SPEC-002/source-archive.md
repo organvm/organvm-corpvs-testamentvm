@@ -92,7 +92,7 @@ constraints they impose on subsumption. SPEC-002 attaches an OntoClean profile t
 seven primitives and uses the meta-properties as the consistency discipline of `grounding.md`
 §(a). *Open access:* Yes — the CACM article and OntoClean overviews are publicly available.
 
-### Masolo et al. (2003) — `Masolo2003` **[in bibliography.bib]**
+### Masolo et al. (2003) — `MasoloEtAl2003` **[in bibliography.bib]**
 Masolo, Claudio, Stefano Borgo, Aldo Gangemi, Nicola Guarino, and Alessandro Oltramari.
 *Ontology Library (WonderWeb Deliverable D18) — DOLCE.* ISTC-CNR, 2003.
 
@@ -197,7 +197,7 @@ PDF circulates freely.
 ## 8. Phase-F Action Items
 
 1. Add the 11 `[in bibliography.bib]` BibTeX keys to `specs/bibliography.bib`: `Simons1987`,
-   `GuarinoWelty2002`, `Masolo2003`, `ArpSmithSpear2015`, `Pierce2002`, `vonWright1951`,
+   `GuarinoWelty2002`, `MasoloEtAl2003`, `ArpSmithSpear2015`, `Pierce2002`, `vonWright1951`,
    `Ostrom2005`, `Searle1995`, `Johansson2004`, `Armstrong1978`, `Gruber1993`. Tag each with
    keyword `SPEC-002`.
 2. Spot-verify the "open access" notes against live sources before any reviewer-facing link is

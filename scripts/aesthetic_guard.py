@@ -12,13 +12,18 @@ those; the palette/typography source of truth is the repo's own
 `.github/organ-aesthetic.yaml`.
 
 Scope & limitations (by design — this is a lightweight heuristic, not an AST/CSS
-engine): it checks hex-literal colors and font-family declarations (CSS,
-JS/JSX `fontFamily`, and Tailwind theme objects). It does NOT resolve Tailwind
-*utility classes* (e.g. `bg-red-500`, `text-sky-600`) against the palette —
-mapping the full Tailwind default palette would require encoding Tailwind's
-theme and is prone to false positives; that enforcement belongs to a Tailwind-
-aware linter (e.g. `eslint-plugin-tailwindcss` with a restricted theme). The
-guard validates the *declared* design tokens/contract, not every utility class.
+engine): it checks hex-literal colors and font declarations — CSS `font-family`,
+JS/JSX `fontFamily`, Tailwind theme objects, and CSS custom-property font tokens
+(`--font-*`). It does NOT:
+  - resolve Tailwind *utility classes* (`bg-red-500`, `text-sky-600`) against the
+    palette — that requires encoding Tailwind's theme and is false-positive-prone;
+    use `eslint-plugin-tailwindcss` with a restricted theme for that.
+  - parse the CSS `font:` *shorthand* (`font: 16px 'X', sans-serif`) — isolating
+    the family from size/weight/line-height reliably needs a real CSS parser.
+The guard validates the *declared* contract/tokens and the common explicit
+font-family forms, not every possible CSS/Tailwind authoring style. For
+exhaustive enforcement, pair it with stylelint / eslint-plugin-tailwindcss in the
+consumer's own CI.
 
 Contract schema (organ-aesthetic.yaml):
 
@@ -47,8 +52,12 @@ import re
 HEX_RE = re.compile(r"#(?:[0-9a-fA-F]{3,4}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})\b")
 # font-family declarations in CSS (`font-family:`) and JS/JSX/Tailwind (`fontFamily:`).
 FONT_FAMILY_RE = re.compile(r"font-?[fF]amily\s*:\s*([^;}{]+)", re.IGNORECASE)
+# CSS custom-property font-token DEFINITIONS, e.g. `--font-body: 'Inter', sans-serif;`
+# (captures the property name and value so size/weight tokens can be excluded).
+CSS_FONT_VAR_DEF_RE = re.compile(r"(--[\w-]*font[\w-]*)\s*:\s*([^;}{]+)", re.IGNORECASE)
 DEFAULT_GLOBS = [
-    "**/*.css", "**/*.scss", "**/*.sass", "**/*.jsx", "**/*.tsx", "**/*.vue", "**/*.svelte",
+    "**/*.css", "**/*.scss", "**/*.sass",
+    "**/*.js", "**/*.ts", "**/*.jsx", "**/*.tsx", "**/*.vue", "**/*.svelte",
     # Tailwind config is where palettes & font stacks are most often declared.
     "**/tailwind.config.js", "**/tailwind.config.cjs", "**/tailwind.config.mjs", "**/tailwind.config.ts",
 ]
@@ -117,7 +126,9 @@ def primary_fonts(value: str) -> list[str]:
             return out
     quoted = re.findall(r"""['"]([^'"]+)['"]""", value)
     if quoted:
-        return [quoted[0].strip().lower()]
+        # A quoted token may itself be a CSS stack, e.g. 'Inter, sans-serif' (common
+        # in JSX inline styles) — take the primary family before the first comma.
+        return [quoted[0].split(",")[0].strip().lower()]
     first = value.split(",")[0].strip().strip("{}").strip().lower()
     return [first] if first else []
 
@@ -153,6 +164,13 @@ def check_file(fp: str, contract: dict) -> int:
                 val = fm.group(1).strip()
                 if val and not val.startswith("{"):  # object form handled below
                     check_fonts(primary_fonts(val), n)
+            # CSS custom-property font-token definitions (--font-body: 'X', y;).
+            # Only treat as a font stack when the name says "family" or the value
+            # looks like a stack (quote/comma) — so --font-size/-weight are ignored.
+            for vm in CSS_FONT_VAR_DEF_RE.finditer(line):
+                var_name, var_val = vm.group(1).lower(), vm.group(2).strip()
+                if "family" in var_name or "'" in var_val or '"' in var_val or "," in var_val:
+                    check_fonts(primary_fonts(var_val), n)
     # Object form (Tailwind theme): fontFamily: { sans: [...], ... } — single or
     # multi-line. Scanned over the whole file so the value past `{` is examined.
     if allowed_fonts:
@@ -180,6 +198,7 @@ def main(argv: list[str] | None = None) -> int:
         # primary-font extraction across CSS / quoted / array / Tailwind-object forms
         assert primary_fonts("Inter, sans-serif") == ["inter"]
         assert primary_fonts("'Comic Sans', serif") == ["comic sans"]
+        assert primary_fonts("'Inter, sans-serif'") == ["inter"]  # quoted CSS stack (JSX inline)
         assert primary_fonts("['OffContract', 'serif']") == ["offcontract"]
         assert primary_fonts(" sans: ['Inter','ui-sans'], display: ['OffContract'] ") == ["inter", "offcontract"]
         print("self-test OK")

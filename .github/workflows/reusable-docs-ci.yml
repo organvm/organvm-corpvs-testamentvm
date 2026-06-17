@@ -23,6 +23,11 @@ on:
         type: boolean
         required: false
         default: false
+      lint-warn-only:
+        description: "If true, markdown lint reports but does not fail the job (default: lint is a real gate)."
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: read
@@ -36,7 +41,9 @@ jobs:
         uses: DavidAnson/markdownlint-cli2-action@v16
         with:
           globs: ${{ inputs.paths }}
-        continue-on-error: true
+        # Lint FAILS the job by default (this is the lint gate). Opt out with
+        # lint-warn-only: true to report without failing.
+        continue-on-error: ${{ inputs.lint-warn-only }}
       - name: Link check (lychee)
         if: ${{ inputs.link-check }}
         uses: lycheeverse/lychee-action@v2
