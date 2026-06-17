@@ -9,8 +9,8 @@
   "source": "Audit of 8 GitHub orgs (organvm-i-theoria through organvm-vii-kerygma + meta-organvm) + personal account 4444J99 + local repos",
   "project_status": "ORGAN-RESET 2026-03-11. Dissolved 53 boilerplate repos into materia-collider. Styx-first pipeline hardening: first product to traverse full I\u2192II\u2192III\u2192IV\u2192V\u2192VI\u2192VII chain. Previous: PROPULSIO MAXIMA Sprint 2026-02-24.",
   "summary": {
-    "total_repos": 148,
-    "total_repos_note": "145 registry entries. Reconciliation Sprint 2026-04-14: 15 repos mass-registered + portfolio in PERSONAL. Previous: 129 entries. 4444J99/hokage-chess registered as PERSONAL 2026-04-25 (client engagement for Rob Bonavoglia).",
+    "total_repos": 150,
+    "total_repos_note": "145 registry entries. Reconciliation Sprint 2026-04-14: 15 repos mass-registered + portfolio in PERSONAL. Previous: 129 entries. 4444J99/hokage-chess registered as PERSONAL 2026-04-25 (client engagement for Rob Bonavoglia). 2026-06-15: ergon-prime--business-orchestrator registered (GH#100) → 150.",
     "operational_organs": 8,
     "completion_at_launch": "Platinum Sprint COMPLETE 2026-02-11 \u2014 65 repos with CI workflows, standardized badge rows, CHANGELOGs, ADRs. 17 meta-system essays (~70K words). ~339K total words.",
     "total_organizations": 8,

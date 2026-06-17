@@ -63,8 +63,8 @@ This keeps each product a single coherent repo while letting the organ amortize 
 
 **Both kinds of edge obey acyclicity; the difference is scope, not rule.**
 
-- **Cross-organ edges** follow the global directional law I→II→III with no back-edges (ADR-005). `styx-behavioral-commerce → ORGAN-I/ORGAN-II` is the canonical example: commerce consuming theory and art, never the reverse.
-- **Intra-organ edges** (product → product within ORGAN-III) are *permitted* but constrained by the same acyclicity requirement: they must not create a cycle among ORGAN-III repos. The lone existing edge (`classroom-rpg-aetheria → gamified-coach-interface`, §3) is acyclic and therefore valid.
+- **Cross-organ edges** follow the global directional law and are validated by `scripts/v4-dependency-validation.py`. A commerce product consuming **theory** is the valid example: `styx-behavioral-commerce → organvm-i-theoria/styx-behavioral-economics-theory` (III→I) passes the gate. **Not every upstream edge is allowed**, though: that same repo's declared `→ organvm-ii-poiesis/styx-behavioral-art` (III→II) is **flagged as a back-edge** by v4 (see §3) and must be remediated — do not copy it as a template.
+- **Intra-organ edges** (product → product within ORGAN-III) are *permitted* but constrained by the same acyclicity requirement: they must not create a cycle among ORGAN-III repos (and must not point at an ARCHIVED target, as §3's dangling `classroom-rpg-aetheria → gamified-coach-interface` edge shows).
 
 There is no separate "intra-organ rule" — there is one acyclicity invariant applied at two scopes. An acyclicity validator treats the whole declared graph (minus `source: EXTERNAL` edges, per std 29 §5) uniformly. Practically: a new intra-ORGAN-III edge is fine as long as it does not let product A transitively depend on itself through product B.
 

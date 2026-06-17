@@ -80,7 +80,14 @@ def validate(path: str) -> int:
             src = edge.get("source")
             is_external = isinstance(src, str) and src.upper() == "EXTERNAL"
             repo_ref = next((v for v in (edge_id, edge_from) if isinstance(v, str) and "/" in v), None)
-            if not edge.get("type") and not repo_ref and not (edge_id and is_external):
+            # An external edge MUST carry a service `id` (standard 29's external index
+            # keys on it) — a `type` alone does not make it queryable, even though it
+            # would otherwise satisfy the identifier check below.
+            if is_external and not edge_id:
+                annotate("error", path,
+                         f"{section}[{i}] source: EXTERNAL edge needs a service 'id' (standard 29), not just a 'type'")
+                violations += 1
+            elif not edge.get("type") and not repo_ref and not (edge_id and is_external):
                 if isinstance(edge_id, str) and not is_external:
                     annotate("error", path,
                              f"{section}[{i}] service id '{edge_id}' must declare source: EXTERNAL (standard 29), "
@@ -143,10 +150,11 @@ def main(argv: list[str] | None = None) -> int:
         fromref = "organ: Meta\nrepo: x\norg: meta-organvm\nconsumes:\n  - type: t\n    from: META-ORGANVM/x\n"
         subbad = "organ: Meta\nrepo: x\norg: meta-organvm\nsubscriptions:\n  event: governance.updated\n"
         sublist = "organ: Meta\nrepo: x\norg: meta-organvm\nsubscriptions:\n  - governance.updated\n"
+        exttype = "organ: Meta\nrepo: x\norg: meta-organvm\nconsumes:\n  - type: stripe\n    source: EXTERNAL\n"
         with tempfile.TemporaryDirectory() as d:
-            paths = {k: os.path.join(d, f"{k}.yaml") for k in ("g", "b", "s", "isv", "fr", "sub", "sl")}
+            paths = {k: os.path.join(d, f"{k}.yaml") for k in ("g", "b", "s", "isv", "fr", "sub", "sl", "et")}
             for k, content in (("g", good), ("b", bad), ("s", selfref), ("isv", idservice),
-                               ("fr", fromref), ("sub", subbad), ("sl", sublist)):
+                               ("fr", fromref), ("sub", subbad), ("sl", sublist), ("et", exttype)):
                 with open(paths[k], "w", encoding="utf-8") as fh:
                     fh.write(content)
             assert validate(paths["g"]) == 0, "valid seed (incl. external edge) should pass"
@@ -156,6 +164,7 @@ def main(argv: list[str] | None = None) -> int:
             assert validate(paths["fr"]) == 1, "case-insensitive 'from' self-reference should fail"
             assert validate(paths["sub"]) == 1, "non-list subscriptions should fail"
             assert validate(paths["sl"]) == 1, "bare-string subscription entry should fail"
+            assert validate(paths["et"]) == 1, "source: EXTERNAL edge with type but no id should fail"
         print("self-test OK")
         return 0
     if not os.path.exists(args.seed):
