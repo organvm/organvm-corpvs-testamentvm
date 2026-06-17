@@ -1,0 +1,83 @@
+# Cloudflare Workers config for the Telos Beacon Protocol /emit endpoint.
+# See docs/beacon/cloud/workers/DEPLOY.md for deployment runbook.
+# See docs/beacon/dam-distribution.md §HTTP /emit for the endpoint contract.
+
+name = "organvm-telos-beacon"
+main = "worker.ts"
+compatibility_date = "2026-06-15"
+compatibility_flags = ["nodejs_compat"]
+
+# Account configuration — populated from environment via wrangler.
+# DO NOT hardcode account IDs here.
+# account_id = "$CLOUDFLARE_ACCOUNT_ID"
+
+# Worker route. Override via `wrangler deploy --route ...` if needed.
+# routes = [
+#   { pattern = "beacon.organvm.dev/emit*", custom_domain = true }
+# ]
+
+# Limits
+[limits]
+cpu_ms = 50  # Sufficient for read + serialize; well below the 30,000 ms default ceiling.
+
+# Variables (non-secret)
+[vars]
+BEACON_VERSION = "1.0.0-tbp-001"
+BEACON_DEFAULT_POLARITY = "mixed"
+BEACON_DEFAULT_REACH = "system"
+BEACON_RATE_LIMIT_PER_MIN = "60"
+
+# R2 bucket binding
+[[r2_buckets]]
+binding = "BEACON_R2"
+bucket_name = "organvm-telos-beacon"
+
+# KV namespace binding
+[[kv_namespaces]]
+binding = "BEACON_KV"
+# id is set per-environment via wrangler secret-or-env; left as placeholder.
+id = "PLACEHOLDER_PROVISION_VIA_kv_namespace_create"
+preview_id = "PLACEHOLDER_PREVIEW_NAMESPACE_ID"
+
+# Observability
+[observability]
+enabled = true
+
+[observability.logs]
+enabled = true
+# Logs are sampled at 100% in dev, can lower in prod.
+head_sampling_rate = 1.0
+
+# Triggers (none; pull-based via HTTP)
+# [triggers]
+# crons = []
+
+# Build (no build step; worker.ts is the source)
+[build]
+command = ""
+
+# Environment overlay for production
+[env.production]
+name = "organvm-telos-beacon-prod"
+
+[env.production.limits]
+cpu_ms = 50
+
+[env.production.vars]
+BEACON_VERSION = "1.0.0-tbp-001"
+BEACON_DEFAULT_POLARITY = "mixed"
+BEACON_DEFAULT_REACH = "system"
+BEACON_RATE_LIMIT_PER_MIN = "60"
+
+# Environment overlay for staging
+[env.staging]
+name = "organvm-telos-beacon-staging"
+
+[env.staging.limits]
+cpu_ms = 50
+
+[env.staging.vars]
+BEACON_VERSION = "1.0.0-tbp-001-staging"
+BEACON_DEFAULT_POLARITY = "mixed"
+BEACON_DEFAULT_REACH = "local"  # staging defaults to local reach
+BEACON_RATE_LIMIT_PER_MIN = "120"
