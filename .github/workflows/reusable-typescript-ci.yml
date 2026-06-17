@@ -42,6 +42,9 @@ jobs:
           # corepack in the install step (after Node exists); caching them here would
           # run before the manager is installed, which setup-node forbids.
           cache: ${{ inputs.package-manager == 'npm' && 'npm' || '' }}
+          # Point the cache at the lockfile in the selected working-directory so
+          # subdirectory projects (e.g. frontend/package-lock.json) cache correctly.
+          cache-dependency-path: ${{ inputs.package-manager == 'npm' && format('{0}/package-lock.json', inputs.working-directory) || '' }}
       - name: Install
         env:
           PM: ${{ inputs.package-manager }}

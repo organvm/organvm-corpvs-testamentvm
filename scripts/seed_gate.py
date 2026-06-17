@@ -64,8 +64,12 @@ def validate(path: str) -> int:
                 annotate("error", path, f"{section}[{i}] must be a mapping, got {type(edge).__name__}")
                 violations += 1
                 continue
-            if not edge.get("type"):
-                annotate("error", path, f"{section}[{i}] missing 'type'")
+            # An edge is identified by `type` (the internal seed/v1.0 form) or by
+            # `id` (the external-dependency form in standard 29, e.g. id: stripe +
+            # source: EXTERNAL). Require at least one identifier.
+            if not edge.get("type") and not edge.get("id"):
+                annotate("error", path,
+                         f"{section}[{i}] needs a 'type' (internal edge) or 'id' (external edge, standard 29)")
                 violations += 1
             # self-reference detection across consumers/source/consumer fields
             refs = []
@@ -78,7 +82,9 @@ def validate(path: str) -> int:
                 if r.upper() == "EXTERNAL":
                     continue  # recognised external-dependency marker (standard 29)
                 if me_full and r == me_full:
-                    annotate("warning", path, f"{section}[{i}] self-reference: '{r}'")
+                    annotate("error", path,
+                             f"{section}[{i}] self-reference: '{r}' — a repo may not consume from / produce to itself")
+                    violations += 1
 
     if violations:
         annotate("error", path, f"registry-gate: {violations} violation(s)")
@@ -95,16 +101,24 @@ def main(argv: list[str] | None = None) -> int:
     if args.self_test:
         import tempfile
 
-        good = "organ: Meta\nrepo: x\norg: meta-organvm\nconsumes:\n  - type: t\n    source: ORGAN-IV\n"
+        good = (
+            "organ: Meta\nrepo: x\norg: meta-organvm\n"
+            "consumes:\n  - type: t\n    source: ORGAN-IV\n"
+            "  - id: stripe\n    source: EXTERNAL\n    kind: payments\n"
+        )
         bad = "organ: Meta\nrepo: x\norg: meta-organvm\nconsumes:\n  id: organ/repo\n"
+        selfref = "organ: Meta\nrepo: x\norg: meta-organvm\nconsumes:\n  - type: t\n    source: meta-organvm/x\n"
         with tempfile.TemporaryDirectory() as d:
-            g, b = os.path.join(d, "g.yaml"), os.path.join(d, "b.yaml")
+            g, b, s = os.path.join(d, "g.yaml"), os.path.join(d, "b.yaml"), os.path.join(d, "s.yaml")
             with open(g, "w", encoding="utf-8") as fh:
                 fh.write(good)
             with open(b, "w", encoding="utf-8") as fh:
                 fh.write(bad)
-            assert validate(g) == 0, "valid seed should pass"
+            with open(s, "w", encoding="utf-8") as fh:
+                fh.write(selfref)
+            assert validate(g) == 0, "valid seed (incl. external edge) should pass"
             assert validate(b) == 1, "non-list consumes should fail"
+            assert validate(s) == 1, "self-reference should fail"
         print("self-test OK")
         return 0
     if not os.path.exists(args.seed):
