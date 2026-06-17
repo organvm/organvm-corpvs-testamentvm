@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T13:39:12.945954+00:00",
+  "generated_at": "2026-06-17T14:52:58.361324+00:00",
   "system": {
     "total_repos": 150,
     "active_repos": 93,
@@ -485,14 +485,14 @@
       "key": "ORGAN-III",
       "name": "Commerce",
       "repo_count": 33,
-      "flagship_count": 3,
-      "standard_count": 26,
+      "flagship_count": 2,
+      "standard_count": 27,
       "infrastructure_count": 1,
       "repositories": [
         {
           "name": "ergon-prime--business-orchestrator",
           "status": "LOCAL",
-          "tier": "flagship",
+          "tier": "standard",
           "ci": true
         },
         {
