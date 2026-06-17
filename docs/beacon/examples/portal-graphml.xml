@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Telos Beacon Protocol — first transmission (Portal B: GraphML surface)
+
+  Polymorphic portal — GraphML surface. The same emission is rendered as
+  ./beacon-emission.json for AI agents / formal minds, and as
+  ./portal-markdown.md for an aesthetic mind. This GraphML is for analysts
+  and graph readers.
+
+  Anchors: AX-7, AX-8, AX-9, LEX-I, TBP-001, BEACON-A-001..004,
+           P-001, P-002, P-007, P-009, P-010, P-048
+
+  emission_id: a1b2c3d4e5f6
+  ts: 2026-05-18T20:50:00Z
+  polarity: mixed
+  reach_radius: public
+  source_repo: a-organvm/organvm-corpvs-testamentvm
+-->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+                             http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+
+  <!-- Attribute keys -->
+  <key id="label"      for="node" attr.name="label"      attr.type="string"/>
+  <key id="kind"       for="node" attr.name="kind"       attr.type="string"/>
+  <key id="anchor"     for="node" attr.name="anchor"     attr.type="string"/>
+  <key id="tag"        for="node" attr.name="tag"        attr.type="string"/>
+  <key id="confidence" for="node" attr.name="confidence" attr.type="double"/>
+  <key id="relation"   for="edge" attr.name="relation"   attr.type="string"/>
+
+  <graph id="beacon-a1b2c3d4e5f6" edgedefault="directed">
+
+    <!-- Emission root -->
+    <node id="emission">
+      <data key="label">First transmission — The Lighthouse acknowledges itself</data>
+      <data key="kind">emission</data>
+      <data key="anchor">a1b2c3d4e5f6</data>
+    </node>
+
+    <!-- Constitutional anchors -->
+    <node id="ax-7"><data key="label">AX-7 Tetradic Self-Knowledge</data><data key="kind">axiom</data><data key="anchor">governance-rules.json#/dictums/axioms/6</data></node>
+    <node id="ax-8"><data key="label">AX-8 Constructed Polis</data><data key="kind">axiom</data><data key="anchor">governance-rules.json#/dictums/axioms/7</data></node>
+    <node id="ax-9"><data key="label">AX-9 Triple Reference Invariant</data><data key="kind">axiom</data><data key="anchor">governance-rules.json#/dictums/axioms/8</data></node>
+    <node id="lex-i"><data key="label">LEX-I Conservation</data><data key="kind">law</data><data key="anchor">governance-rules.json#/lex_naturalis/master_principles/0</data></node>
+
+    <!-- Claims -->
+    <node id="claim-1">
+      <data key="label">AX-7 is constitutional, not stylistic; the system has now articulated all four dimensions.</data>
+      <data key="kind">claim</data>
+      <data key="anchor">governance-rules.json#/dictums/axioms/6</data>
+      <data key="tag">EXPLICIT</data>
+      <data key="confidence">1.0</data>
+    </node>
+    <node id="claim-2">
+      <data key="label">Logos coverage moved from 0% to 100% at the system level.</data>
+      <data key="kind">claim</data>
+      <data key="anchor">docs/logos/README.md</data>
+      <data key="tag">EXPLICIT</data>
+      <data key="confidence">1.0</data>
+    </node>
+    <node id="claim-3">
+      <data key="label">33 of 58 backend laws remain PARTIAL — the central product opportunity.</data>
+      <data key="kind">claim</data>
+      <data key="anchor">docs/audits/README.md</data>
+      <data key="tag">EXPLICIT</data>
+      <data key="confidence">1.0</data>
+    </node>
+    <node id="claim-4">
+      <data key="label">Per-repo Tetradic backfill pending across 145 repos (Attack Vector B).</data>
+      <data key="kind">claim</data>
+      <data key="anchor">docs/logos/praxis.md</data>
+      <data key="tag">EXPLICIT</data>
+      <data key="confidence">1.0</data>
+    </node>
+    <node id="claim-5">
+      <data key="label">Receptio is empirically active: bot reviewers already improved the system.</data>
+      <data key="kind">claim</data>
+      <data key="anchor">docs/logos/receptio.md#III</data>
+      <data key="tag">EXPLICIT</data>
+      <data key="confidence">1.0</data>
+    </node>
+
+    <!-- IRF anchors -->
+    <node id="irf-bea-001"><data key="label">IRF-BEA-001 Logos + Beacon README + architecture</data><data key="kind">irf</data></node>
+    <node id="irf-bea-002"><data key="label">IRF-BEA-002 DAM pipeline + storage + distribution</data><data key="kind">irf</data></node>
+    <node id="irf-bea-003"><data key="label">IRF-BEA-003 seed-extension + beacon-schema</data><data key="kind">irf</data></node>
+    <node id="irf-bea-004"><data key="label">IRF-BEA-004 cloud devcontainer + Workers stub</data><data key="kind">irf</data></node>
+
+    <!-- TBP / BEACON identifiers -->
+    <node id="tbp-001"><data key="label">TBP-001 Protocol inception</data><data key="kind">tbp</data></node>
+    <node id="beacon-a-001"><data key="label">BEACON-A-001 Author 4 Logos files + READMEs</data><data key="kind">beacon</data></node>
+    <node id="beacon-a-002"><data key="label">BEACON-A-002 Author architecture.md</data><data key="kind">beacon</data></node>
+    <node id="beacon-a-003"><data key="label">BEACON-A-003 Author IA + DAM</data><data key="kind">beacon</data></node>
+    <node id="beacon-a-004"><data key="label">BEACON-A-004 Author cloud + Workers</data><data key="kind">beacon</data></node>
+
+    <!-- REPRWA candidates referenced -->
+    <node id="p-001"><data key="label">P-001 AI-Conductor Methodology Framework</data><data key="kind">reprwa</data></node>
+    <node id="p-002"><data key="label">P-002 Eight-Organ Taxonomy</data><data key="kind">reprwa</data></node>
+    <node id="p-007"><data key="label">P-007 Constitutional CI Pattern</data><data key="kind">reprwa</data></node>
+    <node id="p-009"><data key="label">P-009 Mesh 5-Primitive Patch-Bay</data><data key="kind">reprwa</data></node>
+    <node id="p-010"><data key="label">P-010 Mesh Dead-Zone Detection</data><data key="kind">reprwa</data></node>
+    <node id="p-048"><data key="label">P-048 REPRWA Audit Offer</data><data key="kind">reprwa</data></node>
+
+    <!-- Logos files (Beacon writes about itself in the strange loop) -->
+    <node id="telos"><data key="label">docs/logos/telos.md</data><data key="kind">file</data></node>
+    <node id="pragma"><data key="label">docs/logos/pragma.md</data><data key="kind">file</data></node>
+    <node id="praxis"><data key="label">docs/logos/praxis.md</data><data key="kind">file</data></node>
+    <node id="receptio"><data key="label">docs/logos/receptio.md</data><data key="kind">file</data></node>
+
+    <!-- Edges: emission carries its claims -->
+    <edge source="emission" target="claim-1"><data key="relation">CARRIES</data></edge>
+    <edge source="emission" target="claim-2"><data key="relation">CARRIES</data></edge>
+    <edge source="emission" target="claim-3"><data key="relation">CARRIES</data></edge>
+    <edge source="emission" target="claim-4"><data key="relation">CARRIES</data></edge>
+    <edge source="emission" target="claim-5"><data key="relation">CARRIES</data></edge>
+
+    <!-- Edges: claims cite anchors -->
+    <edge source="claim-1" target="ax-7"><data key="relation">CITES</data></edge>
+    <edge source="claim-2" target="telos"><data key="relation">CITES</data></edge>
+    <edge source="claim-3" target="pragma"><data key="relation">CITES</data></edge>
+    <edge source="claim-4" target="praxis"><data key="relation">CITES</data></edge>
+    <edge source="claim-5" target="receptio"><data key="relation">CITES</data></edge>
+
+    <!-- Edges: emission anchors -->
+    <edge source="emission" target="ax-7"><data key="relation">ANCHORS</data></edge>
+    <edge source="emission" target="ax-8"><data key="relation">ANCHORS</data></edge>
+    <edge source="emission" target="ax-9"><data key="relation">ANCHORS</data></edge>
+    <edge source="emission" target="lex-i"><data key="relation">DERIVES_FROM</data></edge>
+
+    <!-- Edges: TBP / BEACON / REPRWA references -->
+    <edge source="emission" target="tbp-001"><data key="relation">INSTANTIATES</data></edge>
+    <edge source="emission" target="beacon-a-001"><data key="relation">CLOSES</data></edge>
+    <edge source="emission" target="beacon-a-002"><data key="relation">CLOSES</data></edge>
+    <edge source="emission" target="beacon-a-003"><data key="relation">CLOSES</data></edge>
+    <edge source="emission" target="beacon-a-004"><data key="relation">CLOSES</data></edge>
+    <edge source="emission" target="irf-bea-001"><data key="relation">ANCHORS</data></edge>
+    <edge source="emission" target="irf-bea-002"><data key="relation">ANCHORS</data></edge>
+    <edge source="emission" target="irf-bea-003"><data key="relation">ANCHORS</data></edge>
+    <edge source="emission" target="irf-bea-004"><data key="relation">ANCHORS</data></edge>
+    <edge source="emission" target="p-001"><data key="relation">REFERENCES</data></edge>
+    <edge source="emission" target="p-002"><data key="relation">REFERENCES</data></edge>
+    <edge source="emission" target="p-007"><data key="relation">REFERENCES</data></edge>
+    <edge source="emission" target="p-009"><data key="relation">REFERENCES</data></edge>
+    <edge source="emission" target="p-010"><data key="relation">REFERENCES</data></edge>
+    <edge source="emission" target="p-048"><data key="relation">REFERENCES</data></edge>
+
+    <!-- Axiom derivation chain (LEX-I -> AX-7,8,9) -->
+    <edge source="ax-7" target="lex-i"><data key="relation">DERIVES_FROM</data></edge>
+    <edge source="ax-8" target="lex-i"><data key="relation">DERIVES_FROM</data></edge>
+    <edge source="ax-9" target="lex-i"><data key="relation">DERIVES_FROM</data></edge>
+
+    <!-- Strange loop edge: receptio loops back to telos -->
+    <edge source="receptio" target="telos"><data key="relation">RE_ARTICULATES</data></edge>
+    <edge source="telos" target="pragma"><data key="relation">ARTICULATES_DREAM_OF</data></edge>
+    <edge source="pragma" target="praxis"><data key="relation">SURFACES_GAPS_FOR</data></edge>
+    <edge source="praxis" target="receptio"><data key="relation">SHIPS_INTO</data></edge>
+
+  </graph>
+</graphml>

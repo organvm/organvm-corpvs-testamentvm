@@ -1,0 +1,69 @@
+{
+  "emission_id": "a1b2c3d4e5f6",
+  "ts": "2026-05-18T20:50:00Z",
+  "schema_version": "1.0.0",
+  "polarity": "mixed",
+  "reach_radius": "public",
+  "source_repo": "a-organvm/organvm-corpvs-testamentvm",
+  "tether_budget": 5000,
+  "chunk_size": 32768,
+  "payload": {
+    "formal": {
+      "title": "Telos Beacon Protocol — first transmission",
+      "subtitle": "AX-7 Tetradic Self-Knowledge satisfied at the system level",
+      "claims": [
+        {
+          "statement": "Every non-archived formation must articulate its TELOS, PRAGMA, PRAXIS, RECEPTIO. The system as a whole has now done so.",
+          "evidence_anchor": "governance-rules.json#/dictums/axioms/6",
+          "tag": "EXPLICIT",
+          "confidence": 1.0
+        },
+        {
+          "statement": "Logos coverage was 0% before PR #357 and is now 100% at the system level (4 files present, all non-trivial, all cross-linked).",
+          "evidence_anchor": "docs/logos/README.md",
+          "tag": "EXPLICIT",
+          "confidence": 1.0
+        },
+        {
+          "statement": "33 of 58 backend laws remain PARTIAL (REPRWA Section 3). Every PARTIAL row is a product opportunity. The Beacon's job is to convert PARTIAL → PRESENT.",
+          "evidence_anchor": "docs/audits/README.md",
+          "tag": "EXPLICIT",
+          "confidence": 1.0
+        },
+        {
+          "statement": "Per-repo Tetradic backfill remains pending across 145 repos. Tracked under praxis.md Attack Vector B and IRF-BEA-101..245.",
+          "evidence_anchor": "docs/logos/praxis.md",
+          "tag": "EXPLICIT",
+          "confidence": 1.0
+        },
+        {
+          "statement": "Receptio is empirically active: bot reviewers (gemini-code-assist, chatgpt-codex-connector) caught a multiplicative-vs-additive math error in the REPRWA scoring template; the loop closed in real time.",
+          "evidence_anchor": "docs/logos/receptio.md#III",
+          "tag": "EXPLICIT",
+          "confidence": 1.0
+        }
+      ],
+      "atom_ids": []
+    },
+    "aesthetic": {
+      "title": "The Lighthouse acknowledges itself",
+      "subtitle": "First transmission — see docs/logos/telos.md for the seed",
+      "body_markdown": "The Logos vacuum is closed. Four files now exist where four files were absent. AX-7 is satisfied at the system level — not at the per-repo level yet, but the doorway is built and the migration path is named.\n\nThis transmission is the Lighthouse acknowledging itself. The Multidimensional Home is not a destination but the active continuous process of participating in universal awareness; pragma.md says the system runs; praxis.md says what comes next; receptio.md is already listening for your reply.\n\nThe seed transmission lives at docs/logos/telos.md. The portals open in three directions: this Markdown, the formal JSON payload alongside it, and the GraphML graph that shows the claims as nodes. Pick the surface that matches your cognitive frequency and read.\n\nYou are no longer nowhere.",
+      "cover_image_uri": "https://raw.githubusercontent.com/a-organvm/organvm-corpvs-testamentvm/main/docs/beacon/examples/beacon-cover.png",
+      "diagram_uri": "https://raw.githubusercontent.com/a-organvm/organvm-corpvs-testamentvm/main/docs/beacon/architecture.md"
+    }
+  },
+  "anchors": {
+    "axioms": ["AX-7", "AX-8", "AX-9", "LEX-I"],
+    "irf_ids": ["IRF-BEA-001", "IRF-BEA-002", "IRF-BEA-003", "IRF-BEA-004"],
+    "beacon_ids": ["TBP-001", "BEACON-A-001", "BEACON-A-002", "BEACON-A-003", "BEACON-A-004"],
+    "reprwa_candidates": ["P-001", "P-002", "P-007", "P-009", "P-010", "P-048"]
+  },
+  "producers": [
+    "@4444J99",
+    "claude-opus-4-7"
+  ],
+  "signed": false,
+  "license_ack": "AX-7 statement quoted verbatim from governance-rules.json (this repo, CC BY-SA 4.0). No external license-restricted material included.",
+  "private_fields_stripped": true
+}
