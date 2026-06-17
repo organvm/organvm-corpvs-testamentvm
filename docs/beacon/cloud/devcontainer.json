@@ -1,0 +1,73 @@
+{
+  "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+  "name": "Telos Beacon Protocol — Codex Cloud Agent Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
+
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/node:1": { "version": "20" }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-azuretools.vscode-docker",
+        "redhat.vscode-yaml",
+        "yzhang.markdown-all-in-one",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python3",
+        "editor.formatOnSave": false,
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true
+      }
+    },
+    "codespaces": {
+      "openFiles": [
+        "docs/logos/telos.md",
+        "docs/beacon/cloud/AGENTS.md",
+        "docs/beacon/cloud/codex-cloud.md"
+      ]
+    }
+  },
+
+  "containerEnv": {
+    "BEACON_REPO_ROOT": "${containerWorkspaceFolder}",
+    "BEACON_LOGOS_DIR": "${containerWorkspaceFolder}/docs/logos",
+    "BEACON_BEACON_DIR": "${containerWorkspaceFolder}/docs/beacon",
+    "BEACON_SCHEMA_PATH": "${containerWorkspaceFolder}/docs/beacon/beacon-schema.json",
+    "BEACON_DEFAULT_POLARITY": "mixed",
+    "BEACON_DEFAULT_REACH": "system",
+    "BEACON_DEFAULT_FREQUENCY": "biweekly"
+  },
+
+  "remoteEnv": {
+    "PYTHONUNBUFFERED": "1",
+    "BEACON_VERSION": "1.0.0-tbp-001"
+  },
+
+  "mounts": [
+    "source=${localWorkspaceFolder}/.beacon-cache,target=/workspace/.beacon-cache,type=bind,consistency=cached"
+  ],
+
+  "postCreateCommand": "bash docs/beacon/cloud/postcreate.sh || echo 'postcreate.sh missing — using inline defaults' && pip install --no-input --quiet pyyaml jsonschema cloudflare && pip install --no-input --quiet -e docs/beacon/cloud 2>/dev/null || true && python -c 'import json; json.load(open(\"docs/beacon/beacon-schema.json\")); print(\"beacon-schema.json: valid\")'",
+
+  "postStartCommand": "echo 'Telos Beacon Protocol devcontainer ready. Start at docs/logos/telos.md.'",
+
+  "forwardPorts": [],
+
+  "remoteUser": "vscode",
+
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+
+  "shutdownAction": "stopContainer",
+
+  "_beacon_meta": {
+    "purpose": "Codex Cloud (https://developers.openai.com/codex/cloud/environments) — compatible devcontainer for Telos Beacon Protocol agents. See AGENTS.md for the invocation contract.",
+    "primary_audience": "Codex Cloud agents invoking the Beacon by reading docs/logos/ and docs/beacon/ and re-emitting via Workers /emit.",
+    "constitutional_anchor": "AX-7 (Tetradic Self-Knowledge) + AX-8 (Constructed Polis) + NON-INTERACTIVE-AGENT-SAFETY",
+    "safe_modification_boundaries": "see AGENTS.md §Safe-modification boundaries"
+  }
+}
