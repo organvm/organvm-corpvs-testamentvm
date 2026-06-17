@@ -47,7 +47,8 @@ def validate(path: str) -> int:
 
     me_repo = data.get("repo", "")
     me_org = data.get("org", "")
-    me_full = f"{me_org}/{me_repo}" if me_org and me_repo else ""
+    # GitHub repo full-names are case-insensitive; normalize for comparison.
+    me_full = f"{me_org}/{me_repo}".lower() if me_org and me_repo else ""
 
     for section in ("produces", "consumes"):
         if section not in data or data[section] is None:
@@ -81,7 +82,7 @@ def validate(path: str) -> int:
             for r in refs:
                 if r.upper() == "EXTERNAL":
                     continue  # recognised external-dependency marker (standard 29)
-                if me_full and r == me_full:
+                if me_full and r.lower() == me_full:
                     annotate("error", path,
                              f"{section}[{i}] self-reference: '{r}' — a repo may not consume from / produce to itself")
                     violations += 1

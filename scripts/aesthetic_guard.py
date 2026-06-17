@@ -87,24 +87,65 @@ def annotate(level: str, file: str, line: int, msg: str) -> None:
     print(f"::{level} file={file},line={line}::{msg}")
 
 
+def primary_fonts(value: str) -> list[str]:
+    """Primary font of each stack in a font-family value (lowercased).
+
+    Handles CSS lists (`Inter, sans-serif`), quoted names (`'Comic Sans', serif`),
+    JS arrays (`['OffContract', 'serif']`), and Tailwind object bodies
+    (` sans: ['A','B'], display: ['OffContract'] `) — taking the FIRST entry of
+    each array/stack so legitimate fallbacks (ui-sans-serif, system-ui) are not
+    falsely flagged.
+    """
+    value = value.strip()
+    arrays = re.findall(r"\[([^\]]*)\]", value)
+    if arrays:
+        out = []
+        for arr in arrays:
+            toks = re.findall(r"""['"]([^'"]+)['"]""", arr)
+            if toks:
+                out.append(toks[0].strip().lower())
+        if out:
+            return out
+    quoted = re.findall(r"""['"]([^'"]+)['"]""", value)
+    if quoted:
+        return [quoted[0].strip().lower()]
+    first = value.split(",")[0].strip().strip("{}").strip().lower()
+    return [first] if first else []
+
+
 def check_file(fp: str, contract: dict) -> int:
     violations = 0
     allowed_colors = contract["allowed_colors"]
     allowed_fonts = contract["allowed_fonts"]
+    tolerate = contract["tolerate"]
     with open(fp, "r", encoding="utf-8", errors="replace") as fh:
-        for n, line in enumerate(fh, start=1):
-            for m in HEX_RE.finditer(line):
-                hexv = norm_hex(m.group(0))
-                if allowed_colors and hexv not in allowed_colors:
-                    annotate("error", fp, n, f"color {m.group(0)} is not in the declared palette")
-                    violations += 1
-            if allowed_fonts:
-                for fm in FONT_FAMILY_RE.finditer(line):
-                    stack = [f.strip().strip("'\"").lower() for f in fm.group(1).split(",")]
-                    primary = stack[0] if stack else ""
-                    if primary and primary not in allowed_fonts and primary not in contract["tolerate"]:
-                        annotate("error", fp, n, f"font-family '{stack[0]}' is not in the declared font stack")
-                        violations += 1
+        lines = fh.readlines()
+
+    def check_fonts(names: list[str], ln: int) -> None:
+        nonlocal violations
+        for name in names:
+            if name and name not in allowed_fonts and name not in tolerate:
+                annotate("error", fp, ln, f"font-family '{name}' is not in the declared font stack")
+                violations += 1
+
+    for n, line in enumerate(lines, start=1):
+        for m in HEX_RE.finditer(line):
+            hexv = norm_hex(m.group(0))
+            if allowed_colors and hexv not in allowed_colors:
+                annotate("error", fp, n, f"color {m.group(0)} is not in the declared palette")
+                violations += 1
+        if allowed_fonts:
+            for fm in FONT_FAMILY_RE.finditer(line):
+                val = fm.group(1).strip()
+                if val and not val.startswith("{"):  # object form handled below
+                    check_fonts(primary_fonts(val), n)
+    # Object form (Tailwind theme): fontFamily: { sans: [...], ... } — single or
+    # multi-line. Scanned over the whole file so the value past `{` is examined.
+    if allowed_fonts:
+        text = "".join(lines)
+        for m in re.finditer(r"font-?[fF]amily\s*:\s*\{(.*?)\}", text, re.DOTALL):
+            ln = text[: m.start()].count("\n") + 1
+            check_fonts(primary_fonts(m.group(1)), ln)
     return violations
 
 
@@ -120,10 +161,13 @@ def main(argv: list[str] | None = None) -> int:
     args = ap.parse_args(argv)
 
     if args.self_test:
-        # regex sanity
         assert HEX_RE.search("color:#FFF;") and FONT_FAMILY_RE.search("font-family: Comic Sans;")
-        # normalization sanity: #RGB compares as #RRGGBB
-        assert check_file.__name__ == "check_file"
+        assert norm_hex("#FFF") == "#ffffff"  # shorthand normalizes
+        # primary-font extraction across CSS / quoted / array / Tailwind-object forms
+        assert primary_fonts("Inter, sans-serif") == ["inter"]
+        assert primary_fonts("'Comic Sans', serif") == ["comic sans"]
+        assert primary_fonts("['OffContract', 'serif']") == ["offcontract"]
+        assert primary_fonts(" sans: ['Inter','ui-sans'], display: ['OffContract'] ") == ["inter", "offcontract"]
         print("self-test OK")
         return 0
 

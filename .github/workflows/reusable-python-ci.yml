@@ -44,10 +44,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          # Try the dev extra first; fall back to a plain editable install. A genuine
-          # build failure of the plain install propagates (no `|| true` masking) — only
-          # the "no [dev] extra defined" case is tolerated via the fallback.
-          if [ -f pyproject.toml ]; then pip install -e ".[dev]" || pip install -e .; fi
+          # A missing `dev` extra is only a pip WARNING (exit 0), so no fallback is
+          # needed: a non-zero exit here is a genuine build/dependency failure and
+          # must fail the job rather than be masked.
+          if [ -f pyproject.toml ]; then pip install -e ".[dev]"; fi
           pip install ruff pytest pytest-cov
       - name: Lint (ruff)
         run: ruff check .
