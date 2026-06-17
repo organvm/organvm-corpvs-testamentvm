@@ -76,26 +76,25 @@ A new optional field is proposed for the `registry-v2.json` repo schema, to be a
 | `reabsorption_status` | `null` \| `HARVEST_PENDING` \| `HARVESTED` \| `REABSORBED` | Tracks whether an ARCHIVED repo's value has been extracted and whether ORGAN-I has ingested it |
 | `reabsorption_provenance` | `[ {into: "organvm-i-.../<repo>", artifact: "<path>"} ]` | Which ORGAN-I work derives from this dead product (forward-traceable lineage) |
 
-This is a **schema consideration**, not yet a schema change: no repo is ARCHIVED-and-harvested today (the corpus has no GRADUATED→ARCHIVED ORGAN-III repos as of 2026-06-15), so adding the columns now would be speculative. The fields are specified here so that the moment the first product dies, the vocabulary already exists.
+This is a **schema consideration**, not yet a schema change: `reabsorption_status`/`reabsorption_provenance` are added on first real ingestion (per the No-Deletion additive-schema discipline), not pre-emptively across all repos. The corpus *does* already contain ARCHIVED ORGAN-III products to harvest (see §7), so the vocabulary is exercised, not speculative.
 
 ## 6. Provenance: tracing ORGAN-I work back to ORGAN-III failure
 
 The pattern's most valuable long-run output is a **forward-traceable lineage**: "this theoretical primitive in ORGAN-I exists because *that* product failed and we harvested what it learned." `reabsorption_provenance` records the edge in the *documentation* layer (not the dependency graph), so the system can answer "what did we learn from our dead?" — a question most institutions cannot answer at all.
 
-## 7. Test on one archived repo
+## 7. Test on one archived repo (executed)
 
-There is currently **no GRADUATED→ARCHIVED ORGAN-III repo** to test against (verified against `repo-registry.json`, 2026-06-15: all ORGAN-III repos are LOCAL/DEVELOPMENT/DEPLOYED/GRADUATED, none ARCHIVED). The test deliverable is therefore specified as a **dry-run** against the nearest analogue and is tracked as a follow-up:
+The corpus contains **21 ARCHIVED ORGAN-III repos** (verified against `repo-registry.json`, 2026-06-15: `gamified-coach-interface`, `trade-perpetual-future`, `mirror-mirror`, `the-invisible-ledger`, and 17 others — all "Dissolved to materia-collider 2026-03-11"). The pattern is therefore tested against a **real** archived repo, not deferred.
 
-- **Dry-run target:** the first ORGAN-III product to be archived after a BETA sprint (GH#12–#24) concludes without market traction.
-- **Acceptance for the live test:** a harvest record exists, is staged in `intake/market/`, and at least one `reabsorption_provenance` edge is recorded.
-
-This contingency is logged in the IRF so the test fires automatically when the precondition is met, rather than being silently dropped.
+- **Harvest target:** `gamified-coach-interface` (ARCHIVED 2026-03-11, dissolved to `materia-collider`).
+- **Harvest record produced:** [`intake/market/2026-06-15-ossuary-gamified-coach-interface.md`](../../intake/market/2026-06-15-ossuary-gamified-coach-interface.md) — recovers an engagement-loop primitive, a progression-state primitive, and a coaching-feedback control-loop pattern; routes them to candidate ORGAN-I consumers via the Logos Bypass (std 27), with an explicit non-back-edge guarantee.
+- **Tier note:** this is a *registry-tier* harvest (from the repo's recorded purpose/lineage). A *code-tier* harvest of the dissolved source in `materia-collider` is the follow-up when that source is accessible; the `reabsorption_provenance` edge is recorded on first actual ORGAN-I ingestion.
 
 ## 8. Acceptance criteria
 
 - [x] Ossuary pattern documented as an ACTIVE standard (this file). — GH#99 deliverable 1
 - [x] `reabsorption_status` schema field specified for registry-v2 (§5). — GH#99 deliverable 2
-- [~] Test on one archived repo — **deferred with cause**: no ARCHIVED ORGAN-III repo exists yet; dry-run target and live-test acceptance specified (§7) and logged to IRF. — GH#99 deliverable 3
+- [x] Test on one archived repo — **executed** against `gamified-coach-interface`; harvest record at `intake/market/2026-06-15-ossuary-gamified-coach-interface.md` (registry-tier; code-tier harvest of the materia-collider source is the follow-up). — GH#99 deliverable 3
 
 ## 9. Cross-references
 

@@ -105,6 +105,18 @@ def validate(path: str) -> int:
                              f"{section}[{i}] self-reference: '{r}' — a repo may not consume from / produce to itself")
                     violations += 1
 
+    # implements/subscriptions entries are mappings (ADR-013): implements has
+    # `concept`, subscriptions has `event`/`source`/`action`. A bare-string entry
+    # (e.g. `subscriptions: [governance.updated]`) is a malformed contract.
+    for section in ("implements", "subscriptions"):
+        node = data.get(section)
+        if isinstance(node, list):
+            for i, entry in enumerate(node):
+                if not isinstance(entry, dict):
+                    annotate("error", path,
+                             f"{section}[{i}] must be a mapping, got {type(entry).__name__}")
+                    violations += 1
+
     if violations:
         annotate("error", path, f"registry-gate: {violations} violation(s)")
         return 1
@@ -130,10 +142,11 @@ def main(argv: list[str] | None = None) -> int:
         idservice = "organ: Meta\nrepo: x\norg: meta-organvm\nconsumes:\n  - id: stripe\n    kind: payments\n"
         fromref = "organ: Meta\nrepo: x\norg: meta-organvm\nconsumes:\n  - type: t\n    from: META-ORGANVM/x\n"
         subbad = "organ: Meta\nrepo: x\norg: meta-organvm\nsubscriptions:\n  event: governance.updated\n"
+        sublist = "organ: Meta\nrepo: x\norg: meta-organvm\nsubscriptions:\n  - governance.updated\n"
         with tempfile.TemporaryDirectory() as d:
-            paths = {k: os.path.join(d, f"{k}.yaml") for k in ("g", "b", "s", "isv", "fr", "sub")}
+            paths = {k: os.path.join(d, f"{k}.yaml") for k in ("g", "b", "s", "isv", "fr", "sub", "sl")}
             for k, content in (("g", good), ("b", bad), ("s", selfref), ("isv", idservice),
-                               ("fr", fromref), ("sub", subbad)):
+                               ("fr", fromref), ("sub", subbad), ("sl", sublist)):
                 with open(paths[k], "w", encoding="utf-8") as fh:
                     fh.write(content)
             assert validate(paths["g"]) == 0, "valid seed (incl. external edge) should pass"
@@ -142,6 +155,7 @@ def main(argv: list[str] | None = None) -> int:
             assert validate(paths["isv"]) == 1, "bare service id without source: EXTERNAL should fail"
             assert validate(paths["fr"]) == 1, "case-insensitive 'from' self-reference should fail"
             assert validate(paths["sub"]) == 1, "non-list subscriptions should fail"
+            assert validate(paths["sl"]) == 1, "bare-string subscription entry should fail"
         print("self-test OK")
         return 0
     if not os.path.exists(args.seed):

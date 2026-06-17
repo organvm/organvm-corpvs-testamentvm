@@ -169,7 +169,12 @@ def check_file(fp: str, contract: dict) -> int:
             # looks like a stack (quote/comma) — so --font-size/-weight are ignored.
             for vm in CSS_FONT_VAR_DEF_RE.finditer(line):
                 var_name, var_val = vm.group(1).lower(), vm.group(2).strip()
-                if "family" in var_name or "'" in var_val or '"' in var_val or "," in var_val:
+                # Treat as a font stack only when the name says "family" or the value
+                # carries a quoted family. A bare comma is NOT a trigger — size tokens
+                # like `--font-size-fluid: clamp(1rem, 2vw, 2rem)` contain commas but
+                # declare no font family. Also skip values that are CSS functions.
+                looks_func = "(" in var_val
+                if (("family" in var_name) or "'" in var_val or '"' in var_val) and not looks_func:
                     check_fonts(primary_fonts(var_val), n)
     # Object form (Tailwind theme): fontFamily: { sans: [...], ... } — single or
     # multi-line. Scanned over the whole file so the value past `{` is examined.

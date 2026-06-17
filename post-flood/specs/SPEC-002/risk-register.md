@@ -61,5 +61,6 @@ Profile:   11 claims — 4 GROUNDED · 3 ADAPTED · 3 NOVEL · 1 CONTESTED
 
 The register's high-risk claims are all (a) explicitly disclosed in SPEC-002 §5, (b) grounded in
 named adjacent traditions, and (c) governed by an amendment/reduction protocol (§6). No
-undisclosed novel claim was found. **Recommendation: PASS G0**, conditional on adding the 11
-`[in bibliography.bib]` BibTeX keys to `specs/bibliography.bib` during Phase F.
+undisclosed novel claim was found. **Recommendation: PASS G0.** The bibliography precondition is
+already satisfied — the 11 ontology-foundations BibTeX keys were added to `specs/bibliography.bib`
+on 2026-06-15, so no bibliography work remains outstanding for Phase F.

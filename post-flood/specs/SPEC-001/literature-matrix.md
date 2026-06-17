@@ -18,12 +18,15 @@ taxonomy (SPEC-001 §2, §6) to (a) the tradition it represents, (b) its core
 ontological claim, (c) what SPEC-001 borrows from it, (d) where SPEC-001
 *departs* from it, and (e) the BibTeX key under which it should be cited.
 
-**Bibliography status.** SPEC-001 cites all of the sources below, but none of
-the formal-ontology keys currently exist in `specs/bibliography.bib` (which is
-weighted toward the SPEC-018 logic/foundations lineage). All keys marked
-`[in bibliography.bib]` below must be added to the bibliography before SPEC-001 Phase F can
-close gate G0. See `source-archive.md` for full citations and the proposed
-BibTeX entries. Keys follow the existing `AuthorYEAR` / `AuthorYEARa` convention.
+**Bibliography status (RESOLVED 2026-06-15).** SPEC-001 cites all of the sources
+below, and the formal-ontology keys are now **present in `specs/bibliography.bib`**
+(added 2026-06-15 alongside this Phase-R work — `Guarino1998`, `Smith2004`,
+`Gruber1993`/`Gruber1995`, `Sowa2000`, `ArpSmithSpear2015`, `Baader2003`,
+`MasoloEtAl2003`, `GuarinoWelty2004`, `FongSpivak2019`, `Luhmann1995`,
+`Ostrom1990`). The earlier bibliography-debt that blocked gate G0 is therefore
+**cleared**; the `[in bibliography.bib]` marker in the table below confirms each
+key resolves. See `source-archive.md` for full citations. Keys follow the
+existing `AuthorYEAR` / `AuthorYEARa` convention.
 
 ---
 
@@ -68,10 +71,10 @@ charter's relation model, pluralist stance, and governance categories.
 
 ## Notes for Phase F
 
-1. **Bibliography debt is the primary G0 blocker.** Eleven keys are `[in bibliography.bib]`
-   and absent from `specs/bibliography.bib`. They must be inserted (full entries
-   drafted in `source-archive.md`) before any SPEC-001 claim can be said to
-   trace to a citable source.
+1. **Bibliography debt — CLEARED (2026-06-15).** The eleven formal-ontology keys
+   are now present in `specs/bibliography.bib` (full entries added alongside this
+   Phase-R work), so every SPEC-001 claim traces to a citable source. This is no
+   longer a G0 blocker.
 2. **Gruber appears twice** (1993 and 1995). SPEC-001 §1 cites "Gruber 1993" for
    the five criteria; the GH#133 source list names "Gruber 1995." Both are real
    and both state the same design principles; the matrix retains both and the

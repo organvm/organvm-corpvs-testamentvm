@@ -1313,7 +1313,7 @@
       "name": "Commerce",
       "description": "Revenue-generating products, deployed systems, customer-facing tools, B2B/B2C applications",
       "launch_status": "OPERATIONAL",
-      "completion": "100% \u2014 21/21 non-infrastructure repos documented at 2,000+ words (~74K total)",
+      "completion": "21/21 launch non-infrastructure repos documented at 2,000+ words (~74K total). NB: +1 scaffold added 2026-06-15 (ergon-prime--business-orchestrator, PROTOTYPE, README pending, GH#100) \u2014 not yet documented and not counted in the 21/21.",
       "public_visibility": "MIXED (4 private, 18 public)",
       "portfolio_angle": "Demonstrates product-market thinking, sustained revenue generation, and ability to package systems for external users. Evidence of real-world impact.",
       "repository_count": 33,

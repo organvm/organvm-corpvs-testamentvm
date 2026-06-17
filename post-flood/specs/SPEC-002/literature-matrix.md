@@ -20,12 +20,13 @@ states the source's core claim, what SPEC-002 *borrows*, and — critically for 
 ontological engineering — *where SPEC-002 departs* from it. Departure columns are the
 substance of the risk register; this matrix supplies their evidentiary basis.
 
-BibTeX keys marked **[in bibliography.bib]** are cited by SPEC-002 but are not yet present in
-`specs/bibliography.bib` (current bib carries only `MartinLof1984`, `CrawfordOstrom1995`,
-and the type-theory lineage `WhiteheadRussell1910`/`Curry1934`/`Howard1980`/`MartinLof1982`).
-The ontology-foundations cluster (Simons, Guarino & Welty, Masolo et al., Arp et al., Pierce,
-von Wright, Johansson, Armstrong, Gruber, Searle, Ostrom) must be added to the canonical
-bibliography during Phase F. See `source-archive.md` for full citations.
+BibTeX keys marked **[in bibliography.bib]** are cited by SPEC-002 and are now **present in
+`specs/bibliography.bib`** (the ontology-foundations cluster — `Simons1987`, `GuarinoWelty2002`,
+`MasoloEtAl2003`, `ArpSmithSpear2015`, `Pierce2002`, `vonWright1951`, `Johansson2004`,
+`Armstrong1978`, `Gruber1993`, `Searle1995`, `Ostrom2005` — was added 2026-06-15 alongside this
+Phase-R work, joining the pre-existing `MartinLof1984`/`CrawfordOstrom1995` and type-theory
+lineage). The Phase-F bibliography task is therefore **complete**; see `source-archive.md` for
+full citations.
 
 ---
 
@@ -60,5 +61,6 @@ bibliography during Phase F. See `source-archive.md` for full citations.
 - **OntoClean (row 3)** is methodological rather than substantive: it does not *justify* any
   primitive but disciplines the profiles assigned to all seven and is the engine of the
   `grounding.md` §(a) evaluation.
-- All `[in bibliography.bib]` keys are cited in SPEC-002's body and lineage table (§7.4) but absent from the
-  canonical `specs/bibliography.bib`; adding them is a Phase-F precondition (gate item).
+- All `[in bibliography.bib]` keys cited in SPEC-002's body and lineage table (§7.4) are now
+  present in the canonical `specs/bibliography.bib` (added 2026-06-15); the Phase-F bibliography
+  gate item is satisfied.
