@@ -24,12 +24,14 @@ of each work from prior knowledge and should be re-verified by a human during
 Phase F's source spot-check (required for any Categorical Restructuring per
 SPEC-001 §9). They are claims about availability, not retrieved artifacts.
 
-**Bibliography debt.** None of the eleven formal-ontology keys below currently
-exist in `specs/bibliography.bib` — the present bibliography (68 entries) is
-weighted toward the SPEC-018 logic/foundations lineage and contains no applied-
-ontology sources. Inserting these entries is the primary action item for closing
-gate G0. Proposed BibTeX stubs are provided after each annotation. Keys follow
-the file's `AuthorYEAR` / `AuthorYEARa` convention.
+**Bibliography debt — RESOLVED 2026-06-15 (GH#133).** The eleven formal-ontology
+keys below were **added to `specs/bibliography.bib`** in this change (the prior
+bibliography was weighted toward the SPEC-018 logic/foundations lineage and
+contained no applied-ontology sources). The keys now resolve and the SPEC-001
+literature matrix marks them present, so this gate-G0 action item is **closed**,
+not blocking. The BibTeX stubs below are retained as the entries' provenance
+record. Open-access annotations remain availability claims, not retrieved
+artifacts — a human PDF spot-check is a separate Phase-F step.
 
 ---
 
@@ -383,8 +385,9 @@ clusters.
 
 ## D. Action items for gate G0
 
-1. **Insert 11 proposed entries** (Section A: 6 mandatory + Gruber1993 companion;
-   Section B: 5 supporting) into `specs/bibliography.bib`. None exist today.
+1. ~~**Insert 11 proposed entries** into `specs/bibliography.bib`.~~ **DONE
+   2026-06-15 (GH#133)** — all 11 keys are now in `specs/bibliography.bib` and
+   resolve from the literature matrix.
 2. **Reconcile the Gruber citation** in SPEC-001 §1/§6 (currently "Gruber 1993")
    against the GH#133 source list ("Gruber 1995"); keep both keys, cite the 1993
    report for the five criteria and the 1995 paper for minimal commitment.
