@@ -83,6 +83,7 @@ The sources are distributed but complete. The directive is not "collect more" �
 | `organvm prompts clipboard` | Extract from Paste.app clipboard history |
 | `organvm prompts audit` | Pipeline data audit (noise, completion, linking quality) |
 | `organvm prompts distill` | Distill clipboard prompts into operational patterns + SOP coverage |
+| `scripts/prompts-distill-closeout.sh` | Leak-safe closeout wrapper: runs `clipboard`→`distill --dry-run` with aligned private-cache I/O (GH#352) |
 | `organvm atoms link` | Link atomized tasks to annotated prompts by content similarity |
 | `organvm atoms pipeline` | Full atomization (atomize → narrate → link → index) |
 | `organvm atoms reconcile` | Cross-reference atoms against git history to detect completed work |
@@ -205,6 +206,7 @@ The directive aligns these into one substrate-with-lenses view. No new core tool
 | Weekly | `organvm prompts narrate` | Threaded narrative arcs across the week |
 | Weekly | `organvm prompts audit` | Pipeline health (noise, linking quality) |
 | Weekly | `organvm prompts distill` | Operational patterns + SOP coverage |
+| Per session-end | `bash scripts/prompts-distill-closeout.sh` | Leak-safe distill (clipboard precondition gated; GH#352) |
 | Per session-end | `organvm session review --latest` | Session summary, plan cross-ref |
 | On-demand | `organvm atoms reconcile` | Atom claims vs git history |
 | On-demand | `organvm atoms fanout` | Per-organ rollup of atoms |

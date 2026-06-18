@@ -22,10 +22,15 @@ __pycache__/
 # Bulk atom pipeline outputs (committed summaries + manifest only)
 data/atoms/*.jsonl
 
-# Personal clipboard exports must NEVER land in this public repo. The heartbeat routes
-# them to ~/.cache (untracked); this is a defense-in-depth net against the engine's
-# default --output-dir landing one here. (leak-vector hygiene)
+# Personal clipboard exports must NEVER land in this public repo. The heartbeat and the
+# prompts-distill-closeout.sh wrapper route them to ~/.cache (untracked); these are
+# defense-in-depth nets against the engine's CWD-relative `clipboard --output-dir` default
+# (ai-prompts-clipboard-export.json) and `distill`'s atoms-dir default input
+# (clipboard-prompts.json) ever landing a personal export here. (leak-vector hygiene; GH#352)
 data/atoms/ai-prompts-clipboard-export.*
+ai-prompts-clipboard-export.*
+clipboard-prompts.json
+data/atoms/clipboard-prompts.json
 
 # Corpus pipeline outputs (events.jsonl can run very large; regenerable from sources)
 # IRF-SEC-010 resolution: ignore rather than LFS-track
