@@ -29,7 +29,7 @@
       "org": "meta-organvm",
       "status": "ACTIVE",
       "public": true,
-      "description": "The authoritative planning and governance corpus for the eight-organ creative-institutional system. 81 repos, ~339K words, 8 organizations, 21 essays.",
+      "description": "The authoritative planning and governance corpus for the eight-organ creative-institutional system. 149 registry entries, ~410K+ words, 42 essays.",
       "documentation_status": "DEPLOYED",
       "portfolio_relevance": "CRITICAL - The meta-system planning record; demonstrates architectural reasoning, AI-conductor methodology, and systemic execution",
       "dependencies": [],
@@ -92,7 +92,7 @@
       "promotion_status": "GRADUATED",
       "tier": "flagship",
       "last_validated": "2026-02-24",
-      "note": "Created 2026-02-17. 7 module groups (registry, governance, seed, metrics, dispatch, git, contextmd), unified CLI ('organvm' command with 12 subcommands), 192 passing tests. Pitchdeck generator, omega scorecard, context sync. Validates production registry (101 repos), dependency graph (31 edges, 0 violations), discovers 99+ seed.yaml files. Promoted LOCAL\u2192CANDIDATE 2026-02-24.",
+      "note": "Created 2026-02-17. 7 module groups (registry, governance, seed, metrics, dispatch, git, contextmd), unified CLI ('organvm' command with 12 subcommands), 192 passing tests. Pitchdeck generator, omega scorecard, context sync. Validates the production registry (149 entries), dependency graph (62 edges; 7 V4 findings), and seed.yaml coverage. Promoted LOCAL\u2192CANDIDATE 2026-02-24.",
       "implementation_status": "ACTIVE",
       "ci_workflow": "ci-python.yml",
       "platinum_status": true

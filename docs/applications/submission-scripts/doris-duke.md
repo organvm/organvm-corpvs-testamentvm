@@ -54,7 +54,7 @@ Governance as Performance Score: An AI-Orchestrated Framework for Collaborative 
 
 This project develops a performance-making framework that translates software governance protocols into live performance scores — proving that the same formal rules that coordinate 97 software repositories can generate, structure, and sustain collaborative performing arts work.
 
-The eight-organ creative-institutional system is a documented infrastructure I've built over 5+ years, coordinating theory, generative art, commercial products, governance, public documentation, community programming, and distribution across 100 repositories and 8 organizations. The system's governance model — dependency validation, promotion state machines, automated coordination workflows — currently operates as software infrastructure. This project asks: what happens when those rules become choreographic?
+The eight-organ creative-institutional system is a documented infrastructure I've built over 5+ years, coordinating theory, generative art, commercial products, governance, public documentation, community programming, and distribution across 149 repositories and 8 organizations. The system's governance model — dependency validation, promotion state machines, automated coordination workflows — currently operates as software infrastructure. This project asks: what happens when those rules become choreographic?
 
 The proposed six-month rapid prototyping period will produce three interconnected outputs:
 
@@ -92,7 +92,7 @@ My practice already includes community salon programming (ORGAN-VI) and public p
 
 Systems artist, writer, and creative technologist based in NYC. MFA in Creative Writing (Florida Atlantic University, 2015–2018). 11 years teaching at 8+ institutions, 100+ courses, 2,000+ students. LGBTQ+.
 
-Creator of the eight-organ creative-institutional system: 100 repositories across 8 organizations, coordinating theory, generative art, commercial products, governance, public process, community, and marketing as a unified practice. 42 published essays (~134,000 words) documenting the construction process in real time. 404,000+ words of total public documentation. 82+ CI/CD automation pipelines. 33 named development sprints. All produced by a single practitioner using AI as a compositional instrument — analogous to a conductor directing an orchestra, where the creative intelligence is in the architecture, sequencing, and editorial judgment.
+Creator of the eight-organ creative-institutional system: 149 registry entries spanning the eight-organ system, coordinating theory, generative art, commercial products, governance, public process, community, and marketing as a unified practice. 42 published essays (~134,000 words) documenting the construction process in real time. 404,000+ words of total public documentation. 82+ CI/CD automation pipelines. 33 named development sprints. All produced by a single practitioner using AI as a compositional instrument — analogous to a conductor directing an orchestra, where the creative intelligence is in the architecture, sequencing, and editorial judgment.
 
 Performance-adjacent practice includes: community salon programming (ORGAN-VI), public readings and presentations of documentation, generative audio-visual installations using p5.js and SuperCollider, and the ongoing public process essay series (distributed via RSS, Mastodon, and Discord). The organ system's governance model was designed using principles from musical composition (generative constraints, counterpoint rules, serialist methods) — the AMT Lab would make this implicit performing-arts methodology explicit.
 
@@ -131,7 +131,7 @@ Every page includes a generative p5.js visual layer — procedural compositions 
 
 **URL:** `https://github.com/meta-organvm`
 
-The governance architecture that would become the performance score material. 100 repositories, 31 dependency edges, promotion state machines, automated validation — all documented transparently.
+The governance architecture that would become the performance score material. 149 repositories, 62 registry dependency edges, promotion state machines, automated validation — all documented transparently.
 
 ### Sample 3: Public Process Essay Series
 

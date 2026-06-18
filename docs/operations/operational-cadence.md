@@ -328,7 +328,7 @@ These items from the original Part IV are now done:
 
 **Non-negotiable rule:** No new named internal sprints until these are done.
 
-The E2G-II review (Sprint 28) found that the system is hermetically sealed: 33 sprints, ~6K+ words, 97 repos, and zero external contact. These actions break the seal. They are human actions, not sprint tasks.
+The E2G-II review (Sprint 28) found that the system is hermetically sealed: 33 sprints, ~6K+ words, the then-current repo set, and zero external contact. These actions break the seal. They are human actions, not sprint tasks.
 
 #### Action 1: Submit Google Creative Lab Five (HIGHEST ROI)
 
@@ -427,7 +427,7 @@ This is the durable priority stack. It answers "what should I work on?" when you
 - ORGAN-II low-code repos — relevant when making art, not during validation
 - ORGAN-VII workflow improvements — distribution-agent is running; optimize later
 - Registry schema evolution — schema v0.5 is sufficient
-- Any repo not listed above — 97 repos is enough; don't add more
+- Any repo not listed above — 149 registry entries is enough; don't add more
 - seed.yaml coverage improvement (44% → 60%+) — useful but not external-facing
 
 **Hard deadlines:**
@@ -553,7 +553,7 @@ The portfolio is designed. It's deployed. It uses a coherent design system. Subm
 
 ### AP-6: Don't Add Repos to Fill Perceived Gaps
 
-97 repositories is enough. The temptation to create `organvm-iii-ergon/new-product-idea` or `organvm-i-theoria/another-framework` is real. Each new repo adds maintenance burden (CI, README, registry entry, seed.yaml, topics) and dilutes focus. Create new repos only when you have working code that doesn't fit an existing repo.
+149 registry entries is enough. The temptation to create `organvm-iii-ergon/new-product-idea` or `organvm-i-theoria/another-framework` is real. Each new repo adds maintenance burden (CI, README, registry entry, seed.yaml, topics) and dilutes focus. Create new repos only when you have working code that doesn't fit an existing repo.
 
 **Test:** "Do I have code written that needs a home, or am I creating a home for code I haven't written?" If the latter, stop.
 

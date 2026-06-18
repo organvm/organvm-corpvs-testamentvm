@@ -2,11 +2,11 @@
   "title": "ORGANVM \u2014 Eight-Organ Creative-Institutional System",
   "tagline": "A living system of 8 organs coordinating theory, art, commerce, orchestration, public process, community, marketing, and governance.",
   "metrics": {
-    "total_repos": 100,
-    "active_repos": 90,
-    "archived_repos": 10,
-    "dependency_edges": 31,
-    "ci_workflows": 82,
+    "total_repos": 149,
+    "active_repos": 93,
+    "archived_repos": 54,
+    "dependency_edges": 62,
+    "ci_workflows": 107,
     "operational_organs": 8,
     "sprints_completed": 33
   },
@@ -16,7 +16,7 @@
       "name": "Theory",
       "greek": "Theoria",
       "org": "organvm-i-theoria",
-      "repo_count": 20,
+      "repo_count": 26,
       "status": "OPERATIONAL",
       "description": "Epistemological frameworks, recursive engines, ontological systems, conceptual research"
     },
@@ -25,7 +25,7 @@
       "name": "Art",
       "greek": "Poiesis",
       "org": "organvm-ii-poiesis",
-      "repo_count": 30,
+      "repo_count": 32,
       "status": "OPERATIONAL",
       "description": "Generative art, interactive systems, performance frameworks, experiential work"
     },
@@ -34,7 +34,7 @@
       "name": "Commerce",
       "greek": "Ergon",
       "org": "organvm-iii-ergon",
-      "repo_count": 27,
+      "repo_count": 32,
       "status": "OPERATIONAL",
       "description": "Revenue-generating products, deployed systems, customer-facing tools, B2B/B2C applications"
     },
@@ -43,7 +43,7 @@
       "name": "Orchestration",
       "greek": "Taxis",
       "org": "organvm-iv-taxis",
-      "repo_count": 7,
+      "repo_count": 22,
       "status": "OPERATIONAL",
       "description": "Cross-organ routing, governance, promotion automation, system coordination, dependency management"
     },
@@ -52,7 +52,7 @@
       "name": "Public Process",
       "greek": "Logos",
       "org": "organvm-v-logos",
-      "repo_count": 2,
+      "repo_count": 6,
       "status": "OPERATIONAL",
       "description": "Essays, marginalia, process documentation, building in public, RSS/newsletter, audience engagement"
     },
@@ -61,7 +61,7 @@
       "name": "Community",
       "greek": "Koinonia",
       "org": "organvm-vi-koinonia",
-      "repo_count": 4,
+      "repo_count": 6,
       "status": "OPERATIONAL",
       "description": "Community infrastructure, member management, governance, forums, shared resources, collaborative spaces"
     },
@@ -70,7 +70,7 @@
       "name": "Marketing",
       "greek": "Kerygma",
       "org": "organvm-vii-kerygma",
-      "repo_count": 4,
+      "repo_count": 6,
       "status": "OPERATIONAL",
       "description": "Content distribution, social amplification, audience building, POSSE automation, release coordination, press/announcement strategy"
     },
@@ -79,7 +79,7 @@
       "name": "META-ORGANVM",
       "greek": "META-ORGANVM",
       "org": "",
-      "repo_count": 6,
+      "repo_count": 14,
       "status": "OPERATIONAL",
       "description": "Umbrella organization coordinating all 7 organ orgs. System-wide governance, cross-organ visibility, and institutional identity."
     }

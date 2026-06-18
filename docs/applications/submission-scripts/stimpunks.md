@@ -32,7 +32,7 @@
 
 Building creative infrastructure from lived experience of precarity.
 
-My practice centers on the eight-organ system — a documented infrastructure coordinating theory, generative art, commercial products, governance, public process, community, and marketing across 100 repositories and 8 GitHub organizations. The 42 published essays documenting this process aren't reflections on the work; they ARE the work — the creative process rendered into prose in real time.
+My practice centers on the eight-organ system — a documented infrastructure coordinating theory, generative art, commercial products, governance, public process, community, and marketing across 149 repositories and 8 GitHub organizations. The 42 published essays documenting this process aren't reflections on the work; they ARE the work — the creative process rendered into prose in real time.
 
 I use AI tools as compositional instruments, the way Brian Eno treated the studio. The architectural vision, governance design, and editorial judgment are the creative work. The result: a documented methodology for solo production at institutional scale, built over 5+ years and 33 development sprints.
 
@@ -54,7 +54,7 @@ Stimpunks Creator Grant represents a critical opportunity to sustain and extend 
 
 ---
 
-Systems artist and auteur-producer. Creator of the ORGANVM eight-organ system: 100 repositories across 8 GitHub organizations coordinating theory, art, commerce, governance, and public process through automated governance. 42 published essays, 33 development sprints, ~410K+ of documentation. 18 years professional experience across creative systems design, college instruction (11 years, 2,000+ students), multimedia production, and project management. MFA Creative Writing, Meta Full-Stack Developer certification. Based in New York City.
+Systems artist and auteur-producer. Creator of the ORGANVM eight-organ system: 149 registry entries spanning the eight-organ system, coordinating theory, art, commerce, governance, and public process through automated governance. 42 published essays, 33 development sprints, ~410K+ of documentation. 18 years professional experience across creative systems design, college instruction (11 years, 2,000+ students), multimedia production, and project management. MFA Creative Writing, Meta Full-Stack Developer certification. Based in New York City.
 
 ---
 
@@ -95,7 +95,7 @@ Generative art meta-system connecting theory to practice
 1. Cross-domain integration — the eight-organ model bridges theory, art, commerce, governance, and community.
 2. Radical transparency at system scale — ~410K+ of documentation, 33 sprint specs, 12 ADRs, a constitution.
 3. Process-as-product methodology — the 42 essays aren't marketing; they ARE the creative work.
-4. Solo production at institutional scale — one person built and documented a 100-repository system across 8 organizations.
+4. Solo production at institutional scale — one person built and documented a 149-repository system across 8 organizations.
 
 ---
 

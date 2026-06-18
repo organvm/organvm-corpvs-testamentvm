@@ -294,11 +294,11 @@ Publications that pay professional rates for the exact kind of essays already be
 
 ### Pitch Strategy
 
-**Noema** (highest ROI): "I built a 100-repository creative system orchestrated by AI — here's what it reveals about the future of solo creative production." 3,000 words. $3,000.
+**Noema** (highest ROI): "I built a 149-repository creative system orchestrated by AI — here's what it reveals about the future of solo creative production." 3,000 words. $3,000.
 
 **MIT Tech Review**: "The AI-Conductor Model: How one person used Claude to coordinate 97 GitHub repos, 33 development sprints, and 6,200+ words of documentation." Feature pitch. $2,500-$12,000.
 
-**Logic Magazine**: "Governance as Artistic Medium: When the rules that coordinate 100 repositories become the artwork." 2,000-4,000 words. $1,200-$2,000.
+**Logic Magazine**: "Governance as Artistic Medium: When the rules that coordinate 149 repositories become the artwork." 2,000-4,000 words. $1,200-$2,000.
 
 **Benefits cliff note:** Writing income is earned income (not lump-sum) — counts toward SNAP monthly threshold ($1,580/month net for 1 person). One Noema essay per quarter keeps income under threshold while adding $12K/year.
 

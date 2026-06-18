@@ -18,7 +18,7 @@ The initial assessment overcorrected. It framed the gap as "0 years professional
 **Education:** MFA Creative Writing (FAU, 2015–2018), BA English Literature (CUNY, 2010–2014)
 
 **Professional experience:**
-- Independent Creative Systems Designer / AI-Augmented Production (2021–present) — 5 years. Designed and built the eight-organ system: 100 repos, 2,349 tests, CI/CD, custom DSL, multi-agent orchestration. Uses AI tools as compositional instruments for solo production at institutional scale.
+- Independent Creative Systems Designer / AI-Augmented Production (2021–present) — 5 years. Designed and built the eight-organ system: 149 repos, 2,349 tests, CI/CD, custom DSL, multi-agent orchestration. Uses AI tools as compositional instruments for solo production at institutional scale.
 - College Instructor at 8+ institutions (2015–present) — 11 years. Technical explanation, curriculum design, student-facing
 - AJP Media Arts, Multimedia Specialist (2011–present) — 15 years running own business, 15 clients, video/audio/web production, client management, project delivery
 - Miami Dade College Foundation, Digital Marketing Manager (2023–2024) — organizational experience, cross-functional collaboration
@@ -47,7 +47,7 @@ The engineering roles require experience that falls into four specific categorie
 
 1. **No collaborative engineering team experience** — code review with peers, sprint planning, shared production codebases, oncall/SLA environments. All 5 years of engineering work has been solo.
 
-2. **No production deployment serving real users at scale** — 100 repos with comprehensive tests and CI/CD, but 0 users. Hiring managers at $230K–$560K companies compare against candidates who have shipped software to paying customers.
+2. **No production deployment serving real users at scale** — 149 repos with comprehensive tests and CI/CD, but 0 users. Hiring managers at $230K–$560K companies compare against candidates who have shipped software to paying customers.
 
 3. **No enterprise customer-facing experience in tech specifically** — 11 years of teaching IS customer-facing work (technical explanation, managing expectations, adapting to audience), but it's not the "enterprise customer" experience that roles like Anthropic FDE or Cohere explicitly require.
 
@@ -55,7 +55,7 @@ The engineering roles require experience that falls into four specific categorie
 
 ### What Counts (Previously Dismissed)
 
-- **5 years independent software engineering** with demonstrable output — 100 repos, 2,349 tests, CI/CD pipelines, custom DSL, multi-agent orchestration. Job postings say "4+ years software engineering," not "4+ years at a company."
+- **5 years independent software engineering** with demonstrable output — 149 repos, 2,349 tests, CI/CD pipelines, custom DSL, multi-agent orchestration. Job postings say "4+ years software engineering," not "4+ years at a company."
 - **11 years teaching** = customer-facing, communication, technical explanation, curriculum design. This directly maps to developer advocacy and FDE roles.
 - **15 years running own multimedia business** = client management, project delivery, autonomy, self-direction. Founding-stage teams value this.
 - **11 years construction PM** = execution discipline, budget management, stakeholder management. This is real professional experience, not a gap.
@@ -70,7 +70,7 @@ The engineering roles require experience that falls into four specific categorie
 #### Creative Capital 2027 Open Call — Realistic fit: 9/10
 - **Requirement:** 5+ years professional artistic practice, "formally and/or conceptually innovative works"
 - **Why you qualify:** The eight-organ system is a 5+ year sustained creative practice that is formally innovative (governance-as-art, AI-augmented methodology) and conceptually innovative (process-as-product, solo production at institutional scale). Creative Capital explicitly funds technology as a sub-discipline. Up to $50,000 + professional development services + new State of the Art Prize.
-- **Advantage:** The ORGANVM system as a living creative work is exactly what Creative Capital exists to fund. 42 essays document the practice in real-time. 100 repos demonstrate sustained commitment. The "process of creation IS the product" thesis is genuinely novel. Panelist advice: "Describe your project with the clarity of a children's book" — the system has a clear, communicable thesis.
+- **Advantage:** The ORGANVM system as a living creative work is exactly what Creative Capital exists to fund. 42 essays document the practice in real-time. 149 repos demonstrate sustained commitment. The "process of creation IS the product" thesis is genuinely novel. Panelist advice: "Describe your project with the clarity of a children's book" — the system has a clear, communicable thesis.
 - **Risk:** Highly competitive (thousands of applications for ~40 awards). Application opens Mar 2, due Apr 2.
 - **Action:** Begin preparing materials now, submit April 2
 - **Benefits cliff:** $50K would exceed Medicaid threshold → Essential Plan ($0 premium). Call NYLAG before accepting.
@@ -78,7 +78,7 @@ The engineering roles require experience that falls into four specific categorie
 #### Artadia NYC Awards — Realistic fit: 8/10
 - **Requirement:** Contemporary visual artist, NYC-based, work presented in contemporary art context
 - **Why you qualify:** MFA provides creative credibility. The eight-organ system IS the artistic practice — governance as medium, process as product. Portfolio site with generative art (p5.js) demonstrates visual practice. NYC-based. Unrestricted $15,000 grant, 3 awardees per cycle.
-- **Advantage:** Unrestricted funds — no project proposal required, just evidence of sustained practice. The system's public documentation makes every claim verifiable. Strong institutional framing (8 orgs, 100 repos, automated governance = institutional scale).
+- **Advantage:** Unrestricted funds — no project proposal required, just evidence of sustained practice. The system's public documentation makes every claim verifiable. Strong institutional framing (8 orgs, 149 repos, automated governance = institutional scale).
 - **Risk:** "Contemporary visual artist" framing — the system is more conceptual/systems art than traditional visual art. Need to frame the portfolio site, generative art repos, and interactive installations as the visual practice.
 - **Action:** Submit by March 1 via Submittable
 - **Benefits cliff:** SNAP-safe (lump sum excluded). $15K on $12K base stays below Medicaid threshold with Schedule C deductions.
@@ -145,7 +145,7 @@ The engineering roles require experience that falls into four specific categorie
 #### OpenAI SE, Applied Evals ($230K–$385K) — Realistic fit: 4/10 (was: 2/10)
 - **Requirement:** "4+ years software engineering," "shipping production systems end-to-end"
 - **What works:** "4+ years software engineering" doesn't say "at a company." 5 years of independent SWE with evaluation infrastructure, multi-agent workflows, tool use, and 2,349 tests across the system. The eval infrastructure focus maps directly to your validation/testing work.
-- **What doesn't:** "Shipping production systems end-to-end" typically means to real users at scale. 100 repos with 0 users is the core gap. Competition is candidates from Google, Meta, Stripe with shipped production systems.
+- **What doesn't:** "Shipping production systems end-to-end" typically means to real users at scale. 149 repos with 0 users is the core gap. Competition is candidates from Google, Meta, Stripe with shipped production systems.
 - **Why not lower:** The posting language is genuinely capability-based, and your capabilities in eval infrastructure are real.
 
 ---
@@ -215,7 +215,7 @@ The engineering roles require experience that falls into four specific categorie
 
 ## What Would Strengthen Engineering Applications
 
-1. **Deploy one tool with real users** — even 100 users is more credible to engineering hiring managers than 100 repos with 0. This is the single highest-leverage gap to close.
+1. **Deploy one tool with real users** — even 100 users is more credible to engineering hiring managers than 149 repos with 0. This is the single highest-leverage gap to close.
 
 2. **Contribute to an open-source project that isn't yours** — demonstrates collaborative engineering (code review, working in someone else's codebase, responding to maintainer feedback). HuggingFace Transformers, LangChain, or similar.
 
@@ -227,7 +227,7 @@ The engineering roles require experience that falls into four specific categorie
 
 ## Summary
 
-**Strongest assets:** 5 years of sustained creative-technical practice (100 repos, 33 sprints, 2,349 tests, CI/CD, custom DSL, multi-agent orchestration), 18 years of professional experience across 4 domains, systems thinking, documentation quality (~404K+ words), creative-technical hybridity, self-direction, and testing discipline. 42 published essays documenting the practice in real-time.
+**Strongest assets:** 5 years of sustained creative-technical practice (149 repos, 33 sprints, 2,349 tests, CI/CD, custom DSL, multi-agent orchestration), 18 years of professional experience across 4 domains, systems thinking, documentation quality (~404K+ words), creative-technical hybridity, self-direction, and testing discipline. 42 published essays documenting the practice in real-time.
 
 **The engineering gap is real but specific:** No collaborative team engineering, no production deployment to real users, no enterprise customer-facing tech experience, limited ML domain knowledge. These matter for engineering roles at $230K–$560K but are irrelevant for art-tech grants and residencies.
 

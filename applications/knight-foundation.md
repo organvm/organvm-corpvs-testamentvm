@@ -9,7 +9,7 @@
 
 ## Project Statement
 
-ORGANVM is a living creative-institutional system — eight interconnected organs governing theory, art, commerce, orchestration, public process, community, marketing, and meta-governance. Built by a single operator using an AI-conductor methodology, the system coordinates 149 repositories across 8 GitHub organizations with 62 registry dependency edges, 115 seed.yaml contract edges, and zero back-edge violations.
+ORGANVM is a living creative-institutional system — eight interconnected organs governing theory, art, commerce, orchestration, public process, community, marketing, and meta-governance. Built by a single operator using an AI-conductor methodology, the system coordinates 149 registry entries with 62 registry dependency edges, 115 seed.yaml contract edges, and current V4 reconciliation findings (6 missing targets, 1 back-edge).
 
 This application highlights the system's relevance to Knight Foundation Art+Tech through:
 
@@ -49,7 +49,7 @@ Central orchestration hub: registry, governance rules, 5 workflows, 3 Python scr
 
 ## [organvm-corpvs-testamentvm](https://github.com/meta-organvm/organvm-corpvs-testamentvm)
 
-The authoritative planning and governance corpus for the eight-organ creative-institutional system. 81 repos, ~6K+ words, 8 organizations, 21 essays.
+The authoritative planning and governance corpus for the eight-organ creative-institutional system. 149 registry entries, ~410K+ words, 42 essays.
 
 - **Status**: ACTIVE
 - **Tier**: flagship

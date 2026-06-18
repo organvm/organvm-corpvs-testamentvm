@@ -32,7 +32,7 @@ If the form asks for published work, writing credits, or evidence of professiona
 
 ---
 
-MFA in Creative Writing, Florida Atlantic University (2015–2018). Author of 42 published nonfiction essays totaling ~134,000 words, published via ORGAN-V Public Process (https://organvm-v-logos.github.io/public-process/) and distributed via RSS, Mastodon, and Discord. Essays cover creative systems design, AI-augmented production methodology, governance as artistic medium, and building-in-public as creative practice. 11 years teaching writing and creative technology at 8+ institutions, including 100+ courses and 2,000+ students. ~404,000 words of published documentation across 100 repositories in the eight-organ creative-institutional system.
+MFA in Creative Writing, Florida Atlantic University (2015–2018). Author of 42 published nonfiction essays totaling ~134,000 words, published via ORGAN-V Public Process (https://organvm-v-logos.github.io/public-process/) and distributed via RSS, Mastodon, and Discord. Essays cover creative systems design, AI-augmented production methodology, governance as artistic medium, and building-in-public as creative practice. 11 years teaching writing and creative technology at 8+ institutions, including 100+ courses and 2,000+ students. ~404,000 words of published documentation across 149 repositories in the eight-organ creative-institutional system.
 
 ---
 

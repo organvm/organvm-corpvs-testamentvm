@@ -62,7 +62,7 @@ organvm status
 ```
 
 **Talking points:**
-- "This is the entire system in one command. Eight organs, 103 repositories, all
+- "This is the entire system in one command. Eight organs, 149 registry entries, all
   managed by a single person using AI as a force multiplier."
 - "The soak test is a 30-day stability trial — the system has to run
   autonomously with zero critical incidents. We are 17 days in."
@@ -219,12 +219,13 @@ Result: PASS
 **Talking points:**
 - "The governance audit checks every repo against the system's own rules — CI
   presence, platinum status, dependency compliance."
-- "24 warnings, zero violations. The warnings are infrastructure repos and
-  archive entries that intentionally have relaxed requirements."
+- "The current validator reports the reconciliation findings explicitly rather
+  than hiding them: missing targets, back-edges, and cycles are counted
+  separately."
 - "Result: PASS. The system polices itself."
 
 **Closing line:** "This is not a portfolio. It is an operational institution with
-103 repositories, 94 CI pipelines, 8 organs, and a 17-criteria graduation
+149 registry entries, 94 CI pipelines, 8 organs, and a 17-criteria graduation
 protocol — run by one person with AI as the conductor."
 
 ---
@@ -456,7 +457,7 @@ DRY RUN — no files will be modified
   document that references system numbers — the master summary, the registry,
   the README files."
 - "No manual find-and-replace. One command updates every occurrence of
-  '103 repositories' or '~6K+ words' across the entire corpus."
+  '149 registry entries' or '~6K+ words' across the entire corpus."
 - "This is the conductor model in action: the system maintains its own
   documentation."
 

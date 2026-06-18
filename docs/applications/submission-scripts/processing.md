@@ -32,7 +32,7 @@
 
 Teaching complex systems to diverse audiences IS my creative practice.
 
-My practice centers on the eight-organ system — a documented infrastructure coordinating theory, generative art, commercial products, governance, public process, community, and marketing across 100 repositories and 8 GitHub organizations. The 42 published essays documenting this process aren't reflections on the work; they ARE the work — the creative process rendered into prose in real time.
+My practice centers on the eight-organ system — a documented infrastructure coordinating theory, generative art, commercial products, governance, public process, community, and marketing across 149 repositories and 8 GitHub organizations. The 42 published essays documenting this process aren't reflections on the work; they ARE the work — the creative process rendered into prose in real time.
 
 I use AI tools as compositional instruments, the way Brian Eno treated the studio. The architectural vision, governance design, and editorial judgment are the creative work. The result: a documented methodology for solo production at institutional scale, built over 5+ years and 33 development sprints.
 
@@ -42,7 +42,7 @@ I use AI tools as compositional instruments, the way Brian Eno treated the studi
 
 ---
 
-Eleven years teaching at 8+ institutions — 2,000+ students across 100+ courses — taught me that the most powerful pedagogy makes complex systems visible and navigable. The eight-organ system (100 repositories, 42 essays, ~410K+ of documentation) is simultaneously a creative work AND a teaching instrument: every architectural decision is documented, every mistake published, every sprint specified.
+Eleven years teaching at 8+ institutions — 2,000+ students across 100+ courses — taught me that the most powerful pedagogy makes complex systems visible and navigable. The eight-organ system (149 repositories, 42 essays, ~410K+ of documentation) is simultaneously a creative work AND a teaching instrument: every architectural decision is documented, every mistake published, every sprint specified.
 
 Processing Foundation Fellowship aligns precisely with the trajectory of this practice — the combination of creative rigor, technical depth, and public documentation that defines the eight-organ methodology.
 
@@ -54,7 +54,7 @@ Processing Foundation Fellowship aligns precisely with the trajectory of this pr
 
 ---
 
-Systems artist and auteur-producer. Creator of the ORGANVM eight-organ system: 100 repositories across 8 GitHub organizations coordinating theory, art, commerce, governance, and public process through automated governance. 42 published essays, 33 development sprints, ~410K+ of documentation. 18 years professional experience across creative systems design, college instruction (11 years, 2,000+ students), multimedia production, and project management. MFA Creative Writing, Meta Full-Stack Developer certification. Based in New York City.
+Systems artist and auteur-producer. Creator of the ORGANVM eight-organ system: 149 registry entries spanning the eight-organ system, coordinating theory, art, commerce, governance, and public process through automated governance. 42 published essays, 33 development sprints, ~410K+ of documentation. 18 years professional experience across creative systems design, college instruction (11 years, 2,000+ students), multimedia production, and project management. MFA Creative Writing, Meta Full-Stack Developer certification. Based in New York City.
 
 ---
 
@@ -95,7 +95,7 @@ Generative art meta-system connecting theory to practice
 1. Radical transparency at system scale — ~410K+ of documentation, 33 sprint specs, 12 ADRs, a constitution.
 2. Process-as-product methodology — the 42 essays aren't marketing; they ARE the creative work.
 3. Cross-domain integration — the eight-organ model bridges theory, art, commerce, governance, and community.
-4. Solo production at institutional scale — one person built and documented a 100-repository system across 8 organizations.
+4. Solo production at institutional scale — one person built and documented a 149-repository system across 8 organizations.
 
 ---
 

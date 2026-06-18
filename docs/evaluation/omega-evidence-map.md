@@ -78,8 +78,8 @@ Scorecard code fix: [`organvm-engine#1`](https://github.com/meta-organvm/organvm
 - Script: `scripts/soak-test-monitor.py`
 
 **Current Data (2026-02-17 snapshot):**
-- Registry validation: PASS (97 repos, 0 issues)
-- Dependency validation: PASS (31 edges, 0 back-edges, 0 cycles)
+- Registry validation: 149 registry entries tracked
+- Dependency validation: V4 reports 62 edges, 6 missing targets, 1 back-edge, 0 cycles
 - CI: 71 checked, 57 passing, 14 failing (12 ORGAN-I billing lock, 2 other)
 - Engagement: 5 stars, 3 forks, 93 views on public-record-data-scrapper
 

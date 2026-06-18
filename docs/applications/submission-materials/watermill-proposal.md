@@ -10,7 +10,7 @@
 
 I propose to develop *Governance as Performance* — a series of installations and performance works that make the invisible architecture of creative systems visible, audible, and participatory.
 
-My practice centers on the eight-organ system: a documented infrastructure coordinating 100 software repositories across 8 organizations through formal governance rules — dependency graphs, promotion state machines, automated validation workflows. I've built this system over 5+ years, producing 42 published essays and 404,000+ words of documentation along the way. The governance model — the rules that decide how work flows between theory, art, commerce, and community — is itself the primary artistic output.
+My practice centers on the eight-organ system: a documented infrastructure coordinating 149 registry entries spanning the eight-organ system through formal governance rules — dependency graphs, promotion state machines, automated validation workflows. I've built this system over 5+ years, producing 42 published essays and 404,000+ words of documentation along the way. The governance model — the rules that decide how work flows between theory, art, commerce, and community — is itself the primary artistic output.
 
 At Watermill, I want to translate this invisible architecture into collaborative performance.
 
@@ -20,7 +20,7 @@ At Watermill, I want to translate this invisible architecture into collaborative
 
 ### 1. The Conductor's Score (Installation)
 
-A real-time visualization of the eight-organ system's dependency graph projected onto a wall-sized surface. Each of the 100 repositories appears as a node; the 31 validated dependency edges glow as data flows between them. The system's actual GitHub activity — commits, issues, workflow runs — drives the visualization in real time. Visitors can trigger events (opening issues, requesting promotions) that ripple through the graph. The installation makes governance *visible* — the audience sees an institutional structure operating as a living organism.
+A real-time visualization of the eight-organ system's dependency graph projected onto a wall-sized surface. Each of the 149 repositories appears as a node; the 62 registry dependency edges glow as data flows between them. The system's actual GitHub activity — commits, issues, workflow runs — drives the visualization in real time. Visitors can trigger events (opening issues, requesting promotions) that ripple through the graph. The installation makes governance *visible* — the audience sees an institutional structure operating as a living organism.
 
 ### 2. The Orchestration (Collaborative Performance)
 
@@ -42,7 +42,7 @@ The collaborative environment — 60-100 artists from 30+ countries — offers s
 
 ## About the Artist
 
-MFA in Creative Writing. 11 years teaching at 8+ institutions. Systems artist and creative technologist building at the intersection of governance, generative art, and AI-augmented production. The eight-organ system coordinates 100 repositories across 8 organizations, 42 published essays, 404,000+ words of public documentation, and 82+ CI/CD pipelines — all built by a single practitioner using AI as a compositional instrument. 5+ year NYC resident. LGBTQ+.
+MFA in Creative Writing. 11 years teaching at 8+ institutions. Systems artist and creative technologist building at the intersection of governance, generative art, and AI-augmented production. The eight-organ system coordinates 149 registry entries spanning the eight-organ system, 42 published essays, 404,000+ words of public documentation, and 82+ CI/CD pipelines — all built by a single practitioner using AI as a compositional instrument. 5+ year NYC resident. LGBTQ+.
 
 ---
 

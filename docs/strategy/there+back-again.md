@@ -100,8 +100,8 @@ Thirty-three sprints have executed since launch. The system's current state:
 | Total documentation | ~404K+ words |
 | Meta-system essays | 42 (~142K words) |
 | CI/CD workflows | 82+ (17 crons disabled for billing) |
-| Dependency edges | 31 validated, 0 violations |
-| Seed.yaml contracts | 115 edges across 97 repos |
+| Dependency edges | 62 registry edges; V4 reports 6 missing targets, 1 back-edge, 0 cycles |
+| Seed.yaml contracts | 115 edges across the 149-entry registry |
 | Code files (system-wide) | 3,586 |
 | Test files (system-wide) | 736 |
 | Repos with 10+ code files | 38 |
@@ -458,13 +458,13 @@ That is the philosophical stake of omega: *Can you let go?* Can the infrastructu
 
 The twenty-five sprints from launch through INSPECTIO tell a story when viewed as a sequence. They are not random — they trace an arc from deployment urgency through quality correction to operational readiness:
 
-**Construction phase (Sprints 1-7: Gap-Fill through Perfection):** Focused on volume. The priority was coverage — every repo documented, every CI workflow deployed, every badge row complete, the portfolio site expanded. The metrics that matter here are counts: 81 repos, 339K words, 70+ CI workflows, 21 essays. This phase answers the question: *Is the system complete?*
+**Construction phase (Sprints 1-7: Gap-Fill through Perfection):** Focused on volume. The priority was coverage — every repo documented, every CI workflow deployed, every badge row complete, the portfolio site expanded. The metrics that matter here are historical launch counts: initial repo coverage, 339K words, 70+ CI workflows, 21 essays. This phase answers the question: *Is the system complete?*
 
 **Integrity phase (Sprints 8-14: Autonomy through Manifestatio):** Focused on truth. The Autonomy and Genesis sprints built the autonomous governance infrastructure (seed.yaml, orchestrator-agent, cross-org dispatch). The Veritas sprint confronted honesty problems — PRODUCTION was renamed to ACTIVE, revenue claims were corrected, future-dated essays were fixed. The Manifestatio sprint revealed that the code audit had undercounted by 7×. This phase answers the question: *Is the system honest?*
 
 **Readiness phase (Sprints 15-16: Illustratio through Operatio):** Focused on presentation and sustainability. The Illustratio sprint redesigned the portfolio for external audiences (CMYK design system, Jost typography, generative p5.js visuals). The Operatio sprint built operational infrastructure for the post-construction era (soak test, runbooks, stranger test protocol). This phase answers the question: *Is the system ready for other people?*
 
-**Consolidation phase (Sprints 17-25: Remedium through Inspectio):** Focused on reconciliation and preparation. Workspace restructured to flat 2-level layout, registry reconciled with GitHub (91→97 repos), 19 retrospective sprint specs written, metrics variable system deployed, 4 essays deployed (29→33), catalog numbering collisions resolved, and the first product assessment completed (life-my--midst--in selected as beta candidate). This phase answers the question: *Is the system's record consistent and its next moves identified?*
+**Consolidation phase (Sprints 17-25: Remedium through Inspectio):** Focused on reconciliation and preparation. Workspace restructured to flat 2-level layout, registry reconciled with GitHub to the then-current count, 19 retrospective sprint specs written, metrics variable system deployed, 4 essays deployed (29→33), catalog numbering collisions resolved, and the first product assessment completed (life-my--midst--in selected as beta candidate). This phase answers the question: *Is the system's record consistent and its next moves identified?*
 
 The five horizons in this roadmap are the next arc: **Validation phase**. They answer the question: *Does the system work for anyone besides the person who built it?*
 
@@ -474,7 +474,7 @@ One of the eight-organ model's design advantages is that the same evidence answe
 
 **For grant reviewers:** A creative system with institutional ambition, demonstrated operational capability (30-day soak test), community engagement (salons, external contributors), and honest methodology (AI-conductor essays, transparent limitations).
 
-**For hiring managers:** Systems architecture at scale (97 repos, 8 orgs, automated governance), demonstrated shipping capability (product with revenue), CI/CD expertise (82+ workflows), and documentation as deliverable (386K+ words of reviewed, deployed documentation).
+**For hiring managers:** Systems architecture at scale (149 registry entries, automated governance), demonstrated shipping capability (product with revenue), CI/CD expertise (82+ workflows), and documentation as deliverable (386K+ words of reviewed, deployed documentation).
 
 **For fellow practitioners:** A reusable model for organizing creative work (the organ model, documented and open-source), a methodology for human-AI collaboration (the AI-conductor model, published as standalone essay), and an honest account of what works and what doesn't (ORGAN-V essays, including post-mortems).
 
@@ -484,7 +484,7 @@ This is not spin. It is the natural consequence of building a system that genuin
 
 ### "Back Again" — Returning to Creative Freedom
 
-The title of this roadmap references a return journey. "There" was launching the system — Phase -1 through OPERATIO, sixteen sprints, 386K+ words, 97 repos, 8 organizations. "Back again" is the return to the creative work the system was built to protect.
+The title of this roadmap references a return journey. "There" was launching the system — Phase -1 through OPERATIO, sixteen sprints, 410K+ words, 149 registry entries. "Back again" is the return to the creative work the system was built to protect.
 
 After omega, the primary operator's attention shifts:
 
@@ -641,7 +641,7 @@ For reference, the complete sprint history that brought the system to Checkpoint
 
 **Total construction period:** 9 days (2026-02-09 through 2026-02-17)
 **Total sprints:** 33 post-launch + 7 pre-launch phases = 40 discrete work units
-**Total documentation:** ~404K+ words across 97 repositories
+**Total documentation:** ~410K+ words across 149 registry entries
 
 The construction velocity is itself evidence of the AI-conductor methodology's effectiveness — and its limitations. The methodology excels at volume production (404K+ words in 9 days) but cannot substitute for the external validation, community formation, and revenue generation that the omega criteria require. Those take calendar time, not token expenditure.
 

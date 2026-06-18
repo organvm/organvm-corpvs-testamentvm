@@ -40,7 +40,7 @@ Dear Editors,
 
 Systems art through a queer lens — building creative infrastructure from lived experience of precarity, recovery, and community.
 
-The essay would explore how the eight-organ system — 100 repositories across 8 GitHub organizations, governed by automated dependency validation and a formal promotion state machine — challenges assumptions about what solo creative practice can achieve when AI tools serve as compositional instruments rather than replacements for creative judgment.
+The essay would explore how the eight-organ system — 149 registry entries spanning the eight-organ system, governed by automated dependency validation and a formal promotion state machine — challenges assumptions about what solo creative practice can achieve when AI tools serve as compositional instruments rather than replacements for creative judgment.
 
 Topic fit: LGBTQ+ culture, arts, personal essay
 
@@ -63,7 +63,7 @@ Best,
 
 ---
 
-Systems artist. Creator of the ORGANVM eight-organ system — 100 repositories, 8 organizations, 42 essays, ~410K+ words. Builds creative infrastructure at institutional scale using AI tools as compositional instruments. MFA Creative Writing, 18 years professional experience. NYC-based.
+Systems artist. Creator of the ORGANVM eight-organ system — 149 repositories, 8 organizations, 42 essays, ~410K+ words. Builds creative infrastructure at institutional scale using AI tools as compositional instruments. MFA Creative Writing, 18 years professional experience. NYC-based.
 
 ---
 

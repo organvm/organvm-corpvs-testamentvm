@@ -32,10 +32,10 @@
 - "Just hire someone" / "Just raise funding" / "Just reduce scope"
 - Why none of these work for bootstrapped creative practice
 - The gap between what one person can write and what a system needs
-- A 3,000-word README takes 4-6 hours to write well. You have 113 repos.
+- A 3,000-word README takes 4-6 hours to write well. You have 149 registry entries.
 
 **Slide 4 — What I Actually Built**
-- 113 repositories, 8 GitHub organizations, 3 weeks
+- 149 registry entries, 8 GitHub organizations, 3 weeks
 - ~6K+ words of documentation
 - 49 published essays
 - 4,015+ automated tests, 104 CI/CD workflows
@@ -86,14 +86,14 @@
 - "The registry is more important than any individual repo"
 
 **Slide 11 — Registry-as-JSON**
-- `repo-registry.json`: single source of truth for all 113 repos
+- `repo-registry.json`: single source of truth for 149 registry entries
 - Keyed by organ, each containing array of repo objects
 - Fields: name, org, status, tier, promotion_status, ci_workflow, revenue_model
 - Demo moment: show the actual registry file, scroll through it
 
 **Slide 12 — Dependency Graph & Promotion Pipeline**
 - Unidirectional flow: Theory (I) -> Art (II) -> Commerce (III)
-- 50 validated cross-organ edges, 0 circular dependencies, 0 back-edge violations
+- 62 registry dependency edges; current V4 report records 0 cycles, 6 missing targets, and 1 back-edge
 - Five-state promotion: LOCAL -> CANDIDATE -> PUBLIC_PROCESS -> GRADUATED -> ARCHIVED
 - Current pipeline: 4 GRADUATED, 29 PUBLIC_PROCESS, 55 CANDIDATE, 6 LOCAL, 54 ARCHIVED
 - Visual: the dependency DAG with organ labels
@@ -155,7 +155,7 @@
 
 ### Key Demo Moments
 
-1. **Slide 11:** Open `repo-registry.json` in an editor — scroll through the 113 repos to show real scale. Show a single repo entry with all its fields.
+1. **Slide 11:** Open `repo-registry.json` in an editor — scroll through the 149 registry entries to show real scale. Show a single repo entry with all its fields.
 2. **Slide 12:** Show the `organvm` CLI running `organvm registry list --organ ORGAN-I` — live listing of repos with their promotion states.
 3. **Slide 7:** Show a terminal with a TE budget calculation — the token arithmetic for generating a README (input tokens + output tokens + revision iterations).
 4. **Slide 17:** Run `organvm metrics calculate` or show the system dashboard at localhost:8000 — the omega scorecard in real time.
@@ -198,7 +198,7 @@
 - "What if the constraint IS the architecture?"
 
 **Slide 4 — What Emerged**
-- 113 repositories, 8 GitHub organizations
+- 149 registry entries, 8 GitHub organizations
 - 739K+ words of documentation, 49 published essays
 - 4,015+ tests, 104 CI/CD workflows, 6 JSON schemas
 - Constitutional governance framework with 6 articles + 5 amendments
@@ -210,7 +210,7 @@
 - Build FROM the constraint, not DESPITE it
 - "No database budget" does not mean "find a cheaper database"
 - It means: "What if the entire system runs on a single JSON file?"
-- `repo-registry.json`: 2,400+ lines, 113 repos, zero infrastructure cost
+- `repo-registry.json`: 2,400+ lines, 149 registry entries, zero infrastructure cost
 - Demo moment: show the registry file — a JSON file that IS the database
 - "The constraint eliminated an entire class of operational complexity"
 
@@ -308,7 +308,7 @@
 
 ### Key Demo Moments
 
-1. **Slide 5:** Open `repo-registry.json` and show it as the "database" — a single JSON file serving the function of an entire data layer. Scroll to show scale (2,400+ lines, 113 repos).
+1. **Slide 5:** Open `repo-registry.json` and show it as the "database" — a single JSON file serving the function of an entire data layer. Scroll to show scale (2,400+ lines, 149 registry entries).
 2. **Slide 7:** Show the four governance quadrilateral documents side by side in split panes — roadmap, catalog, cadence, rolling TODO.
 3. **Slide 10:** Open an actual ADR file and walk through the constraint -> decision -> consequences format.
 4. **Slide 13:** Run `organvm registry validate` to show the validation scripts catching errors in real time.
@@ -349,7 +349,7 @@
 - Nicky Case's Explorable Explanations — systems thinking as creative medium
 - Hundred Rabbits' radical transparency — process documentation as art
 - Sol LeWitt's wall drawings — instruction-based art, system as work
-- "I am not the first to treat systems as medium. I may be the first to run 113 repos to do it."
+- "I am not the first to treat systems as medium. I may be the first to run 149 registry entries to do it."
 
 **SECTION 2: THE EIGHT ORGANS (10 min)**
 
@@ -365,12 +365,12 @@
   - VIII: Meta — 8 repos — governance of governors, schemas, dashboard
 
 **Slide 5 — The Dependency Graph**
-- Unidirectional flow: I -> II -> III (enforced, zero violations)
+- Unidirectional flow: I -> II -> III, enforced by validation with current reconciliation findings tracked in V4
 - IV orchestrates all organs
 - V observes (read-many, write-one)
 - VII is pure consumer (receives, never produces upstream)
 - VIII governs the governors
-- 50 validated cross-organ edges, 0 circular dependencies
+- 62 registry dependency edges, 0 circular dependencies
 - Visual: DAG with color-coded organs and edge arrows
 - "This is a compositional constraint, like a harmonic rule in music"
 
@@ -463,7 +463,7 @@
 - "It is a creative practice that happens to look like systems architecture"
 
 **Slide 18 — The Organ Model as Creative Methodology**
-- You do not need 113 repos — you need the thinking behind them
+- You do not need 149 registry entries — you need the thinking behind them
 - Design your practice as organs with dependencies, not projects in a folder
 - Ask: what produces, what transforms, what distributes, what governs?
 - The four questions that define any creative system:
@@ -517,7 +517,7 @@ These metrics appear across all three talks and should be kept consistent. Sourc
 | JSON schemas | 6 (all v1.0.0) | schema-definitions |
 | ADRs | 16 | docs/adr/ |
 | Completed sprints | 33 | sprint catalog |
-| Cross-organ edges | 50 (0 violations) | seed graph |
+| Cross-organ edges | 62 registry dependency edges; 7 V4 findings | seed graph |
 | Promotion: GRADUATED | 4 | registry |
 | Promotion: PUBLIC_PROCESS | 29 | registry |
 | Promotion: CANDIDATE | 55 | registry |

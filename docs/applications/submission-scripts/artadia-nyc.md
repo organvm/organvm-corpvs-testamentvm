@@ -31,7 +31,7 @@ Copy everything between the lines:
 
 I build creative systems and treat their governance as an artistic medium.
 
-My practice centers on the eight-organ system — a documented infrastructure coordinating theory, generative art, commercial products, governance, public process, community, and marketing across 100 repositories and 8 GitHub organizations. Rather than producing individual artworks, I produce the environments in which creative work grows, connects, and sustains itself over time.
+My practice centers on the eight-organ system — a documented infrastructure coordinating theory, generative art, commercial products, governance, public process, community, and marketing across 149 repositories and 8 GitHub organizations. Rather than producing individual artworks, I produce the environments in which creative work grows, connects, and sustains itself over time.
 
 The visual dimension of my practice includes generative art built with p5.js (deployed across my portfolio site with CMYK color logic and Jost typography), interactive installations exploring waveform synthesis, and data visualizations that make the system's own governance visible. The 42 published essays documenting this process are as much visual-textual artifacts as they are critical writing — the prose IS the medium.
 
@@ -49,7 +49,7 @@ Copy everything between the lines:
 
 ---
 
-MFA in Creative Writing (Florida Atlantic University, 2015–2018). 11 years teaching at 8+ institutions across NYC, including 100+ courses and 2,000+ students. Systems artist and creative technologist building at the intersection of governance, generative art, and AI-augmented production. Currently developing the eight-organ creative-institutional system: 100 repositories across 8 organizations, 42 published essays, 404,000+ words of public documentation, and 82+ CI/CD pipelines — all built by a single practitioner using AI as a compositional instrument. Based in NYC. 5+ year NYC resident.
+MFA in Creative Writing (Florida Atlantic University, 2015–2018). 11 years teaching at 8+ institutions across NYC, including 100+ courses and 2,000+ students. Systems artist and creative technologist building at the intersection of governance, generative art, and AI-augmented production. Currently developing the eight-organ creative-institutional system: 149 registry entries spanning the eight-organ system, 42 published essays, 404,000+ words of public documentation, and 82+ CI/CD pipelines — all built by a single practitioner using AI as a compositional instrument. Based in NYC. 5+ year NYC resident.
 
 ---
 
@@ -67,7 +67,7 @@ Every page of the portfolio site includes a generative p5.js layer — procedura
 
 **URL:** `https://github.com/meta-organvm`
 
-The eight-organ system coordinates 100 repositories across 8 GitHub organizations through a machine-readable registry, automated dependency validation (no circular dependencies, no back-edges), a formal promotion state machine, and 11 governance workflows. The architecture IS the artwork — the rules governing how theory feeds art, art feeds commerce, and documentation feeds everything are artistic decisions made visible through infrastructure.
+The eight-organ system coordinates 149 registry entries spanning the eight-organ system through a machine-readable registry, automated dependency validation for missing targets, circular dependencies, and back-edges, a formal promotion state machine, and 11 governance workflows. The architecture IS the artwork — the rules governing how theory feeds art, art feeds commerce, and documentation feeds everything are artistic decisions made visible through infrastructure.
 
 ### Sample 3: Public Process Essay Series
 

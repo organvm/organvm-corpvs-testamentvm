@@ -4,7 +4,7 @@ Thank you for your interest in contributing. This document explains how the eigh
 
 ## System Overview
 
-The organvm system is an eight-organ creative-institutional system spanning 97 repositories across 8 GitHub organizations:
+The organvm system is an eight-organ creative-institutional system spanning 149 registry entries across the organ/meta GitHub organizations plus personal/local entries:
 
 | Organ | Domain | Organization | What's Here |
 |-------|--------|-------------|-------------|

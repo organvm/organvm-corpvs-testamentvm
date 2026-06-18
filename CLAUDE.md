@@ -4,12 +4,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Repository Is
 
-This is a **planning and governance documentation corpus** — not a source code repository. It contains the complete planning, audit, and implementation record for an eight-organ creative-institutional system ("ORGAN I–VII + Meta") that coordinates 97 GitHub repositories across 8 GitHub organizations (7 organ orgs + 1 meta-org).
+This is a **planning and governance documentation corpus** — not a source code repository. It contains the complete planning, audit, and implementation record for an eight-organ creative-institutional system ("ORGAN I–VII + Meta") that coordinates 149 registry entries spanning the organ/meta GitHub organizations plus personal/local entries.
 
 **Owner:** @4444j99 / @4444J99
 **Status:** LAUNCHED (2026-02-11) — all 8 organs OPERATIONAL
 **Repository:** `a-organvm/organvm-corpvs-testamentvm` (canonical; `meta-organvm/organvm-corpvs-testamentvm` is a GitHub redirect to the same repo — both URLs resolve identically. Local clone tracks the canonical `a-organvm/` remote.)
-**Documentation deployed:** ~6K+ words across 149 repos + 8 org profiles + 29 meta-system essays
+**Documentation deployed:** ~410K+ words across 149 registry entries + 8 org profiles + 42 meta-system essays
 
 There is no build system or unified test suite here. Executable artifacts include ~51 Python/shell scripts in `scripts/` (validation, deployment, audit, registry tooling), 16 GitHub Actions workflows in `.github/workflows/`, and YAML/Python workflow specifications in `docs/implementation/github-actions-spec.md`.
 
@@ -17,19 +17,19 @@ There is no build system or unified test suite here. Executable artifacts includ
 
 | Organ | Domain | GitHub Org | Repos | Flagships |
 |-------|--------|-----------|-------|-----------|
-| I | Theory (epistemology, recursion, ontology) | `organvm-i-theoria` | 20 | recursive-engine--generative-entity |
-| II | Art (generative, performance, experiential) | `organvm-ii-poiesis` | 30 | metasystem-master, a-mavs-olevm |
-| III | Commerce (SaaS, B2B, B2C products) | `organvm-iii-ergon` | 27 | public-record-data-scrapper |
-| IV | Orchestration (governance, routing) | `organvm-iv-taxis` | 7 | orchestration-start-here, agentic-titan |
-| V | Public Process (essays, building in public) | `organvm-v-logos` | 2 | public-process |
-| VI | Community (salons, reading groups) | `organvm-vi-koinonia` | 4 | — |
-| VII | Marketing (POSSE distribution, announcements) | `organvm-vii-kerygma` | 4 | — |
-| VIII | Meta (umbrella org) | `meta-organvm` | 3 | organvm-corpvs-testamentvm |
+| I | Theory (epistemology, recursion, ontology) | `organvm-i-theoria` | 26 | recursive-engine--generative-entity |
+| II | Art (generative, performance, experiential) | `organvm-ii-poiesis` | 32 | metasystem-master, a-mavs-olevm |
+| III | Commerce (SaaS, B2B, B2C products) | `organvm-iii-ergon` | 32 | public-record-data-scrapper |
+| IV | Orchestration (governance, routing) | `organvm-iv-taxis` | 22 | orchestration-start-here, agentic-titan |
+| V | Public Process (essays, building in public) | `organvm-v-logos` | 6 | public-process |
+| VI | Community (salons, reading groups) | `organvm-vi-koinonia` | 6 | — |
+| VII | Marketing (POSSE distribution, announcements) | `organvm-vii-kerygma` | 6 | — |
+| VIII | Meta (umbrella org) | `meta-organvm` | 14 | organvm-corpvs-testamentvm |
 
 ## Key Invariants (Enforced Across All Documents)
 
 1. **`repo-registry.json` is the single source of truth** — all repo state lives there
-2. **No back-edges in dependency graph** — flow is I→II→III only; ORGAN-III cannot depend on ORGAN-II
+2. **I→II→III dependency constraint** — flow is intended to be unidirectional; `scripts/v4-dependency-validation.py` currently reports 6 missing dependency targets, 1 back-edge, and 0 cycles
 3. **All 8 organs are represented at launch** — each organ has at least one flagship repo fully documented; remaining repos may launch as stubs or in-progress (compatible with Bronze/Silver/Gold tiered approach)
 4. **Documentation precedes deployment** — no Phase 2 until Phase 1 is complete
 5. **Every README is a portfolio piece** — written for grant reviewers and hiring managers, not just developers
@@ -86,7 +86,7 @@ docs/strategy/parallel-launch-strategy
 - **Phase -1 (2026-02-09):** Org architecture — 8 GitHub orgs created, env-var config, naming scheme
 - **Phase 0 (2026-02-10):** Corpus refinement — repo transfers, cross-AI validation, task manifest
 - **Phase 1 (2026-02-10):** Documentation audit — Bronze Sprint (7 flagships), Silver Sprint (58 READMEs, ~202K words), Gold Sprint (essays, health files, workflows)
-- **Phase 2 (2026-02-10):** Micro-validation — all 8 organs locked, 1,267 links audited, 31 dependency edges validated
+- **Phase 2 (2026-02-10):** Micro-validation — all 8 organs locked, 1,267 links audited, launch-time dependency graph validated
 - **Phase 3 (2026-02-10):** Integration — 5 GitHub Actions workflows, POSSE distribution, branch protection
 - **Launch (2026-02-11):** 9/9 criteria met, all 8 organs OPERATIONAL
 - **Gap-Fill Sprint (2026-02-11):** 11 repos created, 14 READMEs deployed, 14 tier promotions, ~270K total words

@@ -14,11 +14,11 @@
 
 ## Abstract (200 words)
 
-No budget. No team. No time. These are the constraints I started with when building an eight-organ creative system that now spans 113 repositories, 8 GitHub organizations, and 739K+ words of documentation. This talk is about how I transmuted those constraints into architecture — how "no budget" became "zero-infrastructure design," how "no team" became "autonomous AI pipelines," and how "no time" became "specification-driven sprints."
+No budget. No team. No time. These are the constraints I started with when building an eight-organ creative system that now spans 149 registry entries, 8 GitHub organizations, and 739K+ words of documentation. This talk is about how I transmuted those constraints into architecture — how "no budget" became "zero-infrastructure design," how "no team" became "autonomous AI pipelines," and how "no time" became "specification-driven sprints."
 
 Constraint alchemy is not motivational thinking. It is a structured methodology with five techniques: inverse design (build from the constraint, not despite it), temporal compression (deadlines as creative accelerants), the minimum viable governance pattern, autonomous amplification (systems that generate their own content), and the portfolio-as-proof approach that turns process documentation into the primary deliverable.
 
-I'll walk through the actual decisions — why a single JSON file beats a database at 113 repos, why disabling 17 workflows saved the system, and why publishing honest revenue numbers (all zeros) built more credibility than inflated claims. The talk includes the full constraint-to-decision-to-architecture pipeline, with templates you can apply to your own constrained creative practice.
+I'll walk through the actual decisions — why a single JSON file beats a database at 149 registry entries, why disabling 17 workflows saved the system, and why publishing honest revenue numbers (all zeros) built more credibility than inflated claims. The talk includes the full constraint-to-decision-to-architecture pipeline, with templates you can apply to your own constrained creative practice.
 
 ## Outline (30-minute talk)
 
@@ -64,7 +64,7 @@ I'll walk through the actual decisions — why a single JSON file beats a databa
 
 ## Speaker Bio
 
-@4444j99 designed the organvm eight-organ system — 113 repositories coordinated across 8 GitHub organizations, built with zero budget, zero team members, and a methodology that transmutes constraints into architecture. 4,015+ automated tests, 104 CI/CD workflows, 27 constitutional specs grounded in 130 peer-reviewed sources. The governance rules that coordinate the system are as carefully designed as any artwork it produces. Based in New York City.
+@4444j99 designed the organvm eight-organ system — 149 registry entries coordinated across 8 GitHub organizations, built with zero budget, zero team members, and a methodology that transmutes constraints into architecture. 4,015+ automated tests, 104 CI/CD workflows, 27 constitutional specs grounded in 130 peer-reviewed sources. The governance rules that coordinate the system are as carefully designed as any artwork it produces. Based in New York City.
 
 ## Technical Requirements
 

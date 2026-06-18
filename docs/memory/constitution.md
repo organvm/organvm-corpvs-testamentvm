@@ -233,8 +233,8 @@ Encoded as: LIM-I, LIM-II, LIM-III in `governance-rules.json` `lex_naturalis.lim
 
 | Article | Status | Notes |
 |---------|--------|-------|
-| I. Registry as SSOT | ACTIVE | repo-registry.json at schema v1.0.0, 103 repos tracked |
-| II. Unidirectional Deps | ACTIVE | 0 back-edge violations. ORGAN-III→VI/VII edges are forward (higher→lower organ flow for community/distribution) |
+| I. Registry as SSOT | ACTIVE | repo-registry.json at schema v1.2.0, 149 registry entries tracked |
+| II. Unidirectional Deps | ACTIVE | Current V4 report records 1 back-edge requiring remediation; ORGAN-III→VI/VII edges are forward (higher→lower organ flow for community/distribution) |
 | III. Eight Organs Visible | SATISFIED | All 8 organs operational since 2026-02-11 |
 | IV. Doc Precedes Deploy | ACTIVE | Governs ongoing promotions and new features |
 | V. Portfolio-Quality Docs | ACTIVE | Stranger Test not yet executed (omega #2) |

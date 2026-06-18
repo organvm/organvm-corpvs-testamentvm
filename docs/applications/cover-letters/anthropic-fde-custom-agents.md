@@ -6,7 +6,7 @@
 
 ---
 
-The eight-organ system I built enforces governance rules as data: a machine-readable registry serves as single source of truth for 100 repositories, a dependency validator blocks merges that violate constitutional constraints, and automated audits have maintained 0 critical alerts since launch. That approach — constraints encoded in data, enforced by automation, not by human vigilance — is why I'm drawn to the Forward Deployed Engineer, Custom Agents role at Anthropic.
+The eight-organ system I built enforces governance rules as data: a machine-readable registry serves as single source of truth for 149 repositories, a dependency validator blocks merges that violate constitutional constraints, and automated audits have maintained 0 critical alerts since launch. That approach — constraints encoded in data, enforced by automation, not by human vigilance — is why I'm drawn to the Forward Deployed Engineer, Custom Agents role at Anthropic.
 
 ## Why Anthropic
 

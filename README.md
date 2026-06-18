@@ -11,12 +11,12 @@
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey?style=flat-square)](LICENSE)
 [![Status: LAUNCHED](https://img.shields.io/badge/Status-LAUNCHED-2e7d32?style=flat-square)](#current-status)
 [![Organs: 8](https://img.shields.io/badge/Organs-8-1a237e?style=flat-square)](#the-eight-organ-model)
-[![Repos: 97](https://img.shields.io/badge/Repos-149-2e7d32?style=flat-square)](#the-eight-organ-model)
-[![Docs: ~6K+ words](https://img.shields.io/badge/Docs-~6K%2B%20words-6a1b9a?style=flat-square)](#current-status)
+[![Repos: 149](https://img.shields.io/badge/Repos-149-2e7d32?style=flat-square)](#the-eight-organ-model)
+[![Docs: ~410K+ words](https://img.shields.io/badge/Docs-~410K%2B%20words-6a1b9a?style=flat-square)](#current-status)
 
-> Complete planning, audit, and implementation corpus for an eight-organ creative-institutional system coordinating 97 GitHub repositories across 8 organizations (7 organs + 1 meta). The system is **live** — all organs are operational.
+> Complete planning, audit, and implementation corpus for an eight-organ creative-institutional system coordinating 149 registry entries spanning the organ/meta GitHub organizations plus personal/local entries. The system is **live** — all organs are operational.
 
-This is **not a source code repository**. It is the authoritative planning and governance corpus for the organvm system — a framework that protects distinct modes of work (theory, art, commerce, community) from collapsing into each other, while presenting the meta-system itself as a portfolio asset. The system launched on 2026-02-11 with all 8 organs operational, 97 repositories, ~6K+ words of documentation, 29 meta-system essays, and automated governance via GitHub Actions.
+This is **not a source code repository**. It is the authoritative planning and governance corpus for the organvm system — a framework that protects distinct modes of work (theory, art, commerce, community) from collapsing into each other, while presenting the meta-system itself as a portfolio asset. The current registry tracks 149 entries, ~410K+ words of documentation, 42 meta-system essays, and automated governance via GitHub Actions.
 
 ---
 
@@ -112,17 +112,17 @@ For a concise directory map, see [`DIRECTORY.md`](DIRECTORY.md).
 
 ### Launch Metrics
 
-| Metric | At Launch (02-11) | Current (02-17) |
+| Metric | At Launch (02-11) | Current (2026-06-18) |
 |--------|-------------------|-----------------|
-| Repos on GitHub | 77 | 97 |
+| Registry entries | 77 | 149 |
 | Documented repos (2,000+ word READMEs) | 72 | 73+ |
-| Total documentation | ~270,000 words | ~404,000+ words |
-| Flagship repos | 7 | 7 |
-| Standard repos | 57 | 57 |
-| ACTIVE status repos | — | 87 (89.7%) |
-| Meta-system essays | 5 (21,625 words) | 36 (~132,000 words) |
-| CI/CD workflows (across all repos) | 5 (meta-level) | 82+ (17 crons disabled for billing) |
-| Dependency edges validated | 31 (0 violations) | 31 (0 violations) |
+| Total documentation | ~270,000 words | ~410,000+ words |
+| Flagship repos | 7 | 13 |
+| Standard repos | 57 | 112 |
+| ACTIVE implementation-status entries | — | 93 |
+| Meta-system essays | 5 (21,625 words) | 42 |
+| CI/CD workflows (across all repos) | 5 (meta-level) | 107+ (17 crons disabled for billing) |
+| Registry dependency edges | 31 (0 launch violations) | 62 edges; V4 reports 7 findings (6 missing targets, 1 back-edge, 0 cycles) |
 | POSSE channels | Mastodon + Discord | Mastodon + Discord |
 | GitHub Pages | [public-process](https://organvm-v-logos.github.io/public-process/) | [public-process](https://organvm-v-logos.github.io/public-process/) |
 
@@ -132,18 +132,18 @@ For a concise directory map, see [`DIRECTORY.md`](DIRECTORY.md).
 
 | Organ | Domain | GitHub Org | Repos | Flagships | Portfolio Angle |
 |-------|--------|-----------|-------|-----------|-----------------|
-| I | Theory (epistemology, recursion, ontology) | [`organvm-i-theoria`](https://github.com/organvm-i-theoria) | 20 | recursive-engine--generative-entity | Intellectual foundations |
-| II | Art (generative, performance, experiential) | [`organvm-ii-poiesis`](https://github.com/organvm-ii-poiesis) | 30 | metasystem-master, a-mavs-olevm | Creative practice |
-| III | Commerce (SaaS, B2B, B2C products) | [`organvm-iii-ergon`](https://github.com/organvm-iii-ergon) | 27 | public-record-data-scrapper | Deployed products |
-| IV | Orchestration (governance, routing) | [`organvm-iv-taxis`](https://github.com/organvm-iv-taxis) | 7 | orchestration-start-here, agentic-titan | System architecture |
-| V | Public Process (essays, building in public) | [`organvm-v-logos`](https://github.com/organvm-v-logos) | 2 | public-process | Transparent methodology |
-| VI | Community (salons, reading groups) | [`organvm-vi-koinonia`](https://github.com/organvm-vi-koinonia) | 4 | — | Relational infrastructure |
-| VII | Marketing (POSSE distribution, announcements) | [`organvm-vii-kerygma`](https://github.com/organvm-vii-kerygma) | 4 | — | External communication |
-| VIII | Meta (umbrella org) | [`meta-organvm`](https://github.com/meta-organvm) | 3 | organvm-corpvs-testamentvm | System-level coordination |
+| I | Theory (epistemology, recursion, ontology) | [`organvm-i-theoria`](https://github.com/organvm-i-theoria) | 26 | recursive-engine--generative-entity | Intellectual foundations |
+| II | Art (generative, performance, experiential) | [`organvm-ii-poiesis`](https://github.com/organvm-ii-poiesis) | 32 | metasystem-master, a-mavs-olevm | Creative practice |
+| III | Commerce (SaaS, B2B, B2C products) | [`organvm-iii-ergon`](https://github.com/organvm-iii-ergon) | 32 | public-record-data-scrapper | Deployed products |
+| IV | Orchestration (governance, routing) | [`organvm-iv-taxis`](https://github.com/organvm-iv-taxis) | 22 | orchestration-start-here, agentic-titan | System architecture |
+| V | Public Process (essays, building in public) | [`organvm-v-logos`](https://github.com/organvm-v-logos) | 6 | public-process | Transparent methodology |
+| VI | Community (salons, reading groups) | [`organvm-vi-koinonia`](https://github.com/organvm-vi-koinonia) | 6 | — | Relational infrastructure |
+| VII | Marketing (POSSE distribution, announcements) | [`organvm-vii-kerygma`](https://github.com/organvm-vii-kerygma) | 6 | — | External communication |
+| VIII | Meta (umbrella org) | [`meta-organvm`](https://github.com/meta-organvm) | 14 | organvm-corpvs-testamentvm | System-level coordination |
 
 The organ model prevents three pathologies that commonly destroy creative systems: art corrupted by commercial pressure (when every project needs revenue justification), theory compromised by the need to scale (when ideas must be production-ready before they're explored), and community colonized by engagement metrics (when relationships are valued only for their conversion rates). Each organ has its own GitHub organization, its own governance rules, its own documentation standards, and its own definition of success. What counts as excellent work in ORGAN I (intellectual depth, novel frameworks) is deliberately different from what counts in ORGAN III (revenue potential, user experience).
 
-Dependencies flow unidirectionally: **I → II → III**. Theory feeds art, art feeds commerce — but ORGAN-III cannot depend on ORGAN-II for ongoing maintenance, and ORGAN-II cannot demand that ORGAN-I produce "commercially viable" theory. This constraint, enforced by automated validation across all 31 declared dependency edges, is the system's most important design decision. It creates genuine creative tension: theory must commit to artistic expression without knowing if it will become a product, and products must stand on their own without leaning on the prestige of the theoretical work that inspired them. All organs are documented by V (Logos, the public process organ) and amplified by VII (Kerygma, the distribution organ).
+Dependencies are intended to flow unidirectionally: **I → II → III**. Theory feeds art, art feeds commerce — but ORGAN-III cannot depend on ORGAN-II for ongoing maintenance, and ORGAN-II cannot demand that ORGAN-I produce "commercially viable" theory. This constraint is checked by automated validation across 62 declared registry dependency edges; the current V4 report records 7 reconciliation findings (6 missing targets and 1 back-edge) and 0 cycles. The constraint remains the system's most important design decision because it creates genuine creative tension: theory must commit to artistic expression without knowing if it will become a product, and products must stand on their own without leaning on the prestige of the theoretical work that inspired them. All organs are documented by V (Logos, the public process organ) and amplified by VII (Kerygma, the distribution organ).
 
 ---
 
@@ -157,7 +157,7 @@ The eight-organ system was designed, documented, and deployed in a concentrated 
 
 **Phase 1 (2026-02-10):** Documentation audit across three sub-sprints. The **Bronze Sprint** produced 7 flagship READMEs (3,000+ words each) for the system's most important repositories — including recursive-engine--generative-entity, metasystem-master, agentic-titan, and orchestration-start-here. The **Silver Sprint** then generated 58 standard READMEs (2,000+ words each), totaling ~202K words of project documentation. Every README was written for a dual audience: grant reviewers evaluating creative practice, and hiring managers evaluating technical skill. The **Gold Sprint** completed the surrounding infrastructure — community health files (CONTRIBUTING, CODE_OF_CONDUCT, SECURITY), five GitHub Actions workflow specifications, org descriptions, topic tags, and the first 5 meta-system essays published via ORGAN V.
 
-**Phase 2 (2026-02-10):** Micro-validation. All 8 organs locked and audited. 1,267 links checked for integrity across the entire corpus. 31 dependency edges validated with zero violations — confirming the no-back-edges constraint holds across every declared relationship. Constitutional compliance verified against Articles I-VI.
+**Phase 2 (2026-02-10):** Micro-validation. All 8 organs locked and audited. 1,267 links checked for integrity across the entire corpus. The launch-time dependency graph was validated against the then-declared 31 edges. Constitutional compliance verified against Articles I-VI.
 
 **Phase 3 (2026-02-10):** Integration. Five GitHub Actions workflow specifications deployed (dependency validation, monthly audit, promotion, publish-process, content distribution). POSSE distribution channels configured for Mastodon and Discord. Branch protection rules established where org-level plans permitted.
 
@@ -203,13 +203,13 @@ After launch, a series of targeted sprints drove the system from launch-ready to
 
 **Remedium Sprint (2026-02-16):** Workflow health investigation. All orchestration workflows diagnosed — no actual failures found. "Failing" signals were phantom failures caused by push events triggering schedule-only workflows. CI already replaced by Minimal CI. Validate-dependencies already fixed in Convergence. The system is healthier than monitoring suggested.
 
-**Synchronium Sprint (2026-02-16):** Full workspace synchronization. All 97 repos cloned to flat `~/Workspace/<org>/<repo>/` layout. 14 missing repos cloned, 8 `.github` org profiles retrieved, 68 repos migrated from legacy 7-level hierarchy, 39 symlinks removed, git remotes converted SSH→HTTPS. 29 GB freed from disk.
+**Synchronium Sprint (2026-02-16):** Full workspace synchronization. All then-registered repos cloned to flat `~/Workspace/<org>/<repo>/` layout. 14 missing repos cloned, 8 `.github` org profiles retrieved, 68 repos migrated from legacy 7-level hierarchy, 39 symlinks removed, git remotes converted SSH→HTTPS. 29 GB freed from disk.
 
 **Concordia Sprint (2026-02-16):** Registry reconciliation with actual GitHub state. 6 orphan repos discovered and registered (91→97 total). `render-second-amendment` deleted locally (14 GB freed). 2 LFS checkout failures fixed. Seed.yaml coverage audited (38/86 = 44%).
 
 **Tripartitum Sprint (2026-02-16):** Three-part combined sprint — metrics correction, sprint spec writing, and document alignment. 13 files updated with ~70 edits correcting stale metrics. 19 retrospective sprint specs written in `docs/specs/sprints/`. All active documents aligned with `repo-registry.json`.
 
-**Submissio Sprint (2026-02-16):** Application verification and submission preparation. All 9 submission bundles verified against current metrics (97 repos, ~398K+ words, 33 essays). Step-by-step submission checklist created (`docs/applications/08-submission-checklist.md`). Human form-filling is the remaining step.
+**Submissio Sprint (2026-02-16):** Application verification and submission preparation. All 9 submission bundles verified against then-current metrics (~398K+ words, 33 essays). Step-by-step submission checklist created (`docs/applications/08-submission-checklist.md`). Human form-filling is the remaining step.
 
 **Metricum Sprint (2026-02-16):** Metrics variable system. Three scripts deployed: `calculate-metrics.py` (compute live counts from registry + GitHub API), `metrics-variables.json` (persistent store), and `propagate-metrics.py` (find-and-replace stale values across documents). Ensures metrics consistency without manual cross-referencing.
 
@@ -257,7 +257,7 @@ The complete standards specification is in [`docs/standards/10-repository-standa
 Five validation scripts in [`scripts/`](scripts/) enforce system integrity:
 
 1. **Registry validation** — verifies `repo-registry.json` schema compliance: every repo entry has required fields (name, org, status, public, description, documentation_status, portfolio_relevance), ORGAN-III entries carry additional `type`, `revenue_model`, and `revenue_status` fields.
-2. **Dependency graph validation** — checks all 62 dependency edges for acyclicity and enforces the no-back-edges constraint (I→II→III only). Detects circular dependencies and cross-organ violations.
+2. **Dependency graph validation** — checks all 62 registry dependency edges for missing targets, self-dependencies, back-edges in the I→II→III chain, and cycles. The current report records 6 missing targets, 1 back-edge, and 0 cycles.
 3. **Documentation completeness** — audits every repo for README presence, minimum word count, badge row, and required sections.
 4. **Link integrity** — checks all cross-references across the corpus (1,267+ links audited at launch).
 5. **Constitutional compliance** — verifies adherence to the system constitution ([`docs/memory/constitution.md`](docs/memory/constitution.md)), including Articles I-VI and post-cross-validation amendments A-D.
@@ -273,7 +273,7 @@ The Platinum validation suite adds additional checks: CI workflow presence, CHAN
 ### For Human Readers
 
 1. **Start with** [`00-c-master-summary.md`](docs/genesis/00-c-master-summary.md) for a 30-minute overview of the system's design
-2. **Browse** [`repo-registry.json`](repo-registry.json) to see all 97 repos with their status, tiers, and documentation state
+2. **Browse** [`repo-registry.json`](repo-registry.json) to see all 149 registry entries with their status, tiers, and documentation state
 3. **Read the essays** at [public-process](https://organvm-v-logos.github.io/public-process/) for the meta-system narrative
 4. **Reference** the numbered documents (`01`–`05`) in [`docs/planning/`](docs/planning/) for the original planning methodology
 
@@ -287,7 +287,7 @@ The Platinum validation suite adds additional checks: CI workflow presence, CHAN
 ### Key Invariants
 
 1. `repo-registry.json` is the single source of truth for all repo state
-2. No back-edges in the dependency graph (I → II → III only)
+2. The I → II → III dependency constraint is enforced by validation; current reconciliation findings are tracked in [`scripts/v4-report.json`](scripts/v4-report.json)
 3. All 8 organs are represented at launch
 4. Documentation precedes deployment
 5. Every README is a portfolio piece
@@ -299,7 +299,7 @@ The Platinum validation suite adds additional checks: CI workflow presence, CHAN
 
 The eight-organ system began with a question: what happens when you apply the same rigor to organizing creative work that engineers apply to organizing code? Most creative portfolios are flat — a list of projects with screenshots and descriptions. The relationships between projects are implicit, the governance is invisible, and the organizational logic is whatever the creator happened to do most recently.
 
-This system takes a different approach. The relationships between projects are explicit (declared dependencies in the registry), the governance is visible (promotion state machines, validation scripts, constitutional articles), and the organizational logic is itself a designed artifact (eight organs with distinct responsibilities and no back-edges). The meta-system isn't overhead on top of the creative work — it *is* the creative work, or at least the most interesting part of it.
+This system takes a different approach. The relationships between projects are explicit (declared dependencies in the registry), the governance is visible (promotion state machines, validation scripts, constitutional articles), and the organizational logic is itself a designed artifact (eight organs with distinct responsibilities and an explicit I→II→III dependency constraint). The meta-system isn't overhead on top of the creative work — it *is* the creative work, or at least the most interesting part of it.
 
 The practical consequence is that this portfolio can answer questions that flat portfolios cannot: How do theory projects relate to commercial products? (Through declared dependency edges.) How do you maintain quality across 149 repos? (Through automated validation and documented standards.) How do you prevent different types of work from corrupting each other? (Through organ-level separation with GitHub organizations as the enforcement boundary.) How was ~6K+ words of documentation produced in nine days? (Through the AI-conductor model, documented transparently.)
 

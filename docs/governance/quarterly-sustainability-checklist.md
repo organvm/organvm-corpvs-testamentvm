@@ -1,6 +1,6 @@
 # Quarterly Sustainability Checklist
 
-**Purpose:** Minimal viable audit for solo operator maintenance of 97 repos across 8 orgs
+**Purpose:** Minimal viable audit for solo operator maintenance of 149 registry entries across the organ/meta GitHub organizations plus personal/local entries
 **Cadence:** Quarterly (Q2 2026 is first execution)
 **Estimated effort:** 1-2 hours per quarter
 **Source:** Doc 11 Priority 4 recommendation; simplified from `orchestration-system-v2.md` monthly spec
@@ -27,7 +27,7 @@
 
 ## 3. Dependency Validation
 
-- [ ] Run `python scripts/v4-dependency-validation.py` — confirm 0 violations
+- [ ] Run `python scripts/v4-dependency-validation.py` — record missing targets, back-edges, and cycles; open remediation issues for any unresolved findings
 - [ ] Check for new dependencies added since last quarter
 
 ## 4. Constitution Gate Check
