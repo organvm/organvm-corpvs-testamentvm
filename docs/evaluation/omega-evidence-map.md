@@ -39,6 +39,14 @@ Scorecard code fix: [`organvm-engine#1`](https://github.com/meta-organvm/organvm
 | IN PROGRESS | 3 | #10, #12, #20 |
 | NOT MET | 8 | #2, #4, #7, #9, #11, #14, #16, #18 |
 
+**Latest rolling issue run (2026-06-18):**
+- Local completion artifact: `data/omega/rolling-issue-2026-06-18.json`
+- Pinned scorecard source: `data/omega/omega-status-2026-05-26.json` (9/20 MET, 3 IN_PROGRESS, 8 NOT_MET)
+- Live soak source: `data/soak-test/daily-2026-06-18.json` (registry PASS, dependency PASS, 0 CI failures, 11 billing-locked repos)
+- Generated soak report: `data/soak-test/report.md` (2026-05-19 to 2026-06-18)
+- Delivery gate: `gh auth status` failed locally because the `4444J99` token is invalid; no remote comment could be posted.
+- Delta gate: no criterion-status change from the issue context headline (`Omega scorecard 2026-06-14 -- 9/20 MET`), so the scheduler contract would not post a new rolling-issue comment even with valid auth.
+
 **By Horizon:**
 
 | Horizon | Timeline | Met | In Progress | Not Met |
@@ -62,7 +70,7 @@ Scorecard code fix: [`organvm-engine#1`](https://github.com/meta-organvm/organvm
 
 **Criterion:** Soak test report shows <=3 critical incidents over 30 consecutive days.
 
-**Status:** **MET.** 32/30 days completed with **0 critical incidents** (well below the <=3 threshold). S1-II marked completed 2026-03-18. Soak data collection continues autonomously.
+**Status:** **MET.** Pinned scorecard source reports 99/30 days with **0 critical incidents** as of 2026-05-25. Local live soak now extends through 2026-06-18 with registry PASS, dependency PASS, 0 CI failures, and 11 billing-locked repos in the latest snapshot. S1-II marked completed 2026-03-18. Soak data collection continues autonomously.
 
 **Date met:** 2026-03-18 (27 days unrecognized — declared in Reconciliation Sprint 2026-04-14).
 
@@ -77,11 +85,12 @@ Scorecard code fix: [`organvm-engine#1`](https://github.com/meta-organvm/organvm
 - Workflow: `.github/workflows/soak-test-daily.yml`
 - Script: `scripts/soak-test-monitor.py`
 
-**Current Data (2026-02-17 snapshot):**
-- Registry validation: PASS (97 repos, 0 issues)
-- Dependency validation: PASS (31 edges, 0 back-edges, 0 cycles)
-- CI: 71 checked, 57 passing, 14 failing (12 ORGAN-I billing lock, 2 other)
-- Engagement: 5 stars, 3 forks, 93 views on public-record-data-scrapper
+**Current Data (2026-06-18 snapshot):**
+- Registry validation: PASS (0 issues)
+- Dependency validation: PASS (0 violations)
+- CI: 60 checked, 0 failing, 49 unknown, 11 billing-locked
+- Engagement: 0 stars, 0 forks in tracked top-repo aggregate
+- Archive: 122 snapshots from 2026-02-16 through 2026-06-18; one known gap on 2026-05-26 after the criterion had already been met
 
 **AMPLIFICATIO update (2026-02-17):** 4 CI fixes pushed (universal-waveform-explorer, shared-remembrance-gateway, hokage-chess, a-i-chat--exporter), improving soak signal quality from 55/74 (74%) to 67/72 (93.1%).
 
@@ -89,9 +98,7 @@ Scorecard code fix: [`organvm-engine#1`](https://github.com/meta-organvm/organvm
 
 **Vercel triage session (2026-03-23):** CI signal quality fix for stakeholder-portal — Release Drafter false failures on all PRs eliminated (was setting invalid `targetCommitish`), CI job name mismatch fixed (`quality`→`test` to match branch protection), unblocking all PR merges. Branch protection had been silently broken, preventing any PR from merging. Also: specvla-ergon--avditor-mvndi `build-and-test` unblocked via rebase + lint fix.
 
-**Gap:** Need 30 consecutive days of real data. Collection was broken (dry-run only + exit-code-1 preventing commit) until 2026-02-17 fix. ORGAN-I billing lock inflates CI failure count.
-
-**Completion target:** ~March 18, 2026
+**Gap:** None for the launch criterion. Ongoing monitoring still records billing-locked ORGAN-I repos as a separate CI signal-quality constraint.
 
 **Rolling TODO:** S1-II
 
@@ -99,7 +106,7 @@ Scorecard code fix: [`organvm-engine#1`](https://github.com/meta-organvm/organvm
 
 ---
 
-#### #2: Stranger Test Score >=80% — NOT STARTED
+#### #2: Stranger Test Score >=80% — NOT MET
 
 **Criterion:** An uninvolved person navigates the system, scores >=80% on the test protocol.
 
@@ -118,26 +125,25 @@ Scorecard code fix: [`organvm-engine#1`](https://github.com/meta-organvm/organvm
 
 ---
 
-#### #3: Engagement Baseline Established (30 days of data) — IN PROGRESS
+#### #3: Engagement Baseline Established (30 days of data) — MET (2026-03-18)
 
 **Criterion:** 30 consecutive days of engagement metrics (stars, forks, views, clones) collected.
 
-**Status:** First real engagement data collected 2026-02-17. Soak test daily snapshots now include engagement metrics for 8 flagship repos.
+**Status:** **MET.** Pinned scorecard source reports 99 days of engagement data as of 2026-05-25. Soak test daily snapshots continue to include engagement metrics for 8 flagship repos; the latest local snapshot is 2026-06-18.
 
 **Evidence:**
 - Data: `data/soak-test/daily-*.json` → `engagement` section
 - Baseline (2026-02-17): 5 total stars, 3 total forks, views distributed across 8 repos
+- Latest live snapshot: `data/soak-test/daily-2026-06-18.json`
 
-**Current Engagement Highlights:**
-| Repo | Stars | Forks | Views (14d) | Clones (14d) |
-|------|-------|-------|-------------|--------------|
-| public-record-data-scrapper | 2 | 3 | 93 | 319 |
-| agentic-titan | 1 | 0 | 13 | 929 |
-| recursive-engine--generative-entity | 1 | 0 | 6 | 936 |
+**Current Engagement Aggregate (2026-06-18):**
+- Total stars: 0
+- Total forks: 0
+- Tracked top repos: 8
 
-**Gap:** Need 30 days of continuous data. Currently 1 real data point (2026-02-17).
+**Gap:** None for the baseline-data criterion. Positive external engagement is tracked separately by #7, #10, #13, and #14.
 
-**Completion target:** ~March 18, 2026
+**Date met:** 2026-03-18
 
 **Rolling TODO:** E2 (completed — soak test now collecting real data)
 
@@ -145,7 +151,7 @@ Scorecard code fix: [`organvm-engine#1`](https://github.com/meta-organvm/organvm
 
 ---
 
-#### #4: Runbooks Validated by Second Operator — NOT STARTED
+#### #4: Runbooks Validated by Second Operator — NOT MET
 
 **Criterion:** A second operator successfully follows the runbooks to perform system operations.
 
@@ -208,7 +214,7 @@ Scorecard code fix: [`organvm-engine#1`](https://github.com/meta-organvm/organvm
 
 ---
 
-#### #7: >=3 Pieces of External Feedback Collected — NOT STARTED
+#### #7: >=3 Pieces of External Feedback Collected — NOT MET
 
 **Criterion:** At least 3 pieces of feedback from people outside the system have been collected and synthesized.
 
@@ -316,7 +322,7 @@ All seed.yaml files updated with deployment_url. Registry-v2.json updated.
 
 ---
 
-#### #11: >=2 Salons/Events with External Participants — NOT STARTED
+#### #11: >=2 Salons/Events with External Participants — NOT MET
 
 **Criterion:** At least 2 community events (salons, reading groups, workshops) held with external participants.
 
@@ -379,11 +385,11 @@ All seed.yaml files updated with deployment_url. Registry-v2.json updated.
 
 ---
 
-#### #14: >=1 Recognition Event — IN PROGRESS
+#### #14: >=1 Recognition Event — NOT MET
 
 **Criterion:** At least one external recognition: grant award, academic citation, conference invitation, or adoption by another system.
 
-**Status:** 2 conference proposals drafted and submission-ready (AMPLIFICATIO, 2026-02-17). E3 (Google Creative Fellowship, deadline March 18) submission script prepared. No recognition received yet, but multiple active pathways exist.
+**Status:** **NOT MET.** 2 conference proposals drafted and submission-ready (AMPLIFICATIO, 2026-02-17). E3 (Google Creative Fellowship, deadline March 18) submission script prepared. No recognition has been received yet.
 
 **Evidence:**
 - Conference proposals: `docs/applications/conference-proposals/ai-conductor-talk.md` and `constraint-alchemy-talk.md` (AMPLIFICATIO)
@@ -424,11 +430,11 @@ All seed.yaml files updated with deployment_url. Registry-v2.json updated.
 
 ---
 
-#### #16: Bus Factor >1 (Validated) — IN PROGRESS
+#### #16: Bus Factor >1 (Validated) — NOT MET
 
 **Criterion:** A second operator can maintain the system using existing documentation. Validated, not just documented.
 
-**Status:** Documentation substantially strengthened (AMPLIFICATIO, 2026-02-17). 14 ADRs now document key architectural decisions. Comprehensive runbooks, CLI, and autonomous setup guide exist. No second operator has attempted maintenance.
+**Status:** **NOT MET.** Documentation substantially strengthened (AMPLIFICATIO, 2026-02-17). 14 ADRs now document key architectural decisions. Comprehensive runbooks, CLI, and autonomous setup guide exist. No second operator has attempted maintenance.
 
 **Evidence:**
 - ADRs: 14 decision records in `docs/adr/` (003-014, covering naming/registry/DAG/AI-conductor/promotion/dating/revenue/dispatch/soak/billing/seed.yaml/numbering) — AMPLIFICATIO
@@ -455,7 +461,7 @@ All seed.yaml files updated with deployment_url. Registry-v2.json updated.
 
 **Criterion:** The autonomous system runs for 30+ consecutive days without the primary operator needing to intervene.
 
-**Status:** **MET.** 58+ days of continuous autonomous operation as of 2026-04-14. 30-day threshold passed on 2026-03-18. 12 cron workflows running daily/weekly without human per-task routing.
+**Status:** **MET.** Pinned scorecard source reports 99/30 days as of 2026-05-25; the local soak archive now extends through 2026-06-18. The 30-day threshold passed on 2026-03-18. Scheduled workflows continue to run without human per-task routing.
 
 **Date met:** 2026-03-18 (27 days unrecognized — declared in Reconciliation Sprint 2026-04-14).
 
@@ -475,16 +481,15 @@ All seed.yaml files updated with deployment_url. Registry-v2.json updated.
 - Metrics: Auto-refreshed weekly (Mon 06:00 UTC)
 - Health monitoring: Daily soak test (08:00 UTC) + weekly stale detector (Tue 06:00 UTC)
 - Pulse reports: Weekly (Sun 12:00 UTC)
+- Latest local soak: `data/soak-test/daily-2026-06-18.json`
 
 **AMPLIFICATIO update (2026-02-17):** 4 CI fixes pushed, improving autonomous signal quality (CI pass rate: 55/74 → 67/72, 93.1%).
 
 **Post-AMPLIFICATIO maturation (2026-02-17):** M9-II and M10-II CI fixes pushed. Expected: ~69/72 (95.8%). Only ORGAN-I billing lock failures remain. Note: CI fixes count as infrastructure maintenance, not system intervention — the autonomous workflows continue operating regardless of individual repo CI status.
 
-**Gap:** Clock started ~2026-02-16. Need 30 days of data showing no required manual intervention. Note: fixing the soak test collector (2026-02-17) counts as infrastructure maintenance, not system intervention — the autonomous workflows themselves didn't fail, the monitoring of them did.
+**Gap:** None for the 30-day launch criterion. The known 2026-04-17→2026-04-18 signing incident remains a resilience follow-up, but it did not reset the already-met criterion.
 
 **S-dispatch evidence (2026-03-30):** Cognitive Service Dispatch system enables multi-agent autonomous operation — 4-stream fleet dispatch (Perplexity, Gemini, OpenCode, Claude) executed with handoff envelopes carrying constraints between agents. Extends autonomous operation model: the system can now dispatch mechanical work to worker-bee agents while Claude handles strategic work, without human per-task routing.
-
-**Completion target:** ~March 18, 2026
 
 **Rolling TODO:** S1-II
 
@@ -584,3 +589,4 @@ H5 (#15 MET; #14 needs recognition; #18 needs #9+#10 first)
 | 2026-03-04 | GitHub issue tracking — 58 issues created across organvm-engine (1) and organvm-corpvs-testamentvm (57). 9 omega tracking issues + 48 sprint issues + 1 scorecard code fix. Tracking links added to all 17 criteria entries in this document. | Issue codification session |
 | 2026-04-14 | **Reconciliation Sprint** — #1 and #17 flipped IN PROGRESS → MET (both passed 2026-03-18, 27 days of unrecognized progress). Domus evidence added to #1, #16, #17, #19. Summary 7/2/10 → 9/0/10. H1 now fully MET (3/3). Registry grew 129→146 (mass registration + portfolio). | System-Wide Reconciliation Sprint |
 | 2026-06-15 | **Omega scorecard sync** — Reconciled against `data/omega/omega-status-2026-05-26.json`. (1) #9 revised: "revenue_status: live" → "≥3 products at stranger-ready polish"; (2) #10 revised: "MRR ≥ costs" → "≥100 unique visitors/month"; (3) #15 corrected: NOT STARTED → MET (validation page live since 2026-03-19); (4) Sections for #18, #19, #20 added (previously absent); (5) Summary 9/0/10 (19 criteria) → 9/3/8 (20 criteria); (6) By Horizon and Critical Path updated. | omega-scorecard agent first run ([a-organvm/organvm-corpvs-testamentvm#490](https://github.com/a-organvm/organvm-corpvs-testamentvm/issues/490)) |
+| 2026-06-18 | **Omega rolling issue handoff** — Recorded local completion artifact `data/omega/rolling-issue-2026-06-18.json`. Scorecard unchanged from 2026-06-14 issue context at 9/20 MET (3 IN_PROGRESS, 8 NOT_MET); live soak advanced to `data/soak-test/daily-2026-06-18.json` and `data/soak-test/report.md` regenerated for 2026-05-19 to 2026-06-18. Remote issue write blocked by invalid local `gh` token, and the scheduler delta gate would post no comment because criterion statuses did not change. Stale criterion detail text and headings normalized to match the pinned scorecard. | GH #490 local completion pass |
