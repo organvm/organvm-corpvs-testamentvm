@@ -12,11 +12,11 @@
 [![Status: LAUNCHED](https://img.shields.io/badge/Status-LAUNCHED-2e7d32?style=flat-square)](#current-status)
 [![Organs: 8](https://img.shields.io/badge/Organs-8-1a237e?style=flat-square)](#the-eight-organ-model)
 [![Repos: 149](https://img.shields.io/badge/Repos-149-2e7d32?style=flat-square)](#the-eight-organ-model)
-[![Docs: ~410K+ words](https://img.shields.io/badge/Docs-~410K%2B%20words-6a1b9a?style=flat-square)](#current-status)
+[![Docs: ~404K+ words](https://img.shields.io/badge/Docs-~404K%2B%20words-6a1b9a?style=flat-square)](#current-status)
 
 > Complete planning, audit, and implementation corpus for an eight-organ creative-institutional system coordinating 149 registry entries spanning the organ/meta GitHub organizations plus personal/local entries. The system is **live** — all organs are operational.
 
-This is **not a source code repository**. It is the authoritative planning and governance corpus for the organvm system — a framework that protects distinct modes of work (theory, art, commerce, community) from collapsing into each other, while presenting the meta-system itself as a portfolio asset. The current registry tracks 149 entries, ~410K+ words of documentation, 42 meta-system essays, and automated governance via GitHub Actions.
+This is **not a source code repository**. It is the authoritative planning and governance corpus for the organvm system — a framework that protects distinct modes of work (theory, art, commerce, community) from collapsing into each other, while presenting the meta-system itself as a portfolio asset. The current registry tracks 149 entries, ~404K+ words of documentation, 29 meta-system essays, and automated governance via GitHub Actions.
 
 ---
 

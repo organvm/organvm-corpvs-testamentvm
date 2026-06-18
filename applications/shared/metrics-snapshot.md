@@ -18,7 +18,7 @@
 | Back-edge violations | 1 |
 | Circular dependencies | 0 |
 | V4 total reconciliation findings | 7 |
-| Published essays | 42 |
+| Published essays | 29 |
 | Total documentation | ~410,000+ |
 | Sprints completed | 33 |
 
