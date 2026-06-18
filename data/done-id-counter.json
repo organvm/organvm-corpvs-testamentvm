@@ -1,10 +1,10 @@
 {
-  "next_id": 620,
-  "last_claimed_by": "S-2026-06-11-media-ark-conductor-evolve-hall-monitor",
-  "last_claimed_at": "2026-06-11",
+  "next_id": 621,
+  "last_claimed_by": "LIMEN-082-f016 (IRF-RES-013 temporal staging)",
+  "last_claimed_at": "2026-06-18",
   "claimed_range": [
-    614,
-    619
+    620,
+    620
   ],
-  "note": "S-2026-06-11-media-ark-conductor-evolve-hall-monitor claims DONE-614 through DONE-619: per-PR closure (PR #17, #18, #19, #20, #21, #22). First claim attempt at DONE-606..611 collided with EV-2026-06-11 (DONE-610..612), MARKET-2026-06-11 (DONE-613), S-02326725-bbb4-4525-8f36-0d7b3c350626 (DONE-606..609) which had all been used after the 2026-06-11-limen-fix counter bump; counter+IRF are split-brain. True max at time of re-claim = 613. New ceiling = 620."
+  "note": "LIMEN-082-f016 claims DONE-620: IRF-RES-013 temporal staging refactor (validate previous-with-current; GH#342). New ceiling = 621. Prior: S-2026-06-11-media-ark-conductor-evolve-hall-monitor claimed DONE-614..619 (per-PR closure PR #17-#22); counter+IRF were split-brain at that time (true max 613)."
 }

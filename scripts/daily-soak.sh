@@ -31,10 +31,21 @@ else
   log "WARN: Snapshot collection had issues (exit code $?), committing anyway"
 fi
 
+# Temporal staging (IRF-RES-013): validate the previous state under current rules.
+# Informational and non-blocking — staging only the prior snapshot, so it must run
+# with --before today's date. Surfaces rule drift; never aborts the soak.
+if /opt/homebrew/bin/python3 scripts/temporal-staging-validator.py check --before "$DATE" >> "$LOG_FILE" 2>&1; then
+  log "Temporal staging check passed (previous state valid under current rules)"
+else
+  log "WARN: Temporal staging detected rule drift — see report"
+fi
+
 SNAPSHOT_FILE="data/soak-test/daily-${DATE}.json"
+TEMPORAL_REPORT="data/soak-test/temporal-staging-latest.json"
 
 if [[ -f "$SNAPSHOT_FILE" ]]; then
   git add "$SNAPSHOT_FILE"
+  [[ -f "$TEMPORAL_REPORT" ]] && git add "$TEMPORAL_REPORT"
   if git diff --cached --quiet; then
     log "No changes to commit (snapshot already existed)"
   else

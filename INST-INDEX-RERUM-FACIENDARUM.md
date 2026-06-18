@@ -1242,7 +1242,7 @@ These tasks represent every actionable design recommendation extracted from the 
 | IRF-RES-010 | P0 | Separate self-maintenance from self-improvement in governance — build two distinct operational modes with architectural enforcement of the boundary. **GH#348** (commission INQ-2026-013, Wave 5; Löb-theorem escape) | ARCHITECTURE | L | RP-02 SS5.7, SS6.4 | OPEN | IRF-RES-002, IRF-RES-008 |
 | IRF-RES-011 | P0 | Establish the hybrid topology principle as architectural law — codify inter-organ hierarchical flow and intra-organ rhizomatic connectivity as compression/search principle. **GH#341** (commission INQ-2026-013, Wave 2; codification of existing law per RP-03 §4.6) | ARCHITECTURE | S | RP-03 SS6.1-6.4; SYN-02 SS4.2 | OPEN | None |
 | IRF-RES-012 | P0 | Design governance artifacts as boundary objects — redesign seed.yaml, CLAUDE.md, and governance-rules.json as boundary objects accommodating human, machine, and AI interpretive communities. **GH#349** (commission INQ-2026-013, Wave 5; three S&G BO types per SYN-03 §5.1; per-actant enforcement paths per RP-05 §5.2) | ARCHITECTURE | M | RP-05 SS4.3, SS7.1; SYN-02 SS4.3; SYN-03 SS5.1-5.3 | OPEN | None |
-| IRF-RES-013 | P0 | Implement temporal staging for governance validation — ensure governance always validates previous state using current state, never current state using itself. **GH#342** (commission INQ-2026-013, Wave 2; Goodhart-Campbell mathematical necessity) | GOVERNANCE | S | RP-02 SS5.1, SS6.1; SYN-02 SS4.1, SS5.2 | OPEN | None |
+| ~~IRF-RES-013~~ | ~~P0~~ | ~~DONE 2026-06-18 → DONE-620 — temporal staging implemented: `state_capsule` frozen into soak snapshots, `scripts/temporal-staging-validator.py` validates previous-state-with-current-rules, shared `scripts/governance_validators.py`, standard `docs/standards/27-temporal-staging-validation.md`. **GH#342**~~ | ~~GOVERNANCE~~ | ~~S~~ | ~~RP-02 SS5.1, SS6.1; SYN-02 SS4.1, SS5.2~~ | ~~DONE~~ | |
 | IRF-RES-014 | P0 | Implement context-specific governance norms — differentiate thresholds by organ, programming language, and project type; use expert-determined context-specific norms. **GH#347** (commission INQ-2026-013, Wave 4; CONDITIONAL on RES-004 multi-factor evidence) | MEASUREMENT | L | RP-07 SS5.5, SS7 I4; SYN-02 SS5.5 R3; SYN-04 SS5.2 | OPEN | IRF-RES-003, IRF-RES-004 |
 
 ### P1 — Important (high-impact, clear value; after P0 foundations)
@@ -1329,7 +1329,7 @@ These are not discrete tasks but organizing principles that cross-cut the entire
 
 | Phase | Weeks | Focus | Key Tasks |
 |-------|-------|-------|-----------|
-| A: Foundations | 1-4 | Structural preconditions | IRF-RES-001(DONE), 002(DONE), 011, 013, 005(DONE), 006, 012, 007 |
+| A: Foundations | 1-4 | Structural preconditions | IRF-RES-001(DONE), 002(DONE), 011, 013(DONE), 005(DONE), 006, 012, 007 |
 | B: Measurement Foundations | 3-8 | Psychometric infrastructure | IRF-RES-003, 004, 014, 037, 027, 017 |
 | C: Governance Hardening | 6-12 | Impossibility-aware governance | IRF-RES-008, 009, 010, 018, 019, 020, 032, 033 |
 | D: Naming and Architecture | 8-14 | Naming infrastructure, org topology | IRF-RES-022, 023, 034, 024, 021, 029, 043 |
