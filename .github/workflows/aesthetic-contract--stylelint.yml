@@ -1,0 +1,76 @@
+name: Aesthetic Contract
+
+on:
+  workflow_call:
+    inputs:
+      working_directory:
+        description: Directory where stylelint should run.
+        required: false
+        type: string
+        default: "."
+      css_glob:
+        description: CSS glob passed to stylelint.
+        required: false
+        type: string
+        default: "**/*.css"
+      config_file:
+        description: Path to a repo-local stylelint config. Falls back to this repository's canonical config.
+        required: false
+        type: string
+        default: .stylelintrc.json
+      contract_ref:
+        description: Ref used when checking out fallback contract defaults.
+        required: false
+        type: string
+        default: main
+
+permissions:
+  contents: read
+
+jobs:
+  stylelint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout caller repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          path: target
+
+      - name: Checkout contract defaults
+        continue-on-error: true
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          repository: a-organvm/organvm-corpvs-testamentvm
+          ref: ${{ inputs.contract_ref }}
+          path: contracts
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+
+      - name: Validate CSS contract with stylelint
+        env:
+          WORKING_DIRECTORY: ${{ inputs.working_directory }}
+          CSS_GLOB: ${{ inputs.css_glob }}
+          CONFIG_FILE: ${{ inputs.config_file }}
+        run: |
+          cd "$GITHUB_WORKSPACE/target/$WORKING_DIRECTORY"
+
+          if ! find . -path "./node_modules" -prune -o -name "*.css" -print -quit | grep -q .; then
+            echo "::notice::No CSS files found; skipping aesthetic contract validation"
+            exit 0
+          fi
+
+          config="$CONFIG_FILE"
+          if [ ! -f "$config" ]; then
+            config="$GITHUB_WORKSPACE/contracts/.stylelintrc.json"
+          fi
+
+          if [ ! -f "$config" ]; then
+            echo "::error::No stylelint config found at $CONFIG_FILE or fallback contracts/.stylelintrc.json"
+            exit 1
+          fi
+
+          npx --yes stylelint@16 "$CSS_GLOB" --config "$config"

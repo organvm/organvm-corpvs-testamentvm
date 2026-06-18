@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json.schemastore.org/stylelintrc.json",
+  "rules": {
+    "color-no-invalid-hex": true,
+    "font-family-no-missing-generic-family-keyword": true,
+    "custom-property-pattern": [
+      "^(color|organ|font|space|max-width|content-width)-[a-z0-9-]+$",
+      {
+        "message": "Use the ORGANVM design-token prefixes for custom properties."
+      }
+    ],
+    "declaration-property-value-allowed-list": {
+      "/^--color-bg$/": [
+        "#faf8f5"
+      ],
+      "/^--color-bg-alt$/": [
+        "#f0ece6"
+      ],
+      "/^--color-text$/": [
+        "#1a1a1a"
+      ],
+      "/^--color-text-muted$/": [
+        "#6b6560"
+      ],
+      "/^--color-accent$/": [
+        "#8b5e3c"
+      ],
+      "/^--color-accent-light$/": [
+        "#c49a6c"
+      ],
+      "/^--color-border$/": [
+        "#d4cec6"
+      ],
+      "/^--color-border-light$/": [
+        "#e8e2da"
+      ],
+      "/^--organ-i$/": [
+        "#4a6fa5"
+      ],
+      "/^--organ-ii$/": [
+        "#b85c38"
+      ],
+      "/^--organ-iii$/": [
+        "#2d6a4f"
+      ],
+      "/^--organ-iv$/": [
+        "#7b68ae"
+      ],
+      "/^--organ-v$/": [
+        "#c17f59"
+      ],
+      "/^--organ-vi$/": [
+        "#5b8c5a"
+      ],
+      "/^--organ-vii$/": [
+        "#d4a03c"
+      ],
+      "/^--organ-meta$/": [
+        "#555555"
+      ],
+      "/^--font-body$/": [
+        "/^'Charter', 'Georgia', serif$/"
+      ],
+      "/^--font-heading$/": [
+        "/^'Inter', 'Helvetica Neue', sans-serif$/"
+      ],
+      "/^--font-mono$/": [
+        "/^'JetBrains Mono', 'Menlo', monospace$/"
+      ],
+      "/^font-family$/": [
+        "/^var\\(--font-(body|heading|mono)\\)$/"
+      ],
+      "/^--space-xs$/": [
+        "0.25rem"
+      ],
+      "/^--space-sm$/": [
+        "0.5rem"
+      ],
+      "/^--space-md$/": [
+        "1rem"
+      ],
+      "/^--space-lg$/": [
+        "2rem"
+      ],
+      "/^--space-xl$/": [
+        "4rem"
+      ],
+      "/^--max-width$/": [
+        "72rem"
+      ],
+      "/^--content-width$/": [
+        "48rem"
+      ]
+    },
+    "declaration-property-value-disallowed-list": {
+      "/^(?!--)/": [
+        "/#[0-9a-fA-F]{3,8}/"
+      ]
+    }
+  }
+}

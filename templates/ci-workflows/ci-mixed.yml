@@ -8,6 +8,12 @@ on:
   workflow_dispatch:
 
 jobs:
+  seed-contract:
+    uses: a-organvm/organvm-corpvs-testamentvm/.github/workflows/seed-contract--check-jsonschema.yml@main
+
+  aesthetic-contract:
+    uses: a-organvm/organvm-corpvs-testamentvm/.github/workflows/aesthetic-contract--stylelint.yml@main
+
   test-python:
     runs-on: ubuntu-latest
     steps:
@@ -24,9 +30,9 @@ jobs:
         id: detect-py
         run: |
           if [ -f "pyproject.toml" ] || [ -f "requirements.txt" ] || [ -f "setup.py" ]; then
-            echo "has-python=true" >> $GITHUB_OUTPUT
+            echo "has-python=true" >> "$GITHUB_OUTPUT"
           else
-            echo "has-python=false" >> $GITHUB_OUTPUT
+            echo "has-python=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Install Python dependencies
@@ -51,7 +57,7 @@ jobs:
       - name: Test Python with pytest
         if: steps.detect-py.outputs.has-python == 'true'
         run: |
-          if [ -d "tests" ] || [ -d "test" ] || ls test_*.py 2>/dev/null | grep -q .; then
+          if [ -d "tests" ] || [ -d "test" ] || [ -n "$(find . -maxdepth 1 -name 'test_*.py' -print -quit)" ]; then
             pytest --cov=. --cov-report=xml --cov-report=term || exit 1
           else
             echo "::notice::No Python tests found"
@@ -80,9 +86,9 @@ jobs:
         id: detect-node
         run: |
           if [ -f "package.json" ]; then
-            echo "has-node=true" >> $GITHUB_OUTPUT
+            echo "has-node=true" >> "$GITHUB_OUTPUT"
           else
-            echo "has-node=false" >> $GITHUB_OUTPUT
+            echo "has-node=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Install Node dependencies

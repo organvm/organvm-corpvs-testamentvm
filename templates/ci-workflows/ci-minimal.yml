@@ -8,6 +8,9 @@ on:
   workflow_dispatch:
 
 jobs:
+  seed-contract:
+    uses: a-organvm/organvm-corpvs-testamentvm/.github/workflows/seed-contract--check-jsonschema.yml@main
+
   validate:
     runs-on: ubuntu-latest
     steps:
@@ -18,15 +21,15 @@ jobs:
         id: detect
         run: |
           if [ -f "Package.swift" ]; then
-            echo "type=swift" >> $GITHUB_OUTPUT
+            echo "type=swift" >> "$GITHUB_OUTPUT"
           elif [ -f "Gemfile" ] || [ -f "_config.yml" ]; then
-            echo "type=ruby" >> $GITHUB_OUTPUT
+            echo "type=ruby" >> "$GITHUB_OUTPUT"
           elif [ -f "package.json" ]; then
-            echo "type=node" >> $GITHUB_OUTPUT
+            echo "type=node" >> "$GITHUB_OUTPUT"
           elif [ -f "pyproject.toml" ] || [ -f "requirements.txt" ]; then
-            echo "type=python" >> $GITHUB_OUTPUT
+            echo "type=python" >> "$GITHUB_OUTPUT"
           else
-            echo "type=generic" >> $GITHUB_OUTPUT
+            echo "type=generic" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Validate structure

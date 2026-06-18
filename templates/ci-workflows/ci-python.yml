@@ -8,6 +8,9 @@ on:
   workflow_dispatch:
 
 jobs:
+  seed-contract:
+    uses: a-organvm/organvm-corpvs-testamentvm/.github/workflows/seed-contract--check-jsonschema.yml@main
+
   test:
     runs-on: ubuntu-latest
     strategy:
@@ -28,13 +31,13 @@ jobs:
         id: detect
         run: |
           if [ -f "pyproject.toml" ]; then
-            echo "deps=pyproject" >> $GITHUB_OUTPUT
+            echo "deps=pyproject" >> "$GITHUB_OUTPUT"
           elif [ -f "requirements.txt" ]; then
-            echo "deps=requirements" >> $GITHUB_OUTPUT
+            echo "deps=requirements" >> "$GITHUB_OUTPUT"
           elif [ -f "setup.py" ]; then
-            echo "deps=setup" >> $GITHUB_OUTPUT
+            echo "deps=setup" >> "$GITHUB_OUTPUT"
           else
-            echo "deps=none" >> $GITHUB_OUTPUT
+            echo "deps=none" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Install dependencies (pyproject.toml)
@@ -79,7 +82,7 @@ jobs:
       - name: Test with pytest
         run: |
           if command -v pytest &> /dev/null; then
-            if [ -d "tests" ] || [ -d "test" ] || ls test_*.py 2>/dev/null | grep -q .; then
+            if [ -d "tests" ] || [ -d "test" ] || [ -n "$(find . -maxdepth 1 -name 'test_*.py' -print -quit)" ]; then
               pytest --cov=. --cov-report=xml --cov-report=term --cov-report=html || exit 1
             else
               echo "::notice::No tests directory found, skipping tests"
