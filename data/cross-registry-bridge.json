@@ -136,8 +136,8 @@
         "concordance_id": null
       },
       "status_view": {
-        "atom": null,
-        "irf": "open",
+        "atom": "DONE-620",
+        "irf": "done",
         "plan": "active",
         "gh_issue": "open",
         "commission": "drafting"
@@ -146,8 +146,8 @@
       "motor": "tarskian",
       "te_budget_k": 130,
       "tags": ["irf-res", "P0-NOW", "wave-2", "motor-tarskian"],
-      "last_seen_session": "2026-05-09",
-      "notes": "Temporal staging refactor. Goodhart-Campbell mathematical necessity per SYN-02 §3."
+      "last_seen_session": "LIMEN-082-f016",
+      "notes": "Temporal staging refactor — DONE 2026-06-18 (DONE-620). Goodhart-Campbell mathematical necessity per SYN-02 §3. Impl: state_capsule in soak snapshots + scripts/temporal-staging-validator.py + scripts/governance_validators.py; standard docs/standards/27-temporal-staging-validation.md."
     },
     {
       "canonical_id": "IRF-RES-003",
