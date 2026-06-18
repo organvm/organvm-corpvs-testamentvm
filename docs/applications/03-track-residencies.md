@@ -2,7 +2,7 @@
 
 **Targets:** Headlands, MacDowell, Recurse, Fire Island, ZKM, Eyebeam, SFPC, Harvestworks, LMCC, Processing Foundation, Google CL5, Pioneer Works, Tulsa, NEW INC, Queer|Art, Bread Loaf + more
 **Updated:** 2026-02-18 (research integration — expanded from 8 to 18+ targets including premier fully-funded residencies)
-**Evidence:** 100-repo system built solo over 5+ years, 42 published essays, AI tools used as compositional instruments, all 8 organs operational
+**Evidence:** 149-repo system built solo over 5+ years, 42 published essays, AI tools used as compositional instruments, all 8 organs operational
 **Core evidence:** All 8 organs as unified creative practice + ORGAN-V process-as-product + ORGAN-VI community
 **Funding strategy:** [10-funding-strategy.md](./10-funding-strategy.md) — benefits cliff, deadline sequencing, identity positions
 
@@ -10,10 +10,10 @@
 
 ## Framing
 
-"I build creative systems — environments where theory, art, and community work grow like organisms in a medium. The eight-organ system coordinates 100 repositories through governance structures I designed the way a composer designs generative scores: the constraints shape what emerges."
+"I build creative systems — environments where theory, art, and community work grow like organisms in a medium. The eight-organ system coordinates 149 repositories through governance structures I designed the way a composer designs generative scores: the constraints shape what emerges."
 
 Residency evaluators assess:
-1. **Artistic practice** — Is there a coherent body of work? (8 organs, 100 repos, 5+ years of sustained practice)
+1. **Artistic practice** — Is there a coherent body of work? (8 organs, 149 repos, 5+ years of sustained practice)
 2. **Systemic thinking** — Does the artist think beyond individual pieces? (Governance model, dependency graph, state machine, editorial vision across 149 repos)
 3. **Community contribution** — Will this benefit the residency community? (ORGAN-VI, public documentation, reusable governance patterns)
 4. **Innovation** — Is this genuinely pushing boundaries? (Solo production at institutional scale through AI-augmented methodology)
@@ -78,7 +78,7 @@ Residency evaluators assess:
 - The entire system is open-source and documented
 
 **Talking points:**
-- "I treat governance as an artistic medium — the rules that coordinate 100 repos are as carefully designed as any artwork"
+- "I treat governance as an artistic medium — the rules that coordinate 149 repos are as carefully designed as any artwork"
 - "The public documentation isn't just transparency; it's a contribution to the community of practice"
 - "The eight-organ model demonstrates that a single practitioner can operate at institutional scale through documented governance"
 

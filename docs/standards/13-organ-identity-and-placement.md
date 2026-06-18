@@ -11,7 +11,7 @@ AX-2 (Epistemic Membranes) already enforces that cross-organ data flow must be *
 The organ system exists at three scales:
 - **Enterprise** (ORGANVM) — the whole system, one entity
 - **Organization** (8 organs) — epistemic domains, each a GitHub org
-- **Repository** (~113 repos) — individual units of work within organs
+- **Repository** (149 registry entries) — individual units of work within organs
 
 This document governs the middle scale: what defines each organization, and how repositories are assigned to the correct one.
 

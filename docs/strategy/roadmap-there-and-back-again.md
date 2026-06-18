@@ -457,7 +457,7 @@ STREAM D (Copilot):     Code examples + inline docs across all repos (on-demand)
 | 6 | 5+ essays published, RSS generating | PASS | 5 essays, Atom RSS at organvm-v-logos.github.io/public-process/feed.xml |
 | 7 | POSSE distribution working | PASS | Mastodon (HTTP 200) + Discord (HTTP 204) verified 2026-02-11 |
 | 8 | All 8 org About sections complete | PASS | Set during Phase -1 (2026-02-10) |
-| 9 | No circular dependencies | PASS | V4: 0 violations, 30 edges validated |
+| 9 | No circular dependencies | PASS | V4 launch-time check; current V4 report is tracked in scripts/v4-report.json |
 
 **SYSTEM LAUNCHED 2026-02-11.** All 8 organs transitioned from LOCKED to OPERATIONAL. Launch announcement distributed via POSSE (Mastodon + Discord). Branch protection set on 4 flagship repos. ~230K total words deployed.
 
@@ -476,7 +476,7 @@ Executed same-day as launch to achieve uniform quality across all repos.
 - [x] **README deployment:** 13 new READMEs (2,864–4,172 words each) + orchestration-start-here flagship upgrade (490→4,496 words). ~41K new words.
 - [x] **Tier corrections:** 14 stub→standard promotions. orchestration-start-here promoted to flagship (8th flagship).
 - [x] **Registry finalization:** 80 entries (78 on GitHub + 2 ORGAN-IV cross-references). 0 planned repos remaining.
-- [x] **Validation:** V4 (31 deps, 0 violations), V5 (all 4 gates pass), V6 (all 8 organs pass).
+- [x] **Validation:** V4 current report tracked in scripts/v4-report.json, V5 (all 4 gates pass), V6 (all 8 organs pass).
 
 ### Post-Gap-Fill Metrics
 

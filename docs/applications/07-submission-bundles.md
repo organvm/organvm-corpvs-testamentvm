@@ -94,7 +94,7 @@
 
 The most interesting creative work I've made came from imposing more constraints, not fewer. My eight-organ system enforces a strict no-back-edges rule: theory feeds art, art feeds commerce — never the reverse. That constraint should limit what's possible. Instead, it forces each organ to be genuinely self-sufficient, which produces work that's stranger and more honest than anything I made when everything could depend on everything else.
 
-The governance model — dependency validation, promotion state machines, automated audits — sounds like the opposite of creative freedom. But designing those rules is where the real creative decisions happen. Choosing *how work flows* between 100 repositories is as much an artistic act as any individual piece the system produces.
+The governance model — dependency validation, promotion state machines, automated audits — sounds like the opposite of creative freedom. But designing those rules is where the real creative decisions happen. Choosing *how work flows* between 149 repositories is as much an artistic act as any individual piece the system produces.
 
 I don't break the rule that creativity needs freedom. I break the rule that constraints aren't creative.
 
@@ -132,7 +132,7 @@ I build environments for creative work to grow in.
 
 My reference points are Brian Eno (the studio as compositional instrument), Trent Reznor and Prince (solo production because no one else would commit at the required level), Brian Wilson (the edit as the creative act), and Terrence Malick (the creature formed in the assembly). These aren't comparisons of quality — they describe a method of production I recognize as my own: design the environment, generate the material, assemble in the edit.
 
-I applied to roughly 3,000 jobs before building this system. I lost every time to people who actually wanted those jobs. What I wanted was to build the thing that IS what I am — a documented creative infrastructure that coordinates theory, generative art, commercial products, governance, public process, community, and marketing under a single architecture. The eight-organ system is that infrastructure: 100 repositories across 8 GitHub organizations, governed by automated dependency validation, a formal promotion pipeline, and 42 published essays that treat the process of creation as a first-class deliverable.
+I applied to roughly 3,000 jobs before building this system. I lost every time to people who actually wanted those jobs. What I wanted was to build the thing that IS what I am — a documented creative infrastructure that coordinates theory, generative art, commercial products, governance, public process, community, and marketing under a single architecture. The eight-organ system is that infrastructure: 149 registry entries spanning the eight-organ system, governed by automated dependency validation, a formal promotion pipeline, and 42 published essays that treat the process of creation as a first-class deliverable.
 
 This isn't project-based art. It's infrastructure-as-practice. The choice of how work flows between organs — theory feeds art feeds commerce, never the reverse — is as much an artistic decision as any individual output. The governance model isn't bureaucracy; it's generative constraint. The documentation isn't supplementary; it's the product. I use AI tools the way Wilson used session musicians: I direct, I specify, I review, I assemble. The creative intelligence is in the architecture and the editorial judgment, not in any single line of code or prose.
 
@@ -140,7 +140,7 @@ The system is simultaneously: (a) working infrastructure that produces creative 
 
 ### Project Description
 
-The eight-organ system coordinates 100 repositories across 8 GitHub organizations: Theory (ORGAN-I), Art (ORGAN-II), Commerce (ORGAN-III), Governance (ORGAN-IV), Public Process (ORGAN-V), Community (ORGAN-VI), Marketing (ORGAN-VII), and Meta (ORGAN-VIII). Key features: machine-readable registry as single source of truth, automated dependency validation (no circular dependencies, no back-edges), formal promotion state machine, 5 GitHub Actions workflows for autonomous governance, 82+ CI/CD pipelines, and ~404K+ words of public documentation including 42 published essays. The system was built by a single practitioner using the AI-conductor methodology — AI generates volume, human directs strategy and ensures accuracy — documented transparently in the essay series.
+The eight-organ system coordinates 149 registry entries spanning the eight-organ system: Theory (ORGAN-I), Art (ORGAN-II), Commerce (ORGAN-III), Governance (ORGAN-IV), Public Process (ORGAN-V), Community (ORGAN-VI), Marketing (ORGAN-VII), and Meta (ORGAN-VIII). Key features: machine-readable registry as single source of truth, automated dependency validation for missing targets, circular dependencies, and back-edges, formal promotion state machine, 5 GitHub Actions workflows for autonomous governance, 82+ CI/CD pipelines, and ~404K+ words of public documentation including 42 published essays. The system was built by a single practitioner using the AI-conductor methodology — AI generates volume, human directs strategy and ensures accuracy — documented transparently in the essay series.
 
 ### Links to Submit
 - Portfolio: https://4444j99.github.io/portfolio/
@@ -159,7 +159,7 @@ The eight-organ system coordinates 100 repositories across 8 GitHub organization
 
 ### Cover Letter
 
-The eight-organ system I built enforces governance rules as data: a machine-readable registry serves as single source of truth for 100 repositories, a dependency validator blocks merges that violate constitutional constraints, and automated audits have maintained 0 critical alerts since launch. That approach — constraints encoded in data, enforced by automation, not by human vigilance — is why I'm drawn to the Forward Deployed Engineer, Custom Agents role at Anthropic.
+The eight-organ system I built enforces governance rules as data: a machine-readable registry serves as single source of truth for 149 repositories, a dependency validator blocks merges that violate constitutional constraints, and automated audits have maintained 0 critical alerts since launch. That approach — constraints encoded in data, enforced by automation, not by human vigilance — is why I'm drawn to the Forward Deployed Engineer, Custom Agents role at Anthropic.
 
 **Why Anthropic**
 
@@ -319,7 +319,7 @@ Hugging Face hires people who tell it where to go. I'm the person who sees a gap
 
 **What I'd Bring**
 
-*Technical content at scale, from scratch.* 100 repository READMEs, each written for grant reviewers and hiring managers. A cross-document dependency map and reading order. An annotated manifest with per-file descriptions. 42 published essays explaining architectural decisions to non-technical audiences. organvm-corpvs-testamentvm as the meta-governance document — ~404K+ words of structured technical writing that IS the product.
+*Technical content at scale, from scratch.* 149 repository READMEs, each written for grant reviewers and hiring managers. A cross-document dependency map and reading order. An annotated manifest with per-file descriptions. 42 published essays explaining architectural decisions to non-technical audiences. organvm-corpvs-testamentvm as the meta-governance document — ~404K+ words of structured technical writing that IS the product.
 
 *Developer-first instinct.* my-knowledge-base is a knowledge management system designed around how developers actually retrieve information. metasystem-master coordinates subsystems at the meta-level, and its documentation teaches by showing how pieces compose rather than listing features.
 
@@ -354,7 +354,7 @@ I'm applying for the Applied AI Engineer, Agentic Workflows role at Cohere. I bu
 
 **Why Agentic Workflows at Cohere**
 
-Cohere is building the enterprise layer for agentic AI. Enterprise means governance: who can an agent call, what can it access, when should it stop? I've answered these questions for a real system. The eight-organ architecture enforces constitutional constraints — no circular dependencies, no back-edges, promotion through a formal state machine — and these rules aren't suggestions. They're automated. They block merges. They run monthly audits. That's the kind of orchestration design that makes agentic workflows safe enough for enterprise customers to deploy.
+Cohere is building the enterprise layer for agentic AI. Enterprise means governance: who can an agent call, what can it access, when should it stop? I've answered these questions for a real system. The eight-organ architecture enforces constitutional constraints — checks for missing targets, circular dependencies, and back-edges, promotion through a formal state machine — and these rules aren't suggestions. They're automated. They block merges. They run monthly audits. That's the kind of orchestration design that makes agentic workflows safe enough for enterprise customers to deploy.
 
 **What I'd Bring**
 

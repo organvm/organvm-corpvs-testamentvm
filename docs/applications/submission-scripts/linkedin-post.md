@@ -7,7 +7,7 @@
 
 ## Post Text (copy and paste)
 
-I built an eight-organ system that coordinates 100 repositories across 8 GitHub organizations — governing how theory, generative art, commercial products, and community work flow into each other.
+I built an eight-organ system that coordinates 149 registry entries spanning the eight-organ system — governing how theory, generative art, commercial products, and community work flow into each other.
 
 After 33 sprints of construction, it's time to break the hermetic seal: the system is live, the documentation is public, and the AI-conductor methodology essay explains how it all works.
 

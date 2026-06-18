@@ -32,7 +32,7 @@
 
 I build creative systems — the governance IS the artwork.
 
-My practice centers on the eight-organ system: a documented infrastructure coordinating theory, generative art, commercial products, governance, public process, community, and marketing across 100 repositories. I don't produce individual artworks. I produce the *systems* that generate, coordinate, and sustain creative work — and the visible record of how those systems are built is itself the primary creative output.
+My practice centers on the eight-organ system: a documented infrastructure coordinating theory, generative art, commercial products, governance, public process, community, and marketing across 149 repositories. I don't produce individual artworks. I produce the *systems* that generate, coordinate, and sustain creative work — and the visible record of how those systems are built is itself the primary creative output.
 
 The process of creation is the product. The 42 essays I've published aren't reflections on the work; they ARE the work — the creative process rendered into prose in real time. The governance rules — registry design, dependency graphs, promotion pipelines — aren't bureaucratic overhead; they're generative constraints, the way a composer's harmonic rules shape what melodies can emerge.
 
@@ -46,7 +46,7 @@ The eight-organ system is simultaneously: (a) working infrastructure that produc
 
 ---
 
-The eight-organ system is a living creative work — 100 repositories across 8 organizations coordinated through automated governance, a formal promotion state machine, and 42 published essays documenting the process in real time. The governance structures aren't bureaucracy — they're generative constraints, the way a composer's harmonic rules shape what melodies can emerge.
+The eight-organ system is a living creative work — 149 registry entries spanning the eight-organ system, coordinated through automated governance, a formal promotion state machine, and 42 published essays documenting the process in real time. The governance structures aren't bureaucracy — they're generative constraints, the way a composer's harmonic rules shape what melodies can emerge.
 
 LACMA Art + Technology Lab represents a critical opportunity to sustain and extend this practice. The work is built, documented, and operational — what it needs now is the time and resources to deepen, not to start over.
 
@@ -58,7 +58,7 @@ LACMA Art + Technology Lab represents a critical opportunity to sustain and exte
 
 ---
 
-Systems artist and auteur-producer. Creator of the ORGANVM eight-organ system: 100 repositories across 8 GitHub organizations coordinating theory, art, commerce, governance, and public process through automated governance. 42 published essays, 33 development sprints, ~410K+ of documentation. 18 years professional experience across creative systems design, college instruction (11 years, 2,000+ students), multimedia production, and project management. MFA Creative Writing, Meta Full-Stack Developer certification. Based in New York City.
+Systems artist and auteur-producer. Creator of the ORGANVM eight-organ system: 149 registry entries spanning the eight-organ system, coordinating theory, art, commerce, governance, and public process through automated governance. 42 published essays, 33 development sprints, ~410K+ of documentation. 18 years professional experience across creative systems design, college instruction (11 years, 2,000+ students), multimedia production, and project management. MFA Creative Writing, Meta Full-Stack Developer certification. Based in New York City.
 
 ---
 
@@ -98,7 +98,7 @@ Symbolic operating system: 1,254 tests, 85% coverage, 21 organ handlers, custom 
 
 1. Governance as creative medium — registry design, dependency graphs, and promotion pipelines are generative structures.
 2. Process-as-product methodology — the 42 essays aren't marketing; they ARE the creative work.
-3. Solo production at institutional scale — one person built and documented a 100-repository system across 8 organizations.
+3. Solo production at institutional scale — one person built and documented a 149-repository system across 8 organizations.
 4. Cross-domain integration — the eight-organ model bridges theory, art, commerce, governance, and community.
 
 ---

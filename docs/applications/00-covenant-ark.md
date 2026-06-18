@@ -55,7 +55,7 @@
 
 ## B. Canonical Identity Statement
 
-> I am a systems artist and auteur-producer who builds creative systems at institutional scale. The ORGANVM project — 100 repositories coordinated across 8 GitHub organizations through automated governance, dependency validation, and a formal promotion state machine — is simultaneously working infrastructure, a documented creative methodology, and an argument that the process of creation, made visible and governable, is itself the most interesting thing an artist can produce. I use AI tools as compositional instruments: the architectural vision, governance design, and editorial judgment are the creative work.
+> I am a systems artist and auteur-producer who builds creative systems at institutional scale. The ORGANVM project — 149 repositories coordinated across 8 GitHub organizations through automated governance, dependency validation, and a formal promotion state machine — is simultaneously working infrastructure, a documented creative methodology, and an argument that the process of creation, made visible and governable, is itself the most interesting thing an artist can produce. I use AI tools as compositional instruments: the architectural vision, governance design, and editorial judgment are the creative work.
 
 **Rules:**
 - **Never** say "I am an engineer" or "software engineer" in art/grant contexts — use "systems artist," "creative technologist," or "auteur-producer"
@@ -85,7 +85,7 @@ The eight-organ system is simultaneously: (a) working infrastructure that produc
 
 ### Medium (~150 words)
 
-I build creative systems — environments where theory, art, and community work grow like organisms in a medium. My eight-organ system coordinates 100 repositories across 8 organizations through automated governance, dependency validation, and a formal promotion state machine. The 42 published essays documenting this process aren't reflections on the work; they ARE the work — the creative process rendered into prose in real time.
+I build creative systems — environments where theory, art, and community work grow like organisms in a medium. My eight-organ system coordinates 149 registry entries spanning the eight-organ system through automated governance, dependency validation, and a formal promotion state machine. The 42 published essays documenting this process aren't reflections on the work; they ARE the work — the creative process rendered into prose in real time.
 
 I use AI tools as compositional instruments, the way Brian Eno treated the studio or Hundred Rabbits treat their custom toolchain. The architectural vision, governance design, and editorial judgment are the creative work; AI provides execution capacity. The governance rules aren't bureaucracy — they're generative constraints that shape what the system can become.
 
@@ -93,7 +93,7 @@ The result: a documented methodology for solo production at institutional scale,
 
 ### Short (~75 words)
 
-Systems artist building creative infrastructure at institutional scale. My eight-organ system coordinates 100 repositories across 8 organizations — spanning theory, generative art, commerce, governance, public process, community, and marketing. 42 published essays document the methodology in real time. The process of creation is the product: governance structures, dependency graphs, and promotion pipelines are generative constraints, not bureaucracy. Solo production using AI tools as compositional instruments.
+Systems artist building creative infrastructure at institutional scale. My eight-organ system coordinates 149 registry entries spanning the eight-organ system — spanning theory, generative art, commerce, governance, public process, community, and marketing. 42 published essays document the methodology in real time. The process of creation is the product: governance structures, dependency graphs, and promotion pipelines are generative constraints, not bureaucracy. Solo production using AI tools as compositional instruments.
 
 ---
 
@@ -101,7 +101,7 @@ Systems artist building creative infrastructure at institutional scale. My eight
 
 ### Long (~200 words)
 
-Systems artist and auteur-producer working at the intersection of creative infrastructure, governance design, and AI-augmented methodology. Creator of the ORGANVM eight-organ system: 100 repositories across 8 GitHub organizations coordinating theory, generative art, commercial products, governance, public process, community, and marketing through automated governance and a formal promotion state machine. 42 published essays document the creative process in real time.
+Systems artist and auteur-producer working at the intersection of creative infrastructure, governance design, and AI-augmented methodology. Creator of the ORGANVM eight-organ system: 149 registry entries spanning the eight-organ system, coordinating theory, generative art, commercial products, governance, public process, community, and marketing through automated governance and a formal promotion state machine. 42 published essays document the creative process in real time.
 
 Professional background spans 18 years across four domains: 5 years independent creative systems design (the eight-organ system, 2,349+ tests, 33 development sprints), 11 years college instruction at 8+ institutions (2,000+ students), 15 years multimedia production (AJP Media Arts), and 11 years construction project management. MFA Creative Writing (FAU), BA English Literature (CUNY). Meta Full-Stack Developer and Google UX/Digital Marketing/Project Management certifications.
 
@@ -109,11 +109,11 @@ Reference points: Julian Oliver's critical engineering, Nicky Case's Explorable 
 
 ### Medium (~100 words)
 
-Systems artist and auteur-producer. Creator of the ORGANVM eight-organ system: 100 repositories across 8 GitHub organizations coordinating theory, art, commerce, governance, and public process through automated governance. 42 published essays, 33 development sprints, 410K+ words of documentation. 18 years professional experience across creative systems design, college instruction (11 years, 2,000+ students), multimedia production, and project management. MFA Creative Writing, Meta Full-Stack Developer certification. Based in New York City.
+Systems artist and auteur-producer. Creator of the ORGANVM eight-organ system: 149 registry entries spanning the eight-organ system, coordinating theory, art, commerce, governance, and public process through automated governance. 42 published essays, 33 development sprints, 410K+ words of documentation. 18 years professional experience across creative systems design, college instruction (11 years, 2,000+ students), multimedia production, and project management. MFA Creative Writing, Meta Full-Stack Developer certification. Based in New York City.
 
 ### Short (~50 words)
 
-Systems artist. Creator of the ORGANVM eight-organ system — 100 repositories, 8 organizations, 42 essays, ~6K+ words. Builds creative infrastructure at institutional scale using AI tools as compositional instruments. MFA Creative Writing, 18 years professional experience. NYC-based.
+Systems artist. Creator of the ORGANVM eight-organ system — 149 repositories, 8 organizations, 42 essays, ~6K+ words. Builds creative infrastructure at institutional scale using AI tools as compositional instruments. MFA Creative Writing, 18 years professional experience. NYC-based.
 
 ---
 
@@ -158,7 +158,7 @@ Copy-paste into any application form:
 
 ## G. Key Differentiators
 
-1. **Solo production at institutional scale.** One person built and documented a 100-repository system across 8 organizations with automated governance, dependency validation, and a formal promotion state machine — the kind of infrastructure normally requiring a team of 5-10.
+1. **Solo production at institutional scale.** One person built and documented a 149-repository system across 8 organizations with automated governance, dependency validation, and a formal promotion state machine — the kind of infrastructure normally requiring a team of 5-10.
 
 2. **Process-as-product methodology.** The 42 essays aren't marketing or documentation — they ARE the creative work. The visible record of building the system, including mistakes and course corrections, is the primary artistic output.
 
@@ -198,7 +198,7 @@ Frame the same body of work differently for different audiences:
 
 ### 5. Independent Engineer (AI lab roles)
 - **Narrative:** "5 years building production-grade Python/TypeScript infrastructure at scale — 103 repos, 21K code files, 3.6K tests, 94 CI/CD pipelines, governance as architecture"
-- **Evidence:** system-metrics.json (computed, verifiable), agentic-titan (1,095 tests), recursive-engine (1,254 tests, 85% coverage), 43 validated dependency edges, 0 violations, automated governance
+- **Evidence:** system-metrics.json (computed, verifiable), agentic-titan (1,095 tests), recursive-engine (1,254 tests, 85% coverage), 62 registry dependency edges with V4 reconciliation findings tracked, automated governance
 - **What to emphasize:** Testing discipline, CI/CD, systems architecture, API orchestration, documentation rigor, autonomous governance design
 - **What to acknowledge:** Independent practice (no team PRs), no production users, LLM API orchestration not ML training
 - **Targets:** Anthropic, OpenAI, Runway, Together AI, Cohere, HuggingFace
@@ -211,14 +211,14 @@ What you can claim, with proof:
 
 | Claim | Evidence | Verification |
 |-------|----------|-------------|
-| 100 repos across 8 orgs | repo-registry.json | `jq '.summary.total_repos' repo-registry.json` → 100 |
+| 149 repos across 8 orgs | repo-registry.json | `jq '.summary.total_repos' repo-registry.json` → 100 |
 | 93 ACTIVE, 54 ARCHIVED | repo-registry.json | implementation_status_distribution field |
 | 42 published essays | public-process/_posts/ | `ls _posts/ \| wc -l` → 42 |
 | ~6K+ words in essays | Word count of _posts/ | Measured at deploy |
 | ~410K+ total words | Aggregate across all repos | system-metrics.json |
 | 33 development sprints | docs/specs/sprints/ | 01-ignition through 33-operatio |
 | 107+ CI/CD workflows | Per-repo .github/workflows/ | Counted in MANIFESTATIO audit |
-| 62 dependency edges, 0 violations | validate-dependencies.yml | Weekly automated check |
+| 62 dependency edges; 7 V4 findings | validate-dependencies.yml | Weekly automated check |
 | 2,349+ tests | agentic-titan (1,095) + recursive-engine (1,254) | Package test suites |
 | 100% CLAUDE.md coverage | Per-repo CLAUDE.md files | SENSORIA audit |
 | 100% seed.yaml coverage | Per-repo seed.yaml files | SENSORIA generate-seed-yaml.py |

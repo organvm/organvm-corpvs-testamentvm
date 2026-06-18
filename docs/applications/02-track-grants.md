@@ -2,7 +2,7 @@
 
 **Targets:** Creative Capital, Artadia NYC, WFF Housing, Whiting, Prix Ars, S+T+ARTS, Warhol, Spencer, Rauschenberg, NLnet, FCA, NYSCA/NYFA + more
 **Updated:** 2026-02-18 (research integration — expanded from 6 to 15+ verified targets)
-**Evidence:** 100-repo system with automated governance, 42 published essays (~150K words), 5+ years sustained practice, operational infrastructure
+**Evidence:** 149-repo system with automated governance, 42 published essays (~150K words), 5+ years sustained practice, operational infrastructure
 **Core evidence:** ORGAN-V essays + registry + eight-organ organizational model
 **Funding strategy:** [10-funding-strategy.md](./10-funding-strategy.md) — benefits cliff, deadline sequencing, identity positions
 
@@ -13,7 +13,7 @@
 "This demonstrates long-term digital capacity. The eight-organ model isn't a project — it's infrastructure that enables ongoing creative work."
 
 Grant reviewers evaluate:
-1. **Organizational capacity** — Can you execute sustained work? (Registry + 100 repos = yes)
+1. **Organizational capacity** — Can you execute sustained work? (Registry + 149 repos = yes)
 2. **Long-term sustainability** — Will this outlast the grant period? (Automated governance = yes)
 3. **Community contribution** — Does this benefit others? (Public documentation + ORGAN-VI = yes)
 4. **Innovation** — Is this genuinely new? (Governance-as-artistic-medium = yes)
@@ -32,13 +32,13 @@ Grant reviewers evaluate:
 **Key evidence:**
 - 149-repo system as living creative work, not a portfolio piece
 - 33 named development sprints demonstrating sustained commitment
-- Automated governance: the rules that coordinate 100 repos are as carefully designed as any artwork
+- Automated governance: the rules that coordinate 149 repos are as carefully designed as any artwork
 - Public process methodology: building in public as creative practice
 
 **Application format:** 6 short questions, 500-word project description, work samples, bio, resume. Panelist advice: "Describe your project with the clarity of a children's book."
 
 **Narrative angle:**
-"The eight-organ system is a living creative work that treats governance as an artistic medium. The 100 repositories are not code projects — they are the medium through which theory, art, commerce, and community are orchestrated by a single practitioner at institutional scale. The 29 essays documenting this process in real-time are not supplements to the work — they ARE the work. Creative Capital would fund the next phase of a practice that already demonstrates the capacity, innovation, and sustainability that grant reviewers look for."
+"The eight-organ system is a living creative work that treats governance as an artistic medium. The 149 repositories are not code projects — they are the medium through which theory, art, commerce, and community are orchestrated by a single practitioner at institutional scale. The 29 essays documenting this process in real-time are not supplements to the work — they ARE the work. Creative Capital would fund the next phase of a practice that already demonstrates the capacity, innovation, and sustainability that grant reviewers look for."
 
 **Benefits cliff:** $50K would exceed Medicaid threshold → Essential Plan ($0 premium). Call NYLAG before accepting.
 
@@ -55,7 +55,7 @@ Grant reviewers evaluate:
 - MFA Creative Writing (FAU, 2015-2018) — creative terminal degree
 
 **Narrative angle:**
-"My practice centers on building creative systems — environments where creative organisms grow through documented governance and AI-augmented production. The eight-organ system coordinates 100 repositories through governance structures designed the way a composer designs generative scores: the constraints shape what emerges."
+"My practice centers on building creative systems — environments where creative organisms grow through documented governance and AI-augmented production. The eight-organ system coordinates 149 repositories through governance structures designed the way a composer designs generative scores: the constraints shape what emerges."
 
 **Benefits cliff:** SNAP-safe (lump sum excluded). $15K on $12K base stays below Medicaid with Schedule C deductions.
 
@@ -137,7 +137,7 @@ Grant reviewers evaluate:
 **Why you fit:** The organ system documentation corpus (404K+ words) IS a book-in-progress about building creative infrastructure with AI. MFA + 42 published essays + the extraordinary building-in-public record.
 
 **Narrative angle:**
-"Over five years, I built an eight-organ creative-institutional system — 100 repositories, 33 development sprints, 6,200+ words of documentation — using AI as a compositional instrument. The process of creation, documented in real-time across 42 essays, IS the book: a work about what happens when governance, technology, and artistic vision converge at the scale of one person's practice."
+"Over five years, I built an eight-organ creative-institutional system — 149 repositories, 33 development sprints, 6,200+ words of documentation — using AI as a compositional instrument. The process of creation, documented in real-time across 42 essays, IS the book: a work about what happens when governance, technology, and artistic vision converge at the scale of one person's practice."
 
 **Deadline:** ~April 2026 (2025 deadline was April 23). Monitor.
 **URL:** https://www.whiting.org/writers/creative-nonfiction-grant
@@ -237,7 +237,7 @@ For grants that require dollar budgets, translate the TE model:
 
 1. **The infrastructure already exists.** You're not proposing to build something — you're showing what you've built and requesting support to sustain and expand it.
 
-2. **Automated governance at solo-practitioner scale.** Monthly audits run automatically. Dependency validation happens on every push. Health checks monitor all 100 repos.
+2. **Automated governance at solo-practitioner scale.** Monthly audits run automatically. Dependency validation happens on every push. Health checks monitor all 149 repos.
 
 3. **Public documentation as evidence.** Grant reviewers can verify every claim by visiting the public repos. The registry, governance rules, and audit reports are all visible.
 

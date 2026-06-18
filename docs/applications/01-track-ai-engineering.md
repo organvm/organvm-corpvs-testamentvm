@@ -11,7 +11,7 @@
 "I designed and implemented an eight-organ orchestration system coordinating 149 repos across 8 orgs with automated governance, dependency validation, and health checks."
 
 This positions you as someone who:
-1. **Thinks in systems**, not fragments — orchestrating 100 repos is an architectural challenge
+1. **Thinks in systems**, not fragments — orchestrating 149 repos is an architectural challenge
 2. **Ships production-quality infrastructure** — 82+ CI/CD workflows, 5 governance automations, automated health checks
 3. **Designs governance from first principles** — promotion state machine, dependency rules, constitutional constraints
 4. **Tests rigorously** — agentic-titan: 1,095 tests; recursive-engine: 1,254 tests
@@ -51,12 +51,12 @@ This positions you as someone who:
 **Why you fit:** These companies need people who can bridge technical depth with clear communication. Your ~6K+ words of documentation + working systems = evidence of both.
 
 **Lead with:**
-- The meta-system itself: 100 repos documented, organized, and automated
+- The meta-system itself: 149 repos documented, organized, and automated
 - Public-process essays as evidence of developer advocacy capacity
 - recursive-engine as evidence of ML/AI depth (symbolic systems, ontological processing)
 
 **Talking points:**
-- "I've documented 100 repositories at portfolio quality — every README is written for grant reviewers and hiring managers, not just developers"
+- "I've documented 149 repositories at portfolio quality — every README is written for grant reviewers and hiring managers, not just developers"
 - "My ORGAN-V public process essays explain complex systems to non-technical audiences"
 
 ---
@@ -132,4 +132,4 @@ Q: "How do you test at scale?"
 A: 107+ CI/CD workflows across all code repos. agentic-titan: 1,095 tests across 18 development phases. recursive-engine: 1,254 tests, 85% coverage. platinum-validation.py sweeps the full system against 1,267 audited links and 62 dependency edges.
 
 Q: "How do you communicate technical decisions?"
-A: ~404K+ words of documentation across 100 repos. 42 published essays. orchestration-system-v2.md documents governance rationale. Every README is written for external evaluators, not internal notes.
+A: ~404K+ words of documentation across 149 repos. 42 published essays. orchestration-system-v2.md documents governance rationale. Every README is written for external evaluators, not internal notes.

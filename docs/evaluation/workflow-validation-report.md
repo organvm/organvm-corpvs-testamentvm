@@ -93,5 +93,5 @@ FAILED — 2 issues found
 
 - [ ] Add `workflow_dispatch:` trigger to `essay-monitor.yml` for manual testing
 - [ ] Resolve GitHub billing lock on `organvm-i-theoria`
-- [ ] Re-run `validate-dependencies.yml` to confirm zero violations after fix
+- [ ] Re-run `validate-dependencies.yml` to confirm current V4 findings are either resolved or explicitly tracked
 - [ ] Replace `datetime.utcnow()` with `datetime.now(datetime.UTC)` in validation script

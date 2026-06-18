@@ -1,27 +1,35 @@
 # System Metrics Snapshot
 
-*Generated: 2026-02-16*
+*Generated: 2026-06-18*
 
 | Metric | Value |
 |--------|-------|
-| Total repositories | 149 |
-| Active status | 93 |
-| Archived | 54 |
+| Total registry entries | 149 |
+| Organ/meta GitHub repos | 144 |
+| Personal GitHub repos | 4 |
+| Local entries | 1 |
+| ACTIVE implementation status | 93 |
+| ARCHIVED implementation status | 54 |
+| PROTOTYPE implementation status | 2 |
 | Organs operational | 8/8 |
 | CI/CD workflows | 107+ |
-| Dependency edges | 62 |
-| Back-edge violations | 0 |
+| Registry dependency edges | 62 |
+| Missing dependency targets | 6 |
+| Back-edge violations | 1 |
+| Circular dependencies | 0 |
+| V4 total reconciliation findings | 7 |
 | Published essays | 29 |
-| Total documentation | ~386,000+ |
+| Total documentation | ~410,000+ |
 | Sprints completed | 33 |
 
 ### Per-Organ Distribution
 
-- **ORGAN-I**: 20 repos
-- **ORGAN-II**: 30 repos
-- **ORGAN-III**: 27 repos
-- **ORGAN-IV**: 7 repos
-- **ORGAN-V**: 2 repos
-- **ORGAN-VI**: 4 repos
-- **ORGAN-VII**: 4 repos
-- **META-ORGANVM**: 3 repos
+- **ORGAN-I**: 26 repos
+- **ORGAN-II**: 32 repos
+- **ORGAN-III**: 32 repos
+- **ORGAN-IV**: 22 repos
+- **ORGAN-V**: 6 repos
+- **ORGAN-VI**: 6 repos
+- **ORGAN-VII**: 6 repos
+- **META-ORGANVM**: 14 repos
+- **PERSONAL/local**: 5 entries

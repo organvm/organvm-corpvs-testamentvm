@@ -1,24 +1,34 @@
 {
-  "total_deps": 38,
-  "missing_targets": 3,
+  "total_deps": 62,
+  "missing_targets": 6,
   "self_deps": 0,
-  "back_edges": 0,
+  "back_edges": 1,
   "cycles": 0,
   "violations": [
-    "Missing target: organvm-vii-kerygma/.github -> announcement-templates",
-    "Missing target: organvm-vii-kerygma/.github -> social-automation",
-    "Missing target: organvm-vii-kerygma/.github -> distribution-strategy"
+    "Missing target: organvm-ii-poiesis/vigiles-aeternae--theatrum-mundi -> vigiles-aeternae--corpus-mythicum",
+    "Missing target: organvm-iv-taxis/contrib--adenhq-hive -> agentic-titan",
+    "Missing target: organvm-iv-taxis/contrib--adenhq-hive -> orchestration-start-here",
+    "Missing target: meta-organvm/vigiles-aeternae--agon-cosmogonicum -> organvm-engine",
+    "Missing target: meta-organvm/vigiles-aeternae--agon-cosmogonicum -> organvm-ontologia",
+    "Missing target: meta-organvm/vigiles-aeternae--agon-cosmogonicum -> organvm-corpvs-testamentvm",
+    "Back-edge: organvm-iii-ergon/styx-behavioral-commerce -> organvm-ii-poiesis/styx-behavioral-art"
   ],
   "cross_organ_summary": {
-    "organvm-ii-poiesis -> organvm-i-theoria": 3,
+    "organvm-ii-poiesis -> organvm-i-theoria": 4,
+    "organvm-ii-poiesis -> vigiles-aeternae--corpus-mythicum": 1,
+    "organvm-iii-ergon -> organvm-i-theoria": 1,
+    "organvm-iii-ergon -> organvm-ii-poiesis": 1,
     "organvm-iv-taxis -> organvm-i-theoria": 2,
+    "organvm-iv-taxis -> agentic-titan": 1,
+    "organvm-iv-taxis -> orchestration-start-here": 1,
     "organvm-v-logos -> organvm-i-theoria": 1,
     "organvm-v-logos -> organvm-ii-poiesis": 1,
     "organvm-v-logos -> organvm-iii-ergon": 1,
     "organvm-v-logos -> organvm-iv-taxis": 1,
-    "organvm-vii-kerygma -> announcement-templates": 1,
-    "organvm-vii-kerygma -> social-automation": 1,
-    "organvm-vii-kerygma -> distribution-strategy": 1
+    "meta-organvm -> organvm-i-theoria": 2,
+    "meta-organvm -> organvm-engine": 1,
+    "meta-organvm -> organvm-ontologia": 1,
+    "meta-organvm -> organvm-corpvs-testamentvm": 1
   },
   "pass": false
 }

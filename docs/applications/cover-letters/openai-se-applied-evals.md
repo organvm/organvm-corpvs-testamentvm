@@ -6,7 +6,7 @@
 
 ---
 
-organ-audit.py runs monthly health checks across 149 repositories. platinum-validation.py sweeps the full system against 1,267 audited links and 62 dependency edges. Five GitHub Actions workflows enforce constitutional constraints on every merge — no circular dependencies, no back-edges, transitive depth capped at 4. These are evaluation systems built because manual review doesn't scale. That's the same problem the Software Engineer, Applied Evals role at OpenAI solves.
+organ-audit.py runs monthly health checks across 149 repositories. platinum-validation.py sweeps the full system against 1,267 audited links and 62 dependency edges. Five GitHub Actions workflows enforce constitutional constraints on every merge — checks for missing targets, circular dependencies, and back-edges, transitive depth capped at 4. These are evaluation systems built because manual review doesn't scale. That's the same problem the Software Engineer, Applied Evals role at OpenAI solves.
 
 ## Why Applied Evals
 
@@ -17,7 +17,7 @@ Evaluation is governance. When you're evaluating multi-turn and tool-using syste
 **Evaluation frameworks, battle-tested.** I built a multi-layered validation system for the eight-organ system:
 - **organ-audit.py:** Monthly health monitoring across all 149 repos — checks documentation status, link integrity, cross-reference accuracy
 - **platinum-validation.py:** Full system sweep verifying every repo against 1,267 audited links and 62 dependency edges
-- **validate-dependencies workflow:** Blocks merges that would violate constitutional constraints (no circular dependencies, no back-edges, transitive depth <= 4)
+- **validate-dependencies workflow:** Blocks merges that would violate constitutional constraints (checks for missing targets, circular dependencies, and back-edges, transitive depth <= 4)
 
 These aren't toy scripts. They enforce quality at a scale where eyeballing it doesn't work.
 

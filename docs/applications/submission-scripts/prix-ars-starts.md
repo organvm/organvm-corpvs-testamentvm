@@ -52,7 +52,7 @@ Copy everything between the lines:
 
 ---
 
-The eight-organ system is a living creative infrastructure coordinating 100 repositories across 8 organizations through automated governance — treating the rules that coordinate creative production as an artistic medium in their own right. Built by a single practitioner using AI as a compositional instrument (the AI-conductor methodology), the system orchestrates theory, generative art, commercial products, governance, public process, community, and marketing under a unified architecture. 42 published essays document its construction in real time. The infrastructure IS the artwork: dependency validation, promotion state machines, and registry design are artistic decisions made visible through technology.
+The eight-organ system is a living creative infrastructure coordinating 149 registry entries spanning the eight-organ system through automated governance — treating the rules that coordinate creative production as an artistic medium in their own right. Built by a single practitioner using AI as a compositional instrument (the AI-conductor methodology), the system orchestrates theory, generative art, commercial products, governance, public process, community, and marketing under a unified architecture. 42 published essays document its construction in real time. The infrastructure IS the artwork: dependency validation, promotion state machines, and registry design are artistic decisions made visible through technology.
 
 ---
 
@@ -64,7 +64,7 @@ Copy everything between the lines:
 
 ---
 
-Over five years, I built a creative-institutional system that coordinates 100 code repositories across 8 GitHub organizations. Each organization represents an organ — a functional domain of creative practice: Theory (ORGAN-I), Art (ORGAN-II), Commerce (ORGAN-III), Governance (ORGAN-IV), Public Process (ORGAN-V), Community (ORGAN-VI), Marketing (ORGAN-VII), and Meta (ORGAN-VIII). The system is governed by a machine-readable registry that serves as single source of truth, automated dependency validation that enforces constitutional constraints (no circular dependencies, no back-edges in the flow from theory to art to commerce), a formal promotion state machine, and 11 GitHub Actions workflows that execute governance decisions autonomously.
+Over five years, I built a creative-institutional system that coordinates 149 registry entries spanning the eight-organ system. Each organization represents an organ — a functional domain of creative practice: Theory (ORGAN-I), Art (ORGAN-II), Commerce (ORGAN-III), Governance (ORGAN-IV), Public Process (ORGAN-V), Community (ORGAN-VI), Marketing (ORGAN-VII), and Meta (ORGAN-VIII). The system is governed by a machine-readable registry that serves as single source of truth, automated dependency validation that enforces constitutional constraints (checks for missing targets, circular dependencies, and back-edges in the flow from theory to art to commerce), a formal promotion state machine, and 11 GitHub Actions workflows that execute governance decisions autonomously.
 
 This is not a software project documented as art. It is an argument — expressed through infrastructure — that governance and art are not separate categories. The choice of how work flows between organs is as much an artistic decision as any visual or sonic output the system produces. The dependency rule (theory feeds art, art feeds commerce, never the reverse) is a compositional constraint analogous to serialism or Eno's oblique strategies: it forces each organ to be genuinely self-sufficient, producing work that is stranger and more honest than anything generated when everything can depend on everything else.
 
@@ -74,7 +74,7 @@ The documentation corpus is not supplementary to the artwork — it IS the artwo
 
 The system operates autonomously: daily health checks monitor all repositories, automated audits generate monthly reports, essays are distributed via POSSE (Publish on Own Site, Syndicate Elsewhere) to Mastodon, Discord, and RSS. The system doesn't need constant human intervention to sustain itself — the governance rules hold because they are structural, not procedural.
 
-Key metrics: 100 repositories, 8 organizations, 82+ CI/CD pipelines, 42 published essays, ~404,000 words of public documentation, 33 named development sprints, and a formal registry tracking every component's status, dependencies, and promotion state. All of this was built by a single practitioner.
+Key metrics: 149 repositories, 8 organizations, 82+ CI/CD pipelines, 42 published essays, ~404,000 words of public documentation, 33 named development sprints, and a formal registry tracking every component's status, dependencies, and promotion state. All of this was built by a single practitioner.
 
 ---
 
@@ -106,9 +106,9 @@ Public Process: https://organvm-v-logos.github.io/public-process/
 
 ---
 
-The system uses GitHub as its primary substrate — 8 GitHub organizations containing 100 repositories, each tracked by a machine-readable JSON registry (repo-registry.json). Governance is enforced by 11 GitHub Actions workflows: dependency validation on every push, monthly organ audits, automated content distribution (POSSE to Mastodon + Discord + RSS via GitHub Actions), and a promotion pipeline that manages repository state transitions. 82+ CI/CD pipelines run tests across the system. The essay series is published via Jekyll on GitHub Pages with Atom feed syndication.
+The system uses GitHub as its primary substrate — 149 registry entries spanning the eight-organ system, each tracked by a machine-readable JSON registry (repo-registry.json). Governance is enforced by 11 GitHub Actions workflows: dependency validation on every push, monthly organ audits, automated content distribution (POSSE to Mastodon + Discord + RSS via GitHub Actions), and a promotion pipeline that manages repository state transitions. 107+ CI/CD pipelines run tests across the system. The essay series is published via Jekyll on GitHub Pages with Atom feed syndication.
 
-The dependency architecture enforces a strict directed acyclic graph: I→II→III (theory→art→commerce). Cross-organ dependencies are validated automatically — no circular dependencies, no back-edges. The registry tracks implementation status, promotion tier, CI/CD status, and inter-repository dependencies for all 97 components.
+The dependency architecture is intended to preserve I→II→III (theory→art→commerce). Cross-organ dependencies are validated automatically: the current V4 report records 0 cycles, 6 missing targets, and 1 back-edge across 62 registry dependency edges. The registry tracks implementation status, promotion tier, CI/CD status, and inter-repository dependencies for all 149 entries.
 
 All infrastructure is open-source and publicly accessible.
 

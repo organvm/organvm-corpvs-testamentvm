@@ -69,7 +69,7 @@ These targets align most strongly with the actual profile — a systems artist b
 
 ### 1.4 — Google Creative Lab Five
 - **Track:** Residency
-- **Status:** **PASTE-READY** — metrics refreshed 2026-03-19 (113 repos, 49 essays, ~6K+ words, 4K+ tests, omega 4/17)
+- **Status:** **PASTE-READY** — metrics refreshed 2026-03-19 (149 registry entries, 49 essays, ~6K+ words, 4K+ tests, omega 4/17)
 - **Deadline:** Open (no stated close date). 17th class runs July 2026–July 2027.
 - **Amount:** Salaried position (1 year)
 - **Framing:** Creative technologist with systematic practice
@@ -264,7 +264,7 @@ No deadlines — activate immediately for ongoing support.
 ### 2.1 — GitHub Sponsors
 - **Status:** **STAGED** — setup guide ready 2026-02-18 (ERUPTIO: tiers $5/$25/$100 defined, awaiting activation)
 - **Amount:** Variable (ongoing)
-- **Notes:** Zero platform fee. Monetizes 100 repos immediately. No eligibility barrier.
+- **Notes:** Zero platform fee. Monetizes 149 repos immediately. No eligibility barrier.
 
 ### 2.2 — Fractured Atlas Fiscal Sponsorship
 - **Status:** READY — submission script generated — **Apply this week** (~30 min)
@@ -426,7 +426,7 @@ Premium publications that pay professional rates for exactly the kind of essays 
 - **Rate:** $1/word (~$3K per 3K-word essay)
 - **Contact:** pitches@noemamag.com
 - **Topic fit:** Technology, governance, AI, culture — direct match
-- **Pitch angle:** "I built a 100-repository creative system orchestrated by AI — here's what it reveals about the future of solo creative production."
+- **Pitch angle:** "I built a 149-repository creative system orchestrated by AI — here's what it reveals about the future of solo creative production."
 - **Benefits cliff:** Earned income (counts toward SNAP $1,580/mo threshold). One per quarter = safe.
 
 ### 6.2 — Gay & Lesbian Review
@@ -440,13 +440,13 @@ Premium publications that pay professional rates for exactly the kind of essays 
 - **Rate:** $1,200–$2,000/essay
 - **URL:** https://logicmag.io
 - **Topic fit:** Technology criticism — 8/10 fit
-- **Pitch angle:** "Governance as Artistic Medium: When the rules that coordinate 100 repositories become the artwork."
+- **Pitch angle:** "Governance as Artistic Medium: When the rules that coordinate 149 repositories become the artwork."
 - **Notes:** Themed issues — pitch must align with current call.
 
 ### 6.4 — MIT Technology Review / Wired / Aeon
 - **Rate:** MIT TR $1-3/word ($2.5K-12K), Wired $2,500+ starting, Aeon $500-1,500
 - **Topic fit:** AI, creative technology, LLMs. High prestige + high pay.
-- **Pitch angle:** "The AI-Conductor Model: How one person used Claude to coordinate 113 repos, 33 sprints, and ~6K+ words."
+- **Pitch angle:** "The AI-Conductor Model: How one person used Claude to coordinate 149 registry entries, 33 sprints, and ~6K+ words."
 - **Notes:** Highest-value outlets. Competitive but the story is genuinely unusual.
 
 ---
@@ -566,7 +566,7 @@ For each application:
 
 **9 job applications submitted** on 2026-03-19 (Track 3b added)
 
-**Metrics updated:** 113 repos, 49 essays (was 42), ~6K+ words (was 404K+), 4K+ tests, omega 4/17
+**Metrics updated:** 149 registry entries, 49 essays (was 42), ~6K+ words (was 404K+), 4K+ tests, omega 4/17
 
 ### Strategy Rewrite (2026-02-17)
 

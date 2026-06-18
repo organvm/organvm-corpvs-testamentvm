@@ -15,7 +15,7 @@ Profile strengths mapped against role requirements:
 
 | Strength | Evidence |
 |----------|----------|
-| Systems architecture | 100 repos, 8 orgs, dependency validation, promotion state machine |
+| Systems architecture | 149 repos, 8 orgs, dependency validation, promotion state machine |
 | Agent orchestration | agentic-titan (1,095 tests, 18 phases), multi-agent coordination |
 | Production infrastructure | 82+ CI/CD pipelines, 5 governance automations, automated health audits |
 | Testing rigor | 1,095 tests (agentic-titan) + 1,254 tests (recursive-engine) |

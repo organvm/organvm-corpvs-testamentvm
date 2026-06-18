@@ -13,7 +13,7 @@
 | Scale | 149 repositories across 8 GitHub organizations |
 | Architecture | Eight-organ model: Theory → Art → Commerce + Orchestration, Discourse, Community, Distribution, Meta |
 | Governance | Formal promotion state machine (LOCAL→CANDIDATE→PUBLIC_PROCESS→GRADUATED→ARCHIVED) |
-| Dependencies | 43 validated cross-organ edges, 0 circular dependencies, 0 back-edge violations |
+| Dependencies | 62 registry dependency edges; current V4 report records 0 cycles, 6 missing targets, and 1 back-edge |
 | Documentation | ~410K+ words, 46 published essays, 16 ADRs, 9 flagship READMEs |
 | Automation | 94 CI/CD workflows, 2,349+ automated tests, 5 validation scripts |
 | Tooling | Custom CLI (`organvm` — 12 command groups), MCP server (16 tools), system dashboard |

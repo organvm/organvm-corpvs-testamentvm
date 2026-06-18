@@ -34,7 +34,7 @@ This is not a talk about prompt engineering. It is a talk about organizational d
 
 ### 3. The Governance Layer (7 min)
 - Why volume without governance creates chaos
-- Registry-as-JSON: single source of truth for 113 repos
+- Registry-as-JSON: single source of truth for 149 registry entries
 - Unidirectional dependency flow (DAG enforcement)
 - Promotion state machine: when work becomes visible
 
@@ -45,7 +45,7 @@ This is not a talk about prompt engineering. It is a talk about organizational d
 - Billing overruns from automated workflows (48,880 minutes)
 
 ### 5. The Evidence (5 min)
-- 33+ sprints completed, 113 repos documented
+- 33+ sprints completed, 149 registry entries documented
 - 32-day soak test COMPLETE (autonomous operation verified)
 - Distribution pipeline: essays auto-deploy to social channels
 - What "done" looks like: omega criteria and exit conditions

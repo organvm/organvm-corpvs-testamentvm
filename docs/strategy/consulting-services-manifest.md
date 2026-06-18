@@ -81,7 +81,7 @@ Each SOP maps to a sellable service. The methodology IS the product.
 ### FUTURE (what revenue streams could expand)
 
 - **Book proposal**: "The Solo Auteur Method" — how one person enacts ideas at enterprise level using AI orchestration
-- **Course**: "Building at System Scale" — from idea to 100-repo governed ecosystem
+- **Course**: "Building at System Scale" — from idea to 149-entry governed ecosystem
 - **Licensing**: SOP ecosystem as a licensable framework for other solo operators
 - **Speaking circuit**: Once first conference talk lands, build a speaking practice around the AI-conductor methodology
 

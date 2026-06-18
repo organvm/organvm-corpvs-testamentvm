@@ -10,7 +10,7 @@ agentic-titan coordinates multiple AI agents through 18 development phases with 
 
 ## Why Agentic Workflows at Cohere
 
-Cohere is building the enterprise layer for agentic AI. Enterprise means governance: who can an agent call, what can it access, when should it stop? I've answered these questions for a real system. The eight-organ architecture enforces constitutional constraints — no circular dependencies, no back-edges, promotion through a formal state machine — and these rules aren't suggestions. They're automated. They block merges. They run monthly audits. That's the kind of orchestration design that makes agentic workflows safe enough for enterprise customers to deploy.
+Cohere is building the enterprise layer for agentic AI. Enterprise means governance: who can an agent call, what can it access, when should it stop? I've answered these questions for a real system. The eight-organ architecture enforces constitutional constraints — checks for missing targets, circular dependencies, and back-edges, promotion through a formal state machine — and these rules aren't suggestions. They're automated. They block merges. They run monthly audits. That's the kind of orchestration design that makes agentic workflows safe enough for enterprise customers to deploy.
 
 ## What I'd Bring
 
