@@ -13,7 +13,7 @@ import { TaskDispatcher, DispatchRequest, DispatchResult } from './dispatcher.js
 
 export interface WorkspaceHealth {
   name: string;
-  status: 'healthy' | 'drifted' | 'error';
+  status: 'healthy' | 'drifted' | 'error' | 'unknown';
   lastTestResult: boolean;
   timestamp: string;
   techStack: string[];
@@ -49,7 +49,7 @@ export class MetasystemManager {
         const analysis = await this.analyst.analyze(workspace.name, targetRoot).catch(() => null);
         
         let testSuccess = true;
-        let status: 'healthy' | 'drifted' | 'error' = 'healthy';
+        let status: WorkspaceHealth['status'] = 'healthy';
 
         if (analysis) {
             status = analysis.status;
@@ -68,7 +68,7 @@ export class MetasystemManager {
           status: status,
           lastTestResult: testSuccess,
           timestamp: new Date().toISOString(),
-          techStack: (workspace as any).tech_stack || [],
+          techStack: workspace.tech_stack || [],
           missing_modules: analysis ? analysis.missing_modules : []
         });
       } catch (error) {
@@ -78,7 +78,7 @@ export class MetasystemManager {
           status: 'error',
           lastTestResult: false,
           timestamp: new Date().toISOString(),
-          techStack: (workspace as any).tech_stack || []
+          techStack: workspace.tech_stack || []
         });
       }
     }
