@@ -42,6 +42,7 @@ python3 scripts/invoke.py --list               # list all namespaces and counts
 | `W\d-II`, `SP\d-II`, `BS\d-II`, `LC\d-II`, `BL\d-II`, `ET\d-II`, `LO\d-II` | E2G-II findings | W1-II |
 | Two-digit `\d\d` or sprint name | Sprints | 29 / AUTOMATA |
 | `IRF-XXX-NNN` | Index Rerum Faciendarum items | IRF-SYS-001 |
+| `ARCH-NNN` | Architecture document elements in SPEC-006 | ARCH-044 |
 | `FORM-[A-Z]{3}-\d+` | Formation declarations | FORM-RES-001 |
 | `INQ-YYYY-NNN` | SGO research commissions | INQ-2026-006 |
 | `SGO-YYYY-RP-NNN` | SGO research papers | SGO-2026-RP-002 |

@@ -3,12 +3,13 @@
 ```
 Document ID:      SPEC-006
 Title:            Architecture Document
-Version:          1.0
+Version:          1.1
 Status:           RATIFIED
 Layer:            L3A — Structural Architecture
 Authoritative:    System Structure
 Parent Specs:     SPEC-000 (System Manifesto), SPEC-001 (Ontology Charter), SPEC-002 (Primitive Register), SPEC-003 (Invariant Register)
 Date Ratified:    2026-03-19
+Last Amended:     2026-06-19 (IRF-RES-011 / ARCH-044 hybrid topology law)
 Grounding:        post-flood/specs/SPEC-006/grounding.md
 Risk Register:    post-flood/specs/SPEC-006/risk-register.md
 Bibliography:     post-flood/specs/bibliography.bib
@@ -153,6 +154,32 @@ The architectural consequence: optimizing for one coupling dimension may degrade
 
 **Traces to:** AX-000-008 (Multiplex Flow Governance — "the dependency graph must be acyclic, but the information graph must be recursively cyclic").
 
+### ARCH-014: Nominal and Effective Coupling
+
+The organ topology has two distinguishable forms:
+
+| Coupling Form | Definition | Primary Use |
+|---------------|------------|-------------|
+| **Nominal coupling** | The declared topology: organ assignment, registry placement, `seed.yaml` produces/consumes edges, `governance-rules.json` allowed edges, and promotion-state constraints. | Legal/governance evaluation: what the system says is permitted. |
+| **Effective coupling** | The observed topology induced by actual imports, co-change frequency, shared state, event traffic, context-sync reach, handoff frequency, operator attention, and recurring operational dependency. | Architectural diagnosis: how work actually flows. |
+
+Nominal topology is necessary for governance, but it is not sufficient evidence of architectural reality. A repo may be nominally inside one organ while effectively coupled to another through repeated handoffs, undocumented shared state, or co-change pressure. Conversely, a declared dependency may be nominally present but operationally inert.
+
+Architectural audits therefore treat nominal coupling as the legality surface and effective coupling as the diagnostic surface. When they diverge, the audit must name the divergence explicitly instead of collapsing one into the other.
+
+Common divergence classes:
+
+| Divergence | Architectural Meaning | Required Response |
+|------------|-----------------------|-------------------|
+| Nominal cross-organ hierarchy, effective reciprocal coupling | The dependency graph is hiding reciprocal interdependence. | Formalize a bidirectional signal protocol, relocate the work into one organ, or split the shared substrate behind a stable interface. |
+| Nominal intra-organ rhizome, effective hub-and-spoke | A de facto local hierarchy has emerged. | Monitor for hub overload and decide whether the hub should crystallize as infrastructure. |
+| Nominal dependency edge, no effective traffic | The contract may be stale or overdeclared. | Retire the edge or document the dormant contract's purpose. |
+| Effective cross-organ flow, no nominal edge | An epistemic membrane is being bypassed. | Declare the edge in `seed.yaml` or remove the flow. |
+
+This distinction gives the compression/search principle its measurement surface: hierarchy compresses the cross-organ search space only when effective coupling remains sparse and directional; rhizomatic intra-organ search remains healthy only when effective lateral connectivity exists rather than a nominal flatness masking a single bottleneck.
+
+**Traces to:** ARCH-013 (coupling vector), ARCH-040 (dependency legality), ARCH-041 (seed contract boundary), FORM-008 (interdependence classification).
+
 ---
 
 ## 3. Conway's Law Mapping
@@ -247,6 +274,36 @@ META-ORGANVM (Organ 0) is orthogonal to the Production Core / Control Plane / In
 
 **Contestation:** Standard layered architectures have linear dependency (layer N depends on layer N-1). ORGANVM's topology has Meta as an orthogonal constitutional layer. The architectural soundness rests on whether orthogonal authority can be enforced without creating hidden coupling.
 
+### ARCH-044: Hybrid Topology Law
+
+ORGANVM's healthy topology is hybrid, not uniformly hierarchical and not uniformly rhizomatic.
+
+**Law.** Inter-organ relations MUST remain hierarchically compressed for dependency, governance, and authority flows. Intra-organ relations SHOULD remain rhizomatically searchable for exploration, peer discovery, and local synthesis. Architectural decisions MUST distinguish nominal coupling from effective coupling before using topology as evidence.
+
+This law has three operational clauses:
+
+| Clause | Requirement | Rationale |
+|--------|-------------|-----------|
+| **Inter-organ compression** | Cross-organ dependency and governance flows must preserve declared direction, seed-contract mediation, and explicit authority paths. | Cross-organ semantic distance is high; hierarchy reduces search and coordination cost. |
+| **Intra-organ search** | Repos inside an organ may form dense lateral discovery, co-reference, and synthesis paths, provided they do not create undeclared load-bearing dependencies. | Within-organ semantic affinity is high; local search is productive and should not be overcompressed. |
+| **Effective-over-nominal diagnosis** | Architectural health claims must be based on effective coupling evidence, not declared topology alone. | A nominally legal graph can still carry hidden reciprocal coupling, stale contracts, or emergent hubs. |
+
+The hybrid topology law is a compression/search rule. Hierarchy is the compression mechanism: it makes build order, authority, and cross-organ routing tractable. Rhizomaticity is the search mechanism: it lets related work discover non-obvious local combinations without forcing every exploratory relation into a global command chain.
+
+The target is not maximum hierarchy or maximum rhizomaticity. The target is scale fit:
+
+| Scale | Default Topology | Failure Mode |
+|-------|------------------|--------------|
+| Cross-organ dependency/governance | Hierarchical, directional, contract-mediated | Hidden reciprocal coupling; cross-organ search burden; governance ambiguity |
+| Within-organ discovery/synthesis | Rhizomatic, lateral, dense-but-local | Premature hub collapse; isolated sibling repos; overdeclared internal contracts |
+| System-wide information/context | Multiplex and cyclic, with authority separated from awareness | Confusing awareness with permission; treating context visibility as dependency authority |
+
+**Enforcement.** Current automated enforcement covers the nominal dependency layer through `validate_dag_invariant()` and seed-contract audit. Effective coupling is not fully automated. Until IRF-RES-021, IRF-RES-024, IRF-RES-046, and IRF-RES-070 are implemented, audits must use explicit evidence: declared edges, import paths, co-change clusters, shared storage, event subscriptions, context-sync reach, handoff frequency, and repeated operator routing patterns.
+
+**Impact assessment.** This extension preserves all existing layer dependencies, does not change the seven-layer stack, and does not permit dependency back-edges. It constrains interpretation: the DAG is a nominal dependency law, not a universal description of all system coupling. SPEC-007 remains authoritative for signal contracts; INST-FORMATION remains authoritative for Thompson interdependence classification; SPEC-005 remains authoritative for ADICO rule handling.
+
+**Source:** IRF-RES-011 / GH#341, RP-03 SS6.1-6.4, SYN-02 SS4.2.
+
 ---
 
 ## 6. Contestation Disclosures
@@ -275,6 +332,12 @@ The three-layer constitutional topology with Meta as orthogonal zero-order subst
 
 The finding that near-decomposability operates differently across different edge types on the same vertex set — producing a coupling vector rather than a coupling scalar — is a novel analytical contribution without direct precedent. The finding emerges from applying Simon's framework to a system with AX-000-008's multiplex graph structure. It is an empirical observation about ORGANVM's architecture, not a contested theoretical claim.
 
+### 6.5 Effective Coupling Measurement
+
+**Status:** OPERATIONALIZED (risk register).
+
+Effective coupling is inferred from traces, not observed directly as a single ground-truth quantity. Imports, co-change, shared state, event traffic, handoffs, and context-sync reach are proxies. Each proxy can overstate or understate architectural dependence. Therefore ARCH-044 treats effective coupling evidence as an audit basis requiring cited observations, not as an automatic verdict. Tooling may compute coupling indices later, but governance decisions must continue to state the evidence class used.
+
 ---
 
 ## 7. Evolution Constraints
@@ -291,7 +354,7 @@ SPEC-006 may be amended through the following governed process only.
 
 ### 7.2 Permanent Identifiers
 
-ARCH identifiers (ARCH-001 through ARCH-043) are permanent. Removed items have their identifiers retired, not reassigned.
+ARCH identifiers (ARCH-001 through ARCH-044) are permanent. Removed items have their identifiers retired, not reassigned.
 
 ### 7.3 Versioning
 
@@ -309,9 +372,9 @@ The original SPEC-006 is never overwritten. Amendments are versioned: SPEC-006-v
 | AX-000-002 (Organizational Closure) | ARCH-003 — engine is itself a constitutive process specified by constitutional rules |
 | AX-000-004 (Constitutional Governance) | ARCH-001 — constitutional substrate is the foundational layer; ARCH-041 — seed contract boundary |
 | AX-000-005 (Evolutionary Recursivity) | Section 7 — the architecture document itself evolves through governed revision |
-| AX-000-006 (Topological Plasticity) | ARCH-034 — evolutionary capacity scenario; architectural debt disclosure |
+| AX-000-006 (Topological Plasticity) | ARCH-034 — evolutionary capacity scenario; architectural debt disclosure; ARCH-044 — topology may remain hybrid across governed mutations |
 | AX-000-007 (Alchemical Inheritance) | ARCH-004 — identity layer preserves lineage through hierarchy edges |
-| AX-000-008 (Multiplex Flow Governance) | ARCH-013 — multiplex near-decomposability analysis across five graph layers |
+| AX-000-008 (Multiplex Flow Governance) | ARCH-013 — multiplex near-decomposability analysis across five graph layers; ARCH-044 — coupling legality and coupling diagnosis remain layer-specific |
 | AX-000-009 (Modular Alchemical Synthesis) | ARCH-012 — repo-level near-decomposability via 58 identified modules |
 | INV-000-001 (Dependency Acyclicity) | ARCH-040 — unidirectional dependency flow constraint |
 | INV-000-002 (Governance Reachability) | ARCH-043 — META orthogonality ensures governance path to all organs |
@@ -325,9 +388,10 @@ The original SPEC-006 is never overwritten. Amendments are versioned: SPEC-006-v
 |-----------|-----------|
 | SPEC-001 (Ontology Charter) | ONT-004/005/006 (ORGAN/REPO/MODULE) are the entity types at the three near-decomposability scales |
 | SPEC-002 (Primitive Register) | Architectural layers are CompositeObjects (Section 2.2) composed of primitives |
-| SPEC-003 (Invariant Register) | ARCH-040/041/042/043 operationalize INV-000-001/002/004/005 at the architectural level |
+| SPEC-003 (Invariant Register) | ARCH-040/041/042/043 operationalize INV-000-001/002/004/005 at the architectural level; ARCH-044 separates dependency acyclicity from effective coupling diagnosis |
 | SPEC-004 (Logical Specification) | Promotion statechart operates within the engine layer (ARCH-003) |
 | SPEC-005 (Rulebook) | RULE-001 through RULE-018 enforce architectural constraints within the engine's evaluation cycle |
+| SPEC-007 (Interface Contract Spec) | ARCH-041 and ARCH-044 require cross-component coupling to pass through typed seed contracts before it becomes load-bearing |
 
 ### 8.3 Downward Traceability (to implementation)
 
@@ -341,6 +405,7 @@ The original SPEC-006 is never overwritten. Amendments are versioned: SPEC-006-v
 | Seed contract boundary (ARCH-041) | `organvm governance audit`, `seed/discover.py` | ALIGNED |
 | Layered dependency (ARCH-042) | Python import structure, `pyproject.toml` | DRIFT — not validated by tooling |
 | Constitutional orthogonality (ARCH-043) | `organ_config.py` (hardcoded) | DRIFT — AX-000-006 conflict |
+| Hybrid topology law (ARCH-044) | `governance-rules.json` `dependency_dag_scope_note`; `organ-topology.json`; seed graph; manual audits | PARTIAL — nominal dependency is enforced; effective coupling metrics are not implemented |
 
 ### 8.4 Academic Lineage
 
@@ -352,6 +417,7 @@ The original SPEC-006 is never overwritten. Amendments are versioned: SPEC-006-v
 | Conway's Law mapping | Organizational homomorphism | Conway 1968 |
 | Quality attribute scenarios | Software architecture practice | Bass, Clements & Kazman 2012 |
 | Multiplex near-decomposability | Novel (grounded in AX-000-008) | — |
+| Hybrid topology and effective coupling | Organizational interdependence, network diagnosis | Thompson 1967, Simon 1962, Conway 1968 |
 
 Full grounding narrative: `post-flood/specs/SPEC-006/grounding.md` (4,540 words)
 Full risk register: `post-flood/specs/SPEC-006/risk-register.md` (6 classified claims)
