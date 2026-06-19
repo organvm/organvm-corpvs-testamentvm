@@ -17,6 +17,7 @@ interface MetasystemManifest {
       path: string;
       genome: string;
       status: string;
+      tech_stack?: string[];
     }>;
   };
 }
@@ -32,6 +33,7 @@ interface ProjectGenome {
       title: string;
       description: string;
       effort_units: number;
+      modules?: string[];
     }>;
   };
   automation_contract: {

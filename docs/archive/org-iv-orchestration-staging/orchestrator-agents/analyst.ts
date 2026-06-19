@@ -50,8 +50,8 @@ export class OrchestratorAnalyst {
     const epics = genome.growth_objectives.roadmap_epics;
     
     for (const epic of epics) {
-      if (epic.modules) { // TypeScript might complain if we don't define this interface strictly, but for logic logic:
-        for (const modulePath of (epic as any).modules) {
+      if (epic.modules) {
+        for (const modulePath of epic.modules) {
            const fullPath = path.resolve(workspaceRoot, modulePath);
            try {
              await fs.access(fullPath);

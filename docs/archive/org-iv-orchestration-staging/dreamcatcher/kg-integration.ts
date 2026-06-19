@@ -109,13 +109,13 @@ export class KnowledgeGraphIntegration {
 
     return result.entities
       .filter((e: any) => e.type === 'decision' && e.metadata?.project !== currentProject)
-      .map((e: any) => ({
+      .map((e: any): SimilarWorkResult => ({
         project: e.metadata?.project || 'unknown',
         decision: e.metadata?.decision || e.name,
         rationale: e.metadata?.rationale || '',
         relevance_score: e.relevance_score || 0
       }))
-      .sort((a, b) => b.relevance_score - a.relevance_score)
+      .sort((a: SimilarWorkResult, b: SimilarWorkResult) => b.relevance_score - a.relevance_score)
       .slice(0, 5); // Top 5 most relevant
   }
 
