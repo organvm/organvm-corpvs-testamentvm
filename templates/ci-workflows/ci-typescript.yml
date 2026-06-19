@@ -8,6 +8,12 @@ on:
   workflow_dispatch:
 
 jobs:
+  seed-contract:
+    uses: a-organvm/organvm-corpvs-testamentvm/.github/workflows/seed-contract--check-jsonschema.yml@main
+
+  aesthetic-contract:
+    uses: a-organvm/organvm-corpvs-testamentvm/.github/workflows/aesthetic-contract--stylelint.yml@main
+
   test:
     runs-on: ubuntu-latest
     strategy:
@@ -28,13 +34,13 @@ jobs:
         id: detect
         run: |
           if [ -f "pnpm-lock.yaml" ]; then
-            echo "pm=pnpm" >> $GITHUB_OUTPUT
+            echo "pm=pnpm" >> "$GITHUB_OUTPUT"
           elif [ -f "yarn.lock" ]; then
-            echo "pm=yarn" >> $GITHUB_OUTPUT
+            echo "pm=yarn" >> "$GITHUB_OUTPUT"
           elif [ -f "package-lock.json" ] || [ -f "package.json" ]; then
-            echo "pm=npm" >> $GITHUB_OUTPUT
+            echo "pm=npm" >> "$GITHUB_OUTPUT"
           else
-            echo "pm=none" >> $GITHUB_OUTPUT
+            echo "pm=none" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Install pnpm

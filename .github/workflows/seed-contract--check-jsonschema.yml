@@ -1,0 +1,72 @@
+name: Seed Contract
+
+on:
+  workflow_call:
+    inputs:
+      seed_file:
+        description: Path to the repository seed contract.
+        required: false
+        type: string
+        default: seed.yaml
+      schema_file:
+        description: Path to a repo-local schema. Falls back to this repository's canonical schema.
+        required: false
+        type: string
+        default: schemas/seed.schema.json
+      contract_ref:
+        description: Ref used when checking out fallback contract defaults.
+        required: false
+        type: string
+        default: main
+
+permissions:
+  contents: read
+
+jobs:
+  check-jsonschema:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout caller repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          path: target
+
+      - name: Checkout contract defaults
+        continue-on-error: true
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          repository: a-organvm/organvm-corpvs-testamentvm
+          ref: ${{ inputs.contract_ref }}
+          path: contracts
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Validate seed.yaml with check-jsonschema
+        env:
+          SEED_FILE: ${{ inputs.seed_file }}
+          SCHEMA_FILE: ${{ inputs.schema_file }}
+        run: |
+          cd "$GITHUB_WORKSPACE/target"
+
+          if [ ! -f "$SEED_FILE" ]; then
+            echo "::notice::No $SEED_FILE found; skipping seed contract validation"
+            exit 0
+          fi
+
+          schema="$SCHEMA_FILE"
+          if [ ! -f "$schema" ]; then
+            schema="$GITHUB_WORKSPACE/contracts/schemas/seed.schema.json"
+          fi
+
+          if [ ! -f "$schema" ]; then
+            echo "::error::No seed schema found at $SCHEMA_FILE or fallback contracts/schemas/seed.schema.json"
+            exit 1
+          fi
+
+          python -m pip install --upgrade pip
+          python -m pip install check-jsonschema
+          check-jsonschema --schemafile "$schema" "$SEED_FILE"

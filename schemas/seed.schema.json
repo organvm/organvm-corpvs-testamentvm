@@ -1,0 +1,225 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/a-organvm/organvm-corpvs-testamentvm/main/schemas/seed.schema.json",
+  "title": "ORGANVM seed.yaml contract",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "organ",
+    "org",
+    "repo",
+    "metadata",
+    "produces",
+    "consumes"
+  ],
+  "properties": {
+    "schema_version": {
+      "description": "Seed contract major/minor version.",
+      "oneOf": [
+        {
+          "type": "string",
+          "pattern": "^1(\\.\\d+)?$"
+        },
+        {
+          "type": "number",
+          "const": 1
+        }
+      ]
+    },
+    "organ": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "organ_name": {
+      "$ref": "#/$defs/non_empty_string"
+    },
+    "repo": {
+      "$ref": "#/$defs/repo_name"
+    },
+    "org": {
+      "$ref": "#/$defs/repo_name"
+    },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "tier",
+        "promotion_status",
+        "last_validated"
+      ],
+      "properties": {
+        "implementation_status": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "status": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "type": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "tier": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "promotion_status": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "last_validated": {
+          "description": "Validation date. YAML parsers differ on unquoted date coercion, so the schema only requires presence."
+        },
+        "generated": {},
+        "sprint": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "language": {
+          "$ref": "#/$defs/non_empty_string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "agents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "trigger",
+          "workflow"
+        ],
+        "properties": {
+          "name": {
+            "$ref": "#/$defs/non_empty_string"
+          },
+          "trigger": {
+            "$ref": "#/$defs/non_empty_string"
+          },
+          "workflow": {
+            "$ref": "#/$defs/non_empty_string"
+          },
+          "description": {
+            "$ref": "#/$defs/non_empty_string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "produces": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifact_edge"
+      }
+    },
+    "consumes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/artifact_edge"
+      }
+    },
+    "subscriptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "event",
+          "source",
+          "action"
+        ],
+        "properties": {
+          "event": {
+            "$ref": "#/$defs/non_empty_string"
+          },
+          "source": {
+            "$ref": "#/$defs/non_empty_string"
+          },
+          "action": {
+            "$ref": "#/$defs/non_empty_string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "implements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "concept"
+        ],
+        "properties": {
+          "concept": {
+            "$ref": "#/$defs/non_empty_string"
+          },
+          "zettel_source": {
+            "$ref": "#/$defs/non_empty_string"
+          },
+          "aspect": {
+            "$ref": "#/$defs/non_empty_string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "breathing": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "cadence"
+        ],
+        "properties": {
+          "path": {
+            "$ref": "#/$defs/non_empty_string"
+          },
+          "cadence": {
+            "$ref": "#/$defs/non_empty_string"
+          },
+          "source": {
+            "$ref": "#/$defs/non_empty_string"
+          },
+          "reason": {
+            "$ref": "#/$defs/non_empty_string"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "non_empty_string": {
+      "type": "string",
+      "minLength": 1
+    },
+    "repo_name": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9_.-]+$"
+    },
+    "artifact_edge": {
+      "type": "object",
+      "required": [
+        "type",
+        "description"
+      ],
+      "properties": {
+        "type": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "description": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "source": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "from": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "consumers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/non_empty_string"
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

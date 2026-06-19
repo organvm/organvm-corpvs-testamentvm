@@ -11,6 +11,16 @@ permissions:
   contents: read
 
 jobs:
+  seed-contract:
+    uses: ./.github/workflows/seed-contract--check-jsonschema.yml
+
+  aesthetic-contract:
+    uses: ./.github/workflows/aesthetic-contract--stylelint.yml
+    with:
+      working_directory: portfolio-site
+      css_glob: src/styles/**/*.css
+      config_file: ../.stylelintrc.json
+
   validate:
     runs-on: ubuntu-latest
     steps:
