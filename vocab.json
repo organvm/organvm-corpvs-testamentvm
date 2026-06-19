@@ -1,0 +1,1879 @@
+{
+  "schema_version": "0.1.0",
+  "irf": "IRF-RES-006",
+  "slice": "1 of 3 — canonical name extraction",
+  "generated_by": "scripts/build-vocab.py",
+  "source": "registry-v2.json",
+  "purpose": "Controlled vocabulary registry for ORGANVM domain terms. Slice 1 extracts canonical names from the registry. Synonymy reconciliation (slice 2) and CI validation hook (slice 3) are deferred.",
+  "deferred": [
+    "synonymy-reconciliation — populate each term synonyms[] (slice 2)",
+    "ci-validation-hook — reject off-vocabulary names in CI (slice 3)"
+  ],
+  "term_count": 231,
+  "category_counts": {
+    "enum:ci_workflow": 8,
+    "enum:documentation_status": 9,
+    "enum:functional_class": 11,
+    "enum:implementation_status": 3,
+    "enum:promotion_status": 5,
+    "enum:revenue_model": 4,
+    "enum:revenue_status": 3,
+    "enum:status": 5,
+    "enum:tier": 5,
+    "enum:type": 7,
+    "organ": 10,
+    "organ_name": 10,
+    "organization": 10,
+    "repository": 141
+  },
+  "terms": [
+    {
+      "term": ".github/workflows/ci.yml",
+      "category": "enum:ci_workflow",
+      "synonyms": [],
+      "sources": [
+        "repositories[].ci_workflow"
+      ]
+    },
+    {
+      "term": "ci-minimal.yml",
+      "category": "enum:ci_workflow",
+      "synonyms": [],
+      "sources": [
+        "repositories[].ci_workflow"
+      ]
+    },
+    {
+      "term": "ci-mixed.yml",
+      "category": "enum:ci_workflow",
+      "synonyms": [],
+      "sources": [
+        "repositories[].ci_workflow"
+      ]
+    },
+    {
+      "term": "ci-pipeline.yml",
+      "category": "enum:ci_workflow",
+      "synonyms": [],
+      "sources": [
+        "repositories[].ci_workflow"
+      ]
+    },
+    {
+      "term": "ci-python.yml",
+      "category": "enum:ci_workflow",
+      "synonyms": [],
+      "sources": [
+        "repositories[].ci_workflow"
+      ]
+    },
+    {
+      "term": "ci-typescript.yml",
+      "category": "enum:ci_workflow",
+      "synonyms": [],
+      "sources": [
+        "repositories[].ci_workflow"
+      ]
+    },
+    {
+      "term": "ci.yml",
+      "category": "enum:ci_workflow",
+      "synonyms": [],
+      "sources": [
+        "repositories[].ci_workflow"
+      ]
+    },
+    {
+      "term": "python-package.yml",
+      "category": "enum:ci_workflow",
+      "synonyms": [],
+      "sources": [
+        "repositories[].ci_workflow"
+      ]
+    },
+    {
+      "term": "ACTIVE",
+      "category": "enum:documentation_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].documentation_status"
+      ]
+    },
+    {
+      "term": "ARCHIVED — REDIRECT TO metasystem-master",
+      "category": "enum:documentation_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].documentation_status"
+      ]
+    },
+    {
+      "term": "DEPLOYED",
+      "category": "enum:documentation_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].documentation_status"
+      ]
+    },
+    {
+      "term": "FLAGSHIP README DEPLOYED",
+      "category": "enum:documentation_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].documentation_status"
+      ]
+    },
+    {
+      "term": "INFRASTRUCTURE",
+      "category": "enum:documentation_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].documentation_status"
+      ]
+    },
+    {
+      "term": "IN_PROGRESS",
+      "category": "enum:documentation_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].documentation_status"
+      ]
+    },
+    {
+      "term": "MINIMAL",
+      "category": "enum:documentation_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].documentation_status"
+      ]
+    },
+    {
+      "term": "SKELETON",
+      "category": "enum:documentation_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].documentation_status"
+      ]
+    },
+    {
+      "term": "minimal",
+      "category": "enum:documentation_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].documentation_status"
+      ]
+    },
+    {
+      "term": "APPLICATION",
+      "category": "enum:functional_class",
+      "synonyms": [],
+      "sources": [
+        "repositories[].functional_class"
+      ]
+    },
+    {
+      "term": "ARCHIVE",
+      "category": "enum:functional_class",
+      "synonyms": [],
+      "sources": [
+        "repositories[].functional_class"
+      ]
+    },
+    {
+      "term": "ASSURANCE",
+      "category": "enum:functional_class",
+      "synonyms": [],
+      "sources": [
+        "repositories[].functional_class"
+      ]
+    },
+    {
+      "term": "CHARTER",
+      "category": "enum:functional_class",
+      "synonyms": [],
+      "sources": [
+        "repositories[].functional_class"
+      ]
+    },
+    {
+      "term": "CORPUS",
+      "category": "enum:functional_class",
+      "synonyms": [],
+      "sources": [
+        "repositories[].functional_class"
+      ]
+    },
+    {
+      "term": "ENGINE",
+      "category": "enum:functional_class",
+      "synonyms": [],
+      "sources": [
+        "repositories[].functional_class"
+      ]
+    },
+    {
+      "term": "EXPERIMENT",
+      "category": "enum:functional_class",
+      "synonyms": [],
+      "sources": [
+        "repositories[].functional_class"
+      ]
+    },
+    {
+      "term": "FRAMEWORK",
+      "category": "enum:functional_class",
+      "synonyms": [],
+      "sources": [
+        "repositories[].functional_class"
+      ]
+    },
+    {
+      "term": "INFRASTRUCTURE",
+      "category": "enum:functional_class",
+      "synonyms": [],
+      "sources": [
+        "repositories[].functional_class"
+      ]
+    },
+    {
+      "term": "OPERATIONS",
+      "category": "enum:functional_class",
+      "synonyms": [],
+      "sources": [
+        "repositories[].functional_class"
+      ]
+    },
+    {
+      "term": "infrastructure",
+      "category": "enum:functional_class",
+      "synonyms": [],
+      "sources": [
+        "repositories[].functional_class"
+      ]
+    },
+    {
+      "term": "ACTIVE",
+      "category": "enum:implementation_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].implementation_status"
+      ]
+    },
+    {
+      "term": "ARCHIVED",
+      "category": "enum:implementation_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].implementation_status"
+      ]
+    },
+    {
+      "term": "PROTOTYPE",
+      "category": "enum:implementation_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].implementation_status"
+      ]
+    },
+    {
+      "term": "ARCHIVED",
+      "category": "enum:promotion_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].promotion_status"
+      ]
+    },
+    {
+      "term": "CANDIDATE",
+      "category": "enum:promotion_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].promotion_status"
+      ]
+    },
+    {
+      "term": "GRADUATED",
+      "category": "enum:promotion_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].promotion_status"
+      ]
+    },
+    {
+      "term": "LOCAL",
+      "category": "enum:promotion_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].promotion_status"
+      ]
+    },
+    {
+      "term": "PUBLIC_PROCESS",
+      "category": "enum:promotion_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].promotion_status"
+      ]
+    },
+    {
+      "term": "freemium",
+      "category": "enum:revenue_model",
+      "synonyms": [],
+      "sources": [
+        "repositories[].revenue_model"
+      ]
+    },
+    {
+      "term": "none",
+      "category": "enum:revenue_model",
+      "synonyms": [],
+      "sources": [
+        "repositories[].revenue_model"
+      ]
+    },
+    {
+      "term": "one-time",
+      "category": "enum:revenue_model",
+      "synonyms": [],
+      "sources": [
+        "repositories[].revenue_model"
+      ]
+    },
+    {
+      "term": "subscription",
+      "category": "enum:revenue_model",
+      "synonyms": [],
+      "sources": [
+        "repositories[].revenue_model"
+      ]
+    },
+    {
+      "term": "live",
+      "category": "enum:revenue_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].revenue_status"
+      ]
+    },
+    {
+      "term": "n/a",
+      "category": "enum:revenue_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].revenue_status"
+      ]
+    },
+    {
+      "term": "pre-launch",
+      "category": "enum:revenue_status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].revenue_status"
+      ]
+    },
+    {
+      "term": "ACTIVE",
+      "category": "enum:status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].status"
+      ]
+    },
+    {
+      "term": "ARCHIVED",
+      "category": "enum:status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].status"
+      ]
+    },
+    {
+      "term": "DEPLOYED",
+      "category": "enum:status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].status"
+      ]
+    },
+    {
+      "term": "LOCAL",
+      "category": "enum:status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].status"
+      ]
+    },
+    {
+      "term": "active",
+      "category": "enum:status",
+      "synonyms": [],
+      "sources": [
+        "repositories[].status"
+      ]
+    },
+    {
+      "term": "archive",
+      "category": "enum:tier",
+      "synonyms": [],
+      "sources": [
+        "repositories[].tier"
+      ]
+    },
+    {
+      "term": "flagship",
+      "category": "enum:tier",
+      "synonyms": [],
+      "sources": [
+        "repositories[].tier"
+      ]
+    },
+    {
+      "term": "infrastructure",
+      "category": "enum:tier",
+      "synonyms": [],
+      "sources": [
+        "repositories[].tier"
+      ]
+    },
+    {
+      "term": "sovereign",
+      "category": "enum:tier",
+      "synonyms": [],
+      "sources": [
+        "repositories[].tier"
+      ]
+    },
+    {
+      "term": "standard",
+      "category": "enum:tier",
+      "synonyms": [],
+      "sources": [
+        "repositories[].tier"
+      ]
+    },
+    {
+      "term": "B2B",
+      "category": "enum:type",
+      "synonyms": [],
+      "sources": [
+        "repositories[].type"
+      ]
+    },
+    {
+      "term": "B2B2C",
+      "category": "enum:type",
+      "synonyms": [],
+      "sources": [
+        "repositories[].type"
+      ]
+    },
+    {
+      "term": "B2C",
+      "category": "enum:type",
+      "synonyms": [],
+      "sources": [
+        "repositories[].type"
+      ]
+    },
+    {
+      "term": "SaaS",
+      "category": "enum:type",
+      "synonyms": [],
+      "sources": [
+        "repositories[].type"
+      ]
+    },
+    {
+      "term": "client-project",
+      "category": "enum:type",
+      "synonyms": [],
+      "sources": [
+        "repositories[].type"
+      ]
+    },
+    {
+      "term": "internal",
+      "category": "enum:type",
+      "synonyms": [],
+      "sources": [
+        "repositories[].type"
+      ]
+    },
+    {
+      "term": "invitation-only",
+      "category": "enum:type",
+      "synonyms": [],
+      "sources": [
+        "repositories[].type"
+      ]
+    },
+    {
+      "term": "META-ORGANVM",
+      "category": "organ",
+      "synonyms": [],
+      "sources": [
+        "organs.<id>"
+      ]
+    },
+    {
+      "term": "ORGAN-I",
+      "category": "organ",
+      "synonyms": [],
+      "sources": [
+        "organs.<id>"
+      ]
+    },
+    {
+      "term": "ORGAN-II",
+      "category": "organ",
+      "synonyms": [],
+      "sources": [
+        "organs.<id>"
+      ]
+    },
+    {
+      "term": "ORGAN-III",
+      "category": "organ",
+      "synonyms": [],
+      "sources": [
+        "organs.<id>"
+      ]
+    },
+    {
+      "term": "ORGAN-IV",
+      "category": "organ",
+      "synonyms": [],
+      "sources": [
+        "organs.<id>"
+      ]
+    },
+    {
+      "term": "ORGAN-PSG",
+      "category": "organ",
+      "synonyms": [],
+      "sources": [
+        "organs.<id>"
+      ]
+    },
+    {
+      "term": "ORGAN-V",
+      "category": "organ",
+      "synonyms": [],
+      "sources": [
+        "organs.<id>"
+      ]
+    },
+    {
+      "term": "ORGAN-VI",
+      "category": "organ",
+      "synonyms": [],
+      "sources": [
+        "organs.<id>"
+      ]
+    },
+    {
+      "term": "ORGAN-VII",
+      "category": "organ",
+      "synonyms": [],
+      "sources": [
+        "organs.<id>"
+      ]
+    },
+    {
+      "term": "PERSONAL",
+      "category": "organ",
+      "synonyms": [],
+      "sources": [
+        "organs.<id>"
+      ]
+    },
+    {
+      "term": "Art",
+      "category": "organ_name",
+      "synonyms": [],
+      "sources": [
+        "organs.ORGAN-II.name"
+      ]
+    },
+    {
+      "term": "Commerce",
+      "category": "organ_name",
+      "synonyms": [],
+      "sources": [
+        "organs.ORGAN-III.name"
+      ]
+    },
+    {
+      "term": "Community",
+      "category": "organ_name",
+      "synonyms": [],
+      "sources": [
+        "organs.ORGAN-VI.name"
+      ]
+    },
+    {
+      "term": "Marketing",
+      "category": "organ_name",
+      "synonyms": [],
+      "sources": [
+        "organs.ORGAN-VII.name"
+      ]
+    },
+    {
+      "term": "Meta",
+      "category": "organ_name",
+      "synonyms": [],
+      "sources": [
+        "organs.META-ORGANVM.name"
+      ]
+    },
+    {
+      "term": "Orchestration",
+      "category": "organ_name",
+      "synonyms": [],
+      "sources": [
+        "organs.ORGAN-IV.name"
+      ]
+    },
+    {
+      "term": "Personal / Liminal",
+      "category": "organ_name",
+      "synonyms": [],
+      "sources": [
+        "organs.PERSONAL.name"
+      ]
+    },
+    {
+      "term": "Process Sequence Governance",
+      "category": "organ_name",
+      "synonyms": [],
+      "sources": [
+        "organs.ORGAN-PSG.name"
+      ]
+    },
+    {
+      "term": "Public Process",
+      "category": "organ_name",
+      "synonyms": [],
+      "sources": [
+        "organs.ORGAN-V.name"
+      ]
+    },
+    {
+      "term": "Theory",
+      "category": "organ_name",
+      "synonyms": [],
+      "sources": [
+        "organs.ORGAN-I.name"
+      ]
+    },
+    {
+      "term": "4444j99",
+      "category": "organization",
+      "synonyms": [],
+      "sources": [
+        "repositories[].org"
+      ]
+    },
+    {
+      "term": "local",
+      "category": "organization",
+      "synonyms": [],
+      "sources": [
+        "repositories[].org"
+      ]
+    },
+    {
+      "term": "meta-organvm",
+      "category": "organization",
+      "synonyms": [],
+      "sources": [
+        "repositories[].org"
+      ]
+    },
+    {
+      "term": "organvm-i-theoria",
+      "category": "organization",
+      "synonyms": [],
+      "sources": [
+        "repositories[].org"
+      ]
+    },
+    {
+      "term": "organvm-ii-poiesis",
+      "category": "organization",
+      "synonyms": [],
+      "sources": [
+        "repositories[].org"
+      ]
+    },
+    {
+      "term": "organvm-iii-ergon",
+      "category": "organization",
+      "synonyms": [],
+      "sources": [
+        "repositories[].org"
+      ]
+    },
+    {
+      "term": "organvm-iv-taxis",
+      "category": "organization",
+      "synonyms": [],
+      "sources": [
+        "repositories[].org"
+      ]
+    },
+    {
+      "term": "organvm-v-logos",
+      "category": "organization",
+      "synonyms": [],
+      "sources": [
+        "repositories[].org"
+      ]
+    },
+    {
+      "term": "organvm-vi-koinonia",
+      "category": "organization",
+      "synonyms": [],
+      "sources": [
+        "repositories[].org"
+      ]
+    },
+    {
+      "term": "organvm-vii-kerygma",
+      "category": "organization",
+      "synonyms": [],
+      "sources": [
+        "repositories[].org"
+      ]
+    },
+    {
+      "term": ".github",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "4-ivi374-F0Rivi4",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "_portal",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "a-i--skills",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "a-i-chat--exporter",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "a-i-council--coliseum",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "a-mavs-olevm",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "a-recursive-root",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "academic-publication",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "adaptive-personal-syllabus",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "agent--claude-smith",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "agentic-titan",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "alchemia-ingestvm",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "alchemical-synthesizer",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "analytics-engine",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "announcement-templates",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "anon-hookup-now",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "archive-past-works",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "art-from--auto-revision-epistemic-engine",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "art-from--narratological-algorithmic-lenses",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "artist-toolkit-and-templates",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "atomic-substrata",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "audio-synthesis-bridge",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "auto-revision-epistemic-engine",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "call-function--ontological",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "card-trade-social",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "case-studies-methodology",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "chthon-oneiros",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "classroom-rpg-aetheria",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "client-sdk",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "cog-init-1-0-",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "cognitive-archaelogy-tribunal",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "collective-persona-operations",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "commerce--meta",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "community-hub",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "content-engine--asset-amplifier",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "contrib--adenhq-hive",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "contrib--anthropic-skills",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "contrib--clyra-gait",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "contrib--dbt-mcp",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "contrib--indeedeng-iwf",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "contrib--ipqwery-ipapi-py",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "contrib--jairus-dagster-sdlc",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "contrib--langchain-langgraph",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "contrib--m13v-summarize-recent-commit",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "contrib--primeinc-github-stars",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "contrib--temporal-sdk-python",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "conversation-corpus-engine",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "conversation-corpus-site",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "core-engine",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "custodia-securitatis",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "cvrsvs-honorvm",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "distribution-strategy",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "docs",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "domus-genoma",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "editorial-standards",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "enterprise-plugin",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "essay-pipeline",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "example-ai-collaboration",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "example-choreographic-interface",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "example-generative-music",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "example-generative-visual",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "example-interactive-installation",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "example-theatre-dialogue",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "fetch-familiar-friends",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "gamified-coach-interface",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "hierarchia-mundi",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "hokage-chess",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "ivi374ivi027-05",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "kerygma-pipeline",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "kerygma-profiles",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "koinonia-db",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "krypto-velamen",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "learning-resources",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "life-betterment-simulation",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "life-my--midst--in",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "linguistic-atomization-framework",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "materia-collider",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "meta-source--ledger-output",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "metasystem-master",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "mirror-mirror",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "multi-camera--livestream--framework",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "my--father-mother",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "my-block-warfare",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "my-knowledge-base",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "narratological-algorithmic-lenses",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "nexus--babel-alexandria",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "orchestration-start-here",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "organon-noumenon--ontogenetic-morphe",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "organvm-corpvs-testamentvm",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "organvm-engine",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "organvm-mcp-server",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "organvm-ontologia",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "peer-audited--behavioral-blockchain",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "performance-sdk",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "petasum-super-petasum",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "portfolio",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "praxis-perpetua",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "public-process",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "public-record-data-scrapper",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "radix-recursiva-solve-coagula-redi",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "reading-group-curriculum",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "reading-observatory",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "recursive-engine--generative-entity",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "render-second-amendment",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "reverse-engine-recursive-run",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "rules-system-bound",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "salon-archive",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "scalable-lore-expert",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "scale-threshold-emergence",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "schema-definitions",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "search-local--happy-hour",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "select-or-left-or-right-or",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "sema-metra--alchemica-mundi",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "shared-remembrance-gateway",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "showcase-portfolio",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "sign-signal--voice-synth",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "social-automation",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "sovereign-ecosystem--real-estate-luxury",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "sovereign-systems--elevate-align",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "stakeholder-portal",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "studium-generale",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "styx-behavioral-art",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "styx-behavioral-commerce",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "styx-behavioral-economics-theory",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "system-dashboard",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "system-governance-framework",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "system-system--system",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "tab-bookmark-manager",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "the-actual-news",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "the-invisible-ledger",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "tool-interaction-design",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "trade-perpetual-future",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "universal-mail--automation",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "universal-node-network",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "universal-waveform-explorer",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "vigiles-aeternae--agon-cosmogonicum",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "vigiles-aeternae--corpus-mythicum",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "vigiles-aeternae--theatrum-mundi",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "virgil-training-overlay",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    },
+    {
+      "term": "your-fit-tailored",
+      "category": "repository",
+      "synonyms": [],
+      "sources": [
+        "repositories[].name"
+      ]
+    }
+  ]
+}
