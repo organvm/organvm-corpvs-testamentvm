@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-06-18T22:30:03Z",
+  "task_id": "GH-a-organvm-organvm-corpvs-testamentvm-490",
+  "source_issue": "https://github.com/a-organvm/organvm-corpvs-testamentvm/issues/490",
+  "contract": {
+    "agent": "omega-scorecard",
+    "schedule_utc": "11 21 * * *",
+    "prompt_source": "/Users/4jp/Workspace/session-meta/scheduler/routines/cloud-prompts/omega-scorecard-daily-rolling-issue.md",
+    "rolling_issue_host": "4444J99/session-meta",
+    "rolling_issue_title": "Omega scorecard \u2014 rolling"
+  },
+  "delivery_gate": {
+    "command": "gh auth status",
+    "status": "FAILED",
+    "reason": "The local GitHub CLI account 4444J99 is active but its token is invalid; the sandbox also cannot reach api.github.com for issue reads.",
+    "remote_comment_posted": false
+  },
+  "delta_gate": {
+    "prior_issue_headline": "Omega scorecard 2026-06-14 \u2014 9/20 MET",
+    "current_headline": "Omega scorecard 2026-06-18 \u2014 9/20 MET",
+    "status_delta": "NO_CHANGE",
+    "contract_action": "No rolling-issue comment warranted when all verdicts are unchanged."
+  },
+  "scorecard": {
+    "source": "data/omega/omega-status-2026-05-26.json",
+    "source_generated": "2026-05-26T14:46:26",
+    "score": 9,
+    "total": 20,
+    "status_counts": {
+      "MET": 9,
+      "IN_PROGRESS": 3,
+      "NOT_MET": 8
+    },
+    "met": [1, 3, 5, 6, 8, 13, 15, 17, 19],
+    "in_progress": [10, 12, 20],
+    "not_met": [2, 4, 7, 9, 11, 14, 16, 18]
+  },
+  "live_soak": {
+    "latest_source": "data/soak-test/daily-2026-06-18.json",
+    "report_source": "data/soak-test/report.md",
+    "latest_date": "2026-06-18",
+    "latest_collected_at": "2026-06-18T11:45:06.493028+00:00",
+    "archive": {
+      "snapshots": 122,
+      "first_date": "2026-02-16",
+      "last_date": "2026-06-18",
+      "gaps": [
+        {
+          "after": "2026-05-25",
+          "before": "2026-05-27",
+          "missing_days": 1
+        }
+      ]
+    },
+    "latest_30_available_snapshots": {
+      "first_date": "2026-05-19",
+      "last_date": "2026-06-18",
+      "snapshots": 30,
+      "clean_validation": 30
+    },
+    "latest_validation": {
+      "registry_pass": true,
+      "registry_issues": 0,
+      "dependency_pass": true,
+      "dependency_violations": 0,
+      "stale_repos": 0
+    },
+    "latest_ci": {
+      "total_checked": 60,
+      "passing": 0,
+      "failing": 0,
+      "unknown": 49,
+      "billing_locked": 11
+    },
+    "latest_engagement": {
+      "total_stars": 0,
+      "total_forks": 0
+    }
+  },
+  "system_metrics": {
+    "source": "system-metrics.json",
+    "generated": "2026-06-18T10:15:41.432431+00:00",
+    "total_repos": 149,
+    "active_repos": 93,
+    "archived_repos": 54,
+    "prototype_repos": 2,
+    "total_organs": 10,
+    "operational_organs": 10,
+    "ci_workflows": 107,
+    "dependency_edges": 62,
+    "sprints_completed": 33,
+    "published_essays": 29
+  },
+  "notes": [
+    "This artifact records the local completion state for issue #490 because remote issue reads/writes are unavailable in this sandbox.",
+    "The pinned scorecard remains 9/20 MET; live soak freshness advanced from the issue context date 2026-06-14 to 2026-06-18.",
+    "The source contract remains read-only for corpvs and writes only to the session-meta rolling issue when the GitHub gate succeeds and verdicts change."
+  ]
+}
