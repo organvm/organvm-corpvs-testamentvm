@@ -1,6 +1,6 @@
 ---
 name: atom-logger
-description: Append a structured work-atom record to `data/atoms/atomized-tasks.jsonl`. Use after completing a unit of work to log it for future sessions and metrics. One atom = one self-contained work unit (a file created, a spec written, an IRF entry closed). Requires the IRF ID, session ID, title, kind, and tags.
+description: Append structured work atom records for completed, modified, discovered, or deferred work. Use after a meaningful unit of work needs IRF-anchored session logging.
 ---
 
 # atom-logger

@@ -1,6 +1,6 @@
 ---
 name: vacuum-radar
-description: Real-time VACUUM and N/A detection across the IRF and repo state. Scans `INST-INDEX-RERUM-FACIENDARUM.md` for entries containing the marker "VACUUM", entries whose final column is literally "None" (no closure tag), and high-priority P1 items still open. Use before declaring a session complete; use mid-session to confirm new work is not surfacing new vacuums.
+description: Detect open VACUUM, P1, and unclosed IRF entries across the repo state. Use before session closeout, after registry changes, or when checking for missing work.
 ---
 
 # vacuum-radar

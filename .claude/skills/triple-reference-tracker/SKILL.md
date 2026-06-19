@@ -1,6 +1,6 @@
 ---
 name: triple-reference-tracker
-description: Enforce the IRF + repo + GH-issue triple reference for any work atom. Given one or more IRF IDs, verifies that the IRF entry exists, that the repo reference is present, and that a GitHub issue reference (e.g. `GH#353` or `#353`) is in the row. Fails closed — use before starting work on any item to ensure the audit trail is in place.
+description: Enforce IRF, repository, and GitHub issue references for work atoms. Use before starting or closing tracked work to verify the audit trail is complete.
 ---
 
 # triple-reference-tracker
