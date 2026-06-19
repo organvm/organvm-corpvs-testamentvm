@@ -1,10 +1,10 @@
 {
-  "next_id": 623,
-  "last_claimed_by": "S-2026-06-18-irf-p0-surface-gh489",
-  "last_claimed_at": "2026-06-18",
+  "next_id": 624,
+  "last_claimed_by": "S-2026-06-19-irf-res-011-hybrid-topology-law",
+  "last_claimed_at": "2026-06-19",
   "claimed_range": [
-    622,
-    622
+    623,
+    623
   ],
-  "note": "S-2026-06-18-irf-p0-surface-gh489 claims DONE-622 for IRF-OPS-021 stale P0 closure. Counter was stale at next_id=620 while IRF body already rendered DONE-620 and DONE-621; true max at claim time = 621. New ceiling = 623."
+  "note": "S-2026-06-19-irf-res-011-hybrid-topology-law claims DONE-623 for IRF-RES-011 (GH#341) hybrid topology law codification (docs/standards/27-hybrid-topology-law.md). New ceiling = 624."
 }
