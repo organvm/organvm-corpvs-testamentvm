@@ -12,7 +12,7 @@
     "generate-data": "python3 ../scripts/praxis-portfolio-generate.py --output-dir src/data && cp ../system-metrics.json src/data/"
   },
   "dependencies": {
-    "astro": "^6.1.10",
+    "astro": "^6.4.6",
     "@astrojs/sitemap": "^3.0.0"
   },
   "overrides": {
