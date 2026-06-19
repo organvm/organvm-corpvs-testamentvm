@@ -1,6 +1,6 @@
 ---
 name: session-orchestrator
-description: Master sequencer for the Phase 0→3 chain. Reads the active handoff envelope at `.conductor/active-handoff.md`, identifies the originating session's declared phase, and surfaces the next unblocked action. Use at session start to orient before doing any work; use again whenever you complete an action and need to know what's next.
+description: Sequence the Phase 0 to 3 session chain from the active handoff envelope. Use at session start, after completing an action, or when choosing the next unblocked step.
 ---
 
 # session-orchestrator
