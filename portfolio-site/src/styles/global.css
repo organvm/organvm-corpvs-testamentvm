@@ -35,8 +35,8 @@
   --space-xl: 4rem;
 
   /* Layout */
-  --max-width: 72rem;
-  --content-width: 48rem;
+  --max-width-page: 72rem;
+  --content-width-page: 48rem;
 }
 
 /* Reset */
@@ -86,13 +86,13 @@ code {
 
 /* Layout utilities */
 .container {
-  max-width: var(--max-width);
+  max-width: var(--max-width-page);
   margin: 0 auto;
   padding: 0 var(--space-lg);
 }
 
 .content {
-  max-width: var(--content-width);
+  max-width: var(--content-width-page);
 }
 
 /* Metric cards */
