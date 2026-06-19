@@ -2404,6 +2404,86 @@
 - [2026-04-14] claude --chrome --dangerously-skip-permissions
 - ... and 40 more
 
+### 2026-04-16--why-is-python-causeing-so-much
+**Captured:** 2026-04-16T12:15:04 | **Prompts:** 5
+**Archive:** `data/prompt-registry/sessions/2026-04-16--why-is-python-causeing-so-much-prompts.md`
+
+
+### 2026-04-16--vast-exploring-dijkstra
+**Captured:** 2026-04-16T15:16:08 | **Prompts:** 29
+**Archive:** `data/prompt-registry/sessions/2026-04-16--vast-exploring-dijkstra-prompts.md`
+
+
+### 2026-04-16--noble-beaming-allen
+**Captured:** 2026-04-16T21:29:09 | **Prompts:** 38
+**Archive:** `data/prompt-registry/sessions/2026-04-16--noble-beaming-allen-prompts.md`
+
+
+### 2026-04-16--local-command-caveatcaveat-the-messages-below-were-generated
+**Captured:** 2026-04-16T22:05:08 | **Prompts:** 16
+**Archive:** `data/prompt-registry/sessions/2026-04-16--local-command-caveatcaveat-the-messages-below-were-generated-prompts.md`
+
+
+### 2026-04-16--shiny-moseying-wren
+**Captured:** 2026-04-16T22:47:08 | **Prompts:** 14
+**Archive:** `data/prompt-registry/sessions/2026-04-16--shiny-moseying-wren-prompts.md`
+
+
+### 2026-04-17--eager-baking-steele
+**Captured:** 2026-04-17T12:41:22 | **Prompts:** 10
+**Archive:** `data/prompt-registry/sessions/2026-04-17--eager-baking-steele-prompts.md`
+
+
+### 2026-04-17--scalable-baking-pizza
+**Captured:** 2026-04-17T20:00:25 | **Prompts:** 5
+**Archive:** `data/prompt-registry/sessions/2026-04-17--scalable-baking-pizza-prompts.md`
+
+
+### 2026-04-18--starry-foraging-wigderson
+**Captured:** 2026-04-18T12:23:13 | **Prompts:** 84
+**Archive:** `data/prompt-registry/sessions/2026-04-18--starry-foraging-wigderson-prompts.md`
+
+
+### 2026-04-18--breezy-soaring-anchor
+**Captured:** 2026-04-18T13:16:34 | **Prompts:** 1
+**Archive:** `data/prompt-registry/sessions/2026-04-18--breezy-soaring-anchor-prompts.md`
+
+
+### 2026-04-18--velvet-bouncing-seal
+**Captured:** 2026-04-18T13:55:06 | **Prompts:** 35
+**Archive:** `data/prompt-registry/sessions/2026-04-18--velvet-bouncing-seal-prompts.md`
+
+
+### 2026-04-20--twinkling-coalescing-popcorn
+**Captured:** 2026-04-20T14:55:26 | **Prompts:** 60
+**Archive:** `data/prompt-registry/sessions/2026-04-20--twinkling-coalescing-popcorn-prompts.md`
+
+
+### 2026-04-20--swift-munching-gadget
+**Captured:** 2026-04-20T16:48:01 | **Prompts:** 37
+**Archive:** `data/prompt-registry/sessions/2026-04-20--swift-munching-gadget-prompts.md`
+
+
+### 2026-04-21--resilient-drifting-lighthouse
+**Captured:** 2026-04-21T13:36:53 | **Prompts:** 114
+**Archive:** `data/prompt-registry/sessions/2026-04-21--resilient-drifting-lighthouse-prompts.md`
+
+
+### 2026-04-21--fluttering-gliding-liskov
+**Captured:** 2026-04-21T15:14:38 | **Prompts:** 49
+**Archive:** `data/prompt-registry/sessions/2026-04-21--fluttering-gliding-liskov-prompts.md`
+
+
+### 2026-04-21--quirky-dreaming-snail
+**Captured:** 2026-04-21T20:55:13 | **Prompts:** 60
+**Archive:** `data/prompt-registry/sessions/2026-04-21--quirky-dreaming-snail-prompts.md`
+
+
+### 2026-04-21--noble-toasting-ladybug
+**Captured:** 2026-04-21T23:07:45 | **Prompts:** 11
+**Archive:** `data/prompt-registry/sessions/2026-04-21--noble-toasting-ladybug-prompts.md`
+
+
 ### 2026-04-22--fluttering-singing-nova
 **Captured:** 2026-04-22T18:45:52 | **Prompts:** 1
 **Archive:** `data/prompt-registry/sessions/2026-04-22--fluttering-singing-nova-prompts.md`
@@ -3790,4 +3870,3 @@
 
 ### a5196bf8-e6d6-42b3-943a-d87eb26ae321
 **Captured:** 2026-06-07T16:36:37 | **Prompts:** uncounted | **Effort:** default (no prompts.md available)
-
