@@ -1,0 +1,62 @@
+id: MILESTONE-2026-004
+date: "2026-04-13"
+title: "Governance Document Structural Error — Discovered, Corrected, and Witnessed"
+description: >
+  The CLAUDE.md dependency-tree diagram for the post-flood constitutional source
+  corpus was discovered to be structurally wrong for 10 of 18 transcripts. Session
+  S-Zettelkasten's triad-hardening pass (Questioner/Critic/Expander) empirically
+  disproved the diagram's TDR subtree: it depicted depth-2 TDR branches as children
+  of an unnamed first branch, but line-count analysis showed `phase-shift-relays`
+  (1,149 lines) is far too short to parent files whose branch points begin at line
+  2,438+ — `workflow-philosophy-structural-interrogation` (3,361 lines) is the true
+  parent. Separately, the CAS forensics subtree's real parent is `github-registry`
+  (conversation ID 69b26bc2), not topology. This is a governance-architecture event:
+  the system's own canonical documentation misrepresented the structure it governs.
+  The error was remediated in the zettelkasten conversion of the constitutional
+  source corpus (Phase 3 of the 2026-04-13 conversion plan). This milestone WITNESSES
+  that event in the testament layer, closing the "testament unwitnessed" vacuum
+  (IRF-SYS-110 / GH#321).
+event_type: architecture.changed
+entity_uid: post-flood-constitutional-source-corpus
+witness_status: witnessed_in_testament_artifacts
+artifacts:
+  - type: tree_correction
+    path: post-flood/CLAUDE.md
+    note: lines 174-197 — TDR subtree re-parented; CAS forensics re-parented to github-registry
+  - type: conversion_commit
+    path: meta-organvm/organvm-corpvs-testamentvm
+    commit: c7e7e63
+    note: "feat: zettelkasten conversion of constitutional source corpus (30 files)"
+  - type: conversion_commit
+    path: meta-organvm/organvm-corpvs-testamentvm
+    commit: 456d364
+    note: "feat: fortify zettelkasten with concepts, cross-links, and validator"
+  - type: concordance_registration
+    path: meta-organvm/organvm-corpvs-testamentvm
+    commit: 9eee0b3
+    note: "docs: register TRX- zettelkasten prefix + GH# refs for IRF-SYS-107..112"
+  - type: conversion_plan
+    path: post-flood/.claude/plans/2026-04-13-zettelkasten-conversion.md
+  - type: irf_tracking
+    path: meta-organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md
+witnesses:
+  - IRF-SYS-107
+  - IRF-SYS-110
+  - GH#318
+  - GH#321
+session: S-Zettelkasten
+omega_criteria_advanced: [6, 13]
+omega_criteria_advanced_notes:
+  - "6: Documentation System — canonical governance documentation corrected to truthfully represent corpus structure."
+  - "13: Living self-consistency — the system detected and repaired an error in its own governing document; this milestone is the witness of that self-correction. Formal omega-evidence-map entry tracked separately under IRF-SYS-109 / GH#320."
+canonical_emission_pending:
+  store: data/fossil/fossil-record.jsonl
+  event_type: architecture.changed
+  reason: >
+    The fossil-record `architecture.changed` substream is a sha256 hash-chain
+    (current tail: sequence 1, hash sha256:2e8d44b7a3898ee...). Emitting a chain-valid
+    event requires the canonical serializer in `organvm testament emit`, which was not
+    runnable in the autonomous sandbox where this witness was authored. Run
+    `organvm testament emit` to append the chained fossil event (prev_hash =
+    sha256:2e8d44b7a3898ee400b55a463e6967960419ede0547bb34a7b16627fc09ff28c), mirroring
+    the IRF-SYS-093 precedent.
