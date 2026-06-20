@@ -98,7 +98,7 @@ def generate_template_config(organ_key: str, organ: dict, shared: dict, prefix: 
 
     lines = [
         f"# Template Configuration for {display_name}",
-        f"# Generated from organvm.config.json — do not edit manually",
+        "# Generated from organvm.config.json — do not edit manually",
         f"# Re-generate with: python scripts/generate-github-configs.py --organ {organ_key}",
         "",
         "# Organization Settings",
@@ -133,7 +133,7 @@ def generate_template_config(organ_key: str, organ: dict, shared: dict, prefix: 
         "# Product/Application Settings",
         "product:",
         f"  name: '{display_name}'",
-        f"  api_endpoint: ''",
+        "  api_endpoint: ''",
         "",
         "# Default Tool Versions",
         "defaults:",
@@ -156,7 +156,7 @@ def generate_template_config(organ_key: str, organ: dict, shared: dict, prefix: 
         f"  automated_releases: {'true' if features.get('automated_releases') else 'false'}",
         f"  demo_sandbox: {'true' if features.get('demo_sandbox') else 'false'}",
         f"  documentation_site: {'true' if features.get('documentation_site') else 'false'}",
-        f"  slack_notifications: false",
+        "  slack_notifications: false",
         f"  ml_workflows: {'true' if features.get('ml_workflows') else 'false'}",
         "",
         "# Cross-Org References (resolved from shared.cross_refs)",
@@ -350,7 +350,7 @@ def main():
             meta_generated = True
 
     if not args.dry_run:
-        total = len(targets) + profile_count
+        len(targets) + profile_count
         meta_note = " (includes meta-org)" if meta_generated else ""
         print(f"\nGenerated {len(targets)} config(s) + {profile_count} profile README(s){meta_note} in {args.output_dir}/")
         print("Next: copy each config to the target .github repo as .config/template-config.yml")

@@ -251,7 +251,7 @@ def main():
     orphan_plans = len(plan_atoms) - len(linked_plan_ids)
 
     print(f"\n{'=' * 60}")
-    print(f"UNIFIED ATOM INDEX RESULTS")
+    print("UNIFIED ATOM INDEX RESULTS")
     print(f"{'=' * 60}")
     print(f"Total unified atoms: {len(all_atoms)}")
     print(f"  Plan atoms: {len(plan_atoms)}")
@@ -268,13 +268,13 @@ def main():
     if lineage:
         avg_sim = sum(l["similarity"] for l in lineage) / len(lineage)
         lags = [l["lag_days"] for l in lineage if l["lag_days"] is not None]
-        print(f"\nLineage stats:")
+        print("\nLineage stats:")
         print(f"  Average similarity: {avg_sim:.3f}")
         if lags:
             print(f"  Average prompt→plan lag: {sum(lags)/len(lags):.1f} days")
             print(f"  Lag range: {min(lags)} to {max(lags)} days")
 
-    print(f"\nOutput files:")
+    print("\nOutput files:")
     print(f"  Unified: {UNIFIED_OUTPUT} ({UNIFIED_OUTPUT.stat().st_size / 1024 / 1024:.1f} MB)")
     print(f"  Lineage: {LINEAGE_OUTPUT} ({LINEAGE_OUTPUT.stat().st_size / 1024:.0f} KB)")
 

@@ -15,12 +15,10 @@ import json
 import os
 import subprocess
 import sys
-from datetime import datetime, timezone
 from pathlib import Path
 
 from organvm_engine.metrics.calculator import (
     compute_metrics,
-    count_words,
     format_word_count,
     write_metrics,
 )

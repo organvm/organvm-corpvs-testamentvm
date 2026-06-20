@@ -203,13 +203,13 @@ def main():
     registry["launch_metrics"]["implementation_status_distribution"] = status_counts
 
     if dry_run:
-        print(f"[DRY RUN] Would update registry:")
-        print(f"  Schema: v0.3")
+        print("[DRY RUN] Would update registry:")
+        print("  Schema: v0.3")
         print(f"  Repos updated: {updated_count}")
         print(f"  Platinum repos: {platinum_count}")
         print(f"  CI workflows: {ci_count}")
         print(f"  Implementation status distribution: {status_counts}")
-        print(f"\nRe-run with --write to apply changes.")
+        print("\nRe-run with --write to apply changes.")
         return
 
     # Guard: refuse to write suspiciously small registry
@@ -231,8 +231,8 @@ def main():
     with open(REGISTRY_PATH, "w") as f:
         json.dump(registry, f, indent=2, ensure_ascii=False)
 
-    print(f"Registry updated:")
-    print(f"  Schema: v0.3")
+    print("Registry updated:")
+    print("  Schema: v0.3")
     print(f"  Repos updated: {updated_count}")
     print(f"  Platinum repos: {platinum_count}")
     print(f"  CI workflows: {ci_count}")

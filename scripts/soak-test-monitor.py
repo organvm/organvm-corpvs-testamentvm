@@ -424,7 +424,7 @@ def cmd_collect(args):
 def cmd_report(args):
     """Generate summary report from collected daily snapshots."""
     print(f"{'=' * 60}")
-    print(f"Soak Test Monitor — Report")
+    print("Soak Test Monitor — Report")
     print(f"{'=' * 60}")
 
     snapshots = sorted(DATA_DIR.glob("daily-*.json"))
@@ -478,20 +478,20 @@ def cmd_report(args):
 
     # Build report markdown
     report_lines = [
-        f"# 30-Day Soak Test Report",
-        f"",
+        "# 30-Day Soak Test Report",
+        "",
         f"**Period:** {data[0]['date']} to {data[-1]['date']}",
         f"**Snapshots:** {len(data)}",
         f"**Generated:** {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}",
-        f"",
-        f"---",
-        f"",
-        f"## Validation Integrity",
-        f"",
+        "",
+        "---",
+        "",
+        "## Validation Integrity",
+        "",
         f"- Days with clean validation: **{validation_passes}/{len(data)}**",
         f"- Registry integrity issues: {sum(len(d['validation']['registry_issues']) for d in data)} total across period",
         f"- Dependency violations: {sum(d['validation']['dependency_violations'] for d in data)} total across period",
-        f"",
+        "",
     ]
 
     # List any validation issues
@@ -509,13 +509,13 @@ def cmd_report(args):
                           / len(ci_days)) if ci_days else 0
 
     report_lines.extend([
-        f"## CI Stability",
-        f"",
+        "## CI Stability",
+        "",
         f"- Average passing: **{avg_passing:.1f}** per day",
         f"- Average failing: **{avg_failing:.1f}** per day",
         f"- Average billing-locked: **{avg_billing_locked:.1f}** per day",
         f"- Days with CI data: {len(ci_days)}",
-        f"",
+        "",
     ])
 
     if chronic_failures:
@@ -526,13 +526,13 @@ def cmd_report(args):
         report_lines.append("")
 
     report_lines.extend([
-        f"## Engagement Trends",
-        f"",
-        f"| Metric | Start | End | Delta |",
-        f"|--------|-------|-----|-------|",
+        "## Engagement Trends",
+        "",
+        "| Metric | Start | End | Delta |",
+        "|--------|-------|-----|-------|",
         f"| Stars | {first_stars} | {last_stars} | {last_stars - first_stars:+d} |",
         f"| Forks | {first_forks} | {last_forks} | {last_forks - first_forks:+d} |",
-        f"",
+        "",
     ])
 
     # Per-repo engagement if available
@@ -551,8 +551,8 @@ def cmd_report(args):
 
     # Verdict
     report_lines.extend([
-        f"## Verdict",
-        f"",
+        "## Verdict",
+        "",
     ])
     if validation_passes == len(data) and avg_failing < 3:
         report_lines.append("**PASS** — System ran stably for the observed period.")

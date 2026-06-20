@@ -18,7 +18,6 @@ Usage:
 import argparse
 import json
 import subprocess
-import sys
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -328,7 +327,7 @@ def main():
                                 print(f"  {k}: {v}")
                         else:
                             print(f"  {key}: {val}")
-            print(f"  OK")
+            print("  OK")
         except Exception as e:
             print(f"  ERROR: {e}")
 

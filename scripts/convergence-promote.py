@@ -10,7 +10,6 @@ import subprocess
 import base64
 import time
 import sys
-import os
 from pathlib import Path
 
 # ISOTOPE DISSOLUTION: Gate memory--remember G2 (CORPUS_SCRIPTS_DISSOLVED)
@@ -140,7 +139,7 @@ def generate_typescript_skeleton(repo):
         "package.json": json.dumps({
             "name": repo,
             "version": "0.1.0",
-            "description": f"Part of the organvm eight-organ creative-institutional system",
+            "description": "Part of the organvm eight-organ creative-institutional system",
             "main": "dist/index.js",
             "types": "dist/index.d.ts",
             "scripts": {

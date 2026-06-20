@@ -11,7 +11,6 @@ import subprocess
 import base64
 import time
 import sys
-import os
 from pathlib import Path
 
 PROVENANCE_PATH = Path(__file__).parent.parent / "provenance-registry.json"
@@ -197,7 +196,7 @@ def main():
         if not args.dry_run:
             # Check if repo is archived
             if is_repo_archived(org, repo):
-                print(f"  SKIP: repo is archived on GitHub")
+                print("  SKIP: repo is archived on GitHub")
                 total_skipped += len(files)
                 continue
 

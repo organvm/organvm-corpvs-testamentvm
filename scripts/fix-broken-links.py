@@ -10,7 +10,6 @@ For each affected README:
 import subprocess
 import base64
 import json
-import sys
 
 FIXES = [
     {
@@ -136,13 +135,13 @@ def main():
             msg = "fix: resolve broken cross-references in README [Phase 2 micro-validation]"
             ok, push_err = push_readme(org, repo, path, content, sha, msg)
             if ok:
-                print(f"  PUSHED successfully")
+                print("  PUSHED successfully")
                 fixed += 1
             else:
                 print(f"  ERROR pushing: {push_err}")
                 errors.append(f"{org}/{repo}: Push failed: {push_err}")
         else:
-            print(f"  No changes needed")
+            print("  No changes needed")
 
     print(f"\n{'=' * 80}")
     print(f"SUMMARY: {fixed} READMEs updated, {len(errors)} errors")

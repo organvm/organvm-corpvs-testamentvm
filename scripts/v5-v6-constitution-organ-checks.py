@@ -22,7 +22,6 @@ import json
 import subprocess
 import base64
 import os
-import sys
 
 REGISTRY_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "repo-registry.json")
 
@@ -160,14 +159,14 @@ def main():
         for name in empty_descriptions:
             print(f"    {name}")
     else:
-        print(f"  PASS: All repos have descriptions")
+        print("  PASS: All repos have descriptions")
 
     if missing_last_validated:
         print(f"  ISSUE: {len(missing_last_validated)} missing last_validated:")
         for name in missing_last_validated:
             print(f"    {name}")
     else:
-        print(f"  PASS: All repos have last_validated dates")
+        print("  PASS: All repos have last_validated dates")
 
     gate1_pass = len(missing_fields) == 0 and len(empty_descriptions) == 0
 

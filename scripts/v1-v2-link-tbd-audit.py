@@ -178,16 +178,16 @@ def main():
     registry = load_registry()
     repos = get_deployed_repos(registry)
 
-    print(f"=" * 80)
-    print(f"PHASE 2 MICRO-VALIDATION: V1 Link Audit + V2 TBD Scan")
-    print(f"=" * 80)
+    print("=" * 80)
+    print("PHASE 2 MICRO-VALIDATION: V1 Link Audit + V2 TBD Scan")
+    print("=" * 80)
     print(f"\nFound {len(repos)} repos to check in registry")
 
     # ── Fetch all READMEs ──────────────────────────────────────────────
     readmes = {}  # (org, repo) -> content
     fetch_errors = []
 
-    print(f"\n── Fetching READMEs ──")
+    print("\n── Fetching READMEs ──")
     for i, (org, repo) in enumerate(repos):
         sys.stdout.write(f"\r  [{i+1}/{len(repos)}] {org}/{repo}...")
         sys.stdout.flush()
@@ -214,13 +214,13 @@ def main():
     print(f"\n  Fetched {len(readmes)} READMEs, {len(fetch_errors)} errors")
 
     if fetch_errors:
-        print(f"\n  FETCH ERRORS:")
+        print("\n  FETCH ERRORS:")
         for org, repo, err in fetch_errors:
             print(f"    - {org}/{repo}: {err}")
 
     # ── V2: TBD/Placeholder Scan ──────────────────────────────────────
     print(f"\n{'=' * 80}")
-    print(f"V2: TBD/PLACEHOLDER MARKER SCAN")
+    print("V2: TBD/PLACEHOLDER MARKER SCAN")
     print(f"{'=' * 80}")
 
     tbd_findings = []
@@ -251,7 +251,7 @@ def main():
 
     # ── V1: Link Extraction ────────────────────────────────────────────
     print(f"\n{'=' * 80}")
-    print(f"V1: CROSS-ORG LINK AUDIT")
+    print("V1: CROSS-ORG LINK AUDIT")
     print(f"{'=' * 80}")
 
     all_links = []  # List of {org, repo, text, url, classification}
@@ -280,7 +280,7 @@ def main():
         print(f"    {cls}: {len(links)}")
 
     # ── V1: Validate system GitHub links ────────────────────────────
-    print(f"\n── Validating system GitHub links ──")
+    print("\n── Validating system GitHub links ──")
 
     system_links = by_class.get('system-github', [])
     # Deduplicate by URL
@@ -316,12 +316,12 @@ def main():
     print(f"\n  System GitHub links: {len(github_ok)} OK, {len(github_broken)} broken")
 
     if github_broken:
-        print(f"\n  BROKEN SYSTEM LINKS:")
+        print("\n  BROKEN SYSTEM LINKS:")
         for link in github_broken:
             print(f"    [{link['org']}/{link['repo']}] [{link['text']}]({link['url']})")
 
     # ── V1: Validate external links (sample) ────────────────────────
-    print(f"\n── Validating external links (sampling) ──")
+    print("\n── Validating external links (sampling) ──")
 
     external_links = by_class.get('external', [])
     external_github = by_class.get('external-github', [])
@@ -364,7 +364,7 @@ def main():
     print(f"\n  External links: {ext_ok} OK, {len(ext_broken)} broken, {ext_unknown} timeout/unknown")
 
     if ext_broken:
-        print(f"\n  BROKEN EXTERNAL LINKS:")
+        print("\n  BROKEN EXTERNAL LINKS:")
         for link in ext_broken:
             print(f"    [{link['org']}/{link['repo']}] [{link['text']}]({link['url']})")
 
@@ -374,16 +374,16 @@ def main():
 
     # ── Summary ──────────────────────────────────────────────────────
     print(f"\n{'=' * 80}")
-    print(f"SUMMARY")
+    print("SUMMARY")
     print(f"{'=' * 80}")
     print(f"\n  READMEs fetched: {len(readmes)}/{len(repos)}")
     print(f"  Fetch errors: {len(fetch_errors)}")
-    print(f"\n  V1 Link Audit:")
+    print("\n  V1 Link Audit:")
     print(f"    Total links: {len(all_links)}")
     print(f"    System GitHub links: {len(github_ok)} OK, {len(github_broken)} broken")
     print(f"    External links: {ext_ok} OK, {len(ext_broken)} broken, {ext_unknown} unknown")
     print(f"    Relative links: {len(relative_links)} (not validated)")
-    print(f"\n  V2 TBD Scan:")
+    print("\n  V2 TBD Scan:")
     print(f"    TBD markers found: {len(tbd_findings)}")
 
     v1_pass = len(github_broken) == 0 and len(ext_broken) == 0

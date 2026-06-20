@@ -175,7 +175,8 @@ def generate_pulse(metrics, registry, snapshots, commits, skip_api=False):
     engagement_lines = []
     delta = fetch_engagement_delta(snapshots)
     if delta:
-        sign = lambda n: f"+{n}" if n > 0 else str(n)
+        def sign(n):
+            return f"+{n}" if n > 0 else str(n)
         engagement_lines.append(f"- Stars: {delta['stars_current']} ({sign(delta['stars_delta'])} this period)")
         engagement_lines.append(f"- Forks: {delta['forks_current']} ({sign(delta['forks_delta'])} this period)")
         engagement_lines.append(f"- Period: {delta['period_days']} days of data")

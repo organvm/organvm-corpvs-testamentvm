@@ -10,7 +10,6 @@ Re-validates the dependency graph from repo-registry.json:
 
 import json
 import os
-import sys
 from collections import defaultdict
 
 REGISTRY_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "repo-registry.json")

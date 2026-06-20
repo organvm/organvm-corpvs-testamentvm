@@ -123,7 +123,7 @@ def main():
     if ci_fail > 0:
         print(f"  FAIL ({ci_fail} missing)")
     else:
-        print(f"  PASS")
+        print("  PASS")
 
     # =========================================================
     # CHECK 3: CHANGELOG.md on GitHub (ALL platinum repos)
@@ -149,7 +149,7 @@ def main():
     if cl_fail > 0:
         print(f"  FAIL ({cl_fail} missing)")
     else:
-        print(f"  PASS")
+        print("  PASS")
 
     # =========================================================
     # CHECK 4: Badge rows in README (ALL platinum repos)
@@ -175,7 +175,7 @@ def main():
     if badge_fail > 0:
         print(f"  WARNING ({badge_fail} missing)")
     else:
-        print(f"  PASS")
+        print("  PASS")
 
     # =========================================================
     # CHECK 5: ADRs on GitHub (ALL platinum repos)
@@ -201,7 +201,7 @@ def main():
     if adr_fail > 0:
         print(f"  FAIL ({adr_fail} missing)")
     else:
-        print(f"  PASS")
+        print("  PASS")
 
     # =========================================================
     # CHECK 6: ORGAN-V essays (10 expected)
@@ -221,7 +221,7 @@ def main():
         for e in sorted(essays, key=lambda x: x["name"]):
             print(f"    {e['name']} ({e['size']:,} bytes)")
     if essay_count >= 10:
-        print(f"  PASS")
+        print("  PASS")
         checks_passed += 1
     else:
         print(f"  FAIL (expected 10, found {essay_count})")
@@ -263,10 +263,10 @@ def main():
     print(f"  Total dependency edges: {dep_edges}")
     print(f"  Violations: {dep_violations}")
     if dep_violations == 0:
-        print(f"  PASS")
+        print("  PASS")
         checks_passed += 1
     else:
-        print(f"  FAIL")
+        print("  FAIL")
 
     # =========================================================
     # CHECK 8: Implementation status distribution
@@ -285,7 +285,7 @@ def main():
     print(f"  DESIGN_ONLY: {status_dist['DESIGN_ONLY']}")
     print(f"  Total:       {total_categorized}")
     checks_passed += 1
-    print(f"  PASS")
+    print("  PASS")
 
     # =========================================================
     # CHECK 9: Non-platinum repos have schema fields too
@@ -304,9 +304,9 @@ def main():
     print(f"  Non-platinum repos checked: {len(non_plat)}")
     print(f"  Missing fields: {non_plat_missing}")
     if non_plat_missing == 0:
-        print(f"  PASS")
+        print("  PASS")
     else:
-        print(f"  FAIL")
+        print("  FAIL")
 
     # =========================================================
     # SUMMARY

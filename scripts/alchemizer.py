@@ -640,7 +640,7 @@ def generate_bio(position: str, metrics: dict, length: str = "medium") -> str:
     pt = POSITION_TEMPLATES[position]
 
     if length == "short":
-        emph = ", ".join(pt["bio_emphasis"][:3])
+        ", ".join(pt["bio_emphasis"][:3])
         return (
             f"Systems artist. Creator of the ORGANVM eight-organ system — {metrics['repos']} "
             f"repositories, 8 organizations, {metrics['essays']} essays, {metrics['words']} words. "
@@ -920,7 +920,7 @@ def generate_submission_script(target: dict, profile: dict, metrics: dict) -> st
         lines.append(f"- [ ] Open application: {target['url']}")
     lines.extend([
         "- [ ] Confirm eligibility requirements",
-        f"- [ ] Have ready: portfolio URL, resume PDF, work sample links",
+        "- [ ] Have ready: portfolio URL, resume PDF, work sample links",
         f"- [ ] Review identity position: **{pt['label']}**",
         "",
         "---",
@@ -945,8 +945,8 @@ def generate_submission_script(target: dict, profile: dict, metrics: dict) -> st
         "",
         "## Links to Submit",
         "",
-        f"| Resource | URL |",
-        f"|----------|-----|",
+        "| Resource | URL |",
+        "|----------|-----|",
         f"| Portfolio | {LINKS['portfolio']} |",
         f"| Resume | {LINKS['resume']} |",
         f"| Essays | {LINKS['essays']} |",
@@ -1054,7 +1054,7 @@ def _grant_residency_sections(target, profile, metrics, pt):
 def _writing_pitch_sections(target, profile, metrics, pt):
     """Sections for writing income pitches."""
     lines = []
-    primary = profile["primary_position"]
+    profile["primary_position"]
 
     # Pitch angles by target
     pitch_angles = {
@@ -1087,8 +1087,8 @@ def _writing_pitch_sections(target, profile, metrics, pt):
         "**Subject line options (pick one):**",
         "",
         f"1. PITCH: {angle[:60]}...",
-        f"2. PITCH: Building a 100-Repository Creative System with AI",
-        f"3. PITCH: The AI-Conductor Model — Solo Production at Institutional Scale",
+        "2. PITCH: Building a 100-Repository Creative System with AI",
+        "3. PITCH: The AI-Conductor Model — Solo Production at Institutional Scale",
         "",
         "**Body — copy below the line:**",
         "",
@@ -1185,8 +1185,8 @@ def _emergency_sections(target, profile, metrics, pt):
         f"- Portfolio: {LINKS['portfolio']}",
         f"- {metrics['essays']} published essays: {LINKS['essays']}",
         f"- {metrics['repos']}-repository system: {LINKS['hub']}",
-        f"- MFA Creative Writing, Florida Atlantic University",
-        f"- 11 years teaching at 8+ NYC-area institutions",
+        "- MFA Creative Writing, Florida Atlantic University",
+        "- 11 years teaching at 8+ NYC-area institutions",
         "",
     ])
 
@@ -1345,7 +1345,7 @@ def run_audit():
         print("  Script coverage: 100% (excluding consulting)")
 
     # Metrics check
-    print(f"\n  Metrics source: covenant-ark")
+    print("\n  Metrics source: covenant-ark")
     print(f"  Repos: {metrics['repos']}")
     print(f"  Active: {metrics['active']}")
     print(f"  Essays: {metrics['essays']}")
@@ -1402,7 +1402,7 @@ def main():
 
     # Load sources
     metrics = load_covenant_metrics()
-    print(f"\n  Source: covenant-ark")
+    print("\n  Source: covenant-ark")
     print(f"  Repos: {metrics['repos']} | Active: {metrics['active']} | "
           f"Essays: {metrics['essays']} | Sprints: {metrics['sprints']}")
 

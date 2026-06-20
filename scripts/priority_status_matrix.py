@@ -10,8 +10,7 @@ stdlib only.
 
 import json
 import os
-import sys
-from collections import Counter, defaultdict
+from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
@@ -280,7 +279,7 @@ def main() -> None:
     # Compute key metrics for the summary
     total_prompt_unresolved = sum(1 for p in prompts if p.get("status") in prompt_unresolved)
     total_task_pending = sum(1 for t in tasks if t.get("status") in task_unresolved)
-    prompt_p0_open = prompt_matrix["P0"].get("OPEN", 0) + prompt_matrix["P0"].get("PARTIAL", 0)
+    prompt_matrix["P0"].get("OPEN", 0) + prompt_matrix["P0"].get("PARTIAL", 0)
     task_p0_pending = task_matrix["P0"].get("pending", 0)
 
     # Worst domain by combined critical mass
@@ -303,15 +302,15 @@ def main() -> None:
     p0_prompt_unresolved = sum(prompt_matrix["P0"].get(s, 0) for s in prompt_unresolved)
     combined = total_prompt_unresolved + total_task_pending
 
-    print(f"\n  1. SCALE OF UNRESOLVED WORK")
+    print("\n  1. SCALE OF UNRESOLVED WORK")
     print(f"     - Prompt-atoms: {total_prompt_unresolved:,} / {len(prompts):,} unresolved ({prompt_pct:.1f}%)")
     print(f"     - Task-priorities: {total_task_pending:,} / {len(tasks):,} pending ({task_pct:.1f}%)")
     print(f"     - Combined open backlog: {combined:,} items")
 
-    print(f"\n  2. CRITICAL P0 EXPOSURE")
+    print("\n  2. CRITICAL P0 EXPOSURE")
     print(f"     - Prompt-atoms P0 unresolved: {p0_prompt_unresolved}")
     print(f"     - Task-priorities P0 pending: {task_p0_pending}")
-    print(f"     - These must be triaged before any P2/P3 work proceeds.")
+    print("     - These must be triaged before any P2/P3 work proceeds.")
 
     print(f"\n  3. PRIORITY INVERSIONS: {len(inversions)} detected")
     if inversions:
@@ -322,14 +321,14 @@ def main() -> None:
         print("     P3 ANSWERED items are old conversational prompts, not proof")
         print("     that low-priority work was deliberately chosen over critical work.")
 
-    print(f"\n  4. WORST DOMAINS (combined P0+P1 critical mass)")
+    print("\n  4. WORST DOMAINS (combined P0+P1 critical mass)")
     for dom, count in worst_domains:
         if count > 0:
             print(f"     - {dom}: {count} critical items")
 
     if worst_agent:
         wa = worst_agent
-        print(f"\n  5. AGENT HOTSPOT")
+        print("\n  5. AGENT HOTSPOT")
         print(f"     - {wa['agent']}: {wa['critical_load']} unresolved P0/P1 items")
         print(f"       ({wa['p0_unresolved']} P0, {wa['p1_unresolved']} P1)")
         print(f"       out of {wa['total_prompts']:,} total prompts")
@@ -337,7 +336,7 @@ def main() -> None:
     max_open_year = max(recency, key=lambda r: r["open_pct"]) if recency else None
     if max_open_year and max_open_year["open_pct"] > 0:
         bias = "more" if max_open_year["year"] >= "2025" else "NOT more"
-        print(f"\n  6. RECENCY BIAS")
+        print("\n  6. RECENCY BIAS")
         print(f"     - Year {max_open_year['year']} has highest OPEN rate: {max_open_year['open_pct']:.1f}%")
         print(f"       ({max_open_year['open']} OPEN out of {max_open_year['total']} total)")
         print(f"     - Newer items are {bias} likely to be OPEN.")

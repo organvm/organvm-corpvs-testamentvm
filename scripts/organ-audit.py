@@ -35,7 +35,6 @@ try:
 except ImportError:
     _engine_load = None
 from datetime import datetime, timezone
-from pathlib import Path
 
 
 def check_file_on_github(org: str, repo: str, path: str) -> bool:
@@ -365,7 +364,7 @@ def main():
     # Check Meta organ separately
     meta = registry.get("organs", {}).get("META", registry.get("organs", {}).get("meta-organvm", {}))
     if meta:
-        report.append(f"\n## Meta Organ\n")
+        report.append("\n## Meta Organ\n")
         report.append(f"**Status:** {meta.get('launch_status', 'N/A')}\n")
         meta_repos = meta.get("repositories", [])
         report.append(f"**Repos:** {len(meta_repos)}\n")
@@ -417,13 +416,13 @@ def main():
     print(f"Platinum repos: {metrics['platinum_repos']}")
 
     if all_alerts["critical"]:
-        print(f"\nCRITICAL ALERTS:")
+        print("\nCRITICAL ALERTS:")
         for a in all_alerts["critical"]:
             print(f"  - {a}")
         return 1
 
     if all_alerts["warning"]:
-        print(f"\nWARNINGS (non-blocking):")
+        print("\nWARNINGS (non-blocking):")
         for a in all_alerts["warning"][:10]:
             print(f"  - {a}")
         if len(all_alerts["warning"]) > 10:

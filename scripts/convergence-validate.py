@@ -60,7 +60,7 @@ def check_essays():
         capture_output=True, text=True,
     )
     if result.returncode != 0:
-        print(f"  Essays: FAILED to query (API error)")
+        print("  Essays: FAILED to query (API error)")
         return False
 
     count = int(result.stdout.strip())

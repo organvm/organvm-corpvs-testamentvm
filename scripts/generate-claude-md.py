@@ -21,8 +21,6 @@ import argparse
 import base64
 import json
 import subprocess
-import sys
-import textwrap
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -281,7 +279,7 @@ def generate_claude_md(org, repo, organ_key, repo_meta, readme, tree, languages,
     name = repo_meta.get("name", repo)
     description = repo_meta.get("description", "") or extract_description(readme)
     status = repo_meta.get("implementation_status", repo_meta.get("status", "ACTIVE"))
-    portfolio_relevance = repo_meta.get("portfolio_relevance", "MEDIUM")
+    repo_meta.get("portfolio_relevance", "MEDIUM")
     is_flagship = repo in FLAGSHIPS
 
     organ_num, organ_name, _, _ = ORGAN_MAP.get(organ_key, ("?", "Unknown", "", ""))
@@ -384,7 +382,7 @@ def generate_claude_md(org, repo, organ_key, repo_meta, readme, tree, languages,
 
     # ORGANVM Context
     sections.append("## ORGANVM Context\n")
-    sections.append(f"This repository is part of the **ORGANVM** eight-organ creative-institutional system.")
+    sections.append("This repository is part of the **ORGANVM** eight-organ creative-institutional system.")
     sections.append(f"It belongs to **ORGAN {organ_num} ({organ_name})** under the `{org}` GitHub organization.")
     sections.append("")
 
@@ -399,8 +397,8 @@ def generate_claude_md(org, repo, organ_key, repo_meta, readme, tree, languages,
         sections.append("")
 
     # Registry reference
-    sections.append(f"**Registry:** [`repo-registry.json`](https://github.com/meta-organvm/organvm-corpvs-testamentvm/blob/main/repo-registry.json)")
-    sections.append(f"**Corpus:** [`organvm-corpvs-testamentvm`](https://github.com/meta-organvm/organvm-corpvs-testamentvm)")
+    sections.append("**Registry:** [`repo-registry.json`](https://github.com/meta-organvm/organvm-corpvs-testamentvm/blob/main/repo-registry.json)")
+    sections.append("**Corpus:** [`organvm-corpvs-testamentvm`](https://github.com/meta-organvm/organvm-corpvs-testamentvm)")
     sections.append("")
 
     return "\n".join(sections)

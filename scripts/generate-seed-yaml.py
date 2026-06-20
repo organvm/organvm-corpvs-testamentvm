@@ -16,7 +16,6 @@ import argparse
 import base64
 import json
 import subprocess
-import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -193,22 +192,22 @@ def generate_seed_yaml(repo_data: dict, organ_key: str, organ_num: str, organ_na
 
     lines = [
         f"# seed.yaml — Automation Contract for {org}/{name}",
-        f"# Schema: seed/v1.0",
+        "# Schema: seed/v1.0",
         f"# Generated: {TODAY} (SENSORIA Sprint)",
-        f"",
-        f'schema_version: "1.0"',
+        "",
+        'schema_version: "1.0"',
         f"organ: {organ_num}",
         f"organ_name: {organ_name}",
         f"repo: {name}",
         f"org: {org}",
-        f"",
-        f"metadata:",
+        "",
+        "metadata:",
         f"  implementation_status: {impl_status}",
         f"  tier: {tier}",
         f"  promotion_status: {promotion}",
         f'  last_validated: "{repo_data.get("last_validated", TODAY)}"',
         f'  generated: "{TODAY}"',
-        f'  sprint: "SENSORIA"',
+        '  sprint: "SENSORIA"',
         f"  language: {language}",
     ]
 

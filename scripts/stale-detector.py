@@ -178,7 +178,7 @@ def scan_docs_for_stale(live: dict) -> list[StaleItem]:
     # Build patterns to look for stale values
     sprints = live.get("sprints_completed")
     total_repos = live.get("total_repos")
-    active = live.get("active_repos")
+    live.get("active_repos")
     essays = live.get("published_essays")
 
     # Common stale patterns: wrong sprint count, wrong repo count, wrong essay count
@@ -343,7 +343,7 @@ def main():
     elif args.issue:
         create_github_issue(all_stale)
     else:
-        print(f"\nRun with --fix to auto-correct, or --issue to create a GitHub issue.")
+        print("\nRun with --fix to auto-correct, or --issue to create a GitHub issue.")
 
 
 if __name__ == "__main__":

@@ -18,7 +18,7 @@ import argparse
 import json
 import re
 import sys
-from collections import Counter, defaultdict
+from collections import Counter
 from dataclasses import dataclass, field
 from hashlib import sha256
 from pathlib import Path
@@ -354,17 +354,17 @@ def print_report(stats: FilterStats, input_path: Path) -> None:
     print(f"  Noise:          {stats.noise:>10,}  ({100*stats.noise/max(stats.total,1):.1f}%)")
     print(f"  Duplicates:     {stats.duplicate_count:>10,}")
 
-    print(f"\n--- Top 15 noise reasons ---")
+    print("\n--- Top 15 noise reasons ---")
     for reason, count in stats.noise_by_reason.most_common(15):
         pct = 100 * count / max(stats.noise, 1)
         print(f"  {reason:<30s}  {count:>8,}  ({pct:.1f}%)")
 
-    print(f"\n--- Noise by label ---")
+    print("\n--- Noise by label ---")
     for label, count in stats.noise_by_label.most_common(10):
         pct = 100 * count / max(stats.noise, 1)
         print(f"  {label:<20s}  {count:>8,}  ({pct:.1f}%)")
 
-    print(f"\n--- Signal by label ---")
+    print("\n--- Signal by label ---")
     for label, count in stats.signal_by_label.most_common(10):
         pct = 100 * count / max(stats.signal, 1)
         print(f"  {label:<20s}  {count:>8,}  ({pct:.1f}%)")

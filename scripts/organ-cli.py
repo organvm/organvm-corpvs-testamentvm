@@ -233,7 +233,7 @@ def cmd_registry_update(args):
         return 1
 
     save_registry(registry)
-    print(f"  Registry saved.")
+    print("  Registry saved.")
     return 0
 
 
@@ -283,7 +283,7 @@ def cmd_soak_status(args):
     date = data.get("date", latest_path.stem.replace("daily-", ""))
     dry_run = data.get("dry_run", False)
 
-    print(f"\nSoak Test Status")
+    print("\nSoak Test Status")
     print("─" * 40)
     print(f"  Latest snapshot:  {date} {'(dry-run)' if dry_run else ''}")
     print(f"  Total snapshots:  {len(snapshots)}")
@@ -312,7 +312,7 @@ def cmd_soak_status(args):
     if ci.get("total_checked", 0) > 0:
         print(f"\n  CI: {ci['passing']}/{ci['total_checked']} passing")
     else:
-        print(f"\n  CI: awaiting first real data point")
+        print("\n  CI: awaiting first real data point")
 
     print()
     return 0

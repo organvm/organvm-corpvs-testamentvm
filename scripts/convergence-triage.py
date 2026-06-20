@@ -6,7 +6,6 @@ marking as already-deployed, or marking as not-deployable.
 """
 
 import json
-import sys
 from pathlib import Path
 from collections import Counter
 

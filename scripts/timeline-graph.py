@@ -175,7 +175,7 @@ def view(graph_path: Path, prompt_id: str = None, since: str = None, limit: int 
         print(f"- **agent**: {r.get('agent', '?')} | **session**: `{r.get('session_id', '?')}` | **thread**: `{r.get('thread_label', '?')}`")
         print(f"- **prompt-type**: {r.get('prompt_type', '?')} | **linked-task-count**: {r['linked_task_count']}")
         print()
-        print(f"### Inception (the prompt)")
+        print("### Inception (the prompt)")
         print()
         text = r.get('prompt_text', '')
         for line in text.splitlines()[:6]:
@@ -197,7 +197,7 @@ def view(graph_path: Path, prompt_id: str = None, since: str = None, limit: int 
                 # Three gravitational pillars
                 pragma = task.get('pragma_pointers', {})
                 if pragma.get('shared_refs') or pragma.get('shared_tags'):
-                    print(f"  **PRAGMA** (current implementation)")
+                    print("  **PRAGMA** (current implementation)")
                     if pragma.get('shared_refs'):
                         for ref in pragma['shared_refs']:
                             print(f"  - file: `{ref}`")
@@ -209,7 +209,7 @@ def view(graph_path: Path, prompt_id: str = None, since: str = None, limit: int 
 
                 telos = task.get('telos_pointer')
                 if telos:
-                    print(f"  **TELOS** (ideal form)")
+                    print("  **TELOS** (ideal form)")
                     print(f"  - form-id: `{telos['form_id']}`")
                     print(f"  - label: {telos['label']}")
                     if telos.get('completeness') is not None:
@@ -220,12 +220,12 @@ def view(graph_path: Path, prompt_id: str = None, since: str = None, limit: int 
 
                 praxis = task.get('praxis_branches', [])
                 if praxis:
-                    print(f"  **PRAXIS** (alternative branches)")
+                    print("  **PRAXIS** (alternative branches)")
                     for branch in praxis:
                         print(f"  - {branch}")
                     print()
                 else:
-                    print(f"  **PRAXIS**: *(no alternative branches recorded — data-layer field needs adding)*")
+                    print("  **PRAXIS**: *(no alternative branches recorded — data-layer field needs adding)*")
                     print()
         print("---")
         print()

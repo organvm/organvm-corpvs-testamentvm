@@ -24,7 +24,6 @@ import argparse
 import json
 import os
 import subprocess
-import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -300,17 +299,17 @@ def main():
 
         if report.get("ready"):
             ready_count += 1
-            print(f"  => READY")
+            print("  => READY")
         else:
-            print(f"  => NOT READY")
+            print("  => NOT READY")
 
         reports.append(report)
 
     print(f"\n{'=' * 60}")
-    print(f"DISTRIBUTION CHANNEL SUMMARY")
+    print("DISTRIBUTION CHANNEL SUMMARY")
     print(f"{'=' * 60}")
     print(f"  Ready: {ready_count}/{len(reports)} channels")
-    print(f"  Target: 4+ channels active")
+    print("  Target: 4+ channels active")
 
     output_data = {
         "audit_date": datetime.now(timezone.utc).isoformat(),

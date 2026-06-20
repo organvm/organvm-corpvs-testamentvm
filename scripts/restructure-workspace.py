@@ -16,7 +16,6 @@ import json
 import os
 import shutil
 import subprocess
-import sys
 from datetime import datetime
 from pathlib import Path
 
@@ -361,7 +360,7 @@ def print_plan(plan: dict) -> None:
 
     if plan["corpus_move"]:
         c = plan["corpus_move"]
-        print(f"\n📜 CORPUS MOVE:")
+        print("\n📜 CORPUS MOVE:")
         print(f"   {c['source'].replace(str(HOME), '~')}")
         print(f"     → {c['dest'].replace(str(HOME), '~')}")
 
@@ -498,7 +497,7 @@ def execute_plan(plan: dict) -> Path:
             os.remove(s)
             log_action({"action": "remove_symlink", "path": s, "target": str(target)})
         except FileNotFoundError:
-            print(f"    (already gone)")
+            print("    (already gone)")
         except Exception as e:
             msg = f"  ERROR removing symlink {s}: {e}"
             print(msg)

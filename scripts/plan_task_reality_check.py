@@ -405,7 +405,7 @@ def verify_pending_task(
 
     # Gate 0: archived source -> moot regardless
     if is_archived_source(task):
-        return "archived_moot", f"plan_in_archive"
+        return "archived_moot", "plan_in_archive"
 
     # Gate 1: repo/project directory check
     repo_status, repo_reason = check_repo_dir(task, all_dirs)
@@ -503,7 +503,7 @@ def main():
     print(f"  Loaded {len(tasks):,} tasks")
 
     # Phase 3: Verify each task
-    print(f"\n[3/3] Verifying tasks against filesystem ...")
+    print("\n[3/3] Verifying tasks against filesystem ...")
     t0 = time.time()
 
     stats: dict[str, int] = {}
@@ -552,11 +552,11 @@ def main():
     print("RESULTS")
     print("=" * 70)
 
-    print(f"\nOriginal status distribution:")
+    print("\nOriginal status distribution:")
     for k, v in sorted(original_status_counts.items(), key=lambda x: -x[1]):
         print(f"  {k:>25s}: {v:>6,} ({100 * v / total:5.1f}%)")
 
-    print(f"\nVerified status distribution:")
+    print("\nVerified status distribution:")
     for k, v in sorted(stats.items(), key=lambda x: -x[1]):
         print(f"  {k:>25s}: {v:>6,} ({100 * v / total:5.1f}%)")
 
@@ -574,7 +574,7 @@ def main():
     )
 
     print(f"\n{'=' * 50}")
-    print(f"  SUMMARY")
+    print("  SUMMARY")
     print(f"{'=' * 50}")
     print(
         f"  {'Verified COMPLETE':>25s}: {actually_done:>6,} ({100 * actually_done / total:5.1f}%)"
@@ -600,7 +600,7 @@ def main():
     newly_done = stats.get("verified_complete", 0) + stats.get("likely_complete", 0)
 
     print(f"\n{'=' * 50}")
-    print(f"  STATUS CHANGES")
+    print("  STATUS CHANGES")
     print(f"{'=' * 50}")
     print(
         f"  Was 'completed' ({orig_complete:,}):"
@@ -631,14 +631,14 @@ def main():
     )
     net_pending = orig_pending - newly_done - archived - actually_open
     print(
-        f"\n  Net unresolved (pending - done - archived - confirmed_open):"
+        "\n  Net unresolved (pending - done - archived - confirmed_open):"
     )
     print(
         f"    {net_pending:,} tasks still in limbo"
     )
     real_backlog = actually_open + stats.get("unverifiable", 0)
     print(
-        f"  True backlog (confirmed_open + unverifiable):"
+        "  True backlog (confirmed_open + unverifiable):"
     )
     print(
         f"    {real_backlog:,} tasks"

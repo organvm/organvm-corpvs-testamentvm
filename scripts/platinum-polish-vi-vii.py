@@ -98,7 +98,7 @@ for org, repo, lang, num, name, color in REPOS:
     branch = get_default_branch(org, repo)
 
     # CI workflow
-    print(f"  CI (ci-minimal)...", end=" ", flush=True)
+    print("  CI (ci-minimal)...", end=" ", flush=True)
     if put_file(org, repo, ".github/workflows/ci.yml", ci_minimal,
                 "ci: add minimal CI workflow (Platinum Sprint)", branch):
         print("OK")
@@ -107,7 +107,7 @@ for org, repo, lang, num, name, color in REPOS:
     time.sleep(1)
 
     # CHANGELOG
-    print(f"  CHANGELOG...", end=" ", flush=True)
+    print("  CHANGELOG...", end=" ", flush=True)
     if put_file(org, repo, "CHANGELOG.md", generate_changelog(org, repo),
                 "docs: add CHANGELOG (Platinum Sprint)", branch):
         print("OK")
@@ -116,7 +116,7 @@ for org, repo, lang, num, name, color in REPOS:
     time.sleep(1)
 
     # Badge row injection
-    print(f"  Badge row...", end=" ", flush=True)
+    print("  Badge row...", end=" ", flush=True)
     result = subprocess.run(
         ["gh", "api", f"/repos/{org}/{repo}/contents/README.md",
          "-H", "Accept: application/vnd.github.raw+json"],

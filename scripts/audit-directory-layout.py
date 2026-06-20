@@ -256,7 +256,7 @@ def audit_repo(repo: Path) -> dict:
         if base.is_dir():
             smells = {d.name for d in base.iterdir() if d.is_dir()} & TYPE_FOLDER_SMELLS
             if smells:
-                child_count = sum(1 for _ in (base).iterdir())
+                sum(1 for _ in (base).iterdir())
                 if "components" in smells:
                     comp = base / "components"
                     # count DISTINCT flat components: exclude colocated tests/specs/stories

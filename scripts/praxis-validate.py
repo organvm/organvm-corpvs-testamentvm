@@ -92,7 +92,7 @@ def check_essays():
         capture_output=True, text=True,
     )
     if result.returncode != 0:
-        print(f"  Essays: FAILED to query")
+        print("  Essays: FAILED to query")
         return False
 
     count = int(result.stdout.strip())
@@ -161,7 +161,7 @@ def check_portfolio_site():
 def check_flagship_substance():
     """Phase B: Verify flagship repos have real code."""
     if not FLAGSHIP_REPORT.exists():
-        print(f"  Flagships: No audit report (run praxis-flagship-audit.py)")
+        print("  Flagships: No audit report (run praxis-flagship-audit.py)")
         return False
 
     with open(FLAGSHIP_REPORT) as f:
@@ -174,7 +174,7 @@ def check_flagship_substance():
 
     print(f"  Flagships: {substantial} SUBSTANTIAL, {partial} PARTIAL, "
           f"{total - substantial - partial} need work")
-    print(f"  NOTE: Pre-PRAXIS baseline was 4 SUBSTANTIAL — no vivification work done")
+    print("  NOTE: Pre-PRAXIS baseline was 4 SUBSTANTIAL — no vivification work done")
 
     # Target: 6+ of 8 flagships at SUBSTANTIAL or PARTIAL
     return (substantial + partial) >= 6
@@ -184,7 +184,7 @@ def check_distribution():
     """Phase C: Check distribution channel readiness."""
     report_path = Path(__file__).parent.parent / "praxis-distribution-report.json"
     if not report_path.exists():
-        print(f"  Distribution: No report (run praxis-distribution-setup.py)")
+        print("  Distribution: No report (run praxis-distribution-setup.py)")
         return False
 
     with open(report_path) as f:
@@ -193,14 +193,14 @@ def check_distribution():
     ready = report.get("channels_ready", 0)
     total = report.get("channels_total", 0)
     print(f"  Distribution: {ready}/{total} channels ready (target: 2+)")
-    print(f"  NOTE: RSS was pre-existing before PRAXIS")
+    print("  NOTE: RSS was pre-existing before PRAXIS")
     return ready >= 2
 
 
 def check_applications():
     """Phase D: Check application materials generated and clean."""
     if not APPLICATIONS_DIR.exists():
-        print(f"  Applications: Directory not found")
+        print("  Applications: Directory not found")
         return False
 
     md_files = list(APPLICATIONS_DIR.glob("*.md"))
@@ -236,7 +236,7 @@ def check_applications():
 def check_dashboard():
     """Phase E: Check dashboard metrics available and not stale."""
     if not METRICS_FILE.exists():
-        print(f"  Dashboard: system-metrics.json not found")
+        print("  Dashboard: system-metrics.json not found")
         return False
 
     with open(METRICS_FILE) as f:

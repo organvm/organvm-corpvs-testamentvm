@@ -10,7 +10,6 @@ import subprocess
 import base64
 import time
 import sys
-import os
 from pathlib import Path
 
 TEMPLATES_DIR = Path(__file__).parent.parent / "templates"
@@ -393,7 +392,7 @@ def deploy_repo(org, repo, ci_template, lang, impl_status, dry_run=False):
 
     # 2. Deploy CHANGELOG
     changelog = generate_changelog(org, repo)
-    print(f"  [2/5] CHANGELOG.md...", end=" ", flush=True)
+    print("  [2/5] CHANGELOG.md...", end=" ", flush=True)
     if put_file(org, repo, "CHANGELOG.md", changelog,
                 "docs: add CHANGELOG (Platinum Sprint)", branch):
         print("OK")
@@ -405,7 +404,7 @@ def deploy_repo(org, repo, ci_template, lang, impl_status, dry_run=False):
 
     # 3. Deploy ADR-001
     adr1 = generate_adr_001(org, repo, lang, impl_status)
-    print(f"  [3/5] ADR-001...", end=" ", flush=True)
+    print("  [3/5] ADR-001...", end=" ", flush=True)
     if put_file(org, repo, "docs/adr/001-initial-architecture.md", adr1,
                 "docs: add ADR-001 initial architecture (Platinum Sprint)", branch):
         print("OK")
@@ -417,7 +416,7 @@ def deploy_repo(org, repo, ci_template, lang, impl_status, dry_run=False):
 
     # 4. Deploy ADR-002
     adr2 = generate_adr_002(org, repo, lang, impl_status)
-    print(f"  [4/5] ADR-002...", end=" ", flush=True)
+    print("  [4/5] ADR-002...", end=" ", flush=True)
     if put_file(org, repo, "docs/adr/002-integration-patterns.md", adr2,
                 "docs: add ADR-002 integration patterns (Platinum Sprint)", branch):
         print("OK")
@@ -428,7 +427,7 @@ def deploy_repo(org, repo, ci_template, lang, impl_status, dry_run=False):
     time.sleep(1)
 
     # 5. Inject badge row into README
-    print(f"  [5/5] Badge row...", end=" ", flush=True)
+    print("  [5/5] Badge row...", end=" ", flush=True)
     if inject_badge_row(org, repo, lang, branch):
         print("OK")
     else:
