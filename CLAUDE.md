@@ -169,7 +169,7 @@ CLI: `python3 scripts/invoke.py <ID>` for terminal lookup. See `docs/operations/
 The **Index Rerum Faciendarum** (`INST-INDEX-RERUM-FACIENDARUM.md`) is the universal work registry — the canonical gap between what the system IS and what it NEEDS TO BE. It is the first of four classical indices:
 - **Rerum Faciendarum** (things to be done) — governance instrument, THIS EXISTS
 - **Locorum** (places) — reference instrument, PLANNED (IRF-IDX-001)
-- **Nominum** (names) — reference instrument, PLANNED (IRF-IDX-002)
+- **Nominum** (names) — reference + governance instrument; naming LAW built (canon + NOMENCLATOR enforcer in limen), census pending (IRF-IDX-002)
 - **Rerum** (things) — reference instrument, PLANNED (IRF-IDX-003)
 
 When closing a session, check the IRF for items completed or discovered. When starting a session, consult the IRF for P0/P1 items in the relevant domain.

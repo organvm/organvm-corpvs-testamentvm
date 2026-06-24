@@ -13,7 +13,7 @@
 |-------|-------|---------|--------|
 | **Index Rerum Faciendarum** | *Things to be done* | Universal work registry | `INST-INDEX-RERUM-FACIENDARUM.md` |
 | **Index Locorum** | *Index of places* | Canonical map of where everything lives | **THIS DOCUMENT** |
-| **Index Nominum** | *Index of names* | Registry of all named entities | IRF-IDX-002 (planned) |
+| **Index Nominum** | *Index of names* | Registry of all named entities | `INST-INDEX-NOMINUM.md` (law built; census pending) |
 | **Index Rerum** | *Index of things* | Ontological inventory of what exists | IRF-IDX-003 (planned) |
 
 ---
