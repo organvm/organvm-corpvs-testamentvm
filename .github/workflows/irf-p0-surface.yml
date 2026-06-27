@@ -1,0 +1,27 @@
+name: IRF P0 surface
+
+on:
+  schedule:
+    - cron: '13 11 * * *'
+  workflow_dispatch:
+
+jobs:
+  surface-p0:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run P0 Surface Script
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/irf-p0-surface.py
