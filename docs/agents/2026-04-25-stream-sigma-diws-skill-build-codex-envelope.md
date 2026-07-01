@@ -54,7 +54,7 @@ Under `~/Workspace/a-i--skills/skills/project-management/domain-ideal-whole-subs
 ### proof-instances/
 - `chess/` — partial fill demonstrating chess domain (use Hokage Chess artifacts as input source: `~/Workspace/4444J99/hokage-chess/`)
 - `wellness/` — partial fill (use Maddie/Elevate Align artifacts: `~/Workspace/<spiral-repo>/`)
-- `education/` — partial fill (Jessica stub: `~/.claude/projects/-Users-4jp/memory/collaborator_jessica.md` is the only source; mark fields UNKNOWN per stub-fidelity)
+- `education/` — partial fill (Jessica stub: `~/.claude/projects/-Users-[user]/memory/collaborator_jessica.md` is the only source; mark fields UNKNOWN per stub-fidelity)
 - `voodoo/` — outlier validator (loads stratum 8 heavily); design-only, no real client
 
 ## Reused utilities (DO NOT REIMPLEMENT)
@@ -96,7 +96,7 @@ If ANY of these fail: Claude will run `cross_verify` and request specific fixes 
 ## On completion
 
 When all targets exist + cross-verify passes:
-1. Write a session memory at `~/.claude/projects/-Users-4jp/memory/project_session_<id>_diws_skill_build.md` summarizing artifacts shipped
+1. Write a session memory at `~/.claude/projects/-Users-[user]/memory/project_session_<id>_diws_skill_build.md` summarizing artifacts shipped
 2. Add to `MEMORY.md` Active Artifacts: `[DIWS substrate skill]` entry
 3. Notify Claude session by leaving handoff-completion marker at `~/Workspace/organvm/organvm-corpvs-testamentvm/docs/agents/2026-04-25-stream-sigma-COMPLETED.md` with commit SHA(s)
 

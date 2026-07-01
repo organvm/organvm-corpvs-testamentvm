@@ -9,7 +9,7 @@
 
 **No online form.** Email-initiated process:
 
-1. Email **fiscalservices@aspirationtech.org** with project description, budget, financial goals
+1. Email **[email redacted]** with project description, budget, financial goals
 2. 30-minute intake interview
 3. Board of Directors reviews and votes
 4. Timeline: likely weeks, not months (informal process)

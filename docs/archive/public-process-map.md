@@ -495,7 +495,7 @@ jobs:
       - name: Commit Changes
         run: |
           git config user.name "Public Process Bot"
-          git config user.email "bot@4444j99.organs"
+          git config user.email "[email redacted]"
           git add .
           git commit -m "Publish essay: $(date +%Y-%m-%d)"
           git push
@@ -548,7 +548,7 @@ jobs:
       - name: Commit
         run: |
           git config user.name "Public Process Bot"
-          git config user.email "bot@4444j99.organs"
+          git config user.email "[email redacted]"
           
           if git diff --quiet CHANGELOG.md; then
             echo "No changes"

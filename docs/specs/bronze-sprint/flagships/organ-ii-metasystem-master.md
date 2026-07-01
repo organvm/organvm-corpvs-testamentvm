@@ -447,7 +447,7 @@ The `docs/` directory contains 200+ files across academic templates, deployment 
 
 **License:** [MIT](LICENSE)
 
-**Author:** Anthony Padavano ([@4444J99](https://github.com/4444J99))
+**Author:** [name redacted] ([@4444J99](https://github.com/4444J99))
 
 **Organization:** [organvm-ii-poiesis](https://github.com/organvm-ii-poiesis) (ORGAN-II: Art)
 

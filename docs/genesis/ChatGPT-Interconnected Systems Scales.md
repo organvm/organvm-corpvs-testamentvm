@@ -1,10 +1,10 @@
 # Interconnected Systems Scales
 
-**User:** Anthony Padavano (padavano.anthony@gmail.com)  
+**User:** [name redacted] ([email redacted])  
 **Created:** 5/5/2025 15:36:14  
 **Updated:** 3/30/2026 10:25:11  
 **Exported:** 3/30/2026 10:25:12  
-**Link:** [https://chatgpt.com/c/6819132d-7848-8003-9d77-37c8f9105280](https://chatgpt.com/c/6819132d-7848-8003-9d77-37c8f9105280)  
+**Link:** [[personal conversation link redacted]]([personal conversation link redacted])  
 
 ## Prompt:
 physical and natural environments, and systems within and without, micro to macro, inter connecting 

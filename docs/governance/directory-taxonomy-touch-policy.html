@@ -363,7 +363,7 @@ footer {
 <!-- ═══════════════════════════════════════════════════ HERO -->
 <header class="hero">
 <h1>Where files live, who owns them, who touches them.</h1>
-<p class="deck">A three-axis schema for filesystem ontology — color-coded touch policy, role-tagged ownership, convention-anchored origin — applied across macOS, Windows, and Linux, and to a real audit of <code>/Users/4jp</code>.</p>
+<p class="deck">A three-axis schema for filesystem ontology — color-coded touch policy, role-tagged ownership, convention-anchored origin — applied across macOS, Windows, and Linux, and to a real audit of <code>/Users/[user]</code>.</p>
 <p class="meta">2026-05-21 · branched session · single-file artifact · no external deps</p>
 </header>
 
@@ -601,7 +601,7 @@ footer {
 
 <!-- ═══════════════════════════════════════════════════ AUDIT -->
 <section id="audit">
-<h2>Home-dir drift audit — <code>/Users/4jp</code></h2>
+<h2>Home-dir drift audit — <code>/Users/[user]</code></h2>
 <p>Findings verified against current disk state, ranked by severity.</p>
 
 <div class="finding moderate">
@@ -617,7 +617,7 @@ footer {
 <div class="finding severe">
 <div class="severity">Severe</div>
 <div class="body">
-<p><strong>~25 loose files at home root.</strong> Should be in <code>Documents/</code>, version control, or trash. Includes <code>package-lock.json</code> (revealed by inspection to be an empty <code>npm init -y</code> shell — name <code>"4jp"</code>, zero packages; harmless cruft, deletable), <code>LICENSE</code>, 9 × <code>session-ses_*.md</code>, multiple <code>export-*</code>, <code>premortem-*</code>, <code>transcript-*</code>, plus <code>.zsh_history_</code> (149 B ASCII, stray-underscore typo of <code>.zsh_history</code>).</p>
+<p><strong>~25 loose files at home root.</strong> Should be in <code>Documents/</code>, version control, or trash. Includes <code>package-lock.json</code> (revealed by inspection to be an empty <code>npm init -y</code> shell — name <code>"[user]"</code>, zero packages; harmless cruft, deletable), <code>LICENSE</code>, 9 × <code>session-ses_*.md</code>, multiple <code>export-*</code>, <code>premortem-*</code>, <code>transcript-*</code>, plus <code>.zsh_history_</code> (149 B ASCII, stray-underscore typo of <code>.zsh_history</code>).</p>
 </div>
 </div>
 
@@ -761,10 +761,10 @@ tag -a Orange ~/workspace-autopsy-governance\ 2/  # 🟧 review &amp; merge</cod
 </aside>
 
 <footer>
-2026-05-21 · <code>/Users/4jp/Documents/directory-taxonomy-touch-policy.html</code><br>
+2026-05-21 · <code>~/Documents/directory-taxonomy-touch-policy.html</code><br>
 Single-file artifact · inline CSS · no JavaScript · no external deps<br>
 Aesthetic inspired by <a href="https://thariqs.github.io/html-effectiveness/">thariqs.github.io/html-effectiveness</a> — "HTML is an underrated medium for communication."<br>
-Canonical schema source: <code>~/.claude/projects/-Users-4jp/memory/reference_directory_touch_policy.md</code><br>
+Canonical schema source: <code>~/.claude/projects/-Users-[user]/memory/reference_directory_touch_policy.md</code><br>
 Open with: <code>open ~/Documents/directory-taxonomy-touch-policy.html</code>
 </footer>
 

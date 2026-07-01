@@ -1,7 +1,7 @@
 # Closeout — Session-Phase Discipline SOP (2026-05-28)
 
 **Session window:** ~2026-05-28 19:38–19:48 UTC (this Claude Code session)
-**Working directory:** `/Users/4jp`
+**Working directory:** `/Users/[user]`
 **Effective repos touched:** `a-organvm/organvm-corpvs-testamentvm` (1 commit on main via PR merge)
 **Plan:** `.claude/plans/2026-05-28-session-phase-discipline-sop.md`
 **Dogfood demonstration:** all 10 lifecycle phases executed for this single PR

@@ -5,18 +5,18 @@
 **First seen:** 2026-05-20 (skills-path migration date per `[[feedback_skills_path_coordination]]`)
 **Last seen:** 2026-05-22 03:30 (live invocation failure during this audit)
 **Occurrences:** 1 — but represents a structural class of drift (see Interpretation)
-**Affected process/component:** `/Users/4jp/Code/organvm/vox--architectura-gubernatio/.venv/bin/voice-scorer`
+**Affected process/component:** `~/Code/organvm/vox--architectura-gubernatio/.venv/bin/voice-scorer`
 **Affected ORGANVM organ:** ORGAN-IV adjacent (governance / voice-scorer wraps voice-enforcement skill)
 
 ## Evidence
 ```
-$ /Users/4jp/Code/organvm/vox--architectura-gubernatio/.venv/bin/voice-scorer score REPORT.md
-(eval): bad interpreter: /Users/4jp/Workspace/organvm/vox--architectura-gubernatio/.venv/bin/python3.14: no such file or directory
+$ ~/Code/organvm/vox--architectura-gubernatio/.venv/bin/voice-scorer score REPORT.md
+(eval): bad interpreter: ~/Workspace/organvm/vox--architectura-gubernatio/.venv/bin/python3.14: no such file or directory
 
-$ head -1 /Users/4jp/Code/organvm/vox--architectura-gubernatio/.venv/bin/voice-scorer
-#!/Users/4jp/Workspace/organvm/vox--architectura-gubernatio/.venv/bin/python3.14
+$ head -1 ~/Code/organvm/vox--architectura-gubernatio/.venv/bin/voice-scorer
+#!~/Workspace/organvm/vox--architectura-gubernatio/.venv/bin/python3.14
 
-$ ls /Users/4jp/Code/organvm/vox--architectura-gubernatio/.venv/bin/python*
+$ ls ~/Code/organvm/vox--architectura-gubernatio/.venv/bin/python*
 python  python3  python3.14   # all present — only the script shebang points at the old path
 ```
 
@@ -42,7 +42,7 @@ Severity is info, not error, because the MCP path works — voice-enforcement sk
 **Domain:** OPS
 **Priority:** P2
 **Title:** Recreate voice-scorer venv after Workspace → Code repo migration
-**Body:** `~/Code/organvm/vox--architectura-gubernatio/.venv/bin/voice-scorer` has shebang `#!/Users/4jp/Workspace/organvm/vox--architectura-gubernatio/.venv/bin/python3.14` (old path). Direct CLI invocation fails; MCP path works. Fix: `rm -rf ~/Code/organvm/vox--architectura-gubernatio/.venv && cd ~/Code/organvm/vox--architectura-gubernatio && uv venv && uv pip install -e .`. Sibling of IRF-OPS-059 (skills-path coordination). Also instructs `[[feedback_path_anchored_fix_class]]`: scan all `~/Code/organvm/**/.venv/bin/*` shebangs for stale `~/Workspace/organvm/` paths.
+**Body:** `~/Code/organvm/vox--architectura-gubernatio/.venv/bin/voice-scorer` has shebang `#!~/Workspace/organvm/vox--architectura-gubernatio/.venv/bin/python3.14` (old path). Direct CLI invocation fails; MCP path works. Fix: `rm -rf ~/Code/organvm/vox--architectura-gubernatio/.venv && cd ~/Code/organvm/vox--architectura-gubernatio && uv venv && uv pip install -e .`. Sibling of IRF-OPS-059 (skills-path coordination). Also instructs `[[feedback_path_anchored_fix_class]]`: scan all `~/Code/organvm/**/.venv/bin/*` shebangs for stale `~/Workspace/organvm/` paths.
 
 ## Dispatch decision
 **Work type:** mechanical_refactoring

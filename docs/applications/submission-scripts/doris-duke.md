@@ -4,11 +4,11 @@
 **Time to complete:** ~45 minutes
 **Portal:** https://dorisduke.givingdata.com/portal/campaign/AMT2026
 **RFP:** https://www.dorisduke.org/grants/projects/artists-make-technology-lab
-**Contact:** artsRFP@dorisduke.org
+**Contact:** [email redacted]
 **Deadline:** March 2, 2026 at **12:00 PM ET (NOON)** — not midnight
 **Award:** Up to $150,000 per project (up to 20 grants for 2026-27)
 **Partners:** Doris Duke Foundation + Mozilla Foundation + Hewlett Foundation + Ford Foundation
-**Benefits cliff:** SNAP-safe (lump-sum grant excluded under BBCE). $150K would exit Medicaid/Fair Fares — call NYLAG (212-613-5000) BEFORE accepting if awarded. Consider Schedule C deductions and timing across tax years.
+**Benefits cliff:** SNAP-safe (lump-sum grant excluded under BBCE). $150K would exit Medicaid/Fair Fares — call NYLAG [phone redacted]) BEFORE accepting if awarded. Consider Schedule C deductions and timing across tax years.
 
 ---
 
@@ -164,7 +164,7 @@ Generative visual and sonic output built with p5.js, SuperCollider, and Pure Dat
 - [ ] Screenshot the confirmation page
 - [ ] Record submission date in `docs/applications/04-application-tracker.md`
 - [ ] Update `docs/operations/rolling-todo.md` — mark F22 as SUBMITTED with date
-- [ ] If awarded: call NYLAG (212-613-5000) BEFORE accepting — $150K impacts benefits
+- [ ] If awarded: call NYLAG [phone redacted]) BEFORE accepting — $150K impacts benefits
 - [ ] Note: Results timeline TBD (likely Spring-Summer 2026)
 
 ---

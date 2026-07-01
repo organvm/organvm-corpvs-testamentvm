@@ -71,7 +71,7 @@ def main() -> int:
             msg = (f"Declutter root per #26 §8: move {len(moved)} docs to docs/\n\n"
                    f"Relocate non-canonical root markdown into docs/ (build-safe; "
                    f"markdown is not imported). Reduces root file count toward <20.\n\n"
-                   f"Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>")
+                   f"Co-Authored-By: Claude Opus 4.8 (1M context) <[email redacted]>")
             rc, out = run(["git", "commit", "-q", "-m", msg], repo)
             print(f"    {'committed' if rc == 0 else 'COMMIT FAILED: ' + out[:80]} ({len(moved)} files)")
             grand += len(moved) if rc == 0 else 0

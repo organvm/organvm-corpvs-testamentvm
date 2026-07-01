@@ -6,7 +6,7 @@
   "contract": {
     "agent": "omega-scorecard",
     "schedule_utc": "11 21 * * *",
-    "prompt_source": "/Users/4jp/Workspace/session-meta/scheduler/routines/cloud-prompts/omega-scorecard-daily-rolling-issue.md",
+    "prompt_source": "~/Workspace/session-meta/scheduler/routines/cloud-prompts/omega-scorecard-daily-rolling-issue.md",
     "rolling_issue_host": "4444J99/session-meta",
     "rolling_issue_title": "Omega scorecard \u2014 rolling"
   },

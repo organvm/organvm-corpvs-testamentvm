@@ -5932,402 +5932,402 @@
     {
       "repo": "4444J99",
       "organ": "PERSONAL",
-      "path": "/Users/4jp/Workspace/4444J99/4444J99/seed.yaml"
+      "path": "~/Workspace/4444J99/4444J99/seed.yaml"
     },
     {
       "repo": "application-pipeline",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/4444J99/application-pipeline/seed.yaml"
+      "path": "~/Workspace/4444J99/application-pipeline/seed.yaml"
     },
     {
       "repo": "domus-semper-palingenesis",
       "organ": "PERSONAL",
-      "path": "/Users/4jp/Workspace/4444J99/domus-semper-palingenesis/seed.yaml"
+      "path": "~/Workspace/4444J99/domus-semper-palingenesis/seed.yaml"
     },
     {
       "repo": "intake",
       "organ": "PERSONAL",
-      "path": "/Users/4jp/Workspace/4444J99/intake/seed.yaml"
+      "path": "~/Workspace/4444J99/intake/seed.yaml"
     },
     {
       "repo": "portfolio",
       "organ": "PERSONAL",
-      "path": "/Users/4jp/Workspace/4444J99/portfolio/seed.yaml"
+      "path": "~/Workspace/4444J99/portfolio/seed.yaml"
     },
     {
       "repo": ".github",
       "organ": "META",
-      "path": "/Users/4jp/Workspace/meta-organvm/.github/seed.yaml"
+      "path": "~/Workspace/meta-organvm/.github/seed.yaml"
     },
     {
       "repo": "aerarium--res-publica",
       "organ": "META",
-      "path": "/Users/4jp/Workspace/meta-organvm/aerarium--res-publica/seed.yaml"
+      "path": "~/Workspace/meta-organvm/aerarium--res-publica/seed.yaml"
     },
     {
       "repo": "custodia-securitatis",
       "organ": "META",
-      "path": "/Users/4jp/Workspace/meta-organvm/custodia-securitatis/seed.yaml"
+      "path": "~/Workspace/meta-organvm/custodia-securitatis/seed.yaml"
     },
     {
       "repo": "commercial-validation-testbed",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/meta-organvm/intake/meta_tmp/commercial-testbed/seed.yaml"
+      "path": "~/Workspace/meta-organvm/intake/meta_tmp/commercial-testbed/seed.yaml"
     },
     {
       "repo": "metasystem-core",
       "organ": "META",
-      "path": "/Users/4jp/Workspace/meta-organvm/intake/metasystem-core/seed.yaml"
+      "path": "~/Workspace/meta-organvm/intake/metasystem-core/seed.yaml"
     },
     {
       "repo": "academic-publication",
       "organ": "META",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/academic-publication/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/academic-publication/seed.yaml"
     },
     {
       "repo": "archive-past-works",
       "organ": "II",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/archive-past-works/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/archive-past-works/seed.yaml"
     },
     {
       "repo": "artist-toolkit-and-templates",
       "organ": "META",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/artist-toolkit-and-templates/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/artist-toolkit-and-templates/seed.yaml"
     },
     {
       "repo": "case-studies-methodology",
       "organ": "II",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/case-studies-methodology/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/case-studies-methodology/seed.yaml"
     },
     {
       "repo": "client-sdk",
       "organ": "II",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/client-sdk/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/client-sdk/seed.yaml"
     },
     {
       "repo": "docs",
       "organ": "II",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/docs/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/docs/seed.yaml"
     },
     {
       "repo": "example-ai-collaboration",
       "organ": "II",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/example-ai-collaboration/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/example-ai-collaboration/seed.yaml"
     },
     {
       "repo": "example-choreographic-interface",
       "organ": "II",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/example-choreographic-interface/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/example-choreographic-interface/seed.yaml"
     },
     {
       "repo": "example-generative-music",
       "organ": "II",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/example-generative-music/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/example-generative-music/seed.yaml"
     },
     {
       "repo": "example-generative-visual",
       "organ": "II",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/example-generative-visual/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/example-generative-visual/seed.yaml"
     },
     {
       "repo": "example-interactive-installation",
       "organ": "II",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/example-interactive-installation/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/example-interactive-installation/seed.yaml"
     },
     {
       "repo": "example-theatre-dialogue",
       "organ": "II",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/example-theatre-dialogue/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/example-theatre-dialogue/seed.yaml"
     },
     {
       "repo": "learning-resources",
       "organ": "II",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/learning-resources/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/learning-resources/seed.yaml"
     },
     {
       "repo": "showcase-portfolio",
       "organ": "II",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/showcase-portfolio/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-ii/showcase-portfolio/seed.yaml"
     },
     {
       "repo": "a-i-chat--exporter",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/a-i-chat--exporter/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/a-i-chat--exporter/seed.yaml"
     },
     {
       "repo": "anon-hookup-now",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/anon-hookup-now/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/anon-hookup-now/seed.yaml"
     },
     {
       "repo": "enterprise-plugin",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/enterprise-plugin/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/enterprise-plugin/seed.yaml"
     },
     {
       "repo": "ergon-prime--business-orchestrator",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/ergon-prime--business-orchestrator/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/ergon-prime--business-orchestrator/seed.yaml"
     },
     {
       "repo": "fetch-familiar-friends",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/fetch-familiar-friends/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/fetch-familiar-friends/seed.yaml"
     },
     {
       "repo": "gamified-coach-interface",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/gamified-coach-interface/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/gamified-coach-interface/seed.yaml"
     },
     {
       "repo": "mirror-mirror",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/mirror-mirror/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/mirror-mirror/seed.yaml"
     },
     {
       "repo": "multi-camera--livestream--framework",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/multi-camera--livestream--framework/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/multi-camera--livestream--framework/seed.yaml"
     },
     {
       "repo": "my--father-mother",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/my--father-mother/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/my--father-mother/seed.yaml"
     },
     {
       "repo": "parlor-games--ephemera-engine",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/parlor-games--ephemera-engine/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/parlor-games--ephemera-engine/seed.yaml"
     },
     {
       "repo": "search-local--happy-hour",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/search-local--happy-hour/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/search-local--happy-hour/seed.yaml"
     },
     {
       "repo": "select-or-left-or-right-or",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/select-or-left-or-right-or/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/select-or-left-or-right-or/seed.yaml"
     },
     {
       "repo": "sovereign-ecosystem--real-estate-luxury",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/sovereign-ecosystem--real-estate-luxury/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/sovereign-ecosystem--real-estate-luxury/seed.yaml"
     },
     {
       "repo": "the-invisible-ledger",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/the-invisible-ledger/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/the-invisible-ledger/seed.yaml"
     },
     {
       "repo": "trade-perpetual-future",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/trade-perpetual-future/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/trade-perpetual-future/seed.yaml"
     },
     {
       "repo": "universal-mail--automation",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/universal-mail--automation/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/universal-mail--automation/seed.yaml"
     },
     {
       "repo": "virgil-training-overlay",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/virgil-training-overlay/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/virgil-training-overlay/seed.yaml"
     },
     {
       "repo": "your-fit-tailored",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/your-fit-tailored/seed.yaml"
+      "path": "~/Workspace/meta-organvm/materia-collider/bench/organ-reset-2026-03-11/organ-iii/your-fit-tailored/seed.yaml"
     },
     {
       "repo": "seed-schema",
       "organ": "META",
-      "path": "/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/archive/org-iv-orchestration-staging/seed-schema/seed.yaml"
+      "path": "~/Workspace/meta-organvm/organvm-corpvs-testamentvm/docs/archive/org-iv-orchestration-staging/seed-schema/seed.yaml"
     },
     {
       "repo": "amp-lab-media",
       "organ": "II",
-      "path": "/Users/4jp/Workspace/meta-organvm/praxis-perpetua/content-pipeline/amp-lab/seed.yaml"
+      "path": "~/Workspace/meta-organvm/praxis-perpetua/content-pipeline/amp-lab/seed.yaml"
     },
     {
       "repo": ".config",
       "organ": "I",
-      "path": "/Users/4jp/Workspace/organvm-i-theoria/.github/.config/seed.yaml"
+      "path": "~/Workspace/organvm-i-theoria/.github/.config/seed.yaml"
     },
     {
       "repo": ".github",
       "organ": "I",
-      "path": "/Users/4jp/Workspace/organvm-i-theoria/.github/seed.yaml"
+      "path": "~/Workspace/organvm-i-theoria/.github/seed.yaml"
     },
     {
       "repo": "metaphysical-systems",
       "organ": "I",
-      "path": "/Users/4jp/Workspace/organvm-i-theoria/atomic-substrata/seed.yaml"
+      "path": "~/Workspace/organvm-i-theoria/atomic-substrata/seed.yaml"
     },
     {
       "repo": "conversation-corpus-site",
       "organ": "I",
-      "path": "/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-site/seed.yaml"
+      "path": "~/Workspace/organvm-i-theoria/conversation-corpus-site/seed.yaml"
     },
     {
       "repo": "mesh",
       "organ": "I",
-      "path": "/Users/4jp/Workspace/organvm-i-theoria/mesh/seed.yaml"
+      "path": "~/Workspace/organvm-i-theoria/mesh/seed.yaml"
     },
     {
       "repo": "rules-system-bound",
       "organ": "I",
-      "path": "/Users/4jp/Workspace/organvm-i-theoria/rules-system-bound/seed.yaml"
+      "path": "~/Workspace/organvm-i-theoria/rules-system-bound/seed.yaml"
     },
     {
       "repo": "ontological-framework",
       "organ": "I",
-      "path": "/Users/4jp/Workspace/organvm-i-theoria/scale-threshold-emergence/seed.yaml"
+      "path": "~/Workspace/organvm-i-theoria/scale-threshold-emergence/seed.yaml"
     },
     {
       "repo": ".github",
       "organ": "II",
-      "path": "/Users/4jp/Workspace/organvm-ii-poiesis/.github/seed.yaml"
+      "path": "~/Workspace/organvm-ii-poiesis/.github/seed.yaml"
     },
     {
       "repo": ".config",
       "organ": "II",
-      "path": "/Users/4jp/Workspace/organvm-ii-poiesis/metasystem-master/.config/seed.yaml"
+      "path": "~/Workspace/organvm-ii-poiesis/metasystem-master/.config/seed.yaml"
     },
     {
       "repo": "docs",
       "organ": "II",
-      "path": "/Users/4jp/Workspace/organvm-ii-poiesis/metasystem-master/docs/seed.yaml"
+      "path": "~/Workspace/organvm-ii-poiesis/metasystem-master/docs/seed.yaml"
     },
     {
       "repo": "specs",
       "organ": "II",
-      "path": "/Users/4jp/Workspace/organvm-ii-poiesis/metasystem-master/docs/source-materials/specs/seed.yaml"
+      "path": "~/Workspace/organvm-ii-poiesis/metasystem-master/docs/source-materials/specs/seed.yaml"
     },
     {
       "repo": ".github",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/organvm-iii-ergon/.github/seed.yaml"
+      "path": "~/Workspace/organvm-iii-ergon/.github/seed.yaml"
     },
     {
       "repo": "commerce--meta",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/organvm-iii-ergon/commerce--meta/seed.yaml"
+      "path": "~/Workspace/organvm-iii-ergon/commerce--meta/seed.yaml"
     },
     {
       "repo": "docs",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/organvm-iii-ergon/life-my--midst--in/docs/seed.yaml"
+      "path": "~/Workspace/organvm-iii-ergon/life-my--midst--in/docs/seed.yaml"
     },
     {
       "repo": "ergon-test-harness",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/test-harness/seed.yaml"
+      "path": "~/Workspace/organvm-iii-ergon/peer-audited--behavioral-blockchain/src/test-harness/seed.yaml"
     },
     {
       "repo": "sign-signal--voice-synth",
       "organ": "III",
-      "path": "/Users/4jp/Workspace/organvm-iii-ergon/sign-signal--voice-synth/seed.yaml"
+      "path": "~/Workspace/organvm-iii-ergon/sign-signal--voice-synth/seed.yaml"
     },
     {
       "repo": "contrib--clyra-gait",
       "organ": "IV",
-      "path": "/Users/4jp/Workspace/organvm-iv-taxis/contrib--clyra-gait/seed.yaml"
+      "path": "~/Workspace/organvm-iv-taxis/contrib--clyra-gait/seed.yaml"
     },
     {
       "repo": "contrib--grafana-k6",
       "organ": "IV",
-      "path": "/Users/4jp/Workspace/organvm-iv-taxis/contrib--grafana-k6/seed.yaml"
+      "path": "~/Workspace/organvm-iv-taxis/contrib--grafana-k6/seed.yaml"
     },
     {
       "repo": "contrib--indeedeng-iwf",
       "organ": "IV",
-      "path": "/Users/4jp/Workspace/organvm-iv-taxis/contrib--indeedeng-iwf/seed.yaml"
+      "path": "~/Workspace/organvm-iv-taxis/contrib--indeedeng-iwf/seed.yaml"
     },
     {
       "repo": "contrib--jairus-dagster-sdlc",
       "organ": "IV",
-      "path": "/Users/4jp/Workspace/organvm-iv-taxis/contrib--jairus-dagster-sdlc/seed.yaml"
+      "path": "~/Workspace/organvm-iv-taxis/contrib--jairus-dagster-sdlc/seed.yaml"
     },
     {
       "repo": "contrib--m13v-summarize-recent-commit",
       "organ": "IV",
-      "path": "/Users/4jp/Workspace/organvm-iv-taxis/contrib--m13v-summarize-recent-commit/seed.yaml"
+      "path": "~/Workspace/organvm-iv-taxis/contrib--m13v-summarize-recent-commit/seed.yaml"
     },
     {
       "repo": "contrib--openai-agents-python",
       "organ": "IV",
-      "path": "/Users/4jp/Workspace/organvm-iv-taxis/contrib--openai-agents-python/seed.yaml"
+      "path": "~/Workspace/organvm-iv-taxis/contrib--openai-agents-python/seed.yaml"
     },
     {
       "repo": ".github",
       "organ": "IV",
-      "path": "/Users/4jp/Workspace/organvm-iv-taxis/org-dotgithub/seed.yaml"
+      "path": "~/Workspace/organvm-iv-taxis/org-dotgithub/seed.yaml"
     },
     {
       "repo": "universal-node-network",
       "organ": "IV",
-      "path": "/Users/4jp/Workspace/organvm-iv-taxis/universal-node-network/seed.yaml"
+      "path": "~/Workspace/organvm-iv-taxis/universal-node-network/seed.yaml"
     },
     {
       "repo": "vox--architectura-gubernatio",
       "organ": "IV",
-      "path": "/Users/4jp/Workspace/organvm-iv-taxis/vox--architectura-gubernatio/seed.yaml"
+      "path": "~/Workspace/organvm-iv-taxis/vox--architectura-gubernatio/seed.yaml"
     },
     {
       "repo": "vox--publica",
       "organ": "IV",
-      "path": "/Users/4jp/Workspace/organvm-iv-taxis/vox--publica/seed.yaml"
+      "path": "~/Workspace/organvm-iv-taxis/vox--publica/seed.yaml"
     },
     {
       "repo": ".github",
       "organ": "V",
-      "path": "/Users/4jp/Workspace/organvm-v-logos/.github/seed.yaml"
+      "path": "~/Workspace/organvm-v-logos/.github/seed.yaml"
     },
     {
       "repo": "analytics-engine",
       "organ": "V",
-      "path": "/Users/4jp/Workspace/organvm-v-logos/analytics-engine/seed.yaml"
+      "path": "~/Workspace/organvm-v-logos/analytics-engine/seed.yaml"
     },
     {
       "repo": "editorial-standards",
       "organ": "V",
-      "path": "/Users/4jp/Workspace/organvm-v-logos/editorial-standards/seed.yaml"
+      "path": "~/Workspace/organvm-v-logos/editorial-standards/seed.yaml"
     },
     {
       "repo": "essay-pipeline",
       "organ": "V",
-      "path": "/Users/4jp/Workspace/organvm-v-logos/essay-pipeline/seed.yaml"
+      "path": "~/Workspace/organvm-v-logos/essay-pipeline/seed.yaml"
     },
     {
       "repo": "reading-observatory",
       "organ": "V",
-      "path": "/Users/4jp/Workspace/organvm-v-logos/reading-observatory/seed.yaml"
+      "path": "~/Workspace/organvm-v-logos/reading-observatory/seed.yaml"
     },
     {
       "repo": ".github",
       "organ": "VI",
-      "path": "/Users/4jp/Workspace/organvm-vi-koinonia/.github/seed.yaml"
+      "path": "~/Workspace/organvm-vi-koinonia/.github/seed.yaml"
     },
     {
       "repo": "docs",
       "organ": "VI",
-      "path": "/Users/4jp/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus/docs/seed.yaml"
+      "path": "~/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus/docs/seed.yaml"
     },
     {
       "repo": ".github",
       "organ": "VII",
-      "path": "/Users/4jp/Workspace/organvm-vii-kerygma/.github/seed.yaml"
+      "path": "~/Workspace/organvm-vii-kerygma/.github/seed.yaml"
     },
     {
       "repo": "kerygma-pipeline",
       "organ": "VII",
-      "path": "/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-pipeline/seed.yaml"
+      "path": "~/Workspace/organvm-vii-kerygma/kerygma-pipeline/seed.yaml"
     },
     {
       "repo": "kerygma-profiles",
       "organ": "VII",
-      "path": "/Users/4jp/Workspace/organvm-vii-kerygma/kerygma-profiles/seed.yaml"
+      "path": "~/Workspace/organvm-vii-kerygma/kerygma-profiles/seed.yaml"
     }
   ]
 }

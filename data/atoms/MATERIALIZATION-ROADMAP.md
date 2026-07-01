@@ -329,7 +329,7 @@ works) is total.
 
 ---
 
-## 8. Cover Letter / Anthony Padavano
+## 8. Cover Letter / [name redacted]
 
 | Metric | Value |
 |--------|-------|

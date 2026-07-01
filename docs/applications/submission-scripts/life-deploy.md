@@ -37,7 +37,7 @@ On the **inmidst-api** service, set these env vars:
 
 | Variable | Value |
 |----------|-------|
-| `DATABASE_URL` | `postgresql://neondb_owner:npg_L6jQf8lbiIVn@ep-dark-cherry-ah3f7vpu-pooler.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require` |
+| `DATABASE_URL` | `postgresql://neondb_owner:[email redacted]/neondb?sslmode=require` |
 | `JWT_SECRET` | `06478ff96dfbfc3f2ec28be8d0c543ab45c3ce00d54a95cf8b02b9b8ee1ddec5` |
 | `PROFILE_KEY_ENC_KEY` | `3ba0e0545c62cd9e9cea1e9d8b1ef26aeaa6f2e3e22376515ac84eda80cedb5e` |
 | `NODE_ENV` | `production` |
@@ -76,7 +76,7 @@ GET <api-url>/v1/taxonomy/masks → 16 masks from database
 
 - **Build fails:** Check Render logs. Common issue: pnpm version mismatch. The repo uses pnpm 9.x.
 - **Health check fails:** Make sure `PORT` is set to `3001` on the API service. Render expects the app to listen on port `10000` by default, but the render.yaml sets it correctly.
-- **Database connection fails:** Verify the Neon connection string includes `?sslmode=require`. Try connecting manually: `psql "postgresql://neondb_owner:npg_L6jQf8lbiIVn@ep-dark-cherry-ah3f7vpu-pooler.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require"`
+- **Database connection fails:** Verify the Neon connection string includes `?sslmode=require`. Try connecting manually: `psql "postgresql://neondb_owner:[email redacted]/neondb?sslmode=require"`
 - **CORS errors on web:** Set `ALLOWED_ORIGINS` on the API service to include the web URL.
 
 ---

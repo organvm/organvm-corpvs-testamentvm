@@ -11,7 +11,7 @@ supersedes: nothing — this plan exists alongside, not above, the /init proposa
 
 ## Context
 
-The prior session's `/init` invocation produced 5 priorities of suggested additions to `/Users/4jp/Workspace/CLAUDE.md` (~30 new lines, 4 subsections, 1 top-level section). The current request asks for a meta-review of that review process itself — explicitly framed as: (a) critique is back-seat driving (cheap relative to the precursor work it judges), (b) the same pattern must be visible at every scale (as above, so below), (c) past/present/future implications must be named.
+The prior session's `/init` invocation produced 5 priorities of suggested additions to `~/Workspace/CLAUDE.md` (~30 new lines, 4 subsections, 1 top-level section). The current request asks for a meta-review of that review process itself — explicitly framed as: (a) critique is back-seat driving (cheap relative to the precursor work it judges), (b) the same pattern must be visible at every scale (as above, so below), (c) past/present/future implications must be named.
 
 This plan is the review's deliverable — not an implementation plan, but a verdict-and-next-move document for governance.
 
@@ -117,7 +117,7 @@ The only honest escape is action that exemplifies the principle: **removing more
 
 ## Recommendation
 
-1. **Apply P1.1 and P1.2 surgically** — two Edits to `/Users/4jp/Workspace/CLAUDE.md` (line 71 IRF path correction; insert organvm/ row in Workspace Map between meta-organvm/ and 4444J99/).
+1. **Apply P1.1 and P1.2 surgically** — two Edits to `~/Workspace/CLAUDE.md` (line 71 IRF path correction; insert organvm/ row in Workspace Map between meta-organvm/ and 4444J99/).
 2. **Defer P2-P5 indefinitely** — they are at-best true; they are not urgent; they accrete to a file at saturation.
 3. **Schedule a dedicated compaction session within 7 days** for `~/CLAUDE.md` (and downstream: MEMORY.md). Without compaction protocol, Stage 1 of the next /insights cycle will surface this pattern again, and we will be having this conversation a third time.
 4. **Hold this plan as evidence.** If approved, the system has at least one subtractive precedent on record. If rejected, the rejection itself should be examined: was it because the analysis is wrong, or because subtraction feels like loss even when it improves the system?
@@ -126,10 +126,10 @@ If you instead want the full /init proposal applied, that is your prerogative �
 
 ## Critical Files
 
-- `/Users/4jp/Workspace/CLAUDE.md` — line 71 (IRF path bug, P1.1 target), Workspace Map lines 13-25 (missing organvm/ row, P1.2 target)
-- `/Users/4jp/CLAUDE.md` — 61-rule corpus + ~700 lines, primary candidate for next-session compaction
-- `/Users/4jp/.claude/projects/-Users-4jp-Workspace/memory/MEMORY.md` — 70+ pointer index, secondary compaction candidate
-- `/Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md` — IRF reference; not directly under review but shows the same accretion pattern (~150 rows, no documented sunset clause)
+- `~/Workspace/CLAUDE.md` — line 71 (IRF path bug, P1.1 target), Workspace Map lines 13-25 (missing organvm/ row, P1.2 target)
+- `~/CLAUDE.md` — 61-rule corpus + ~700 lines, primary candidate for next-session compaction
+- `~/.claude/projects/-Users-[user]-Workspace/memory/MEMORY.md` — 70+ pointer index, secondary compaction candidate
+- `~/Workspace/organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md` — IRF reference; not directly under review but shows the same accretion pattern (~150 rows, no documented sunset clause)
 
 ## Verification
 
@@ -152,7 +152,7 @@ The user holds the test. The plan provides the framing.
 ## Lineage
 
 - Reviewed: `/init` proposals from session immediately preceding this turn (5 priorities, ~30 lines additive)
-- Reviewed against: `/Users/4jp/Workspace/CLAUDE.md` (full content in passive context), `/Users/4jp/CLAUDE.md` (full content in passive context, including 61-rule distilled corpus), `~/.claude/projects/-Users-4jp-Workspace/memory/MEMORY.md` (full content in passive context)
+- Reviewed against: `~/Workspace/CLAUDE.md` (full content in passive context), `~/CLAUDE.md` (full content in passive context, including 61-rule distilled corpus), `~/.claude/projects/-Users-[user]-Workspace/memory/MEMORY.md` (full content in passive context)
 - Frame: back-seat-driver paradox + as-above-so-below + past/present/future scaling, all from the user's prompt
 - Did NOT call: advisor (this is creative critique; advisor would underweight the recursion-trap framing in favor of "improve the proposal" defaults)
 - Did NOT dispatch: Explore or Plan agents (context is sufficient; further exploration would itself be accretion in a closed-loop review)

@@ -14,7 +14,7 @@
 > **Benefits Cliff Awareness:** SNAP excludes lump-sum grants (safe).
 > Medicaid threshold: $21,597/year. Essential Plan $0 premium to $39,125.
 > Fair Fares hard cliff: $22,692/year.
-> Call NYLAG (212-613-5000) before accepting any single grant >$5K.
+> Call NYLAG [phone redacted]) before accepting any single grant >$5K.
 > See [`docs/applications/10-funding-strategy.md`](../applications/10-funding-strategy.md) for full analysis.
 
 ---
@@ -125,7 +125,7 @@
   - Source: [e2g-ii P0](../evaluation/e2g-ii-action-items.md) · Omega: #5, feeds #7
 
 - [ ] **W1.** Pitch Noema Magazine (pays $1/word = ~$3K/essay) — rolling, **pitch this month**
-  - Contact: pitches@noemamag.com
+  - Contact: [email redacted]
   - Pitch: "I built a 149-repo creative system orchestrated by AI — here's what it reveals about solo creative production."
   - Benefits cliff: Writing income is earned (counts toward SNAP $1,580/mo threshold). One per quarter = safe.
   - Source: [11-funding-research-exhaustive.md](../applications/11-funding-research-exhaustive.md) Part 5
@@ -161,7 +161,7 @@
 
 - [ ] **F16.** Submit ZKM Rauschenberg Residencies application (3-month Germany) — **deadline Apr 12** (~2 hrs)
   - URL: https://zkm.de/en/open-call-rauschenberg-residencies-202627 · Fit: 8/10
-  - Submit single PDF to image@zkm.de. 3 places only. Oct-Dec 2026 in Karlsruhe.
+  - Submit single PDF to [email redacted]. 3 places only. Oct-Dec 2026 in Karlsruhe.
   - Source: [11-funding-research-exhaustive.md](../applications/11-funding-research-exhaustive.md) Part 3
 
 - [ ] **F17.** Submit WFF Housing Stability Grant ($30K over 3 years) — **deadline Apr 14, 5pm ET** (~4 hrs)

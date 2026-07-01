@@ -2600,7 +2600,7 @@ Create:
   "repo_overrides": [
     {
       "match": {
-        "repo_path": "/Users/you/some/path/repoA"
+        "repo_path": "~/some/path/repoA"
       },
       "set": {
         "realm_id": "create",
@@ -2718,8 +2718,8 @@ def parse_githubish_remote(url: str) -> Optional[Tuple[str, str, str]]:
     Returns (host, org, repo) if parseable.
     Supports:
       https://github.com/org/repo.git
-      git@github.com:org/repo.git
-      ssh://git@github.com/org/repo.git
+      [email redacted]:org/repo.git
+      ssh://[email redacted]/org/repo.git
     """
     u = sanitize_remote_url(url)
 

@@ -32,7 +32,7 @@ The standard `/insights` command analyzes a rolling ~30-day window stored in `~/
 - **324,854 lines added vs. 9,983 lines removed** (97% generative, 3% pruning) across **3,187 files modified**
 - **1,370 git commits + 1,170 git pushes** during analyzed sessions — a 1.17:1 commit-to-push ratio (almost all work pushed; the "nothing local only" axiom is mostly honored)
 - **6,361 atoms DONE / 14,898 OPEN** (25% completion). 593 are P0, 5,117 are P1 — the work-front is heavily weighted to P2/P3, which is consistent with the "atoms are permanent, never batch-close" rule
-- **Key collaborators visible in fossil record:** 4444jPPP (4,842 commits), Timothy (771), Anthony James Padavano (650), --4444-j--99---- (529), Richard Tang (403). The `Timothy` and `Richard Tang` signatures suggest absorbed external repos / contributor history
+- **Key collaborators visible in fossil record:** 4444jPPP (4,842 commits), Timothy (771), [name redacted] (650), --4444-j--99---- (529), Richard Tang (403). The `Timothy` and `Richard Tang` signatures suggest absorbed external repos / contributor history
 
 ---
 
@@ -83,7 +83,7 @@ By session-meta `project_path` count:
 
 | Path | Sessions | Read |
 |---|---|---|
-| `/Users/4jp` (home/global) | 176 | 34% — meta-orchestration sessions |
+| `/Users/[user]` (home/global) | 176 | 34% — meta-orchestration sessions |
 | `~/Workspace` (multi-repo) | 78 | 15% — workspace-level coordination |
 | `~/system-system--system` | 47 | 9% — recursion engine |
 | `~/Workspace/organvm-iv-taxis` | 31 | 6% — orchestration organ |

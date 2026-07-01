@@ -6,11 +6,11 @@ This closeout audits the current session against the local directory context and
 
 Primary repository:
 
-- `/Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm`
+- `~/Workspace/organvm/organvm-corpvs-testamentvm`
 
 Interested external repository discovered during the audit:
 
-- `/Users/4jp/Workspace/organvm/praxis-perpetua`
+- `~/Workspace/organvm/praxis-perpetua`
 
 Reason: `praxis-perpetua/commissions/inquiry-log.yaml` carries `INQ-2026-013`, which binds the RES P0 bundle tracked in this repo's IRF and GitHub issues.
 
@@ -96,6 +96,6 @@ The `praxis-perpetua` SpecStory bundle commit `f5e3ff482f26b14730836e001c1b57a96
 
 Independent verification of the Codex closeout against current disk state confirmed the scope-of-work claims hold: both repositories clean at `HEAD == origin/main`, all 79 newly persisted prompt archives indexed, the 16-older-missing-from-index claim exact, IRF-IDX-006 and GH#350 logged, fossil chain integrity preserved, today's push-protection-blocked token correctly absent from origin after the soft-reset rewrite.
 
-Cross-verification additionally surfaced one finding *outside* the declared closeout scope: a pre-existing credential exposure in pushed history of this public repository, distinct from today's push-protection incident. Coordinates and verification details are sealed in a local-only memo at `~/.claude/projects/-Users-4jp-Workspace-organvm-organvm-corpvs-testamentvm/memory/sealed/sealed_pat_leak_2026-05-10.md` and tracked as `IRF-SEC-011` (sanitized placeholder). The sealed memo is deliberately not pushed and not quoted into any public surface — publishing leak coordinates before the credential is rotated worsens exposure rather than mitigating it. The session is *not* fully safe-to-close until rotation; pushing this report and the IRF-SEC-011 placeholder is the maximum durable persistence achievable before rotation.
+Cross-verification additionally surfaced one finding *outside* the declared closeout scope: a pre-existing credential exposure in pushed history of this public repository, distinct from today's push-protection incident. Coordinates and verification details are sealed in a local-only memo at `~/.claude/projects/-Users-[user]-Workspace-organvm-organvm-corpvs-testamentvm/memory/sealed/sealed_pat_leak_2026-05-10.md` and tracked as `IRF-SEC-011` (sanitized placeholder). The sealed memo is deliberately not pushed and not quoted into any public surface — publishing leak coordinates before the credential is rotated worsens exposure rather than mitigating it. The session is *not* fully safe-to-close until rotation; pushing this report and the IRF-SEC-011 placeholder is the maximum durable persistence achievable before rotation.
 
 Deferred to a future session, gated on credential rotation: commit the prompt-registry pending state from this session (5 new session-prompt files + index update), one of which contains references to the leak's coordinates and therefore cannot be pushed before rotation. Universal Rule #2 ("nothing local only") is partially suspended for this narrow scope, consistent with prior precedent at IRF-SEC-010 (events.jsonl gitleaks audit) where the same exception was applied with a documented rationale.

@@ -255,7 +255,7 @@ jobs:
       - name: Push Metrics to Registry
         run: |
           git config user.name "Orchestration Bot"
-          git config user.email "bot@4444j99.orchestration"
+          git config user.email "[email redacted]"
           
           # Append metrics to registry history
           python3 - <<'EOF'

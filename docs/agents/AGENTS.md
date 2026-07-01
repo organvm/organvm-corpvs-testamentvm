@@ -1,6 +1,6 @@
 # Repository Guidelines
 
-Global policy: /Users/4jp/AGENTS.md applies and cannot be overridden.
+Global policy: ~/AGENTS.md applies and cannot be overridden.
 
 ## Project Structure & Module Organization
 This repository is a documentation corpus for the ORGAN I–VII system, not an application codebase. Primary content lives under `docs/` as numbered planning artifacts (for example, `docs/genesis/00-c-master-summary.md`, `docs/planning/01-readme-audit-framework.md`, `docs/planning/05-risk-map-and-sequencing.md`). Active machine-readable state lives in `repo-registry.json` and `.config/organvm.config.json`. Environment templates are in `.config/organvm.env`, while `.config/organvm.env.local` is local-only. The `docs/archive/` directory contains superseded v1 files and should be treated as read-only historical reference.

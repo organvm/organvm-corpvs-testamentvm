@@ -33,7 +33,7 @@
   What I verified on this session
 
   Evidence: JSONL path
-  Result: /Users/4jp/.claude/projects/-Users-4jp-Workspace/862ddc2d-a3b1-4316-86
+  Result: ~/.claude/projects/-Users-[user]-Workspace/862ddc2d-a3b1-4316-86
   5c-34864dae3b52.jsonl
   ────────────────────────────────────────
   Evidence: Size after /compact
@@ -252,7 +252,7 @@
   ❯ /export                                                                     
                                                                                 
     ⎿  Conversation exported to:                                                
-  /Users/4jp/Workspace/2026-04-29-190613-local-command-c                        
+  ~/Workspace/2026-04-29-190613-local-command-c                        
        aveatcaveat-the-messages-below.txt                                       
                                                                                 
                                                                                 
@@ -287,7 +287,7 @@
 
 ⏺ Read it. And the report has already been regenerated since the version
   other-Claude saw — the paste showed 1,374 messages / 165 sessions; the live
-  file at /Users/4jp/.claude/usage-data/report.html (67K, regenerated 18:48) now
+  file at ~/.claude/usage-data/report.html (67K, regenerated 18:48) now
    shows 3,192 messages / 335 sessions, 2026-03-31 → 2026-04-29. The feedback
   loop is live: today's cascade is already feeding tomorrow's report.
 
@@ -490,8 +490,8 @@
   e9abc80 — but yesterday's chezmoi work created exactly that commit chain
   (28f9e26 → 6bfa869 → aadba19 → e9abc80). The agent may have searched the wrong
    chezmoi path (the target is
-  private_dot_claude/projects/private_-Users-4jp-Workspace/memory/, with the
-  private_ prefix on -Users-4jp-Workspace). One missed _ prefix → false-positive
+  private_dot_claude/projects/private_-Users-[user]-Workspace/memory/, with the
+  private_ prefix on -Users-[user]-Workspace). One missed _ prefix → false-positive
    vacuum.
   - One agent finding IS new-and-true: PR #335 commit count grew from 5 to 6.
   Yesterday's reconciliation closed at 5 commits; the agent now reports 6, with
@@ -504,12 +504,12 @@
 
   Listed 1 directory (ctrl+o to expand)
 
-⏺ Bash(echo "=== WORKSPACE GIT ===" && ls -la /Users/4jp/Workspace/.git
+⏺ Bash(echo "=== WORKSPACE GIT ===" && ls -la ~/Workspace/.git
       2>/dev/null | head -3 && echo "(or not exists:)" && [ ! -e
-      /Users/4jp/Workspace/.git ] && echo…)
+      ~/Workspace/.git ] && echo…)
   ⎿  === WORKSPACE GIT ===
      (or not exists:)
-     no /Users/4jp/Workspace/.git
+     no ~/Workspace/.git
      … +12 lines (ctrl+o to expand)
 
 ⏺ Bash(echo "=== PR 335 ===" && gh pr view 335 --repo
@@ -521,7 +521,7 @@
      … +129 lines (ctrl+o to expand)
 
 ⏺ Bash(echo "=== SIGN-SIGNAL DIVERGENCE ===" && cd
-      /Users/4jp/Workspace/organvm/sign-signal--voice-synth 2>/dev/null && git
+      ~/Workspace/organvm/sign-signal--voice-synth 2>/dev/null && git
       fetch origin 2>&1 | head -3 && git rev-list…)
   ⎿  === SIGN-SIGNAL DIVERGENCE ===
      ERROR: Repository not found.
@@ -532,7 +532,7 @@
       absolute 2>/dev/null | grep -E
       "memory/(feedback_preserve_compactions|project_irf_phase4_c…)
   ⎿  === CHEZMOI MANAGED MEMORY ===
-     /Users/4jp/.claude/projects/-Users-4jp-Workspace/memory/feedback_prese
+     ~/.claude/projects/-Users-[user]-Workspace/memory/feedback_prese
      rve_compactions.md
      … +135 lines (ctrl+o to expand)
 
@@ -557,7 +557,7 @@
   │                         │ broken                                        │
   ├─────────────────────────┼───────────────────────────────────────────────┤
   │ Workspace/CLAUDE.md     │ NOT tracked — confirmed: no .git at           │
-  │ tracked?                │ /Users/4jp/Workspace and none at /Users/4jp/  │
+  │ tracked?                │ ~/Workspace and none at ~/  │
   │                         │ either                                        │
   └─────────────────────────┴───────────────────────────────────────────────┘
 
@@ -683,14 +683,14 @@
      refuted four of the five as false-negatives:
 
      Agent claim: Memory files MISSING at
-       /Users/4jp/.claude/projects/-Users-4jp-Workspace/memory/
+       ~/.claude/projects/-Users-[user]-Workspace/memory/
      Direct verification: Both present — feedback_preserve_compactions.md 3.6K
        (19:04), project_irf_phase4_collision_2026_04_29.md 3.9K (18:53)
      Outcome: FALSE NEGATIVE
      ────────────────────────────────────────
      Agent claim: Memory chezmoi mirror DRIFT
      Direct verification: Both mirrored at
-       private_dot_claude/projects/private_-Users-4jp-Workspace/memory/
+       private_dot_claude/projects/private_-Users-[user]-Workspace/memory/
      (identical
        sizes/mtimes); chezmoi managed confirms
      Outcome: FALSE NEGATIVE
@@ -777,7 +777,7 @@
 
      C. IRF state — the collision recipe is itself stale
 
-     Direct grep against /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm
+     Direct grep against ~/Workspace/organvm/organvm-corpvs-testamentvm
      /INST-INDEX-RERUM-FACIENDARUM.md:
 
      ┌──────────────┬────────┬──────────────────────────────────────────────────
@@ -832,40 +832,40 @@
 
      Artifact: CASCADING_WORKSTREAMS.md (40K)
      State: EXISTS, UNTRACKED
-     Path: /Users/4jp/Workspace/organvm/my-knowledge-base/
+     Path: ~/Workspace/organvm/my-knowledge-base/
      ────────────────────────────────────────
      Artifact: 2026-04-29-cascading-workstreams-refactor.md (27K)
      State: EXISTS, UNTRACKED
-     Path: /Users/4jp/Workspace/organvm/my-knowledge-base/.gemini/plans/
+     Path: ~/Workspace/organvm/my-knowledge-base/.gemini/plans/
      ────────────────────────────────────────
      Artifact: TOTAL_RECORD.md updates (8.6K)
      State: EXISTS, UNTRACKED
-     Path: /Users/4jp/Workspace/organvm/my-knowledge-base/
+     Path: ~/Workspace/organvm/my-knowledge-base/
      ────────────────────────────────────────
      Artifact: voice-assistant.json (W4 cross-repo edge)
      State: EXISTS, UNTRACKED
-     Path: /Users/4jp/Workspace/organvm/my-knowledge-base/
+     Path: ~/Workspace/organvm/my-knowledge-base/
      ────────────────────────────────────────
      Artifact: meta-organvm/audits/2026-04-29-INDEX.md (3.7K)
      State: EXISTS, in non-git dir
-     Path: /Users/4jp/Workspace/meta-organvm/audits/
+     Path: ~/Workspace/meta-organvm/audits/
      ────────────────────────────────────────
      Artifact: Workspace/CLAUDE.md (4 governance sections)
      State: EXISTS, in non-git dir
-     Path: /Users/4jp/Workspace/CLAUDE.md
+     Path: ~/Workspace/CLAUDE.md
      ────────────────────────────────────────
      Artifact: .claude/skills/qa-audit/SKILL.md
      State: EXISTS, in non-git dir
-     Path: /Users/4jp/Workspace/.claude/skills/qa-audit/SKILL.md
+     Path: ~/Workspace/.claude/skills/qa-audit/SKILL.md
      ────────────────────────────────────────
      Artifact: compaction.txt preservation
      State: EXISTS, gitignored (correct)
-     Path: /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm/2026-04-29-19
+     Path: ~/Workspace/organvm/organvm-corpvs-testamentvm/2026-04-29-19
      0247-...txt
      ────────────────────────────────────────
      Artifact: Memory files (preserve_compactions, irf_collision)
      State: EXISTS + chezmoi-mirrored + pushed
-     Path: /Users/4jp/.claude/projects/-Users-4jp-Workspace/memory/
+     Path: ~/.claude/projects/-Users-[user]-Workspace/memory/
 
      Open Vacuums (priority-ordered, post-correction)
 
@@ -896,12 +896,12 @@
      Optional
      amendment before merge.
 
-     V5. /Users/4jp/Workspace/CLAUDE.md not git-tracked anywhere. Workspace root
+     V5. ~/Workspace/CLAUDE.md not git-tracked anywhere. Workspace root
      has no .git; home has no .git either. The 4 governance sections from
      /insights
      exist on this disk only. Soul-loss risk.
 
-     V6. /Users/4jp/Workspace/.claude/skills/qa-audit/SKILL.md not git-tracked.
+     V6. ~/Workspace/.claude/skills/qa-audit/SKILL.md not git-tracked.
      Same root cause as V5.
 
      V7. meta-organvm/audits/2026-04-29-INDEX.md outside any git repo.
@@ -1009,7 +1009,7 @@
      Structural decision needed: where do Workspace-level meta files live? Three
      options — pick one in a dedicated session:
 
-     (a) Initialize /Users/4jp/Workspace/.git and treat the workspace as a
+     (a) Initialize ~/Workspace/.git and treat the workspace as a
          meta-repo (would track CLAUDE.md, .claude/, the IRF index, etc.)
      (b) Move governance content into chezmoi (CLAUDE.md.tmpl pattern already
      exists
@@ -1032,36 +1032,36 @@
 
      Critical Files
 
-     - /Users/4jp/Workspace/organvm/my-knowledge-base/CASCADING_WORKSTREAMS.md —
+     - ~/Workspace/organvm/my-knowledge-base/CASCADING_WORKSTREAMS.md —
       Stage 2 commit candidate
-     - /Users/4jp/Workspace/organvm/my-knowledge-base/TOTAL_RECORD.md — Stage 2
-     - /Users/4jp/Workspace/organvm/my-knowledge-base/.gemini/plans/2026-04-29-c
+     - ~/Workspace/organvm/my-knowledge-base/TOTAL_RECORD.md — Stage 2
+     - ~/Workspace/organvm/my-knowledge-base/.gemini/plans/2026-04-29-c
      ascading-workstreams-refactor.md — Stage 2
-     - /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm/data/prompt-regis
+     - ~/Workspace/organvm/organvm-corpvs-testamentvm/data/prompt-regis
      try/sessions/ — Stage 1
-     - /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-
+     - ~/Workspace/organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-
      FACIENDARUM.md — Stage 5b/6
-     - /Users/4jp/.claude/projects/-Users-4jp-Workspace/memory/project_irf_phase
+     - ~/.claude/projects/-Users-[user]-Workspace/memory/project_irf_phase
      4_collision_2026_04_29.md — Stage 5a (correction)
-     - /Users/4jp/Workspace/organvm/sign-signal--voice-synth/.git/config — Stage
+     - ~/Workspace/organvm/sign-signal--voice-synth/.git/config — Stage
       4 (read remote URL)
-     - /Users/4jp/Workspace/CLAUDE.md — V5 vacuum (defer)
-     - /Users/4jp/Workspace/.claude/skills/qa-audit/SKILL.md — V6 vacuum (defer)
-     - /Users/4jp/Workspace/meta-organvm/audits/2026-04-29-INDEX.md — V7 vacuum
+     - ~/Workspace/CLAUDE.md — V5 vacuum (defer)
+     - ~/Workspace/.claude/skills/qa-audit/SKILL.md — V6 vacuum (defer)
+     - ~/Workspace/meta-organvm/audits/2026-04-29-INDEX.md — V7 vacuum
      (defer)
-     - /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm/memory/ — V8
+     - ~/Workspace/organvm/organvm-corpvs-testamentvm/memory/ — V8
      vacuum (defer)
 
      Verification (post-execution acceptance)
 
      # 1. Stages 1+2 landed
-     git -C /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm log -1
+     git -C ~/Workspace/organvm/organvm-corpvs-testamentvm log -1
      --oneline
-     git -C /Users/4jp/Workspace/organvm/my-knowledge-base log -1 --oneline
+     git -C ~/Workspace/organvm/my-knowledge-base log -1 --oneline
      # expected: new commits referencing prompts (Stage 1) + cascade (Stage 2)
 
      # 2. No untracked cascade artifacts in my-knowledge-base
-     git -C /Users/4jp/Workspace/organvm/my-knowledge-base ls-files --others
+     git -C ~/Workspace/organvm/my-knowledge-base ls-files --others
      --exclude-standard | grep -E
      "(CASCADING|TOTAL_RECORD|cascading-workstreams)"
      # expected: empty (all staged)
@@ -1069,7 +1069,7 @@
      # 3. local:remote = 1:1 for resolvable repos
      for r in organvm/organvm-corpvs-testamentvm organvm/my-knowledge-base
      4444J99/domus-semper-palingenesis; do
-       echo "=== $r ===" ; cd "/Users/4jp/Workspace/$r" && git rev-list
+       echo "=== $r ===" ; cd "~/Workspace/$r" && git rev-list
      --left-right --count "@{u}...HEAD" 2>/dev/null
      done
      # expected: 0\t0 for each (no divergence)
@@ -1079,15 +1079,15 @@
      # expected: MERGED (after merge) | OPEN if deferred
 
      # 5. sign-signal--voice-synth remote status (Stage 4)
-     git -C /Users/4jp/Workspace/organvm/sign-signal--voice-synth remote -v
-     git -C /Users/4jp/Workspace/organvm/sign-signal--voice-synth ls-remote 2>&1
+     git -C ~/Workspace/organvm/sign-signal--voice-synth remote -v
+     git -C ~/Workspace/organvm/sign-signal--voice-synth ls-remote 2>&1
       | head -1
      # expected: real reachable URL — if not, V2 stays open
 
      # 6. IRF reflects 5b/6 inserts
-     grep -c "^| IRF-PRT-029" /Users/4jp/Workspace/organvm/organvm-corpvs-testam
+     grep -c "^| IRF-PRT-029" ~/Workspace/organvm/organvm-corpvs-testam
      entvm/INST-INDEX-RERUM-FACIENDARUM.md
-     grep -E "✓ CLOSED" /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm/
+     grep -E "✓ CLOSED" ~/Workspace/organvm/organvm-corpvs-testamentvm/
      INST-INDEX-RERUM-FACIENDARUM.md | grep -c "PRT-029\|PRT-030"
      # expected: PRT-029 and PRT-030 marked CLOSED
 
@@ -1124,8 +1124,8 @@
      - Explore agent ground-truth audit (cross-checked + 5 false-negatives
      caught and corrected)
      - IRF row-state grep against the canonical IRF
-     - Memory files at /Users/4jp/.claude/projects/-Users-4jp-Workspace/memory/
-     - /insights report at /Users/4jp/.claude/usage-data/report.html (3,192 msgs
+     - Memory files at ~/.claude/projects/-Users-[user]-Workspace/memory/
+     - /insights report at ~/.claude/usage-data/report.html (3,192 msgs
       / 335 sessions, 2026-03-31..29)
 
      Three protocols earned their keep here:
@@ -1156,7 +1156,7 @@
   Starting with verification of current state right before staging, in parallel
   for both repos.
 
-⏺ Bash(cd /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm && echo "===
+⏺ Bash(cd ~/Workspace/organvm/organvm-corpvs-testamentvm && echo "===
       CORPVS GIT STATUS ===" && git status --short && echo "" && echo "===
       UNTRACKED prompts/…)
   ⎿  === CORPVS GIT STATUS ===
@@ -1164,7 +1164,7 @@
       M data/prompt-registry/INST-INDEX-PROMPTORUM.md
      … +45 lines (ctrl+o to expand)
 
-⏺ Bash(cd /Users/4jp/Workspace/organvm/my-knowledge-base && echo "=== MKB GIT
+⏺ Bash(cd ~/Workspace/organvm/my-knowledge-base && echo "=== MKB GIT
       STATUS (all) ===" && git status --short && echo "" && echo "=== CASCADE
       FILES PRESENT ===…)
   ⎿  === MKB GIT STATUS (all) ===
@@ -1172,12 +1172,12 @@
       M config/sources.yaml
      … +25 lines (ctrl+o to expand)
 
-⏺ Bash(cd /Users/4jp/Workspace/organvm/sign-signal--voice-synth && echo "===
+⏺ Bash(cd ~/Workspace/organvm/sign-signal--voice-synth && echo "===
       SIGN-SIGNAL REMOTE ===" && git remote -v && echo "" && echo "=== LS-REMOTE
        TEST ===" && gi…)
   ⎿  === SIGN-SIGNAL REMOTE ===
-     origin     git@github.com:a-organvm/sign-signal--voice-synth.git (fetch)
-     origin     git@github.com:a-organvm/sign-signal--voice-synth.git (push)
+     origin     [email redacted]:a-organvm/sign-signal--voice-synth.git (fetch)
+     origin     [email redacted]:a-organvm/sign-signal--voice-synth.git (push)
      … +9 lines (ctrl+o to expand)
 
 ⏺ Verified state matches plan. Six prompt md files exist (plan said "3+"), all
@@ -1210,7 +1210,7 @@
 
   Executing Stages 1 + 2 in parallel.
 
-⏺ Bash(cd /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm && git add
+⏺ Bash(cd ~/Workspace/organvm/organvm-corpvs-testamentvm && git add
       data/fossil/fossil-record.jsonl
       data/prompt-registry/INST-INDEX-PROMPTORUM.md data/prompt-…)
   ⎿  M  data/fossil/fossil-record.jsonl
@@ -1218,7 +1218,7 @@
      A  data/prompt-registry/sessions/19674d5e-2d22-4fca-b036-89cbc4175dac-
      … +21 lines (ctrl+o to expand)
 
-⏺ Bash(cd /Users/4jp/Workspace/organvm/my-knowledge-base && git add
+⏺ Bash(cd ~/Workspace/organvm/my-knowledge-base && git add
       CASCADING_WORKSTREAMS.md TOTAL_RECORD.md voice-assistant.json
       .gemini/plans/2026-04-29-cascading-wo…)
   ⎿  A  .gemini/plans/2026-04-29-cascading-workstreams-refactor.md
@@ -1250,7 +1250,7 @@
    For 5b I need to find the actual commit SHAs that closed PRT-029/030 — let me
    read those IRF rows to see what's there.
 
-⏺ Bash(cd /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm && echo "===
+⏺ Bash(cd ~/Workspace/organvm/organvm-corpvs-testamentvm && echo "===
       IRF-PRT-029 + 030 ===" && grep -A 1 "^| IRF-PRT-029\|^| IRF-PRT-030"
       INST-INDEX-RERUM-FA…)
   ⎿  === IRF-PRT-029 + 030 ===
@@ -1649,10 +1649,10 @@
      … +11 lines (ctrl+o to expand)
 
 ⏺ Bash(echo "=== CHEZMOI RE-ADD memory file ===" && chezmoi re-add
-      /Users/4jp/.claude/projects/-Users-4jp-Workspace/memory/project_irf_phase4
+      ~/.claude/projects/-Users-[user]-Workspace/memory/project_irf_phase4
       _collision_2026_04_29.md 2…)
   ⎿  === CHEZMOI RE-ADD memory file ===
-     [master b6d1cf0] Update .claude/projects/-Users-4jp-Workspace/memory/p
+     [master b6d1cf0] Update .claude/projects/-Users-[user]-Workspace/memory/p
      roject_irf_phase4_collision_2026_04_29.md
      … +11 lines (ctrl+o to expand)
 
@@ -1679,8 +1679,8 @@
   Running the verification suite now.
 
 ⏺ Bash(echo "=== 1. ALL 4 REPOS HEAD ===" && for d in
-      /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm
-      /Users/4jp/Workspace/organvm/my-knowledge-base /Users/4jp…)
+      ~/Workspace/organvm/organvm-corpvs-testamentvm
+      ~/Workspace/organvm/my-knowledge-base /Users/[user]…)
   ⎿  === 1. ALL 4 REPOS HEAD ===
      organvm-corpvs-testamentvm:                        a861f9c docs(irf):
      retroactive Phase 4 corrections — close PRT-029/030, blocker on III-03
@@ -1714,7 +1714,7 @@
   pending visual verification" from ✓ "definitively closed" — visual vocabulary
   that scales without needing legend lookup.
   - The plan file itself is a covered vacuum I should surface.
-  /Users/4jp/.claude/plans/external-streams-1-pr-335-vivid-lake.md was
+  ~/.claude/plans/external-streams-1-pr-335-vivid-lake.md was
   substantively rewritten today but lives in ~/.claude/plans/ which may not be
   chezmoi-managed. If managed, it auto-mirrored via the autoCommit pipe. If not,
    it's another local-only artifact. Worth one quick check before declaring
@@ -1737,10 +1737,10 @@
 
   Listed 1 directory (ctrl+o to expand)
 
-⏺ Bash(cp /Users/4jp/.claude/plans/external-streams-1-pr-335-vivid-lake.md
-      /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm/.claude/plans/2026
+⏺ Bash(cp ~/.claude/plans/external-streams-1-pr-335-vivid-lake.md
+      ~/Workspace/organvm/organvm-corpvs-testamentvm/.claude/plans/2026
       -04-29-universal-c…)
-  ⎿  -rw-r--r--@ 1 4jp  staff    18K Apr 29 19:36 .claude/plans/2026-04-29-
+  ⎿  -rw-r--r--@ 1 [user]  staff    18K Apr 29 19:36 .claude/plans/2026-04-29-
      universal-close-out-audit.md
      [WARNING] Unstaged files detected.
      … +17 lines (ctrl+o to expand)
@@ -1823,7 +1823,7 @@
   Awaiting external action
 
   - V2 — sign-signal--voice-synth remote at
-  git@github.com:a-organvm/sign-signal--voice-synth.git returns "Repository not
+  [email redacted]:a-organvm/sign-signal--voice-synth.git returns "Repository not
   found." Repo needs creating on GitHub OR URL needs correcting (could be
   4444J99 or omni-dromenon-machina). Until resolved, that repo holds 2
   ahead-of-origin commits + 3 untracked W4 plans + bridge.js modifications, all
@@ -1831,7 +1831,7 @@
 
   Structural decisions (defer to dedicated session)
 
-  - V5/V6/V7 — Workspace meta files (/Users/4jp/Workspace/CLAUDE.md,
+  - V5/V6/V7 — Workspace meta files (~/Workspace/CLAUDE.md,
   .claude/skills/qa-audit/SKILL.md, meta-organvm/audits/2026-04-29-INDEX.md)
   live in non-git locations. Three options on the table: workspace root .git,
   chezmoi templates, or move into a tracked subordinate repo.

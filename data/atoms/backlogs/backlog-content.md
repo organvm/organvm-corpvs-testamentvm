@@ -70,7 +70,7 @@ Open on logo, fade after a few seconds
 
 4_bloom | PADAVANO and I am an artist. ‘What does that mean,’ you ask? Well, which part—the first or the second? Oh, the artist bit. An artist is someone who makes things—a creator, if you will allow me such pretension. Perhaps the word ‘designer’ sits more finer on the palette in our modern world. A designer is someone who designs things. Which ever word preferred, ‘artist’ o ‘designer,’ I am such. I pick and chose words and design them into larger ideas and sentences.  I also pick and chose vibrations and design them into sounds. Did I mention that I also pick and chose reflections and design them into images? Below I will list the projects I am involved in throughout time.
 
-ETCETER4 is Anthony James Padavano
+ETCETER4 is [name redacted]
 
 etCETER4 (eht-set-er-uh) : the pseudonym within which I create all my work; my work being music(link), writing(link), and visual design. The music of ETCETER4 is both experimental and  engaging pop music. ETCETER4 is myself along with a host of revolving cast of musicians. ETCETER4 also works as a producer and songwriter with other artists and produces soundtrack work. 
 
@@ -604,12 +604,12 @@ obsidian will not sync or won't stop rather
 respond in the positive and affirmative to this student email
 
 ------------------------------------
-At 11:23 PM on Sunday, October 20, 2024, "Nakia West" <westn11@bconline.broward.edu> wrote
+At 11:23 PM on Sunday, October 20, 2024, "Nakia West" <[email redacted]> wrote
 
 
 Good evening Professor Padavano,
 
-I'm in the emergency room with my daughter and wasn't expecting it to be this long. Could I please submit my rough draft tomorrow, as it's on my laptop at home? I could also submit a doctor's note if needed.</westn11@bconline.broward.edu>
+I'm in the emergency room with my daughter and wasn't expecting it to be this long. Could I please submit my rough draft tomorrow, as it's on my laptop at home? I could also submit a doctor's note if needed.</[email redacted]>
 ```
 
 #### `prompt-9a682fd4cb1b` -- P0 / PARTIAL
@@ -623,7 +623,7 @@ I'm in the emergency room with my daughter and wasn't expecting it to be this lo
 reply to this email:
 
 ------------------------------------
-At 10:38 PM on Tuesday, October 22, 2024, "Nakia West" <westn11@bconline.broward.edu> wrote
+At 10:38 PM on Tuesday, October 22, 2024, "Nakia West" <[email redacted]> wrote
 
 
 Thank you so much Professor.&nbsp; Do I still submit it in the discussion forum?&nbsp; Also, I will still be submitting my other assignment.&nbsp; I had no idea that using Google would sometimes yield AI results without me searching for them.&nbsp; I couldn't figure out what I was doing wrong and my sister showed me.
@@ -633,7 +633,7 @@ Thanks again&nbsp;
 
 
 ------------------------------------
-At 7:04 PM on Tuesday, October 22, 2024, "Anthony Padavano" <apadavan@bconline.broward.edu> wrote
+At 7:04 PM on Tuesday, October 22, 2024, "[name redacted]" <[email redacted]> wrote
 
 Good evening Nakia,
 
@@ -643,11 +643,11 @@ Best regards,
 Professor Padavano
 
 ------------------------------------
-At 11:23 PM on Sunday, October 20, 2024, "Nakia West" <westn11@bconline.broward.edu> wrote
+At 11:23 PM on Sunday, October 20, 2024, "Nakia West" <[email redacted]> wrote
 
 Good evening Professor Padavano,
 
-I'm in the emergency room with my daughter and wasn't expecting it to be this long. Could I please submit my rough draft tomorrow, as it's on my laptop at home? I could also submit a doctor's note if needed.</westn11@bconline.broward.edu></apadavan@bconline.broward.edu></westn11@bconline.broward.edu>
+I'm in the emergency room with my daughter and wasn't expecting it to be this long. Could I please submit my rough draft tomorrow, as it's on my laptop at home? I could also submit a doctor's note if needed.</[email redacted]></[email redacted]></[email redacted]>
 ```
 
 #### `prompt-e731eae3d335` -- P0 / PARTIAL

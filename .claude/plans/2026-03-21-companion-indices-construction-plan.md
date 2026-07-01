@@ -119,7 +119,7 @@ grep -roh 'https://.*\.\(app\|io\|dev\|com\)' registry-v2.json | sort -u > secti
   ### Faculties: governance, applied-systems, meta-cognition, ...
   ### Papers (13): SGO-2026-RP-*, SGO-2026-SYN-*
 ## People
-  Chris (the Provost), Anthony James Padavano (operator/creator)
+  Chris (the Provost), [name redacted] (operator/creator)
 ## IRF Namespaces (21)
   Table: prefix, domain, item count
 ```

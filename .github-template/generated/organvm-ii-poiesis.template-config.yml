@@ -20,9 +20,9 @@ social:
 
 # Contact Emails
 emails:
-  support: support@organvm.org
-  security: security@organvm.org
-  conduct: conduct@organvm.org
+  support: [email redacted]
+  security: [email redacted]
+  conduct: [email redacted]
 
 # Team Names (used in CODEOWNERS)
 teams:

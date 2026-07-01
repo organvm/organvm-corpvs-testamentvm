@@ -178,7 +178,7 @@ jobs:
           BRANCH="essay/from-$(echo "${SOURCE_NAME}" | tr '[:upper:]' '[:lower:]')"
           git checkout -b "${BRANCH}"
           git config user.name "ORGAN-IV Process Bot"
-          git config user.email "process@organvm.org"
+          git config user.email "[email redacted]"
           git add "essays/from-repos/${ESSAY_FILENAME}"
           git commit -m "draft: essay from ${SOURCE_REPO}
 

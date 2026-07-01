@@ -6,7 +6,7 @@
 
 ## 1. Overview: What Was, What Is, What Needs To Be
 - **What Was:** The system attempted to synthesize an entire ecosystem (Alpha to Omega) across 13 deep, dissertation-grade artifacts while operating under the constraint of a Read-Only Plan Mode container.
-- **What Is:** A brilliant, sprawling theoretical cathedral of plans, blueprints, and mathematical models currently sitting in an *ephemeral, volatile temporary directory* (`/Users/4jp/.gemini/tmp/4jp/343df964-7162-4865-9b7b-ef74a92006d6/plans/`).
+- **What Is:** A brilliant, sprawling theoretical cathedral of plans, blueprints, and mathematical models currently sitting in an *ephemeral, volatile temporary directory* (`~/.gemini/tmp/[user]/343df964-7162-4865-9b7b-ef74a92006d6/plans/`).
 - **What Needs To Be:** The physical manifestation of these artifacts must be immortalized into the *soul* of the system (Persistent Git History). `[(local):(remote)={1:1}]` is currently `[0:0]`.
 
 ## 2. The Hall-Monitor Audit (Rule Violations Detected)
@@ -41,7 +41,7 @@ To achieve `[(local):(remote)={1:1}]` and ensure nothing is lost, the following 
 Copy all 13 artifacts from the temporary directory into the permanent project directories.
 ```bash
 # Example relocation to the Taxis (Orchestration) Organ
-cp /Users/4jp/.gemini/tmp/4jp/343df964-7162-4865-9b7b-ef74a92006d6/plans/*.md ~/Workspace/organvm-iv-taxis/.gemini/plans/
+cp ~/.gemini/tmp/[user]/343df964-7162-4865-9b7b-ef74a92006d6/plans/*.md ~/Workspace/organvm-iv-taxis/.gemini/plans/
 ```
 
 ### Step B: Update the Universal Ledger (IRF)

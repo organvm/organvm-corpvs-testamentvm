@@ -56,7 +56,7 @@ This is the **exhaustive master list** — every opportunity discovered across 5
 - **Amount:** Up to $3,500 (rolling)
 - **Why it fits:** **HIGHEST-FIT emergency fund.** MFA + 42 published essays = clearly professional writer. Nonfiction explicitly eligible. Housing-precarious situation is exactly what this fund targets. PEN membership NOT required. Max 2 grants lifetime.
 - **URL:** https://pen.org/us-writers-aid-initiative/
-- **Contact:** writersfund@pen.org
+- **Contact:** [email redacted]
 - **Benefits cliff:** SNAP-safe (lump-sum).
 
 ### Awesome Foundation NYC Chapter
@@ -165,7 +165,7 @@ This is the **exhaustive master list** — every opportunity discovered across 5
 ### ZKM Rauschenberg Residencies 2026/27
 
 - **Amount:** Studios/rehearsal rooms at ZKM Hertzlab (sound studios, wet lab, VR lab). 3 months in Karlsruhe, Germany.
-- **Deadline:** April 12, 2026, 11:59 PM CET. Submit single PDF to image@zkm.de.
+- **Deadline:** April 12, 2026, 11:59 PM CET. Submit single PDF to [email redacted].
 - **Why it fits:** ZKM is one of the world's premier media art institutions. "Artists at intersection of performative art and creative technology." Only 3 places. Requires Germany relocation Oct-Dec 2026.
 - **URL:** https://zkm.de/en/open-call-rauschenberg-residencies-202627
 
@@ -283,8 +283,8 @@ Publications that pay professional rates for the exact kind of essays already be
 
 | Publication | Rate | Topic Fit | Contact/URL |
 |-------------|------|-----------|-------------|
-| **Noema Magazine** | **$1/word** ($3K/3K-word essay) | Technology, governance, AI, culture | pitches@noemamag.com |
-| **MIT Technology Review** | **$1-3/word** ($2.5K-12K/feature) | AI, creative technology, LLMs | rachel.courtland@technologyreview.com |
+| **Noema Magazine** | **$1/word** ($3K/3K-word essay) | Technology, governance, AI, culture | [email redacted] |
+| **MIT Technology Review** | **$1-3/word** ($2.5K-12K/feature) | AI, creative technology, LLMs | [email redacted] |
 | **Wired** | **$2,500+ starting** | Technology stories | See pitch guidelines |
 | **Logic Magazine** | **$1,200-2,000/essay** | Technology criticism | logicmag.io (themed issues) |
 | **Aeon** | **$500-1,500** | Philosophy, culture, technology | aeon.co/pitch |

@@ -9,7 +9,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import yaml from 'js-yaml'; // We'll need to add this dependency
 
-// Interfaces matching the 4jp-metasystem.yaml structure
+// Interfaces matching the [user]-metasystem.yaml structure
 interface MetasystemManifest {
   components: {
     workspaces: Array<{
@@ -98,7 +98,7 @@ const __filename = fileURLToPath(import.meta.url);
 const entryFile = process.argv[1];
 
 if (entryFile === __filename) {
-  const MANIFEST_PATH = path.resolve(process.cwd(), 'omni-dromenon-machina/4jp-metasystem.yaml');
+  const MANIFEST_PATH = path.resolve(process.cwd(), 'omni-dromenon-machina/[user]-metasystem.yaml');
   const scout = new OrchestratorScout(MANIFEST_PATH);
   
   // Example: Scan the primary target

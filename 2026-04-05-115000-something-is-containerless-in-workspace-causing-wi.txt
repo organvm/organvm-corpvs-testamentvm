@@ -16,7 +16,7 @@
 ⏺ Bash(ps -p 83577 -o pid,ppid,user,command -ww 2>/dev/null || echo "Process
       83577 not found")
   ⎿    PID  PPID USER COMMAND
-     83577 21779 4jp  /opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/
+     83577 21779 [user]  /opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/
      Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Pyt
      … +3 lines (ctrl+o to expand)
 
@@ -27,9 +27,9 @@
 
 ⏺ Bash(ps -e -o pid,ppid,user,pcpu,pmem,command -ww | grep -i python | grep -v
       grep | head -20)
-  ⎿   3347     1 4jp                0.1  0.0 /opt/homebrew/Cellar/python@3.
+  ⎿   3347     1 [user]                0.1  0.0 /opt/homebrew/Cellar/python@3.
      14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/Resources/Python
-     .app/Contents/MacOS/Python /Users/4jp/Workspace/meta-organvm/.venv/bin
+     .app/Contents/MacOS/Python ~/Workspace/meta-organvm/.venv/bin
      … +104 lines (ctrl+o to expand)
 
 ⏺ Found it. Let me dig deeper into what spawned this and what it's doing.
@@ -37,13 +37,13 @@
 ⏺ Bash(ps -p 21779 -o pid,ppid,user,command -ww 2>/dev/null || echo "Parent PID
       21779 not found")
   ⎿    PID  PPID USER COMMAND
-     21779     1 4jp  /bin/bash /Users/4jp/Workspace/organvm-i-theoria/conv
+     21779     1 [user]  /bin/bash ~/Workspace/organvm-i-theoria/conv
      ersation-corpus-engine/scripts/refresh_local_sessions.sh
 
 ⏺ Bash(lsof -p 83577 2>/dev/null | head -40)
   ⎿  COMMAND   PID USER   FD      TYPE             DEVICE SIZE/OFF
             NODE NAME
-     Python  83577  4jp  cwd       DIR               1,15      704
+     Python  83577  [user]  cwd       DIR               1,15      704
      … +102 lines (ctrl+o to expand)
 
   Read 1 file (ctrl+o to expand)
@@ -65,7 +65,7 @@
 
   Searched for 2 patterns (ctrl+o to expand)
 
-⏺ Found it. LaunchAgent com.4jp.cce-refresh is running the Claude local-session
+⏺ Found it. LaunchAgent com.[user].cce-refresh is running the Claude local-session
   refresh with no timeout — 8 hours and counting. Let me investigate the code
   path and the plist.
 
@@ -95,7 +95,7 @@
   Searched for 5 patterns, read 2 files (ctrl+o to expand)
 
 ⏺ Bash(python3 -c "import json; data =
-      json.load(open('/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus
+      json.load(open('~/Workspace/organvm-i-theoria/conversation-corpus
       -site/state/provider-refresh/claude/claude-20260405T05…)
   ⎿  Fixture count: 1409
 
@@ -113,7 +113,7 @@
   Searched for 1 pattern, read 1 file (ctrl+o to expand)
 
 ⏺ Bash(python3 -c "import json; data =
-      json.load(open('/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus
+      json.load(open('~/Workspace/organvm-i-theoria/conversation-corpus
       -site/state/provider-refresh/claude/claude-20260405T05…)
   ⎿  Retrieval fixtures: 1409
      Answer fixtures: 353
@@ -128,7 +128,7 @@
   away. That's ~141 GB of cumulative JSON parsing with zero caching between
   calls. On your 16GB M3, this produces the 97.6% CPU you see.
 
-  The missing container: The LaunchAgent com.4jp.cce-refresh.plist has no
+  The missing container: The LaunchAgent com.[user].cce-refresh.plist has no
   ExecTimeout key. launchd will let this process run forever — it scheduled at
   6-hour intervals but never bounds execution time. Since the process takes 8+
   hours, it will overlap with the next scheduled run.
@@ -142,7 +142,7 @@
   --mode local-session — has been running since 01:58 AM (nearly 8 hours),
   pegged at 97.6% CPU.
 
-  Spawned by: LaunchAgent com.4jp.cce-refresh (runs refresh_local_sessions.sh
+  Spawned by: LaunchAgent com.[user].cce-refresh (runs refresh_local_sessions.sh
   every 6 hours)
 
   The cascade:
@@ -162,7 +162,7 @@
 
   The "containerless" part: no ExecTimeout
 
-  The plist at ~/Library/LaunchAgents/com.4jp.cce-refresh.plist has
+  The plist at ~/Library/LaunchAgents/com.[user].cce-refresh.plist has
   StartInterval: 21600 (6 hours) and Nice: 10 — but no ExecTimeout. launchd lets
    it run forever. Since the process takes 8+ hours, the next scheduled run will
    stack on top of the current one.
@@ -218,7 +218,7 @@
 
      Context
 
-     The com.4jp.cce-refresh LaunchAgent runs refresh_local_sessions.sh every 6
+     The com.[user].cce-refresh LaunchAgent runs refresh_local_sessions.sh every 6
      hours, which invokes
      conversation_corpus_engine.cli provider refresh --provider claude --mode 
      local-session --approve --promote.
@@ -242,7 +242,7 @@
 
      1. Add ExecTimeout to LaunchAgent plist (domus-semper-palingenesis)
 
-     File: private_Library/LaunchAgents/com.4jp.cce-refresh.plist.tmpl
+     File: private_Library/LaunchAgents/com.[user].cce-refresh.plist.tmpl
 
      Add ExecTimeout of 3600 seconds (1 hour) to the plist. This is the hard
      boundary that was missing —
@@ -337,7 +337,7 @@
 
      Critical Files
 
-     File: private_Library/LaunchAgents/com.4jp.cce-refresh.plist.tmpl
+     File: private_Library/LaunchAgents/com.[user].cce-refresh.plist.tmpl
      Repo: domus-semper-palingenesis
      Change: Add ExecTimeout
      ────────────────────────────────────────
@@ -364,11 +364,11 @@
 
      1. Plist: After chezmoi apply, verify ExecTimeout appears in deployed
      plist:
-     plutil -p ~/Library/LaunchAgents/com.4jp.cce-refresh.plist | grep -i
+     plutil -p ~/Library/LaunchAgents/com.[user].cce-refresh.plist | grep -i
      timeout
      1. Then reload: launchctl bootout gui/$(id -u) 
-     ~/Library/LaunchAgents/com.4jp.cce-refresh.plist && launchctl bootstrap 
-     gui/$(id -u) ~/Library/LaunchAgents/com.4jp.cce-refresh.plist
+     ~/Library/LaunchAgents/com.[user].cce-refresh.plist && launchctl bootstrap 
+     gui/$(id -u) ~/Library/LaunchAgents/com.[user].cce-refresh.plist
      2. Evaluation fix: Run the evaluation standalone on the existing candidate
      corpus:
      cd ~/Workspace/organvm-i-theoria/conversation-corpus-engine
@@ -389,7 +389,7 @@
   parallel since they're in different repos.
 
 ⏺ Update(~/Workspace/4444J99/domus-semper-palingenesis/private_Library/LaunchAge
-        nts/com.4jp.cce-refresh.plist.tmpl)
+        nts/com.[user].cce-refresh.plist.tmpl)
   ⎿  Added 4 lines
       27      <key>LowPriorityIO</key>
       28      <true/>
@@ -603,40 +603,40 @@
 
 ⏺ Now verification. Let me run the tests and deploy the plist in parallel.
 
-⏺ Bash(cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine &&
+⏺ Bash(cd ~/Workspace/organvm-i-theoria/conversation-corpus-engine &&
       python3 -m pytest tests/ -x -q 2>&1 | tail -30)
   ⎿  ......................................................................
      .. [ 25%]
      ......................................................................
      … +6 lines (ctrl+o to expand)
 
-⏺ Bash(cd /Users/4jp/Workspace/4444J99/domus-semper-palingenesis && chezmoi diff
-       -- private_Library/LaunchAgents/com.4jp.cce-refresh.plist.tmpl 2>&1 |
+⏺ Bash(cd ~/Workspace/4444J99/domus-semper-palingenesis && chezmoi diff
+       -- private_Library/LaunchAgents/com.[user].cce-refresh.plist.tmpl 2>&1 |
       head -20)
-  ⎿  chezmoi: private_Library/LaunchAgents/com.4jp.cce-refresh.plist.tmpl:
+  ⎿  chezmoi: private_Library/LaunchAgents/com.[user].cce-refresh.plist.tmpl:
      not managed
 
 ⏺ All 277 tests pass. The chezmoi diff needs the deployed path — let me check it
    properly.
 
 ⏺ Bash(chezmoi diff 2>&1 | grep -A 5 "cce-refresh" | head -15)
-  ⎿  diff --git a/Library/LaunchAgents/com.4jp.cce-refresh.plist b/Library/
-     LaunchAgents/com.4jp.cce-refresh.plist
+  ⎿  diff --git a/Library/LaunchAgents/com.[user].cce-refresh.plist b/Library/
+     LaunchAgents/com.[user].cce-refresh.plist
      index 8e01721e01d52c4c36834336f9315fe1f010c891..93ecbaebd0bac65b2f8718
      … +11 lines (ctrl+o to expand)
 
 ⏺ The diff looks correct. Now let me apply it and reload the LaunchAgent.
-⏺ Bash(chezmoi apply ~/Library/LaunchAgents/com.4jp.cce-refresh.plist 2>&1)
+⏺ Bash(chezmoi apply ~/Library/LaunchAgents/com.[user].cce-refresh.plist 2>&1)
   ⎿  (No output)
 
-⏺ Bash(plutil -p ~/Library/LaunchAgents/com.4jp.cce-refresh.plist | grep -i -A1
+⏺ Bash(plutil -p ~/Library/LaunchAgents/com.[user].cce-refresh.plist | grep -i -A1
       "timeout")
   ⎿    "ExecTimeout" => 3600
        "KeepAlive" => {
 
 ⏺ Bash(launchctl bootout gui/$(id -u)
-      ~/Library/LaunchAgents/com.4jp.cce-refresh.plist 2>&1; launchctl bootstrap
-       gui/$(id -u) ~/Library/LaunchAgents/com.4jp.cce-refres…)
+      ~/Library/LaunchAgents/com.[user].cce-refresh.plist 2>&1; launchctl bootstrap
+       gui/$(id -u) ~/Library/LaunchAgents/com.[user].cce-refres…)
   ⎿  LaunchAgent reloaded
 
 ⏺ ExecTimeout confirmed at 3600s, LaunchAgent reloaded. Now let me verify the
@@ -649,7 +649,7 @@
 ⏺ Clean. Now let me time the evaluation against the existing candidate corpus to
    confirm the performance fix.
 
-⏺ Bash(cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine &&
+⏺ Bash(cd ~/Workspace/organvm-i-theoria/conversation-corpus-engine &&
       time python3 -m conversation_corpus_engine.evaluation --root
       ../conversation-corpus-site…)
   ⎿  Running in the background (↓ to manage)
@@ -659,16 +659,16 @@
 
 ⏺ Still running — let me check in a moment.
 
-⏺ Bash(sleep 10 && cat /private/tmp/claude-501/-Users-4jp-Workspace/3a30a5af-031
+⏺ Bash(sleep 10 && cat /private/tmp/claude-501/-Users-[user]-Workspace/3a30a5af-031
       9-4e35-8006-4df306b9ae67/tasks/bawb1ay5t.output 2>/dev/null | tail -15)
   ⎿  (No output)
 
-⏺ Bash(sleep 15 && wc -c /private/tmp/claude-501/-Users-4jp-Workspace/3a30a5af-0
+⏺ Bash(sleep 15 && wc -c /private/tmp/claude-501/-Users-[user]-Workspace/3a30a5af-0
       319-4e35-8006-4df306b9ae67/tasks/bawb1ay5t.output 2>/dev/null; ps aux |
       grep "evaluatio…)
-  ⎿         0 /private/tmp/claude-501/-Users-4jp-Workspace/3a30a5af-0319-4e
+  ⎿         0 /private/tmp/claude-501/-Users-[user]-Workspace/3a30a5af-0319-4e
      35-8006-4df306b9ae67/tasks/bawb1ay5t.output
-     4jp              59873  99.0  0.5 442326912  83200   ??  R    10:04AM
+     [user]              59873  99.0  0.5 442326912  83200   ??  R    10:04AM
      … +13 lines (ctrl+o to expand)
 
 ⏺ Running at 99% CPU for ~5.5 min — let me verify the editable install is
@@ -683,10 +683,10 @@
    + reranking across the full corpus, 5-10 minutes is expected. Let me wait for
    completion.
 
-⏺ Bash(sleep 120 && cat /private/tmp/claude-501/-Users-4jp-Workspace/3a30a5af-03
+⏺ Bash(sleep 120 && cat /private/tmp/claude-501/-Users-[user]-Workspace/3a30a5af-03
       19-4e35-8006-4df306b9ae67/tasks/bawb1ay5t.output 2>/dev/null | tail -15;
       ps aux | grep…)
-  ⎿  4jp              59873  99.7  0.5 442326912  85968   ??  R    10:04AM
+  ⎿  [user]              59873  99.7  0.5 442326912  85968   ??  R    10:04AM
        8:01.99 /opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.
      framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python -m
      … +3 lines (ctrl+o to expand)
@@ -696,11 +696,11 @@
   × text ranking, but with the corpus built once instead of 1,762 times. Let me
   wait for it.
 
-⏺ Bash(sleep 180 && cat /private/tmp/claude-501/-Users-4jp-Workspace/3a30a5af-03
+⏺ Bash(sleep 180 && cat /private/tmp/claude-501/-Users-[user]-Workspace/3a30a5af-03
       19-4e35-8006-4df306b9ae67/tasks/bawb1ay5t.output 2>/dev/null | tail -15;
       echo "---"; ps…)
   ⎿  ---
-     4jp              59873 100.0  0.5 442326912  90176   ??  R    10:04AM
+     [user]              59873 100.0  0.5 442326912  90176   ??  R    10:04AM
       11:14.29 /opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.
      … +4 lines (ctrl+o to expand)
   ⎿  (timeout 4m)
@@ -711,12 +711,12 @@
    genuine work — 1,762 fixture evaluations with text ranking across a large
   corpus. Let me check when it finishes.
 
-⏺ Bash(sleep 300 && cat /private/tmp/claude-501/-Users-4jp-Workspace/3a30a5af-03
+⏺ Bash(sleep 300 && cat /private/tmp/claude-501/-Users-[user]-Workspace/3a30a5af-03
       19-4e35-8006-4df306b9ae67/tasks/bawb1ay5t.output 2>/dev/null | wc -c; echo
        "---"; ps au…)
   ⎿  0
      ---
-     4jp              59873  99.6  0.5 442326912  86608   ??  R    10:04AM
+     [user]              59873  99.6  0.5 442326912  86608   ??  R    10:04AM
      … +5 lines (ctrl+o to expand)
   ⎿  (timeout 6m)
 
@@ -724,12 +724,12 @@
   remaining time is genuine text ranking across 1,762 fixtures. This will
   complete well within the 45-min timeout. Let me wait for it.
 
-⏺ Bash(sleep 600 && cat /private/tmp/claude-501/-Users-4jp-Workspace/3a30a5af-03
+⏺ Bash(sleep 600 && cat /private/tmp/claude-501/-Users-[user]-Workspace/3a30a5af-03
       19-4e35-8006-4df306b9ae67/tasks/bawb1ay5t.output 2>/dev/null | wc -c; echo
        "---"; ps au…)
   ⎿  0
      ---
-     4jp              59873  98.7  0.5 442326912  83424   ??  R    10:04AM
+     [user]              59873  98.7  0.5 442326912  83424   ??  R    10:04AM
      … +5 lines (ctrl+o to expand)
   ⎿  (timeout 11m)
 ⏺ 26 min — nearing the end of the 1,409 retrieval fixtures (~1s/fixture). The
@@ -737,12 +737,12 @@
    within both timeouts (45 min script, 60 min plist). Let me wait for
   completion.
 
-⏺ Bash(sleep 600 && cat /private/tmp/claude-501/-Users-4jp-Workspace/3a30a5af-03
+⏺ Bash(sleep 600 && cat /private/tmp/claude-501/-Users-[user]-Workspace/3a30a5af-03
       19-4e35-8006-4df306b9ae67/tasks/bawb1ay5t.output 2>/dev/null | wc -c; echo
        "---"; ps au…)
   ⎿  0
      ---
-     4jp              59873  99.4  0.5 442326912  88240   ??  R    10:04AM
+     [user]              59873  99.4  0.5 442326912  88240   ??  R    10:04AM
      … +5 lines (ctrl+o to expand)
   ⎿  (timeout 11m)
 
@@ -757,12 +757,12 @@ mise --version && mise help upgrade && mise outdated
    output is buffered by tail. Let me check once more, then I'll address your
   mise question.
 
-⏺ Bash(sleep 300 && cat /private/tmp/claude-501/-Users-4jp-Workspace/3a30a5af-03
+⏺ Bash(sleep 300 && cat /private/tmp/claude-501/-Users-[user]-Workspace/3a30a5af-03
       19-4e35-8006-4df306b9ae67/tasks/bawb1ay5t.output 2>/dev/null | wc -c; echo
        "---output-s…)
   ⎿  0
      ---output-size---
-     4jp              59873  99.3  0.5 442326912  90240   ??  R    10:04AM
+     [user]              59873  99.3  0.5 442326912  90240   ??  R    10:04AM
      … +5 lines (ctrl+o to expand)
   ⎿  (timeout 6m)
 
@@ -799,7 +799,7 @@ mise --version && mise help upgrade && mise outdated
   ┌─────────────────────┬──────────────────────────┬───────────────────────┐
   │       Change        │           File           │         Repo          │
   ├─────────────────────┼──────────────────────────┼───────────────────────┤
-  │ ExecTimeout: 3600   │ com.4jp.cce-refresh.plis │ domus-semper-palingen │
+  │ ExecTimeout: 3600   │ com.[user].cce-refresh.plis │ domus-semper-palingen │
   │                     │ t.tmpl                   │ esis                  │
   ├─────────────────────┼──────────────────────────┼───────────────────────┤
   │ corpus param on sea │ answering.py:728         │ conversation-corpus-e │
@@ -859,7 +859,7 @@ happening again, etc.
 
   What happened
 
-  At 01:58 AM, the com.4jp.cce-refresh LaunchAgent fired its scheduled 6-hour
+  At 01:58 AM, the com.[user].cce-refresh LaunchAgent fired its scheduled 6-hour
   run of refresh_local_sessions.sh. The ChatGPT provider refresh completed
   normally by ~05:58 AM. Then the Claude provider refresh started — and never
   stopped.
@@ -872,7 +872,7 @@ happening again, etc.
   Timeline
 
   Time: 01:58 AM
-  Event: LaunchAgent com.4jp.cce-refresh fires. Bash wrapper starts.
+  Event: LaunchAgent com.[user].cce-refresh fires. Bash wrapper starts.
   ────────────────────────────────────────
   Time: ~02:02 AM
   Event: Claude conversation fetch completes (34MB conversations.json, 14MB
@@ -937,7 +937,7 @@ happening again, etc.
     code 124.
   ────────────────────────────────────────
   Layer: Plist timeout
-  Fix: ExecTimeout: 3600 in com.4jp.cce-refresh.plist.tmpl
+  Fix: ExecTimeout: 3600 in com.[user].cce-refresh.plist.tmpl
   Purpose: launchd kills the entire job after 1 hour. The missing container.
 
   Defense in depth: root cause fix handles the performance bug, script timeout
@@ -950,7 +950,7 @@ happening again, etc.
 
   1. Audit other LaunchAgents for missing ExecTimeout. Any plist in
   private_Library/LaunchAgents/ that runs a data pipeline should have one.
-  Candidates: com.domus.daemon.plist, com.4jp.pipeline.calendar-refresh.plist,
+  Candidates: com.domus.daemon.plist, com.[user].pipeline.calendar-refresh.plist,
   any future CCE-adjacent agents.
   2. The next optimization (not yet implemented): pre-tokenize corpus document
   texts once and store token sets in the corpus dict. This would reduce the
@@ -968,7 +968,7 @@ happening again, etc.
   ┌───────────────────────────┬────────────────────────┬────────────────────┐
   │           File            │          Repo          │       Change       │
   ├───────────────────────────┼────────────────────────┼────────────────────┤
-  │ com.4jp.cce-refresh.plist │ domus-semper-palingene │ Added ExecTimeout: │
+  │ com.[user].cce-refresh.plist │ domus-semper-palingene │ Added ExecTimeout: │
   │ .tmpl                     │ sis                    │  3600              │
   ├───────────────────────────┼────────────────────────┼────────────────────┤
   │                           │                        │ Added optional     │
@@ -1017,12 +1017,12 @@ happening again, etc.
   ⎿    PID  PPID STARTED                          ELAPSED  %CPU %MEM    RSS
        826     1 Tue Mar 31 23:25:18 2026     04-11:56:30  98.3  1.6 262096
 
-⏺ Bash(sudo mdutil -s / 2>/dev/null; mdutil -s /Users/4jp 2>/dev/null; echo
+⏺ Bash(sudo mdutil -s / 2>/dev/null; mdutil -s /Users/[user] 2>/dev/null; echo
       "---"; sudo lsof -p 826 2>/dev/null | grep -E
       "\.spotlight|\.Spotlight|Metadata" | head -10…)
   ⎿  /:
         Indexing enabled.
-     /System/Volumes/Data/Users/4jp:
+     /System/Volumes/Data/Users/[user]:
      … +25 lines (ctrl+o to expand)
 
 ⏺ There's your second unbounded process. **
@@ -1115,10 +1115,10 @@ happening again, etc.
      Spotlight > Privacy):
 
      # Workspace — code search is done via ripgrep, not Spotlight
-     sudo mdutil -i off /Users/4jp/Workspace
+     sudo mdutil -i off ~/Workspace
 
      # Docker VM disk — machine-generated
-     sudo mdutil -i off /Users/4jp/Library/Containers
+     sudo mdutil -i off ~/Library/Containers
 
      # Homebrew — binary packages
      sudo mdutil -i off /opt/homebrew
@@ -1129,7 +1129,7 @@ happening again, etc.
 
      # Add to Spotlight Privacy exclusion list
      defaults write com.apple.Spotlight orderedItems -array-add \
-       '{"enabled"=true;"name"="EXCLUSION";"path"="/Users/4jp/Workspace";}'
+       '{"enabled"=true;"name"="EXCLUSION";"path"="~/Workspace";}'
 
      However, the most reliable method on macOS Tahoe is through System Settings
       or the mdutil command.
@@ -1146,7 +1146,7 @@ happening again, etc.
      3. Verify
 
      # Confirm Workspace indexing is off
-     mdutil -s /Users/4jp/Workspace
+     mdutil -s ~/Workspace
 
      # Watch mds_stores CPU drop
      ps -p 826 -o pid,pcpu,cputime
@@ -1158,9 +1158,9 @@ happening again, etc.
      workload by excluding directories that generate churn but provide no
      Spotlight search value.
 
-⏺ Bash(sudo mdutil -i off /Users/4jp/Workspace 2>&1)
+⏺ Bash(sudo mdutil -i off ~/Workspace 2>&1)
   ⎿  Error: Exit code 1
-     /System/Volumes/Data/Users/4jp/Workspace:
+     /System/Volumes/Data~/Workspace:
      Error: invalid operation.
         Error: unknown indexing state.
 
@@ -1201,7 +1201,7 @@ happening again, etc.
       2>/dev/null | head -1…)
   ⎿  Error: Exit code 1
      ---
-     (eval):2: no matches found: /Users/4jp/Library/Group 
+     (eval):2: no matches found: ~/Library/Group 
      Containers/*.Spotlight/Library/Preferences/*.plist
      ---
      (eval):2: no matches found: /Library/Preferences/*potlight*
@@ -1222,7 +1222,7 @@ happening again, etc.
 ⏺ Bash(# Verify the exclusion was set
       defaults read com.apple.Spotlight EXCLUSIONS 2>&1…)
   ⎿  (
-         "/Users/4jp/Workspace",
+         "~/Workspace",
      "/opt/homebrew"
      … +8 lines (ctrl+o to expand)
 
@@ -1230,7 +1230,7 @@ happening again, etc.
   Let me set it there.
 
 ⏺ Bash(# Set exclusions at the volume level where mds_stores reads them
-      sudo plutil -replace Exclusions -json '["/Users/4jp/Workspace",
+      sudo plutil -replace Exclusions -json '["~/Workspace",
       "/opt/homebrew"]' /System/Volum…)
   ⎿  ---
      {
@@ -1241,7 +1241,7 @@ happening again, etc.
       /System/Volumes/Data/.Spotlight-V100/VolumeConfiguration.plist 2>&1 | grep
        -A5 "Exclusions")
   ⎿    "Exclusions" => [
-         0 => "/Users/4jp/Workspace"
+         0 => "~/Workspace"
          1 => "/opt/homebrew"
      … +3 lines (ctrl+o to expand)
 
@@ -1325,7 +1325,7 @@ happening again, etc.
 
 ❯ /export                                                                       
   ⎿  Conversation exported to:
-     /Users/4jp/Workspace/4444J99/domus-semper-palingenesis/2026-04-05-113028-so
+     ~/Workspace/4444J99/domus-semper-palingenesis/2026-04-05-113028-so
      mething-is-containerless-in-workspace-causing-wi.txt
 
 ❯ ❯ ❯ Provide an overview of all that was and all that is and all that needs to 
@@ -1374,12 +1374,12 @@ will be lost?
 ⏺ Let me run the full close-out audit. Hall monitor mode engaged.
 
 ⏺ Bash(git status -s 2>&1)
-  ⎿   M private_Library/LaunchAgents/com.4jp.cce-refresh.plist.tmpl
-     M  private_dot_claude/projects/private_-Users-4jp-Workspace/memory/MEM
+  ⎿   M private_Library/LaunchAgents/com.[user].cce-refresh.plist.tmpl
+     M  private_dot_claude/projects/private_-Users-[user]-Workspace/memory/MEM
      ORY.md
      … +4 lines (ctrl+o to expand)
 
-⏺ Bash(cd /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine &&
+⏺ Bash(cd ~/Workspace/organvm-i-theoria/conversation-corpus-engine &&
       git status -s 2>&1)
   ⎿   M AGENTS.md
       M CLAUDE.md
@@ -1411,7 +1411,7 @@ will be lost?
   ┌───────┬─────────────────────────────────┬─────────────────┬───────────┐
   │ Repo  │              File               │    Our work?    │  Status   │
   ├───────┼─────────────────────────────────┼─────────────────┼───────────┤
-  │ domus │ com.4jp.cce-refresh.plist.tmpl  │ YES             │ Unstaged  │
+  │ domus │ com.[user].cce-refresh.plist.tmpl  │ YES             │ Unstaged  │
   ├───────┼─────────────────────────────────┼─────────────────┼───────────┤
   │ domus │ exported session transcript     │ YES             │ Untracked │
   ├───────┼─────────────────────────────────┼─────────────────┼───────────┤
@@ -1431,8 +1431,8 @@ will be lost?
 ⏺ Plans dir exists in CCE. .metadata_never_index files confirmed. Now let me
   copy the plan, check the IRF, and commit everything.
 
-⏺ Bash(cp /Users/4jp/.claude/plans/unified-wandering-pancake.md
-      /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine/.claude/
+⏺ Bash(cp ~/.claude/plans/unified-wandering-pancake.md
+      ~/Workspace/organvm-i-theoria/conversation-corpus-engine/.claude/
       plans/2026-04-05-cce-unbounde…)  ⎿  Plan copied to CCE
   ⎿  Loaded ../../meta-organvm/CLAUDE.md
   ⎿  Loaded ../../meta-organvm/organvm-corpvs-testamentvm/CLAUDE.md
@@ -1470,26 +1470,26 @@ will be lost?
 
 ⏺ Bash(git push origin main 2>&1)
   ⎿  │  No config files with names ["lefthook" ".lefthook" ".config/lefthoo
-     k"] have been found in "/Users/4jp/Workspace/organvm-i-theoria/convers
+     k"] have been found in "~/Workspace/organvm-i-theoria/convers
      ation-corpus-engine"
      … +2 lines (ctrl+o to expand)
 
 ⏺ CCE pushed. Now domus.
 
-⏺ Bash(cd /Users/4jp/Workspace/4444J99/domus-semper-palingenesis && git status
+⏺ Bash(cd ~/Workspace/4444J99/domus-semper-palingenesis && git status
       -s 2>&1)
-  ⎿   M private_Library/LaunchAgents/com.4jp.cce-refresh.plist.tmpl
-     M  private_dot_claude/projects/private_-Users-4jp-Workspace/memory/MEM
+  ⎿   M private_Library/LaunchAgents/com.[user].cce-refresh.plist.tmpl
+     M  private_dot_claude/projects/private_-Users-[user]-Workspace/memory/MEM
      ORY.md
      … +4 lines (ctrl+o to expand)
 
 ⏺ Bash(git log --oneline -3 2>&1)
-  ⎿  067d4cc Update .chezmoiignore Update .claude/projects/-Users-4jp-Works
+  ⎿  067d4cc Update .chezmoiignore Update .claude/projects/-Users-[user]-Works
      pace-4444J99-portfolio/memory/MEMORY.md Update .claude/projects/-Users
-     -4jp-Workspace-4444J99-portfolio/memory/project_alpha_omega_roadmap.md
+     -[user]-Workspace-4444J99-portfolio/memory/project_alpha_omega_roadmap.md
      … +202 lines (ctrl+o to expand)
 
-⏺ Bash(git add private_Library/LaunchAgents/com.4jp.cce-refresh.plist.tmpl
+⏺ Bash(git add private_Library/LaunchAgents/com.[user].cce-refresh.plist.tmpl
       2026-04-05-113028-something-is-containerless-in-workspace-causing-wi.txt
       && git commit -m "$…)
   ⎿  [master fa9e42e] fix: add ExecTimeout to cce-refresh LaunchAgent plist
@@ -1499,7 +1499,7 @@ will be lost?
 
 ⏺ Bash(git push origin master 2>&1)
   ⎿  │  No config files with names ["lefthook" ".lefthook" ".config/lefthoo
-     k"] have been found in "/Users/4jp/Workspace/4444J99/domus-semper-pali
+     k"] have been found in "~/Workspace/4444J99/domus-semper-pali
      ngenesis"
      … +2 lines (ctrl+o to expand)
 
@@ -1511,12 +1511,12 @@ will be lost?
 
 ⏺ Now chezmoi add the memory files so they're remote.
 
-⏺ Bash(chezmoi add ~/.claude/projects/-Users-4jp-Workspace/memory/MEMORY.md
-      ~/.claude/projects/-Users-4jp-Workspace/memory/feedback_launchagent_exec_t
+⏺ Bash(chezmoi add ~/.claude/projects/-Users-[user]-Workspace/memory/MEMORY.md
+      ~/.claude/projects/-Users-[user]-Workspace/memory/feedback_launchagent_exec_t
       imeout.md ~/.clau…)
-  ⎿  [master 87b10cb] Update .claude/projects/-Users-4jp-Workspace/memory/M
-     EMORY.md Add .claude/projects/-Users-4jp-Workspace/memory/feedback_lau
-     nchagent_exec_timeout.md Add .claude/projects/-Users-4jp-Workspace/mem
+  ⎿  [master 87b10cb] Update .claude/projects/-Users-[user]-Workspace/memory/M
+     EMORY.md Add .claude/projects/-Users-[user]-Workspace/memory/feedback_lau
+     nchagent_exec_timeout.md Add .claude/projects/-Users-[user]-Workspace/mem
      … +11 lines (ctrl+o to expand)
 
 ⏺ Memory saved, chezmoi added, auto-committed, auto-pushed. Local:Remote = 1:1.
@@ -1556,7 +1556,7 @@ will be lost?
           +nts_v4()` calls. Runtime: 8h+ → 42min. Also added per-provider
           + `timeout 2700` to `refresh_local_sessions.sh`. Commit `8d7c5b
           +a`. | Agent | S-containerless 2026-04-05 | COMPLETED |        
-      332 +| ~~IRF-SYS-081~~ | ~~P0~~ | ~~**Add ExecTimeout to com.4jp.cc
+      332 +| ~~IRF-SYS-081~~ | ~~P0~~ | ~~**Add ExecTimeout to com.[user].cc
           +e-refresh LaunchAgent plist**~~ → **DONE-S-CONTAINERLESS**: Pl
           +ist had no ExecTimeout — process ran for 8h+ at 97.6% CPU with
           + no termination boundary. Added `ExecTimeout: 3600` (1 hour). 
@@ -1571,11 +1571,11 @@ will be lost?
           +uilt index. CPU dropped to 0.0%. | Agent | S-containerless 202
           +6-04-05 | COMPLETED |                                         
       334 +| IRF-SYS-083 | P1 | **Audit ALL LaunchAgent plists for missin
-          +g ExecTimeout** — `com.4jp.cce-refresh.plist` was missing Exec
+          +g ExecTimeout** — `com.[user].cce-refresh.plist` was missing Exec
           +Timeout. Other plists in `private_Library/LaunchAgents/` may h
-          +ave the same gap: `com.domus.daemon`, `com.4jp.desktop-router`
-          +, `com.4jp.downloads-tidy`, `com.4jp.naming-maintenance`, `com
-          +.4jp.pipeline.calendar-refresh`, etc. Each pipeline agent need
+          +ave the same gap: `com.domus.daemon`, `com.[user].desktop-router`
+          +, `com.[user].downloads-tidy`, `com.[user].naming-maintenance`, `com
+          +.[user].pipeline.calendar-refresh`, etc. Each pipeline agent need
           +s a bounded execution time. | Agent | S-containerless 2026-04-
           +05 N/A audit | None |                                         
       335 +| IRF-CCE-041 | P2 | **Pre-tokenize corpus documents for eval 
@@ -1620,7 +1620,7 @@ will be lost?
          be made to exist.
       9  
 
-⏺ Bash(cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git
+⏺ Bash(cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git
       add INST-INDEX-RERUM-FACIENDARUM.md && git commit -m "$(cat <<'EOF'
       registry: add 6 IRF i…)  ⎿  [main 9a1a2b0] registry: add 6 IRF items from S-containerless session
      (3 DONE, 3 open)
@@ -1630,7 +1630,7 @@ will be lost?
   ⎿  Error: Exit code 1
      │  No config files with names ["lefthook" ".lefthook" ".config/lefthook"] 
      have been found in 
-     "/Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm"
+     "~/Workspace/meta-organvm/organvm-corpvs-testamentvm"
      To github.com:meta-organvm/organvm-corpvs-testamentvm.git
       ! [rejected]        main -> main (non-fast-forward)
      error: failed to push some refs to 
@@ -1702,7 +1702,7 @@ will be lost?
   Step 6: Final State Verification
 
 ⏺ Bash(echo "=== CCE ===" && cd
-      /Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine && git
+      ~/Workspace/organvm-i-theoria/conversation-corpus-engine && git
       status -s && git log --oneline -3 && echo "=== DOMUS ===" && c…)
   ⎿  === CCE ===
      512db28 docs: sync context files from organvm context engine
@@ -1711,7 +1711,7 @@ will be lost?
 
 ⏺ All repos clean. All pushed. Let me verify corpvs separately.
 
-⏺ Bash(cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git
+⏺ Bash(cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git
       status -s && git log --oneline -1)
   ⎿   M data/fossil/fossil-record.jsonl
      4c8405b registry: add 6 IRF items from S-containerless session (3 DONE
@@ -1741,7 +1741,7 @@ will be lost?
   What was done (3 COMPLETED)
 
   - IRF-CCE-040: O(n²) evaluation fix — build_documents() cached, 8h→42min
-  - IRF-SYS-081: ExecTimeout: 3600 on com.4jp.cce-refresh.plist
+  - IRF-SYS-081: ExecTimeout: 3600 on com.[user].cce-refresh.plist
   - IRF-SYS-082: Spotlight exclusions for ~/Workspace + /opt/homebrew
 
   What was discovered (3 OPEN)

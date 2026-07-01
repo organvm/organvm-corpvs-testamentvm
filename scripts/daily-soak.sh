@@ -3,7 +3,7 @@ set -euo pipefail
 
 # Daily soak test snapshot collector
 # Runs soak-test-monitor.py collect, commits, and pushes the result.
-# Designed to be called by launchd (com.4jp.organvm.soak-snapshot.plist).
+# Designed to be called by launchd (com.[user].organvm.soak-snapshot.plist).
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_DIR="$(dirname "$SCRIPT_DIR")"

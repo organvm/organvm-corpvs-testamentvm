@@ -1,10 +1,10 @@
 # Society Structure Documents
 
-**User:** Anthony Padavano (padavano.anthony@gmail.com)  
+**User:** [name redacted] ([email redacted])  
 **Created:** 5/6/2025 0:01:19  
 **Updated:** 3/30/2026 10:24:51  
 **Exported:** 3/30/2026 10:24:53  
-**Link:** [https://chatgpt.com/c/6819898f-62a8-8003-b850-331fb434355b](https://chatgpt.com/c/6819898f-62a8-8003-b850-331fb434355b)  
+**Link:** [[personal conversation link redacted]]([personal conversation link redacted])  
 
 ## Prompt:
 what documents/bodies make up the entirety of a society?

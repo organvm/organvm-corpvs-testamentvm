@@ -1,182 +1,182 @@
-{"action": "mkdir", "path": "/Users/4jp/Workspace/organvm-i-theoria"}
-{"action": "mkdir", "path": "/Users/4jp/Workspace/organvm-ii-poiesis"}
-{"action": "mkdir", "path": "/Users/4jp/Workspace/organvm-iii-ergon"}
-{"action": "mkdir", "path": "/Users/4jp/Workspace/organvm-iv-taxis"}
-{"action": "mkdir", "path": "/Users/4jp/Workspace/organvm-v-logos"}
-{"action": "mkdir", "path": "/Users/4jp/Workspace/organvm-vi-koinonia"}
-{"action": "mkdir", "path": "/Users/4jp/Workspace/organvm-vii-kerygma"}
-{"action": "mkdir", "path": "/Users/4jp/Workspace/meta-organvm"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/liminal/repo/recursive-engine-generative-entity", "dest": "/Users/4jp/Workspace/organvm-i-theoria/recursive-engine--generative-entity"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-i-theoria/recursive-engine--generative-entity", "old_url": "git@github.com:4444J99/recursive-engine--generative-entity.git", "new_url": "https://github.com/organvm-i-theoria/recursive-engine--generative-entity.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/liminal/repo/organon-noumenon-ontogenetic-morphe", "dest": "/Users/4jp/Workspace/organvm-i-theoria/organon-noumenon--ontogenetic-morphe"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-i-theoria/organon-noumenon--ontogenetic-morphe", "old_url": "git@github.com:4444J99/organon-noumenon--ontogenetic-morphe.git", "new_url": "https://github.com/organvm-i-theoria/organon-noumenon--ontogenetic-morphe.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/liminal/repo/narratological-algorithmic-lenses", "dest": "/Users/4jp/Workspace/organvm-i-theoria/narratological-algorithmic-lenses"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-i-theoria/narratological-algorithmic-lenses", "old_url": "git@github.com:organvm-i-theoria/narratological-algorithmic-lenses", "new_url": "https://github.com/organvm-i-theoria/narratological-algorithmic-lenses.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/liminal/repo/call-function-ontological", "dest": "/Users/4jp/Workspace/organvm-i-theoria/call-function--ontological"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-i-theoria/call-function--ontological", "old_url": "git@github.com:4444J99/call-function--ontological.git", "new_url": "https://github.com/organvm-i-theoria/call-function--ontological.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/liminal/repo/sema-metra-alchemica-mundi", "dest": "/Users/4jp/Workspace/organvm-i-theoria/sema-metra--alchemica-mundi"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-i-theoria/sema-metra--alchemica-mundi", "old_url": "git@github.com:4444J99/sema-metra--alchemica-mundi.git", "new_url": "https://github.com/organvm-i-theoria/sema-metra--alchemica-mundi.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/i/repo/system-governance-framework", "dest": "/Users/4jp/Workspace/organvm-i-theoria/system-governance-framework"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-i-theoria/system-governance-framework", "old_url": "git@github.com:ivviiviivvi/system-governance-framework.git", "new_url": "https://github.com/organvm-i-theoria/system-governance-framework.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/i/repo/cognitive-archaelogy-tribunal", "dest": "/Users/4jp/Workspace/organvm-i-theoria/cognitive-archaelogy-tribunal"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-i-theoria/cognitive-archaelogy-tribunal", "old_url": "git@github.com:ivviiviivvi/cognitive-archaelogy-tribunal.git", "new_url": "https://github.com/organvm-i-theoria/cognitive-archaelogy-tribunal.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/i/repo/radix-recursiva-solve-coagula-redi", "dest": "/Users/4jp/Workspace/organvm-i-theoria/radix-recursiva-solve-coagula-redi"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-i-theoria/radix-recursiva-solve-coagula-redi", "old_url": "git@github.com:ivviiviivvi/radix-recursiva-solve-coagula-redi.git", "new_url": "https://github.com/organvm-i-theoria/radix-recursiva-solve-coagula-redi.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/i/repo/nexus-babel-alexandria", "dest": "/Users/4jp/Workspace/organvm-i-theoria/nexus--babel-alexandria-"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-i-theoria/nexus--babel-alexandria-", "old_url": "git@github.com:ivviiviivvi/nexus--babel-alexandria-.git", "new_url": "https://github.com/organvm-i-theoria/nexus--babel-alexandria-.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/i/repo/reverse-engine-recursive-run", "dest": "/Users/4jp/Workspace/organvm-i-theoria/reverse-engine-recursive-run"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-i-theoria/reverse-engine-recursive-run", "old_url": "git@github.com:ivviiviivvi/reverse-engine-recursive-run.git", "new_url": "https://github.com/organvm-i-theoria/reverse-engine-recursive-run.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/i/repo/4-ivi374-f0rivi4", "dest": "/Users/4jp/Workspace/organvm-i-theoria/4-ivi374-F0Rivi4"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-i-theoria/4-ivi374-F0Rivi4", "old_url": "git@github.com:ivviiviivvi/4-ivi374-F0Rivi4.git", "new_url": "https://github.com/organvm-i-theoria/4-ivi374-F0Rivi4.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/i/repo/cog-init-1-0", "dest": "/Users/4jp/Workspace/organvm-i-theoria/cog-init-1-0-"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-i-theoria/cog-init-1-0-", "old_url": "git@github.com:ivviiviivvi/cog-init-1-0-.git", "new_url": "https://github.com/organvm-i-theoria/cog-init-1-0-.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/i/repo/collective-persona-operations", "dest": "/Users/4jp/Workspace/organvm-i-theoria/collective-persona-operations"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-i-theoria/collective-persona-operations", "old_url": "git@github.com:ivviiviivvi/collective-persona-operations.git", "new_url": "https://github.com/organvm-i-theoria/collective-persona-operations.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/liminal/repo/linguistic-atomization-framework", "dest": "/Users/4jp/Workspace/organvm-i-theoria/linguistic-atomization-framework"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-i-theoria/linguistic-atomization-framework", "old_url": "git@github.com:4444J99/linguistic-atomization-framework.git", "new_url": "https://github.com/organvm-i-theoria/linguistic-atomization-framework.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/operate/org/liminal/repo/my-knowledge-base", "dest": "/Users/4jp/Workspace/organvm-i-theoria/my-knowledge-base"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-i-theoria/my-knowledge-base", "old_url": "git@github.com:organvm-i-theoria/my-knowledge-base.git", "new_url": "https://github.com/organvm-i-theoria/my-knowledge-base.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/ii/repo/core-engine", "dest": "/Users/4jp/Workspace/organvm-ii-poiesis/core-engine"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-ii-poiesis/core-engine", "old_url": "git@github.com:omni-dromenon-machina/core-engine.git", "new_url": "https://github.com/organvm-ii-poiesis/core-engine.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/ii/repo/performance-sdk", "dest": "/Users/4jp/Workspace/organvm-ii-poiesis/performance-sdk"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-ii-poiesis/performance-sdk", "old_url": "git@github.com:omni-dromenon-machina/performance-sdk.git", "new_url": "https://github.com/organvm-ii-poiesis/performance-sdk.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/ii/repo/example-generative-music", "dest": "/Users/4jp/Workspace/organvm-ii-poiesis/example-generative-music"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-ii-poiesis/example-generative-music", "old_url": "git@github.com:omni-dromenon-machina/example-generative-music.git", "new_url": "https://github.com/organvm-ii-poiesis/example-generative-music.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/ii/repo/metasystem-master", "dest": "/Users/4jp/Workspace/organvm-ii-poiesis/metasystem-master"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-ii-poiesis/metasystem-master", "old_url": "git@github.com:omni-dromenon-machina/metasystem-master.git", "new_url": "https://github.com/organvm-ii-poiesis/metasystem-master.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/ii/repo/example-choreographic-interface", "dest": "/Users/4jp/Workspace/organvm-ii-poiesis/example-choreographic-interface"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-ii-poiesis/example-choreographic-interface", "old_url": "git@github.com:omni-dromenon-machina/example-choreographic-interface.git", "new_url": "https://github.com/organvm-ii-poiesis/example-choreographic-interface.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/ii/repo/example-generative-visual", "dest": "/Users/4jp/Workspace/organvm-ii-poiesis/example-generative-visual"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-ii-poiesis/example-generative-visual", "old_url": "git@github.com:omni-dromenon-machina/example-generative-visual.git", "new_url": "https://github.com/organvm-ii-poiesis/example-generative-visual.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/ii/repo/docs", "dest": "/Users/4jp/Workspace/organvm-ii-poiesis/docs"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-ii-poiesis/docs", "old_url": "git@github.com:omni-dromenon-machina/docs.git", "new_url": "https://github.com/organvm-ii-poiesis/docs.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm", "dest": "/Users/4jp/Workspace/organvm-ii-poiesis/a-mavs-olevm"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-ii-poiesis/a-mavs-olevm", "old_url": "git@github.com:ivviiviivvi/a-mavs-olevm.git", "new_url": "https://github.com/organvm-ii-poiesis/a-mavs-olevm.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/i/repo/a-i-council-coliseum", "dest": "/Users/4jp/Workspace/organvm-ii-poiesis/a-i-council--coliseum"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-ii-poiesis/a-i-council--coliseum", "old_url": "git@github.com:organvm-ii-poiesis/a-i-council--coliseum.git", "new_url": "https://github.com/organvm-ii-poiesis/a-i-council--coliseum.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/ii/repo/artist-toolkit-and-templates", "dest": "/Users/4jp/Workspace/organvm-ii-poiesis/artist-toolkit-and-templates"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-ii-poiesis/artist-toolkit-and-templates", "old_url": "git@github.com:omni-dromenon-machina/artist-toolkit-and-templates.git", "new_url": "https://github.com/organvm-ii-poiesis/artist-toolkit-and-templates.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/ii/repo/client-sdk", "dest": "/Users/4jp/Workspace/organvm-ii-poiesis/client-sdk"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-ii-poiesis/client-sdk", "old_url": "git@github.com:omni-dromenon-machina/client-sdk.git", "new_url": "https://github.com/organvm-ii-poiesis/client-sdk.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/ii/repo/academic-publication", "dest": "/Users/4jp/Workspace/organvm-ii-poiesis/academic-publication"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-ii-poiesis/academic-publication", "old_url": "git@github.com:omni-dromenon-machina/academic-publication.git", "new_url": "https://github.com/organvm-ii-poiesis/academic-publication.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/ii/repo/example-theatre-dialogue", "dest": "/Users/4jp/Workspace/organvm-ii-poiesis/example-theatre-dialogue"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-ii-poiesis/example-theatre-dialogue", "old_url": "git@github.com:omni-dromenon-machina/example-theatre-dialogue.git", "new_url": "https://github.com/organvm-ii-poiesis/example-theatre-dialogue.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/ii/repo/audio-synthesis-bridge", "dest": "/Users/4jp/Workspace/organvm-ii-poiesis/audio-synthesis-bridge"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-ii-poiesis/audio-synthesis-bridge", "old_url": "git@github.com:omni-dromenon-machina/audio-synthesis-bridge.git", "new_url": "https://github.com/organvm-ii-poiesis/audio-synthesis-bridge.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/i/repo/classroom-rpg-aetheria", "dest": "/Users/4jp/Workspace/organvm-iii-ergon/classroom-rpg-aetheria"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iii-ergon/classroom-rpg-aetheria", "old_url": "git@github.com:ivviiviivvi/classroom-rpg-aetheria.git", "new_url": "https://github.com/organvm-iii-ergon/classroom-rpg-aetheria.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/i/repo/gamified-coach-interface", "dest": "/Users/4jp/Workspace/organvm-iii-ergon/gamified-coach-interface"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iii-ergon/gamified-coach-interface", "old_url": "git@github.com:ivviiviivvi/gamified-coach-interface.git", "new_url": "https://github.com/organvm-iii-ergon/gamified-coach-interface.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/i/repo/trade-perpetual-future", "dest": "/Users/4jp/Workspace/organvm-iii-ergon/trade-perpetual-future"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iii-ergon/trade-perpetual-future", "old_url": "git@github.com:organvm-iii-ergon/trade-perpetual-future.git", "new_url": "https://github.com/organvm-iii-ergon/trade-perpetual-future.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/i/repo/sovereign-ecosystem-real-estate-luxury", "dest": "/Users/4jp/Workspace/organvm-iii-ergon/sovereign-ecosystem--real-estate-luxury"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iii-ergon/sovereign-ecosystem--real-estate-luxury", "old_url": "git@github.com:ivviiviivvi/sovereign-ecosystem--real-estate-luxury.git", "new_url": "https://github.com/organvm-iii-ergon/sovereign-ecosystem--real-estate-luxury.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/operate/org/iii/repo/public-record-data-scrapper", "dest": "/Users/4jp/Workspace/organvm-iii-ergon/public-record-data-scrapper"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iii-ergon/public-record-data-scrapper", "old_url": "git@github.com:labores-profani-crux/public-record-data-scrapper.git", "new_url": "https://github.com/organvm-iii-ergon/public-record-data-scrapper.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/i/repo/search-local-happy-hour", "dest": "/Users/4jp/Workspace/organvm-iii-ergon/search-local--happy-hour"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iii-ergon/search-local--happy-hour", "old_url": "git@github.com:ivviiviivvi/search-local--happy-hour.git", "new_url": "https://github.com/organvm-iii-ergon/search-local--happy-hour.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/operate/org/liminal/repo/multi-camera-livestream-framework", "dest": "/Users/4jp/Workspace/organvm-iii-ergon/multi-camera--livestream--framework"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iii-ergon/multi-camera--livestream--framework", "old_url": "git@github.com:4444J99/multi-camera--livestream--framework.git", "new_url": "https://github.com/organvm-iii-ergon/multi-camera--livestream--framework.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/operate/org/liminal/repo/universal-mail-automation", "dest": "/Users/4jp/Workspace/organvm-iii-ergon/universal-mail--automation"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iii-ergon/universal-mail--automation", "old_url": "git@github.com:4444J99/universal-mail--automation.git", "new_url": "https://github.com/organvm-iii-ergon/universal-mail--automation.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/operate/org/liminal/repo/mirror-mirror", "dest": "/Users/4jp/Workspace/organvm-iii-ergon/mirror-mirror"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iii-ergon/mirror-mirror", "old_url": "git@github.com:4444J99/mirror-mirror.git", "new_url": "https://github.com/organvm-iii-ergon/mirror-mirror.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/operate/org/liminal/repo/the-invisible-ledger", "dest": "/Users/4jp/Workspace/organvm-iii-ergon/the-invisible-ledger"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iii-ergon/the-invisible-ledger", "old_url": "git@github.com:4444J99/the-invisible-ledger.git", "new_url": "https://github.com/organvm-iii-ergon/the-invisible-ledger.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/archive/org/liminal_alt/repo/enterprise-plugin", "dest": "/Users/4jp/Workspace/organvm-iii-ergon/enterprise-plugin"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iii-ergon/enterprise-plugin", "old_url": "git@github.com:4444JPP/enterprise-plugin.git", "new_url": "https://github.com/organvm-iii-ergon/enterprise-plugin.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/i/repo/virgil-training-overlay", "dest": "/Users/4jp/Workspace/organvm-iii-ergon/virgil-training-overlay"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iii-ergon/virgil-training-overlay", "old_url": "git@github.com:ivviiviivvi/virgil-training-overlay.git", "new_url": "https://github.com/organvm-iii-ergon/virgil-training-overlay.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/liminal/repo/the-actual-news", "dest": "/Users/4jp/Workspace/organvm-iii-ergon/the-actual-news"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iii-ergon/the-actual-news", "old_url": "git@github.com:4444J99/the-actual-news.git", "new_url": "https://github.com/organvm-iii-ergon/the-actual-news.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/operate/org/liminal/repo/your-fit-tailored", "dest": "/Users/4jp/Workspace/organvm-iii-ergon/your-fit-tailored"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iii-ergon/your-fit-tailored", "old_url": "git@github.com:4444J99/your-fit-tailored.git", "new_url": "https://github.com/organvm-iii-ergon/your-fit-tailored.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/liminal/repo/my-block-warfare", "dest": "/Users/4jp/Workspace/organvm-iii-ergon/my-block-warfare"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iii-ergon/my-block-warfare", "old_url": "git@github.com:4444J99/my-block-warfare.git", "new_url": "https://github.com/organvm-iii-ergon/my-block-warfare.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/liminal/repo/life-my-midst-in", "dest": "/Users/4jp/Workspace/organvm-iii-ergon/life-my--midst--in"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iii-ergon/life-my--midst--in", "old_url": "git@github.com:4444J99/life-my--midst--in.git", "new_url": "https://github.com/organvm-iii-ergon/life-my--midst--in.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/liminal/repo/my-father-mother", "dest": "/Users/4jp/Workspace/organvm-iii-ergon/my--father-mother"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iii-ergon/my--father-mother", "old_url": "git@github.com:4444J99/my--father-mother.git", "new_url": "https://github.com/organvm-iii-ergon/my--father-mother.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/operate/org/iv/repo/orchestration-start-here", "dest": "/Users/4jp/Workspace/organvm-iv-taxis/orchestration-start-here"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iv-taxis/orchestration-start-here", "old_url": "git@github.com:4444j99-orchestration/orchestration-start-here.git", "new_url": "https://github.com/organvm-iv-taxis/orchestration-start-here.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/i/repo/petasum-super-petasum", "dest": "/Users/4jp/Workspace/organvm-iv-taxis/petasum-super-petasum"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iv-taxis/petasum-super-petasum", "old_url": "git@github.com:ivviiviivvi/petasum-super-petasum.git", "new_url": "https://github.com/organvm-iv-taxis/petasum-super-petasum.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/i/repo/universal-node-network", "dest": "/Users/4jp/Workspace/organvm-iv-taxis/universal-node-network"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iv-taxis/universal-node-network", "old_url": "git@github.com:ivviiviivvi/universal-node-network.git", "new_url": "https://github.com/organvm-iv-taxis/universal-node-network.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/operate/org/liminal/repo/agent-claude-smith", "dest": "/Users/4jp/Workspace/organvm-iv-taxis/agent--claude-smith"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iv-taxis/agent--claude-smith", "old_url": "git@github.com:4444J99/agent--claude-smith.git", "new_url": "https://github.com/organvm-iv-taxis/agent--claude-smith.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/publish/org/v/repo/public-process", "dest": "/Users/4jp/Workspace/organvm-v-logos/public-process"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-v-logos/public-process", "old_url": "git@github.com:4444j99-organs/public-process.git", "new_url": "https://github.com/organvm-v-logos/public-process.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/vi/repo/salon-archive", "dest": "/Users/4jp/Workspace/organvm-vi-koinonia/salon-archive"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-vi-koinonia/salon-archive", "old_url": "git@github.com:4444j99-community/salon-archive.git", "new_url": "https://github.com/organvm-vi-koinonia/salon-archive.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/vi/repo/reading-group-curriculum", "dest": "/Users/4jp/Workspace/organvm-vi-koinonia/reading-group-curriculum"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-vi-koinonia/reading-group-curriculum", "old_url": "git@github.com:4444j99-community/reading-group-curriculum.git", "new_url": "https://github.com/organvm-vi-koinonia/reading-group-curriculum.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/publish/org/vii/repo/announcement-templates", "dest": "/Users/4jp/Workspace/organvm-vii-kerygma/announcement-templates"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-vii-kerygma/announcement-templates", "old_url": "git@github.com:4444j99-marketing/announcement-templates.git", "new_url": "https://github.com/organvm-vii-kerygma/announcement-templates.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/publish/org/vii/repo/social-automation", "dest": "/Users/4jp/Workspace/organvm-vii-kerygma/social-automation"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-vii-kerygma/social-automation", "old_url": "git@github.com:4444j99-marketing/social-automation.git", "new_url": "https://github.com/organvm-vii-kerygma/social-automation.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/publish/org/vii/repo/distribution-strategy", "dest": "/Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-vii-kerygma/distribution-strategy", "old_url": "git@github.com:4444j99-marketing/distribution-strategy.git", "new_url": "https://github.com/organvm-vii-kerygma/distribution-strategy.git"}
-{"action": "move", "source": "/Users/4jp/Workspace/chthon-oneiros", "dest": "/Users/4jp/Workspace/organvm-ii-poiesis/chthon-oneiros"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-ii-poiesis/chthon-oneiros", "old_url": "git@github.com:organvm-ii-poiesis/chthon-oneiros.git", "new_url": "https://github.com/organvm-ii-poiesis/chthon-oneiros.git"}
-{"action": "move", "source": "/Users/4jp/Workspace/krypto-velamen", "dest": "/Users/4jp/Workspace/organvm-ii-poiesis/krypto-velamen"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-ii-poiesis/krypto-velamen", "old_url": "git@github.com:organvm-ii-poiesis/krypto-velamen.git", "new_url": "https://github.com/organvm-ii-poiesis/krypto-velamen.git"}
-{"action": "move", "source": "/Users/4jp/Workspace/alchemia-ingestvm", "dest": "/Users/4jp/Workspace/meta-organvm/alchemia-ingestvm"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/meta-organvm/alchemia-ingestvm", "old_url": "git@github.com:meta-organvm/alchemia-ingestvm.git", "new_url": "https://github.com/meta-organvm/alchemia-ingestvm.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/create/org/i/repo/fetch-familiar-friends", "dest": "/Users/4jp/Workspace/organvm-iii-ergon/fetch-familiar-friends"}
-{"action": "merge_content", "content_source": "/Users/4jp/Workspace/fetch-familiar-friends", "local_dir": "/Users/4jp/Workspace/organvm-iii-ergon/fetch-familiar-friends/_local"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iii-ergon/fetch-familiar-friends", "old_url": "git@github.com:ivviiviivvi/fetch-familiar-friends.git", "new_url": "https://github.com/organvm-iii-ergon/fetch-familiar-friends.git"}
-{"action": "move", "source": "/Users/4jp/world/realm/operate/org/liminal/repo/agentic-titan", "dest": "/Users/4jp/Workspace/organvm-iv-taxis/agentic-titan"}
-{"action": "merge_content", "content_source": "/Users/4jp/Workspace/agentic-titan", "local_dir": "/Users/4jp/Workspace/organvm-iv-taxis/agentic-titan/_local"}
-{"action": "remote_update", "path": "/Users/4jp/Workspace/organvm-iv-taxis/agentic-titan", "old_url": "git@github.com:organvm-iv-taxis/agentic-titan.git", "new_url": "https://github.com/organvm-iv-taxis/agentic-titan.git"}
-{"action": "move_content", "source": "/Users/4jp/Workspace/scalable-lore-expert", "dest": "/Users/4jp/Workspace/organvm-i-theoria/scalable-lore-expert"}
-{"action": "move_content", "source": "/Users/4jp/Workspace/life-betterment-simulation", "dest": "/Users/4jp/Workspace/organvm-ii-poiesis/life-betterment-simulation"}
-{"action": "move_content", "source": "/Users/4jp/Workspace/universal-waveform-explorer", "dest": "/Users/4jp/Workspace/organvm-ii-poiesis/universal-waveform-explorer"}
-{"action": "move_content", "source": "/Users/4jp/Workspace/shared-rememberance-gateway", "dest": "/Users/4jp/Workspace/organvm-ii-poiesis/shared-remembrance-gateway"}
-{"action": "move_content", "source": "/Users/4jp/Workspace/card-trade-social", "dest": "/Users/4jp/Workspace/organvm-iii-ergon/card-trade-social"}
-{"action": "move_content", "source": "/Users/4jp/world/realm/operate/org/liminal/repo/a-i-skills", "dest": "/Users/4jp/Workspace/organvm-iv-taxis/a-i--skills"}
-{"action": "move_content", "source": "/Users/4jp/Workspace/adaptive-personal-syllabus", "dest": "/Users/4jp/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/render-second-amendment", "target": "/Users/4jp/world/realm/create/org/i/repo/render-second-amendment"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/a-i-council--coliseum", "target": "/Users/4jp/world/realm/create/org/i/repo/a-i-council-coliseum"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/virgil-training-overlay", "target": "/Users/4jp/world/realm/create/org/i/repo/virgil-training-overlay"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/etceter4", "target": "/Users/4jp/world/realm/research/org/liminal/repo/etceter4"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/narratological-algorithmic-lenses", "target": "/Users/4jp/world/realm/create/org/liminal/repo/narratological-algorithmic-lenses"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/trade-perpetual-future", "target": "/Users/4jp/world/realm/create/org/i/repo/trade-perpetual-future"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/call-function--ontological", "target": "/Users/4jp/world/realm/create/org/liminal/repo/call-function-ontological"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/classroom-rpg-aetheria", "target": "/Users/4jp/world/realm/create/org/i/repo/classroom-rpg-aetheria"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/recursive-engine--generative-entity", "target": "/Users/4jp/world/realm/create/org/liminal/repo/recursive-engine-generative-entity"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/omni-dromenon-machina", "target": "/Users/4jp/world/realm/create/org/ii/repo/metasystem-master"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/my--father-mother", "target": "/Users/4jp/world/realm/create/org/liminal/repo/my-father-mother"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/the-actual-news", "target": "/Users/4jp/world/realm/create/org/liminal/repo/the-actual-news"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/search-local--happy-hour", "target": "/Users/4jp/world/realm/create/org/i/repo/search-local-happy-hour"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/sema-metra--alchemica-mundi", "target": "/Users/4jp/world/realm/create/org/liminal/repo/sema-metra-alchemica-mundi"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/reverse-engine-recursive-run", "target": "/Users/4jp/world/realm/create/org/i/repo/reverse-engine-recursive-run"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/anon-hookup-now", "target": "/Users/4jp/world/realm/create/org/i/repo/anon-hookup-now"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/nexus--babel-alexandria-", "target": "/Users/4jp/world/realm/create/org/i/repo/nexus-babel-alexandria"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/a-mavs-olevm", "target": "/Users/4jp/world/realm/create/org/i/repo/a-mavs-olevm"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/my-block-warfare", "target": "/Users/4jp/world/realm/create/org/liminal/repo/my-block-warfare"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/your--fit-tailored", "target": "/Users/4jp/world/realm/operate/org/liminal/repo/your-fit-tailored"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/linguistic-atomization-framework", "target": "/Users/4jp/world/realm/create/org/liminal/repo/linguistic-atomization-framework"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/select-or-left-or-right-or", "target": "/Users/4jp/world/realm/create/org/i/repo/select-or-left-or-right-or"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/knowledge-base", "target": "/Users/4jp/world/realm/operate/org/liminal/repo/my-knowledge-base"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/life-my--midst--in", "target": "/Users/4jp/world/realm/create/org/liminal/repo/life-my-midst-in"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/the-invisible-ledger", "target": "/Users/4jp/world/realm/operate/org/liminal/repo/the-invisible-ledger"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/public-record-data-scrapper", "target": "/Users/4jp/world/realm/operate/org/iii/repo/public-record-data-scrapper"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/gamified-coach-interface", "target": "/Users/4jp/world/realm/create/org/i/repo/gamified-coach-interface"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/petasum-super-petasum", "target": "/Users/4jp/world/realm/create/org/i/repo/petasum-super-petasum"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/meta-source--ledger-output", "target": "/Users/4jp/world/realm/create/org/liminal/repo/meta-source-ledger-output"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/cognitive-archaelogy-tribunal", "target": "/Users/4jp/world/realm/create/org/i/repo/cognitive-archaelogy-tribunal"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/a-i--skills", "target": "/Users/4jp/world/realm/operate/org/liminal/repo/a-i-skills"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/Mole", "target": "/Users/4jp/world/realm/research/org/liminal/repo/mole"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/mirror-mirror", "target": "/Users/4jp/world/realm/operate/org/liminal/repo/mirror-mirror"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/agent--claude-smith", "target": "/Users/4jp/world/realm/operate/org/liminal/repo/agent-claude-smith"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/multi-camera--livestream--framework", "target": "/Users/4jp/world/realm/operate/org/liminal/repo/multi-camera-livestream-framework"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/system-governance-framework", "target": "/Users/4jp/world/realm/create/org/i/repo/system-governance-framework"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/universal-mail--automation", "target": "/Users/4jp/world/realm/operate/org/liminal/repo/universal-mail-automation"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/organon-noumenon--ontogenetic-morphe", "target": "/Users/4jp/world/realm/create/org/liminal/repo/organon-noumenon-ontogenetic-morphe"}
-{"action": "remove_symlink", "path": "/Users/4jp/Workspace/sovereign-ecosystem--real-estate-luxury", "target": "/Users/4jp/world/realm/create/org/i/repo/sovereign-ecosystem-real-estate-luxury"}
-{"action": "remove_dir", "path": "/Users/4jp/Workspace/4444j99-community"}
-{"action": "remove_dir", "path": "/Users/4jp/Workspace/4444j99-marketing"}
-{"action": "remove_dir", "path": "/Users/4jp/Workspace/4444j99-orchestration"}
-{"action": "remove_dir", "path": "/Users/4jp/Workspace/4444j99-organs"}
+{"action": "mkdir", "path": "~/Workspace/organvm-i-theoria"}
+{"action": "mkdir", "path": "~/Workspace/organvm-ii-poiesis"}
+{"action": "mkdir", "path": "~/Workspace/organvm-iii-ergon"}
+{"action": "mkdir", "path": "~/Workspace/organvm-iv-taxis"}
+{"action": "mkdir", "path": "~/Workspace/organvm-v-logos"}
+{"action": "mkdir", "path": "~/Workspace/organvm-vi-koinonia"}
+{"action": "mkdir", "path": "~/Workspace/organvm-vii-kerygma"}
+{"action": "mkdir", "path": "~/Workspace/meta-organvm"}
+{"action": "move", "source": "~/world/realm/create/org/liminal/repo/recursive-engine-generative-entity", "dest": "~/Workspace/organvm-i-theoria/recursive-engine--generative-entity"}
+{"action": "remote_update", "path": "~/Workspace/organvm-i-theoria/recursive-engine--generative-entity", "old_url": "[email redacted]:4444J99/recursive-engine--generative-entity.git", "new_url": "https://github.com/organvm-i-theoria/recursive-engine--generative-entity.git"}
+{"action": "move", "source": "~/world/realm/create/org/liminal/repo/organon-noumenon-ontogenetic-morphe", "dest": "~/Workspace/organvm-i-theoria/organon-noumenon--ontogenetic-morphe"}
+{"action": "remote_update", "path": "~/Workspace/organvm-i-theoria/organon-noumenon--ontogenetic-morphe", "old_url": "[email redacted]:4444J99/organon-noumenon--ontogenetic-morphe.git", "new_url": "https://github.com/organvm-i-theoria/organon-noumenon--ontogenetic-morphe.git"}
+{"action": "move", "source": "~/world/realm/create/org/liminal/repo/narratological-algorithmic-lenses", "dest": "~/Workspace/organvm-i-theoria/narratological-algorithmic-lenses"}
+{"action": "remote_update", "path": "~/Workspace/organvm-i-theoria/narratological-algorithmic-lenses", "old_url": "[email redacted]:organvm-i-theoria/narratological-algorithmic-lenses", "new_url": "https://github.com/organvm-i-theoria/narratological-algorithmic-lenses.git"}
+{"action": "move", "source": "~/world/realm/create/org/liminal/repo/call-function-ontological", "dest": "~/Workspace/organvm-i-theoria/call-function--ontological"}
+{"action": "remote_update", "path": "~/Workspace/organvm-i-theoria/call-function--ontological", "old_url": "[email redacted]:4444J99/call-function--ontological.git", "new_url": "https://github.com/organvm-i-theoria/call-function--ontological.git"}
+{"action": "move", "source": "~/world/realm/create/org/liminal/repo/sema-metra-alchemica-mundi", "dest": "~/Workspace/organvm-i-theoria/sema-metra--alchemica-mundi"}
+{"action": "remote_update", "path": "~/Workspace/organvm-i-theoria/sema-metra--alchemica-mundi", "old_url": "[email redacted]:4444J99/sema-metra--alchemica-mundi.git", "new_url": "https://github.com/organvm-i-theoria/sema-metra--alchemica-mundi.git"}
+{"action": "move", "source": "~/world/realm/create/org/i/repo/system-governance-framework", "dest": "~/Workspace/organvm-i-theoria/system-governance-framework"}
+{"action": "remote_update", "path": "~/Workspace/organvm-i-theoria/system-governance-framework", "old_url": "[email redacted]:ivviiviivvi/system-governance-framework.git", "new_url": "https://github.com/organvm-i-theoria/system-governance-framework.git"}
+{"action": "move", "source": "~/world/realm/create/org/i/repo/cognitive-archaelogy-tribunal", "dest": "~/Workspace/organvm-i-theoria/cognitive-archaelogy-tribunal"}
+{"action": "remote_update", "path": "~/Workspace/organvm-i-theoria/cognitive-archaelogy-tribunal", "old_url": "[email redacted]:ivviiviivvi/cognitive-archaelogy-tribunal.git", "new_url": "https://github.com/organvm-i-theoria/cognitive-archaelogy-tribunal.git"}
+{"action": "move", "source": "~/world/realm/create/org/i/repo/radix-recursiva-solve-coagula-redi", "dest": "~/Workspace/organvm-i-theoria/radix-recursiva-solve-coagula-redi"}
+{"action": "remote_update", "path": "~/Workspace/organvm-i-theoria/radix-recursiva-solve-coagula-redi", "old_url": "[email redacted]:ivviiviivvi/radix-recursiva-solve-coagula-redi.git", "new_url": "https://github.com/organvm-i-theoria/radix-recursiva-solve-coagula-redi.git"}
+{"action": "move", "source": "~/world/realm/create/org/i/repo/nexus-babel-alexandria", "dest": "~/Workspace/organvm-i-theoria/nexus--babel-alexandria-"}
+{"action": "remote_update", "path": "~/Workspace/organvm-i-theoria/nexus--babel-alexandria-", "old_url": "[email redacted]:ivviiviivvi/nexus--babel-alexandria-.git", "new_url": "https://github.com/organvm-i-theoria/nexus--babel-alexandria-.git"}
+{"action": "move", "source": "~/world/realm/create/org/i/repo/reverse-engine-recursive-run", "dest": "~/Workspace/organvm-i-theoria/reverse-engine-recursive-run"}
+{"action": "remote_update", "path": "~/Workspace/organvm-i-theoria/reverse-engine-recursive-run", "old_url": "[email redacted]:ivviiviivvi/reverse-engine-recursive-run.git", "new_url": "https://github.com/organvm-i-theoria/reverse-engine-recursive-run.git"}
+{"action": "move", "source": "~/world/realm/create/org/i/repo/4-ivi374-f0rivi4", "dest": "~/Workspace/organvm-i-theoria/4-ivi374-F0Rivi4"}
+{"action": "remote_update", "path": "~/Workspace/organvm-i-theoria/4-ivi374-F0Rivi4", "old_url": "[email redacted]:ivviiviivvi/4-ivi374-F0Rivi4.git", "new_url": "https://github.com/organvm-i-theoria/4-ivi374-F0Rivi4.git"}
+{"action": "move", "source": "~/world/realm/create/org/i/repo/cog-init-1-0", "dest": "~/Workspace/organvm-i-theoria/cog-init-1-0-"}
+{"action": "remote_update", "path": "~/Workspace/organvm-i-theoria/cog-init-1-0-", "old_url": "[email redacted]:ivviiviivvi/cog-init-1-0-.git", "new_url": "https://github.com/organvm-i-theoria/cog-init-1-0-.git"}
+{"action": "move", "source": "~/world/realm/create/org/i/repo/collective-persona-operations", "dest": "~/Workspace/organvm-i-theoria/collective-persona-operations"}
+{"action": "remote_update", "path": "~/Workspace/organvm-i-theoria/collective-persona-operations", "old_url": "[email redacted]:ivviiviivvi/collective-persona-operations.git", "new_url": "https://github.com/organvm-i-theoria/collective-persona-operations.git"}
+{"action": "move", "source": "~/world/realm/create/org/liminal/repo/linguistic-atomization-framework", "dest": "~/Workspace/organvm-i-theoria/linguistic-atomization-framework"}
+{"action": "remote_update", "path": "~/Workspace/organvm-i-theoria/linguistic-atomization-framework", "old_url": "[email redacted]:4444J99/linguistic-atomization-framework.git", "new_url": "https://github.com/organvm-i-theoria/linguistic-atomization-framework.git"}
+{"action": "move", "source": "~/world/realm/operate/org/liminal/repo/my-knowledge-base", "dest": "~/Workspace/organvm-i-theoria/my-knowledge-base"}
+{"action": "remote_update", "path": "~/Workspace/organvm-i-theoria/my-knowledge-base", "old_url": "[email redacted]:organvm-i-theoria/my-knowledge-base.git", "new_url": "https://github.com/organvm-i-theoria/my-knowledge-base.git"}
+{"action": "move", "source": "~/world/realm/create/org/ii/repo/core-engine", "dest": "~/Workspace/organvm-ii-poiesis/core-engine"}
+{"action": "remote_update", "path": "~/Workspace/organvm-ii-poiesis/core-engine", "old_url": "[email redacted]:omni-dromenon-machina/core-engine.git", "new_url": "https://github.com/organvm-ii-poiesis/core-engine.git"}
+{"action": "move", "source": "~/world/realm/create/org/ii/repo/performance-sdk", "dest": "~/Workspace/organvm-ii-poiesis/performance-sdk"}
+{"action": "remote_update", "path": "~/Workspace/organvm-ii-poiesis/performance-sdk", "old_url": "[email redacted]:omni-dromenon-machina/performance-sdk.git", "new_url": "https://github.com/organvm-ii-poiesis/performance-sdk.git"}
+{"action": "move", "source": "~/world/realm/create/org/ii/repo/example-generative-music", "dest": "~/Workspace/organvm-ii-poiesis/example-generative-music"}
+{"action": "remote_update", "path": "~/Workspace/organvm-ii-poiesis/example-generative-music", "old_url": "[email redacted]:omni-dromenon-machina/example-generative-music.git", "new_url": "https://github.com/organvm-ii-poiesis/example-generative-music.git"}
+{"action": "move", "source": "~/world/realm/create/org/ii/repo/metasystem-master", "dest": "~/Workspace/organvm-ii-poiesis/metasystem-master"}
+{"action": "remote_update", "path": "~/Workspace/organvm-ii-poiesis/metasystem-master", "old_url": "[email redacted]:omni-dromenon-machina/metasystem-master.git", "new_url": "https://github.com/organvm-ii-poiesis/metasystem-master.git"}
+{"action": "move", "source": "~/world/realm/create/org/ii/repo/example-choreographic-interface", "dest": "~/Workspace/organvm-ii-poiesis/example-choreographic-interface"}
+{"action": "remote_update", "path": "~/Workspace/organvm-ii-poiesis/example-choreographic-interface", "old_url": "[email redacted]:omni-dromenon-machina/example-choreographic-interface.git", "new_url": "https://github.com/organvm-ii-poiesis/example-choreographic-interface.git"}
+{"action": "move", "source": "~/world/realm/create/org/ii/repo/example-generative-visual", "dest": "~/Workspace/organvm-ii-poiesis/example-generative-visual"}
+{"action": "remote_update", "path": "~/Workspace/organvm-ii-poiesis/example-generative-visual", "old_url": "[email redacted]:omni-dromenon-machina/example-generative-visual.git", "new_url": "https://github.com/organvm-ii-poiesis/example-generative-visual.git"}
+{"action": "move", "source": "~/world/realm/create/org/ii/repo/docs", "dest": "~/Workspace/organvm-ii-poiesis/docs"}
+{"action": "remote_update", "path": "~/Workspace/organvm-ii-poiesis/docs", "old_url": "[email redacted]:omni-dromenon-machina/docs.git", "new_url": "https://github.com/organvm-ii-poiesis/docs.git"}
+{"action": "move", "source": "~/world/realm/create/org/i/repo/a-mavs-olevm", "dest": "~/Workspace/organvm-ii-poiesis/a-mavs-olevm"}
+{"action": "remote_update", "path": "~/Workspace/organvm-ii-poiesis/a-mavs-olevm", "old_url": "[email redacted]:ivviiviivvi/a-mavs-olevm.git", "new_url": "https://github.com/organvm-ii-poiesis/a-mavs-olevm.git"}
+{"action": "move", "source": "~/world/realm/create/org/i/repo/a-i-council-coliseum", "dest": "~/Workspace/organvm-ii-poiesis/a-i-council--coliseum"}
+{"action": "remote_update", "path": "~/Workspace/organvm-ii-poiesis/a-i-council--coliseum", "old_url": "[email redacted]:organvm-ii-poiesis/a-i-council--coliseum.git", "new_url": "https://github.com/organvm-ii-poiesis/a-i-council--coliseum.git"}
+{"action": "move", "source": "~/world/realm/create/org/ii/repo/artist-toolkit-and-templates", "dest": "~/Workspace/organvm-ii-poiesis/artist-toolkit-and-templates"}
+{"action": "remote_update", "path": "~/Workspace/organvm-ii-poiesis/artist-toolkit-and-templates", "old_url": "[email redacted]:omni-dromenon-machina/artist-toolkit-and-templates.git", "new_url": "https://github.com/organvm-ii-poiesis/artist-toolkit-and-templates.git"}
+{"action": "move", "source": "~/world/realm/create/org/ii/repo/client-sdk", "dest": "~/Workspace/organvm-ii-poiesis/client-sdk"}
+{"action": "remote_update", "path": "~/Workspace/organvm-ii-poiesis/client-sdk", "old_url": "[email redacted]:omni-dromenon-machina/client-sdk.git", "new_url": "https://github.com/organvm-ii-poiesis/client-sdk.git"}
+{"action": "move", "source": "~/world/realm/create/org/ii/repo/academic-publication", "dest": "~/Workspace/organvm-ii-poiesis/academic-publication"}
+{"action": "remote_update", "path": "~/Workspace/organvm-ii-poiesis/academic-publication", "old_url": "[email redacted]:omni-dromenon-machina/academic-publication.git", "new_url": "https://github.com/organvm-ii-poiesis/academic-publication.git"}
+{"action": "move", "source": "~/world/realm/create/org/ii/repo/example-theatre-dialogue", "dest": "~/Workspace/organvm-ii-poiesis/example-theatre-dialogue"}
+{"action": "remote_update", "path": "~/Workspace/organvm-ii-poiesis/example-theatre-dialogue", "old_url": "[email redacted]:omni-dromenon-machina/example-theatre-dialogue.git", "new_url": "https://github.com/organvm-ii-poiesis/example-theatre-dialogue.git"}
+{"action": "move", "source": "~/world/realm/create/org/ii/repo/audio-synthesis-bridge", "dest": "~/Workspace/organvm-ii-poiesis/audio-synthesis-bridge"}
+{"action": "remote_update", "path": "~/Workspace/organvm-ii-poiesis/audio-synthesis-bridge", "old_url": "[email redacted]:omni-dromenon-machina/audio-synthesis-bridge.git", "new_url": "https://github.com/organvm-ii-poiesis/audio-synthesis-bridge.git"}
+{"action": "move", "source": "~/world/realm/create/org/i/repo/classroom-rpg-aetheria", "dest": "~/Workspace/organvm-iii-ergon/classroom-rpg-aetheria"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iii-ergon/classroom-rpg-aetheria", "old_url": "[email redacted]:ivviiviivvi/classroom-rpg-aetheria.git", "new_url": "https://github.com/organvm-iii-ergon/classroom-rpg-aetheria.git"}
+{"action": "move", "source": "~/world/realm/create/org/i/repo/gamified-coach-interface", "dest": "~/Workspace/organvm-iii-ergon/gamified-coach-interface"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iii-ergon/gamified-coach-interface", "old_url": "[email redacted]:ivviiviivvi/gamified-coach-interface.git", "new_url": "https://github.com/organvm-iii-ergon/gamified-coach-interface.git"}
+{"action": "move", "source": "~/world/realm/create/org/i/repo/trade-perpetual-future", "dest": "~/Workspace/organvm-iii-ergon/trade-perpetual-future"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iii-ergon/trade-perpetual-future", "old_url": "[email redacted]:organvm-iii-ergon/trade-perpetual-future.git", "new_url": "https://github.com/organvm-iii-ergon/trade-perpetual-future.git"}
+{"action": "move", "source": "~/world/realm/create/org/i/repo/sovereign-ecosystem-real-estate-luxury", "dest": "~/Workspace/organvm-iii-ergon/sovereign-ecosystem--real-estate-luxury"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iii-ergon/sovereign-ecosystem--real-estate-luxury", "old_url": "[email redacted]:ivviiviivvi/sovereign-ecosystem--real-estate-luxury.git", "new_url": "https://github.com/organvm-iii-ergon/sovereign-ecosystem--real-estate-luxury.git"}
+{"action": "move", "source": "~/world/realm/operate/org/iii/repo/public-record-data-scrapper", "dest": "~/Workspace/organvm-iii-ergon/public-record-data-scrapper"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iii-ergon/public-record-data-scrapper", "old_url": "[email redacted]:labores-profani-crux/public-record-data-scrapper.git", "new_url": "https://github.com/organvm-iii-ergon/public-record-data-scrapper.git"}
+{"action": "move", "source": "~/world/realm/create/org/i/repo/search-local-happy-hour", "dest": "~/Workspace/organvm-iii-ergon/search-local--happy-hour"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iii-ergon/search-local--happy-hour", "old_url": "[email redacted]:ivviiviivvi/search-local--happy-hour.git", "new_url": "https://github.com/organvm-iii-ergon/search-local--happy-hour.git"}
+{"action": "move", "source": "~/world/realm/operate/org/liminal/repo/multi-camera-livestream-framework", "dest": "~/Workspace/organvm-iii-ergon/multi-camera--livestream--framework"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iii-ergon/multi-camera--livestream--framework", "old_url": "[email redacted]:4444J99/multi-camera--livestream--framework.git", "new_url": "https://github.com/organvm-iii-ergon/multi-camera--livestream--framework.git"}
+{"action": "move", "source": "~/world/realm/operate/org/liminal/repo/universal-mail-automation", "dest": "~/Workspace/organvm-iii-ergon/universal-mail--automation"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iii-ergon/universal-mail--automation", "old_url": "[email redacted]:4444J99/universal-mail--automation.git", "new_url": "https://github.com/organvm-iii-ergon/universal-mail--automation.git"}
+{"action": "move", "source": "~/world/realm/operate/org/liminal/repo/mirror-mirror", "dest": "~/Workspace/organvm-iii-ergon/mirror-mirror"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iii-ergon/mirror-mirror", "old_url": "[email redacted]:4444J99/mirror-mirror.git", "new_url": "https://github.com/organvm-iii-ergon/mirror-mirror.git"}
+{"action": "move", "source": "~/world/realm/operate/org/liminal/repo/the-invisible-ledger", "dest": "~/Workspace/organvm-iii-ergon/the-invisible-ledger"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iii-ergon/the-invisible-ledger", "old_url": "[email redacted]:4444J99/the-invisible-ledger.git", "new_url": "https://github.com/organvm-iii-ergon/the-invisible-ledger.git"}
+{"action": "move", "source": "~/world/realm/archive/org/liminal_alt/repo/enterprise-plugin", "dest": "~/Workspace/organvm-iii-ergon/enterprise-plugin"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iii-ergon/enterprise-plugin", "old_url": "[email redacted]:4444JPP/enterprise-plugin.git", "new_url": "https://github.com/organvm-iii-ergon/enterprise-plugin.git"}
+{"action": "move", "source": "~/world/realm/create/org/i/repo/virgil-training-overlay", "dest": "~/Workspace/organvm-iii-ergon/virgil-training-overlay"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iii-ergon/virgil-training-overlay", "old_url": "[email redacted]:ivviiviivvi/virgil-training-overlay.git", "new_url": "https://github.com/organvm-iii-ergon/virgil-training-overlay.git"}
+{"action": "move", "source": "~/world/realm/create/org/liminal/repo/the-actual-news", "dest": "~/Workspace/organvm-iii-ergon/the-actual-news"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iii-ergon/the-actual-news", "old_url": "[email redacted]:4444J99/the-actual-news.git", "new_url": "https://github.com/organvm-iii-ergon/the-actual-news.git"}
+{"action": "move", "source": "~/world/realm/operate/org/liminal/repo/your-fit-tailored", "dest": "~/Workspace/organvm-iii-ergon/your-fit-tailored"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iii-ergon/your-fit-tailored", "old_url": "[email redacted]:4444J99/your-fit-tailored.git", "new_url": "https://github.com/organvm-iii-ergon/your-fit-tailored.git"}
+{"action": "move", "source": "~/world/realm/create/org/liminal/repo/my-block-warfare", "dest": "~/Workspace/organvm-iii-ergon/my-block-warfare"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iii-ergon/my-block-warfare", "old_url": "[email redacted]:4444J99/my-block-warfare.git", "new_url": "https://github.com/organvm-iii-ergon/my-block-warfare.git"}
+{"action": "move", "source": "~/world/realm/create/org/liminal/repo/life-my-midst-in", "dest": "~/Workspace/organvm-iii-ergon/life-my--midst--in"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iii-ergon/life-my--midst--in", "old_url": "[email redacted]:4444J99/life-my--midst--in.git", "new_url": "https://github.com/organvm-iii-ergon/life-my--midst--in.git"}
+{"action": "move", "source": "~/world/realm/create/org/liminal/repo/my-father-mother", "dest": "~/Workspace/organvm-iii-ergon/my--father-mother"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iii-ergon/my--father-mother", "old_url": "[email redacted]:4444J99/my--father-mother.git", "new_url": "https://github.com/organvm-iii-ergon/my--father-mother.git"}
+{"action": "move", "source": "~/world/realm/operate/org/iv/repo/orchestration-start-here", "dest": "~/Workspace/organvm-iv-taxis/orchestration-start-here"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iv-taxis/orchestration-start-here", "old_url": "[email redacted]:4444j99-orchestration/orchestration-start-here.git", "new_url": "https://github.com/organvm-iv-taxis/orchestration-start-here.git"}
+{"action": "move", "source": "~/world/realm/create/org/i/repo/petasum-super-petasum", "dest": "~/Workspace/organvm-iv-taxis/petasum-super-petasum"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iv-taxis/petasum-super-petasum", "old_url": "[email redacted]:ivviiviivvi/petasum-super-petasum.git", "new_url": "https://github.com/organvm-iv-taxis/petasum-super-petasum.git"}
+{"action": "move", "source": "~/world/realm/create/org/i/repo/universal-node-network", "dest": "~/Workspace/organvm-iv-taxis/universal-node-network"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iv-taxis/universal-node-network", "old_url": "[email redacted]:ivviiviivvi/universal-node-network.git", "new_url": "https://github.com/organvm-iv-taxis/universal-node-network.git"}
+{"action": "move", "source": "~/world/realm/operate/org/liminal/repo/agent-claude-smith", "dest": "~/Workspace/organvm-iv-taxis/agent--claude-smith"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iv-taxis/agent--claude-smith", "old_url": "[email redacted]:4444J99/agent--claude-smith.git", "new_url": "https://github.com/organvm-iv-taxis/agent--claude-smith.git"}
+{"action": "move", "source": "~/world/realm/publish/org/v/repo/public-process", "dest": "~/Workspace/organvm-v-logos/public-process"}
+{"action": "remote_update", "path": "~/Workspace/organvm-v-logos/public-process", "old_url": "[email redacted]:4444j99-organs/public-process.git", "new_url": "https://github.com/organvm-v-logos/public-process.git"}
+{"action": "move", "source": "~/world/realm/create/org/vi/repo/salon-archive", "dest": "~/Workspace/organvm-vi-koinonia/salon-archive"}
+{"action": "remote_update", "path": "~/Workspace/organvm-vi-koinonia/salon-archive", "old_url": "[email redacted]:4444j99-community/salon-archive.git", "new_url": "https://github.com/organvm-vi-koinonia/salon-archive.git"}
+{"action": "move", "source": "~/world/realm/create/org/vi/repo/reading-group-curriculum", "dest": "~/Workspace/organvm-vi-koinonia/reading-group-curriculum"}
+{"action": "remote_update", "path": "~/Workspace/organvm-vi-koinonia/reading-group-curriculum", "old_url": "[email redacted]:4444j99-community/reading-group-curriculum.git", "new_url": "https://github.com/organvm-vi-koinonia/reading-group-curriculum.git"}
+{"action": "move", "source": "~/world/realm/publish/org/vii/repo/announcement-templates", "dest": "~/Workspace/organvm-vii-kerygma/announcement-templates"}
+{"action": "remote_update", "path": "~/Workspace/organvm-vii-kerygma/announcement-templates", "old_url": "[email redacted]:4444j99-marketing/announcement-templates.git", "new_url": "https://github.com/organvm-vii-kerygma/announcement-templates.git"}
+{"action": "move", "source": "~/world/realm/publish/org/vii/repo/social-automation", "dest": "~/Workspace/organvm-vii-kerygma/social-automation"}
+{"action": "remote_update", "path": "~/Workspace/organvm-vii-kerygma/social-automation", "old_url": "[email redacted]:4444j99-marketing/social-automation.git", "new_url": "https://github.com/organvm-vii-kerygma/social-automation.git"}
+{"action": "move", "source": "~/world/realm/publish/org/vii/repo/distribution-strategy", "dest": "~/Workspace/organvm-vii-kerygma/distribution-strategy"}
+{"action": "remote_update", "path": "~/Workspace/organvm-vii-kerygma/distribution-strategy", "old_url": "[email redacted]:4444j99-marketing/distribution-strategy.git", "new_url": "https://github.com/organvm-vii-kerygma/distribution-strategy.git"}
+{"action": "move", "source": "~/Workspace/chthon-oneiros", "dest": "~/Workspace/organvm-ii-poiesis/chthon-oneiros"}
+{"action": "remote_update", "path": "~/Workspace/organvm-ii-poiesis/chthon-oneiros", "old_url": "[email redacted]:organvm-ii-poiesis/chthon-oneiros.git", "new_url": "https://github.com/organvm-ii-poiesis/chthon-oneiros.git"}
+{"action": "move", "source": "~/Workspace/krypto-velamen", "dest": "~/Workspace/organvm-ii-poiesis/krypto-velamen"}
+{"action": "remote_update", "path": "~/Workspace/organvm-ii-poiesis/krypto-velamen", "old_url": "[email redacted]:organvm-ii-poiesis/krypto-velamen.git", "new_url": "https://github.com/organvm-ii-poiesis/krypto-velamen.git"}
+{"action": "move", "source": "~/Workspace/alchemia-ingestvm", "dest": "~/Workspace/meta-organvm/alchemia-ingestvm"}
+{"action": "remote_update", "path": "~/Workspace/meta-organvm/alchemia-ingestvm", "old_url": "[email redacted]:meta-organvm/alchemia-ingestvm.git", "new_url": "https://github.com/meta-organvm/alchemia-ingestvm.git"}
+{"action": "move", "source": "~/world/realm/create/org/i/repo/fetch-familiar-friends", "dest": "~/Workspace/organvm-iii-ergon/fetch-familiar-friends"}
+{"action": "merge_content", "content_source": "~/Workspace/fetch-familiar-friends", "local_dir": "~/Workspace/organvm-iii-ergon/fetch-familiar-friends/_local"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iii-ergon/fetch-familiar-friends", "old_url": "[email redacted]:ivviiviivvi/fetch-familiar-friends.git", "new_url": "https://github.com/organvm-iii-ergon/fetch-familiar-friends.git"}
+{"action": "move", "source": "~/world/realm/operate/org/liminal/repo/agentic-titan", "dest": "~/Workspace/organvm-iv-taxis/agentic-titan"}
+{"action": "merge_content", "content_source": "~/Workspace/agentic-titan", "local_dir": "~/Workspace/organvm-iv-taxis/agentic-titan/_local"}
+{"action": "remote_update", "path": "~/Workspace/organvm-iv-taxis/agentic-titan", "old_url": "[email redacted]:organvm-iv-taxis/agentic-titan.git", "new_url": "https://github.com/organvm-iv-taxis/agentic-titan.git"}
+{"action": "move_content", "source": "~/Workspace/scalable-lore-expert", "dest": "~/Workspace/organvm-i-theoria/scalable-lore-expert"}
+{"action": "move_content", "source": "~/Workspace/life-betterment-simulation", "dest": "~/Workspace/organvm-ii-poiesis/life-betterment-simulation"}
+{"action": "move_content", "source": "~/Workspace/universal-waveform-explorer", "dest": "~/Workspace/organvm-ii-poiesis/universal-waveform-explorer"}
+{"action": "move_content", "source": "~/Workspace/shared-rememberance-gateway", "dest": "~/Workspace/organvm-ii-poiesis/shared-remembrance-gateway"}
+{"action": "move_content", "source": "~/Workspace/card-trade-social", "dest": "~/Workspace/organvm-iii-ergon/card-trade-social"}
+{"action": "move_content", "source": "~/world/realm/operate/org/liminal/repo/a-i-skills", "dest": "~/Workspace/organvm-iv-taxis/a-i--skills"}
+{"action": "move_content", "source": "~/Workspace/adaptive-personal-syllabus", "dest": "~/Workspace/organvm-vi-koinonia/adaptive-personal-syllabus"}
+{"action": "remove_symlink", "path": "~/Workspace/render-second-amendment", "target": "~/world/realm/create/org/i/repo/render-second-amendment"}
+{"action": "remove_symlink", "path": "~/Workspace/a-i-council--coliseum", "target": "~/world/realm/create/org/i/repo/a-i-council-coliseum"}
+{"action": "remove_symlink", "path": "~/Workspace/virgil-training-overlay", "target": "~/world/realm/create/org/i/repo/virgil-training-overlay"}
+{"action": "remove_symlink", "path": "~/Workspace/etceter4", "target": "~/world/realm/research/org/liminal/repo/etceter4"}
+{"action": "remove_symlink", "path": "~/Workspace/narratological-algorithmic-lenses", "target": "~/world/realm/create/org/liminal/repo/narratological-algorithmic-lenses"}
+{"action": "remove_symlink", "path": "~/Workspace/trade-perpetual-future", "target": "~/world/realm/create/org/i/repo/trade-perpetual-future"}
+{"action": "remove_symlink", "path": "~/Workspace/call-function--ontological", "target": "~/world/realm/create/org/liminal/repo/call-function-ontological"}
+{"action": "remove_symlink", "path": "~/Workspace/classroom-rpg-aetheria", "target": "~/world/realm/create/org/i/repo/classroom-rpg-aetheria"}
+{"action": "remove_symlink", "path": "~/Workspace/recursive-engine--generative-entity", "target": "~/world/realm/create/org/liminal/repo/recursive-engine-generative-entity"}
+{"action": "remove_symlink", "path": "~/Workspace/omni-dromenon-machina", "target": "~/world/realm/create/org/ii/repo/metasystem-master"}
+{"action": "remove_symlink", "path": "~/Workspace/my--father-mother", "target": "~/world/realm/create/org/liminal/repo/my-father-mother"}
+{"action": "remove_symlink", "path": "~/Workspace/the-actual-news", "target": "~/world/realm/create/org/liminal/repo/the-actual-news"}
+{"action": "remove_symlink", "path": "~/Workspace/search-local--happy-hour", "target": "~/world/realm/create/org/i/repo/search-local-happy-hour"}
+{"action": "remove_symlink", "path": "~/Workspace/sema-metra--alchemica-mundi", "target": "~/world/realm/create/org/liminal/repo/sema-metra-alchemica-mundi"}
+{"action": "remove_symlink", "path": "~/Workspace/reverse-engine-recursive-run", "target": "~/world/realm/create/org/i/repo/reverse-engine-recursive-run"}
+{"action": "remove_symlink", "path": "~/Workspace/anon-hookup-now", "target": "~/world/realm/create/org/i/repo/anon-hookup-now"}
+{"action": "remove_symlink", "path": "~/Workspace/nexus--babel-alexandria-", "target": "~/world/realm/create/org/i/repo/nexus-babel-alexandria"}
+{"action": "remove_symlink", "path": "~/Workspace/a-mavs-olevm", "target": "~/world/realm/create/org/i/repo/a-mavs-olevm"}
+{"action": "remove_symlink", "path": "~/Workspace/my-block-warfare", "target": "~/world/realm/create/org/liminal/repo/my-block-warfare"}
+{"action": "remove_symlink", "path": "~/Workspace/your--fit-tailored", "target": "~/world/realm/operate/org/liminal/repo/your-fit-tailored"}
+{"action": "remove_symlink", "path": "~/Workspace/linguistic-atomization-framework", "target": "~/world/realm/create/org/liminal/repo/linguistic-atomization-framework"}
+{"action": "remove_symlink", "path": "~/Workspace/select-or-left-or-right-or", "target": "~/world/realm/create/org/i/repo/select-or-left-or-right-or"}
+{"action": "remove_symlink", "path": "~/Workspace/knowledge-base", "target": "~/world/realm/operate/org/liminal/repo/my-knowledge-base"}
+{"action": "remove_symlink", "path": "~/Workspace/life-my--midst--in", "target": "~/world/realm/create/org/liminal/repo/life-my-midst-in"}
+{"action": "remove_symlink", "path": "~/Workspace/the-invisible-ledger", "target": "~/world/realm/operate/org/liminal/repo/the-invisible-ledger"}
+{"action": "remove_symlink", "path": "~/Workspace/public-record-data-scrapper", "target": "~/world/realm/operate/org/iii/repo/public-record-data-scrapper"}
+{"action": "remove_symlink", "path": "~/Workspace/gamified-coach-interface", "target": "~/world/realm/create/org/i/repo/gamified-coach-interface"}
+{"action": "remove_symlink", "path": "~/Workspace/petasum-super-petasum", "target": "~/world/realm/create/org/i/repo/petasum-super-petasum"}
+{"action": "remove_symlink", "path": "~/Workspace/meta-source--ledger-output", "target": "~/world/realm/create/org/liminal/repo/meta-source-ledger-output"}
+{"action": "remove_symlink", "path": "~/Workspace/cognitive-archaelogy-tribunal", "target": "~/world/realm/create/org/i/repo/cognitive-archaelogy-tribunal"}
+{"action": "remove_symlink", "path": "~/Workspace/a-i--skills", "target": "~/world/realm/operate/org/liminal/repo/a-i-skills"}
+{"action": "remove_symlink", "path": "~/Workspace/Mole", "target": "~/world/realm/research/org/liminal/repo/mole"}
+{"action": "remove_symlink", "path": "~/Workspace/mirror-mirror", "target": "~/world/realm/operate/org/liminal/repo/mirror-mirror"}
+{"action": "remove_symlink", "path": "~/Workspace/agent--claude-smith", "target": "~/world/realm/operate/org/liminal/repo/agent-claude-smith"}
+{"action": "remove_symlink", "path": "~/Workspace/multi-camera--livestream--framework", "target": "~/world/realm/operate/org/liminal/repo/multi-camera-livestream-framework"}
+{"action": "remove_symlink", "path": "~/Workspace/system-governance-framework", "target": "~/world/realm/create/org/i/repo/system-governance-framework"}
+{"action": "remove_symlink", "path": "~/Workspace/universal-mail--automation", "target": "~/world/realm/operate/org/liminal/repo/universal-mail-automation"}
+{"action": "remove_symlink", "path": "~/Workspace/organon-noumenon--ontogenetic-morphe", "target": "~/world/realm/create/org/liminal/repo/organon-noumenon-ontogenetic-morphe"}
+{"action": "remove_symlink", "path": "~/Workspace/sovereign-ecosystem--real-estate-luxury", "target": "~/world/realm/create/org/i/repo/sovereign-ecosystem-real-estate-luxury"}
+{"action": "remove_dir", "path": "~/Workspace/4444j99-community"}
+{"action": "remove_dir", "path": "~/Workspace/4444j99-marketing"}
+{"action": "remove_dir", "path": "~/Workspace/4444j99-orchestration"}
+{"action": "remove_dir", "path": "~/Workspace/4444j99-organs"}

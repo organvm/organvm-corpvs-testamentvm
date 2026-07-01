@@ -131,7 +131,7 @@ def compute_deploy_path(source_path, target_key, deploy_root):
     filename = source.name
 
     # Try to preserve some directory structure from the source
-    # e.g., /Users/4jp/Workspace/ProjectX/subdir/file.md -> docs/subdir/file.md
+    # e.g., ~/Workspace/ProjectX/subdir/file.md -> docs/subdir/file.md
     parts = source.parts
     # Find the project directory (child of Workspace)
     workspace_idx = None

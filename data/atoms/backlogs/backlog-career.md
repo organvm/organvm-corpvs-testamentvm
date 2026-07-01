@@ -66,7 +66,7 @@ Something i10+ years ago unable to do without my occasional creative partner; I 
 - `prompt-5313cd2192b0` [PARTIAL] (2025-12-23) -- no we need something simple to respond to this before kim & linkedin
 - `prompt-f621ad5bc2d8` [PARTIAL] (2026-04-23) -- 2/16/2026, 5:47:59 PM
 - `prompt-07f6d6c3f876` [PARTIAL] (2026-04-23) -- 2/20/2026, 10:22:01 AM
-- `prompt-80bf224ce9c0` [DEFERRED] (2023-11-27) -- Anthony James Padavano:
+- `prompt-80bf224ce9c0` [DEFERRED] (2023-11-27) -- [name redacted]:
 - `prompt-b77c19828628` [DEFERRED] (2024-03-11) -- We are designing a meta ad for a MCA business using this format:
 - `prompt-9e26e2d3b3b5` [DEFERRED] (2025-04-12) -- Some people like Rob Rodriguez, or George Lucas, or... Richard Linklater... They
 - `prompt-aa5ffd996b74` [DEFERRED] (2025-04-16) -- We've brought Marilyn Manson into our world as a character, as Manson himself, a

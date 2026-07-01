@@ -112,7 +112,7 @@ The chezmoi-source repo (`~/Workspace/4444J99/domus-semper-palingenesis`) is the
 
 ```yaml
 conflict_zones:
-  - path: ~/Workspace/4444J99/domus-semper-palingenesis/private_dot_claude/projects/-Users-4jp/memory/
+  - path: ~/Workspace/4444J99/domus-semper-palingenesis/private_dot_claude/projects/-Users-[user]/memory/
     rule: "Append-only across parallel sessions; rely on hook to serialize via lock"
     failure_mode: "5-second timeout drops the push if chezmoi-add is slow"
   - path: ~/Workspace/4444J99/domus-semper-palingenesis/private_dot_claude/plans/
@@ -183,7 +183,7 @@ If you are reading this without prior context, these are the foundational files:
 - `~/.claude/CLAUDE.md` — Universal Rules (1-9) + 61 accumulated rules + Voice Constitution + memory rules
 - `~/CLAUDE.md` — home-scope authority map + four-registry table + chezmoi gotchas
 - `~/Workspace/CLAUDE.md` — eight-organ architecture + Conductor session lifecycle
-- `~/.claude/projects/-Users-4jp/memory/MEMORY.md` — Active Artifacts index
+- `~/.claude/projects/-Users-[user]/memory/MEMORY.md` — Active Artifacts index
 - `./REPORT.md` — primary forensic findings narrative
 - `./findings/FIND-010-posttooluse-sync-scope-gap.md` — the meta-finding about the audit's own behavior
 

@@ -79,7 +79,7 @@ Gregory L. Colvin's definitive text *Fiscal Sponsorship: 6 Ways To Do It Right* 
 |-----------|--------|
 | **Focus** | Free and open source software (FOSS), software freedom advocacy |
 | **Fee** | 10% of gross revenue |
-| **Application** | Email apply@sfconservancy.org. Rolling review by Evaluation Committee. |
+| **Application** | Email [email redacted]. Rolling review by Evaluation Committee. |
 | **Requirements** | Exclusive devotion to FOSS. All software must be OSI-approved AND DFSG-free licensed. At least 1 year of development with substantial volunteer community. Not for proof-of-concept stage. |
 | **Timeline** | "Many months" — they explicitly state they do not move rapidly. |
 | **Services** | Financial management, donation reception, legal/licensing support, copyright/trademark/domain management (optional) |
@@ -177,7 +177,7 @@ Gregory L. Colvin's definitive text *Fiscal Sponsorship: 6 Ways To Do It Right* 
 |-----------|--------|
 | **Focus** | Media, art, and technology for liberation and justice |
 | **Fee** | Not publicly disclosed |
-| **Application** | Contact sponsoredprojects@alliedmedia.org |
+| **Application** | Contact [email redacted] |
 | **Requirements** | Mission alignment with media for liberation |
 | **Timeline** | Not specified |
 | **Services** | Financial management, project planning, fundraising support, communications strategy |
@@ -264,7 +264,7 @@ Gregory L. Colvin's definitive text *Fiscal Sponsorship: 6 Ways To Do It Right* 
 - **Status as of March 2025:** Operational, receiving positive sector reception, seeking broader adoption
 
 ### How to Enroll
-1. Email **fiscalsponsorship@candid.org** with:
+1. Email **[email redacted]** with:
    - Organization name
    - EIN (if applicable)
    - Geographic location
@@ -278,14 +278,14 @@ Gregory L. Colvin's definitive text *Fiscal Sponsorship: 6 Ways To Do It Right* 
 - Data is syndicated across 200+ partner platforms via Candid's APIs
 
 ### Benefits
-- **Candid Premium access:** Complimentary for 1 year (via coupon code from fiscalsponsorship@candid.org, redeemed at shop.candid.org)
+- **Candid Premium access:** Complimentary for 1 year (via coupon code from [email redacted], redeemed at shop.candid.org)
 - **Enhanced discoverability:** Featured on partner platforms like Every.org
 - **API syndication:** Data flows to 200+ platforms
 - **Funding visibility:** Increased likelihood of being found by funders
 - **Donor connection:** Helps donors find and support the project
 
 ### How to Get Premium Access
-1. Email fiscalsponsorship@candid.org for a coupon code
+1. Email [email redacted] for a coupon code
 2. Visit shop.candid.org/candid-premium
 3. Enter coupon code at checkout (100% discount)
 4. Coupons are single-use, non-transferrable, limited-time offer
@@ -495,10 +495,10 @@ While not traditional fiscal sponsorship, the ASF Incubator functions similarly:
 
 ### Immediate Next Steps
 
-1. Contact Aspiration Tech at fiscalservices@aspirationtech.org ($150 application fee)
+1. Contact Aspiration Tech at [email redacted] ($150 application fee)
 2. Prepare: advisory committee (3+ people), project description, budget/financial plan, governance framework
 3. Research state incorporation for ORGANVM LLC (for commercial arm) in parallel
-4. Contact fiscalsponsorship@candid.org to understand enrollment requirements
+4. Contact [email redacted] to understand enrollment requirements
 5. Consult a nonprofit attorney about the dual-entity structure (nonprofit + LLC) and IP licensing arrangement
 
 ---

@@ -27,43 +27,43 @@
 
 | Thread | Sessions | Prompts | Date Range | Dominant Type |
 |--------|----------|---------|------------|---------------|
-| Users/4jp/continue-2026-05-16..2026-05-23 | 83 | 999 | 2026-05-16..2026-05-23 | command |
-| Users/4jp/continue-2026-05-26..2026-06-01 | 55 | 596 | 2026-05-26..2026-06-01 | command |
-| Users/4jp/continue-2026-05-09..2026-05-14 | 40 | 588 | 2026-05-09..2026-05-14 | command |
-| Users/4jp/continue-2026-06-03..2026-06-07 | 47 | 288 | 2026-06-03..2026-06-07 | command |
-| 4jp/Code/organvm/sovereign-systems--elevate-align/ | 10 | 262 | 2026-05-16..2026-05-18 | command |
-| 4jp/bound/continue-2026-05-10..2026-05-12 | 14 | 238 | 2026-05-10..2026-05-12 | command |
-| 4jp/bound/continue-2026-05-29..2026-06-01 | 5 | 211 | 2026-05-29..2026-06-01 | command |
-| 4jp/_dot-config/continue-2026-05-21..2026-05-23 | 14 | 177 | 2026-05-21..2026-05-23 | command |
-| 4jp/.claude/stop-2026-05-23..2026-05-25 | 8 | 165 | 2026-05-23..2026-05-25 | command |
-| 4jp/Code/_agent/push-2026-05-17..2026-05-18 | 8 | 140 | 2026-05-17..2026-05-18 | command |
+| Users/[user]/continue-2026-05-16..2026-05-23 | 83 | 999 | 2026-05-16..2026-05-23 | command |
+| Users/[user]/continue-2026-05-26..2026-06-01 | 55 | 596 | 2026-05-26..2026-06-01 | command |
+| Users/[user]/continue-2026-05-09..2026-05-14 | 40 | 588 | 2026-05-09..2026-05-14 | command |
+| Users/[user]/continue-2026-06-03..2026-06-07 | 47 | 288 | 2026-06-03..2026-06-07 | command |
+| [user]/Code/organvm/sovereign-systems--elevate-align/ | 10 | 262 | 2026-05-16..2026-05-18 | command |
+| [user]/bound/continue-2026-05-10..2026-05-12 | 14 | 238 | 2026-05-10..2026-05-12 | command |
+| [user]/bound/continue-2026-05-29..2026-06-01 | 5 | 211 | 2026-05-29..2026-06-01 | command |
+| [user]/_dot-config/continue-2026-05-21..2026-05-23 | 14 | 177 | 2026-05-21..2026-05-23 | command |
+| [user]/.claude/stop-2026-05-23..2026-05-25 | 8 | 165 | 2026-05-23..2026-05-25 | command |
+| [user]/Code/_agent/push-2026-05-17..2026-05-18 | 8 | 140 | 2026-05-17..2026-05-18 | command |
 | session-meta/continue-2026-06-05..2026-06-06 | 3 | 129 | 2026-06-05..2026-06-06 | command |
 | 4444J99/domus-semper-palingenesis/continue-2026-05 | 5 | 125 | 2026-05-16..2026-05-17 | command |
 | 4444J99/domus-semper-palingenesis/push-2026-06-03. | 4 | 120 | 2026-06-03..2026-06-06 | command |
-| 4jp/.claude/stop-2026-06-05..2026-06-06 | 4 | 91 | 2026-06-05..2026-06-06 | command |
-| 4jp/Code/apply-2026-05-16 | 7 | 88 | 2026-05-16 | command |
-| 4jp/Code/organvm/peer-audited--behavioral-blockcha | 4 | 87 | 2026-05-16..2026-05-18 | command |
-| 4jp/Code/speech-score-engine/commit-2026-05-13..20 | 6 | 87 | 2026-05-13..2026-05-14 | command |
-| 4jp/Library/Mobile Documents/com~apple~Preview/Doc | 7 | 81 | 2026-05-19..2026-05-20 | command |
-| 4jp/build-2026-04-23..2026-04-26 | 7 | 76 | 2026-04-23..2026-04-26 | command |
+| [user]/.claude/stop-2026-06-05..2026-06-06 | 4 | 91 | 2026-06-05..2026-06-06 | command |
+| [user]/Code/apply-2026-05-16 | 7 | 88 | 2026-05-16 | command |
+| [user]/Code/organvm/peer-audited--behavioral-blockcha | 4 | 87 | 2026-05-16..2026-05-18 | command |
+| [user]/Code/speech-score-engine/commit-2026-05-13..20 | 6 | 87 | 2026-05-13..2026-05-14 | command |
+| [user]/Library/Mobile Documents/com~apple~Preview/Doc | 7 | 81 | 2026-05-19..2026-05-20 | command |
+| [user]/build-2026-04-23..2026-04-26 | 7 | 76 | 2026-04-23..2026-04-26 | command |
 | composition-1-2/commit-2026-05-13 | 2 | 67 | 2026-05-13 | command |
-| 4jp/Code/organvm/universal-mail--automation/merge- | 2 | 65 | 2026-06-03..2026-06-05 | command |
-| 4jp/Code/quick-fire--all-command/create-2026-05-18 | 5 | 60 | 2026-05-18 | command |
-| 4jp/Code/generative-abstract-environments-studies/ | 6 | 56 | 2026-05-22..2026-05-23 | command |
-| 4jp/Code/organvm/a-i--skills/check-2026-05-17 | 1 | 56 | 2026-05-17 | command |
-| 4jp/Code/organvm/organvm-corpvs-testamentvm/contin | 4 | 48 | 2026-05-21..2026-05-22 | command |
+| [user]/Code/organvm/universal-mail--automation/merge- | 2 | 65 | 2026-06-03..2026-06-05 | command |
+| [user]/Code/quick-fire--all-command/create-2026-05-18 | 5 | 60 | 2026-05-18 | command |
+| [user]/Code/generative-abstract-environments-studies/ | 6 | 56 | 2026-05-22..2026-05-23 | command |
+| [user]/Code/organvm/a-i--skills/check-2026-05-17 | 1 | 56 | 2026-05-17 | command |
+| [user]/Code/organvm/organvm-corpvs-testamentvm/contin | 4 | 48 | 2026-05-21..2026-05-22 | command |
 
 ## Temporal Activity
 
 | Month | Sessions | Prompts | Threads | Top Project |
 |-------|----------|---------|---------|-------------|
 | 2025-11 | 6 | 6 | 3 | Volumes/4444-iivii |
-| 2025-12 | 23 | 23 | 13 | Users/4jp |
-| 2026-01 | 13 | 15 | 9 | 4jp/Legal/padavano-v-mdc--empl |
-| 2026-03 | 24 | 103 | 14 | 4jp |
-| 2026-04 | 93 | 297 | 28 | 4jp |
-| 2026-05 | 346 | 4766 | 70 | Users/4jp |
-| 2026-06 | 84 | 1179 | 26 | Users/4jp |
+| 2025-12 | 23 | 23 | 13 | Users/[user] |
+| 2026-01 | 13 | 15 | 9 | [user]/Legal/padavano-v-mdc--empl |
+| 2026-03 | 24 | 103 | 14 | [user] |
+| 2026-04 | 93 | 297 | 28 | [user] |
+| 2026-05 | 346 | 4766 | 70 | Users/[user] |
+| 2026-06 | 84 | 1179 | 26 | Users/[user] |
 
 ## Top Imperative Verbs
 

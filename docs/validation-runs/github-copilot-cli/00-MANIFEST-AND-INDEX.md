@@ -1,6 +1,6 @@
 # GitHub Copilot CLI Analysis Directory - Complete Manifest
 **Generated:** 2026-02-09T20:56:10Z  
-**Location:** `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure/github-copilot-cli/`  
+**Location:** `~/Workspace/organvm-pactvm/ingesting-organ-document-structure/github-copilot-cli/`  
 **Purpose:** Complete documentation of Three-CLI validation analysis
 
 ---

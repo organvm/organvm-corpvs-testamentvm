@@ -26,9 +26,9 @@ short_key_map:
   LIMINAL: 4444J99
 
 # Additional flat workspace roots scanned by context sync for <root>/<repo>/CLAUDE.md.
-# IRF-DOM-048: this machine hosts repos at /Users/4jp/Code/organvm/<repo> rather than
+# IRF-DOM-048: this machine hosts repos at ~/Code/organvm/<repo> rather than
 # the canonical hierarchical ~/Workspace/<organ>/<repo> layout. The sync engine
 # (organvm_engine.contextmd.sync.sync_all) accepts these as additive — the default
 # hierarchical traversal is preserved.
 additional_workspace_roots:
-  - /Users/4jp/Code/organvm
+  - ~/Code/organvm

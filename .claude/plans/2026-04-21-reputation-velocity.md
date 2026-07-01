@@ -51,7 +51,7 @@ For `stale` PRs: post polite bump.
 
 ### A.4 — Update Backflow Manifest
 
-**File:** `/Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm/data/atoms/backflow-manifest.yaml`
+**File:** `~/Workspace/organvm/organvm-corpvs-testamentvm/data/atoms/backflow-manifest.yaml`
 Update `pr_state` for any PRs whose state changed. Add `last_checked` timestamp.
 
 ---
@@ -62,17 +62,17 @@ Update `pr_state` for any PRs whose state changed. Add `last_checked` timestamp.
 
 ### B.1 — Create `contribution-merged` Template
 
-**New file:** `/Users/4jp/Workspace/organvm/announcement-templates/templates/community/contribution-merged.md`
+**New file:** `~/Workspace/organvm/announcement-templates/templates/community/contribution-merged.md`
 
 Frontmatter variables: `contrib.project_name`, `contrib.pr_number`, `contrib.pr_title`, `contrib.pr_url`, `contrib.problem`, `contrib.solution`, `contrib.language`, `contrib.project_significance`
 
 Channel blocks: mastodon (500 chars), discord (4096), bluesky (300), linkedin (1300), ghost (unlimited).
 
-**Structural reference:** `/Users/4jp/Workspace/organvm/announcement-templates/templates/launch/repo-launch.md` — the only existing template with a `{{#channel linkedin}}` block.
+**Structural reference:** `~/Workspace/organvm/announcement-templates/templates/launch/repo-launch.md` — the only existing template with a `{{#channel linkedin}}` block.
 
 ### B.2 — Register in EVENT_TEMPLATE_MAP
 
-**File:** `/Users/4jp/Workspace/organvm/kerygma-pipeline/kerygma_pipeline.py` line ~108
+**File:** `~/Workspace/organvm/kerygma-pipeline/kerygma_pipeline.py` line ~108
 Add: `"contribution-merged": "contribution-merged"` to the map.
 
 ### B.3 — Draft LinkedIn Announcements
@@ -103,7 +103,7 @@ Render announcements. Present to user. If approved, either:
 
 ### C.1 — Create Script
 
-**New file:** `/Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm/scripts/pr-status-checker.py`
+**New file:** `~/Workspace/organvm/organvm-corpvs-testamentvm/scripts/pr-status-checker.py`
 
 - Reads backflow manifest YAML for PR list
 - Uses `gh pr view <url> --json state,title,updatedAt,labels,reviews,statusCheckRollup` for each PR

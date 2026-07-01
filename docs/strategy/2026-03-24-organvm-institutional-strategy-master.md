@@ -64,12 +64,12 @@ YOU (Individual)
 
 | Action | Timeline | Cost | Notes |
 |--------|----------|------|-------|
-| Apply to **Aspiration Tech** as fiscal sponsor | Week 1 | $150 app fee | Email fiscalservices@aspirationtech.org. Model A preferred for full support. Sliding scale 5-15% fee. |
+| Apply to **Aspiration Tech** as fiscal sponsor | Week 1 | $150 app fee | Email [email redacted]. Model A preferred for full support. Sliding scale 5-15% fee. |
 | Form **ORGANVM LLC** | Week 1-2 | $200-500 | Home state or Delaware. Single-member. Operating agreement with mission statement. |
 | Draft **IP Policy** | Week 2 | $0 | Which repos are Apache 2.0 (sponsored project) vs proprietary (LLC). Most of the 117 repos = open source. |
 | Open LLC **bank account** | Week 2-3 | $0 | Fiscal sponsor handles nonprofit banking. |
 | Set up **GitHub Sponsors** | Week 2 | $0 | For the open-source repos. 0% fee on personal, up to 6% on org. |
-| Enroll in **Candid FSP pilot** | Week 3-4 | $0 | Email fiscalsponsorship@candid.org once sponsor is confirmed. |
+| Enroll in **Candid FSP pilot** | Week 3-4 | $0 | Email [email redacted] once sponsor is confirmed. |
 | Register on **Every.org** | Week 3-4 | $0 | Zero-fee donation platform. Tax receipts handled automatically. |
 | Register on **Benevity** | Week 4 | $0 | Corporate giving channel. Free registration. |
 
@@ -196,7 +196,7 @@ Based on exhaustive comparison of 13 sponsors:
 
 | Platform | Purpose | Trigger |
 |----------|---------|---------|
-| **Candid profile** | Visibility to 230+ platforms | Enrollment via fsp@candid.org |
+| **Candid profile** | Visibility to 230+ platforms | Enrollment via [email redacted] |
 | **Bronze Seal** | Apple Pay donations, syndication | 15 min profile update |
 | **Gold Seal** | Free Candid Premium ($1,199), funder recommendations | Add financials + demographics |
 | **Charity Navigator** | Rating (later) | Requires 3 years of 990 filings |

@@ -722,7 +722,7 @@ json
   "state": "PUBLIC_PROCESS",
   "created": "2024-11-15",
   "last_updated": "2025-01-15",
-  "author": ["you@example.com"],
+  "author": ["[email redacted]"],
   "collaborators": [],
   "upstream_theory": [
     "organ-i-theory-temporality-sketch-2024",
@@ -1441,7 +1441,7 @@ The best architecture is the one you actually use, not the one you designed perf
 Want me to sketch the **Week 1 MVP version**—literally the minimal GitHub setup to start working today?
 
 ## Q: 
-remote repos detialed in 'repos.json' & 'repos.md' & local repos detailed in workspace ['/Users/4jp/Workspace' {you can access this via Desktop Commander, Control Your Mac, & Filesystem}]; 
+remote repos detialed in 'repos.json' & 'repos.md' & local repos detailed in workspace ['~/Workspace' {you can access this via Desktop Commander, Control Your Mac, & Filesystem}]; 
 
 these are the folder names:   4444JPP                              meta-source--ledger-output                  a-i-council--coliseum                metasystem-core                             a-mavs-olevm                         mirror-mirror                               adaptive-personal-syllabus           multi-camera--livestream--framework         agent--claude-smith                  my--father-mother                           agentic-titan                        my-block-warfare                            all-fusion-engine                    narratological-algorithmic-lenses           anon-hookup-now                      nexus--babel-alexandria-                    auto-rev-epistemic-engine_spec       organvm-ii-poiesis                       call-function--ontological           ORG-IV-orchestration-staging                card-trade-social                    ORG-V-public-process-staging                classroom-rpg-aetheria               ORG-VI-community-staging                    cognitive-archaelogy-tribunal        ORG-VII-marketing-staging                   etceter4                             organon-noumenon--ontogenetic-morphe        fetch-familiar-friends               organvm-pactvm                              gamified-coach-interface             OS-me                                       hokage-chess--believe-it!            petasum-super-petasum                       intake                               public-record-data-scrapper                 organvm-i-theoria                          recursive-engine--generative-entity         JST_                                 render-second-amendment                     knowledge-base                       reverse-engine-recursive-run                organvm-iii-ergon                 scalable-lore-expert                        life-betterment-simulation           search-local--happy-hour                    life-my--midst--in                   select-or-left-or-right-or                  linguistic-atomization-framework     self-patent-fulfillment                     mcp-servers                          sema-metra--alchemica-mundi                                                      shared-rememberance-gateway                                                      sovereign-ecosystem--real-estate-luxury                                          system-governance-framework                                                      the-actual-news                                                                  the-invisible-ledger                                                             trade-perpetual-future                                                           universal-mail--automation                                                       universal-waveform-explorer                                                      virgil-training-overlay                                                          your--fit-tailored
 
@@ -3348,7 +3348,7 @@ jobs:
       - name: Push Metrics to Registry
         run: |
           git config user.name "Orchestration Bot"
-          git config user.email "bot@4444j99.orchestration"
+          git config user.email "[email redacted]"
           
           # Append metrics to registry history
           python3 - <<'EOF'
@@ -4435,7 +4435,7 @@ jobs:
       - name: Commit Changes
         run: |
           git config user.name "Public Process Bot"
-          git config user.email "bot@4444j99.organs"
+          git config user.email "[email redacted]"
           git add .
           git commit -m "Publish essay: $(date +%Y-%m-%d)"
           git push
@@ -4488,7 +4488,7 @@ jobs:
       - name: Commit
         run: |
           git config user.name "Public Process Bot"
-          git config user.email "bot@4444j99.organs"
+          git config user.email "[email redacted]"
           
           if git diff --quiet CHANGELOG.md; then
             echo "No changes"
@@ -6559,7 +6559,7 @@ jobs:
       - name: Push Metrics to Registry
         run: |
           git config user.name "Orchestration Bot"
-          git config user.email "bot@4444j99.orchestration"
+          git config user.email "[email redacted]"
           
           # Append metrics to registry history
           python3 - <<'EOF'

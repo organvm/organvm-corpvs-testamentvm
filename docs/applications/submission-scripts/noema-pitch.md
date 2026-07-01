@@ -2,7 +2,7 @@
 
 **Created:** 2026-02-18
 **Time to complete:** ~20-30 minutes
-**URL:** mailto:pitches@noemamag.com
+**URL:** mailto:[email redacted]
 **Deadline:** Rolling
 **Award:** $1/word (~$3K per essay)
 **Identity position:** Systems Artist (secondary: Creative Technologist)
@@ -17,7 +17,7 @@
 
 ## Pre-flight (2 minutes)
 
-- [ ] Open application: mailto:pitches@noemamag.com
+- [ ] Open application: mailto:[email redacted]
 - [ ] Confirm eligibility requirements
 - [ ] Have ready: portfolio URL, resume PDF, work sample links
 - [ ] Review identity position: **Systems Artist**

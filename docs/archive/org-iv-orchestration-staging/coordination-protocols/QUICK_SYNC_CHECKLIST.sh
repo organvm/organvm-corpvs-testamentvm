@@ -6,7 +6,7 @@
 echo "🔧 Starting Omni-Dromenon-Machina Local Sync..."
 
 # STEP 1: Move to correct directory
-cd /Users/4jp/Desktop/omni-dromenon-machina || { echo "❌ Directory not found"; exit 1; }
+cd ~/Desktop/omni-dromenon-machina || { echo "❌ Directory not found"; exit 1; }
 echo "✅ In omni-dromenon-machina/"
 
 # STEP 2: Extract .github drafts (for comparison)
@@ -158,4 +158,4 @@ echo ""
 echo "6. Go offline. Return Dec 11 to review Phase A outputs."
 echo ""
 EOF
-chmod +x /Users/4jp/Desktop/omni-dromenon-machina/QUICK_SYNC_CHECKLIST.sh
+chmod +x ~/Desktop/omni-dromenon-machina/QUICK_SYNC_CHECKLIST.sh

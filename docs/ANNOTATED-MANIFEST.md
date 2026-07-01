@@ -1,6 +1,6 @@
 # Exhaustive Annotated Manifest: `ingesting-organ-document-structure/`
 
-**Directory:** `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure`
+**Directory:** `~/Workspace/organvm-pactvm/ingesting-organ-document-structure`
 **Total files:** 6 root files (README.md, LICENSE, CLAUDE.md, repo-registry.json, .gitignore, DIRECTORY.md) + docs/ subdirectories (genesis/4, planning/5, strategy/3, implementation/4, evaluation/4, standards/2, agents/2, archive/4, memory/1, specs/2, validation-runs/~45 files) + .config/3 + .github/4 + .github-template/(~25 templates + ~14 generated) + scripts/1 = ~120 content files
 **Total size:** ~2.0 MB of documentation + templates (no runtime source code; 1 Python generator script)
 **File types:** 50+ Markdown (.md), 4 JSON (.json), 2 Bash (.env/.env.local), 1 Python (.py), 7 YAML (.yml, generated), 1 text (.txt), 1 license (.txt), 6 log files (.log), 6 prompt files (.txt), 4 archived versions
@@ -957,7 +957,7 @@ These 5 documents form a sequential planning toolkit. Each is self-contained but
   - Security: no secrets, local overrides in `.env.local` only, `archive/` immutable
 
 - **Key annotations:**
-  - References global policy at `/Users/4jp/AGENTS.md`
+  - References global policy at `~/AGENTS.md`
   - Designed for any AI agent (not Claude-specific — contrast with `CLAUDE.md`)
   - The repo naming convention `[organ]-[type]--[specific-name]` (double-dash separator) is documented here
 

@@ -6,7 +6,7 @@
 **Deadline:** April 2, 2026, 3pm ET
 **Award:** Up to $50,000
 **Identity position:** Systems Artist (secondary: Educator)
-**Benefits cliff:** $50K exceeds Medicaid threshold -> Essential Plan ($0 premium). Call NYLAG (212-613-5000).
+**Benefits cliff:** $50K exceeds Medicaid threshold -> Essential Plan ($0 premium). Call NYLAG [phone redacted]).
 
 ---
 

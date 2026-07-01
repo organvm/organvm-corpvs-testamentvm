@@ -45,9 +45,9 @@ PROCESS:
 ```
 
 **Files to Create:**
-- `/Users/4jp/Desktop/omni-dromenon-machina/core-engine/src/consensus/weighted-consensus.ts`
-- `/Users/4jp/Desktop/omni-dromenon-machina/core-engine/tests/consensus.test.ts`
-- `/Users/4jp/Desktop/omni-dromenon-machina/core-engine/benchmarks/consensus-bench.ts`
+- `~/Desktop/omni-dromenon-machina/core-engine/src/consensus/weighted-consensus.ts`
+- `~/Desktop/omni-dromenon-machina/core-engine/tests/consensus.test.ts`
+- `~/Desktop/omni-dromenon-machina/core-engine/benchmarks/consensus-bench.ts`
 
 **Success Criteria:**
 ✅ `npm test` passes (100% coverage)
@@ -76,7 +76,7 @@ PROCESS:
 **Tone:** Professional, academic rigor, artistic passion evident, honest about constraints
 
 **File Output:**
-`/Users/4jp/Desktop/omni-dromenon-machina/GRANT_MATERIALS/ars-electronica-narrative-DRAFT.md`
+`~/Desktop/omni-dromenon-machina/GRANT_MATERIALS/ars-electronica-narrative-DRAFT.md`
 
 **Success Criteria:**
 ✅ 1200±50 words
@@ -174,9 +174,9 @@ jobs:
 ```
 
 **Files Output:**
-- `/Users/4jp/Desktop/omni-dromenon-machina/.github/workflows/test.yml`
-- `/Users/4jp/Desktop/omni-dromenon-machina/.github/workflows/deploy-docs.yml`
-- `/Users/4jp/Desktop/omni-dromenon-machina/.github/workflows/release.yml`
+- `~/Desktop/omni-dromenon-machina/.github/workflows/test.yml`
+- `~/Desktop/omni-dromenon-machina/.github/workflows/deploy-docs.yml`
+- `~/Desktop/omni-dromenon-machina/.github/workflows/release.yml`
 
 **Success Criteria:**
 ✅ Valid YAML syntax

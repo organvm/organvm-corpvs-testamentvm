@@ -4,8 +4,8 @@
 
 Review of two downloaded chat exports:
 
-- `/Users/4jp/Downloads/Closing Maddie's Spiral Gaps.md`
-- `/Users/4jp/Downloads/Consolidating Disparate Project Artifacts.md`
+- `~/Downloads/Closing Maddie's Spiral Gaps.md`
+- `~/Downloads/Consolidating Disparate Project Artifacts.md`
 
 The review checked current filesystem state in:
 

@@ -108,4 +108,4 @@ If the form asks for work samples or "pieces that best capture your craft":
 - **Form asks for different fields:** Use the artist statement for any "about you" or "why this program" field. Use the project description for any "describe your work" field.
 - **Form asks for a specific project, not a system:** Lead with the eight-organ system as a single project. If forced to pick one component, use "agentic-titan: a multi-agent orchestration framework with 1,095 tests."
 - **Portfolio site is down:** Use `https://github.com/meta-organvm` as a fallback link to the system hub.
-- **Roles still say "Coming soon":** Check back weekly. Set a calendar reminder for March 11 (1 week before deadline). If roles are still not posted by March 14, email creative-fellowship@google.com to confirm the deadline is correct.
+- **Roles still say "Coming soon":** Check back weekly. Set a calendar reminder for March 11 (1 week before deadline). If roles are still not posted by March 14, email [email redacted] to confirm the deadline is correct.

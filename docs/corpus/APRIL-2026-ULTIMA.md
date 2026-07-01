@@ -49,32 +49,32 @@ These rates **define** April. Future months get measured against these as the ba
 ### Today's Warp-restart (2026-04-27 ~07:50 local) — recover these now:
 
 ```bash
-claude --resume 116a45d8-38f0-4289-9b58-f1b6cb6dbf72    # -Users-4jp — 169 events
-claude --resume ac066cac-7d54-4aa0-b62b-3f91100376a9    # -Users-4jp — 53 events
-claude --resume 5ebeebd3-d8e4-4726-80b4-855995af538e    # -Users-4jp — 51 events
-claude --resume f6adcad7-911d-441e-99db-78f80ae9ff35    # -Users-4jp — 27 events
-claude --resume 8bac99ae-b8b6-4d19-a0ee-2bb934bdeffe    # -Users-4jp — 28 events
+claude --resume 116a45d8-38f0-4289-9b58-f1b6cb6dbf72    # -Users-[user] — 169 events
+claude --resume ac066cac-7d54-4aa0-b62b-3f91100376a9    # -Users-[user] — 53 events
+claude --resume 5ebeebd3-d8e4-4726-80b4-855995af538e    # -Users-[user] — 51 events
+claude --resume f6adcad7-911d-441e-99db-78f80ae9ff35    # -Users-[user] — 27 events
+claude --resume 8bac99ae-b8b6-4d19-a0ee-2bb934bdeffe    # -Users-[user] — 28 events
 ```
 
 ### Earlier-April unanswered prompts (case-1, top 15 by event count):
 
 | Session | Events | Date | Scope |
 |---|---:|---|---|
-| `2f07b96a` | 344 | 2026-04-20 | -Users-4jp-Workspace-meta-organvm-post-flood-archive-original |
-| `be87233a` | 207 | 2026-04-01 | -Users-4jp-Workspace-organvm-iv-taxis-orchestration-start-here |
-| `9041b50e` | 184 | 2026-04-02 | -Users-4jp-Workspace-organvm-iv-taxis-orchestration-start-here |
-| `c10b0a34` | 129 | 2026-04-04 | -Users-4jp-Workspace |
-| `16aa6e75` | 123 | 2026-04-01 | -Users-4jp-Workspace |
-| `16bf7dff` | 91 | 2026-04-16 | -Users-4jp-Workspace-organvm-iii-ergon-sovereign-systems--elevate-align |
-| `7574b6b7` | 74 | 2026-04-04 | -Users-4jp-Workspace-organvm-iv-taxis |
-| `0d4fd2e1` | 58 | 2026-04-25 | -Users-4jp |
-| `ef0f6117` | 22 | 2026-04-22 | -Users-4jp |
-| `aace623d` | 6 | 2026-04-04 | -Users-4jp-systems |
-| `9016ce4a` | 5 | 2026-04-19 | -Users-4jp-system-system--system |
-| `022eeab8` | 3 | 2026-04-04 | -Users-4jp-Workspace-organvm-iii-ergon-sovereign-systems--elevate-align |
-| `cc44a561` | 2 | 2026-04-22 | -Users-4jp |
-| `1d19c860` | 1 | 2026-04-22 | -Users-4jp |
-| `442f335d` | 1 | 2026-04-16 | -Users-4jp-Workspace |
+| `2f07b96a` | 344 | 2026-04-20 | -Users-[user]-Workspace-meta-organvm-post-flood-archive-original |
+| `be87233a` | 207 | 2026-04-01 | -Users-[user]-Workspace-organvm-iv-taxis-orchestration-start-here |
+| `9041b50e` | 184 | 2026-04-02 | -Users-[user]-Workspace-organvm-iv-taxis-orchestration-start-here |
+| `c10b0a34` | 129 | 2026-04-04 | -Users-[user]-Workspace |
+| `16aa6e75` | 123 | 2026-04-01 | -Users-[user]-Workspace |
+| `16bf7dff` | 91 | 2026-04-16 | -Users-[user]-Workspace-organvm-iii-ergon-sovereign-systems--elevate-align |
+| `7574b6b7` | 74 | 2026-04-04 | -Users-[user]-Workspace-organvm-iv-taxis |
+| `0d4fd2e1` | 58 | 2026-04-25 | -Users-[user] |
+| `ef0f6117` | 22 | 2026-04-22 | -Users-[user] |
+| `aace623d` | 6 | 2026-04-04 | -Users-[user]-systems |
+| `9016ce4a` | 5 | 2026-04-19 | -Users-[user]-system-system--system |
+| `022eeab8` | 3 | 2026-04-04 | -Users-[user]-Workspace-organvm-iii-ergon-sovereign-systems--elevate-align |
+| `cc44a561` | 2 | 2026-04-22 | -Users-[user] |
+| `1d19c860` | 1 | 2026-04-22 | -Users-[user] |
+| `442f335d` | 1 | 2026-04-16 | -Users-[user]-Workspace |
 
 ---
 
@@ -84,16 +84,16 @@ claude --resume 8bac99ae-b8b6-4d19-a0ee-2bb934bdeffe    # -Users-4jp — 28 even
 
 | Session | Date | Scope | Violations |
 |---|---|---|---|
-| `7f671579` | 2026-04-23 | -Users-4jp | rambling ratio 69/5 |
-| `bffe3bb7` | 2026-04-18 | -Users-4jp | rambling ratio 56/6 |
-| `6cb6e33e` | 2026-04-21 | -Users-4jp | rambling ratio 48/5 |
-| `af8465e2` | 2026-04-21 | -Users-4jp | rambling ratio 67/3 |
-| `78e28596` | 2026-04-21 | -Users-4jp | rambling ratio 17/2 |
-| `5e6b1b1c` | 2026-04-25 | -Users-4jp | rambling ratio 24/2 |
-| `e87291f8` | 2026-04-23 | -Users-4jp | rambling ratio 110/8 |
-| `e4d7bfeb` | 2026-04-26 | -Users-4jp | rambling ratio 34/3 |
-| `ce4999dd` | 2026-04-21 | -Users-4jp | rambling ratio 55/4 |
-| `967521eb` | 2026-04-15 | -Users-4jp | rambling ratio 142/11 |
+| `7f671579` | 2026-04-23 | -Users-[user] | rambling ratio 69/5 |
+| `bffe3bb7` | 2026-04-18 | -Users-[user] | rambling ratio 56/6 |
+| `6cb6e33e` | 2026-04-21 | -Users-[user] | rambling ratio 48/5 |
+| `af8465e2` | 2026-04-21 | -Users-[user] | rambling ratio 67/3 |
+| `78e28596` | 2026-04-21 | -Users-[user] | rambling ratio 17/2 |
+| `5e6b1b1c` | 2026-04-25 | -Users-[user] | rambling ratio 24/2 |
+| `e87291f8` | 2026-04-23 | -Users-[user] | rambling ratio 110/8 |
+| `e4d7bfeb` | 2026-04-26 | -Users-[user] | rambling ratio 34/3 |
+| `ce4999dd` | 2026-04-21 | -Users-[user] | rambling ratio 55/4 |
+| `967521eb` | 2026-04-15 | -Users-[user] | rambling ratio 142/11 |
 
 ---
 
@@ -103,16 +103,16 @@ claude --resume 8bac99ae-b8b6-4d19-a0ee-2bb934bdeffe    # -Users-4jp — 28 even
 
 | Session | Date | Cwd | Issue |
 |---|---|---|---|
-| `9a022a0b` | 2026-04-16 | `/Users/4jp/Workspace/4444J99` | dirty |
-| `9d9ed4ba` | 2026-04-06 | `/Users/4jp/Workspace/4444J99/application-pipeline` | dirty |
-| `e964dc14` | 2026-04-01 | `/Users/4jp/Workspace/4444J99/application-pipeline` | dirty |
-| `46fbd866` | 2026-04-03 | `/Users/4jp/Workspace/4444J99/application-pipeline` | dirty |
-| `8442f1dc` | 2026-04-03 | `/Users/4jp/Workspace/4444J99/application-pipeline` | dirty |
-| `6ac7c33e` | 2026-04-15 | `/Users/4jp/Workspace/meta-organvm/post-flood/archive_original` | dirty |
-| `b23e3aca` | 2026-04-11 | `/Users/4jp/Workspace/meta-organvm/post-flood/archive_original` | dirty |
-| `1b0958d0` | 2026-04-14 | `/Users/4jp/Workspace/meta-organvm/post-flood/archive_original` | dirty |
-| `c1759668` | 2026-04-09 | `/Users/4jp/Workspace/meta-organvm/post-flood/archive_original` | dirty |
-| `2f07b96a` | 2026-04-20 | `/Users/4jp/Workspace/meta-organvm/post-flood/archive_original` | dirty |
+| `9a022a0b` | 2026-04-16 | `~/Workspace/4444J99` | dirty |
+| `9d9ed4ba` | 2026-04-06 | `~/Workspace/4444J99/application-pipeline` | dirty |
+| `e964dc14` | 2026-04-01 | `~/Workspace/4444J99/application-pipeline` | dirty |
+| `46fbd866` | 2026-04-03 | `~/Workspace/4444J99/application-pipeline` | dirty |
+| `8442f1dc` | 2026-04-03 | `~/Workspace/4444J99/application-pipeline` | dirty |
+| `6ac7c33e` | 2026-04-15 | `~/Workspace/meta-organvm/post-flood/archive_original` | dirty |
+| `b23e3aca` | 2026-04-11 | `~/Workspace/meta-organvm/post-flood/archive_original` | dirty |
+| `1b0958d0` | 2026-04-14 | `~/Workspace/meta-organvm/post-flood/archive_original` | dirty |
+| `c1759668` | 2026-04-09 | `~/Workspace/meta-organvm/post-flood/archive_original` | dirty |
+| `2f07b96a` | 2026-04-20 | `~/Workspace/meta-organvm/post-flood/archive_original` | dirty |
 
 ---
 
@@ -120,24 +120,24 @@ claude --resume 8bac99ae-b8b6-4d19-a0ee-2bb934bdeffe    # -Users-4jp — 28 even
 
 | Scope | Sessions |
 |---|---:|
-| `-Users-4jp` | 108 |
-| `-Users-4jp-system-system--system` | 47 |
-| `-Users-4jp-Workspace` | 32 |
-| `-Users-4jp-Workspace-organvm-iv-taxis` | 23 |
-| `-Users-4jp-Workspace-meta-organvm` | 22 |
-| `-Users-4jp-Workspace-meta-organvm-post-flood-archive-original` | 15 |
-| `-Users-4jp-Workspace-organvm-iii-ergon-sovereign-systems--elevate-align` | 11 |
-| `-Users-4jp-Workspace-organvm-iv-taxis-orchestration-start-here` | 11 |
-| `-Users-4jp-Workspace-4444J99-application-pipeline` | 4 |
-| `-Users-4jp-Workspace-a-organvm` | 4 |
-| `-Users-4jp-Workspace-4444J99` | 2 |
-| `-Users-4jp-substance-subtrate-organvm--major-instance-organvm-origin-organvm-iii-ergon-sovereign-systems--elevate-align` | 2 |
-| `-Users-4jp-Workspace-meta-organvm-post-flood` | 1 |
-| `-Users-4jp-Workspace-meta-organvm-praxis-perpetua-prompt-corpus` | 1 |
-| `-Users-4jp-Workspace-void--edge-object--plane-organvm--major-instance-organvm-origin-organvm-iii-ergon-sovereign-systems--elevate-align` | 1 |
-| `-Users-4jp-sovereign--ground` | 1 |
-| `-Users-4jp-substance-subtrate-organvm--major-instance-organvm-origin-meta-organvm` | 1 |
-| `-Users-4jp-systems` | 1 |
+| `-Users-[user]` | 108 |
+| `-Users-[user]-system-system--system` | 47 |
+| `-Users-[user]-Workspace` | 32 |
+| `-Users-[user]-Workspace-organvm-iv-taxis` | 23 |
+| `-Users-[user]-Workspace-meta-organvm` | 22 |
+| `-Users-[user]-Workspace-meta-organvm-post-flood-archive-original` | 15 |
+| `-Users-[user]-Workspace-organvm-iii-ergon-sovereign-systems--elevate-align` | 11 |
+| `-Users-[user]-Workspace-organvm-iv-taxis-orchestration-start-here` | 11 |
+| `-Users-[user]-Workspace-4444J99-application-pipeline` | 4 |
+| `-Users-[user]-Workspace-a-organvm` | 4 |
+| `-Users-[user]-Workspace-4444J99` | 2 |
+| `-Users-[user]-substance-subtrate-organvm--major-instance-organvm-origin-organvm-iii-ergon-sovereign-systems--elevate-align` | 2 |
+| `-Users-[user]-Workspace-meta-organvm-post-flood` | 1 |
+| `-Users-[user]-Workspace-meta-organvm-praxis-perpetua-prompt-corpus` | 1 |
+| `-Users-[user]-Workspace-void--edge-object--plane-organvm--major-instance-organvm-origin-organvm-iii-ergon-sovereign-systems--elevate-align` | 1 |
+| `-Users-[user]-sovereign--ground` | 1 |
+| `-Users-[user]-substance-subtrate-organvm--major-instance-organvm-origin-meta-organvm` | 1 |
+| `-Users-[user]-systems` | 1 |
 
 ---
 
@@ -167,21 +167,21 @@ claude --resume 8bac99ae-b8b6-4d19-a0ee-2bb934bdeffe    # -Users-4jp — 28 even
 
 | Path | Sessions |
 |---|---:|
-| `/Users/4jp/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skill` | 20 |
-| `/Users/4jp/Desktop/Screenshot` | 17 |
-| `/Users/4jp` | 7 |
-| `/Users/4jp/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skill` | 5 |
-| `/Users/4jp/Workspace/meta-organvm` | 5 |
+| `~/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skill` | 20 |
+| `~/Desktop/Screenshot` | 17 |
+| `/Users/[user]` | 7 |
+| `~/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skill` | 5 |
+| `~/Workspace/meta-organvm` | 5 |
 | `~/Workspace` | 4 |
-| `/Users/4jp/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skill` | 4 |
-| `/Users/4jp/sovereign--ground/holds--same/a-organvm` | 4 |
-| `/Users/4jp/Workspace/meta-organvm/post-flood/archive_original` | 3 |
-| `/Users/4jp/Desktop/Screenshot\` | 3 |
-| `/Users/4jp/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skill` | 3 |
-| `/Users/4jp/system-system--system--monad` | 3 |
-| `/Users/4jp/system-system--system` | 3 |
-| `/Users/4jp/.claude/skills/knowledge-architecture` | 3 |
-| `/Users/4jp/Workspace/organvm-iv-taxis` | 3 |
+| `~/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skill` | 4 |
+| `~/sovereign--ground/holds--same/a-organvm` | 4 |
+| `~/Workspace/meta-organvm/post-flood/archive_original` | 3 |
+| `~/Desktop/Screenshot\` | 3 |
+| `~/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skill` | 3 |
+| `~/system-system--system--monad` | 3 |
+| `~/system-system--system` | 3 |
+| `~/.claude/skills/knowledge-architecture` | 3 |
+| `~/Workspace/organvm-iv-taxis` | 3 |
 
 ---
 

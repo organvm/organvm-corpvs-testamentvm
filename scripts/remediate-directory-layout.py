@@ -22,7 +22,7 @@ from pathlib import Path
 HOME = Path.home()
 GAP = HOME / "Code/organvm/organvm-corpvs-testamentvm/docs/research/2026-05-29-layout-conformance.json"
 YEAR = 2026
-HOLDER = "Anthony Padavano (@4444J99) / ORGANVM"
+HOLDER = "[name redacted] (@4444J99) / ORGANVM"
 
 CODE_MANIFESTS = ("package.json", "pyproject.toml", "go.mod", "Cargo.toml", "setup.py")
 
@@ -150,7 +150,7 @@ def main() -> int:
         rc, _ = run(["git", "add"] + made, repo)
         msg = (f"Close #26 gap: add {' + '.join(made)}\n\n"
                f"Standard #26 root-hygiene conformance (additive; no files moved).\n\n"
-               f"Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>")
+               f"Co-Authored-By: Claude Opus 4.8 (1M context) <[email redacted]>")
         rc, out = run(["git", "commit", "-q", "-m", msg], repo)
         if rc == 0:
             done += 1
