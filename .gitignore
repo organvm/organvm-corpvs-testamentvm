@@ -39,3 +39,9 @@ data/corpus/*/events.jsonl
 # Prompt registry pipeline outputs (regenerable via extract→atomize→triage→measure→route)
 # See data/prompt-registry/README.md for regeneration commands
 data/prompt-registry/*.json
+
+# removed inadvertently-committed local session artifacts (PII containment)
+data/corpora/week-2026-04-19_to_2026-04-26/prompts-raw.jsonl
+data/corpora/week-2026-04-19_to_2026-04-26/prompts-assessed.jsonl
+data/prompt-registry
+.claude/settings.local.json
