@@ -177,7 +177,7 @@ TARGETS = [
      "amount": "Up to $50,000", "deadline": "April 2, 2026, 3pm ET", "fit": 9,
      "url": "https://creative-capital.org/creative-capital-award/award-application/",
      "format": "6 short questions + 500-word project description + work samples + bio + resume",
-     "cliff": {"rating": "caution", "note": "$50K exceeds Medicaid threshold -> Essential Plan ($0 premium). Call NYLAG (212-613-5000)."},
+     "cliff": {"rating": "caution", "note": "$50K exceeds Medicaid threshold -> Essential Plan ($0 premium). Call NYLAG [phone redacted])."},
      "has_materials": False},
     {"id": "google-fellowship", "name": "Google Creative Fellowship", "category": "Fellowship",
      "amount": "Stipend (~$50K+)", "deadline": "March 18, 2026, 5pm PST", "fit": 7,
@@ -396,7 +396,7 @@ TARGETS = [
     # Track 6: Writing Income
     {"id": "noema", "name": "Noema Magazine", "category": "Writing",
      "amount": "$1/word (~$3K per essay)", "deadline": "Rolling", "fit": None,
-     "url": "mailto:pitches@noemamag.com",
+     "url": "mailto:[email redacted]",
      "format": "Pitch email: 2-3 paragraph pitch + writing samples",
      "cliff": {"rating": "moderate", "note": "Earned income. One per quarter = safe on adjunct base. Two per year safest."},
      "has_materials": False},

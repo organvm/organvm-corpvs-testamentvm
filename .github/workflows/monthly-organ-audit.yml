@@ -96,7 +96,7 @@ jobs:
       - name: Commit Updated Registry
         run: |
           git config user.name "ORGAN-IV Audit Bot"
-          git config user.email "audit@organvm.org"
+          git config user.email "[email redacted]"
           git add repo-registry.json
           if git diff --cached --quiet; then
             echo "No changes to commit"

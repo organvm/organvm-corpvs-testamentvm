@@ -27,7 +27,7 @@
 
 **If you exceed Medicaid threshold:** NYS Essential Plan covers you at **$0 premium** up to $39,125/year. The practical health coverage cliff is NOT at $21,597 — it's at $39,125.
 
-**Key rule:** Call **NYLAG (212-613-5000)** before accepting any single grant >$5K. They provide free combined legal + financial counseling for exactly this situation.
+**Key rule:** Call **NYLAG [phone redacted])** before accepting any single grant >$5K. They provide free combined legal + financial counseling for exactly this situation.
 
 ---
 

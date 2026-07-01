@@ -5,7 +5,7 @@
 **URL:** https://www.artadia.org (apply via Submittable)
 **Deadline:** March 1, 2026
 **Award:** $15,000 unrestricted (3 awardees per cycle)
-**Benefits cliff:** SNAP-safe (lump sum excluded). $15K on $12K adjunct base stays below Medicaid with Schedule C deductions. If uncertain, call NYLAG (212-613-5000).
+**Benefits cliff:** SNAP-safe (lump sum excluded). $15K on $12K adjunct base stays below Medicaid with Schedule C deductions. If uncertain, call NYLAG [phone redacted]).
 
 ---
 

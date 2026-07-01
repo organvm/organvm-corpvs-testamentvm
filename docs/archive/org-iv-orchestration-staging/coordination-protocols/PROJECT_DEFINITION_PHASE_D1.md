@@ -9,7 +9,7 @@ Formalize the "Universal Orchestrator" capabilities of Omni-Dromenon Machina by 
 - **Boundaries:** Read-only analysis of the target. No code modification in the target yet. Generation of "Meta-Tasks" in the Orchestrator's queue.
 
 **Inputs:**
-1.  **Metasystem Manifest:** `4jp-metasystem.yaml` (root configuration).
+1.  **Metasystem Manifest:** `[user]-metasystem.yaml` (root configuration).
 2.  **Target Genome:** `../life-my--midst--in/seed.yaml` (constraints & roadmap).
 3.  **Target State:** Current file structure and content of `life-my--midst--in`.
 

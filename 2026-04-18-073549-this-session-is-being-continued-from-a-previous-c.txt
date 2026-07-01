@@ -25,7 +25,7 @@
 
 ⏺ Not a submodule — clean rename. No .gitmodules surgery needed.
 
-⏺ Bash(cd /Users/4jp/Workspace/4444J99 && mv victoroff-group padavano && echo
+⏺ Bash(cd ~/Workspace/4444J99 && mv victoroff-group padavano && echo
       "renamed")
   ⎿  renamed
 
@@ -100,7 +100,7 @@
          +Growth Auditor"                                                
       70  - Tone: established, expensive, intentional, quiet — not flashy
            or attention-seeking
-      71 +- Footer must read: `© 2026 Anthony James Padavano`            
+      71 +- Footer must read: `© 2026 [name redacted]`            
 
 ⏺ Write(~/Workspace/4444J99/padavano/README.md)
   ⎿  Added 23 lines, removed 33 lines
@@ -135,7 +135,7 @@
          -ments the **Mobile Prime Protocol**, establishing mobile-native
          - interactions as the foundational directive while delivering a 
          -perfected secondary viewpoint for desktop environments.        
-      13 +Anthony James Padavano's consulting presence — a static landing
+      13 +[name redacted]'s consulting presence — a static landing
          + site implementing the **Mobile Prime Protocol**. Mobile-native
          + interactions as foundational directive; perfected secondary vi
          +ewpoint for desktop.                                           
@@ -238,18 +238,18 @@
       81  
       91 -© 2026 VICTOROFF GROUP. ALL RIGHTS RESERVED.                   
       92 -MODULAR PROTOCOL ACTIVATED.                                    
-      82 +© 2026 Anthony James Padavano. All rights reserved.            
+      82 +© 2026 [name redacted]. All rights reserved.            
 
 ⏺ Now rename the GitHub repo and update the remote:
 
-⏺ Bash(cd /Users/4jp/Workspace/4444J99/padavano && gh repo rename padavano
+⏺ Bash(cd ~/Workspace/4444J99/padavano && gh repo rename padavano
       --repo 4444J99/victoroff-group --yes 2>&1)
   ⎿  (No output)
 
-⏺ Bash(git remote set-url origin git@github.com:4444J99/padavano.git && git
+⏺ Bash(git remote set-url origin [email redacted]:4444J99/padavano.git && git
       remote -v)
-  ⎿  origin     git@github.com:4444J99/padavano.git (fetch)
-     origin     git@github.com:4444J99/padavano.git (push)
+  ⎿  origin     [email redacted]:4444J99/padavano.git (fetch)
+     origin     [email redacted]:4444J99/padavano.git (push)
 
 ⏺ Now commit the internal changes and push:
 
@@ -265,7 +265,7 @@
      [main 76d364f] chore: rebrand Victoroff Group → Padavano
       8 files changed, 120 insertions(+), 123 deletions(-)
      │  No config files with names ["lefthook" ".lefthook" ".config/lefthook"] 
-     have been found in "/Users/4jp/Workspace/4444J99/padavano"
+     have been found in "~/Workspace/4444J99/padavano"
      To github.com:4444J99/padavano.git
       ! [rejected]        main -> main (fetch first)
      error: failed to push some refs to 'github.com:4444J99/padavano.git'
@@ -327,7 +327,7 @@
       tests/structure.spec.ts…)
   ⎿  Updated 4 paths from the index
 
-⏺ Bash(cat /Users/4jp/Workspace/4444J99/padavano/package.json && echo "---" &&
+⏺ Bash(cat ~/Workspace/4444J99/padavano/package.json && echo "---" &&
       git add CLAUDE.md README.md package.json src/index.html
       tests/aesthetic.spec.ts tests/ct…)
   ⎿  {
@@ -337,7 +337,7 @@
 
 ⏺ Bash(git push origin main && echo "pushed")
   ⎿  │  No config files with names ["lefthook" ".lefthook" ".config/lefthoo
-     k"] have been found in "/Users/4jp/Workspace/4444J99/padavano"
+     k"] have been found in "~/Workspace/4444J99/padavano"
      To github.com:4444J99/padavano.git
      … +2 lines (ctrl+o to expand)
 
@@ -355,7 +355,7 @@
 
   - Directory: ~/Workspace/4444J99/padavano/ — renamed
   - GitHub repo: 4444J99/padavano — renamed (was victoroff-group)
-  - Git remote: git@github.com:4444J99/padavano.git — updated
+  - Git remote: [email redacted]:4444J99/padavano.git — updated
   - npm package name: padavano
   - Brand throughout: Padavano — site title, h1, footer, README, CLAUDE.md
   - All tests: 40/40 passing (Desktop + Mobile Chrome)
@@ -412,7 +412,7 @@ be universally contextually applied;
 ❯ all has been added to universale context ? nothing                            
 will be lost?                                                                   
 
-⏺ Bash(cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git
+⏺ Bash(cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git
       status && echo "---IRF HEAD---" && head -80
       INST-INDEX-RERUM-FACIENDARUM.md)
   ⎿  On branch main
@@ -425,21 +425,21 @@ will be lost?
       echo "=== INSTANCE.toml files ===" && ls -la ~/i--me--mine/INSTANCE.toml
       ~/chaos--incarnate/INSTANCE.toml ~…)
   ⎿  === INSTANCE.toml files ===
-     -rw-r--r--@ 1 4jp  staff  1244 Apr 16 10:22 /Users/4jp/chaos--incarnat
+     -rw-r--r--@ 1 [user]  staff  1244 Apr 16 10:22 ~/chaos--incarnat
      e/INSTANCE.toml
      … +8 lines (ctrl+o to expand)
-  ⎿  Shell cwd was reset to /Users/4jp/Workspace
+  ⎿  Shell cwd was reset to ~/Workspace
 
-⏺ Bash(ls /Users/4jp/i--me--mine/ && echo "---" && ls
-      /Users/4jp/chaos--incarnate/ && echo "---" && git -C
-      /Users/4jp/i--me--mine status 2>&1 | head -5 && echo "---" &…)
+⏺ Bash(ls ~/i--me--mine/ && echo "---" && ls
+      ~/chaos--incarnate/ && echo "---" && git -C
+      ~/i--me--mine status 2>&1 | head -5 && echo "---" &…)
   ⎿  INSTANCE.toml
      ---
      INSTANCE.toml
      … +4 lines (ctrl+o to expand)
 
 ⏺ Bash(# Check engagement YAMLs git state
-      git -C /Users/4jp/Workspace/organvm-iii-ergon/commerce--meta status 2>&1 |
+      git -C ~/Workspace/organvm-iii-ergon/commerce--meta status 2>&1 |
        head -15…)
   ⎿  On branch main
      Your branch is up to date with 'origin/main'.
@@ -451,20 +451,20 @@ will be lost?
 
 ⏺ Bash(cd ~/domus-semper-palingenesis && chezmoi status 2>&1 | grep -E
       "INSTANCE|memory|plans" | head -20)
-  ⎿  MM .claude/projects/-Users-4jp-Workspace-4444J99-application-pipeline/
+  ⎿  MM .claude/projects/-Users-[user]-Workspace-4444J99-application-pipeline/
      memory/.consolidate-lock
-     MM .claude/projects/-Users-4jp-Workspace-4444J99-portfolio/memory/.con
+     MM .claude/projects/-Users-[user]-Workspace-4444J99-portfolio/memory/.con
      … +25 lines (ctrl+o to expand)
-  ⎿  Shell cwd was reset to /Users/4jp/Workspace
+  ⎿  Shell cwd was reset to ~/Workspace
 ⏺ Bash(cd ~/domus-semper-palingenesis && chezmoi status 2>&1 | grep -E
       "memory.*Workspace\b|i--me--mine|chaos--incarnate" | head -30)
-  ⎿  Shell cwd was reset to /Users/4jp/Workspace
+  ⎿  Shell cwd was reset to ~/Workspace
 
-⏺ Bash(chezmoi status 2>&1 | grep "projects/-Users-4jp-Workspace/memory" | head
+⏺ Bash(chezmoi status 2>&1 | grep "projects/-Users-[user]-Workspace/memory" | head
       -20)
-  ⎿  MM .claude/projects/-Users-4jp-Workspace/memory/.consolidate-lock
-     MM .claude/projects/-Users-4jp-Workspace/memory/MEMORY.md
-     MM .claude/projects/-Users-4jp-Workspace/memory/project_workspace_topo
+  ⎿  MM .claude/projects/-Users-[user]-Workspace/memory/.consolidate-lock
+     MM .claude/projects/-Users-[user]-Workspace/memory/MEMORY.md
+     MM .claude/projects/-Users-[user]-Workspace/memory/project_workspace_topo
      … +5 lines (ctrl+o to expand)
 
 ⏺ Bash(chezmoi status 2>&1 | grep -E
@@ -472,28 +472,28 @@ will be lost?
       echo "---checking untracked---" && chezmoi status 2>&1 |…)
   ⎿  Error: Exit code 1
 
-⏺ Bash(chezmoi add ~/.claude/projects/-Users-4jp-Workspace/memory/feedback_part_
+⏺ Bash(chezmoi add ~/.claude/projects/-Users-[user]-Workspace/memory/feedback_part_
       of_creation.md
-      ~/.claude/projects/-Users-4jp-Workspace/memory/user_consulting_brand.md…)
-  ⎿  [master 80afedf] Add .claude/projects/-Users-4jp-Workspace/memory/feed
-     back_part_of_creation.md Add .claude/projects/-Users-4jp-Workspace/mem
-     ory/project_zero_income_crisis.md Add .claude/projects/-Users-4jp-Work
+      ~/.claude/projects/-Users-[user]-Workspace/memory/user_consulting_brand.md…)
+  ⎿  [master 80afedf] Add .claude/projects/-Users-[user]-Workspace/memory/feed
+     back_part_of_creation.md Add .claude/projects/-Users-[user]-Workspace/mem
+     ory/project_zero_income_crisis.md Add .claude/projects/-Users-[user]-Work
      … +13 lines (ctrl+o to expand)
 
 ⏺ Auto-committed and pushed to domus-semper-palingenesis. Now the INSTANCE.toml
   files and the updated MEMORY.md:
 
-⏺ Bash(chezmoi add ~/.claude/projects/-Users-4jp-Workspace/memory/MEMORY.md
+⏺ Bash(chezmoi add ~/.claude/projects/-Users-[user]-Workspace/memory/MEMORY.md
       ~/i--me--mine/INSTANCE.toml ~/chaos--incarnate/INSTANCE.toml
       ~/Workspace/INSTANCE.toml 2>&1…)
   ⎿  [master 21da862] Add Workspace/INSTANCE.toml Add chaos--incarnate/INST
      ANCE.toml Add i--me--mine/INSTANCE.toml Update .claude/projects/-Users
-     -4jp-Workspace/memory/MEMORY.md
+     -[user]-Workspace/memory/MEMORY.md
      … +10 lines (ctrl+o to expand)
 
 ⏺ Now commit the engagement YAMLs and the plan file:
 
-⏺ Bash(git -C /Users/4jp/Workspace/organvm-iii-ergon/commerce--meta add
+⏺ Bash(git -C ~/Workspace/organvm-iii-ergon/commerce--meta add
       engagements/active/content-engine-asset-amplifier.yaml
       engagements/active/peer-audited-behavior…)
   ⎿  [main 41f0078] chore(engagements): enrich ENG-001/002/003 with git-der
@@ -503,7 +503,7 @@ will be lost?
 
 ⏺ Now claim DONE IDs and update the IRF:
 
-⏺ Bash(cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git
+⏺ Bash(cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git
       pull --rebase && cat data/done-id-counter.json)
   ⎿  Already up to date.
      {
@@ -558,7 +558,7 @@ will be lost?
 
   Searched for 1 pattern (ctrl+o to expand)
 
-⏺ Bash(sed -n '1154,1165p' /Users/4jp/Workspace/meta-organvm/organvm-corpvs-test
+⏺ Bash(sed -n '1154,1165p' ~/Workspace/meta-organvm/organvm-corpvs-test
       amentvm/INST-INDEX-RERUM-FACIENDARUM.md)
   ⎿  ## Completed (from 22-session cataloguing, 2026-03-20)
 
@@ -738,7 +738,7 @@ will be lost?
            for v8+ with ESLint 10 compatibility | Agent | S26 | eslint-pl
            ugin-react@7.37.5 incompatible |
       122  | IRF-SYS-009 | **P0** | Gmail notification hygiene — filter d
-           esigned in S36: `from:notifications@github.com ("dependabot[bo
+           esigned in S36: `from:[email redacted] ("dependabot[bo
            t]" OR "github-actions[bot]")` → Skip Inbox, Apply label `gith
            ub/bots`, Mark as Read. **HUMAN ACTION NEEDED:** (1) Create Gm
            ail filter, (2) GitHub Settings > Notifications > uncheck "Aut
@@ -932,7 +932,7 @@ will be lost?
            +orchestration systems, and brand ecosystems.`, nav=Home/Brand
            +/Platform/Consulting/Work, 4 capability sections (brand/platf
            +orm/consulting/work), archive links to live portfolio, footer
-           + `© 2026 Anthony James Padavano`. 4 Playwright spec files upd
+           + `© 2026 [name redacted]`. 4 Playwright spec files upd
            +ated for new brand. 40/40 tests passing (Desktop Chrome + Mob
            +ile Chrome). Committed and pushed to `4444J99/padavano`. | S-
            +recapitulation-2026-04-17 | 2026-04-17 |                     
@@ -1030,7 +1030,7 @@ will be lost?
 
 ⏺ Now commit the IRF and fossil record:
 
-⏺ Bash(git -C /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm add
+⏺ Bash(git -C ~/Workspace/meta-organvm/organvm-corpvs-testamentvm add
       INST-INDEX-RERUM-FACIENDARUM.md data/done-id-counter.json
       data/fossil/fossil-record.json…)
   ⎿  [main 11cb777] chore(irf): S-recapitulation-2026-04-17 — DONE-380..384

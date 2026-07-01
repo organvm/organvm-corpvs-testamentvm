@@ -1,10 +1,10 @@
 # Scientific Systems Frameworks
 
-**User:** Anthony Padavano (padavano.anthony@gmail.com)  
+**User:** [name redacted] ([email redacted])  
 **Created:** 3/17/2026 19:28:03  
 **Updated:** 3/17/2026 19:28:33  
 **Exported:** 3/30/2026 10:25:35  
-**Link:** [https://chatgpt.com/c/69b9e360-5f24-832b-ab05-c8054c1f5fe9](https://chatgpt.com/c/69b9e360-5f24-832b-ab05-c8054c1f5fe9)  
+**Link:** [[personal conversation link redacted]]([personal conversation link redacted])  
 
 ## Prompt:
 What are the scientific systems that define a system functional & ordered?

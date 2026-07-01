@@ -19,7 +19,7 @@ Launchd throttled processes:
 
 From live `brew services list`:
 ```
-ollama  error  1  4jp  ~/Library/LaunchAgents/homebrew.mxcl.ollama.plist
+ollama  error  1  [user]  ~/Library/LaunchAgents/homebrew.mxcl.ollama.plist
 ```
 
 Plist sets `KeepAlive=true` + `RunAtLoad=true` with no `KeepAlive.SuccessfulExit` qualifier — launchd restarts on any exit (including crashes), and Ollama is currently failing to start. Result: ollama crashes → launchd restarts → ollama crashes → launchd applies exponential throttle → wash, rinse, repeat.

@@ -13,7 +13,7 @@
 2. **Copy appropriate template** (A, B, or C below)
 3. **Paste into AI service** (Jules, Gemini, or Copilot)
 4. **AI executes Dec 7-8**
-5. **Return outputs to:** `/Users/4jp/Desktop/omni-dromenon-machina/` (paths match your assignments)
+5. **Return outputs to:** `~/Desktop/omni-dromenon-machina/` (paths match your assignments)
 
 ---
 
@@ -67,7 +67,7 @@
 **Your task:** Implement weighted consensus algorithm with tests + benchmarks for Omni-Dromenon-Engine.
 
 **Timeline:** Dec 7-8, 2025 | Deadline: Dec 8, 11:59 PM
-**Output location:** `/Users/4jp/Desktop/omni-dromenon-machina/core-engine/`
+**Output location:** `~/Desktop/omni-dromenon-machina/core-engine/`
 
 ---
 
@@ -196,7 +196,7 @@ class WeightedConsensus {
 
 ```bash
 # 1. Code compiles
-cd /Users/4jp/Desktop/omni-dromenon-machina/core-engine
+cd ~/Desktop/omni-dromenon-machina/core-engine
 npm install
 npm run build
 # Expected: No TypeScript errors, .js files generated
@@ -232,7 +232,7 @@ cat package.json | grep '"dependencies"'
 
 ### OUTPUT FORMAT
 
-**File:** `/Users/4jp/Desktop/omni-dromenon-machina/core-engine/src/consensus/weighted-consensus.ts`
+**File:** `~/Desktop/omni-dromenon-machina/core-engine/src/consensus/weighted-consensus.ts`
 
 Submit with:
 1. Full implementation (algorithm + edge cases)
@@ -265,7 +265,7 @@ Submit with:
 **Your task:** Write 1200-word grant narrative for Ars Electronica/Mozarteum XR Residency (€40,000).
 
 **Timeline:** Dec 7-8, 2025 | Deadline: Dec 8, 11:59 PM
-**Output location:** `/Users/4jp/Desktop/omni-dromenon-machina/GRANT_MATERIALS/ars-electronica-narrative-DRAFT.md`
+**Output location:** `~/Desktop/omni-dromenon-machina/GRANT_MATERIALS/ars-electronica-narrative-DRAFT.md`
 
 ---
 
@@ -436,7 +436,7 @@ Write 5 sections in this order:
 
 ### OUTPUT FORMAT
 
-**File:** `/Users/4jp/Desktop/omni-dromenon-machina/GRANT_MATERIALS/ars-electronica-narrative-DRAFT.md`
+**File:** `~/Desktop/omni-dromenon-machina/GRANT_MATERIALS/ars-electronica-narrative-DRAFT.md`
 
 **Content:**
 ```markdown
@@ -483,7 +483,7 @@ Write 5 sections in this order:
 **Your task:** Create 3 essential CI/CD workflows for the GitHub org.
 
 **Timeline:** Dec 7-8, 2025 | Deadline: Dec 8, 11:59 PM
-**Output location:** `/Users/4jp/Desktop/omni-dromenon-machina/.github/workflows/`
+**Output location:** `~/Desktop/omni-dromenon-machina/.github/workflows/`
 
 ---
 
@@ -697,7 +697,7 @@ Before these workflows can run, repo maintainer must:
 
 ```bash
 # 1. YAML syntax valid
-cd /Users/4jp/Desktop/omni-dromenon-machina/.github/workflows
+cd ~/Desktop/omni-dromenon-machina/.github/workflows
 # Can use: https://github.com/ghe-runner/actions-validator
 # Or: yamllint *.yml
 
@@ -743,9 +743,9 @@ grep "secrets\." *.yml
 ### OUTPUT FORMAT
 
 **Files:**
-- `/Users/4jp/Desktop/omni-dromenon-machina/.github/workflows/test.yml`
-- `/Users/4jp/Desktop/omni-dromenon-machina/.github/workflows/deploy-docs.yml`
-- `/Users/4jp/Desktop/omni-dromenon-machina/.github/workflows/release.yml`
+- `~/Desktop/omni-dromenon-machina/.github/workflows/test.yml`
+- `~/Desktop/omni-dromenon-machina/.github/workflows/deploy-docs.yml`
+- `~/Desktop/omni-dromenon-machina/.github/workflows/release.yml`
 
 **Submit:** Paste the 3 workflow files as text when complete
 

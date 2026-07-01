@@ -11,7 +11,7 @@
 ## 1. THE EPHEMERAL ARTIFACT RELOCATION MATRIX
 
 Currently, 14 massive, dissertation-grade artifacts are trapped in the volatile directory:
-`/Users/4jp/.gemini/tmp/4jp/343df964-7162-4865-9b7b-ef74a92006d6/plans/`
+`~/.gemini/tmp/[user]/343df964-7162-4865-9b7b-ef74a92006d6/plans/`
 
 **Action Required by Next Operator:** Execute the following `cp` commands to sediment these plans into their rightful, permanent homes. 
 
@@ -105,7 +105,7 @@ When the next agent (or the Human) picks up this blueprint, they must execute th
 
 ```bash
 # 1. Transfer the Ephemeral Soul to the Local Body
-cp /Users/4jp/.gemini/tmp/4jp/343df964-7162-4865-9b7b-ef74a92006d6/plans/2026-04-26-*.md ~/Workspace/organvm-iv-taxis/.gemini/plans/
+cp ~/.gemini/tmp/[user]/343df964-7162-4865-9b7b-ef74a92006d6/plans/2026-04-26-*.md ~/Workspace/organvm-iv-taxis/.gemini/plans/
 # (Repeat for respective organs as defined in Section 1)
 
 # 2. Update the IRF (Manual or script-driven)

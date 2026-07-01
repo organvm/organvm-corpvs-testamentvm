@@ -21,7 +21,7 @@ The meta-organvm codebase demonstrates good foundational security hygiene: no kn
 
 #### C-1: Real credentials committed in `.env.example`
 
-**File:** `/Users/4jp/Workspace/meta-organvm/.env.example` (tracked in superproject git)
+**File:** `~/Workspace/meta-organvm/.env.example` (tracked in superproject git)
 **Commit:** `d9db3fd` ("docs: github app configuration and 1password credential references")
 
 The file contains:

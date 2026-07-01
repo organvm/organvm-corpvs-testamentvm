@@ -1,7 +1,7 @@
 # FIND-008: Netlog "healthy idle window" reframed — entry into memory-pressure cascade
 
 **Severity:** info
-**Source:** `/Users/4jp/Downloads/claude-netlog-2026-05-20T02-50-07-463Z.json` + unified log slice 2026-05-19 22:49–22:51 + `JetsamEvent-2026-05-19-230502.ips`
+**Source:** `~/Downloads/claude-netlog-2026-05-20T02-50-07-463Z.json` + unified log slice 2026-05-19 22:49–22:51 + `JetsamEvent-2026-05-19-230502.ips`
 **First seen:** 2026-05-19 22:50:07 (netlog start)
 **Last seen:** 2026-05-19 23:05:02 (jetsam fired 14 min 55 sec later)
 **Occurrences:** 1 corroboration

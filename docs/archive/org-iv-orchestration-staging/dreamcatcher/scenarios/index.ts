@@ -11,8 +11,8 @@ export const SCENARIOS: Scenario[] = [
   {
     id: 'UI_POLISH',
     name: 'UI Polish & Standardization',
-    description: 'Scan CSS/Tailwind usage and enforce @4jp/design-system tokens.',
-    prompt: 'Scan the codebase for hardcoded hex colors and replace them with design tokens from @4jp/design-system. Focus on "life-my--midst--in" first.',
+    description: 'Scan CSS/Tailwind usage and enforce @[user]/design-system tokens.',
+    prompt: 'Scan the codebase for hardcoded hex colors and replace them with design tokens from @[user]/design-system. Focus on "life-my--midst--in" first.',
     frequency: 'weekly'
   },
   {

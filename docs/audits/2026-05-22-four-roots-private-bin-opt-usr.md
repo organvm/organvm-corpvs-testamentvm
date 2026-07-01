@@ -31,7 +31,7 @@ stty sync tcsh test unlink wait4path zsh
 **Shell-relevant facts:**
 
 - `/bin/sh` and `/bin/bash` are **the same physical bash 3.2.57** (Apple's last legal GPLv2 bash). `/bin/sh` runs bash in POSIX mode.
-- `/bin/zsh` is **zsh 5.9** — the same version as `/opt/homebrew/bin/zsh`. User's login shell is the Apple one (`dscl . -read /Users/4jp UserShell` → `/bin/zsh`), not the Homebrew copy.
+- `/bin/zsh` is **zsh 5.9** — the same version as `/opt/homebrew/bin/zsh`. User's login shell is the Apple one (`dscl . -read /Users/[user] UserShell` → `/bin/zsh`), not the Homebrew copy.
 - `/bin/csh` and `/bin/tcsh` are both `tcsh 6.21.00` (one binary, two names; old).
 - `/bin/dash` exists for `#!/bin/dash` scripts but is not in `/etc/shells` for login.
 - `/bin/ksh` is AT&T ksh93 (`93u+ 2012-08-01`). Old, but present.
@@ -185,19 +185,19 @@ The user's `~/.zshrc` is the last word for interactive vars (including the `01-h
 | `db/DiagnosticPipeline` | 47 M | Modern crash/diag pipeline |
 | `db/CoreDuet` | 36 M | Suggestions engine (Siri/Spotlight) |
 | `db/analyticsd` | 35 M | Apple analytics queue |
-| `folders/l9/zn9x070d4xqb1qb5wfzr9tjr0000gn` | 2.7 G | **User 4jp's per-user temp/cache** ($TMPDIR + DerivedData area) |
+| `folders/l9/zn9x070d4xqb1qb5wfzr9tjr0000gn` | 2.7 G | **User [user]'s per-user temp/cache** ($TMPDIR + DerivedData area) |
 | `vm/sleepimage` | 2.0 G | Hibernation RAM dump (`hibernatemode 3 + standby 1`) |
 | `log/com.apple.xpc.launchd` | 19 M | launchd's own log |
 | `log/install.log` | 18 M | Every package install since 2025 |
 
-**`/private/var/db/com.apple.xpc.launchd/`** — `config/`, `disabled.501.plist` (user 4jp's disabled-services map), `disabled.plist`, `disabled.migrated`. This is where `launchctl disable user/501/com.foo.bar` writes.
+**`/private/var/db/com.apple.xpc.launchd/`** — `config/`, `disabled.501.plist` (user [user]'s disabled-services map), `disabled.plist`, `disabled.migrated`. This is where `launchctl disable user/501/com.foo.bar` writes.
 
 ### `/private/tmp` — world-writable scratch
 
 Mostly the current and recent Claude Code session log scaffolding:
 - `cc-daemon-501/` — the Claude Code daemon's tmp dir
 - `claude-501/` — current session tmp dir
-- `claude-mcp-browser-bridge-4jp/` — MCP browser bridge state
+- `claude-mcp-browser-bridge-[user]/` — MCP browser bridge state
 - `claude-session-*.unpushed.log` — 5+ zero-byte log files from today's session-start hooks
 - `audit-log-queries.sh`, `audit-log-timeline.sh` — current session artifacts
 
@@ -207,7 +207,7 @@ Plus the recent `a-i-skills-workspace-audit.md` (11 KB, today). Routine working 
 
 ### Default login shell
 
-`dscl . -read /Users/4jp UserShell` → **`/bin/zsh`** (Apple's sealed zsh 5.9, **not** the brew zsh).
+`dscl . -read /Users/[user] UserShell` → **`/bin/zsh`** (Apple's sealed zsh 5.9, **not** the brew zsh).
 
 ### Init cascade as it actually fires for an interactive zsh
 
@@ -223,13 +223,13 @@ Plus the recent `a-i-skills-workspace-audit.md` (11 KB, today). Routine working 
 ### PATH as composed in this shell (39 entries — leading order matters)
 
 ```
-1.  /Users/4jp/.config/carapace/bin
+1.  ~/.config/carapace/bin
 2.  /opt/homebrew/opt/python@3/libexec/bin     ← python.python3 wins here
-3.  /Users/4jp/Workspace/4444J99/.../_agents/bin
-4.  /Users/4jp/.local/bin                       ← claude, build-contract, domus-memory-sync, etc.
-5.  /Users/4jp/.local/share/npm/bin
-6.  /Users/4jp/.local/share/cargo/bin           ← rustup, rustc, cargo
-7.  /Users/4jp/.local/share/go/bin
+3.  ~/Workspace/4444J99/.../_agents/bin
+4.  ~/.local/bin                       ← claude, build-contract, domus-memory-sync, etc.
+5.  ~/.local/share/npm/bin
+6.  ~/.local/share/cargo/bin           ← rustup, rustc, cargo
+7.  ~/.local/share/go/bin
 8.  /opt/homebrew/lib/ruby/gems/3.4.0/bin       ← ⚠ stale: brew ruby is 4.0.5 now
 9.  /opt/homebrew/opt/ruby/bin                  ← brew ruby 4.0.5
 10. /opt/homebrew/opt/file-formula/bin
@@ -284,15 +284,15 @@ Plus the recent `a-i-skills-workspace-audit.md` (11 KB, today). Routine working 
 
 ## 7. launchd surface — the LaunchAgent disaster, in detail
 
-**Counts:** 424 system jobs (root scope) + 533 user jobs (4jp scope).
+**Counts:** 424 system jobs (root scope) + 533 user jobs ([user] scope).
 
 ### Active brew-services state
 
 ```
 Name    Status User File
-atuin   started        4jp  ~/Library/LaunchAgents/homebrew.mxcl.atuin.plist
+atuin   started        [user]  ~/Library/LaunchAgents/homebrew.mxcl.atuin.plist
 emacs   none           
-ollama  error  1       4jp  ~/Library/LaunchAgents/homebrew.mxcl.ollama.plist
+ollama  error  1       [user]  ~/Library/LaunchAgents/homebrew.mxcl.ollama.plist
 unbound none
 ```
 
@@ -304,7 +304,7 @@ unbound none
     <string>com.jupyter.server</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/4jp/.local/share/uv/tools/jupyter-core/bin/jupyter-server</string>
+        <string>~/.local/share/uv/tools/jupyter-core/bin/jupyter-server</string>
         <string>--no-browser</string>
         <string>--port=8888</string>
         <string>--IdentityProvider.token=</string>            <!-- ⚠ EMPTY TOKEN -->
@@ -313,13 +313,13 @@ unbound none
     </array>
     <key>RunAtLoad</key><true/>
     <key>KeepAlive</key><true/>
-    <key>StandardOutPath</key><string>/Users/4jp/.local/var/log/jupyter-server.out.log</string>
-    <key>StandardErrorPath</key><string>/Users/4jp/.local/var/log/jupyter-server.err.log</string>
-    <key>WorkingDirectory</key><string>/Users/4jp</string>
+    <key>StandardOutPath</key><string>~/.local/var/log/jupyter-server.out.log</string>
+    <key>StandardErrorPath</key><string>~/.local/var/log/jupyter-server.err.log</string>
+    <key>WorkingDirectory</key><string>/Users/[user]</string>
 </dict>
 ```
 
-**Threat model:** any browser tab the user opens — including a tab opened by a Markdown preview, an email signature image-load, an XSS payload on any visited site — can POST to `http://localhost:8888/api/sessions` and spawn a kernel. Kernel = arbitrary Python = arbitrary code with the user's UID. CORS `*` defeats the same-origin protection; empty token defeats Jupyter's primary auth; disabled XSRF defeats the secondary one. The `WorkingDirectory=/Users/4jp` means the spawned kernel starts in the home directory — full access to chezmoi source, SSH keys, `.codex/`, memory tree, everything.
+**Threat model:** any browser tab the user opens — including a tab opened by a Markdown preview, an email signature image-load, an XSS payload on any visited site — can POST to `http://localhost:8888/api/sessions` and spawn a kernel. Kernel = arbitrary Python = arbitrary code with the user's UID. CORS `*` defeats the same-origin protection; empty token defeats Jupyter's primary auth; disabled XSRF defeats the secondary one. The `WorkingDirectory=/Users/[user]` means the spawned kernel starts in the home directory — full access to chezmoi source, SSH keys, `.codex/`, memory tree, everything.
 
 Mitigation options (in increasing order of restraint):
 
@@ -377,7 +377,7 @@ Already fully enumerated in §1. Flat dir; every entry is a binary file, all `ro
 
 | Path | Size | Owner | Entries | Role |
 |---|---|---|---|---|
-| `/opt/homebrew` | 12 G | `4jp:staff` | 24 | ARM Homebrew prefix **and** brew source git-repo checkout (both at once — `brew update` pulls into this dir). User-owned. |
+| `/opt/homebrew` | 12 G | `[user]:staff` | 24 | ARM Homebrew prefix **and** brew source git-repo checkout (both at once — `brew update` pulls into this dir). User-owned. |
 | `/opt/pkg` | 0 B | `root:wheel` | 4 | pkgx graveyard (§3). Root-owned, abandoned. |
 
 #### `/opt/homebrew` — 16 subdirs + 15 root files (the brew git-repo files)
@@ -491,7 +491,7 @@ Subdirs: `apache2/`, `asl/`, `cups/`, `manpaths.d/`, `newsyslog.d/`, `openldap/`
 | `networkd` | `_networkd:_networkd` | networkd state (2 entries) |
 | `OOPJit` | `root:admin` | Out-of-Process JIT scratch (modern WebKit) |
 | `recovery` | `root:wheel` | Recovery boot state |
-| `root` | `root:wheel` | root user's home (per BSD layout; permissions-blocked from stat as user 4jp) |
+| `root` | `root:wheel` | root user's home (per BSD layout; permissions-blocked from stat as user [user]) |
 | `rpc` | `root:wheel` | RPC service state |
 | `spool` | `root:wheel` | Print/mail spool aliases (4 sub-dirs, all empty) |
 | `yp` | `root:wheel` | NIS/YP (defunct since OS X 10.5; dir survives) |
@@ -499,7 +499,7 @@ Subdirs: `apache2/`, `asl/`, `cups/`, `manpaths.d/`, `newsyslog.d/`, `openldap/`
 **The active ones in detail:**
 
 - **`db` (3.9 G, 123 entries)** — system databases. The 14 largest subdirs were enumerated in §4. The remaining 109 are smaller per-service state stores (TCC, ConfigurationProfiles, mds — Spotlight, MobileMeAccounts, OpenDirectory, etc.). **`com.apple.xpc.launchd/`** lives here: holds `config/`, `disabled.501.plist`, `disabled.plist`, `disabled.migrated` — i.e. the launchd configuration state the user has modified via `launchctl disable`.
-- **`folders` (2.7 G, 2 entries)** — exactly 2 subtrees: `zz/` (system-account scratch — small) and `l9/zn9x070d4xqb1qb5wfzr9tjr0000gn/` (user 4jp's `$TMPDIR` + per-user caches — 2.7 G).
+- **`folders` (2.7 G, 2 entries)** — exactly 2 subtrees: `zz/` (system-account scratch — small) and `l9/zn9x070d4xqb1qb5wfzr9tjr0000gn/` (user [user]'s `$TMPDIR` + per-user caches — 2.7 G).
 - **`log` (92 M, 41 entries)** — Apple-style log files. Top entries: `install.log` (18 M), `com.apple.xpc.launchd` (19 M log archive — separate from `db/com.apple.xpc.launchd/` config), `powermanagement` (38 M), `DiagnosticMessages` (8.3 M), `asl/` (3.1 M ASL archive), `fsck_apfs.log`, multiple `wifi.log*.bz2` rotations.
 - **`logs` (3.9 M, 5 entries)** — distinct from `log/`: older syslog-style. `CoreDuet/`, `DiagnosticMessages/`, `CrashReporter/`, `CDIS.log`, `Bluetooth/`.
 - **`protected` (42 M, 3 entries)** — system-protected data with hardware-backed access controls (T2/Secure Enclave); not user-readable.
@@ -523,7 +523,7 @@ ROOT       | DIR                    | SIZE  | OWNER         | NOTES
 -----------|------------------------|-------|---------------|---------------------------
 /bin       | (37 files, no dirs)    | 9.4M  | root:wheel    | Sealed shells + utilities
 -----------|------------------------|-------|---------------|---------------------------
-/opt       | homebrew/              | 12G   | 4jp:staff     | ARM brew prefix + git repo
+/opt       | homebrew/              | 12G   | [user]:staff     | ARM brew prefix + git repo
 /opt       | pkg/                   | 0B    | root:wheel    | pkgx graveyard
 -----------|------------------------|-------|---------------|---------------------------
 /usr       | bin/                   | 80M   | root:wheel    | 924 Apple binaries, sealed
@@ -765,12 +765,12 @@ session    required       pam_permit.so
 ```
 com.apple.xpc.launchd/
 ├── config/                 ← (empty — launchd reads /Library/Apple/System/Library/LaunchAgents/* and ~/Library/LaunchAgents/* directly)
-├── disabled.501.plist      ← 4jp's per-user disabled-services map (UID 501)
+├── disabled.501.plist      ← [user]'s per-user disabled-services map (UID 501)
 ├── disabled.migrated       ← migration marker (zero bytes; touched once)
 └── disabled.plist          ← system-scope disabled-services map
 ```
 
-**`disabled.501.plist` excerpt — what 4jp has explicitly toggled:**
+**`disabled.501.plist` excerpt — what [user] has explicitly toggled:**
 
 ```xml
 <dict>
@@ -838,7 +838,7 @@ diagnostics/
 | `com.apple.wifi.analytics/` | 400 K | dir |
 | `ppp/`, `uucp/`, `PrivacyPreservingMeasurement/` | 0 B | empty dirs |
 
-### `/private/var/folders/l9/zn9x070d4xqb1qb5wfzr9tjr0000gn/` — 4jp's `$TMPDIR` (depth 2)
+### `/private/var/folders/l9/zn9x070d4xqb1qb5wfzr9tjr0000gn/` — [user]'s `$TMPDIR` (depth 2)
 
 The macOS confinement model: every user gets a `/private/var/folders/<two-char>/<long-hash>/` tree. Four subdirs by convention:
 
@@ -2107,7 +2107,7 @@ For each: a one-line justification + the exact command. **Nothing here is execut
 | What | Where | Why safe | Command |
 |---|---|---|---|
 | Anaconda residue | `~/.conda/` (30 B total) | Conda is gone; tokens are stranded | `rm -rf ~/.conda` |
-| `/Users/4jp/seed.yaml` | misplaced copy (IRF-OPS-040) | Already tracked; user-trash decision pending | `rm /Users/4jp/seed.yaml` (or move to trash) |
+| `~/seed.yaml` | misplaced copy (IRF-OPS-040) | Already tracked; user-trash decision pending | `rm ~/seed.yaml` (or move to trash) |
 | 16 broken `/usr/local/bin/python*t*` symlinks | `PythonT.framework` missing | Targets don't exist; cause `which python3t` to lie | `sudo find /usr/local/bin -name 'python*t*' -type l ! -execdir test -e {} \; -delete` |
 | `/etc/paths.d/10-pmk-global` | pkgx PATH entry to `/pkg/env/global/bin` (broken on two axes since 2025-02) | Dead PATH entry every shell session | `sudo rm /etc/paths.d/10-pmk-global` |
 
@@ -2212,7 +2212,7 @@ Listed for completeness; no action.
 | `/private/var/db/SystemPolicyConfiguration/{SystemPolicy,ExecPolicy,KextPolicy,Tickets,XProtect.bundle/}` | SIP-protected; root-only; managed by macOS |
 | `XProtect.yara` (17,331 lines, 462 rules) | Apple-managed malware signatures; auto-updated |
 | `/private/var/vm/sleepimage` (2 GB) | Required if hibernation enabled (`hibernatemode 3 + standby 1`) |
-| `/Users/4jp/CLAUDE.md` being local-only | Documented constitutional gap (deliberate, per chezmoi-root-collision; offsite reproducibility via session-transcript registry) |
+| `~/CLAUDE.md` being local-only | Documented constitutional gap (deliberate, per chezmoi-root-collision; offsite reproducibility via session-transcript registry) |
 
 ### 16.7 The grid summarized — by ownership
 
@@ -2223,8 +2223,8 @@ A complementary view: instead of grouping by action, group by **who owns** the t
 | **Apple (sealed SIP)** | `/bin/*`, `/usr/{bin,sbin,libexec,lib,share,standalone}/*`, `XProtect.{app,bundle}`, `/private/var/db/SystemPolicyConfiguration/*` | KEEP only — cannot mutate without disabling SIP |
 | **Apple (writable `/private/etc/*`, `/private/var/db/*`)** | `pam.d/`, `ssh/`, `paths/`, `paths.d/`, `apache2/`, `postfix/`, `receipts/`, `xpc.launchd/disabled.*.plist`, `.LastGKReject` | KEEP/ALIGN/PRUNE specific orphans (e.g., apache `php7.conf`, anaconda receipts) |
 | **Apple (`/private/var/{db,folders,log,vm}`)** | The 3.9 G of db/ + 2.7 G of folders/ + 92 M of log/ | KEEP/CONTAIN — `log erase`, `find … -delete` for confirmed orphan caches |
-| **Homebrew (4jp:staff, `/opt/homebrew/*`)** | Cellar/, Caskroom/, etc/, var/, bin/, lib/, share/, Library/ | KEEP active formulae; PRUNE the 8 orphan configs + newrelic logs; DEDUPE brew vs Apple zsh; UNIFY CA bundles |
-| **User (4jp, `~/Library/LaunchAgents`, `~/.local/share/uv/tools/`, `~/.conda`)** | jupyter plist, vendor agents, uv tools, anaconda residue | Full mutation authority; PRUNE Jupyter + Anaconda; CONTAIN vendor agents |
+| **Homebrew ([user]:staff, `/opt/homebrew/*`)** | Cellar/, Caskroom/, etc/, var/, bin/, lib/, share/, Library/ | KEEP active formulae; PRUNE the 8 orphan configs + newrelic logs; DEDUPE brew vs Apple zsh; UNIFY CA bundles |
+| **User ([user], `~/Library/LaunchAgents`, `~/.local/share/uv/tools/`, `~/.conda`)** | jupyter plist, vendor agents, uv tools, anaconda residue | Full mutation authority; PRUNE Jupyter + Anaconda; CONTAIN vendor agents |
 | **Vendor-installer-owned (app bundles in /Applications and /Library)** | Backblaze, iMazing, Google Keystone, OpenAI Atlas helper, etc. | Per-app: KEEP or uninstall via the app's own uninstaller |
 | **Abandoned (root-owned but unmaintained)** | `/opt/pkg/` (pkgx), `/etc/paths.d/10-pmk-global` | PRUNE — no maintainer to consult |
 

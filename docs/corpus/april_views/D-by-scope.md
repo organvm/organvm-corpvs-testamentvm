@@ -1,6 +1,6 @@
 # View D — By Scope (~/.claude/projects/<scope>/)
 
-## `-Users-4jp` — 108 sessions (14 unsafe)
+## `-Users-[user]` — 108 sessions (14 unsafe)
 
 | Session | mtime | Events | Closure |
 |---|---|---:|---|
@@ -113,7 +113,7 @@
 | `5ebeebd3` | 2026-04-27T11:52 | 51 | 🔴 |
 | `8bac99ae` | 2026-04-27T11:52 | 28 | 🔴 |
 
-## `-Users-4jp-system-system--system` — 47 sessions (3 unsafe)
+## `-Users-[user]-system-system--system` — 47 sessions (3 unsafe)
 
 | Session | mtime | Events | Closure |
 |---|---|---:|---|
@@ -165,7 +165,7 @@
 | `9a42592a` | 2026-04-20T15:35 | 78 | ✅ |
 | `1604c709` | 2026-04-20T16:52 | 85 | ✅ |
 
-## `-Users-4jp-Workspace` — 32 sessions (5 unsafe)
+## `-Users-[user]-Workspace` — 32 sessions (5 unsafe)
 
 | Session | mtime | Events | Closure |
 |---|---|---:|---|
@@ -202,7 +202,7 @@
 | `26278b64` | 2026-04-21T23:31 | 209 | ✅ |
 | `ff4bd160` | 2026-04-21T23:32 | 209 | ✅ |
 
-## `-Users-4jp-Workspace-organvm-iv-taxis` — 23 sessions (2 unsafe)
+## `-Users-[user]-Workspace-organvm-iv-taxis` — 23 sessions (2 unsafe)
 
 | Session | mtime | Events | Closure |
 |---|---|---:|---|
@@ -230,7 +230,7 @@
 | `abbab335` | 2026-04-19T21:38 | 135 | ✅ |
 | `a835474a` | 2026-04-20T16:47 | 230 | ✅ |
 
-## `-Users-4jp-Workspace-meta-organvm` — 22 sessions (3 unsafe)
+## `-Users-[user]-Workspace-meta-organvm` — 22 sessions (3 unsafe)
 
 | Session | mtime | Events | Closure |
 |---|---|---:|---|
@@ -257,7 +257,7 @@
 | `6ca98e43` | 2026-04-08T00:04 | 112 | ✅ |
 | `f3f5f70b` | 2026-04-08T00:06 | 116 | ✅ |
 
-## `-Users-4jp-Workspace-meta-organvm-post-flood-archive-original` — 15 sessions (5 unsafe)
+## `-Users-[user]-Workspace-meta-organvm-post-flood-archive-original` — 15 sessions (5 unsafe)
 
 | Session | mtime | Events | Closure |
 |---|---|---:|---|
@@ -277,7 +277,7 @@
 | `637b7181` | 2026-04-19T21:40 | 0 | 🔴 |
 | `2f07b96a` | 2026-04-20T16:41 | 344 | 🔴 |
 
-## `-Users-4jp-Workspace-organvm-iii-ergon-sovereign-systems--elevate-align` — 11 sessions (2 unsafe)
+## `-Users-[user]-Workspace-organvm-iii-ergon-sovereign-systems--elevate-align` — 11 sessions (2 unsafe)
 
 | Session | mtime | Events | Closure |
 |---|---|---:|---|
@@ -293,7 +293,7 @@
 | `16bf7dff` | 2026-04-16T21:24 | 91 | 🔴 |
 | `f421f740` | 2026-04-18T11:37 | 625 | ✅ |
 
-## `-Users-4jp-Workspace-organvm-iv-taxis-orchestration-start-here` — 11 sessions (2 unsafe)
+## `-Users-[user]-Workspace-organvm-iv-taxis-orchestration-start-here` — 11 sessions (2 unsafe)
 
 | Session | mtime | Events | Closure |
 |---|---|---:|---|
@@ -309,7 +309,7 @@
 | `9041b50e` | 2026-04-02T15:44 | 184 | 🔴 |
 | `80bf8ece` | 2026-04-02T16:53 | 48 | ✅ |
 
-## `-Users-4jp-Workspace-4444J99-application-pipeline` — 4 sessions (0 unsafe)
+## `-Users-[user]-Workspace-4444J99-application-pipeline` — 4 sessions (0 unsafe)
 
 | Session | mtime | Events | Closure |
 |---|---|---:|---|
@@ -318,7 +318,7 @@
 | `46fbd866` | 2026-04-03T17:05 | 165 | ✅ |
 | `9d9ed4ba` | 2026-04-06T23:27 | 13 | ✅ |
 
-## `-Users-4jp-Workspace-a-organvm` — 4 sessions (0 unsafe)
+## `-Users-[user]-Workspace-a-organvm` — 4 sessions (0 unsafe)
 
 | Session | mtime | Events | Closure |
 |---|---|---:|---|
@@ -327,51 +327,51 @@
 | `5e5aa8b7` | 2026-04-03T18:53 | 63 | ✅ |
 | `cdaba832` | 2026-04-03T18:53 | 144 | ✅ |
 
-## `-Users-4jp-Workspace-4444J99` — 2 sessions (1 unsafe)
+## `-Users-[user]-Workspace-4444J99` — 2 sessions (1 unsafe)
 
 | Session | mtime | Events | Closure |
 |---|---|---:|---|
 | `3397b1ab` | 2026-04-16T14:06 | 0 | 🔴 |
 | `9a022a0b` | 2026-04-16T21:59 | 189 | ✅ |
 
-## `-Users-4jp-substance-subtrate-organvm--major-instance-organvm-origin-organvm-iii-ergon-sovereign-systems--elevate-align` — 2 sessions (1 unsafe)
+## `-Users-[user]-substance-subtrate-organvm--major-instance-organvm-origin-organvm-iii-ergon-sovereign-systems--elevate-align` — 2 sessions (1 unsafe)
 
 | Session | mtime | Events | Closure |
 |---|---|---:|---|
 | `6857fc22` | 2026-04-03T18:28 | 0 | 🔴 |
 | `b24ef8ce` | 2026-04-03T18:53 | 3 | ✅ |
 
-## `-Users-4jp-Workspace-meta-organvm-post-flood` — 1 sessions (1 unsafe)
+## `-Users-[user]-Workspace-meta-organvm-post-flood` — 1 sessions (1 unsafe)
 
 | Session | mtime | Events | Closure |
 |---|---|---:|---|
 | `2751c264` | 2026-04-13T22:29 | 0 | 🔴 |
 
-## `-Users-4jp-Workspace-meta-organvm-praxis-perpetua-prompt-corpus` — 1 sessions (1 unsafe)
+## `-Users-[user]-Workspace-meta-organvm-praxis-perpetua-prompt-corpus` — 1 sessions (1 unsafe)
 
 | Session | mtime | Events | Closure |
 |---|---|---:|---|
 | `c9ebbf87` | 2026-04-05T20:59 | 0 | 🔴 |
 
-## `-Users-4jp-Workspace-void--edge-object--plane-organvm--major-instance-organvm-origin-organvm-iii-ergon-sovereign-systems--elevate-align` — 1 sessions (0 unsafe)
+## `-Users-[user]-Workspace-void--edge-object--plane-organvm--major-instance-organvm-origin-organvm-iii-ergon-sovereign-systems--elevate-align` — 1 sessions (0 unsafe)
 
 | Session | mtime | Events | Closure |
 |---|---|---:|---|
 | `aa23f2ab` | 2026-04-03T18:27 | 42 | ✅ |
 
-## `-Users-4jp-sovereign--ground` — 1 sessions (1 unsafe)
+## `-Users-[user]-sovereign--ground` — 1 sessions (1 unsafe)
 
 | Session | mtime | Events | Closure |
 |---|---|---:|---|
 | `772b68a9` | 2026-04-08T00:03 | 0 | 🔴 |
 
-## `-Users-4jp-substance-subtrate-organvm--major-instance-organvm-origin-meta-organvm` — 1 sessions (0 unsafe)
+## `-Users-[user]-substance-subtrate-organvm--major-instance-organvm-origin-meta-organvm` — 1 sessions (0 unsafe)
 
 | Session | mtime | Events | Closure |
 |---|---|---:|---|
 | `a173c08e` | 2026-04-03T18:53 | 8 | ✅ |
 
-## `-Users-4jp-systems` — 1 sessions (1 unsafe)
+## `-Users-[user]-systems` — 1 sessions (1 unsafe)
 
 | Session | mtime | Events | Closure |
 |---|---|---:|---|

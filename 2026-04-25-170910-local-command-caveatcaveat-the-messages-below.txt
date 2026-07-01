@@ -177,10 +177,10 @@
 
 ⏺ Two paths exist — verifying which is the active worktree.
 
-⏺ Bash(for p in /Users/4jp/Workspace/organvm/sovereign-systems--elevate-align
-      /Users/4jp/Workspace/organvm-iii-ergon/sovereign-systems--elevate-align;
+⏺ Bash(for p in ~/Workspace/organvm/sovereign-systems--elevate-align
+      ~/Workspace/organvm-iii-ergon/sovereign-systems--elevate-align;
       do echo "==> $p"…)
-  ⎿  ==> /Users/4jp/Workspace/organvm/sovereign-systems--elevate-align
+  ⎿  ==> ~/Workspace/organvm/sovereign-systems--elevate-align
      b4882bb docs(maddie): mirror 2026-04-25 PDF + V4/sleek-pass plan
      b6c9cdd feat(spiral): sleek pass — kill emojis, add typographic labels
      … +8 lines (ctrl+o to expand)
@@ -189,7 +189,7 @@
   ~/Workspace/organvm/sovereign-systems--elevate-align. Marking task #1 in
   progress and writing the plan.
 
-⏺ Bash(cd /Users/4jp/Workspace/organvm/sovereign-systems--elevate-align && ls
+⏺ Bash(cd ~/Workspace/organvm/sovereign-systems--elevate-align && ls
       .claude/plans/ 2>/dev/null | tail -10 && echo "---status---" && git status
        --short | head…)
   ⎿  2026-04-17-corrective-implementation.md
@@ -244,7 +244,7 @@
   cross-pillar use case grounds it.
   ─────────────────────────────────────────────────
 
-⏺ Bash(cd /Users/4jp/Workspace/organvm/conversation-corpus-engine && git log
+⏺ Bash(cd ~/Workspace/organvm/conversation-corpus-engine && git log
       --oneline -5 && echo "---tree---" && ls && echo "---ingest---" && find .
       -type d -name "*i…)
   ⎿  069d1d4 fix(import): iterative walk_mapping_tree to avoid recursion ov
@@ -288,11 +288,11 @@
                                                                                         
     Implementing.                                                                       
                                                                                         
-  ⏺ Read(/Users/4jp/Workspace/organvm/sovereign-systems--elevate-align/src/components/s 
+  ⏺ Read(~/Workspace/organvm/sovereign-systems--elevate-align/src/components/s 
     piral/spiral.ts · lines 14-18)                                                      
     ⎿  Read 5 lines                                                                     
                                                                                         
-  ⏺ Update(/Users/4jp/Workspace/organvm/sovereign-systems--elevate-align/src/components 
+  ⏺ Update(~/Workspace/organvm/sovereign-systems--elevate-align/src/components 
           /spiral/spiral.ts)                                                            
     ⎿  Added 4 lines                                                                    
         14  import * as THREE from 'three';                                             
@@ -841,17 +841,17 @@
 ⏺ Syncing memory to chezmoi so the three new/edited files don't sit local-only
   (universal rule #2).
 
-⏺ Bash(chezmoi re-add ~/.claude/projects/-Users-4jp/memory/MEMORY.md ~/.claude/p
-      rojects/-Users-4jp/memory/project_artifact_landing_engine_plan.md
+⏺ Bash(chezmoi re-add ~/.claude/projects/-Users-[user]/memory/MEMORY.md ~/.claude/p
+      rojects/-Users-[user]/memory/project_artifact_landing_engine_plan.md
       ~/.claude/projects/-U…)
-  ⎿  chezmoi: /Users/4jp/.claude/projects/-Users-4jp/memory/project_artifac
+  ⎿  chezmoi: ~/.claude/projects/-Users-[user]/memory/project_artifac
      t_landing_engine_plan.md: not managed
 
-⏺ Bash(chezmoi add ~/.claude/projects/-Users-4jp/memory/project_artifact_landing
+⏺ Bash(chezmoi add ~/.claude/projects/-Users-[user]/memory/project_artifact_landing
       _engine_plan.md
-      ~/.claude/projects/-Users-4jp/memory/project_artifact_chatgpt_multipart…)
+      ~/.claude/projects/-Users-[user]/memory/project_artifact_chatgpt_multipart…)
   ⎿   2 files changed, 58 insertions(+)
-      create mode 100644 private_dot_claude/projects/-Users-4jp/memory/proj
+      create mode 100644 private_dot_claude/projects/-Users-[user]/memory/proj
      ect_artifact_chatgpt_multipart_patch.md
      … +11 lines (ctrl+o to expand)
 
@@ -1091,7 +1091,7 @@
 ⏺ Bash(PYTHONPATH=src python3 -m pytest
       tests/test_import_claude_export_corpus.py --tb=short 2>&1 | tail -10)
   ⎿  platform darwin -- Python 3.14.4, pytest-9.0.2, pluggy-1.6.0
-     rootdir: /Users/4jp/Workspace/organvm/conversation-corpus-engine
+     rootdir: ~/Workspace/organvm/conversation-corpus-engine
      configfile: pyproject.toml
      … +10 lines (ctrl+o to expand)
 
@@ -1293,7 +1293,7 @@
 ⏺ Bash(PYTHONPATH=src python3 -m pytest
       tests/test_import_claude_export_corpus.py -x --tb=short 2>&1 | tail -10)
   ⎿  platform darwin -- Python 3.14.4, pytest-9.0.2, pluggy-1.6.0
-     rootdir: /Users/4jp/Workspace/organvm/conversation-corpus-engine
+     rootdir: ~/Workspace/organvm/conversation-corpus-engine
      configfile: pyproject.toml
      … +10 lines (ctrl+o to expand)
 
@@ -1322,10 +1322,10 @@
 
   Wrote 2 memories (ctrl+o to expand)
 
-⏺ Bash(chezmoi re-add ~/.claude/projects/-Users-4jp/memory/MEMORY.md ~/.claude/p
-      rojects/-Users-4jp/memory/project_artifact_chatgpt_multipart_patch.md 2>&1
+⏺ Bash(chezmoi re-add ~/.claude/projects/-Users-[user]/memory/MEMORY.md ~/.claude/p
+      rojects/-Users-[user]/memory/project_artifact_chatgpt_multipart_patch.md 2>&1
        | tail -4)
-  ⎿  [master 48bf2d7] Update .claude/projects/-Users-4jp/memory/MEMORY.md
+  ⎿  [master 48bf2d7] Update .claude/projects/-Users-[user]/memory/MEMORY.md
       1 file changed, 1 insertion(+), 1 deletion(-)
      To github.com:4444J99/domus-semper-palingenesis.git
         35cbe58..48bf2d7  master -> master
@@ -1336,7 +1336,7 @@
   fresh.
   Wrote 1 memory (ctrl+o to expand)
 
-⏺ Bash(chezmoi re-add ~/.claude/projects/-Users-4jp/memory/project_artifact_chat
+⏺ Bash(chezmoi re-add ~/.claude/projects/-Users-[user]/memory/project_artifact_chat
       gpt_multipart_patch.md 2>&1 | tail -3)
   ⎿   1 file changed, 21 insertions(+), 11 deletions(-)
      To github.com:4444J99/domus-semper-palingenesis.git
@@ -1386,7 +1386,7 @@
    ▐▛███▜▌   Claude Code v2.1.112                                               
   ▝▜█████▛▘  Opus 4.7 (1M context) with high effort · Claude Max                
     ▘▘ ▝▝                                                                       
-  /Users/4jp                                                                    
+  /Users/[user]                                                                    
                                                                                 
   ❯                                                                             
   /resume                                                                       
@@ -1403,7 +1403,7 @@
          │                                                                      
   ╰──────────────────────────────────────────────────────────────────────────── 
   ───────╯                                                                      
-    4jp                                                                         
+    [user]                                                                         
                                                                                 
                                                                                 
                                                                                 
@@ -1467,7 +1467,7 @@
    ▐▛███▜▌   Claude Code v2.1.112                                               
   ▝▜█████▛▘  Opus 4.7 (1M context) with max effort · Claude Max                 
     ▘▘ ▝▝                                                                       
-  /Users/4jp                                                                    
+  /Users/[user]                                                                    
                                                                                 
   ❯                                                                             
   /resume                                                                       
@@ -1603,10 +1603,10 @@
   Wrote 1 memory (ctrl+o to expand)
 
 ⏺ Bash(chezmoi add
-      ~/.claude/projects/-Users-4jp/memory/project_artifact_full_hanging_plan.md
+      ~/.claude/projects/-Users-[user]/memory/project_artifact_full_hanging_plan.md
        2>&1 | tail -3 && echo "---re-add MEMORY---" && chezmoi re-add
       ~/.claude/…)
-  ⎿   create mode 100644 private_dot_claude/projects/-Users-4jp/memory/proj
+  ⎿   create mode 100644 private_dot_claude/projects/-Users-[user]/memory/proj
      ect_artifact_full_hanging_plan.md
      To github.com:4444J99/domus-semper-palingenesis.git
      … +5 lines (ctrl+o to expand)
@@ -1678,7 +1678,7 @@
 ⏺ Bash(which resolve-audit 2>/dev/null && resolve-audit 2>&1 | head -50 || echo
       "---not on PATH; searching---" && find ~/.local/bin ~/Workspace -maxdepth
       6 -name "reso…)
-  ⎿  /Users/4jp/.local/bin/resolve-audit
+  ⎿  ~/.local/bin/resolve-audit
      RESOLVER AUDIT: 20 hardcoded path violations
      ==================================================
      … +25 lines (ctrl+o to expand)
@@ -1703,7 +1703,7 @@
 
   Read 1 file (ctrl+o to expand)
 
-⏺ Bash(ls /Users/4jp/Downloads/brainstorm-export-20260423/ | head -8 && echo
+⏺ Bash(ls ~/Downloads/brainstorm-export-20260423/ | head -8 && echo
       "---inspect-one---" && python3 -c "
       import json…)
   ⎿  ChatGPT-AI Remediation Consulting (1).json
@@ -1717,10 +1717,10 @@
   Investigating both deeper in parallel.
 
 ⏺ Bash(echo "=== violation path existence ===" && for p in \
-        "/Users/4jp/Workspace/life-my--midst--in" \…)
+        "~/Workspace/life-my--midst--in" \…)
   ⎿  === violation path existence ===
-     DEAD: /Users/4jp/Workspace/life-my--midst--in
-     DEAD: /Users/4jp/Workspace/omni-dromenon-machina
+     DEAD: ~/Workspace/life-my--midst--in
+     DEAD: ~/Workspace/omni-dromenon-machina
      … +14 lines (ctrl+o to expand)
 
 ⏺ Bash(python3 -c "
@@ -1765,23 +1765,23 @@
 
 ⏺ Bash(resolve-bootstrap --apply 2>&1 | tail -20 && echo "============" && echo
       "RE-AUDIT:" && resolve-audit 2>&1 | head -10)
-  ⎿      - /Users/4jp/Workspace/life-my--midst--in
-         - /Users/4jp/Workspace/mail_automation
-         - /Users/4jp/Legal/padavano-v-mdc--employment-lawsuit
+  ⎿      - ~/Workspace/life-my--midst--in
+         - ~/Workspace/mail_automation
+         - ~/Legal/padavano-v-mdc--employment-lawsuit
      … +19 lines (ctrl+o to expand)
 
 ⏺ Bash(echo "=== verifying remaining 20 audit hits are LIVE paths ===" &&
       resolve-audit 2>&1 | grep -oE '/Users/[^"]*' | sort -u | while read p; do
         [[ -d "$p" ]] &&…)
   ⎿  === verifying remaining 20 audit hits are LIVE paths ===
-     LIVE: /Users/4jp/Workspace/a-i--skills
-     LIVE: /Users/4jp/Workspace/intake
+     LIVE: ~/Workspace/a-i--skills
+     LIVE: ~/Workspace/intake
      … +13 lines (ctrl+o to expand)
 ⏺ All 20 remaining are LIVE — the audit's "violation" framing applies even to
   literal-but-real paths (architectural ideal: paths via resolver, not
   literals). That's deeper work; reporting D1 as substantively done.
 
-⏺ Bash(python3 -c "import json; d=json.load(open('/Users/4jp/.claude.json'));
+⏺ Bash(python3 -c "import json; d=json.load(open('~/.claude.json'));
       print(f'.claude.json projects map now has {len(d.get(\"projects\",{}))}
       entries (was 106)…)
   ⎿  .claude.json projects map now has 22 entries (was 106)
@@ -1797,9 +1797,9 @@
   (not creating one). File wrote. Now starting B2 — building the
   chatgpt-exporter→standard-bundle converter for the brainstorm-export ingest.
 
-⏺ Bash(chezmoi re-add ~/.claude/projects/-Users-4jp/memory/MEMORY.md 2>&1 | tail
+⏺ Bash(chezmoi re-add ~/.claude/projects/-Users-[user]/memory/MEMORY.md 2>&1 | tail
        -2 && chezmoi add
-      ~/.claude/projects/-Users-4jp/memory/project_artifact_resolve_bootst…)
+      ~/.claude/projects/-Users-[user]/memory/project_artifact_resolve_bootst…)
   ⎿  To github.com:4444J99/domus-semper-palingenesis.git
         85ad1bc..e72e998  master -> master
      ---examine engine scripts dir---
@@ -1880,8 +1880,8 @@
       73      def test_builds_linear_mapping_tree(self) -> None:
       74          doc = _exporter_doc(
       75              "Test Title",
-      76 -            "https://chatgpt.com/c/test-uuid-here-1234",       
-      76 +            "https://chatgpt.com/c/abcdef01-2345-6789-abcd-ef01
+      76 -            "[personal conversation link redacted]       
+      76 +            "[personal conversation link redacted]
          +23456789",                                                     
       77              [
       78                  {"role": "user", "say": "Hello", "time": "10:00
@@ -1906,9 +1906,9 @@
       107  
       108      def test_skips_empty_messages(self) -> None:
       109          doc = _exporter_doc(
-      110 -            "Edgy", "https://chatgpt.com/c/edge-id", [{"role":
+      110 -            "Edgy", "[personal conversation link redacted] [{"role":
           - "user", "say": "  ", "time": "x"}]                           
-      110 +            "Edgy", "https://chatgpt.com/c/aaaabbbb-cccc-dddd-
+      110 +            "Edgy", "[personal conversation link redacted]
           +eeee-ffff00001111", [{"role": "user", "say": "  ", "time": "x"
           +}]                                                            
       111          )
@@ -1922,8 +1922,8 @@
       133              output = Path(tmpdir) / "out"
       134              doc1 = _exporter_doc(
       135                  "Same",
-      136 -                "https://chatgpt.com/c/dupe-uuid",            
-      136 +                "https://chatgpt.com/c/11111111-2222-3333-4444
+      136 -                "[personal conversation link redacted]            
+      136 +                "[personal conversation link redacted]
           +-555555555555",                                               
       137                  [{"role": "user", "say": "hi", "time": ""}],
       138              )
@@ -1936,8 +1936,8 @@
            c1)
       141              doc2 = _exporter_doc(
       142                  "Different",
-      143 -                "https://chatgpt.com/c/other-uuid",           
-      143 +                "https://chatgpt.com/c/99999999-8888-7777-6666
+      143 -                "[personal conversation link redacted]           
+      143 +                "[personal conversation link redacted]
           +-555555555555",                                               
       144                  [{"role": "user", "say": "hello", "time": ""}]
            ,
@@ -1950,8 +1950,8 @@
       161              output = Path(tmpdir) / "out"
       162              doc = _exporter_doc(
       163                  "Empty",
-      164 -                "https://chatgpt.com/c/empty-uuid",           
-      164 +                "https://chatgpt.com/c/deadbeef-0000-1111-2222
+      164 -                "[personal conversation link redacted]           
+      164 +                "[personal conversation link redacted]
           +-333344445555",                                               
       165                  [{"role": "user", "say": "", "time": ""}],
       166              )
@@ -1963,8 +1963,8 @@
       197              input_dir.mkdir()
       198              doc = _exporter_doc(
       199                  "Integration Test",
-      200 -                "https://chatgpt.com/c/integration-test-uuid",
-      200 +                "https://chatgpt.com/c/cafebabe-1234-5678-90ab
+      200 -                "[personal conversation link redacted]
+      200 +                "[personal conversation link redacted]
           +-cdef00112233",                                               
       201                  [
       202                      {"role": "user", "say": "What is the capit
@@ -2052,10 +2052,10 @@
 
   Wrote 1 memory (ctrl+o to expand)
 
-⏺ Bash(chezmoi add ~/.claude/projects/-Users-4jp/memory/project_artifact_chatgpt
+⏺ Bash(chezmoi add ~/.claude/projects/-Users-[user]/memory/project_artifact_chatgpt
       _exporter_converter.md 2>&1 | tail -3 && chezmoi re-add
-      ~/.claude/projects/-Users-4jp/m…)
-  ⎿   create mode 100644 private_dot_claude/projects/-Users-4jp/memory/proj
+      ~/.claude/projects/-Users-[user]/m…)
+  ⎿   create mode 100644 private_dot_claude/projects/-Users-[user]/memory/proj
      ect_artifact_chatgpt_exporter_converter.md
      To github.com:4444J99/domus-semper-palingenesis.git
      … +4 lines (ctrl+o to expand)
@@ -2507,8 +2507,8 @@
 
   Wrote 1 memory (ctrl+o to expand)
 
-⏺ Bash(chezmoi re-add ~/.claude/projects/-Users-4jp/memory/MEMORY.md ~/.claude/p
-      rojects/-Users-4jp/memory/project_artifact_landing_engine_plan.md 2>&1 |
+⏺ Bash(chezmoi re-add ~/.claude/projects/-Users-[user]/memory/MEMORY.md ~/.claude/p
+      rojects/-Users-[user]/memory/project_artifact_landing_engine_plan.md 2>&1 |
       tail -3)
   ⎿   2 files changed, 33 insertions(+), 17 deletions(-)
      To github.com:4444J99/domus-semper-palingenesis.git
@@ -2768,7 +2768,7 @@
       for r in \…)
   ⎿  === GIT STATE ACROSS ALL TOUCHED REPOS ===
      ---
-     REPO: /Users/4jp/Workspace/organvm/sovereign-systems--elevate-align
+     REPO: ~/Workspace/organvm/sovereign-systems--elevate-align
      … +28 lines (ctrl+o to expand)
 
   Searched for 1 pattern (ctrl+o to expand)
@@ -2798,8 +2798,8 @@
 ⏺ Bash(cd ~/Workspace/4444J99/domus-semper-palingenesis && git log -1 --oneline
       && git status --short && echo "---force-resync-then-push---" && chezmoi
       apply --no-page…)
-  ⎿  6f9b3e0 Update .claude/projects/-Users-4jp/memory/MEMORY.md Update .cl
-     aude/projects/-Users-4jp/memory/project_artifact_landing_engine_plan.m
+  ⎿  6f9b3e0 Update .claude/projects/-Users-[user]/memory/MEMORY.md Update .cl
+     aude/projects/-Users-[user]/memory/project_artifact_landing_engine_plan.m
      d
      … +11 lines (ctrl+o to expand)
 
@@ -2857,7 +2857,7 @@
 ⏺ Bash(cd ~/Workspace/organvm/organvm-corpvs-testamentvm && git add
       data/done-id-counter.json && git commit -m "claim DONE-448..DONE-455 for
       S-2026-04-25 engine+infra+…)
-  ⎿  [INFO] Restored changes from /Users/4jp/.cache/pre-commit/patch1777149
+  ⎿  [INFO] Restored changes from ~/.cache/pre-commit/patch1777149
      675-99688.
      [main a237654] claim DONE-448..DONE-455 for S-2026-04-25 engine+infra+
      … +7 lines (ctrl+o to expand)
@@ -2886,7 +2886,7 @@
       '1290,1298p' INST…)
   ⎿  | IRF-SEC-005 | **P0** | **Gmail app password not revoked in Google Ac
      count.** Label `gmail-app-pw-033526` (created 2026-03-25) grants IMAP/
-     SMTP to `padavano.anthony@gmail.com`. No active consumers. Exposed in
+     SMTP to `[email redacted]`. No active consumers. Exposed in
      … +118 lines (ctrl+o to expand)
 
 ⏺ Bash(cd ~/Workspace/organvm/organvm-corpvs-testamentvm && grep -n
@@ -2990,7 +2990,7 @@
            for v8+ with ESLint 10 compatibility | Agent | S26 | eslint-pl
            ugin-react@7.37.5 incompatible |
       151  | IRF-SYS-009 | **P0** | Gmail notification hygiene — filter d
-           esigned in S36: `from:notifications@github.com ("dependabot[bo
+           esigned in S36: `from:[email redacted] ("dependabot[bo
            t]" OR "github-actions[bot]")` → Skip Inbox, Apply label `gith
            ub/bots`, Mark as Read. **HUMAN ACTION NEEDED:** (1) Create Gm
            ail filter, (2) GitHub Settings > Notifications > uncheck "Aut
@@ -3285,7 +3285,7 @@
       -m "$(cat <<'EOF'
       irf: lo…)  ⎿   INST-INDEX-RERUM-FACIENDARUM.md | 27 +++++++++++++++++++--------
       1 file changed, 19 insertions(+), 8 deletions(-)
-     [INFO] Restored changes from /Users/4jp/.cache/pre-commit/patch1777149
+     [INFO] Restored changes from ~/.cache/pre-commit/patch1777149
      … +9 lines (ctrl+o to expand)
 
 ❯ working in another session for maddie proj 
@@ -3434,7 +3434,7 @@
   Counter parity: next_id=456, claimed [448, 455] by my session — counter
   committed (a237654) BEFORE IDs assigned in IRF (36961db), per protocol.
 
-  Memory parity: chezmoi status clean for ~/.claude/projects/-Users-4jp/memory/.
+  Memory parity: chezmoi status clean for ~/.claude/projects/-Users-[user]/memory/.
    All session memory artifacts pushed:
   - feedback_multi_variant_showcase.md
   - project_artifact_full_hanging_plan.md
@@ -3575,7 +3575,7 @@
   claude --dangerously-skip-permissions --chrome                                
    ▐▛███▜▌   Claude Code v2.1.112                                               
   ▝▜█████▛▘  Opus 4.7 (1M context) with max effort · Claude Max                 
-    ▘▘ ▝▝    /Users/4jp                                                         
+    ▘▘ ▝▝    /Users/[user]                                                         
                                                                                 
   ❯ /model                                                                      
                                                                                 
@@ -4018,7 +4018,7 @@
            for v8+ with ESLint 10 compatibility | Agent | S26 | eslint-pl
            ugin-react@7.37.5 incompatible |
       160  | IRF-SYS-009 | **P0** | Gmail notification hygiene — filter d
-           esigned in S36: `from:notifications@github.com ("dependabot[bo
+           esigned in S36: `from:[email redacted] ("dependabot[bo
            t]" OR "github-actions[bot]")` → Skip Inbox, Apply label `gith
            ub/bots`, Mark as Read. **HUMAN ACTION NEEDED:** (1) Create Gm
            ail filter, (2) GitHub Settings > Notifications > uncheck "Aut
@@ -4410,7 +4410,7 @@
            for v8+ with ESLint 10 compatibility | Agent | S26 | eslint-pl
            ugin-react@7.37.5 incompatible |
       161  | IRF-SYS-009 | **P0** | Gmail notification hygiene — filter d
-           esigned in S36: `from:notifications@github.com ("dependabot[bo
+           esigned in S36: `from:[email redacted] ("dependabot[bo
            t]" OR "github-actions[bot]")` → Skip Inbox, Apply label `gith
            ub/bots`, Mark as Read. **HUMAN ACTION NEEDED:** (1) Create Gm
            ail filter, (2) GitHub Settings > Notifications > uncheck "Aut
@@ -4430,7 +4430,7 @@
 ⏺ Bash(cd ~/Workspace/organvm/organvm-corpvs-testamentvm && git add
       INST-INDEX-RERUM-FACIENDARUM.md && git commit -m "irf: log SYS-156 —
       GitHub notification backlog (4…)
-  ⎿  [INFO] Restored changes from /Users/4jp/.cache/pre-commit/patch1777151
+  ⎿  [INFO] Restored changes from ~/.cache/pre-commit/patch1777151
      179-12339.
      [main 2716242] irf: log SYS-156 — GitHub notification backlog (4115 to
      … +7 lines (ctrl+o to expand)
@@ -4493,7 +4493,7 @@
 ⏺ Bash(cd ~/Workspace/organvm/organvm-corpvs-testamentvm && git add
       INST-INDEX-RERUM-FACIENDARUM.md && git commit -m "irf: stats consistency —
        SYS-156 reflected in P0…)
-  ⎿  [INFO] Restored changes from /Users/4jp/.cache/pre-commit/patch1777151
+  ⎿  [INFO] Restored changes from ~/.cache/pre-commit/patch1777151
      211-12673.
      [main a1215d2] irf: stats consistency — SYS-156 reflected in P0 + tota
      … +17 lines (ctrl+o to expand)

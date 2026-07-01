@@ -102,11 +102,11 @@ Okay, I'm going to set up a theoretical situation, and I'll tell a story first t
 I have attached my resume. I need life advice and job coaching. I want to learn new skills to help me achieve my goals. My goal is to have a salary that is inching towards $200,000 within the next few years. I also am looking for the potential for growth within a chosen industry. I am looking for an industry in which I can plant roots and grow within. Something creative. Something I can do fully remote. Something that is future proof and safe from AI and automation. Give me some ideas!
 
 Resume: "
-Anthony James Padavano
+[name redacted]
 Digital Content Producer
 
 Fort Lauderdale
-347-244-1405
+[phone redacted]
 
 viral multimedia storytelling
 
@@ -196,17 +196,17 @@ I feel like anyone who is in my life, I shouldn't have to feel as if I can't res
 ```
 was this file path included?
 
-/Users/anthonyjamespadavano/Library/Mobile Documents/com~apple~CloudDocs
+~/Library/Mobile Documents/com~apple~CloudDocs
 ```
 
 ### CURRENT ASK
 *2025-12-29*
 
 ```
-4jp@Anthonys-MacBook-Pro ~ % git config --global --get core.hookspath
+[user]@Anthonys-MacBook-Pro ~ % git config --global --get core.hookspath
 git config --system --get core.hookspath
-/Users/4jp/.config/git/hooks
-4jp@Anthonys-MacBook-Pro ~ %
+~/.config/git/hooks
+[user]@Anthonys-MacBook-Pro ~ %
 ```
 
 ### DELTA
@@ -456,7 +456,7 @@ How to build an automated merchant cash advance lead generator
 respond to this student email, she sent a second one after the earlier one, so incorporate that info into the response:
 
 ------------------------------------
-At 12:04 PM on Wednesday, October 16, 2024, "Hannah Pham" <phamh25@bconline.broward.edu> wrote
+At 12:04 PM on Wednesday, October 16, 2024, "Hannah Pham" <[email redacted]> wrote
 
 
 Professor Padavano,
@@ -468,7 +468,7 @@ I emailed you about resubmitting my paper that has been flagged for AI. Maybe I 
 
 Thanks,
 
-Hannah</phamh25@bconline.broward.edu>
+Hannah</[email redacted]>
 ```
 
 ### CURRENT ASK
@@ -481,10 +481,10 @@ i completed the document submissions and i am logging an hour in ADP for this pr
 
 
 
-From: Sherif Guirguis <SGuirguis@edaff.com>
+From: Sherif Guirguis <[email redacted]>
 Date: Wednesday, April 23, 2025 at 11:38 AM
-To: AnthonyJames Padavano <AnthonyJames.Padavano@stpaulsschoolofnursing.edu>
-Cc: Shanae Simmons <Shanae.Simmons@stpaulsschoolofnursing.edu>, Geraldine Mariano <Geraldine.Mariano@stpaulsschoolofnursing.edu>
+To: AnthonyJames Padavano <[email redacted]>
+Cc: Shanae Simmons <[email redacted]>, Geraldine Mariano <[email redacted]>
 Subject: RE: CastleBranch
 Hi Anthony,
  
@@ -498,7 +498,7 @@ Also, a quick reminder — the teachin...
 
 ### DELTA
 
-- NEW CONCEPTS (77 total): 1138, 1139, 2025, 421, 422, 6011, 718-360-9621, 718-517-7700, account, adp, anthony, anthonyjames, anthonyjamespadavanostpaulsschoolofnursingedu, approve, april
+- NEW CONCEPTS (77 total): 1138, 1139, 2025, 421, 422, 6011, [phone redacted], [phone redacted], account, adp, anthony, anthonyjames, anthonyjamespadavanostpaulsschoolofnursingedu, approve, april
 - DROPPED CONCEPTS (36 total): ------------------------------------, 1204, 2024, allowing, appreciate, earlier, emailed, enough, flagged, hannah, hannahphamh25bconlinebrowardedu, history, incorporate, info, maybe
 - PERSISTENT CORE (7 concepts retained)
 - PROMPT LENGTH: longer (119 -> 232 words)
@@ -524,10 +524,10 @@ Also, a quick reminder — the teachin...
 ```
 Last login: Fri Feb 28 17:09:27 on ttys000
 anthonyjamespadavano@MacBookAir ~ % rm -rf ~/Library/Caches/*
-zsh: sure you want to delete all 29 files in /Users/anthonyjamespadavano/Library/Caches [yn]? y
+zsh: sure you want to delete all 29 files in ~/Library/Caches [yn]? y
 
-rm: /Users/anthonyjamespadavano/Library/Caches/CloudKit/com.apple.bird: Permission denied
-rm: /Users/anthonyjamespadavano/Library/Caches/CloudKit: Permission denied
+rm: ~/Library/Caches/CloudKit/com.apple.bird: Permission denied
+rm: ~/Library/Caches/CloudKit: Permission denied
 anthonyjamespadavano@MacBookAir ~ % 
 anthonyjamespadavano@MacBookAir ~ % find ~/Library/Preferences -type f -mtime +365 -delete
 anthonyjamespadavano@MacBookAir ~ % ls -lah ~/Library/Application\ Support
@@ -543,7 +543,7 @@ drwx------+ 138 anthonyjamespadavano  staff   4.3K Feb 25 17:41 ..
 
 ```
 Last login: Mon Dec 29 08:34:02 on ttys508
-4jp@Anthonys-MacBook-Pro ~ % brew install tw93/tap/mole
+[user]@Anthonys-MacBook-Pro ~ % brew install tw93/tap/mole
 ==> Tapping tw93/tap
 Cloning into '/opt/homebrew/Library/Taps/tw93/homebrew-tap'...
 remote: Enumerating objects: 673, done.
@@ -731,11 +731,11 @@ Create a claude project manifest (in style of annotated bibliography), each file
 Last login: Fri Feb 28 17:03:19 on ttys000
 anthonyjamespadavano@MacBookAir ~ % cp -r ~/Library/Preferences ~/Desktop/PreferencesBackup
 anthonyjamespadavano@MacBookAir ~ % du -sh ~/Library/* | sort -hr | head -20
-du: /Users/anthonyjamespadavano/Library/Saved Application State/com.izotope.installer.RX-8-Elements.savedState: Permission denied
-du: /Users/anthonyjamespadavano/Library/Saved Application State/com.izotope.installer.RX 10 Audio Editor.uninstall.savedState: Permission denied
-du: /Users/anthonyjamespadavano/Library/Saved Application State/com.izotope.NEUTRONPRO.savedState: Permission denied
-du: /Users/anthonyjamespadavano/Library/Saved Application State/com.izotope.OzoneImager2.savedState: Permission denied
-du: /Users/anthonyjamespadavano/Library/Saved Application State/com.izotope.i...
+du: ~/Library/Saved Application State/com.izotope.installer.RX-8-Elements.savedState: Permission denied
+du: ~/Library/Saved Application State/com.izotope.installer.RX 10 Audio Editor.uninstall.savedState: Permission denied
+du: ~/Library/Saved Application State/com.izotope.NEUTRONPRO.savedState: Permission denied
+du: ~/Library/Saved Application State/com.izotope.OzoneImager2.savedState: Permission denied
+du: ~/Library/Saved Application State/com.izotope.i...
 ```
 
 ### CURRENT ASK
@@ -743,8 +743,8 @@ du: /Users/anthonyjamespadavano/Library/Saved Application State/com.izotope.i...
 
 ```
 anthonyjamespadavano@Anthonys-MacBook-Air-2 ~ % ps aux | grep python
-anthonyjamespadavano  6549   0.0  0.0 411061552   3088   ??  S     9:00PM   0:00.82 /Users/anthonyjamespadavano/.local/share/virtualenvs/C7M5L1_Item_8-R8Mf9zH_/bin/python /Users/anthonyjamespadavano/.vscode/extensions/ms-python.black-formatter-2025.2.0/bundled/tool/lsp_server.py --stdio
-anthonyjamespadavano  6548   0.0  0.1 1628698832  24608   ??  S     9:00PM   3:20.73 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) /Users/anthonyjamespadavano/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist/server.bundle.js --cancellationReceive=file:8a6e54c821a3d51336a810aa8c91f105961d02a3ca --node-ipc --clientProcessId=6283
+anthonyjamespadavano  6549   0.0  0.0 411061552   3088   ??  S     9:00PM   0:00.82 ~/.local/share/virtualenvs/C7M5L1_Item_8-R8Mf9zH_/bin/python ~/.vscode/extensions/ms-python.black-formatter-2025.2.0/bundled/tool/lsp_server.py --stdio
+anthonyjamespadavano  6548   0.0  0.1 1628698832  24608   ??  S     9:00PM   3:20.73 /Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin) ~/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist/server.bundle.js --cancellationReceive=file:8a6e54c821a3d51336a810aa8c91f105961d02a3ca --node-ipc --clientProcessId=6283
 anthonyjamespadavano  6307   0.0 ...
 ```
 
@@ -779,7 +779,7 @@ grant access to https://github.com/omni-dromenon-engine
 **
 
 ```
-/Users/4jp/Desktop/omni-dromenon-engine
+~/Desktop/omni-dromenon-engine
 ```
 
 ### DELTA
@@ -825,7 +825,7 @@ Please let me know if I am on the right path. Are these ideas okay? I am stuck o
 respond: 
 
 ------------------------------------
-At 2:24 PM on Thursday, May 1, 2025, "Scarlett Alvarado" <alvas110@d2l.broward.edu> wrote
+At 2:24 PM on Thursday, May 1, 2025, "Scarlett Alvarado" <[email redacted]> wrote
 
 
 Hello Professor Padavano,
@@ -833,7 +833,7 @@ Hello Professor Padavano,
 I would appreciate it if you could grant me more time. I'm currently at the hospital every day.&nbsp;
 
 ------------------------------------
-At 8:38 AM on Thursday, May 1, 2025, "Anthony Padavano" <apadavan@d2l.broward.edu> wrote
+At 8:38 AM on Thursday, May 1, 2025, "[name redacted]" <[email redacted]> wrote
 
 Hi Scarlett,
 
@@ -876,10 +876,10 @@ Professor Padavano
 respond:
 
 ------------------------------------
-At 4:41 PM on Friday, October 25, 2024, "Nachiarah Cadelus" <caden18@bconline.broward.edu> wrote
+At 4:41 PM on Friday, October 25, 2024, "Nachiarah Cadelus" <[email redacted]> wrote
 
 
-Hi, im working on the assignments due on Sunday. I texted the phone number you sent me but you didn't respond back. Can you please help me.</caden18@bconline.broward.edu>
+Hi, im working on the assignments due on Sunday. I texted the phone number you sent me but you didn't respond back. Can you please help me.</[email redacted]>
 ```
 
 ### CURRENT ASK
@@ -890,9 +890,9 @@ respond:
 
 
 
-From: Dwayne Gallagher <galld63@d2l.broward.edu>
+From: Dwayne Gallagher <[email redacted]>
 Date: Sunday, April 27, 2025 at 6:32 PM
-To: Anthony Padavano <apadavan@d2l.broward.edu>
+To: [name redacted] <[email redacted]>
 Subject: P'an assignment
 Good day professor, for the last assignment due on may 2nd, i need to what it is exactly do i need to do?
 ```

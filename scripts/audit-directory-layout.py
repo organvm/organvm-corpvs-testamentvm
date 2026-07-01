@@ -89,7 +89,7 @@ def origin_owner(repo: Path) -> str | None:
             in_origin = 'origin"' in s
         elif in_origin and s.startswith("url"):
             url = s.split("=", 1)[1].strip()
-            # git@github.com:OWNER/repo.git  OR  https://github.com/OWNER/repo
+            # [email redacted]:OWNER/repo.git  OR  https://github.com/OWNER/repo
             if ":" in url and "@" in url:
                 tail = url.split(":", 1)[1]
             else:

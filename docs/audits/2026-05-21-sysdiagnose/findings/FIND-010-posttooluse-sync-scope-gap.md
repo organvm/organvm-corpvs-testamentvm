@@ -14,7 +14,7 @@
 
 ### settings.json hook entries (two)
 ```
-"command": "/Users/4jp/.local/bin/domus-memory-sync",
+"command": "~/.local/bin/domus-memory-sync",
 "timeout": 5
 ```
 
@@ -33,7 +33,7 @@ Workspace/_diagnostics/sysdiagnose-2026-05-21/timeline.md
 Workspace/_diagnostics/sysdiagnose-2026-05-21/memory-parity.md
 Workspace/_diagnostics/sysdiagnose-2026-05-21/findings/FIND-{001..009}-*.md
 Workspace/_diagnostics/sysdiagnose-2026-05-21/dispatch-envelopes/DISPATCH-{001,002,005,006}-*.md
-private_dot_claude/projects/-Users-4jp/memory/project_artifact_2026_05_22_sysdiagnose_forensic_audit.md
+private_dot_claude/projects/-Users-[user]/memory/project_artifact_2026_05_22_sysdiagnose_forensic_audit.md
 ```
 
 ### Constitutional violations enabled by the gap

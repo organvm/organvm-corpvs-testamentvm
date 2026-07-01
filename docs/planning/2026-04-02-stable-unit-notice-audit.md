@@ -53,7 +53,7 @@ The following units are marked `GRADUATED` in `registry-v2.json` but may require
 - Add `ownership` block:
   ```yaml
   ownership:
-    lead: "4jp"
+    lead: "[user]"
     collaborators: []
     ai_agents:
       - type: claude
@@ -66,7 +66,7 @@ The following units are marked `GRADUATED` in `registry-v2.json` but may require
 - Format for `NOTICE`:
   ```text
   ORGANVM System
-  Copyright 2026 4jp / ORGANVM
+  Copyright 2026 [user] / ORGANVM
 
   This product includes software developed as part of the ORGANVM
   meta-workspace (https://github.com/meta-organvm).

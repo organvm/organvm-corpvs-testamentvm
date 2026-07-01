@@ -60,7 +60,7 @@ The orchestrator discovers and manages them all.
 ### Option 1: Flat Structure (Simplest)
 
 ```
-/Users/4jp/Workspace/
+~/Workspace/
 ├── omni-dromenon-machina/           # The universal orchestrator
 │   ├── config/
 │   │   └── orchestrator.yaml        # Global config
@@ -85,7 +85,7 @@ The orchestrator discovers and manages them all.
 ```yaml
 discovery:
   mode: "auto"
-  workspace_root: "/Users/4jp/Workspace"
+  workspace_root: "~/Workspace"
   exclude_patterns:
     - "omni-dromenon-machina"
     - ".*"              # Hidden folders
@@ -116,7 +116,7 @@ managed_projects:
 ### Option 2: Organized with Projects Folder
 
 ```
-/Users/4jp/Workspace/
+~/Workspace/
 ├── omni-dromenon-machina/           # The orchestrator
 │   └── config/orchestrator.yaml
 │
@@ -143,7 +143,7 @@ managed_projects:
 ### Option 3: Hybrid with Categories
 
 ```
-/Users/4jp/Workspace/
+~/Workspace/
 ├── omni-dromenon-machina/           # The orchestrator
 │
 ├── identity-systems/                # Category: Identity projects
@@ -172,7 +172,7 @@ managed_projects:
 Keep it simple:
 
 ```
-/Users/4jp/Workspace/
+~/Workspace/
 ├── omni-dromenon-machina/           # THE orchestrator
 ├── life-my--midst--in/              # Project with seed.yaml
 ├── [any-other-project]/             # Any project with seed.yaml
@@ -237,7 +237,7 @@ orchestrator:
   description: "Universal autonomous development orchestrator"
 
 discovery:
-  workspace_root: "/Users/4jp/Workspace"
+  workspace_root: "~/Workspace"
   auto_discover: true
   genome_filename: "seed.yaml"
   exclude_dirs:
@@ -306,7 +306,7 @@ orchestration:
 
   notifications:
     slack_channel: "#cv-project"
-    email: "4jp@example.com"
+    email: "[email redacted]"
 ```
 
 ---
@@ -372,7 +372,7 @@ cd life-my--midst--in
 ### Phase 3: Add More Projects
 
 ```bash
-cd /Users/4jp/Workspace
+cd ~/Workspace
 
 # Create any new project
 mkdir my-new-project
@@ -433,7 +433,7 @@ With multiple projects, omni-drom can:
 **Keep it simple**:
 
 ```
-/Users/4jp/Workspace/
+~/Workspace/
 ├── omni-dromenon-machina/     # Universal orchestrator
 ├── life-my--midst--in/        # Project 1 (has seed.yaml)
 ├── [project-2]/               # Project 2 (has seed.yaml)
@@ -441,7 +441,7 @@ With multiple projects, omni-drom can:
 ```
 
 **omni-drom config**:
-- Scans `/Users/4jp/Workspace`
+- Scans `~/Workspace`
 - Finds any directory with `seed.yaml`
 - Manages those projects automatically
 - Ignores everything else
@@ -455,7 +455,7 @@ With multiple projects, omni-drom can:
 
 ## Next Steps
 
-1. ✅ Keep flat structure in `/Users/4jp/Workspace`
+1. ✅ Keep flat structure in `~/Workspace`
 2. Enhance omni-drom with discovery system
 3. Ensure life-my--midst--in seed.yaml is complete
 4. Test orchestration on one project

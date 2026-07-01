@@ -527,7 +527,7 @@
   chezmoi:
 
 ⏺ Bash(python3 -c "import json;
-      d=json.load(open('/Users/4jp/.claude/settings.json')); pt=[h for h in
+      d=json.load(open('~/.claude/settings.json')); pt=[h for h in
       d['hooks']['PreToolUse'] if any(hk['type']=='prompt' for hk in h[…)
   ⎿  prompt hooks remaining: 0
      SessionStart prompt: 0
@@ -537,9 +537,9 @@
   dynamically).
 
 ⏺ Bash(chezmoi apply 2>&1)  ⎿  Error: Exit code 1
-     .claude/projects/-Users-4jp-Workspace-4444J99-application-pipeline/memory/.
+     .claude/projects/-Users-[user]-Workspace-4444J99-application-pipeline/memory/.
      consolidate-lock has changed since chezmoi last wrote it?
-     chezmoi: .claude/projects/-Users-4jp-Workspace-4444J99-application-pipeline
+     chezmoi: .claude/projects/-Users-[user]-Workspace-4444J99-application-pipeline
      /memory/.consolidate-lock: could not open a new TTY: open /dev/tty: device 
      not configured
 
@@ -580,7 +580,7 @@
 
 ⏺ Bash(cd ~/Workspace/4444J99/domus-semper-palingenesis && git push 2>&1)
   ⎿  │  No config files with names ["lefthook" ".lefthook" ".config/lefthoo
-     k"] have been found in "/Users/4jp/Workspace/4444J99/domus-semper-pali
+     k"] have been found in "~/Workspace/4444J99/domus-semper-pali
      ngenesis"
      … +2 lines (ctrl+o to expand)
 
@@ -1001,7 +1001,7 @@ will be lost?
 
   Memory Parity Flag
 
-  Memory files at ~/.claude/projects/-Users-4jp/memory/ are LOCAL ONLY — not
+  Memory files at ~/.claude/projects/-Users-[user]/memory/ are LOCAL ONLY — not
   backed to any remote. If this machine dies, 23 memory files + session context
   are lost. This is IRF-APP-012, still open. The memory I saved this session
   (feedback_hook_architecture.md) shares this risk.

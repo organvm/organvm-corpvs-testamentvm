@@ -2,7 +2,7 @@
 
 - **Run ID:** `20260209-135130`
 - **Generated at (UTC):** `2026-02-09T19:15:05Z`
-- **Workspace root:** `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure`
+- **Workspace root:** `~/Workspace/organvm-pactvm/ingesting-organ-document-structure`
 
 ## Tool Versions
 

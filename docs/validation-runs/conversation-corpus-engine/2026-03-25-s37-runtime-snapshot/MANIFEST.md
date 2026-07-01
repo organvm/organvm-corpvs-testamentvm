@@ -1,7 +1,7 @@
 # Conversation Corpus Engine Runtime Snapshot
 
 Date: 2026-03-25
-Source repo: `/Users/4jp/Workspace/organvm-i-theoria/conversation-corpus-engine`
+Source repo: `~/Workspace/organvm-i-theoria/conversation-corpus-engine`
 Source commit: `3fa116f`
 
 ## Purpose

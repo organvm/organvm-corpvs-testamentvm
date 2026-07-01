@@ -1,7 +1,7 @@
 # Project Definition: Metasystem Production Deployment (Phase D-4)
 
 **Objective:**
-Deploy the fully integrated **4jp Metasystem** to production (Google Cloud Platform), ensuring that the "Universal Orchestrator" capabilities—including multi-project health monitoring, task dispatch, and real-time dashboard visibility—are fully functional in the live cloud environment.
+Deploy the fully integrated **[user] Metasystem** to production (Google Cloud Platform), ensuring that the "Universal Orchestrator" capabilities—including multi-project health monitoring, task dispatch, and real-time dashboard visibility—are fully functional in the live cloud environment.
 
 **Scope:**
 - **Core Engine:** `omni-dromenon-core` (Orchestrator Backend).
@@ -11,7 +11,7 @@ Deploy the fully integrated **4jp Metasystem** to production (Google Cloud Platf
 - **Boundaries:** This phase focuses on the *orchestrator's* ability to see the universe. It does *not* involve deploying the satellite projects (e.g., `trade-perpetual-future`) to their own production environments yet, only verifying the Orchestrator's *awareness* of them.
 
 **Inputs:**
-1.  **Metasystem Manifest:** `omni-dromenon-machina/4jp-metasystem.yaml` (The Source of Truth).
+1.  **Metasystem Manifest:** `omni-dromenon-machina/[user]-metasystem.yaml` (The Source of Truth).
 2.  **Source Code:** Latest revisions of Core Engine, SDK, and Landing Page.
 3.  **Genomes:** `seed.yaml` files for all managed projects (verified locally).
 
@@ -37,4 +37,4 @@ Deploy the fully integrated **4jp Metasystem** to production (Google Cloud Platf
 
 **Constraints:**
 - **Cloud Build Limits:** Ensure Docker builds stay within timeout limits.
-- **Secrets:** Ensure `4jp-metasystem.yaml` does not expose sensitive paths (it uses relative paths or mocked cloud status, which is safe).
+- **Secrets:** Ensure `[user]-metasystem.yaml` does not expose sensitive paths (it uses relative paths or mocked cloud status, which is safe).

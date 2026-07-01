@@ -7,7 +7,7 @@
 
 ## Purpose
 
-Anthony Padavano is in active litigation, with attorney Micah Longo as counsel. The substrate Anthony builds (ORGANVM + skills + memory + plans) must NEVER encode privileged content from this case. The legal-domain skill (and any product that derives from this work — Praxis Curia, the post-trigger pitch) must be reproducible by a practitioner who never met Micah, never read a discovery doc, never heard a privileged word.
+[name redacted] is in active litigation, with attorney Micah Longo as counsel. The substrate Anthony builds (ORGANVM + skills + memory + plans) must NEVER encode privileged content from this case. The legal-domain skill (and any product that derives from this work — Praxis Curia, the post-trigger pitch) must be reproducible by a practitioner who never met Micah, never read a discovery doc, never heard a privileged word.
 
 **Operational test:** If a sentence in a shipped artifact would not have existed had this case never happened, it is contaminated. Cut, or rewrite from public sources.
 
@@ -112,7 +112,7 @@ Zero hits expected. Any hit = HARD BLOCK incident:
 
 - CURIA Phase 0 spec: `~/.claude/plans/2026-04-28-curia-organ-viii-specification.md`
 - Plan file: `~/.claude/plans/going-through-a-lawsuit-fizzy-moth.md` (duplicated to canonical name `~/.claude/plans/2026-04-28-curia-organ-viii-and-legal-domain-instancing.md` per Plan File Discipline — both retained, never overwrite)
-- Collaborator memory: `~/.claude/projects/-Users-4jp/memory/collaborator_micah.md` + `_PRIVILEGE_BOUNDARY.md`
+- Collaborator memory: `~/.claude/projects/-Users-[user]/memory/collaborator_micah.md` + `_PRIVILEGE_BOUNDARY.md`
 - Legal-practice-domain skill: `~/Workspace/a-i--skills/legal-practice-domain/SKILL.md`
 - Pre-commit hook (W4, not yet built): `~/Workspace/4444J99/domus-semper-palingenesis/.chezmoiscripts/pre-commit-privilege-scan.sh`
 - LaunchAgent rule: `feedback_no_launchagents.md` (HARD; this firewall's hook is on-demand only)

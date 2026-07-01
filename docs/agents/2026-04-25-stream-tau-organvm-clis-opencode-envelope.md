@@ -29,7 +29,7 @@ organvm sessions audit --since <duration>
 
 **Inputs:** duration string (e.g. `72h`, `7d`, `30d`)
 **Reads:**
-- All `~/.claude/projects/-Users-4jp/memory/project_session_*.md` files; filter by mtime within window
+- All `~/.claude/projects/-Users-[user]/memory/project_session_*.md` files; filter by mtime within window
 - `~/Workspace/organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md` (text grep for session names)
 - `~/Workspace/organvm/organvm-corpvs-testamentvm/data/fossil/fossil-record.jsonl` (JSONL filter by date)
 - Git log of relevant repos (use `gh repo list` for known repos)
@@ -143,7 +143,7 @@ When this work returns to Claude:
 
 ## On completion
 
-1. Session memory at `~/.claude/projects/-Users-4jp/memory/project_session_<id>_organvm_clis.md`
+1. Session memory at `~/.claude/projects/-Users-[user]/memory/project_session_<id>_organvm_clis.md`
 2. Add to `MEMORY.md` Active Artifacts: `[Organvm CLI fleet]` entry
 3. Handoff-completion marker at `~/Workspace/organvm/organvm-corpvs-testamentvm/docs/agents/2026-04-25-stream-tau-COMPLETED.md` with commit SHAs
 

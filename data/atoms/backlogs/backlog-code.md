@@ -140,7 +140,7 @@ of Business Bank Statements
 
 Need Help? Call Us Anytime – 24/7
 
-Dial: +1 718-619-9867
+Dial: [phone redacted]
 
 Or tap below: [Call John Now]
 
@@ -196,7 +196,7 @@ in the future, we’d love to assist you.
 
 � Call John Anytime – 24/7
 
-Dial �: +1 718-619-9867
+Dial �: [phone redacted]
 
 Or 
 
@@ -267,7 +267,7 @@ When completing the application, provide only accurate and truthful information:
 
 If you have any questions or concerns, don’t hesitate to reach out. We’re here for you anytime.
 
-Call your funding pro, John Monforte,  at +1-718-619-9867.
+Call your funding pro, John Monforte,  at [phone redacted].
 
 Thank you for choosing Forward Funders—we look forward to working with you!
 
@@ -277,9 +277,9 @@ President, Forward Funders
 6231 Amboy Rd
 Staten Island, NY 10309
 
-Office: 718-785-3317
-Cell: 718-619-9867
-Fax: 718-785-4628
+Office: [phone redacted]
+Cell: [phone redacted]
+Fax: [phone redacted]
 
 ---
 
@@ -334,7 +334,7 @@ If there are any additional documents or information needed during the review pr
 Need Assistance? 
 
 If you have any questions or concerns, feel free to contact us anytime: 
-     - Call our CEO, John Monforte, directly at +1-718-619-9867. 
+     - Call our CEO, John Monforte, directly at [phone redacted]. 
      - Or reply to this email, and we’ll respond promptly.
 
 Thank you for choosing Forward Funders—we look forward to helping your business grow!
@@ -345,9 +345,9 @@ President, Forward Funders
 6231 Amboy Rd
 Staten Island, NY 10309
 
-Office: 718-785-3317
-Cell: 718-619-9867
-Fax: 718-785-4628
+Office: [phone redacted]
+Cell: [phone redacted]
+Fax: [phone redacted]
 
 ---
 
@@ -401,7 +401,7 @@ At Forward Funders, we believe in direct, personal support—business owner to b
 
 Your success is our priority, and we’re here to guide you every step of the way. If you have any questions or concerns, feel free to reach out anytime—we’re available 24/7.
 
-Call me directly at 718-619-9867, or reply to this email, and we’ll assist you promptly.
+Call me directly at [phone redacted], or reply to this email, and we’ll assist you promptly.
 
 Thank you for choosing Forward Funders—we look forward to helping your business grow!
 
@@ -411,9 +411,9 @@ President, Forward Funders
 6231 Amboy Rd
 Staten Island, NY 10309
 
-Office: 718-785-3317
-Cell: 718-619-9867
-Fax: 718-785-4628
+Office: [phone redacted]
+Cell: [phone redacted]
+Fax: [phone redacted]
 
 ---
 
@@ -462,7 +462,7 @@ If there are any additional documents or information needed during underwriting,
 Need Assistance?
 
 If you have any questions or concerns, feel free to contact us anytime:  
-     - Call our CEO, John Monforte, directly at +1-718-619-9867.  
+     - Call our CEO, John Monforte, directly at [phone redacted].  
      - Or reply to this email, and we’ll respond promptly.
 
 Thank you for choosing Forward Funders—we look forward to helping your business grow!
@@ -473,9 +473,9 @@ President, Forward Funders
 6231 Amboy Rd
 Staten Island, NY 10309
 
-Office: 718-785-3317
-Cell: 718-619-9867
-Fax: 718-785-4628
+Office: [phone redacted]
+Cell: [phone redacted]
+Fax: [phone redacted]
 
 ---
 
@@ -829,9 +829,9 @@ respond:
 
 
 
-From: Luis Miguel Mera Acosta <meral5@mail.broward.edu>
+From: Luis Miguel Mera Acosta <[email redacted]>
 Date: Wednesday, March 19, 2025 at 12:28 PM
-To: Anthony Padavano <apadavan@broward.edu>
+To: [name redacted] <[email redacted]>
 Subject: Urgent: Course Participation Confirmation
 Dear Mr. Padavano,
 My name is Luis Mera, and I am enrolled in your ENC1101 Composition I Online course (746743). I am writing to confirm that I have reviewed and completed the syllabus. I am fully committed to following the course guidelines and look forward to participating in the class.
@@ -1101,9 +1101,9 @@ respond to this email, i will work on completing this throughout this week (barr
 
 
 
-From: Shanae Simmons <Shanae.Simmons@stpaulsschoolofnursing.edu>
+From: Shanae Simmons <[email redacted]>
 Date: Friday, February 21, 2025 at 3:31 PM
-To: AnthonyJames Padavano <AnthonyJames.Padavano@stpaulsschoolofnursing.edu>
+To: AnthonyJames Padavano <[email redacted]>
 Subject: Faculty Files- Missing Items
 Good Afternoon Anthony ,
 
@@ -1243,8 +1243,8 @@ vertical-align:top;
 <p>Reference Number:</p>
 <hr>
 <h2>Faculty Contact Information</h2>
-<p><strong>Instructor Name:</strong> <span style="color: #353535;"><span style="color: #cf2a27;">Professor Anthony Padavano<br></span></span></p>
-<p><strong>Email:</strong> You may contact me directly at <a href="mailto:apadavan@broward.edu" style="color: #990000;"><strong>apadavan@broward.edu</strong></a>.&nbsp;</p>
+<p><strong>Instructor Name:</strong> <span style="color: #353535;"><span style="color: #cf2a27;">Professor [name redacted]<br></span></span></p>
+<p><strong>Email:</strong> You may contact me directly at <a href="mailto:[email redacted]" style="color: #990000;"><strong>[email redacted]</strong></a>.&nbsp;</p>
 <p><strong>Online Office Hours:</strong> I am available to meet by appointment only. Please email me with your availability and a phone number so we can arrange a time.</p>
 <hr>
 <h2>Course Information</h2>
@@ -2281,7 +2281,7 @@ vertical-align:top;
 <ul>
 <li>click on <a href="/content/resources/d2l/index.html" target="_blank" rel="noopener">D2L Support at Broward College</a>,</li>
 <li>visit the <a href="https://helpdesk.broward.edu/TDClient/Home/" target="_blank" rel="noopener">24/7 Help Desk</a>&nbsp;page for 24-hour technical assistance, or</li>
-<li>contact the BC Help Desk at 954-201-7521.</li>
+<li>contact the BC Help Desk at [phone redacted].</li>
 </ul>
 </div>
 <p><!-- Start: footer --></p>
@@ -2344,21 +2344,21 @@ I am following up on my faculty observations requirement for Castle Branch. My c
 • If not, should I reach out to them directly to facilitate the submission?
 I appreciate your help in finalizing this requirement.
 Best,
-Anthony James Padavano
+[name redacted]
 
-From: AnthonyJames Padavano <AnthonyJames.Padavano@stpaulsschoolofnursing.edu>
+From: AnthonyJames Padavano <[email redacted]>
 Date: Monday, February 24, 2025 at 9:45 AM
-To: Shanae Simmons <Shanae.Simmons@stpaulsschoolofnursing.edu>
+To: Shanae Simmons <[email redacted]>
 Subject: Re: Faculty Files- Missing Items
 Dear Shanae,
 Thank you for reaching out and for providing the detailed list of required documents. I appreciate the clarification.
 I will work on completing and uploading the necessary items throughout this week. Please let me know if there are any specific instructions or additional details I should be aware of.
 Best,
-Anthony James Padavano
+[name redacted]
  
-From: Shanae Simmons <Shanae.Simmons@stpaulsschoolofnursing.edu>
+From: Shanae Simmons <[email redacted]>
 Date: Friday, February 21, 2025 at 3:31 PM
-To: AnthonyJames Padavano <AnthonyJames.Padavano@stpaulsschoolofnursing.edu>
+To: AnthonyJames Padavano <[email redacted]>
 Subject: Faculty Files- Missing Items
 Good Afternoon Anthony ,
  
@@ -2401,10 +2401,10 @@ and then the two emails:
 Thank you Anthony for the requested documents. 
 
 -Shanae Simmons
-From: AnthonyJames Padavano <AnthonyJames.Padavano@stpaulsschoolofnursing.edu>
+From: AnthonyJames Padavano <[email redacted]>
 Sent: Wednesday, March 5, 2025 2:21 PM
-To: Shanae Simmons <Shanae.Simmons@stpaulsschoolofnursing.edu>
-Cc: Sherif Guirguis <SGuirguis@edaff.com>; Barbara Byers <BByers@edaff.com>
+To: Shanae Simmons <[email redacted]>
+Cc: Sherif Guirguis <[email redacted]>; Barbara Byers <[email redacted]>
 Subject: Re: Document Submissions & Questions - Castle Branch
  
 Dear Shanae,
@@ -2431,13 +2431,13 @@ Employee Emergency Contact Sheet – Could you confirm where I can retrieve and 
 Additionally, since Castle Branch only allows 10 document uploads, should I submit the remaining documents to you via email or in hard copy?
 Let me know the best way to proceed. Thanks again for your time and assistance.
 Best,
-Anthony James Padavano
+[name redacted]
  
 Image
  
-From: Shanae Simmons <Shanae.Simmons@stpaulsschoolofnursing.edu>
+From: Shanae Simmons <[email redacted]>
 Date: Wednesday, March 5, 2025 at 11:32 AM
-To: AnthonyJames Padavano <AnthonyJames.Padavano@stpaulsschoolofnursing.edu>
+To: AnthonyJames Padavano <[email redacted]>
 Subject: Re: CPR Requirement & Document Submission for Castle Branch
 
 Good Morning Anthony,
@@ -2448,9 +2448,9 @@ Thank you for reaching out to Geraldine and I are for clarification. The CPR cer
 Thank you,
 Shanae Simmons
  
-From: AnthonyJames Padavano <AnthonyJames.Padavano@stpaulsschoolofnursing.edu>
+From: AnthonyJames Padavano <[email redacted]>
 Sent: Wednesday, March 5, 2025 11:20 AM
-To: Geraldine Mariano <Geraldine.Mariano@stpaulsschoolofnursing.edu>; Shanae Simmons <Shanae.Simmons@stpaulsschoolofnursing.edu>
+To: Geraldine Mariano <[email redacted]>; Shanae Simmons <[email redacted]>
 Subject: CPR Requirement & Document Submission for Castle Branch
  
 Dear Geraldine and Shanae,
@@ -2469,21 +2469,21 @@ I am finalizing my Castle Branch faculty requirements and need clarification on 
 • Employee Emergency Contact Sheet
 I appreciate your time and look forward to your guidance.
 Best,
-Anthony James Padavano 
-From: AnthonyJames Padavano <AnthonyJames.Padavano@stpaulsschoolofnursing.edu>
+[name redacted] 
+From: AnthonyJames Padavano <[email redacted]>
 Date: Monday, February 24, 2025 at 9:45 AM
-To: Shanae Simmons <Shanae.Simmons@stpaulsschoolofnursing.edu>
+To: Shanae Simmons <[email redacted]>
 Subject: Re: Faculty Files- Missing Items
 
 Dear Shanae,
 Thank you for reaching out and for providing the detailed list of required documents. I appreciate the clarification.
 I will work on completing and uploading the necessary items throughout this week. Please let me know if there are any specific instructions or additional details I should be aware of.
 Best,
-Anthony James Padavano
+[name redacted]
  
-From: Shanae Simmons <Shanae.Simmons@stpaulsschoolofnursing.edu>
+From: Shanae Simmons <[email redacted]>
 Date: Friday, February 21, 2025 at 3:31 PM
-To: AnthonyJames Padavano <AnthonyJames.Padavano@stpaulsschoolofnursing.edu>
+To: AnthonyJames Padavano <[email redacted]>
 Subject: Faculty Files- Missing Items
 
 Good Afternoon Anthony ,
@@ -2519,10 +2519,10 @@ email 2:
 
 
 
-From: Barbara Byers <BByers@edaff.com>
+From: Barbara Byers <[email redacted]>
 Date: Wednesday, March 5, 2025 at 2:49 PM
-To: AnthonyJames Padavano <AnthonyJames.Padavano@stpaulsschoolofnursing.edu>, Sherif Guirguis <SGuirguis@edaff.com>
-Cc: Barbara Byers <BByers@edaff.com>, Candice Barcia <Candice.Barcia@edaff.com>, Shanae Simmons <Shanae.Simmons@stpaulsschoolofnursing.edu>, Sherif Guirguis <SGuirguis@edaff.com>
+To: AnthonyJames Padavano <[email redacted]>, Sherif Guirguis <[email redacted]>
+Cc: Barbara Byers <[email redacted]>, Candice Barcia <[email redacted]>, Shanae Simmons <[email redacted]>, Sherif Guirguis <[email redacted]>
 Subject: Re: Faculty Observations & Performance Review Submission
 Hello Anthony,
 
@@ -2539,10 +2539,10 @@ Director, Nursing Program
 
 Get Outlook for iOS
  
-From: AnthonyJames Padavano <AnthonyJames.Padavano@stpaulsschoolofnursing.edu>
+From: AnthonyJames Padavano <[email redacted]>
 Sent: Wednesday, March 5, 2025 2:35:51 PM
-To: Barbara Byers <BByers@edaff.com>; Sherif Guirguis <SGuirguis@edaff.com>
-Cc: Shanae Simmons <Shanae.Simmons@stpaulsschoolofnursing.edu>
+To: Barbara Byers <[email redacted]>; Sherif Guirguis <[email redacted]>
+Cc: Shanae Simmons <[email redacted]>
 Subject: Faculty Observations & Performance Review Submission 
  
 Dear Dean Byers and Dr. Guirguis,
@@ -2558,7 +2558,7 @@ I hope you’re both doing well. I am in the process of finalizing my faculty do
 • Could you provide me with the necessary document so I can complete this step?
 I appreciate your help in getting these finalized. Please let me know how to proceed.
 Best,
-Anthony James Padavano
+[name redacted]
 ```
 
 #### `prompt-9675480ab08c` -- P0 / DEFERRED
@@ -2573,18 +2573,18 @@ so before we send, we did have these communications yesterday:
 
 
 
-From: Shanae Simmons <Shanae.Simmons@stpaulsschoolofnursing.edu>
+From: Shanae Simmons <[email redacted]>
 Date: Wednesday, March 5, 2025 at 3:02 PM
-To: AnthonyJames Padavano <AnthonyJames.Padavano@stpaulsschoolofnursing.edu>
+To: AnthonyJames Padavano <[email redacted]>
 Subject: Re: Document Submissions & Questions - Castle Branch
 Thank you Anthony for the requested documents. 
 
 -Shanae Simmons
  
-From: AnthonyJames Padavano <AnthonyJames.Padavano@stpaulsschoolofnursing.edu>
+From: AnthonyJames Padavano <[email redacted]>
 Sent: Wednesday, March 5, 2025 2:21 PM
-To: Shanae Simmons <Shanae.Simmons@stpaulsschoolofnursing.edu>
-Cc: Sherif Guirguis <SGuirguis@edaff.com>; Barbara Byers <BByers@edaff.com>
+To: Shanae Simmons <[email redacted]>
+Cc: Sherif Guirguis <[email redacted]>; Barbara Byers <[email redacted]>
 Subject: Re: Document Submissions & Questions - Castle Branch 
  
 Dear Shanae,
@@ -2611,13 +2611,13 @@ Here is my current progress:
 Additionally, since Castle Branch only allows 10 document uploads, should I submit the remaining documents to you via email or in hard copy?
 Let me know the best way to proceed. Thanks again for your time and assistance.
 Best,
-Anthony James Padavano
+[name redacted]
  
  
  
-From: Shanae Simmons <Shanae.Simmons@stpaulsschoolofnursing.edu>
+From: Shanae Simmons <[email redacted]>
 Date: Wednesday, March 5, 2025 at 11:32 AM
-To: AnthonyJames Padavano <AnthonyJames.Padavano@stpaulsschoolofnursing.edu>
+To: AnthonyJames Padavano <[email redacted]>
 Subject: Re: CPR Requirement & Document Submission for Castle Branch
 Good Morning Anthony,
  
@@ -2628,9 +2628,9 @@ Thank you,
 Shanae Simmons
  
  
-From: AnthonyJames Padavano <AnthonyJames.Padavano@stpaulsschoolofnursing.edu>
+From: AnthonyJames Padavano <[email redacted]>
 Sent: Wednesday, March 5, 2025 11:20 AM
-To: Geraldine Mariano <Geraldine.Mariano@stpaulsschoolofnursing.edu>; Shanae Simmons <Shanae.Simmons@stpaulsschoolofnursing.edu>
+To: Geraldine Mariano <[email redacted]>; Shanae Simmons <[email redacted]>
 Subject: CPR Requirement & Document Submission for Castle Branch
  
 Dear Geraldine and Shanae,
@@ -2649,20 +2649,20 @@ I am finalizing my Castle Branch faculty requirements and need clarification on 
 • Employee Emergency Contact Sheet
 I appreciate your time and look forward to your guidance.
 Best,
-Anthony James Padavano 
-From: AnthonyJames Padavano <AnthonyJames.Padavano@stpaulsschoolofnursing.edu>
+[name redacted] 
+From: AnthonyJames Padavano <[email redacted]>
 Date: Monday, February 24, 2025 at 9:45 AM
-To: Shanae Simmons <Shanae.Simmons@stpaulsschoolofnursing.edu>
+To: Shanae Simmons <[email redacted]>
 Subject: Re: Faculty Files- Missing Items
 Dear Shanae,
 Thank you for reaching out and for providing the detailed list of required documents. I appreciate the clarification.
 I will work on completing and uploading the necessary items throughout this week. Please let me know if there are any specific instructions or additional details I should be aware of.
 Best,
-Anthony James Padavano
+[name redacted]
  
-From: Shanae Simmons <Shanae.Simmons@stpaulsschoolofnursing.edu>
+From: Shanae Simmons <[email redacted]>
 Date: Friday, February 21, 2025 at 3:31 PM
-To: AnthonyJames Padavano <AnthonyJames.Padavano@stpaulsschoolofnursing.edu>
+To: AnthonyJames Padavano <[email redacted]>
 Subject: Faculty Files- Missing Items
 Good Afternoon Anthony ,
  
@@ -3278,7 +3278,7 @@ You must:
 - `prompt-0e6cf258a43f` [DEFERRED] (2025-07-30) -- Is it important to nail a repository name if you think you might change it later
 - `prompt-e450124c7ba2` [DEFERRED] (2025-10-15) -- debug and refine;
 - `prompt-2cae63b2760f` [DEFERRED] (2025-12-18) -- Also in contextually important, we are discussing the viewing of kill Bill the w
-- `prompt-fad993124703` [DEFERRED] (2025-12-28) -- 4jp@Anthonys-MacBook-Pro ~ % mkdir -p "$HOME/.local/bin"
+- `prompt-fad993124703` [DEFERRED] (2025-12-28) -- [user]@Anthonys-MacBook-Pro ~ % mkdir -p "$HOME/.local/bin"
 
 ## P2/P3 Items
 

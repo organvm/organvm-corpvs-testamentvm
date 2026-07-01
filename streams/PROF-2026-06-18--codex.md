@@ -78,6 +78,6 @@ Next suggested repo: `a-organvm/public-record-data-scrapper`, following the acti
 Resume command:
 
 ```bash
-cd /Users/4jp/Workspace/.limen-worktrees/gh-a-organvm-organvm-corpvs-testamentvm-488-f1c4
+cd ~/Workspace/.limen-worktrees/gh-a-organvm-organvm-corpvs-testamentvm-488-f1c4
 sed -n '1,220p' professionalization/a-organvm/REPO_AUDIT.md
 ```

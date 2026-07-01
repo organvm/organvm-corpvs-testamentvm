@@ -48,7 +48,7 @@ Files read in full or in head: `data/prompt-registry/BACKLOG-AT-A-GLANCE-2026-05
 | 3 | Thread / project / system | 1,125 facets | 37mo (2022-12 → 2026-04) | OPEN; 0 done; 588 unclassified | System exists in code, not in narrative |
 | 4 | Class / pedagogy / curriculum | 670 facets | 26mo (2023-01 → 2026-01) | EVOLVED; 0 done | `studium-generale` ARCHIVED with 0 commits |
 | 5 | Resume / digital marketing / professional ID | 617 facets | 26mo (2023-05 → 2026-04) | EVOLVED-ACCELERATING; 0 done | ATS keyword matcher not built |
-| 6 | Cover letter / Anthony Padavano | 237 facets | 23mo (2023-02 → 2026-04) | EVOLVED-MATURED; 0 done | No composable cover-letter engine |
+| 6 | Cover letter / [name redacted] | 237 facets | 23mo (2023-02 → 2026-04) | EVOLVED-MATURED; 0 done | No composable cover-letter engine |
 | 7 | Protocols + protocol | 214 facets | 4mo active | OPEN; 0 done; 50% complete | 121 SOPs declared, no compliance check |
 | 8 | Building / system / thread | 202 facets | 29mo (2022-12 → 2026-04) | OPEN; 0 done | `carrier-wave--zeitgeist-thesis` has 1 commit |
 | 9 | Tagged manifest annotated | 17 atoms | 3mo (2025-12 → 2026-02) | UNRESOLVED — only 1/113 | Skill exists; artifact never generated |

@@ -192,32 +192,32 @@
 
   Searched for 1 pattern, listed 1 directory (ctrl+o to expand)
 
-⏺ Cwd /Users/4jp is not a git repo despite CLAUDE.md describing it as the
+⏺ Cwd /Users/[user] is not a git repo despite CLAUDE.md describing it as the
   chezmoi source. The actual chezmoi source must live elsewhere. Locating before
    proceeding.
 
 ⏺ Bash(chezmoi source-path 2>/dev/null || echo "chezmoi not configured")
-  ⎿  /Users/4jp/Workspace/4444J99/domus-semper-palingenesis
+  ⎿  ~/Workspace/4444J99/domus-semper-palingenesis
 
   Searched for 1 pattern, listed 2 directories (ctrl+o to expand)
 
 ⏺ Paths located. Continuing audit at correct locations.
 
-⏺ Bash(cd /Users/4jp/Workspace/4444J99/domus-semper-palingenesis && git status
+⏺ Bash(cd ~/Workspace/4444J99/domus-semper-palingenesis && git status
       --short && echo "---DIVERGENCE---" && git rev-list --left-right --count
       origin/main...HE…)
   ⎿  Error: Exit code 128
-      M private_dot_claude/projects/-Users-4jp/memory/MEMORY.md
+      M private_dot_claude/projects/-Users-[user]/memory/MEMORY.md
      ?? private_dot_claude/plans/2026-04-26-intake-zero--corpus-primitives.md
      ?? 
-     private_dot_claude/projects/-Users-4jp/memory/feedback_black_hole_asks.md
+     private_dot_claude/projects/-Users-[user]/memory/feedback_black_hole_asks.md
      ---DIVERGENCE---
 
-⏺ Bash(cd /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm 2>/dev/null &&
+⏺ Bash(cd ~/Workspace/organvm/organvm-corpvs-testamentvm 2>/dev/null &&
        git status --short && echo "---DIVERGENCE---" && git rev-list
       --left-right --count ori…)
   ⎿  Cancelled: parallel tool call Bash(cd 
-     /Users/4jp/Workspace/4444J99/domus-se…) errored
+     ~/Workspace/4444J99/domus-se…) errored
 
   Searched for 1 pattern, read 1 file (ctrl+o to expand)
 
@@ -225,7 +225,7 @@
   untracked. Universal rule #2 violation (local:remote ≠ 1:1). Investigating
   before committing.
 
-⏺ Bash(cd /Users/4jp/Workspace/4444J99/domus-semper-palingenesis && git branch
+⏺ Bash(cd ~/Workspace/4444J99/domus-semper-palingenesis && git branch
       --show-current && echo "---" && git log -3 --oneline && echo
       "---REMOTE---" && git remot…)
   ⎿  master
@@ -248,20 +248,20 @@
    confirm which is canonical. Also auditing untracked files before commit.
 
 ⏺ Bash(echo "===organvm version===" && cd
-      /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm && git remote -v
+      ~/Workspace/organvm/organvm-corpvs-testamentvm && git remote -v
       2>/dev/null | head -1 && git log -1 --oneline 2>/dev…)
   ⎿  ===organvm version===
-     origin     git@github.com:a-organvm/organvm-corpvs-testamentvm.git (fetch)
+     origin     [email redacted]:a-organvm/organvm-corpvs-testamentvm.git (fetch)
      989b898 IRF: DONE-488 hall-monitor close-out + IRF-PRT-075 systemic me
      … +6 lines (ctrl+o to expand)
 
 
   Read 1 file (ctrl+o to expand)
 
-⏺ Bash(cd /Users/4jp/Workspace/4444J99/domus-semper-palingenesis && git diff
-      private_dot_claude/projects/-Users-4jp/memory/MEMORY.md)
-  ⎿  diff --git a/private_dot_claude/projects/-Users-4jp/memory/MEMORY.md b
-     /private_dot_claude/projects/-Users-4jp/memory/MEMORY.md
+⏺ Bash(cd ~/Workspace/4444J99/domus-semper-palingenesis && git diff
+      private_dot_claude/projects/-Users-[user]/memory/MEMORY.md)
+  ⎿  diff --git a/private_dot_claude/projects/-Users-[user]/memory/MEMORY.md b
+     /private_dot_claude/projects/-Users-[user]/memory/MEMORY.md
      index ded88b9..0dfc0ea 100644
      … +18 lines (ctrl+o to expand)
 
@@ -270,14 +270,14 @@
   check: live memory vs chezmoi source.
 
 ⏺ Bash(echo "===PATH-A===" && readlink
-      /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm 2>/dev/null && cd
-      /Users/4jp/Workspace/organvm/organvm-corpvs-testamentv…)
+      ~/Workspace/organvm/organvm-corpvs-testamentvm 2>/dev/null && cd
+      ~/Workspace/organvm/organvm-corpvs-testamentv…)
   ⎿  Error: Exit code 1
      ===PATH-A===
 
 ⏺ Bash(echo "===LIVE-vs-SOURCE-feedback_black_hole_asks===" && diff
-      /Users/4jp/.claude/projects/-Users-4jp/memory/feedback_black_hole_asks.md
-      /Users/4jp/Workspace/4444…)
+      ~/.claude/projects/-Users-[user]/memory/feedback_black_hole_asks.md
+      ~/Workspace/4444…)
   ⎿  Cancelled: parallel tool call Bash(echo "===PATH-A===" && readlink 
      /Users/4…) errored
 
@@ -286,8 +286,8 @@
 ⏺ readlink non-zero exit broke the chain. Switching to tolerant pattern.
 
 ⏺ Bash(echo "===PATH-A symlink?===" && readlink
-      /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm; echo "===PATH-B
-      symlink?==="; readlink /Users/4jp/Workspace/me…)
+      ~/Workspace/organvm/organvm-corpvs-testamentvm; echo "===PATH-B
+      symlink?==="; readlink ~/Workspace/me…)
   ⎿  ===PATH-A symlink?===
      ===PATH-B symlink?===
      ===INODES===
@@ -297,14 +297,14 @@
   mutation, one repo. Catch dismissed. Continuing parity check.
 
 ⏺ Bash(echo "===LIVE-vs-SOURCE-feedback_black_hole_asks===" ; diff -q
-      /Users/4jp/.claude/projects/-Users-4jp/memory/feedback_black_hole_asks.md
-      /Users/4jp/Workspace/44…)
+      ~/.claude/projects/-Users-[user]/memory/feedback_black_hole_asks.md
+      ~/Workspace/44…)
   ⎿  ===LIVE-vs-SOURCE-feedback_black_hole_asks===
      ===LIVE-vs-SOURCE-MEMORY.md===
 
   Searched memories (ctrl+o to expand)
 
-⏺ Bash(echo "===IRF-PRT-075==="; grep -A 1 "PRT-075" /Users/4jp/Workspace/organv
+⏺ Bash(echo "===IRF-PRT-075==="; grep -A 1 "PRT-075" ~/Workspace/organv
       m/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIENDARUM.md 2>/dev/null |
        head -8 ; ec…)
   ⎿  ===IRF-PRT-075===
@@ -320,9 +320,9 @@
   about to catch — parallel session beat me to logging it
   - 7 live memory files modified today — need parity check vs source
 
-⏺ Bash(SRC=/Users/4jp/Workspace/4444J99/domus-semper-palingenesis/private_dot_cl
-      aude/projects/-Users-4jp/memory;
-      LIVE=/Users/4jp/.claude/projects/-Users-4jp/memory; fo…)
+⏺ Bash(SRC=~/Workspace/4444J99/domus-semper-palingenesis/private_dot_cl
+      aude/projects/-Users-[user]/memory;
+      LIVE=~/.claude/projects/-Users-[user]/memory; fo…)
   ⎿  OK feedback_sincerity_invariant.md
      OK feedback_charge_test_and_multiversal_recall.md
      OK project_session_2026-04-26_hall_monitor_closeout.md
@@ -353,13 +353,13 @@
 ⏺ Bash(git push origin main 2>&1 | tail -10 && echo "---POST-PUSH---" && git
       rev-list --left-right --count origin/main...HEAD)
   ⎿  │  No config files with names ["lefthook" ".lefthook" ".config/lefthoo
-     k"] have been found in "/Users/4jp/Workspace/organvm/organvm-corpvs-te
+     k"] have been found in "~/Workspace/organvm/organvm-corpvs-te
      stamentvm"
      … +4 lines (ctrl+o to expand)
 
 ⏺ Corpvs sealed at 801b750, 0/0. Dotfiles next.
-⏺ Bash(cd /Users/4jp/Workspace/4444J99/domus-semper-palingenesis && git add
-      private_dot_claude/projects/-Users-4jp/memory/MEMORY.md
+⏺ Bash(cd ~/Workspace/4444J99/domus-semper-palingenesis && git add
+      private_dot_claude/projects/-Users-[user]/memory/MEMORY.md
       private_dot_claude/projects/-Users-…)
   ⎿  [master dc3fd40] Mirror live → source: black-hole-asks rule + intake-z
      ero plan
@@ -487,7 +487,7 @@
    ~/.claude/plans/. Currently only memory dir is enforced. Open ticket, not yet
    attacked.
   5. IRF-PRT-075 batch mirror — 57 OTHER live memory scopes still unmirrored.
-  Closure of -Users-4jp is 1/58. Needs cross-scope sweep.
+  Closure of -Users-[user] is 1/58. Needs cross-scope sweep.
 
   Hall-monitor verdict
 
@@ -549,7 +549,7 @@
   before applying.
   - Past-week corpus is at ~/.claude/projects/*/ — JSONL session transcripts,
   scoped per project. "Past week" = 2026-04-19 → 2026-04-26. Multi-scope, not
-  just -Users-4jp. This is the same data feedback feedback_session_logging.md
+  just -Users-[user]. This is the same data feedback feedback_session_logging.md
   flagged as "MUST be backed up remotely."
   ─────────────────────────────────────────────────
 
@@ -594,7 +594,7 @@
 
 ⏺ Bash(substrate-check install-hooks 2>&1 | head -30)
   ⎿  Plan:
-       ADD    UserPromptSubmit      /Users/4jp/.claude/hooks/substrate-atom
+       ADD    UserPromptSubmit      ~/.claude/hooks/substrate-atom
      ize-hook.sh
      … +7 lines (ctrl+o to expand)
 
@@ -609,7 +609,7 @@
 
 ⏺ Bash(substrate-check install-hooks --yes 2>&1 | head -30)
   ⎿  Plan:
-       ADD    UserPromptSubmit      /Users/4jp/.claude/hooks/substrate-atom
+       ADD    UserPromptSubmit      ~/.claude/hooks/substrate-atom
      ize-hook.sh
      … +8 lines (ctrl+o to expand)
 
@@ -645,16 +645,16 @@
   available and surveying scale.
 
 ⏺ Bash(echo "===CCE-PATH===" && ls -d
-      /Users/4jp/Workspace/*/conversation-corpus-engine 2>/dev/null ; echo
+      ~/Workspace/*/conversation-corpus-engine 2>/dev/null ; echo
       "===CCE-CLI===" ; which cce 2>/dev/null ; cce --help 2>&1 |…)
   ⎿  ===CCE-PATH===
-     /Users/4jp/Workspace/meta-organvm/conversation-corpus-engine
-     /Users/4jp/Workspace/organvm/conversation-corpus-engine
+     ~/Workspace/meta-organvm/conversation-corpus-engine
+     ~/Workspace/organvm/conversation-corpus-engine
      … +19 lines (ctrl+o to expand)
 
 ⏺ Three findings re: corpus task:
   - cce CLI is alive — has subcommands for corpus/surface/source ingestion
-  - 421/501 sessions live in this very scope (-Users-4jp) — primary corpus
+  - 421/501 sessions live in this very scope (-Users-[user]) — primary corpus
   - Other 80 sessions spread across 3 sibling scopes
 
   Dispatching one heavy general-purpose agent to build a pipeline (not
@@ -705,8 +705,8 @@
   untracked at SessionEnd.
   ─────────────────────────────────────────────────
 
-⏺ Bash(cp /Users/4jp/.claude/plans/2026-04-26-external-validation-levers-B-7-B-2
-      -B-4.md /Users/4jp/Workspace/4444J99/domus-semper-palingenesis/private_dot
+⏺ Bash(cp ~/.claude/plans/2026-04-26-external-validation-levers-B-7-B-2
+      -B-4.md ~/Workspace/4444J99/domus-semper-palingenesis/private_dot
       _claude/plans…)
   ⎿  MIRRORED
      PARITY-OK
@@ -776,7 +776,7 @@
 
      In motion (background agent):
      - Agent ID a7ebb2c91f662a082 extracting + assessing + atomizing 501 JSONL
-     across 4 scopes (primary -Users-4jp has 421)
+     across 4 scopes (primary -Users-[user] has 421)
      - Pipeline stages: extraction → assessment → atomization → spread report →
      close-out (commit + push)
      - Output paths the agent will write:
@@ -784,7 +784,7 @@
      ~/.claude/plans/2026-04-26-week-prompt-corpus-2026-04-19_to_2026-04-26.md +
       chezmoi source mirror
        - JSONL:
-     /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm/data/corpora/week-2
+     ~/Workspace/organvm/organvm-corpvs-testamentvm/data/corpora/week-2
      026-04-19_to_2026-04-26/{prompts-raw,prompts-assessed,atoms,subatoms}.jsonl
      - Will commit + push to both repos before returning
 
@@ -812,7 +812,7 @@
      untracked in chezmoi source. After the background agent's commit lands,
      follow with:
 
-     cd /Users/4jp/Workspace/4444J99/domus-semper-palingenesis
+     cd ~/Workspace/4444J99/domus-semper-palingenesis
      git add private_dot_claude/plans/2026-04-26-external-validation-levers-B-7-
      B-2-B-4.md
      git commit -m "Plans: external-validation lever B-7/B-2/B-4 protocol stage
@@ -839,7 +839,7 @@
      Status: written, mirrored, uncommitted
      Owner: this session
      ────────────────────────────────────────
-     Path: /Users/4jp/Workspace/4444J99/domus-semper-palingenesis/private_dot_cl
+     Path: ~/Workspace/4444J99/domus-semper-palingenesis/private_dot_cl
      aude/plans/2026-04-26-external-validation-levers-B-7-B-2-B-4.md
      Status: mirrored, untracked
      Owner: this session
@@ -849,7 +849,7 @@
      Status: will be created
      Owner: background agent
      ────────────────────────────────────────
-     Path: /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm/data/corpora/
+     Path: ~/Workspace/organvm/organvm-corpvs-testamentvm/data/corpora/
      week-2026-04-19_to_2026-04-26/*.jsonl
      Status: will be created
      Owner: background agent
@@ -862,7 +862,7 @@
      Status: rollback point
      Owner: done
      ────────────────────────────────────────
-     Path: /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm/INST-INDEX-RE
+     Path: ~/Workspace/organvm/organvm-corpvs-testamentvm/INST-INDEX-RE
      RUM-FACIENDARUM.md
      Status: 801b750 pushed
      Owner: done
@@ -871,16 +871,16 @@
 
      End-to-end checks before declaring session-close-safe:
 
-     1. cd /Users/4jp/Workspace/4444J99/domus-semper-palingenesis && git 
+     1. cd ~/Workspace/4444J99/domus-semper-palingenesis && git 
      rev-list --left-right --count origin/master...HEAD → 0\t0
-     2. cd /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm && git 
+     2. cd ~/Workspace/organvm/organvm-corpvs-testamentvm && git 
      rev-list --left-right --count origin/main...HEAD → 0\t0
      3. gh issue view 333 --repo a-organvm/organvm-corpvs-testamentvm → exists
      4. gh issue view 334 --repo a-organvm/organvm-corpvs-testamentvm → exists
      5. grep -c "substrate-check" ~/.claude/settings.json → ≥ 2
-     6. ls /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm/data/corpora/
+     6. ls ~/Workspace/organvm/organvm-corpvs-testamentvm/data/corpora/
      week-2026-04-19_to_2026-04-26/ → 4 jsonl files
-     7. wc -l /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm/data/atoms
+     7. wc -l ~/Workspace/organvm/organvm-corpvs-testamentvm/data/atoms
      /utterance-atoms.jsonl → ≥ 36 (no regression)
      8. diff -q <live-plan> <source-plan> for both plan files → byte-identical
      9. SessionEnd hook will run substrate-check verify-close automatically when
@@ -920,8 +920,8 @@
 ⏺ Plan approved. Mirroring the plan file itself to chezmoi source so it's ready
   for the integrated commit; then yielding to the background agent.
 
-⏺ Bash(cp /Users/4jp/.claude/plans/wise-sprouting-bunny.md
-      /Users/4jp/Workspace/4444J99/domus-semper-palingenesis/private_dot_claude/
+⏺ Bash(cp ~/.claude/plans/wise-sprouting-bunny.md
+      ~/Workspace/4444J99/domus-semper-palingenesis/private_dot_claude/
       plans/2026-04-26-wise-sprouting-bu…)
   ⎿  PARITY-OK
      ?? private_dot_claude/plans/2026-04-26-external-validation-levers-B-7-
@@ -1006,7 +1006,7 @@
   ─────────────────────────────────────────────────
 
 ⏺ Bash(echo "===CORPVS-PARITY===" && cd
-      /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm && git rev-list
+      ~/Workspace/organvm/organvm-corpvs-testamentvm && git rev-list
       --left-right --count origin/main...HEAD && git log -3 -…)
   ⎿  Error: Exit code 128
      ===CORPVS-PARITY===
@@ -1023,9 +1023,9 @@
 
   Listed 1 directory (ctrl+o to expand)
 
-⏺ Bash(ls -la /Users/4jp/.claude/plans/2026-04-26-week-prompt-corpus-2026-04-19_
+⏺ Bash(ls -la ~/.claude/plans/2026-04-26-week-prompt-corpus-2026-04-19_
       to_2026-04-26.md
-      /Users/4jp/Workspace/4444J99/domus-semper-palingenesis/private_dot_cla…)
+      ~/Workspace/4444J99/domus-semper-palingenesis/private_dot_cla…)
   ⎿  Cancelled: parallel tool call Bash(echo "===CORPVS-PARITY===" && cd 
      /Users/…) errored
 
@@ -1048,11 +1048,11 @@
 
   Listed 1 directory (ctrl+o to expand)
 
-⏺ Bash(ls -la /Users/4jp/.claude/plans/2026-04-26-week-prompt-corpus-2026-04-19_
+⏺ Bash(ls -la ~/.claude/plans/2026-04-26-week-prompt-corpus-2026-04-19_
       to_2026-04-26.md
-      /Users/4jp/Workspace/4444J99/domus-semper-palingenesis/private_dot_cla…)  ⎿  -rw-r--r--  1 4jp  staff  50912 Apr 26 05:05 /Users/4jp/.claude/plans/
+      ~/Workspace/4444J99/domus-semper-palingenesis/private_dot_cla…)  ⎿  -rw-r--r--  1 [user]  staff  50912 Apr 26 05:05 ~/.claude/plans/
      2026-04-26-week-prompt-corpus-2026-04-19_to_2026-04-26.md
-     -rw-r--r--  1 4jp  staff  50912 Apr 26 05:05 /Users/4jp/Workspace/4444
+     -rw-r--r--  1 [user]  staff  50912 Apr 26 05:05 ~/Workspace/4444
      … +3 lines (ctrl+o to expand)
 
 ⏺ Numbers match: 1,173/1,173/1,173/9,216 (= 7.86× multiplier verified). Reports
@@ -1061,18 +1061,18 @@
 
 ⏺ Bash(git show --stat 9f24f84 2>&1 | head -25)
   ⎿  commit 9f24f84af64153ed124f73d9a368b26679af7356
-     Author: 4444jPPP <etceter4@etceter4.com>
+     Author: 4444jPPP <[email redacted]>
      Date:   Sun Apr 26 05:09:55 2026 -0400
      … +20 lines (ctrl+o to expand)
 
 ⏺ Bash(git show 9f24f84 -- 'dot_config/git/hooks/executable_pre-commit' 2>&1 |
       head -100)
   ⎿  commit 9f24f84af64153ed124f73d9a368b26679af7356
-     Author: 4444jPPP <etceter4@etceter4.com>
+     Author: 4444jPPP <[email redacted]>
      Date:   Sun Apr 26 05:09:55 2026 -0400
      … +21 lines (ctrl+o to expand)
 
-⏺ Bash(cd /Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm && grep -A 2
+⏺ Bash(cd ~/Workspace/organvm/organvm-corpvs-testamentvm && grep -A 2
       "DONE-489" INST-INDEX-RERUM-FACIENDARUM.md 2>/dev/null | head -10 ; echo
       "---ATOM-COUNTE…)
   ⎿  | DONE-489 | **Past-week prompt corpus assembled, atomized, spread-rep
@@ -1484,7 +1484,7 @@
       echo "" ; echo…)
   ⎿  ===ORIGINAL-IF-FIELDS-GENESIS===
      a703c96 2026-04-22 Update .local/bin/cce-refresh Update Library/Launch
-     Agents/com.4jp.cce-refresh.plist Add .claude/hooks/comment-cadence-tra
+     Agents/com.[user].cce-refresh.plist Add .claude/hooks/comment-cadence-tra
      … +16 lines (ctrl+o to expand)
 
 ⏺ Diagnosis clarified — install-hooks is innocent. Source had if-conditions
@@ -1512,8 +1512,8 @@
       /tmp/extract_prompts*.py /tmp/atomize_prompts.py 2>/dev/null ; echo "" ;
       echo "===CORPUS-PIPELINE-IN-CCE===" &…)
   ⎿  ===EXTRACTION-SCRIPT-LOCATION===
-     -rw-r--r--  1 4jp  wheel  8831 Apr 26 05:00 /tmp/atomize_prompts.py
-     -rw-r--r--  1 4jp  wheel  5193 Apr 26 04:56 /tmp/extract_prompts.py
+     -rw-r--r--  1 [user]  wheel  8831 Apr 26 05:00 /tmp/atomize_prompts.py
+     -rw-r--r--  1 [user]  wheel  5193 Apr 26 04:56 /tmp/extract_prompts.py
      … +2 lines (ctrl+o to expand)
 
   Read 1 file (ctrl+o to expand)
@@ -1560,7 +1560,7 @@
            mand-name>", raw_content)
 
 ⏺ Bash(python3 -c "import ast;
-      ast.parse(open('/Users/4jp/Workspace/organvm/organvm-corpvs-testamentvm/da
+      ast.parse(open('~/Workspace/organvm/organvm-corpvs-testamentvm/da
       ta/prompt-registry/extract_all_prompts.py').read())" && echo "…)
   ⎿  SYNTAX-OK
      ===PATCH-VERIFIED===

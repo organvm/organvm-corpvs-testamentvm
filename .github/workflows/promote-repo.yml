@@ -219,7 +219,7 @@ jobs:
           NEW_REPO: ${{ steps.naming.outputs.new_repo }}
         run: |
           git config user.name "ORGAN-IV Promotion Bot"
-          git config user.email "promote@organvm.org"
+          git config user.email "[email redacted]"
           git add repo-registry.json
           if git diff --cached --quiet; then
             echo "No registry changes"

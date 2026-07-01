@@ -387,7 +387,7 @@
 | Workspace Relocation Manifest | _root | generic |
 | Session Close-Out — 2026-05-11 v2 (skills-recovery | _root | generic |
 | Session Close-Out — 2026-05-11 (effort-aware hooks | _root | git_operation |
-| Plan: Digest 100% of `/Users/4jp/Workspace/composi | _root | generic |
+| Plan: Digest 100% of `~/Workspace/composi | _root | generic |
 | Agent Handoff: Self-Review Substrate + Timeline Ar | _root | deploy |
 | Agent Handoff: Parity-Rectification Cascade | _root | generic |
 | Plan: Absorb 100% context from 6 TMPDIR session ex | 4444J99/portfolio/.claude/plans | document |

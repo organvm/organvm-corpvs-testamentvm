@@ -403,7 +403,7 @@ Deploys to: `$HOME/`
 | Sequential Thinking MCP | `~/Workspace/mcp-servers/` | Structured reasoning |
 | Blender MCP | `~/Workspace/blender-mcp/` | Blender integration |
 
-MCP LaunchAgent: `~/Library/LaunchAgents/com.4jp.mcp.servers.plist`
+MCP LaunchAgent: `~/Library/LaunchAgents/com.[user].mcp.servers.plist`
 
 ### Local Services (LaunchAgents)
 
@@ -411,19 +411,19 @@ All deployed to `~/Library/LaunchAgents/`:
 
 | Agent | Plist | Purpose |
 |-------|-------|---------|
-| MCP Servers | `com.4jp.mcp.servers.plist` | MCP server auto-start on login |
-| MCP Environment | `com.4jp.env.mcp.plist` | Set MCP environment variables via launchctl |
-| System Dashboard | `com.4jp.organvm.dashboard.plist` | ORGANVM dashboard auto-start |
-| Soak Snapshot | `com.4jp.organvm.soak-snapshot.plist` | Daily soak test snapshots |
-| System Pulse | `com.4jp.organvm.pulse.plist` | System pulse monitoring |
-| Cloudflared | `com.4jp.cloudflared.organvm.plist` | Cloudflare tunnel for ORGANVM |
-| Daily Health | `com.4jp.pipeline.daily-health.plist` | Daily health pipeline |
-| Daily Monitor | `com.4jp.pipeline.daily-monitor.plist` | Daily monitoring pipeline |
-| Daily Deferred | `com.4jp.pipeline.daily-deferred.plist` | Deferred task processing |
-| Biweekly Agent | `com.4jp.pipeline.agent-biweekly.plist` | Biweekly agent pipeline |
-| Calendar Refresh | `com.4jp.pipeline.calendar-refresh.plist` | Calendar data refresh |
-| Weekly Backup | `com.4jp.pipeline.weekly-backup.plist` | Weekly backup pipeline |
-| Weekly Briefing | `com.4jp.pipeline.weekly-briefing.plist` | Weekly briefing generation |
+| MCP Servers | `com.[user].mcp.servers.plist` | MCP server auto-start on login |
+| MCP Environment | `com.[user].env.mcp.plist` | Set MCP environment variables via launchctl |
+| System Dashboard | `com.[user].organvm.dashboard.plist` | ORGANVM dashboard auto-start |
+| Soak Snapshot | `com.[user].organvm.soak-snapshot.plist` | Daily soak test snapshots |
+| System Pulse | `com.[user].organvm.pulse.plist` | System pulse monitoring |
+| Cloudflared | `com.[user].cloudflared.organvm.plist` | Cloudflare tunnel for ORGANVM |
+| Daily Health | `com.[user].pipeline.daily-health.plist` | Daily health pipeline |
+| Daily Monitor | `com.[user].pipeline.daily-monitor.plist` | Daily monitoring pipeline |
+| Daily Deferred | `com.[user].pipeline.daily-deferred.plist` | Deferred task processing |
+| Biweekly Agent | `com.[user].pipeline.agent-biweekly.plist` | Biweekly agent pipeline |
+| Calendar Refresh | `com.[user].pipeline.calendar-refresh.plist` | Calendar data refresh |
+| Weekly Backup | `com.[user].pipeline.weekly-backup.plist` | Weekly backup pipeline |
+| Weekly Briefing | `com.[user].pipeline.weekly-briefing.plist` | Weekly briefing generation |
 | Gmail Labeler | `com.user.gmail_labeler.plist` | Gmail label automation (disabled) |
 | Mail Automation | `com.user.mail_automation.plist` | Mail automation (disabled) |
 

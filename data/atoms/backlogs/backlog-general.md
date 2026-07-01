@@ -204,7 +204,7 @@ anthonyjamespadavano@MacBookAir ::K0NS0L:: %
 
 ```
 for all:
-/Users/anthonyjamespadavano/Documents/4_S0VRC3/
+~/Documents/4_S0VRC3/
 ├── 4RCH1V3
 │   ├── 0LD_3XP0RT[+]
 │   ├── L3G4CY_SYST3M[+]

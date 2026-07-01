@@ -199,7 +199,7 @@ Residency evaluators assess:
 **Why you fit:** ZKM is one of the world's premier media art institutions. The organ system as living creative infrastructure maps directly to their mission. Only 3 places per cycle.
 
 **Amount:** Studios/rehearsal rooms at ZKM Hertzlab (sound studios, wet lab, VR lab). 3 months in Karlsruhe, Germany.
-**Deadline:** April 12, 2026, 11:59pm CET. Submit single PDF to image@zkm.de.
+**Deadline:** April 12, 2026, 11:59pm CET. Submit single PDF to [email redacted].
 **Note:** Requires Germany relocation Oct-Dec 2026.
 
 ### SFPC (School for Poetic Computation) — **HIGHEST FIT (9/10)**

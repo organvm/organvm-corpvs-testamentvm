@@ -99,7 +99,7 @@ def test_missing_file():
 
 - [ ] **Step 3: Run tests to verify they fail**
 
-Run: `cd /Users/4jp/Workspace/meta-organvm && pytest organvm-engine/tests/test_irf_parser.py -v`
+Run: `cd ~/Workspace/meta-organvm && pytest organvm-engine/tests/test_irf_parser.py -v`
 Expected: ImportError — module does not exist yet
 
 - [ ] **Step 4: Implement parser**
@@ -247,13 +247,13 @@ __all__ = ["IRFItem", "irf_stats", "parse_irf", "query_irf"]
 
 - [ ] **Step 5: Run tests to verify they pass**
 
-Run: `cd /Users/4jp/Workspace/meta-organvm && pytest organvm-engine/tests/test_irf_parser.py -v`
+Run: `cd ~/Workspace/meta-organvm && pytest organvm-engine/tests/test_irf_parser.py -v`
 Expected: All PASS
 
 - [ ] **Step 6: Commit**
 
 ```bash
-cd /Users/4jp/Workspace/meta-organvm/organvm-engine
+cd ~/Workspace/meta-organvm/organvm-engine
 git add src/organvm_engine/irf/ tests/test_irf_parser.py tests/fixtures/irf-sample.md
 git commit -m "feat: IRF parser module — parse INST-INDEX-RERUM-FACIENDARUM.md into typed items"
 ```
@@ -310,7 +310,7 @@ def test_lookup_by_id():
 
 - [ ] **Step 2: Run tests — expect fail**
 
-Run: `cd /Users/4jp/Workspace/meta-organvm && pytest organvm-engine/tests/test_irf_query.py -v`
+Run: `cd ~/Workspace/meta-organvm && pytest organvm-engine/tests/test_irf_query.py -v`
 
 - [ ] **Step 3: Implement query module**
 
@@ -348,12 +348,12 @@ def query_irf(
 
 - [ ] **Step 4: Run tests — expect pass**
 
-Run: `cd /Users/4jp/Workspace/meta-organvm && pytest organvm-engine/tests/test_irf_query.py -v`
+Run: `cd ~/Workspace/meta-organvm && pytest organvm-engine/tests/test_irf_query.py -v`
 
 - [ ] **Step 5: Commit**
 
 ```bash
-cd /Users/4jp/Workspace/meta-organvm/organvm-engine
+cd ~/Workspace/meta-organvm/organvm-engine
 git add src/organvm_engine/irf/query.py tests/test_irf_query.py
 git commit -m "feat: IRF query module — filter by priority, domain, status, owner, ID"
 ```
@@ -386,7 +386,7 @@ def irf_path(config: PathConfig | None = None) -> Path:
 - [ ] **Step 3: Commit**
 
 ```bash
-cd /Users/4jp/Workspace/meta-organvm/organvm-engine
+cd ~/Workspace/meta-organvm/organvm-engine
 git add src/organvm_engine/paths.py
 git commit -m "feat: add irf_path to PathConfig for IRF file resolution"
 ```
@@ -550,19 +550,19 @@ if args.command == "irf":
 
 - [ ] **Step 5: Test CLI manually**
 
-Run: `cd /Users/4jp/Workspace/meta-organvm && python -m organvm_engine.cli irf stats`
+Run: `cd ~/Workspace/meta-organvm && python -m organvm_engine.cli irf stats`
 Expected: Summary table with open/completed/blocked counts
 
-Run: `cd /Users/4jp/Workspace/meta-organvm && python -m organvm_engine.cli irf list --priority P0`
+Run: `cd ~/Workspace/meta-organvm && python -m organvm_engine.cli irf list --priority P0`
 Expected: 2 P0 items (collaborator password + share URL)
 
-Run: `cd /Users/4jp/Workspace/meta-organvm && python -m organvm_engine.cli irf status IRF-SYS-001`
+Run: `cd ~/Workspace/meta-organvm && python -m organvm_engine.cli irf status IRF-SYS-001`
 Expected: Full item details
 
 - [ ] **Step 6: Commit**
 
 ```bash
-cd /Users/4jp/Workspace/meta-organvm/organvm-engine
+cd ~/Workspace/meta-organvm/organvm-engine
 git add src/organvm_engine/cli/irf.py src/organvm_engine/cli/__init__.py
 git commit -m "feat: organvm irf CLI — list, status, stats subcommands"
 ```
@@ -622,14 +622,14 @@ Add inside `create_app()`: `app.include_router(irf.router)`
 
 - [ ] **Step 4: Test manually**
 
-Run: `cd /Users/4jp/Workspace/meta-organvm/system-dashboard && uvicorn dashboard.app:app --reload`
+Run: `cd ~/Workspace/meta-organvm/system-dashboard && uvicorn dashboard.app:app --reload`
 Navigate to: `http://localhost:8000/irf/`
 Expected: IRF dashboard with stats and item tables
 
 - [ ] **Step 5: Commit**
 
 ```bash
-cd /Users/4jp/Workspace/meta-organvm/system-dashboard
+cd ~/Workspace/meta-organvm/system-dashboard
 git add src/dashboard/routes/irf.py src/dashboard/templates/irf.html src/dashboard/app.py
 git commit -m "feat: /irf/ dashboard route — IRF stats + item tables"
 ```
@@ -728,7 +728,7 @@ Tool(
 - [ ] **Step 5: Commit**
 
 ```bash
-cd /Users/4jp/Workspace/meta-organvm/organvm-mcp-server
+cd ~/Workspace/meta-organvm/organvm-mcp-server
 git add src/organvm_mcp/tools/irf.py src/organvm_mcp/server.py
 git commit -m "feat: organvm_irf_query MCP tool — IRF query for agent sessions"
 ```
@@ -816,7 +816,7 @@ def check_irf_completion_rate(
 - [ ] **Step 2: Commit**
 
 ```bash
-cd /Users/4jp/Workspace/meta-organvm/vigiles-aeternae--agon-cosmogonicum
+cd ~/Workspace/meta-organvm/vigiles-aeternae--agon-cosmogonicum
 git add src/vigiles_engine/auditor.py
 git commit -m "feat: irf_completion_rate audit check — flag P0 items and low completion"
 ```
@@ -850,7 +850,7 @@ except Exception:
 - [ ] **Step 2: Commit**
 
 ```bash
-cd /Users/4jp/Workspace/meta-organvm/organvm-engine
+cd ~/Workspace/meta-organvm/organvm-engine
 git add src/organvm_engine/cli/omega.py
 git commit -m "feat: omega status shows P0 IRF warnings"
 ```
@@ -900,7 +900,7 @@ if irf_path.exists():
 
 - [ ] **Step 4: Test manually**
 
-Run: `cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && python scripts/invoke.py IRF-SYS-001`
+Run: `cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && python scripts/invoke.py IRF-SYS-001`
 Expected: Resolves to the CONSTITUTION.md consolidation item
 
 Run: `python scripts/invoke.py --namespace irf`
@@ -909,7 +909,7 @@ Expected: Lists all IRF items
 - [ ] **Step 5: Commit**
 
 ```bash
-cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm
+cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm
 git add scripts/invoke.py
 git commit -m "feat: invoke.py resolves IRF- prefixed IDs from INST-INDEX-RERUM-FACIENDARUM.md"
 ```
@@ -921,7 +921,7 @@ git commit -m "feat: invoke.py resolves IRF- prefixed IDs from INST-INDEX-RERUM-
 - [ ] **Step 1: Run all engine tests**
 
 ```bash
-cd /Users/4jp/Workspace/meta-organvm && pytest organvm-engine/tests/test_irf_*.py -v
+cd ~/Workspace/meta-organvm && pytest organvm-engine/tests/test_irf_*.py -v
 ```
 
 - [ ] **Step 2: Test CLI end-to-end**
@@ -938,7 +938,7 @@ organvm omega status  # should show P0 warning
 - [ ] **Step 3: Test invoke.py**
 
 ```bash
-cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm
+cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm
 python scripts/invoke.py IRF-SYS-001
 python scripts/invoke.py IRF-OBJ-001
 python scripts/invoke.py --namespace irf
@@ -948,11 +948,11 @@ python scripts/invoke.py --list  # should show irf namespace
 - [ ] **Step 4: Push all repos**
 
 ```bash
-cd /Users/4jp/Workspace/meta-organvm/organvm-engine && git push
-cd /Users/4jp/Workspace/meta-organvm/system-dashboard && git push
-cd /Users/4jp/Workspace/meta-organvm/organvm-mcp-server && git push
-cd /Users/4jp/Workspace/meta-organvm/vigiles-aeternae--agon-cosmogonicum && git push
-cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git push
+cd ~/Workspace/meta-organvm/organvm-engine && git push
+cd ~/Workspace/meta-organvm/system-dashboard && git push
+cd ~/Workspace/meta-organvm/organvm-mcp-server && git push
+cd ~/Workspace/meta-organvm/vigiles-aeternae--agon-cosmogonicum && git push
+cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git push
 ```
 
 - [ ] **Step 5: Update IRF — mark integration items complete**
@@ -962,7 +962,7 @@ Edit `INST-INDEX-RERUM-FACIENDARUM.md` to move the engine/dashboard/MCP/vigiles/
 - [ ] **Step 6: Final commit**
 
 ```bash
-cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm
+cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm
 git add INST-INDEX-RERUM-FACIENDARUM.md
 git commit -m "docs: mark IRF system integration items as completed"
 git push

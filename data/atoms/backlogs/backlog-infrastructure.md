@@ -110,10 +110,10 @@ Optional quick captures (paste results if easy)
 
 ```
 Last login: Fri Dec 26 21:25:41 on ttys004
-4jp@Anthonys-MacBook-Pro ~ % brew update
+[user]@Anthonys-MacBook-Pro ~ % brew update
 ==> Updating Homebrew...
 Already up-to-date.
-4jp@Anthonys-MacBook-Pro ~ % brew upgrade
+[user]@Anthonys-MacBook-Pro ~ % brew upgrade
 ==> Upgrading 6 outdated packages:
 openexr 3.4.4 -> 3.4.4_1
 gemini-cli 0.22.2 -> 0.22.3
@@ -148,8 +148,8 @@ Removing: /opt/homebrew/Cellar/openexr/3.4.4... (212 files, 4.6MB)
 🍺  /opt/homebrew/Cellar/gemini-cli/0.22.3: 44,891 files, 325.1MB
 ==> Running `brew cleanup gemini-cli`...
 Removing: /opt/homebrew/Cellar/gemini-cli/0.22.2... (44,882 files, 325.1MB)
-Removing: /Users/4jp/Library/Caches/Homebrew/gemini-cli_bottle_manifest--0.22.2... (57.3KB)
-Removing: /Users/4jp/Library/Caches/Homebrew/gemini-cli--0.22.2... (52.3MB)
+Removing: ~/Library/Caches/Homebrew/gemini-cli_bottle_manifest--0.22.2... (57.3KB)
+Removing: ~/Library/Caches/Homebrew/gemini-cli--0.22.2... (52.3MB)
 ==> Upgrading qemu
   10.1.3 -> 10.2.0 
 ==> Pouring qemu--10.2.0.arm64_tahoe.bottle.tar.gz
@@ -168,8 +168,8 @@ Removing: /opt/homebrew/Cellar/leptonica/1.86.0... (55 files, 7.2MB)
 🍺  /opt/homebrew/Cellar/opencode/1.0.203: 10 files, 95.6MB
 ==> Running `brew cleanup opencode`...
 Removing: /opt/homebrew/Cellar/opencode/1.0.193... (10 files, 95.5MB)
-Removing: /Users/4jp/Library/Caches/Homebrew/opencode_bottle_manifest--1.0.193... (27KB)
-Removing: /Users/4jp/Library/Caches/Homebrew/opencode--1.0.193... (32.3MB)
+Removing: ~/Library/Caches/Homebrew/opencode_bottle_manifest--1.0.193... (27KB)
+Removing: ~/Library/Caches/Homebrew/opencode--1.0.193... (32.3MB)
 ==> Casks with 'auto_updates true' or 'version :latest' will not be upgraded; pass `--greedy` to upgrade them.
 ==> Fetching downloads for: kitty
 ✔︎ API Source kitty.rb                                                                                        Verified      1.3KB/  1.3KB
@@ -186,10 +186,10 @@ kitty 0.44.0 -> 0.45.0
 ==> Linking Binary 'kitten.wrapper.sh' to '/opt/homebrew/bin/kitten'
 ==> Purging files for version 0.44.0 of Cask kitty
 🍺  kitty was successfully upgraded!
-4jp@Anthonys-MacBook-Pro ~ % brew cleanup
-Removing: /Users/4jp/Library/Caches/Homebrew/bootsnap/fdd9aebf66b125566884043c0225716d3883fa34b3c128819909c0d143355821... (647 files, 5.7MB)
+[user]@Anthonys-MacBook-Pro ~ % brew cleanup
+Removing: ~/Library/Caches/Homebrew/bootsnap/fdd9aebf66b125566884043c0225716d3883fa34b3c128819909c0d143355821... (647 files, 5.7MB)
 ==> This operation has freed approximately 5.7MB of disk space.
-4jp@Anthonys-MacBook-Pro ~ % brew doctor 
+[user]@Anthonys-MacBook-Pro ~ % brew doctor 
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
 working fine: please don't worry or file an issue; just ignore this. Thanks!
@@ -197,11 +197,11 @@ working fine: please don't worry or file an issue; just ignore this. Thanks!
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
   terraform
-4jp@Anthonys-MacBook-Pro ~ % 
+[user]@Anthonys-MacBook-Pro ~ % 
   [Restored Dec 26, 2025 at 9:42:48 PM]
 Last login: Fri Dec 26 21:42:48 on ttys000
 Restored session: Fri Dec 26 21:42:40 EST 2025
-4jp@Anthonys-MacBook-Pro ~ % brew updatew
+[user]@Anthonys-MacBook-Pro ~ % brew updatew
 Example usage:
   brew search TEXT|/REGEX/
   brew info [FORMULA|CASK...]
@@ -227,7 +227,7 @@ Further help:
   https://docs.brew.sh
 
 Error: Invalid usage: Unknown command: brew updatew
-4jp@Anthonys-MacBook-Pro ~ % brew upgrade
+[user]@Anthonys-MacBook-Pro ~ % brew upgrade
 ==> Auto-updating Homebrew...
 Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
 `$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
@@ -291,16 +291,16 @@ Removing: /opt/homebrew/Cellar/tesseract/5.5.1_1... (75 files, 34.8MB)
 🍺  /opt/homebrew/Cellar/gemini-cli/0.22.4: 44,894 files, 325.1MB
 ==> Running `brew cleanup gemini-cli`...
 Removing: /opt/homebrew/Cellar/gemini-cli/0.22.3... (44,891 files, 325.1MB)
-Removing: /Users/4jp/Library/Caches/Homebrew/gemini-cli_bottle_manifest--0.22.3... (57.3KB)
-Removing: /Users/4jp/Library/Caches/Homebrew/gemini-cli--0.22.3... (52.3MB)
+Removing: ~/Library/Caches/Homebrew/gemini-cli_bottle_manifest--0.22.3... (57.3KB)
+Removing: ~/Library/Caches/Homebrew/gemini-cli--0.22.3... (52.3MB)
 ==> Upgrading opencode
   1.0.203 -> 1.0.204 
 ==> Pouring opencode--1.0.204.arm64_tahoe.bottle.tar.gz
 🍺  /opt/homebrew/Cellar/opencode/1.0.204: 10 files, 96MB
 ==> Running `brew cleanup opencode`...
 Removing: /opt/homebrew/Cellar/opencode/1.0.203... (10 files, 95.6MB)
-Removing: /Users/4jp/Library/Caches/Homebrew/opencode_bottle_manifest--1.0.203... (27KB)
-Removing: /Users/4jp/Library/Caches/Homebrew/opencode--1.0.203... (32.3MB)
+Removing: ~/Library/Caches/Homebrew/opencode_bottle_manifest--1.0.203... (27KB)
+Removing: ~/Library/Caches/Homebrew/opencode--1.0.203... (32.3MB)
 ==> Caveats
 ==> ruby
 By default, binaries installed by gem will be placed into:
@@ -321,7 +321,7 @@ For compilers to find ruby you may need to set:
 
 For pkgconf to find ruby you may need to set:
   export PKG_CONFIG_PATH="/opt/homebrew/opt/ruby/lib/pkgconfig"
-4jp@Anthonys-MacBook-Pro ~ % brew update
+[user]@Anthonys-MacBook-Pro ~ % brew update
 ==> Updating Homebrew...
 Updated 2 taps (homebrew/core and homebrew/cask).
 ==> New Formulae
@@ -329,14 +329,14 @@ kyua: Testing framework for infrastructure software
 ==> New Casks
 macdown-3000: Markdown editor with live preview and syntax highlighting
 taphouse: Native GUI for Homebrew package management
-4jp@Anthonys-MacBook-Pro ~ % brew upgrade
-4jp@Anthonys-MacBook-Pro ~ % brew update
+[user]@Anthonys-MacBook-Pro ~ % brew upgrade
+[user]@Anthonys-MacBook-Pro ~ % brew update
 ==> Updating Homebrew...
 Already up-to-date.
-4jp@Anthonys-MacBook-Pro ~ % brew cleanup
-Removing: /Users/4jp/Library/Caches/Homebrew/api-source/Homebrew/homebrew-cask/0934c88eda5d2d6f28729dba7c62f0f4d44a0835/Cask/kitty.rb... (1.3KB)
+[user]@Anthonys-MacBook-Pro ~ % brew cleanup
+Removing: ~/Library/Caches/Homebrew/api-source/Homebrew/homebrew-cask/0934c88eda5d2d6f28729dba7c62f0f4d44a0835/Cask/kitty.rb... (1.3KB)
 ==> This operation has freed approximately 1.3KB of disk space.
-4jp@Anthonys-MacBook-Pro ~ % brew doctor
+[user]@Anthonys-MacBook-Pro ~ % brew doctor
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
 working fine: please don't worry or file an issue; just ignore this. Thanks!
@@ -344,19 +344,19 @@ working fine: please don't worry or file an issue; just ignore this. Thanks!
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
   terraform
-4jp@Anthonys-MacBook-Pro ~ % npm fund
-4jp
+[user]@Anthonys-MacBook-Pro ~ % npm fund
+[user]
 
-4jp@Anthonys-MacBook-Pro ~ % npm run
+[user]@Anthonys-MacBook-Pro ~ % npm run
 npm error code ENOENT
 npm error syscall open
-npm error path /Users/4jp/package.json
+npm error path ~/package.json
 npm error errno -2
-npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/Users/4jp/package.json'
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '~/package.json'
 npm error enoent This is related to npm not being able to find a file.
 npm error enoent
-npm error A complete log of this run can be found in: /Users/4jp/.npm/_logs/2025-12-28T10_51_07_510Z-debug-0.log
-4jp@Anthonys-MacBook-Pro ~ % npm 
+npm error A complete log of this run can be found in: ~/.npm/_logs/2025-12-28T10_51_07_510Z-debug-0.log
+[user]@Anthonys-MacBook-Pro ~ % npm 
 npm <command>
 
 Usage:
@@ -383,25 +383,25 @@ All commands:
     uninstall, unpublish, unstar, update, version, view, whoami
 
 Specify configs in the ini-formatted file:
-    /Users/4jp/.npmrc
+    ~/.npmrc
 or on the command line via: npm <command> --key=value
 
 More configuration info: npm help config
 Configuration fields: npm help 7 config
 
 npm@11.6.2 /opt/homebrew/lib/node_modules/npm
-4jp@Anthonys-MacBook-Pro ~ % npm install
+[user]@Anthonys-MacBook-Pro ~ % npm install
 npm error code ENOENT
 npm error syscall open
-npm error path /Users/4jp/package.json
+npm error path ~/package.json
 npm error errno -2
-npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/Users/4jp/package.json'
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '~/package.json'
 npm error enoent This is related to npm not being able to find a file.
 npm error enoent
-npm error A complete log of this run can be found in: /Users/4jp/.npm/_logs/2025-12-28T10_51_19_682Z-debug-0.log
-4jp@Anthonys-MacBook-Pro ~ % npm audit
+npm error A complete log of this run can be found in: ~/.npm/_logs/2025-12-28T10_51_19_682Z-debug-0.log
+[user]@Anthonys-MacBook-Pro ~ % npm audit
 found 0 vulnerabilities
-4jp@Anthonys-MacBook-Pro ~ % brew install perplexity
+[user]@Anthonys-MacBook-Pro ~ % brew install perplexity
 ==> Auto-updating Homebrew...
 Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
 `$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
@@ -412,7 +412,7 @@ perltidy
 
 To install perltidy, run:
   brew install perltidy
-4jp@Anthonys-MacBook-Pro ~ % brew install kimi-cli
+[user]@Anthonys-MacBook-Pro ~ % brew install kimi-cli
 ==> Auto-updating Homebrew...
 Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
 `$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
@@ -474,12 +474,12 @@ Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
 ==> Caveats
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
-4jp@Anthonys-MacBook-Pro ~ % brew update
+[user]@Anthonys-MacBook-Pro ~ % brew update
 ==> Updating Homebrew...
 Already up-to-date.
-4jp@Anthonys-MacBook-Pro ~ % brew upgrade
-4jp@Anthonys-MacBook-Pro ~ % brew cleanup
-4jp@Anthonys-MacBook-Pro ~ % brew doctor
+[user]@Anthonys-MacBook-Pro ~ % brew upgrade
+[user]@Anthonys-MacBook-Pro ~ % brew cleanup
+[user]@Anthonys-MacBook-Pro ~ % brew doctor
 Please note that these warnings are just used to help the Homebrew maintainers
 with debugging if you file an issue. If everything you use Homebrew for is
 working fine: please don't worry or file an issue; just ignore this. Thanks!
@@ -487,20 +487,20 @@ working fine: please don't worry or file an issue; just ignore this. Thanks!
 Warning: Some installed formulae are deprecated or disabled.
 You should find replacements for the following formulae:
   terraform
-4jp@Anthonys-MacBook-Pro ~ % pip install pplx-cli
+[user]@Anthonys-MacBook-Pro ~ % pip install pplx-cli
 
 zsh: command not found: pip
-4jp@Anthonys-MacBook-Pro ~ % brew install pip
+[user]@Anthonys-MacBook-Pro ~ % brew install pip
 Warning: No available formula with the name "pip". Did you mean pipx, pie, pig, pit, pcp, pop, pup, pyp, php, sip, vip or zip?
 pip is part of the python formula:
   brew install python
-4jp@Anthonys-MacBook-Pro ~ % brew install python
+[user]@Anthonys-MacBook-Pro ~ % brew install python
 Warning: python@3.14 3.14.2 is already installed and up-to-date.
 To reinstall 3.14.2, run:
   brew reinstall python@3.14
-4jp@Anthonys-MacBook-Pro ~ % pip
+[user]@Anthonys-MacBook-Pro ~ % pip
 zsh: command not found: pip
-4jp@Anthonys-MacBook-Pro ~ % brew install install pplx-cli
+[user]@Anthonys-MacBook-Pro ~ % brew install install pplx-cli
 
 Warning: No available formula with the name "install". Did you mean instead?
 ==> Searching for similarly named formulae and casks...
@@ -519,7 +519,7 @@ install-disk-creator           ubports-installer
 
 To install betterdiscord-installer, run:
   brew install --cask betterdiscord-installer
-4jp@Anthonys-MacBook-Pro ~ % brew pyinstaller pplx-cli
+[user]@Anthonys-MacBook-Pro ~ % brew pyinstaller pplx-cli
 Example usage:
   brew search TEXT|/REGEX/
   brew info [FORMULA|CASK...]
@@ -545,7 +545,7 @@ Further help:
   https://docs.brew.sh
 
 Error: Invalid usage: Unknown command: brew pyinstaller
-4jp@Anthonys-MacBook-Pro ~ % brew pysintaller
+[user]@Anthonys-MacBook-Pro ~ % brew pysintaller
 Example usage:
   brew search TEXT|/REGEX/
   brew info [FORMULA|CASK...]
@@ -571,7 +571,7 @@ Further help:
   https://docs.brew.sh
 
 Error: Invalid usage: Unknown command: brew pysintaller
-4jp@Anthonys-MacBook-Pro ~ % brew config
+[user]@Anthonys-MacBook-Pro ~ % brew config
 HOMEBREW_VERSION: 5.0.7-99-gd61f229
 ORIGIN: https://github.com/Homebrew/brew
 HEAD: d61f229fd2978441a78db6476108673367dde47d
@@ -595,7 +595,7 @@ CLT: 26.2.0.0.1.1764812424
 Xcode: 26.2
 Metal Toolchain: N/A
 Rosetta 2: false
-4jp@Anthonys-MacBook-Pro ~ % python3 -m pip
+[user]@Anthonys-MacBook-Pro ~ % python3 -m pip
 
 Usage:   
   /opt/homebrew/opt/python@3.14/bin/python3.14 -m pip <command> [options]
@@ -668,15 +668,15 @@ General Options:
   --resume-retries <resume_retries>
                               Maximum attempts to resume or restart an incomplete download.
                               (default: 5)
-4jp@Anthonys-MacBook-Pro ~ % which -a python3
+[user]@Anthonys-MacBook-Pro ~ % which -a python3
 python3 -V
 /opt/homebrew/bin/python3
 /usr/local/bin/python3
 /usr/bin/python3
 Python 3.14.2
-4jp@Anthonys-MacBook-Pro ~ % python3 -m pip -V
+[user]@Anthonys-MacBook-Pro ~ % python3 -m pip -V
 pip 25.3 from /opt/homebrew/lib/python3.14/site-packages/pip (python 3.14)
-4jp@Anthonys-MacBook-Pro ~ % python3 -m pip install pplx-cli 
+[user]@Anthonys-MacBook-Pro ~ % python3 -m pip install pplx-cli 
 
 error: externally-managed-environment
 
@@ -711,10 +711,10 @@ error: externally-managed-environment
 
 note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
 hint: See PEP 668 for the detailed specification.
-4jp@Anthonys-MacBook-Pro ~ %     python3 -m venv path/to/venv
+[user]@Anthonys-MacBook-Pro ~ %     python3 -m venv path/to/venv
     source path/to/venv/bin/activate
 
-(venv) 4jp@Anthonys-MacBook-Pro ~ % brew install pipx
+(venv) [user]@Anthonys-MacBook-Pro ~ % brew install pipx
 ✔︎ JSON API cask.jws.json                                          Downloaded   14.8MB/ 14.8MB
 ✔︎ JSON API formula.jws.json                                       Downloaded   32.1MB/ 32.1MB
 ==> Fetching downloads for: pipx
@@ -728,7 +728,7 @@ Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
 ==> Caveats
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
-(venv) 4jp@Anthonys-MacBook-Pro ~ % python3 -m pip install pplx-cli 
+(venv) [user]@Anthonys-MacBook-Pro ~ % python3 -m pip install pplx-cli 
 Collecting pplx-cli
   Downloading pplx_cli-0.2.3-py3-none-any.whl.metadata (14 kB)
 Collecting numpy<2.0.0,>=1.26.0 (from pplx-cli)
@@ -889,14 +889,14 @@ Using cached tabulate-0.9.0-py3-none-any.whl (35 kB)
 Building wheels for collected packages: numpy
   Building wheel for numpy (pyproject.toml) ... done
   Created wheel for numpy: filename=numpy-1.26.4-cp314-cp314-macosx_26_0_arm64.whl size=4779002 sha256=3f152dcd9b47178e7146e79309e6eb8eafc7152849aafcdf9c2e829e22e9a5a6
-  Stored in directory: /Users/4jp/Library/Caches/pip/wheels/9f/41/2d/41d9edbbdf1331835527392f3da54c7de611dc6ba3ef296215
+  Stored in directory: ~/Library/Caches/pip/wheels/9f/41/2d/41d9edbbdf1331835527392f3da54c7de611dc6ba3ef296215
 Successfully built numpy
 Installing collected packages: sqlite-fts4, pytz, mpmath, urllib3, tzdata, typing-extensions, tqdm, toml, threadpoolctl, tabulate, sympy, six, setuptools, safetensors, regex, pyyaml, python-dotenv, pluggy, Pillow, packaging, numpy, networkx, MarkupSafe, joblib, idna, hf-xet, fsspec, filelock, et-xmlfile, click, charset_normalizer, certifi, typer, scipy, requests, python-dateutil, openpyxl, jinja2, click-default-group, torch, sqlite-utils, scikit-learn, pandas, huggingface-hub, tokenizers, transformers, sentence-transformers, pplx-cli
 Successfully installed MarkupSafe-3.0.3 Pillow-12.0.0 certifi-2025.11.12 charset_normalizer-3.4.4 click-8.3.1 click-default-group-1.2.4 et-xmlfile-2.0.0 filelock-3.20.1 fsspec-2025.12.0 hf-xet-1.2.0 huggingface-hub-0.36.0 idna-3.11 jinja2-3.1.6 joblib-1.5.3 mpmath-1.3.0 networkx-3.6.1 numpy-1.26.4 openpyxl-3.1.5 packaging-25.0 pandas-2.3.3 pluggy-1.6.0 pplx-cli-0.2.3 python-dateutil-2.9.0.post0 python-dotenv-1.2.1 pytz-2025.2 pyyaml-6.0.3 regex-2025.11.3 requests-2.32.5 safetensors-0.7.0 scikit-learn-1.8.0 scipy-1.16.3 sentence-transformers-3.4.1 setuptools-80.9.0 six-1.17.0 sqlite-fts4-1.0.3 sqlite-utils-3.39 sympy-1.14.0 tabulate-0.9.0 threadpoolctl-3.6.0 tokenizers-0.22.1 toml-0.10.2 torch-2.9.1 tqdm-4.67.1 transformers-4.57.3 typer-0.9.4 typing-extensions-4.15.0 tzdata-2025.3 urllib3-2.6.2
-(venv) 4jp@Anthonys-MacBook-Pro ~ % python3 -m pip install --upgrade pip
+(venv) [user]@Anthonys-MacBook-Pro ~ % python3 -m pip install --upgrade pip
 
 Requirement already satisfied: pip in ./path/to/venv/lib/python3.14/site-packages (25.3)
-(venv) 4jp@Anthonys-MacBook-Pro ~ % python3 -m pip list
+(venv) [user]@Anthonys-MacBook-Pro ~ % python3 -m pip list
 
 Package               Version
 --------------------- -----------
@@ -949,11 +949,11 @@ typer                 0.9.4
 typing_extensions     4.15.0
 tzdata                2025.3
 urllib3               2.6.2
-(venv) 4jp@Anthonys-MacBook-Pro ~ % python3 -m ensurepip --upgrade
+(venv) [user]@Anthonys-MacBook-Pro ~ % python3 -m ensurepip --upgrade
 
 Looking in links: /var/folders/l9/zn9x070d4xqb1qb5wfzr9tjr0000gn/T/tmpf8tx_k82
 Requirement already satisfied: pip in ./path/to/venv/lib/python3.14/site-packages (25.3)
-(venv) 4jp@Anthonys-MacBook-Pro ~ % python3 -m pip install --upgrade pip setuptools wheel
+(venv) [user]@Anthonys-MacBook-Pro ~ % python3 -m pip install --upgrade pip setuptools wheel
 Requirement already satisfied: pip in ./path/to/venv/lib/python3.14/site-packages (25.3)
 Requirement already satisfied: setuptools in ./path/to/venv/lib/python3.14/site-packages (80.9.0)
 Collecting wheel
@@ -961,22 +961,22 @@ Collecting wheel
 Using cached wheel-0.45.1-py3-none-any.whl (72 kB)
 Installing collected packages: wheel
 Successfully installed wheel-0.45.1
-(venv) 4jp@Anthonys-MacBook-Pro ~ % echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
+(venv) [user]@Anthonys-MacBook-Pro ~ % echo 'export PATH="/opt/homebrew/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 
-(venv) 4jp@Anthonys-MacBook-Pro ~ % which python3
+(venv) [user]@Anthonys-MacBook-Pro ~ % which python3
 python3 -V
 python3 -m pip -V
 /opt/homebrew/bin/python3
 Python 3.14.2
 pip 25.3 from /opt/homebrew/lib/python3.14/site-packages/pip (python 3.14)
-(venv) 4jp@Anthonys-MacBook-Pro ~ % which -a pip pip3
-/Users/4jp/path/to/venv/bin/pip
+(venv) [user]@Anthonys-MacBook-Pro ~ % which -a pip pip3
+~/path/to/venv/bin/pip
 /opt/homebrew/bin/pip3
-/Users/4jp/path/to/venv/bin/pip3
+~/path/to/venv/bin/pip3
 /usr/local/bin/pip3
 /usr/bin/pip3
-(venv) 4jp@Anthonys-MacBook-Pro ~ %
+(venv) [user]@Anthonys-MacBook-Pro ~ %
 ```
 
 ## P1 Items (High Priority)

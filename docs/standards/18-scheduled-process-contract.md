@@ -218,9 +218,9 @@ This closes the loop: the audit-log invariant is itself audited by a routine tha
 - **`monthly-launchagent-audit`** scheduled task: `~/.claude/scheduled-tasks/monthly-launchagent-audit/SKILL.md` — updated 2026-05-27 to use the three-bucket classification from Section 4
 - **Audit log path**: `~/.claude/scheduled-tasks/audit/YYYY-MM-DD.log` — same primitive used by scheduled-tasks MCP per `17-branch-governance.md` Section 10
 - **Empirical incident memory** (the original ban motivation):
-  - `~/.claude/projects/-Users-4jp/memory/project_artifact_2026_05_22_four_roots_audit.md` (Jupyter LaunchAgent P0)
-  - `~/.claude/projects/-Users-4jp/memory/project_artifact_2026_05_22_sysdiagnose_forensic_audit.md` (jetsam kills)
-  - `~/.claude/projects/-Users-4jp/memory/feedback_no_launchagents.md` (referenced from domus CLAUDE.md "LaunchAgents (macOS) — REMOVED" section)
+  - `~/.claude/projects/-Users-[user]/memory/project_artifact_2026_05_22_four_roots_audit.md` (Jupyter LaunchAgent P0)
+  - `~/.claude/projects/-Users-[user]/memory/project_artifact_2026_05_22_sysdiagnose_forensic_audit.md` (jetsam kills)
+  - `~/.claude/projects/-Users-[user]/memory/feedback_no_launchagents.md` (referenced from domus CLAUDE.md "LaunchAgents (macOS) — REMOVED" section)
 
 ---
 

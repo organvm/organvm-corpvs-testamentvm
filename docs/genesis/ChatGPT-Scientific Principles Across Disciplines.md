@@ -1,10 +1,10 @@
 # Scientific Principles Across Disciplines
 
-**User:** Anthony Padavano (padavano.anthony@gmail.com)  
+**User:** [name redacted] ([email redacted])  
 **Created:** 3/17/2026 19:30:48  
 **Updated:** 3/17/2026 19:31:32  
 **Exported:** 3/30/2026 10:25:26  
-**Link:** [https://chatgpt.com/c/69b9e411-a0a8-8333-9577-c301c53a760b](https://chatgpt.com/c/69b9e411-a0a8-8333-9577-c301c53a760b)  
+**Link:** [[personal conversation link redacted]]([personal conversation link redacted])  
 
 ## Prompt:
 What are the scientific principles across disciplines that dictate the universe?

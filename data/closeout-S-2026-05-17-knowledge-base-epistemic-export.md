@@ -61,9 +61,9 @@ User requested comprehensive session review:
 
 | Repo | Local Path |
 |------|------------|
-| a-organvm/my-knowledge-base | `/Users/4jp/Workspace/a-organvm/my-knowledge-base` |
-| organvm-i-theoria/linguistic-atomization-framework | `/Users/4jp/Code/organvm-i-theoria/` |
-| organvm-i-theoria/nexus--babel-alexandria | `/Users/4jp/Code/organvm-i-theoria/` |
+| a-organvm/my-knowledge-base | `~/Workspace/a-organvm/my-knowledge-base` |
+| organvm-i-theoria/linguistic-atomization-framework | `~/Code/organvm-i-theoria/` |
+| organvm-i-theoria/nexus--babel-alexandria | `~/Code/organvm-i-theoria/` |
 
 ---
 

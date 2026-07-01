@@ -102,7 +102,7 @@
      ~/.claude/plans/2026-04-25-relay-rob-hokage-fitness.md and saved memory
      project_rob_bodi_funnel_call_20260425.md. The full call transcript +
      Gemini-cleaned bibliography lives at
-     /Users/4jp/Downloads/Sales-Funnel-Strategy-Content-Audit.md — volatile 
+     ~/Downloads/Sales-Funnel-Strategy-Content-Audit.md — volatile 
      location, must be mirrored before Downloads cleanup destroys the source 
      artifact (Universal Rule 2: nothing local only).
 
@@ -128,7 +128,7 @@
 
      Step 1 — Source preservation (universal rule, atomic)
 
-     Mirror /Users/4jp/Downloads/Sales-Funnel-Strategy-Content-Audit.md →
+     Mirror ~/Downloads/Sales-Funnel-Strategy-Content-Audit.md →
      ~/Workspace/4444J99/hokage-chess/docs/business/2026-04-25-rob-call-transcri
      pt-source.md. Repo Hybrid-C lives in hokage-chess docs/business/ until BODI
       gets its own deployable surface. Add, commit (docs(business): mirror 
@@ -204,7 +204,7 @@
      Step 4 — Working State Capture (memory artifacts)
 
      Save five project_artifact_*.md memories under
-     ~/.claude/projects/-Users-4jp/memory/:
+     ~/.claude/projects/-Users-[user]/memory/:
      - project_artifact_bodi_funnel_premium_content.md
      - project_artifact_hokage_4level_funnel.md
      - project_artifact_cross_pollination_master_diagnosis.md
@@ -215,7 +215,7 @@
       (shipped / feedback-pending), pending feedback (Rob homework — premium
      links + 70 constellation profiles), next action.
 
-     Update ~/.claude/projects/-Users-4jp/memory/MEMORY.md Active Artifacts
+     Update ~/.claude/projects/-Users-[user]/memory/MEMORY.md Active Artifacts
      section: 5 new one-line entries.
 
      Step 5 — IRF entries
@@ -283,7 +283,7 @@
      ---
      Critical files
 
-     Path: /Users/4jp/Downloads/Sales-Funnel-Strategy-Content-Audit.md
+     Path: ~/Downloads/Sales-Funnel-Strategy-Content-Audit.md
      Action: READ (mirror source — volatile)
      ────────────────────────────────────────
      Path: ~/Workspace/4444J99/hokage-chess/docs/business/2026-04-25-rob-call-tr
@@ -310,14 +310,14 @@
      ~/Workspace/4444J99/hokage-chess/docs/content/2026-04-25-discord-rituals.md
      Action: NEW
      ────────────────────────────────────────
-     Path: ~/.claude/projects/-Users-4jp/memory/project_artifact_*.md (×5)
+     Path: ~/.claude/projects/-Users-[user]/memory/project_artifact_*.md (×5)
      Action: NEW
      ────────────────────────────────────────
-     Path: ~/.claude/projects/-Users-4jp/memory/project_session_2026-04-25_eveni
+     Path: ~/.claude/projects/-Users-[user]/memory/project_session_2026-04-25_eveni
      ng_cross_pollination.md
      Action: NEW
      ────────────────────────────────────────
-     Path: ~/.claude/projects/-Users-4jp/memory/MEMORY.md
+     Path: ~/.claude/projects/-Users-[user]/memory/MEMORY.md
      Action: EDIT (+6 lines)
      ────────────────────────────────────────
      Path: ~/Workspace/organvm/organvm-corpvs-testamentvm/INST-INDEX-RERUM-FACIE
@@ -371,11 +371,11 @@
      ls docs/content/2026-04-25-{bridge-content-pillar,discord-rituals}.md
      2. Expect: all 6 listed, no errors.
      3. Memory parity
-     ls ~/.claude/projects/-Users-4jp/memory/project_artifact_{bodi_funnel_premi
+     ls ~/.claude/projects/-Users-[user]/memory/project_artifact_{bodi_funnel_premi
      um_content,hokage_4level_funnel,cross_pollination_master_diagnosis,bridge_c
      ontent_pillar,discord_rituals}.md
      grep "Active Artifacts" -A 20
-     ~/.claude/projects/-Users-4jp/memory/MEMORY.md
+     ~/.claude/projects/-Users-[user]/memory/MEMORY.md
      3. Expect: 5 new artifact files; MEMORY.md shows 5 new one-line entries.
      4. Cross-reference closure — open
      2026-04-25-cross-pollination-master-diagnosis.md, confirm it links to:
@@ -419,8 +419,8 @@
 
 ⏺ Step 1: mirror the source. Updating task status and executing.
 
-⏺ Bash(cp "/Users/4jp/Downloads/Sales-Funnel-Strategy-Content-Audit.md"
-      "/Users/4jp/Workspace/4444J99/hokage-chess/docs/business/2026-04-25-rob-ca
+⏺ Bash(cp "~/Downloads/Sales-Funnel-Strategy-Content-Audit.md"
+      "~/Workspace/4444J99/hokage-chess/docs/business/2026-04-25-rob-ca
       ll-transcript-source.…)
   ⎿  A  docs/business/2026-04-25-rob-call-transcript-source.md
      ?? research/raw-html-2026-04-25/
@@ -428,7 +428,7 @@
 ⏺ Staged. Committing and pushing.
 
 ⏺ Bash(pwd && git diff --cached --stat)
-  ⎿  /Users/4jp/Workspace/4444J99/hokage-chess
+  ⎿  ~/Workspace/4444J99/hokage-chess
       .../2026-04-25-rob-call-transcript-source.md       | 436 ++++++++++++
      +++++++++
       1 file changed, 436 insertions(+)
@@ -890,16 +890,16 @@
       INST-INDEX-RERUM-FACIENDARUM.md && git commit -m "$(cat <<'EOF'
       chore(irf): close PRT-040/041, open…)
   ⎿  [WARNING] Unstaged files detected.
-     [INFO] Stashing unstaged files to /Users/4jp/.cache/pre-commit/patch17
+     [INFO] Stashing unstaged files to ~/.cache/pre-commit/patch17
      77154546-47480.
      … +12 lines (ctrl+o to expand)
 
 ⏺ IRF committed (bc0ac23). Step 6: dated plan copy.
 
-⏺ Bash(cp /Users/4jp/.claude/plans/last-session-left-humble-stream.md /Users/4jp
+⏺ Bash(cp ~/.claude/plans/last-session-left-humble-stream.md /Users/[user]
       /.claude/plans/2026-04-25-rob-hokage-bodi-cross-pollination-build.md && ls
        -la /Users/4…)
-  ⎿  -rw-r--r--  1 4jp  staff  12549 Apr 25 18:02 /Users/4jp/.claude/plans/
+  ⎿  -rw-r--r--  1 [user]  staff  12549 Apr 25 18:02 ~/.claude/plans/
      2026-04-25-rob-hokage-bodi-cross-pollination-build.md
 
 ⏺ Plan copied. Step 7: session memory.
@@ -1032,7 +1032,7 @@
      … +25 lines (ctrl+o to expand)
 
 ⏺ Bash(echo "=== AUDIT 3: ~/.claude directory in chezmoi? ===" && chezmoi
-      managed 2>&1 | grep -E "(\.claude/projects/-Users-4jp|\.claude/plans)" |
+      managed 2>&1 | grep -E "(\.claude/projects/-Users-[user]|\.claude/plans)" |
       head -20; echo ""; e…)
   ⎿  === AUDIT 3: ~/.claude directory in chezmoi? ===
      .claude/plans
@@ -1048,11 +1048,11 @@
      … +17 lines (ctrl+o to expand)
 
 ⏺ Bash(echo "=== AUDIT 9: chezmoi tracking for MY memory project ===" && chezmoi
-       managed 2>&1 | grep -E "\.claude/projects/-Users-4jp" | head -10; echo
+       managed 2>&1 | grep -E "\.claude/projects/-Users-[user]" | head -10; echo
       ""; echo "=== O…)
   ⎿  === AUDIT 9: chezmoi tracking for MY memory project ===
-     .claude/projects/-Users-4jp
-     .claude/projects/-Users-4jp-Workspace
+     .claude/projects/-Users-[user]
+     .claude/projects/-Users-[user]-Workspace
      … +27 lines (ctrl+o to expand)
 
 ⏺ Bash(echo "=== AUDIT 13: chezmoi source vs target drift for MY memory ===";
@@ -1060,7 +1060,7 @@
       projects/-Users…)
   ⎿  === AUDIT 13: chezmoi source vs target drift for MY memory ===
      Source MEMORY.md size:
-          122 /Users/4jp/Workspace/4444J99/domus-semper-palingenesis/privat
+          122 ~/Workspace/4444J99/domus-semper-palingenesis/privat
      … +44 lines (ctrl+o to expand)
 
 ⏺ Rule 2 violation detected. 6 new memory artifacts + MEMORY.md edits + session
@@ -1076,10 +1076,10 @@
 ⏺ Recovery actions in progress. Bringing all session work into chezmoi source.
 
 ⏺ Bash(chezmoi add \
-        ~/.claude/projects/-Users-4jp/memory/MEMORY.md \…)
+        ~/.claude/projects/-Users-[user]/memory/MEMORY.md \…)
   ⎿  [master 9c5a13d] Add .claude/plans/2026-04-25-rob-hokage-bodi-cross-po
      llination-build.md Add .claude/plans/last-session-left-humble-stream.m
-     d Update .claude/projects/-Users-4jp/memory/MEMORY.md Add .claude/proj
+     d Update .claude/projects/-Users-[user]/memory/MEMORY.md Add .claude/proj
      … +26 lines (ctrl+o to expand)
 
 ⏺ ★ Insight ─────────────────────────────────────
@@ -1185,15 +1185,15 @@
       INST-INDEX-RERUM-FACIENDARUM.md && git commit -m "$(cat <<'EOF'
       chore(irf): add PRT-046 (constellat…)
   ⎿  [WARNING] Unstaged files detected.
-     [INFO] Stashing unstaged files to /Users/4jp/.cache/pre-commit/patch17
+     [INFO] Stashing unstaged files to ~/.cache/pre-commit/patch17
      77155612-56501.
      … +12 lines (ctrl+o to expand)
 
   Wrote 1 memory (ctrl+o to expand)
 
-⏺ Bash(chezmoi add ~/.claude/projects/-Users-4jp/memory/project_session_2026-04-
+⏺ Bash(chezmoi add ~/.claude/projects/-Users-[user]/memory/project_session_2026-04-
       25_evening_cross_pollination.md 2>&1 | tail -10)
-  ⎿  [master d2513b0] Update .claude/projects/-Users-4jp/memory/project_ses
+  ⎿  [master d2513b0] Update .claude/projects/-Users-[user]/memory/project_ses
      sion_2026-04-25_evening_cross_pollination.md
       1 file changed, 40 insertions(+)
      … +2 lines (ctrl+o to expand)
@@ -1249,7 +1249,7 @@
   ────────────────────────────────────────
   Layer: Memory artifacts
   Deliverable: 5 artifacts + 1 session memory
-  Location: ~/.claude/projects/-Users-4jp/memory/
+  Location: ~/.claude/projects/-Users-[user]/memory/
   Commit: dotfiles 9c5a13d, d2513b0
   ────────────────────────────────────────
   Layer: Plan files

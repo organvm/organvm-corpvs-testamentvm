@@ -62,7 +62,7 @@ PDE (shipped 2026-04-25, commit cf92479) handles single-project formalization vi
 
 ## Dark matter — people index
 
-- **Jessica** — named in DIWS schema v2.2 as "relationships + Sticks future"; stub created at `~/.claude/projects/-Users-4jp/memory/collaborator_jessica.md` 2026-04-25
+- **Jessica** — named in DIWS schema v2.2 as "relationships + Sticks future"; stub created at `~/.claude/projects/-Users-[user]/memory/collaborator_jessica.md` 2026-04-25
 - **Becka McKay** — permanently closed 2026-04-25 (already in memory)
 - **Shari Lefler** — historical artifact, no action
 
@@ -77,4 +77,4 @@ PDE (shipped 2026-04-25, commit cf92479) handles single-project formalization vi
 - IRF: `IRF-PRT-050` through `IRF-PRT-074` (dark-matter inventory rows)
 - Plan: `~/.claude/plans/okay-so-now-harmonic-kettle.md`
 - Sister docs: `framework-stack.md`, `dark-matter-inventory.md`
-- Memory: `~/.claude/projects/-Users-4jp/memory/project_portfolio_unification_2026-04-25.md`
+- Memory: `~/.claude/projects/-Users-[user]/memory/project_portfolio_unification_2026-04-25.md`

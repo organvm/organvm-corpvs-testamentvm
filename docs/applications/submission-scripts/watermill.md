@@ -168,5 +168,5 @@ Where theory becomes art — generative visual and sonic output built with p5.js
 - **Form asks for discipline/medium:** "Interdisciplinary — Systems Art / Performance / Digital Media"
 - **Form asks for specific collaborators:** "Open to collaborating with any discipline. The governance-as-score framework accommodates performers, visual artists, musicians, and dancers."
 - **Video required but no time to record:** Submit a PDF proposal with screenshots instead. The written proposal is strong enough standalone.
-- **$12 fee is a hardship:** The fee goes to SlideRoom, not Watermill. If financially difficult, email residencies@watermillcenter.org and ask about fee waivers — some programs have them.
-- **Website won't load / SlideRoom technical issues:** Contact support@slideroom.com or residencies@watermillcenter.org. Note the deadline is 11:59 PM EST tonight.
+- **$12 fee is a hardship:** The fee goes to SlideRoom, not Watermill. If financially difficult, email [email redacted] and ask about fee waivers — some programs have them.
+- **Website won't load / SlideRoom technical issues:** Contact [email redacted] or [email redacted]. Note the deadline is 11:59 PM EST tonight.

@@ -3,7 +3,7 @@
 **Created:** 2026-02-18
 **Time to complete:** ~20 minutes
 **URL:** https://pen.org/us-writers-aid-initiative/
-**Contact:** writersfund@pen.org
+**Contact:** [email redacted]
 **Deadline:** Rolling (reviewed monthly)
 **Award:** Up to $3,500
 **Fit:** 9/10 — HIGHEST-FIT emergency fund in the pipeline
@@ -92,7 +92,7 @@ If the form asks for a writing sample or asks you to describe your published wor
 - [ ] Screenshot the confirmation page or save confirmation email
 - [ ] Record submission date in `docs/applications/04-application-tracker.md`
 - [ ] Update `docs/operations/rolling-todo.md` — mark PEN America as SUBMITTED with date
-- [ ] Set calendar reminder: follow up in 4–6 weeks if no response (email writersfund@pen.org)
+- [ ] Set calendar reminder: follow up in 4–6 weeks if no response (email [email redacted])
 - [ ] Note: Max 2 grants lifetime — track this
 
 ---

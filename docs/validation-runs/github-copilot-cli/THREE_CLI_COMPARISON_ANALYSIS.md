@@ -710,7 +710,7 @@ The comparison across **three validation runs** (one original + one rerun) revea
 ### Run C (Codex-CLI Rerun) Metadata
 - **Run ID:** `20260209-135130`
 - **Generated (UTC):** 2026-02-09T19:15:05Z
-- **Workspace:** `/Users/4jp/Workspace/organvm-pactvm/ingesting-organ-document-structure`
+- **Workspace:** `~/Workspace/organvm-pactvm/ingesting-organ-document-structure`
 - **Tool Versions:**
   - codex-cli: 0.98.0
   - gemini: 0.27.3  

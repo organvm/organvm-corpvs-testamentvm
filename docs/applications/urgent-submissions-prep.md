@@ -132,7 +132,7 @@ Before submitting anything, verify these are current and working:
 | Multiple small (<$9K total) | ~$21K | SAFE | SAFE | SAFE | Accept all |
 | Doris Duke ($150K) | ~$162K | Lost | Lost | Lost | Call NYLAG immediately |
 
-**NYLAG:** 212-613-5000 (free combined legal + financial counseling)
+**NYLAG:** [phone redacted] (free combined legal + financial counseling)
 **Rule:** Call BEFORE accepting any single grant >$5K.
 
 ---

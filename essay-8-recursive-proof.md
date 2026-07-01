@@ -2,7 +2,7 @@
 title: "The Recursive Proof"
 subtitle: "How a Contribution Engine Proved Its Own Thesis Before Shipping a Single PR"
 date: 2026-03-22
-author: 4jp
+author: [user]
 organ: IV
 status: draft
 tags: [contribution-engine, backflow, recursion, anagnorisis, testament, formalization]

@@ -32,9 +32,9 @@ export class KnowledgeGraphIntegration {
   private kgPath: string;
   private pythonPath: string;
 
-  constructor(kgDbPath: string = '/Users/4jp/.metasystem/metastore.db') {
+  constructor(kgDbPath: string = '~/.metasystem/metastore.db') {
     this.kgPath = kgDbPath;
-    this.pythonPath = '/Users/4jp/Workspace/metasystem-core/.venv/bin/python3';
+    this.pythonPath = '~/Workspace/metasystem-core/.venv/bin/python3';
   }
 
   /**
@@ -221,7 +221,7 @@ export class KnowledgeGraphIntegration {
    */
   private async callKG(scriptName: string, args: string[]): Promise<any> {
     return new Promise((resolve, reject) => {
-      const scriptPath = path.join('/Users/4jp/Workspace/metasystem-core', scriptName);
+      const scriptPath = path.join('~/Workspace/metasystem-core', scriptName);
       const proc = spawn(this.pythonPath, [scriptPath, ...args]);
 
       let stdout = '';

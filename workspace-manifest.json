@@ -9,63 +9,63 @@
       "key": "ORGAN-I",
       "directory": "organvm-i-theoria",
       "github_org": "organvm-i-theoria",
-      "superproject_remote": "git@github.com:organvm-i-theoria/organvm-i-theoria--superproject.git",
+      "superproject_remote": "[email redacted]:organvm-i-theoria/organvm-i-theoria--superproject.git",
       "domain": "Foundational theory, recursive engines, symbolic computing"
     },
     {
       "key": "ORGAN-II",
       "directory": "organvm-ii-poiesis",
       "github_org": "organvm-ii-poiesis",
-      "superproject_remote": "git@github.com:organvm-ii-poiesis/organvm-ii-poiesis--superproject.git",
+      "superproject_remote": "[email redacted]:organvm-ii-poiesis/organvm-ii-poiesis--superproject.git",
       "domain": "Generative art, performance systems, creative coding"
     },
     {
       "key": "ORGAN-III",
       "directory": "organvm-iii-ergon",
       "github_org": "organvm-iii-ergon",
-      "superproject_remote": "git@github.com:organvm-iii-ergon/organvm-iii-ergon--superproject.git",
+      "superproject_remote": "[email redacted]:organvm-iii-ergon/organvm-iii-ergon--superproject.git",
       "domain": "Commercial products, SaaS tools, developer utilities"
     },
     {
       "key": "ORGAN-IV",
       "directory": "organvm-iv-taxis",
       "github_org": "organvm-iv-taxis",
-      "superproject_remote": "git@github.com:organvm-iv-taxis/organvm-iv-taxis--superproject.git",
+      "superproject_remote": "[email redacted]:organvm-iv-taxis/organvm-iv-taxis--superproject.git",
       "domain": "Orchestration, governance, AI agents, skills"
     },
     {
       "key": "ORGAN-V",
       "directory": "organvm-v-logos",
       "github_org": "organvm-v-logos",
-      "superproject_remote": "git@github.com:organvm-v-logos/organvm-v-logos--superproject.git",
+      "superproject_remote": "[email redacted]:organvm-v-logos/organvm-v-logos--superproject.git",
       "domain": "Public discourse, essays, editorial, analytics"
     },
     {
       "key": "ORGAN-VI",
       "directory": "organvm-vi-koinonia",
       "github_org": "organvm-vi-koinonia",
-      "superproject_remote": "git@github.com:organvm-vi-koinonia/organvm-vi-koinonia--superproject.git",
+      "superproject_remote": "[email redacted]:organvm-vi-koinonia/organvm-vi-koinonia--superproject.git",
       "domain": "Community, reading groups, salons, learning"
     },
     {
       "key": "ORGAN-VII",
       "directory": "organvm-vii-kerygma",
       "github_org": "organvm-vii-kerygma",
-      "superproject_remote": "git@github.com:organvm-vii-kerygma/organvm-vii-kerygma--superproject.git",
+      "superproject_remote": "[email redacted]:organvm-vii-kerygma/organvm-vii-kerygma--superproject.git",
       "domain": "POSSE distribution, social automation, announcements"
     },
     {
       "key": "ORGAN-META",
       "directory": "meta-organvm",
       "github_org": "meta-organvm",
-      "superproject_remote": "git@github.com:meta-organvm/meta-organvm--superproject.git",
+      "superproject_remote": "[email redacted]:meta-organvm/meta-organvm--superproject.git",
       "domain": "Cross-organ engine, schemas, dashboard, governance corpus"
     },
     {
       "key": "PERSONAL",
       "directory": "4444J99",
       "github_org": "4444J99",
-      "superproject_remote": "git@github.com:4444J99/workspace--superproject.git",
+      "superproject_remote": "[email redacted]:4444J99/workspace--superproject.git",
       "domain": "Personal projects: portfolio, artist site, profile README"
     }
   ],

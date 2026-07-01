@@ -1,10 +1,10 @@
 # Functional Institutional Set
 
-**User:** Anthony Padavano (padavano.anthony@gmail.com)  
+**User:** [name redacted] ([email redacted])  
 **Created:** 3/17/2026 19:20:40  
 **Updated:** 3/17/2026 19:23:57  
 **Exported:** 3/30/2026 10:25:59  
-**Link:** [https://chatgpt.com/c/69b9e1ba-9ec0-8327-a4db-55ab1c46699f](https://chatgpt.com/c/69b9e1ba-9ec0-8327-a4db-55ab1c46699f)  
+**Link:** [[personal conversation link redacted]]([personal conversation link redacted])  
 
 ## Prompt:
 What are the institutions that make a system functional & ordered?

@@ -5,7 +5,7 @@
 **First seen:** 2026-05-17 21:27 (plist mtime)
 **Last seen:** 2026-05-22 03:26 (live ps shows PID 1016 running with these args)
 **Occurrences:** Persistent — KeepAlive=true, RunAtLoad=true
-**Affected process/component:** `/Users/4jp/.local/share/uv/tools/jupyter-core/bin/jupyter-server`
+**Affected process/component:** `~/.local/share/uv/tools/jupyter-core/bin/jupyter-server`
 **Affected ORGANVM organ:** infrastructure (jupyter MCP server depends on this)
 
 ## Evidence
@@ -14,7 +14,7 @@ Plist content:
 ```xml
 <key>ProgramArguments</key>
 <array>
-    <string>/Users/4jp/.local/share/uv/tools/jupyter-core/bin/jupyter-server</string>
+    <string>~/.local/share/uv/tools/jupyter-core/bin/jupyter-server</string>
     <string>--no-browser</string>
     <string>--port=8888</string>
     <string>--IdentityProvider.token=</string>            <!-- EMPTY TOKEN -->
@@ -27,8 +27,8 @@ Plist content:
 
 Live confirmation:
 ```
-4jp  1016  0.1  0.2 435393024  39488  ??  S  1:01AM  0:03.80
-  /Users/4jp/.local/share/uv/tools/jupyter-core/bin/python
+[user]  1016  0.1  0.2 435393024  39488  ??  S  1:01AM  0:03.80
+  ~/.local/share/uv/tools/jupyter-core/bin/python
   jupyter-server --no-browser --port=8888
   --IdentityProvider.token=
   --ServerApp.allow_origin=*

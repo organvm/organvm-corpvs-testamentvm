@@ -6,7 +6,7 @@
 
   ⎿  Referenced file 
      ../.claude/plans/2026-04-16-unspoken-sentences-full-implementation.md
-  ⎿  Referenced file ../.claude/projects/-Users-4jp-Workspace/a17ba5e8-d9f5-40d1
+  ⎿  Referenced file ../.claude/projects/-Users-[user]-Workspace/a17ba5e8-d9f5-40d1
      -a661-8741234ea618/tool-results/bkmn3x6lc.txt
   ⎿  Referenced file ../../../tmp/extract_edges.py
   ⎿  Read ../CLAUDE.md (282 lines)
@@ -100,7 +100,7 @@
                                                         89 empty cells
                                                        identified","Complete TDD
                                                         implementation plan
-                                                       written to /Users/4jp/.cl
+                                                       written to ~/.cl
                                                        aude/plans/2026-04-16-uns
                                                        poken-sentences-full-impl
                                                        ementation.md — contains
@@ -248,7 +248,7 @@
   - Full coverage matrix analysis: 31/120 cells (25.8%) of the 15-ideal-form ×
   8-organ matrix populated; 89 empty cells identified
   - Complete TDD implementation plan written to
-  /Users/4jp/.claude/plans/2026-04-16-unspoken-sentences-full-implementation.md
+  ~/.claude/plans/2026-04-16-unspoken-sentences-full-implementation.md
   — contains exact file contents, test code, seed.yaml, registry entries for all
    6 repos
   - SYNTHESIS.md at ~/sovereign--ground/SYNTHESIS.md documents the 15 ideal
@@ -343,26 +343,26 @@ will be lost?
      .claude/plans/2026-04-07-empirical-structure-organvm.md
 
 ⏺ Bash(# Check git status for sovereign--ground (was read this session)
-      cd /Users/4jp/sovereign--ground && git status --short 2>/dev/null | head
+      cd ~/sovereign--ground && git status --short 2>/dev/null | head
       -20)
   ⎿  ?? .claude/
-  ⎿  Shell cwd was reset to /Users/4jp/Workspace
+  ⎿  Shell cwd was reset to ~/Workspace
 
 ⏺ Found several gaps. Let me trace each one.
 
   Listed 1 directory (ctrl+o to expand)
 
 ⏺ Bash(# What's in sovereign--ground/.claude/ that's untracked?
-      cd /Users/4jp/sovereign--ground && find .claude -type f 2>/dev/null | head
+      cd ~/sovereign--ground && find .claude -type f 2>/dev/null | head
        -20)
   ⎿  .claude/sessions/.archive-state.json
      .claude/sessions/2026-04-08--local-command-caveatcaveat-the-messages-b
      elow-were-generated/session.jsonl
      … +8 lines (ctrl+o to expand)
-  ⎿  Shell cwd was reset to /Users/4jp/Workspace
+  ⎿  Shell cwd was reset to ~/Workspace
 
 ⏺ Bash(# Check git status of the conductor handoff location
-      cd /Users/4jp/Workspace/organvm-iv-taxis/tool-interaction-design && git
+      cd ~/Workspace/organvm-iv-taxis/tool-interaction-design && git
       status --short 2>/dev/null | head -…)
   ⎿  (No output)
 
@@ -445,16 +445,16 @@ will be lost?
      100d71a chore: sync System Library + idempotency fix (5115a32)
 
 ⏺ Bash(git status --short 2>&1 | head -10 && echo "---" && git -C
-      /Users/4jp/Workspace/organvm-iv-taxis/tool-interaction-design log
+      ~/Workspace/organvm-iv-taxis/tool-interaction-design log
       --oneline -1 2>&1)
   ⎿  ---
      60a1f1d chore: update auto-generated context files
 
-⏺ Bash(git -C /Users/4jp/Workspace/organvm-iv-taxis/tool-interaction-design
+⏺ Bash(git -C ~/Workspace/organvm-iv-taxis/tool-interaction-design
       status --short 2>&1 | head -10 || echo "NOT A GIT REPO")
   ⎿  (No output)
 
-⏺ Bash(git -C /Users/4jp/Workspace/organvm-iv-taxis/tool-interaction-design
+⏺ Bash(git -C ~/Workspace/organvm-iv-taxis/tool-interaction-design
       check-ignore -v .conductor/active-handoff.md 2>&1)
   ⎿  .gitignore:24:.conductor/  .conductor/active-handoff.md
 
@@ -466,7 +466,7 @@ will be lost?
 
 ⏺ Bash(# Move extraction artifacts to persistent location in meta-organvm
       cp /tmp/extract_edges.py
-      /Users/4jp/Workspace/meta-organvm/data/extract_edges.py && cp /tmp/o…)
+      ~/Workspace/meta-organvm/data/extract_edges.py && cp /tmp/o…)
   ⎿  Copied both files to meta-organvm/data/
 
 ⏺ Bash(# Add new plans to chezmoi
@@ -479,15 +479,15 @@ will be lost?
 
 ⏺ Bash(# Check what sovereign--ground/.claude/ contains and whether it should be
        committed
-      cd /Users/4jp/sovereign--ground && git status --short 2>/dev/null)
+      cd ~/sovereign--ground && git status --short 2>/dev/null)
   ⎿  ?? .claude/
-  ⎿  Shell cwd was reset to /Users/4jp/Workspace
+  ⎿  Shell cwd was reset to ~/Workspace
 
 ⏺ Plans are now remote-persisted via chezmoi (auto-committed + pushed). Now
   handling the remaining gaps.
 
 ⏺ Bash(# Commit extraction artifacts to meta-organvm
-      cd /Users/4jp/Workspace/meta-organvm && git add data/extract_edges.py
+      cd ~/Workspace/meta-organvm && git add data/extract_edges.py
       data/organvm_edges_2026-04-16.json && git co…)
   ⎿  Error: Exit code 1
      The following paths are ignored by one of your .gitignore files:
@@ -497,13 +497,13 @@ will be lost?
      false"
 
 ⏺ Bash(# Commit sovereign--ground .claude/ sessions
-      cd /Users/4jp/sovereign--ground && git add .claude/ && git commit -m
+      cd ~/sovereign--ground && git add .claude/ && git commit -m
       "$(cat <<'EOF'…)
   ⎿  Cancelled: parallel tool call Bash(# Commit extraction artifacts to 
      meta-or…) errored
 
 ⏺ Bash(# Check meta-organvm .gitignore for data exclusion
-      cd /Users/4jp/Workspace/meta-organvm && cat .gitignore 2>/dev/null | head
+      cd ~/Workspace/meta-organvm && cat .gitignore 2>/dev/null | head
       -20)
   ⎿  # Superproject: only track superproject metadata files
      *
@@ -518,33 +518,33 @@ will be lost?
   ⎿  Moved to corpvs-testamentvm/data/
 
 ⏺ Bash(# Commit extraction artifacts to the registry repo
-      cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git add
+      cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git add
        data/extract_edges.py data/organvm…)  ⎿  [main a2d4aed] feat: persist coverage matrix extraction artifacts
       2 files changed, 6848 insertions(+)
       create mode 100644 data/extract_edges.py
       create mode 100644 data/organvm_edges_2026-04-16.json
 
 ⏺ Bash(# Commit sovereign--ground .claude/ sessions
-      cd /Users/4jp/sovereign--ground && git add .claude/ && git commit -m
+      cd ~/sovereign--ground && git add .claude/ && git commit -m
       "$(cat <<'EOF'…)
   ⎿   create mode 100644 .claude/sessions/2026-04-08--local-command-caveatc
      aveat-the-messages-below-were-generated/meta.json
       create mode 100644 .claude/sessions/2026-04-08--local-command-caveatc
      … +7 lines (ctrl+o to expand)
-  ⎿  Shell cwd was reset to /Users/4jp/Workspace
+  ⎿  Shell cwd was reset to ~/Workspace
 
 ⏺ Both committed. Now push both to remote.
 
-⏺ Bash(git -C /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm push
+⏺ Bash(git -C ~/Workspace/meta-organvm/organvm-corpvs-testamentvm push
       origin main 2>&1 | tail -5)
   ⎿  │  No config files with names ["lefthook" ".lefthook" ".config/lefthoo
-     k"] have been found in "/Users/4jp/Workspace/meta-organvm/organvm-corp
+     k"] have been found in "~/Workspace/meta-organvm/organvm-corp
      vs-testamentvm"
      … +2 lines (ctrl+o to expand)
 
-⏺ Bash(git -C /Users/4jp/sovereign--ground push origin main 2>&1 | tail -5)
+⏺ Bash(git -C ~/sovereign--ground push origin main 2>&1 | tail -5)
   ⎿  │  No config files with names ["lefthook" ".lefthook" ".config/lefthoo
-     k"] have been found in "/Users/4jp/sovereign--ground"
+     k"] have been found in "~/sovereign--ground"
      To github.com:4444J99/sovereign--ground.git
         b5f431c..950886e  main -> main
 
@@ -565,26 +565,26 @@ will be lost?
   ─────────────────────────────────────────────────
 
 ⏺ Bash(# What changed in the IRF?
-      git -C /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm diff
+      git -C ~/Workspace/meta-organvm/organvm-corpvs-testamentvm diff
       --stat INST-INDEX-RERUM-FACIENDARUM.md 2>&1)
   ⎿   INST-INDEX-RERUM-FACIENDARUM.md | 5 +++--
       1 file changed, 3 insertions(+), 2 deletions(-)
 
 ⏺ Bash(# What changed in the fossil record?
-      git -C /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm diff
+      git -C ~/Workspace/meta-organvm/organvm-corpvs-testamentvm diff
       --stat data/fossil/fossil-record.jsonl 2>&1)
   ⎿   data/fossil/fossil-record.jsonl | 1 +
       1 file changed, 1 insertion(+)
 
 ⏺ Bash(# Show the actual diffs
-      git -C /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm diff
+      git -C ~/Workspace/meta-organvm/organvm-corpvs-testamentvm diff
       INST-INDEX-RERUM-FACIENDARUM.md 2>&1 | head -30)
   ⎿  diff --git a/INST-INDEX-RERUM-FACIENDARUM.md b/INST-INDEX-RERUM-FACIEN
      DARUM.md
      index 4195e3d..e6ca987 100644
      … +124 lines (ctrl+o to expand)
 
-⏺ Bash(git -C /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm diff
+⏺ Bash(git -C ~/Workspace/meta-organvm/organvm-corpvs-testamentvm diff
       data/fossil/fossil-record.jsonl 2>&1 | head -20)
   ⎿  diff --git a/data/fossil/fossil-record.jsonl b/data/fossil/fossil-reco
      rd.jsonl
@@ -595,17 +595,17 @@ will be lost?
   session completed IRF-SYS-101 partial + created IRF-SYS-117). Legitimate work,
    just not committed. Per your "commit[all] push[origin]" directive:
 
-⏺ Bash(cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git
+⏺ Bash(cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git
       add INST-INDEX-RERUM-FACIENDARUM.md data/fossil/fossil-record.jsonl && git
        commit -m "$(c…)
   ⎿  [main 24af71a] chore: commit IRF updates from S-recapitulation-2026-04
      -17
       2 files changed, 7 insertions(+), 2 deletions(-)
 
-⏺ Bash(git -C /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm push
+⏺ Bash(git -C ~/Workspace/meta-organvm/organvm-corpvs-testamentvm push
       origin main 2>&1 | tail -3)
   ⎿  │  No config files with names ["lefthook" ".lefthook" ".config/lefthoo
-     k"] have been found in "/Users/4jp/Workspace/meta-organvm/organvm-corp
+     k"] have been found in "~/Workspace/meta-organvm/organvm-corp
      vs-testamentvm"
      … +2 lines (ctrl+o to expand)
 
@@ -616,7 +616,7 @@ will be lost?
   ⎿  Loaded ../CLAUDE.md
   ⎿  Loaded CLAUDE.md
 ⏺ Bash(# Find the highest IRF-SYS number
-      grep -o 'IRF-SYS-[0-9]*' /Users/4jp/Workspace/meta-organvm/organvm-corpvs-
+      grep -o 'IRF-SYS-[0-9]*' ~/Workspace/meta-organvm/organvm-corpvs-
       testamentvm/INST-INDEX-RERUM-FACIENDARUM.md | sed 's…)
   ⎿  117
      117
@@ -682,7 +682,7 @@ will be lost?
            for v8+ with ESLint 10 compatibility | Agent | S26 | eslint-pl
            ugin-react@7.37.5 incompatible |
       123  | IRF-SYS-009 | **P0** | Gmail notification hygiene — filter d
-           esigned in S36: `from:notifications@github.com ("dependabot[bo
+           esigned in S36: `from:[email redacted] ("dependabot[bo
            t]" OR "github-actions[bot]")` → Skip Inbox, Apply label `gith
            ub/bots`, Mark as Read. **HUMAN ACTION NEEDED:** (1) Create Gm
            ail filter, (2) GitHub Settings > Notifications > uncheck "Aut
@@ -697,10 +697,10 @@ will be lost?
       to Codex
       1 file changed, 1 insertion(+)
 
-⏺ Bash(git -C /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm push
+⏺ Bash(git -C ~/Workspace/meta-organvm/organvm-corpvs-testamentvm push
       origin main 2>&1 | tail -3)
   ⎿  │  No config files with names ["lefthook" ".lefthook" ".config/lefthoo
-     k"] have been found in "/Users/4jp/Workspace/meta-organvm/organvm-corp
+     k"] have been found in "~/Workspace/meta-organvm/organvm-corp
      vs-testamentvm"
      … +2 lines (ctrl+o to expand)
 
@@ -740,9 +740,9 @@ will be lost?
 ⏺ Now persist memory to remote via chezmoi:
 
 ⏺ Bash(# Memory must be remote — chezmoi add both files
-      chezmoi add ~/.claude/projects/-Users-4jp-Workspace/memory/project_coverag
+      chezmoi add ~/.claude/projects/-Users-[user]-Workspace/memory/project_coverag
       e_matrix_grammar.md && chezmoi add ~/…)
-  ⎿  [master f3d6f05] Add .claude/projects/-Users-4jp-Workspace/memory/proj
+  ⎿  [master f3d6f05] Add .claude/projects/-Users-[user]-Workspace/memory/proj
      ect_coverage_matrix_grammar.md
       1 file changed, 18 insertions(+)
      … +15 lines (ctrl+o to expand)

@@ -89,7 +89,7 @@ review the activity monitor for any suspicious characters;
   Read 1 file (ctrl+o to expand)
 
 ⏺ Bash(ps aux | sort -rk3 | head -40)
-  ⎿  4jp              23922  23.3  5.6 458738576 932720   ??  Ss    5:38PM
+  ⎿  [user]              23922  23.3  5.6 458738576 932720   ??  Ss    5:38PM
        0:45.44 /System/Library/Frameworks/Virtualization.framework/Versions
      /A/XPCServices/com.apple.Virtualization.VirtualMachine.xpc/Contents/Ma
      … +258 lines (ctrl+o to expand)
@@ -99,7 +99,7 @@ review the activity monitor for any suspicious characters;
 
   Listed 2 directories (ctrl+o to expand)
 
-⏺ Bash(cat /Users/4jp/.claude/plugins/known_marketplaces.json 2>/dev/null |
+⏺ Bash(cat ~/.claude/plugins/known_marketplaces.json 2>/dev/null |
       python3 -m json.tool | head -30)
   ⎿  {
          "claude-plugins-official": {
@@ -129,9 +129,9 @@ review the activity monitor for any suspicious characters;
 
 ⏺ Exited plan mode
 
-⏺ Bash(git clone git@github.com:anthropics/claude-plugins-official.git
-      /Users/4jp/.claude/plugins/marketplaces/claude-plugins-official 2>&1)
-  ⎿  Cloning into '/Users/4jp/.claude/plugins/marketplaces/claude-plugins-o
+⏺ Bash(git clone [email redacted]:anthropics/claude-plugins-official.git
+      ~/.claude/plugins/marketplaces/claude-plugins-official 2>&1)
+  ⎿  Cloning into '~/.claude/plugins/marketplaces/claude-plugins-o
      fficial'...
 
   Listed 4 directories (ctrl+o to expand)
@@ -156,7 +156,7 @@ review the activity monitor for any suspicious characters;
   registry.
 
   Fix applied:
-  1. Cloned git@github.com:anthropics/claude-plugins-official.git →
+  1. Cloned [email redacted]:anthropics/claude-plugins-official.git →
   ~/.claude/plugins/marketplaces/claude-plugins-official/ — restores
   explanatory-output-style, context7, and serena
   2. Removed superpowers@claude-plugins-official from settings.json — it's no
@@ -282,7 +282,7 @@ be universally contextually applied;
 will be lost?                                                                   
   Searched for 1 pattern, read 2 files, listed 1 directory (ctrl+o to expand)
 
-⏺ Bash(cd /Users/4jp/domus-semper-palingenesis && git status --short 2>/dev/null
+⏺ Bash(cd ~/domus-semper-palingenesis && git status --short 2>/dev/null
        | head -20)
   ⎿  (No output)
 
@@ -448,14 +448,14 @@ will be lost?
   ⎿  Error: Exit code 128
      fatal: not a git repository (or any of the parent directories): .git
 
-⏺ Bash(git -C /Users/4jp/domus-semper-palingenesis show
+⏺ Bash(git -C ~/domus-semper-palingenesis show
       HEAD~1:private_dot_claude/settings.json.tmpl 2>&1)
   ⎿  Error: Exit code 128
      fatal: not a git repository (or any of the parent directories): .git
 
   Listed 2 directories (ctrl+o to expand)
 
-⏺ Bash(git -C /Users/4jp/Workspace/4444J99/domus-semper-palingenesis show
+⏺ Bash(git -C ~/Workspace/4444J99/domus-semper-palingenesis show
       HEAD~1:private_dot_claude/settings.json.tmpl 2>&1)
   ⎿  {
        "hooks": {
@@ -463,7 +463,7 @@ will be lost?
      … +25 lines (ctrl+o to expand)
 
 ⏺ The old template used {{ .chezmoi.homeDir }} — the plain file hardcoded
-  /Users/4jp/. I need to restore the template form:
+  ~/. I need to restore the template form:
 
   Read 1 file (ctrl+o to expand)
 
@@ -485,7 +485,7 @@ will be lost?
       10         ]
      … +60 lines (ctrl+o to expand)
 
-⏺ Bash(cd /Users/4jp/Workspace/4444J99/domus-semper-palingenesis && rm
+⏺ Bash(cd ~/Workspace/4444J99/domus-semper-palingenesis && rm
       private_dot_claude/settings.json && git add
       private_dot_claude/settings.json.tmpl private_dot_cl…)
   ⎿  [master 6244cb7] chore: restore settings.json as template with chezmoi
@@ -495,13 +495,13 @@ will be lost?
 
 ⏺ Bash(git push origin master 2>&1)
   ⎿  │  No config files with names ["lefthook" ".lefthook" ".config/lefthoo
-     k"] have been found in "/Users/4jp/Workspace/4444J99/domus-semper-pali
+     k"] have been found in "~/Workspace/4444J99/domus-semper-pali
      ngenesis"
      … +2 lines (ctrl+o to expand)
 
 ⏺ Now commit the IRF update:
 
-⏺ Bash(cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git
+⏺ Bash(cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git
       add INST-INDEX-RERUM-FACIENDARUM.md && git commit -m "$(cat <<'EOF'
       chore: IRF close-out…)
   ⎿  [main c8274c3] chore: IRF close-out S-2026-04-16 — DOM-029 resolved, D
@@ -510,7 +510,7 @@ will be lost?
 
 ⏺ Bash(git push origin main 2>&1)
   ⎿  │  No config files with names ["lefthook" ".lefthook" ".config/lefthoo
-     k"] have been found in "/Users/4jp/Workspace/meta-organvm/organvm-corp
+     k"] have been found in "~/Workspace/meta-organvm/organvm-corp
      vs-testamentvm"
      … +2 lines (ctrl+o to expand)
 
@@ -518,14 +518,14 @@ will be lost?
 
   Recalled 1 memory, wrote 2 memories (ctrl+o to expand)
 
-⏺ Bash(git -C /Users/4jp/Workspace/4444J99/domus-semper-palingenesis log
+⏺ Bash(git -C ~/Workspace/4444J99/domus-semper-palingenesis log
       --oneline -5 2>&1)
   ⎿  6244cb7 chore: restore settings.json as template with chezmoi.homeDir
      vars
      05f4bb0 Add .claude/settings.json Remove .claude/settings.json
      … +4 lines (ctrl+o to expand)
 
-⏺ Bash(git -C /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm log
+⏺ Bash(git -C ~/Workspace/meta-organvm/organvm-corpvs-testamentvm log
       --oneline -3 2>&1)
   ⎿  c8274c3 chore: IRF close-out S-2026-04-16 — DOM-029 resolved, DOM-031
      added
@@ -617,7 +617,7 @@ will be lost?
 
   - settings.json.tmpl → pushed to 4444J99/domus-semper-palingenesis (6244cb7)
   - IRF update → pushed to meta-organvm/organvm-corpvs-testamentvm (c8274c3)
-  - Memory files → at ~/.claude/projects/-Users-4jp/memory/ (local — session
+  - Memory files → at ~/.claude/projects/-Users-[user]/memory/ (local — session
   archival LaunchAgent syncs the broader .claude/projects/ corpus per DONE-373)
 
   Safe to close. Sisyphus confirms the stone is held.
@@ -672,7 +672,7 @@ will be lost?
 
 ⏺ Now executing all seven N/A vacuums simultaneously:
 
-⏺ Bash(cd /Users/4jp/Workspace/4444J99/domus-semper-palingenesis && gh issue
+⏺ Bash(cd ~/Workspace/4444J99/domus-semper-palingenesis && gh issue
       create \
         --title "IRF-DOM-031: ~/.claude/settings.json not tracked by chezmoi
       (persisten…)
@@ -698,8 +698,8 @@ will be lost?
      … +29 lines (ctrl+o to expand)
 
 ⏺ Bash(grep -n "ledger\|testament\|emit\|fossil"
-      /Users/4jp/Workspace/meta-organvm/organvm-engine/src/organvm/cli.py
-      2>/dev/null | head -15 || find /Users/4jp/Workspac…)
+      ~/Workspace/meta-organvm/organvm-engine/src/organvm/cli.py
+      2>/dev/null | head -15 || find ~/Workspac…)
   ⎿  (No output)
 
 ⏺ Bash(organvm ledger --help 2>&1 | head -20)
@@ -764,7 +764,7 @@ will be lost?
   Read 1 file (ctrl+o to expand)
 
 ⏺ Bash(organvm fossil witness record \
-        --repo-path /Users/4jp/Workspace/4444J99/domus-semper-palingenesis \…)
+        --repo-path ~/Workspace/4444J99/domus-semper-palingenesis \…)
   ⎿  Witnessed: 6244cb7f [SIGMA_E] chore: restore settings.json as template
       with chezmoi.homeDir vars
 
@@ -880,7 +880,7 @@ will be lost?
            ifications, project, repo, user, workflow, write:packages | Ag
            ent | S-domus-auth | None |
       847  | IRF-DOM-020 | P2 | **`domus-ingestion-refresh` committed but
-            unverified** — script and LaunchAgent (`com.4jp.ingestion-ref
+            unverified** — script and LaunchAgent (`com.[user].ingestion-ref
            resh.plist.tmpl`) added in commit `eeb35df` but not yet: (a) d
            eployed via `chezmoi apply`, (b) tested, (c) verified LaunchAg
            ent loads. Pre-existing from prior session, committed alongsid
@@ -895,7 +895,7 @@ will be lost?
      │  No config files with names ["lefthook" ".lefthook" ".config/lefthoo
      … +4 lines (ctrl+o to expand)
 
-⏺ Bash(cd /Users/4jp/Workspace/meta-organvm/organvm-corpvs-testamentvm && git
+⏺ Bash(cd ~/Workspace/meta-organvm/organvm-corpvs-testamentvm && git
       add INST-INDEX-RERUM-FACIENDARUM.md docs/operations/concordance.md && git
       commit -m "$(ca…)
   ⎿  [main 2582886] chore: N/A vacuum resolution S-2026-04-16

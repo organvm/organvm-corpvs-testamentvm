@@ -424,7 +424,7 @@ Premium publications that pay professional rates for exactly the kind of essays 
 
 ### 6.1 — Noema Magazine
 - **Rate:** $1/word (~$3K per 3K-word essay)
-- **Contact:** pitches@noemamag.com
+- **Contact:** [email redacted]
 - **Topic fit:** Technology, governance, AI, culture — direct match
 - **Pitch angle:** "I built a 100-repository creative system orchestrated by AI — here's what it reveals about the future of solo creative production."
 - **Benefits cliff:** Earned income (counts toward SNAP $1,580/mo threshold). One per quarter = safe.

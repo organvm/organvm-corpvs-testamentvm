@@ -244,7 +244,7 @@ If this document is moved, renamed, or deleted, every dependent task fails its p
 - Section 10 is enforced by: `daily-pr-promote-and-triage`, `daily-pr-execute-by-tier`, `daily-worktree-triage-and-cleanup`, `daily-push-feature-branches` (all at `~/.claude/scheduled-tasks/<name>/SKILL.md`).
 - Per-tier scheduling cadence reviewed by: `weekly-irf-aging`.
 - Audit-log review embedded in: `weekly-irf-aging`'s "shipped-but-open" category (a noisy audit log signals contract drift).
-- Worktree-housekeeping context: `~/.claude/projects/-Users-4jp/memory/project_session_2026_05_23_worktree_housekeeping_enforcement_disposition.md` (the worktree problem that motivated `daily-worktree-triage-and-cleanup`).
+- Worktree-housekeeping context: `~/.claude/projects/-Users-[user]/memory/project_session_2026_05_23_worktree_housekeeping_enforcement_disposition.md` (the worktree problem that motivated `daily-worktree-triage-and-cleanup`).
 
 ---
 

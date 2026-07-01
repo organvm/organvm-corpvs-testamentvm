@@ -45,7 +45,7 @@
 | `private_dot_claude/settings.json.tmpl` | 86 |
 | `data/prompt-registry/prompt-atoms.json` | 68 |
 | `src/data/hub.config.ts` | 19 |
-| `/Users/4jp/CLAUDE.md` | 17 |
+| `~/CLAUDE.md` | 17 |
 | `scripts/refresh_skill_collections.py` | 11 |
 | `src/data/decisions.ts` | 10 |
 | `scripts/run.py` | 10 |
@@ -60,7 +60,7 @@
 | `docs/evaluation/self-review-2026-05-05/stale-plans-and-orphan-commits.md` | 5 |
 | `private_dot_claude/hooks/executable_block-chezmoi-rebase.sh.tmpl` | 5 |
 | `CLAUDE.md` | 5 |
-| `/Users/4jp/seed.yaml` | 3 |
+| `~/seed.yaml` | 3 |
 
 ## Most-Linked Tasks
 
